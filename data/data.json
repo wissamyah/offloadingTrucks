@@ -6,15 +6,23 @@
       "bags": 100,
       "moistureLevel": 21,
       "truckNumber": "HKY 446 XJ",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-09-22T17:47:05.146Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-09-22T17:47:52.567Z",
+          "details": {
+            "waybillNumber": "5567"
+          }
         }
       ],
       "createdAt": "2025-09-22T17:47:05.146Z",
-      "updatedAt": "2025-09-22T17:47:05.146Z"
+      "updatedAt": "2025-09-22T17:47:52.568Z",
+      "waybillNumber": "5567"
     },
     {
       "id": "2c89cda6-75b6-471c-b258-3473911a9dcc",
@@ -65,5 +73,5 @@
       "updatedAt": "2025-09-22T17:47:05.146Z"
     }
   ],
-  "lastUpdated": "2025-09-22T17:47:05.146Z"
+  "lastUpdated": "2025-09-22T17:47:52.568Z"
 }
