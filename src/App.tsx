@@ -4,14 +4,13 @@ import { Truck, TruckStatus } from './types/truck';
 import { MessageInput } from './components/MessageInput';
 import { TruckTable } from './components/TruckTable';
 import { Pagination } from './components/Pagination';
-import { AuthSettings } from './components/AuthSettings';
 import { ScaleInModal, OffloadModal, EditTruckModal } from './components/ActionModals';
 import { useGitHubData } from './hooks/useGitHubData';
 import { groupByDate, formatDate } from './utils/dateUtils';
 import { githubService } from './services/githubService';
 import { dataSyncService } from './services/dataSync';
 import { Truck as TruckIcon, Loader2 } from 'lucide-react';
-import { SyncStatusIndicator } from './components/SyncStatus';
+import { SyncDropdown } from './components/SyncDropdown';
 import toast from 'react-hot-toast';
 
 function App() {
@@ -191,7 +190,6 @@ function App() {
     <div className="min-h-screen bg-gray-900">
       <Toaster position="top-right" />
 
-      <AuthSettings onConfigured={reload} />
 
       {/* Header */}
       <header className="bg-gray-800 shadow-xl border-b border-gray-700">
@@ -205,7 +203,7 @@ function App() {
               </div>
             </div>
             <div className="flex items-center gap-3">
-              <SyncStatusIndicator />
+              <SyncDropdown onConfigured={reload} />
               {syncing && (
                 <div className="flex items-center gap-2 text-sm text-gray-400">
                   <Loader2 className="h-4 w-4 animate-spin" />
