@@ -1,39 +1,4 @@
 {
-  "trucks": [
-    {
-      "id": "29d4c1e9-971e-4dcd-8767-ea729fe37a33",
-      "supplierName": "Alh Danasabe",
-      "bags": 372,
-      "moistureLevel": 16,
-      "truckNumber": "KTG 232 ZZ",
-      "status": "offloaded",
-      "statusHistory": [
-        {
-          "status": "pending",
-          "timestamp": "2025-09-22T12:46:21.326Z"
-        },
-        {
-          "status": "scaled_in",
-          "timestamp": "2025-09-22T13:21:44.707Z",
-          "details": {
-            "waybillNumber": "4545"
-          }
-        },
-        {
-          "status": "offloaded",
-          "timestamp": "2025-09-22T13:22:00.112Z",
-          "details": {
-            "netWeight": 24525,
-            "deduction": 24524
-          }
-        }
-      ],
-      "createdAt": "2025-09-22T12:46:21.326Z",
-      "updatedAt": "2025-09-22T13:22:00.112Z",
-      "waybillNumber": "4545",
-      "netWeight": 24525,
-      "deduction": 24524
-    }
-  ],
-  "lastUpdated": "2025-09-22T13:22:08.211Z"
+  "trucks": [],
+  "lastUpdated": "2025-09-22T13:27:49.058Z"
 }
