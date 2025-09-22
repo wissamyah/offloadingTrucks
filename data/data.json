@@ -22,16 +22,24 @@
       "bags": 587,
       "moistureLevel": 14,
       "truckNumber": "FKY 693 XA",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-09-22T11:11:01.762Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-09-22T11:25:27.443Z",
+          "details": {
+            "waybillNumber": "4753453"
+          }
         }
       ],
       "createdAt": "2025-09-22T11:11:01.762Z",
-      "updatedAt": "2025-09-22T11:11:01.762Z"
+      "updatedAt": "2025-09-22T11:25:27.444Z",
+      "waybillNumber": "4753453"
     }
   ],
-  "lastUpdated": "2025-09-22T11:11:01.762Z"
+  "lastUpdated": "2025-09-22T11:25:27.444Z"
 }
