@@ -1,6 +1,6 @@
 import React from 'react';
 import { ChevronLeft, ChevronRight, Calendar } from 'lucide-react';
-import { format, parseISO, addHours } from 'date-fns';
+import { format, parseISO, startOfDay, isSameDay } from 'date-fns';
 
 interface PaginationProps {
   dates: string[];
@@ -25,23 +25,19 @@ export const Pagination: React.FC<PaginationProps> = ({ dates, currentDate, onDa
 
   const formatDateDisplay = (dateKey: string) => {
     const date = parseISO(dateKey);
-    const localDate = addHours(date, 2); // UTC+2
-    const today = new Date();
-    const todayKey = format(addHours(today, 2), 'yyyy-MM-dd');
-
-    if (dateKey === todayKey) {
-      return 'Today';
-    }
-
+    const today = startOfDay(new Date());
     const yesterday = new Date(today);
     yesterday.setDate(yesterday.getDate() - 1);
-    const yesterdayKey = format(addHours(yesterday, 2), 'yyyy-MM-dd');
 
-    if (dateKey === yesterdayKey) {
-      return 'Yesterday';
+    if (isSameDay(date, today)) {
+      return `Today, ${format(date, 'EEEE, MMMM d, yyyy')}`;
     }
 
-    return format(localDate, 'dd MMMM yyyy');
+    if (isSameDay(date, yesterday)) {
+      return `Yesterday, ${format(date, 'EEEE, MMMM d, yyyy')}`;
+    }
+
+    return format(date, 'EEEE, MMMM d, yyyy');
   };
 
   if (dates.length === 0) {

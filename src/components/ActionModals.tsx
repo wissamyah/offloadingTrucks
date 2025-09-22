@@ -11,11 +11,25 @@ interface ModalProps {
 }
 
 const Modal: React.FC<ModalProps> = ({ isOpen, onClose, title, children }) => {
+  const [isAnimating, setIsAnimating] = useState(false);
+  const [shouldRender, setShouldRender] = useState(false);
+
   useEffect(() => {
     if (isOpen) {
+      setShouldRender(true);
       document.body.style.overflow = 'hidden';
+      requestAnimationFrame(() => {
+        requestAnimationFrame(() => {
+          setIsAnimating(true);
+        });
+      });
     } else {
+      setIsAnimating(false);
       document.body.style.overflow = 'unset';
+      const timer = setTimeout(() => {
+        setShouldRender(false);
+      }, 300);
+      return () => clearTimeout(timer);
     }
 
     return () => {
@@ -23,11 +37,23 @@ const Modal: React.FC<ModalProps> = ({ isOpen, onClose, title, children }) => {
     };
   }, [isOpen]);
 
-  if (!isOpen) return null;
+  if (!shouldRender) return null;
 
   return (
-    <div className="fixed inset-0 bg-black bg-opacity-70 flex items-center justify-center z-50">
-      <div className="bg-gray-800 rounded-lg p-6 w-full max-w-md mx-4 transform transition-all border border-gray-700">
+    <div
+      className={`fixed inset-0 flex items-center justify-center z-50 transition-opacity duration-300 ease-in-out ${
+        isAnimating ? 'bg-black bg-opacity-70' : 'bg-black bg-opacity-0'
+      }`}
+      onClick={onClose}
+    >
+      <div
+        className={`bg-gray-800 rounded-lg p-6 w-full max-w-md mx-4 transform border border-gray-700 transition-all duration-300 ease-in-out ${
+          isAnimating
+            ? 'opacity-100 scale-100 translate-y-0'
+            : 'opacity-0 scale-95 translate-y-4'
+        }`}
+        onClick={(e) => e.stopPropagation()}
+      >
         <div className="flex justify-between items-center mb-4">
           <h3 className="text-lg font-semibold text-gray-100">{title}</h3>
           <button

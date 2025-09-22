@@ -55,3 +55,49 @@
     @apply bg-gray-500;
   }
 }
+
+/* Modal Animation Classes */
+@layer components {
+  /* Backdrop fade animation */
+  .modal-backdrop {
+    @apply fixed inset-0 bg-black transition-opacity duration-300 ease-in-out;
+  }
+
+  .modal-backdrop-enter {
+    @apply opacity-0;
+  }
+
+  .modal-backdrop-enter-active {
+    @apply opacity-70;
+  }
+
+  .modal-backdrop-exit {
+    @apply opacity-70;
+  }
+
+  .modal-backdrop-exit-active {
+    @apply opacity-0;
+  }
+
+  /* Modal content slide and fade animation */
+  .modal-content {
+    @apply bg-gray-800 rounded-lg p-6 w-full max-w-md mx-4 transform border border-gray-700
+           transition-all duration-300 ease-in-out;
+  }
+
+  .modal-content-enter {
+    @apply opacity-0 scale-95 translate-y-4;
+  }
+
+  .modal-content-enter-active {
+    @apply opacity-100 scale-100 translate-y-0;
+  }
+
+  .modal-content-exit {
+    @apply opacity-100 scale-100 translate-y-0;
+  }
+
+  .modal-content-exit-active {
+    @apply opacity-0 scale-95 translate-y-4;
+  }
+}

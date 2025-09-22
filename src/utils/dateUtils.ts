@@ -1,46 +1,38 @@
-import { format, parseISO, addHours, startOfDay, isAfter, isBefore, isEqual } from 'date-fns';
-
-// UTC+2 timezone offset
-const TIMEZONE_OFFSET = 2;
+import { format, startOfDay, isBefore } from 'date-fns';
 
 export function getLocalTime(): Date {
-  const now = new Date();
-  return addHours(now, TIMEZONE_OFFSET);
+  return new Date();
 }
 
 export function formatDateTime(dateString: string): string {
-  const date = parseISO(dateString);
-  const localDate = addHours(date, TIMEZONE_OFFSET);
-  return format(localDate, 'dd/MM/yyyy HH:mm');
+  const date = new Date(dateString);
+  return format(date, 'dd/MM/yyyy HH:mm');
 }
 
 export function formatDate(dateString: string): string {
-  const date = parseISO(dateString);
-  const localDate = addHours(date, TIMEZONE_OFFSET);
-  return format(localDate, 'dd/MM/yyyy');
+  const date = new Date(dateString);
+  return format(date, 'dd/MM/yyyy');
 }
 
 export function formatTime(dateString: string): string {
-  const date = parseISO(dateString);
-  const localDate = addHours(date, TIMEZONE_OFFSET);
-  return format(localDate, 'HH:mm');
+  const date = new Date(dateString);
+  return format(date, 'HH:mm');
 }
 
 export function getDateKey(dateString: string): string {
-  const date = parseISO(dateString);
-  const localDate = addHours(date, TIMEZONE_OFFSET);
-  return format(startOfDay(localDate), 'yyyy-MM-dd');
+  const date = new Date(dateString);
+  return format(startOfDay(date), 'yyyy-MM-dd');
 }
 
 export function isOlderThan72Hours(dateString: string): boolean {
-  const date = parseISO(dateString);
+  const date = new Date(dateString);
   const now = new Date();
-  const cutoffDate = addHours(now, -72);
+  const cutoffDate = new Date(now.getTime() - (72 * 60 * 60 * 1000));
   return isBefore(date, cutoffDate);
 }
 
 export function getTimeDifference(dateString: string): string {
-  const date = parseISO(dateString);
+  const date = new Date(dateString);
   const now = new Date();
   const diffMs = now.getTime() - date.getTime();
 

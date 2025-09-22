@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { AlertTriangle, Info, XCircle } from 'lucide-react';
 import { LoadingButton } from './LoadingButton';
 
@@ -25,7 +25,27 @@ export const ConfirmationModal: React.FC<ConfirmationModalProps> = ({
   type = 'warning',
   loading = false,
 }) => {
-  if (!isOpen) return null;
+  const [isAnimating, setIsAnimating] = useState(false);
+  const [shouldRender, setShouldRender] = useState(false);
+
+  useEffect(() => {
+    if (isOpen) {
+      setShouldRender(true);
+      requestAnimationFrame(() => {
+        requestAnimationFrame(() => {
+          setIsAnimating(true);
+        });
+      });
+    } else {
+      setIsAnimating(false);
+      const timer = setTimeout(() => {
+        setShouldRender(false);
+      }, 300);
+      return () => clearTimeout(timer);
+    }
+  }, [isOpen]);
+
+  if (!shouldRender) return null;
 
   const icons = {
     warning: <AlertTriangle className="h-6 w-6 text-yellow-500" />,
@@ -47,8 +67,20 @@ export const ConfirmationModal: React.FC<ConfirmationModalProps> = ({
   };
 
   return (
-    <div className="fixed inset-0 bg-black bg-opacity-70 flex items-center justify-center z-50">
-      <div className="bg-gray-800 rounded-lg p-6 w-full max-w-md mx-4 transform transition-all border border-gray-700">
+    <div
+      className={`fixed inset-0 flex items-center justify-center z-50 transition-opacity duration-300 ease-in-out ${
+        isAnimating ? 'bg-black bg-opacity-70' : 'bg-black bg-opacity-0'
+      }`}
+      onClick={onClose}
+    >
+      <div
+        className={`bg-gray-800 rounded-lg p-6 w-full max-w-md mx-4 transform border border-gray-700 transition-all duration-300 ease-in-out ${
+          isAnimating
+            ? 'opacity-100 scale-100 translate-y-0'
+            : 'opacity-0 scale-95 translate-y-4'
+        }`}
+        onClick={(e) => e.stopPropagation()}
+      >
         <div className="flex items-start gap-4">
           <div className="flex-shrink-0 pt-0.5">
             {icons[type]}
