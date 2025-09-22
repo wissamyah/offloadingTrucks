@@ -1,4 +1,69 @@
 {
-  "trucks": [],
-  "lastUpdated": "2025-09-22T17:40:37.998Z"
+  "trucks": [
+    {
+      "id": "c79e64b1-d84c-4568-a783-22454fe242df",
+      "supplierName": "Salisu Idris kura",
+      "bags": 100,
+      "moistureLevel": 21,
+      "truckNumber": "HKY 446 XJ",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-09-22T17:47:05.146Z"
+        }
+      ],
+      "createdAt": "2025-09-22T17:47:05.146Z",
+      "updatedAt": "2025-09-22T17:47:05.146Z"
+    },
+    {
+      "id": "2c89cda6-75b6-471c-b258-3473911a9dcc",
+      "supplierName": "Salisu Idris kura",
+      "bags": 101,
+      "moistureLevel": 20,
+      "truckNumber": "KRA 355 XM",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-09-22T17:47:05.146Z"
+        }
+      ],
+      "createdAt": "2025-09-22T17:47:05.146Z",
+      "updatedAt": "2025-09-22T17:47:05.146Z"
+    },
+    {
+      "id": "9ab68164-799e-4127-ad6d-cf647b379a62",
+      "supplierName": "Salisu Idris kura",
+      "bags": 101,
+      "moistureLevel": 20,
+      "truckNumber": "KMC 714 XB",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-09-22T17:47:05.146Z"
+        }
+      ],
+      "createdAt": "2025-09-22T17:47:05.146Z",
+      "updatedAt": "2025-09-22T17:47:05.146Z"
+    },
+    {
+      "id": "bd0624eb-d2c0-4fa3-b49a-9c2970e7db4e",
+      "supplierName": "Samuel chamblatda",
+      "bags": 210,
+      "moistureLevel": 21,
+      "truckNumber": "KTG 578YG",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-09-22T17:47:05.146Z"
+        }
+      ],
+      "createdAt": "2025-09-22T17:47:05.146Z",
+      "updatedAt": "2025-09-22T17:47:05.146Z"
+    }
+  ],
+  "lastUpdated": "2025-09-22T17:47:05.146Z"
 }
