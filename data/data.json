@@ -1,4 +1,37 @@
 {
-  "trucks": [],
-  "lastUpdated": "2025-09-22T11:38:16.436Z"
+  "trucks": [
+    {
+      "id": "5518be5e-687e-4d95-b682-1f3e033015e5",
+      "supplierName": "Dan Buhu",
+      "bags": 550,
+      "moistureLevel": 13,
+      "truckNumber": "FKY 856 XM",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-09-22T11:49:14.066Z"
+        }
+      ],
+      "createdAt": "2025-09-22T11:49:14.066Z",
+      "updatedAt": "2025-09-22T11:49:14.066Z"
+    },
+    {
+      "id": "5c5e537c-ec10-4725-8162-32ccbe54c8e3",
+      "supplierName": "Dan Buhu",
+      "bags": 587,
+      "moistureLevel": 14,
+      "truckNumber": "FKY 693 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-09-22T11:49:14.066Z"
+        }
+      ],
+      "createdAt": "2025-09-22T11:49:14.066Z",
+      "updatedAt": "2025-09-22T11:49:14.066Z"
+    }
+  ],
+  "lastUpdated": "2025-09-22T11:49:14.066Z"
 }
