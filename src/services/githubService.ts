@@ -55,8 +55,11 @@ export class GitHubService {
       throw new Error('GitHub service not initialized. Please configure your GitHub settings.');
     }
 
-    let retries = 3;
+    let retries = 5; // Increase retries
     let lastError: any;
+
+    // Check if this is a reset operation
+    const isReset = message.toLowerCase().includes('reset');
 
     while (retries > 0) {
       try {
@@ -73,8 +76,8 @@ export class GitHubService {
           if ('sha' in currentFile.data) {
             sha = currentFile.data.sha;
 
-            // If file exists, merge with existing data to prevent data loss
-            if ('content' in currentFile.data) {
+            // Only merge if not resetting and file exists
+            if ('content' in currentFile.data && !isReset && data.trucks.length > 0) {
               try {
                 const existingContent = atob(currentFile.data.content);
                 const existingData = JSON.parse(existingContent) as TruckData;
@@ -102,6 +105,7 @@ export class GitHubService {
         } catch (error: any) {
           // File doesn't exist yet, that's okay
           if (error.status !== 404) {
+            console.error('Error getting current file:', error);
             throw error;
           }
         }
@@ -126,11 +130,12 @@ export class GitHubService {
 
         if (error.status === 409) {
           // Conflict - retry with fresh SHA
-          console.warn(`GitHub conflict, retrying... (${retries} attempts left)`);
+          console.warn(`GitHub conflict, retrying... (${retries - 1} attempts left)`);
           retries--;
 
-          // Small delay before retry
-          await new Promise(resolve => setTimeout(resolve, 500));
+          // Progressive delay before retry to give GitHub time to sync
+          const delay = (6 - retries) * 500; // 500ms, 1000ms, 1500ms, 2000ms, 2500ms
+          await new Promise(resolve => setTimeout(resolve, delay));
         } else {
           // Other error - don't retry
           console.error('Failed to save data to GitHub:', error);
