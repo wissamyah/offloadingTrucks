@@ -6,15 +6,23 @@
       "bags": 87,
       "moistureLevel": 13,
       "truckNumber": "GRK 316 XA",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-09-22T01:11:25.852Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-09-22T01:12:22.436Z",
+          "details": {
+            "waybillNumber": "24524"
+          }
         }
       ],
       "createdAt": "2025-09-22T01:11:25.852Z",
-      "updatedAt": "2025-09-22T01:11:25.852Z"
+      "updatedAt": "2025-09-22T01:12:22.436Z",
+      "waybillNumber": "24524"
     },
     {
       "id": "814ebe8f-3ca2-4cb0-ab49-c1eb7ecc0a11",
@@ -65,5 +73,5 @@
       "updatedAt": "2025-09-22T01:12:13.217Z"
     }
   ],
-  "lastUpdated": "2025-09-22T01:12:13.217Z"
+  "lastUpdated": "2025-09-22T01:12:22.436Z"
 }
