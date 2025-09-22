@@ -48,13 +48,18 @@ export function getTimeDifference(dateString: string): string {
 export function groupByDate<T extends { createdAt: string }>(items: T[]): Map<string, T[]> {
   const grouped = new Map<string, T[]>();
 
-  items.forEach(item => {
+  // Sort items by createdAt (oldest first - FIFO)
+  const sortedItems = [...items].sort((a, b) =>
+    new Date(a.createdAt).getTime() - new Date(b.createdAt).getTime()
+  );
+
+  sortedItems.forEach(item => {
     const dateKey = getDateKey(item.createdAt);
     const existing = grouped.get(dateKey) || [];
     grouped.set(dateKey, [...existing, item]);
   });
 
-  // Sort dates in descending order
+  // Sort dates in descending order (newest date first)
   const sortedMap = new Map(
     Array.from(grouped.entries())
       .sort(([a], [b]) => b.localeCompare(a))

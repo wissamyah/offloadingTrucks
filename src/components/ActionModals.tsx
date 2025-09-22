@@ -47,10 +47,10 @@ const Modal: React.FC<ModalProps> = ({ isOpen, onClose, title, children }) => {
       onClick={onClose}
     >
       <div
-        className={`bg-gray-800 rounded-lg p-6 w-full max-w-md mx-4 transform border border-gray-700 transition-all duration-300 ease-in-out ${
+        className={`bg-gray-800 rounded-lg p-6 w-full max-w-md mx-4 transform border border-gray-700 transition-all duration-300 ease-out ${
           isAnimating
-            ? 'opacity-100 scale-100 translate-y-0'
-            : 'opacity-0 scale-95 translate-y-4'
+            ? 'opacity-100 scale-100'
+            : 'opacity-0 scale-95'
         }`}
         onClick={(e) => e.stopPropagation()}
       >

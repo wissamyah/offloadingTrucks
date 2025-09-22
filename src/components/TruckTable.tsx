@@ -8,7 +8,8 @@ import {
   CheckCircle,
   AlertCircle,
   Clock,
-  Droplets
+  Droplets,
+  Copy
 } from 'lucide-react';
 import { Truck, TruckStatus } from '../types/truck';
 import { formatDateTime, formatTime } from '../utils/dateUtils';
@@ -69,6 +70,14 @@ export const TruckTable: React.FC<TruckTableProps> = ({
   const [deletingTrucks, setDeletingTrucks] = useState<Set<string>>(new Set());
   const [deleteConfirmTruck, setDeleteConfirmTruck] = useState<string | null>(null);
   const [rejectConfirmTruck, setRejectConfirmTruck] = useState<string | null>(null);
+  const [copiedTruck, setCopiedTruck] = useState<string | null>(null);
+
+  const copyTruckNumber = (truck: Truck) => {
+    navigator.clipboard.writeText(truck.truckNumber).then(() => {
+      setCopiedTruck(truck.id);
+      setTimeout(() => setCopiedTruck(null), 1500);
+    });
+  };
 
   const handleDelete = async (truckId: string) => {
     setDeletingTrucks(prev => new Set(prev).add(truckId));
@@ -107,9 +116,154 @@ export const TruckTable: React.FC<TruckTableProps> = ({
   }
 
   return (
-    <div className="bg-gray-800 rounded-lg shadow-xl border border-gray-700 overflow-hidden">
-      <div className="overflow-x-auto">
-        <table className="min-w-full divide-y divide-gray-700">
+    <div>
+      {/* Mobile Card View */}
+      <div className="block md:hidden space-y-4">
+        {trucks.map((truck) => (
+          <div
+            key={truck.id}
+            className="bg-gray-800 rounded-lg shadow-xl border border-gray-700 p-4"
+          >
+            <div className="flex justify-between items-start mb-3">
+              <div className="flex-1">
+                <div className="text-lg font-semibold text-gray-100">{truck.supplierName}</div>
+                <div
+                  className="text-sm font-mono text-gray-400 cursor-pointer hover:text-gray-200 inline-block"
+                  onClick={() => copyTruckNumber(truck)}
+                >
+                  {copiedTruck === truck.id ? (
+                    <span className="text-green-400 flex items-center gap-1">
+                      <CheckCircle className="h-3 w-3" />
+                      Copied!
+                    </span>
+                  ) : (
+                    truck.truckNumber
+                  )}
+                </div>
+              </div>
+              <div className="text-sm text-gray-400">{getLatestStatusTime(truck)}</div>
+            </div>
+
+            <div className="grid grid-cols-2 gap-3 mb-3">
+              <div>
+                <span className="text-xs text-gray-500">Bags</span>
+                <div className="text-sm text-gray-200">{truck.bags}</div>
+              </div>
+              <div>
+                <span className="text-xs text-gray-500 flex items-center gap-1">
+                  <Droplets className="h-3 w-3" />
+                  Moisture
+                </span>
+                <div className="text-sm text-gray-200">{truck.moistureLevel}%</div>
+              </div>
+              <div>
+                <span className="text-xs text-gray-500">Waybill</span>
+                <div className="text-sm text-gray-200">{truck.waybillNumber || '-'}</div>
+              </div>
+              <div>
+                <span className="text-xs text-gray-500">Net Weight</span>
+                <div className="text-sm text-gray-200">
+                  {truck.netWeight ? `${truck.netWeight} kg` : '-'}
+                </div>
+              </div>
+              {truck.deduction && (
+                <div className="col-span-2">
+                  <span className="text-xs text-gray-500">Deduction</span>
+                  <div className="text-sm text-gray-200">{truck.deduction} kg</div>
+                </div>
+              )}
+            </div>
+
+            <div className="mb-3">
+              <StatusBadge status={truck.status} />
+            </div>
+
+            <div className="flex flex-wrap gap-2">
+              {truck.status === 'pending' && (
+                <>
+                  <LoadingButton
+                    onClick={() => onScaleIn(truck.id)}
+                    loading={loadingStates[`scale-${truck.id}`]}
+                    variant="primary"
+                    size="sm"
+                    icon={<Scale className="h-4 w-4" />}
+                  >
+                    Scale In
+                  </LoadingButton>
+                  <LoadingButton
+                    onClick={() => setRejectConfirmTruck(truck.id)}
+                    loading={loadingStates[`reject-${truck.id}`]}
+                    variant="danger"
+                    size="sm"
+                  >
+                    Reject
+                  </LoadingButton>
+                </>
+              )}
+
+              {truck.status === 'scaled_in' && (
+                <>
+                  <LoadingButton
+                    onClick={() => onOffload(truck.id)}
+                    loading={loadingStates[`offload-${truck.id}`]}
+                    variant="success"
+                    size="sm"
+                    icon={<Package className="h-4 w-4" />}
+                  >
+                    Offloaded
+                  </LoadingButton>
+                  <LoadingButton
+                    onClick={() => setRejectConfirmTruck(truck.id)}
+                    loading={loadingStates[`reject-${truck.id}`]}
+                    variant="danger"
+                    size="sm"
+                  >
+                    Reject
+                  </LoadingButton>
+                </>
+              )}
+
+              {truck.status === 'rejected' && (
+                <LoadingButton
+                  onClick={() => onScaleIn(truck.id)}
+                  loading={loadingStates[`scale-${truck.id}`]}
+                  variant="primary"
+                  size="sm"
+                  icon={<Scale className="h-4 w-4" />}
+                >
+                  Scale In
+                </LoadingButton>
+              )}
+
+              <button
+                onClick={() => onEdit(truck)}
+                className="text-blue-400 hover:text-blue-300 transition-colors p-2"
+                title="Edit"
+              >
+                <Edit className="h-4 w-4" />
+              </button>
+
+              <button
+                onClick={() => setDeleteConfirmTruck(truck.id)}
+                className="text-red-400 hover:text-red-300 transition-colors p-2"
+                disabled={deletingTrucks.has(truck.id)}
+                title="Delete"
+              >
+                {deletingTrucks.has(truck.id) ? (
+                  <div className="animate-spin h-4 w-4 border-2 border-red-400 border-t-transparent rounded-full" />
+                ) : (
+                  <Trash2 className="h-4 w-4" />
+                )}
+              </button>
+            </div>
+          </div>
+        ))}
+      </div>
+
+      {/* Desktop Table View */}
+      <div className="hidden md:block bg-gray-800 rounded-lg shadow-xl border border-gray-700 overflow-hidden">
+        <div className="overflow-x-auto">
+          <table className="min-w-full divide-y divide-gray-700">
           <thead className="bg-gray-750">
             <tr>
               <th className="px-6 py-3 text-left text-xs font-medium text-gray-400 uppercase tracking-wider">
@@ -157,7 +311,19 @@ export const TruckTable: React.FC<TruckTableProps> = ({
                   <div className="text-sm font-medium text-gray-100">{truck.supplierName}</div>
                 </td>
                 <td className="px-6 py-4 whitespace-nowrap">
-                  <div className="text-sm font-mono text-gray-200">{truck.truckNumber}</div>
+                  <div
+                    className="text-sm font-mono text-gray-200 cursor-pointer hover:text-gray-100 inline-block"
+                    onClick={() => copyTruckNumber(truck)}
+                  >
+                    {copiedTruck === truck.id ? (
+                      <span className="text-green-400 flex items-center gap-1">
+                        <CheckCircle className="h-4 w-4" />
+                        Copied!
+                      </span>
+                    ) : (
+                      truck.truckNumber
+                    )}
+                  </div>
                 </td>
                 <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-200">
                   {truck.bags}
@@ -262,38 +428,39 @@ export const TruckTable: React.FC<TruckTableProps> = ({
           </tbody>
         </table>
       </div>
-
-      <ConfirmationModal
-        isOpen={deleteConfirmTruck !== null}
-        onClose={() => setDeleteConfirmTruck(null)}
-        onConfirm={() => {
-          if (deleteConfirmTruck) {
-            return handleDelete(deleteConfirmTruck);
-          }
-        }}
-        title="Delete Truck Entry"
-        message="Are you sure you want to delete this truck entry? This action cannot be undone."
-        confirmText="Delete"
-        cancelText="Cancel"
-        type="danger"
-        loading={deleteConfirmTruck ? deletingTrucks.has(deleteConfirmTruck) : false}
-      />
-
-      <ConfirmationModal
-        isOpen={rejectConfirmTruck !== null}
-        onClose={() => setRejectConfirmTruck(null)}
-        onConfirm={() => {
-          if (rejectConfirmTruck) {
-            return handleReject(rejectConfirmTruck);
-          }
-        }}
-        title="Reject Truck"
-        message="Are you sure you want to reject this truck? You can scale it in later if needed."
-        confirmText="Reject"
-        cancelText="Cancel"
-        type="warning"
-        loading={rejectConfirmTruck ? loadingStates[`reject-${rejectConfirmTruck}`] : false}
-      />
     </div>
+
+    <ConfirmationModal
+      isOpen={deleteConfirmTruck !== null}
+      onClose={() => setDeleteConfirmTruck(null)}
+      onConfirm={() => {
+        if (deleteConfirmTruck) {
+          return handleDelete(deleteConfirmTruck);
+        }
+      }}
+      title="Delete Truck Entry"
+      message="Are you sure you want to delete this truck entry? This action cannot be undone."
+      confirmText="Delete"
+      cancelText="Cancel"
+      type="danger"
+      loading={deleteConfirmTruck ? deletingTrucks.has(deleteConfirmTruck) : false}
+    />
+
+    <ConfirmationModal
+      isOpen={rejectConfirmTruck !== null}
+      onClose={() => setRejectConfirmTruck(null)}
+      onConfirm={() => {
+        if (rejectConfirmTruck) {
+          return handleReject(rejectConfirmTruck);
+        }
+      }}
+      title="Reject Truck"
+      message="Are you sure you want to reject this truck? You can scale it in later if needed."
+      confirmText="Reject"
+      cancelText="Cancel"
+      type="warning"
+      loading={rejectConfirmTruck ? loadingStates[`reject-${rejectConfirmTruck}`] : false}
+    />
+  </div>
   );
 };
