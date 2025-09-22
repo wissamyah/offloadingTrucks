@@ -278,7 +278,9 @@ class SyncQueueManager {
     this.listeners.add(listener);
     // Immediately notify with current status
     listener(this.getStatus());
-    return () => this.listeners.delete(listener);
+    return () => {
+      this.listeners.delete(listener);
+    };
   }
 
   private notifyListeners() {
