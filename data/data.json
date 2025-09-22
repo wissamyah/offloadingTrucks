@@ -1,4 +1,21 @@
 {
-  "trucks": [],
-  "lastUpdated": "2025-09-22T12:39:34.903Z"
+  "trucks": [
+    {
+      "id": "29d4c1e9-971e-4dcd-8767-ea729fe37a33",
+      "supplierName": "Alh Danasabe",
+      "bags": 372,
+      "moistureLevel": 16,
+      "truckNumber": "KTG 232 ZZ",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-09-22T12:46:21.326Z"
+        }
+      ],
+      "createdAt": "2025-09-22T12:46:21.326Z",
+      "updatedAt": "2025-09-22T12:46:21.326Z"
+    }
+  ],
+  "lastUpdated": "2025-09-22T12:46:21.326Z"
 }
