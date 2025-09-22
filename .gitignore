@@ -35,3 +35,6 @@ lerna-debug.log*
 
 # Testing
 coverage/
+
+# Data files (managed through app interface)
+data/data.json

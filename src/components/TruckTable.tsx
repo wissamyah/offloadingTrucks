@@ -28,10 +28,10 @@ interface TruckTableProps {
 
 const StatusBadge: React.FC<{ status: TruckStatus }> = ({ status }) => {
   const statusStyles = {
-    pending: 'bg-yellow-100 text-yellow-800 border-yellow-200',
-    scaled_in: 'bg-blue-100 text-blue-800 border-blue-200',
-    offloaded: 'bg-green-100 text-green-800 border-green-200',
-    rejected: 'bg-red-100 text-red-800 border-red-200',
+    pending: 'bg-yellow-900/30 text-yellow-400 border-yellow-700',
+    scaled_in: 'bg-blue-900/30 text-blue-400 border-blue-700',
+    offloaded: 'bg-green-900/30 text-green-400 border-green-700',
+    rejected: 'bg-red-900/30 text-red-400 border-red-700',
   };
 
   const statusIcons = {
@@ -102,47 +102,47 @@ export const TruckTable: React.FC<TruckTableProps> = ({
 
   if (trucks.length === 0) {
     return (
-      <div className="bg-white rounded-lg shadow-md p-8 text-center">
-        <AlertCircle className="h-12 w-12 text-gray-400 mx-auto mb-4" />
-        <p className="text-gray-500">No trucks available. Process a WhatsApp message to add trucks.</p>
+      <div className="bg-gray-800 rounded-lg shadow-xl border border-gray-700 p-8 text-center">
+        <AlertCircle className="h-12 w-12 text-gray-500 mx-auto mb-4" />
+        <p className="text-gray-400">No trucks available. Process a WhatsApp message to add trucks.</p>
       </div>
     );
   }
 
   return (
-    <div className="bg-white rounded-lg shadow-md overflow-hidden">
+    <div className="bg-gray-800 rounded-lg shadow-xl border border-gray-700 overflow-hidden">
       <div className="overflow-x-auto">
-        <table className="min-w-full divide-y divide-gray-200">
-          <thead className="bg-gray-50">
+        <table className="min-w-full divide-y divide-gray-700">
+          <thead className="bg-gray-750">
             <tr>
-              <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+              <th className="px-6 py-3 text-left text-xs font-medium text-gray-400 uppercase tracking-wider">
                 Time
               </th>
-              <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+              <th className="px-6 py-3 text-left text-xs font-medium text-gray-400 uppercase tracking-wider">
                 Supplier
               </th>
-              <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+              <th className="px-6 py-3 text-left text-xs font-medium text-gray-400 uppercase tracking-wider">
                 Truck
               </th>
-              <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+              <th className="px-6 py-3 text-left text-xs font-medium text-gray-400 uppercase tracking-wider">
                 Bags
               </th>
-              <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+              <th className="px-6 py-3 text-left text-xs font-medium text-gray-400 uppercase tracking-wider">
                 <div className="flex items-center gap-1">
                   <Droplets className="h-4 w-4" />
                   Moisture
                 </div>
               </th>
-              <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+              <th className="px-6 py-3 text-left text-xs font-medium text-gray-400 uppercase tracking-wider">
                 Status
               </th>
-              <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+              <th className="px-6 py-3 text-left text-xs font-medium text-gray-400 uppercase tracking-wider">
                 Waybill
               </th>
-              <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+              <th className="px-6 py-3 text-left text-xs font-medium text-gray-400 uppercase tracking-wider">
                 Net Weight
               </th>
-              <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+              <th className="px-6 py-3 text-left text-xs font-medium text-gray-400 uppercase tracking-wider">
                 Deduction
               </th>
               <th className="px-6 py-3 text-right text-xs font-medium text-gray-500 uppercase tracking-wider">
@@ -150,34 +150,34 @@ export const TruckTable: React.FC<TruckTableProps> = ({
               </th>
             </tr>
           </thead>
-          <tbody className="bg-white divide-y divide-gray-200">
+          <tbody className="bg-gray-800 divide-y divide-gray-700">
             {trucks.map((truck) => (
-              <tr key={truck.id} className="hover:bg-gray-50 transition-colors">
-                <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-600">
+              <tr key={truck.id} className="hover:bg-gray-750 transition-colors">
+                <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-400">
                   {getLatestStatusTime(truck)}
                 </td>
                 <td className="px-6 py-4 whitespace-nowrap">
-                  <div className="text-sm font-medium text-gray-900">{truck.supplierName}</div>
+                  <div className="text-sm font-medium text-gray-100">{truck.supplierName}</div>
                 </td>
                 <td className="px-6 py-4 whitespace-nowrap">
-                  <div className="text-sm font-mono text-gray-900">{truck.truckNumber}</div>
+                  <div className="text-sm font-mono text-gray-200">{truck.truckNumber}</div>
                 </td>
-                <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900">
+                <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-200">
                   {truck.bags}
                 </td>
-                <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900">
+                <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-200">
                   {truck.moistureLevel}%
                 </td>
                 <td className="px-6 py-4 whitespace-nowrap">
                   <StatusBadge status={truck.status} />
                 </td>
-                <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900">
+                <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-200">
                   {truck.waybillNumber || '-'}
                 </td>
-                <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900">
+                <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-200">
                   {truck.netWeight ? `${truck.netWeight} kg` : '-'}
                 </td>
-                <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900">
+                <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-200">
                   {truck.deduction ? `${truck.deduction} kg` : '-'}
                 </td>
                 <td className="px-6 py-4 whitespace-nowrap text-right text-sm font-medium">
@@ -240,7 +240,7 @@ export const TruckTable: React.FC<TruckTableProps> = ({
 
                     <button
                       onClick={() => onEdit(truck)}
-                      className="text-blue-600 hover:text-blue-800 transition-colors p-1"
+                      className="text-blue-400 hover:text-blue-300 transition-colors p-1"
                       title="Edit"
                     >
                       <Edit className="h-4 w-4" />
@@ -248,12 +248,12 @@ export const TruckTable: React.FC<TruckTableProps> = ({
 
                     <button
                       onClick={() => handleDelete(truck.id)}
-                      className="text-red-600 hover:text-red-800 transition-colors p-1"
+                      className="text-red-400 hover:text-red-300 transition-colors p-1"
                       disabled={deletingTrucks.has(truck.id)}
                       title="Delete"
                     >
                       {deletingTrucks.has(truck.id) ? (
-                        <div className="animate-spin h-4 w-4 border-2 border-red-600 border-t-transparent rounded-full" />
+                        <div className="animate-spin h-4 w-4 border-2 border-red-400 border-t-transparent rounded-full" />
                       ) : (
                         <Trash2 className="h-4 w-4" />
                       )}

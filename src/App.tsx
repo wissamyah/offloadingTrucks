@@ -8,12 +8,15 @@ import { AuthSettings } from './components/AuthSettings';
 import { ScaleInModal, OffloadModal, EditTruckModal } from './components/ActionModals';
 import { useGitHubData } from './hooks/useGitHubData';
 import { groupByDate, formatDate } from './utils/dateUtils';
+import { githubService } from './services/githubService';
+import { dataSyncService } from './services/dataSync';
 import { Truck as TruckIcon, Loader2 } from 'lucide-react';
 import toast from 'react-hot-toast';
 
 function App() {
   const {
     data,
+    setData,
     loading,
     syncing,
     addTrucks,
@@ -66,14 +69,22 @@ function App() {
     return groupedTrucks.get(selectedDate) || [];
   }, [groupedTrucks, selectedDate]);
 
-  // Auto-refresh data every 30 seconds
+  // Silently sync data in background every 60 seconds (only if GitHub is configured)
   useEffect(() => {
     const interval = setInterval(() => {
-      reload();
-    }, 30000);
+      // Only reload if we're not currently syncing
+      if (!syncing && githubService.isInitialized()) {
+        // Silent reload without showing loading state
+        dataSyncService.loadData().then(newData => {
+          setData(newData);
+        }).catch(() => {
+          // Silently ignore errors in background sync
+        });
+      }
+    }, 60000); // Every 60 seconds
 
     return () => clearInterval(interval);
-  }, [reload]);
+  }, [syncing]);
 
   const handleScaleIn = (truckId: string) => {
     const truck = data.trucks.find(t => t.id === truckId);
@@ -151,34 +162,34 @@ function App() {
 
   if (loading) {
     return (
-      <div className="min-h-screen bg-gray-50 flex items-center justify-center">
+      <div className="min-h-screen bg-gray-900 flex items-center justify-center">
         <div className="text-center">
-          <Loader2 className="h-12 w-12 animate-spin text-blue-600 mx-auto mb-4" />
-          <p className="text-gray-600">Loading truck data...</p>
+          <Loader2 className="h-12 w-12 animate-spin text-blue-500 mx-auto mb-4" />
+          <p className="text-gray-400">Loading truck data...</p>
         </div>
       </div>
     );
   }
 
   return (
-    <div className="min-h-screen bg-gray-50">
+    <div className="min-h-screen bg-gray-900">
       <Toaster position="top-right" />
 
       <AuthSettings onConfigured={reload} />
 
       {/* Header */}
-      <header className="bg-white shadow-sm border-b border-gray-200">
+      <header className="bg-gray-800 shadow-xl border-b border-gray-700">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-3">
-              <TruckIcon className="h-8 w-8 text-blue-600" />
+              <TruckIcon className="h-8 w-8 text-blue-500" />
               <div>
-                <h1 className="text-2xl font-bold text-gray-900">Paddy Truck Monitoring System</h1>
-                <p className="text-sm text-gray-500">Track and manage paddy truck operations</p>
+                <h1 className="text-2xl font-bold text-gray-100">Paddy Truck Monitoring System</h1>
+                <p className="text-sm text-gray-400">Track and manage paddy truck operations</p>
               </div>
             </div>
             {syncing && (
-              <div className="flex items-center gap-2 text-sm text-gray-600">
+              <div className="flex items-center gap-2 text-sm text-gray-400">
                 <Loader2 className="h-4 w-4 animate-spin" />
                 Syncing with GitHub...
               </div>
@@ -205,25 +216,25 @@ function App() {
           {/* Stats */}
           {currentTrucks.length > 0 && (
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-              <div className="bg-white p-4 rounded-lg shadow-md">
-                <p className="text-sm text-gray-600 mb-1">Total Trucks</p>
-                <p className="text-2xl font-bold text-gray-900">{currentTrucks.length}</p>
+              <div className="bg-gray-800 p-4 rounded-lg shadow-xl border border-gray-700">
+                <p className="text-sm text-gray-400 mb-1">Total Trucks</p>
+                <p className="text-2xl font-bold text-gray-100">{currentTrucks.length}</p>
               </div>
-              <div className="bg-white p-4 rounded-lg shadow-md">
-                <p className="text-sm text-gray-600 mb-1">Pending</p>
-                <p className="text-2xl font-bold text-yellow-600">
+              <div className="bg-gray-800 p-4 rounded-lg shadow-xl border border-gray-700">
+                <p className="text-sm text-gray-400 mb-1">Pending</p>
+                <p className="text-2xl font-bold text-yellow-500">
                   {currentTrucks.filter(t => t.status === 'pending').length}
                 </p>
               </div>
-              <div className="bg-white p-4 rounded-lg shadow-md">
-                <p className="text-sm text-gray-600 mb-1">Scaled In</p>
-                <p className="text-2xl font-bold text-blue-600">
+              <div className="bg-gray-800 p-4 rounded-lg shadow-xl border border-gray-700">
+                <p className="text-sm text-gray-400 mb-1">Scaled In</p>
+                <p className="text-2xl font-bold text-blue-500">
                   {currentTrucks.filter(t => t.status === 'scaled_in').length}
                 </p>
               </div>
-              <div className="bg-white p-4 rounded-lg shadow-md">
-                <p className="text-sm text-gray-600 mb-1">Offloaded</p>
-                <p className="text-2xl font-bold text-green-600">
+              <div className="bg-gray-800 p-4 rounded-lg shadow-xl border border-gray-700">
+                <p className="text-sm text-gray-400 mb-1">Offloaded</p>
+                <p className="text-2xl font-bold text-green-500">
                   {currentTrucks.filter(t => t.status === 'offloaded').length}
                 </p>
               </div>
@@ -231,7 +242,8 @@ function App() {
           )}
 
           {/* Truck Table */}
-          <TruckTable
+          <div id="truck-table">
+            <TruckTable
             trucks={currentTrucks}
             onScaleIn={handleScaleIn}
             onOffload={handleOffload}
@@ -239,7 +251,8 @@ function App() {
             onEdit={handleEdit}
             onDelete={deleteTruck}
             loadingStates={loadingStates}
-          />
+            />
+          </div>
         </div>
       </main>
 

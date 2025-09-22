@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useRef, useEffect } from 'react';
 import { FileText, RotateCcw } from 'lucide-react';
 import { LoadingButton } from './LoadingButton';
 import { parseWhatsAppMessage, validateParsedData } from '../utils/parser';
@@ -14,6 +14,17 @@ export const MessageInput: React.FC<MessageInputProps> = ({ onProcess, onReset }
   const [message, setMessage] = useState('');
   const [processing, setProcessing] = useState(false);
   const [resetting, setResetting] = useState(false);
+  const textareaRef = useRef<HTMLTextAreaElement>(null);
+
+  useEffect(() => {
+    if (textareaRef.current) {
+      // Reset height to auto to get the correct scrollHeight
+      textareaRef.current.style.height = 'auto';
+      // Set the height to match content
+      const newHeight = Math.min(textareaRef.current.scrollHeight, 400);
+      textareaRef.current.style.height = `${newHeight}px`;
+    }
+  }, [message]);
 
   const handleProcess = async () => {
     if (!message.trim()) {
@@ -42,6 +53,14 @@ export const MessageInput: React.FC<MessageInputProps> = ({ onProcess, onReset }
       await onProcess(entries);
       setMessage('');
       toast.success(`Successfully processed ${entries.length} truck${entries.length > 1 ? 's' : ''}`);
+
+      // Smooth scroll to table
+      setTimeout(() => {
+        const tableElement = document.getElementById('truck-table');
+        if (tableElement) {
+          tableElement.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+      }, 100);
     } catch (error: any) {
       toast.error(error.message || 'Failed to process message');
     } finally {
@@ -67,26 +86,17 @@ export const MessageInput: React.FC<MessageInputProps> = ({ onProcess, onReset }
   };
 
   return (
-    <div className="bg-white rounded-lg shadow-md p-6">
+    <div className="bg-gray-800 rounded-lg shadow-xl p-6 border border-gray-700">
       <div className="mb-4">
-        <label htmlFor="message-input" className="block text-sm font-medium text-gray-700 mb-2">
+        <label htmlFor="message-input" className="block text-sm font-medium text-gray-300 mb-2">
           WhatsApp Message Input
         </label>
         <textarea
+          ref={textareaRef}
           id="message-input"
-          className="w-full px-3 py-2 text-gray-700 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent resize-none"
-          rows={10}
-          placeholder={`Paste your WhatsApp message here. Example:
-
-Good morning sir,
-3 truck rice paddy arrived.
-
-1. Samuel chamblatda 202 bags 21%
-   NCH 517 XA
-2. Ibrahim kaita 234 bags 13%
-   KTG 401 ZZ
-3. Mukhtari Sale 343 bags 12%
-   GWA 162 YR`}
+          className="w-full px-3 py-2 text-gray-100 bg-gray-700 border border-gray-600 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent resize-none transition-all duration-300"
+          style={{ minHeight: '120px', overflow: 'hidden' }}
+          placeholder="Paste WhatsApp message here..."
           value={message}
           onChange={(e) => setMessage(e.target.value)}
         />

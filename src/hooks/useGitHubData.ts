@@ -44,7 +44,9 @@ export const useGitHubData = () => {
         };
       });
 
+      // Save to GitHub/localStorage first, then update UI
       await dataSyncService.addTrucks(newTrucks);
+      // Only update UI after successful save
       const updatedData = dataSyncService.getData();
       setData(updatedData);
     } catch (error: any) {
@@ -90,7 +92,9 @@ export const useGitHubData = () => {
         updates.deduction = details.deduction;
       }
 
+      // Save to GitHub/localStorage first, then update UI
       await dataSyncService.updateTruck(truckId, updates);
+      // Only update UI after successful save
       const updatedData = dataSyncService.getData();
       setData(updatedData);
     } catch (error: any) {
@@ -104,7 +108,9 @@ export const useGitHubData = () => {
   const updateTruck = useCallback(async (truckId: string, updates: Partial<Truck>) => {
     setSyncing(true);
     try {
+      // Save to GitHub/localStorage first, then update UI
       await dataSyncService.updateTruck(truckId, updates);
+      // Only update UI after successful save
       const updatedData = dataSyncService.getData();
       setData(updatedData);
     } catch (error: any) {
@@ -144,6 +150,7 @@ export const useGitHubData = () => {
 
   return {
     data,
+    setData,
     loading,
     syncing,
     addTrucks,
