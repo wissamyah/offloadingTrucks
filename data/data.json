@@ -6,7 +6,7 @@
       "bags": 550,
       "moistureLevel": 13,
       "truckNumber": "FKY 856 XM",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -18,11 +18,21 @@
           "details": {
             "waybillNumber": "25454"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-09-22T11:50:50.017Z",
+          "details": {
+            "netWeight": 25425254,
+            "deduction": 4545
+          }
         }
       ],
       "createdAt": "2025-09-22T11:49:14.066Z",
-      "updatedAt": "2025-09-22T11:49:55.136Z",
-      "waybillNumber": "25454"
+      "updatedAt": "2025-09-22T11:50:50.017Z",
+      "waybillNumber": "25454",
+      "netWeight": 25425254,
+      "deduction": 4545
     },
     {
       "id": "5c5e537c-ec10-4725-8162-32ccbe54c8e3",
@@ -41,5 +51,5 @@
       "updatedAt": "2025-09-22T11:49:14.066Z"
     }
   ],
-  "lastUpdated": "2025-09-22T11:49:55.136Z"
+  "lastUpdated": "2025-09-22T11:50:50.017Z"
 }
