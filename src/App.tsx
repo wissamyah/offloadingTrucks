@@ -14,6 +14,21 @@ import { Truck as TruckIcon, Loader2 } from 'lucide-react';
 import toast from 'react-hot-toast';
 
 function App() {
+  // Initialize GitHub settings from localStorage before anything else
+  useEffect(() => {
+    const savedSettings = localStorage.getItem('githubSettings');
+    if (savedSettings) {
+      try {
+        const { token, owner, repo } = JSON.parse(savedSettings);
+        if (token && owner && repo) {
+          githubService.initialize(token, owner, repo);
+        }
+      } catch (error) {
+        console.error('Failed to initialize GitHub settings:', error);
+      }
+    }
+  }, []);
+
   const {
     data,
     setData,

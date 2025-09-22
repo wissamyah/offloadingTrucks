@@ -1,6 +1,7 @@
 import { useState, useEffect, useCallback } from 'react';
 import { Truck, TruckData, StatusChange, TruckStatus } from '../types/truck';
 import { dataSyncService } from '../services/dataSync';
+import { githubService } from '../services/githubService';
 import { ParsedTruckEntry } from '../types/truck';
 import { v4 as uuidv4 } from 'uuid';
 import toast from 'react-hot-toast';
@@ -11,6 +12,19 @@ export const useGitHubData = () => {
   const [syncing, setSyncing] = useState(false);
 
   useEffect(() => {
+    // Initialize GitHub from localStorage if available
+    const savedSettings = localStorage.getItem('githubSettings');
+    if (savedSettings) {
+      try {
+        const { token, owner, repo } = JSON.parse(savedSettings);
+        if (token && owner && repo) {
+          githubService.initialize(token, owner, repo);
+        }
+      } catch (error) {
+        console.error('Failed to initialize GitHub settings:', error);
+      }
+    }
+    // Then load data
     loadData();
   }, []);
 
