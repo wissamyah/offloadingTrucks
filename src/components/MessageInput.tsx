@@ -1,6 +1,7 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { FileText, RotateCcw } from 'lucide-react';
 import { LoadingButton } from './LoadingButton';
+import { ConfirmationModal } from './ConfirmationModal';
 import { parseWhatsAppMessage, validateParsedData } from '../utils/parser';
 import { ParsedTruckEntry } from '../types/truck';
 import toast from 'react-hot-toast';
@@ -14,17 +15,32 @@ export const MessageInput: React.FC<MessageInputProps> = ({ onProcess, onReset }
   const [message, setMessage] = useState('');
   const [processing, setProcessing] = useState(false);
   const [resetting, setResetting] = useState(false);
+  const [isFocused, setIsFocused] = useState(false);
+  const [showResetConfirm, setShowResetConfirm] = useState(false);
   const textareaRef = useRef<HTMLTextAreaElement>(null);
 
   useEffect(() => {
     if (textareaRef.current) {
-      // Reset height to auto to get the correct scrollHeight
+      // Don't reset to auto for smoother transition
+      const minHeight = isFocused ? 100 : 60; // Smaller when not focused
+
+      // Get the scroll height without resetting
+      const tempHeight = textareaRef.current.style.height;
       textareaRef.current.style.height = 'auto';
-      // Set the height to match content
-      const newHeight = Math.min(textareaRef.current.scrollHeight, 400);
-      textareaRef.current.style.height = `${newHeight}px`;
+      const contentHeight = textareaRef.current.scrollHeight;
+      textareaRef.current.style.height = tempHeight;
+
+      // Smooth transition to new height
+      const newHeight = Math.max(minHeight, Math.min(contentHeight, 400));
+
+      // Use requestAnimationFrame for smoother transition
+      requestAnimationFrame(() => {
+        if (textareaRef.current) {
+          textareaRef.current.style.height = `${newHeight}px`;
+        }
+      });
     }
-  }, [message]);
+  }, [message, isFocused]);
 
   const handleProcess = async () => {
     if (!message.trim()) {
@@ -68,12 +84,13 @@ export const MessageInput: React.FC<MessageInputProps> = ({ onProcess, onReset }
     }
   };
 
-  const handleReset = async () => {
-    if (!window.confirm('Are you sure you want to reset all truck data? This action cannot be undone.')) {
-      return;
-    }
+  const handleReset = () => {
+    setShowResetConfirm(true);
+  };
 
+  const confirmReset = async () => {
     setResetting(true);
+    setShowResetConfirm(false);
     try {
       await onReset();
       setMessage('');
@@ -94,11 +111,13 @@ export const MessageInput: React.FC<MessageInputProps> = ({ onProcess, onReset }
         <textarea
           ref={textareaRef}
           id="message-input"
-          className="w-full px-3 py-2 text-gray-100 bg-gray-700 border border-gray-600 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent resize-none transition-all duration-300"
-          style={{ minHeight: '120px', overflow: 'hidden' }}
+          className="w-full px-3 py-2 text-gray-100 bg-gray-700 border border-gray-600 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent resize-none transition-[height,border-color,box-shadow] duration-500 ease-out"
+          style={{ minHeight: '60px', overflow: 'hidden' }}
           placeholder="Paste WhatsApp message here..."
           value={message}
           onChange={(e) => setMessage(e.target.value)}
+          onFocus={() => setIsFocused(true)}
+          onBlur={() => setIsFocused(false)}
         />
       </div>
 
@@ -121,6 +140,18 @@ export const MessageInput: React.FC<MessageInputProps> = ({ onProcess, onReset }
           Reset
         </LoadingButton>
       </div>
+
+      <ConfirmationModal
+        isOpen={showResetConfirm}
+        onClose={() => setShowResetConfirm(false)}
+        onConfirm={confirmReset}
+        title="Reset All Truck Data?"
+        message="Are you sure you want to reset all truck data? This action will permanently delete all truck entries and cannot be undone."
+        confirmText="Reset All"
+        cancelText="Cancel"
+        type="danger"
+        loading={resetting}
+      />
     </div>
   );
 };

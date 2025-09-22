@@ -13,6 +13,7 @@ import {
 import { Truck, TruckStatus } from '../types/truck';
 import { formatDateTime, formatTime } from '../utils/dateUtils';
 import { LoadingButton } from './LoadingButton';
+import { ConfirmationModal } from './ConfirmationModal';
 
 interface TruckTableProps {
   trucks: Truck[];
@@ -66,12 +67,10 @@ export const TruckTable: React.FC<TruckTableProps> = ({
   loadingStates,
 }) => {
   const [deletingTrucks, setDeletingTrucks] = useState<Set<string>>(new Set());
+  const [deleteConfirmTruck, setDeleteConfirmTruck] = useState<string | null>(null);
+  const [rejectConfirmTruck, setRejectConfirmTruck] = useState<string | null>(null);
 
   const handleDelete = async (truckId: string) => {
-    if (!window.confirm('Are you sure you want to delete this truck entry?')) {
-      return;
-    }
-
     setDeletingTrucks(prev => new Set(prev).add(truckId));
     try {
       await onDelete(truckId);
@@ -81,15 +80,13 @@ export const TruckTable: React.FC<TruckTableProps> = ({
         next.delete(truckId);
         return next;
       });
+      setDeleteConfirmTruck(null);
     }
   };
 
   const handleReject = async (truckId: string) => {
-    if (!window.confirm('Are you sure you want to reject this truck?')) {
-      return;
-    }
-
     await onReject(truckId);
+    setRejectConfirmTruck(null);
   };
 
   const getLatestStatusTime = (truck: Truck): string => {
@@ -194,7 +191,7 @@ export const TruckTable: React.FC<TruckTableProps> = ({
                           Scale In
                         </LoadingButton>
                         <LoadingButton
-                          onClick={() => handleReject(truck.id)}
+                          onClick={() => setRejectConfirmTruck(truck.id)}
                           loading={loadingStates[`reject-${truck.id}`]}
                           variant="danger"
                           size="sm"
@@ -216,7 +213,7 @@ export const TruckTable: React.FC<TruckTableProps> = ({
                           Offloaded
                         </LoadingButton>
                         <LoadingButton
-                          onClick={() => handleReject(truck.id)}
+                          onClick={() => setRejectConfirmTruck(truck.id)}
                           loading={loadingStates[`reject-${truck.id}`]}
                           variant="danger"
                           size="sm"
@@ -247,7 +244,7 @@ export const TruckTable: React.FC<TruckTableProps> = ({
                     </button>
 
                     <button
-                      onClick={() => handleDelete(truck.id)}
+                      onClick={() => setDeleteConfirmTruck(truck.id)}
                       className="text-red-400 hover:text-red-300 transition-colors p-1"
                       disabled={deletingTrucks.has(truck.id)}
                       title="Delete"
@@ -265,6 +262,30 @@ export const TruckTable: React.FC<TruckTableProps> = ({
           </tbody>
         </table>
       </div>
+
+      <ConfirmationModal
+        isOpen={deleteConfirmTruck !== null}
+        onClose={() => setDeleteConfirmTruck(null)}
+        onConfirm={() => deleteConfirmTruck && handleDelete(deleteConfirmTruck)}
+        title="Delete Truck Entry"
+        message="Are you sure you want to delete this truck entry? This action cannot be undone."
+        confirmText="Delete"
+        cancelText="Cancel"
+        type="danger"
+        loading={deleteConfirmTruck ? deletingTrucks.has(deleteConfirmTruck) : false}
+      />
+
+      <ConfirmationModal
+        isOpen={rejectConfirmTruck !== null}
+        onClose={() => setRejectConfirmTruck(null)}
+        onConfirm={() => rejectConfirmTruck && handleReject(rejectConfirmTruck)}
+        title="Reject Truck"
+        message="Are you sure you want to reject this truck? You can scale it in later if needed."
+        confirmText="Reject"
+        cancelText="Cancel"
+        type="warning"
+        loading={rejectConfirmTruck ? loadingStates[`reject-${rejectConfirmTruck}`] : false}
+      />
     </div>
   );
 };
