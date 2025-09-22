@@ -12,10 +12,13 @@ export class DataSyncService {
   private syncQueue = getSyncQueue();
   private pollInterval: NodeJS.Timeout | null = null;
   private pendingDeletions = new Set<string>();
+  private pendingLocalChanges = new Map<string, { timestamp: number; operation: string }>();
 
   constructor() {
     // Load pending deletions from storage
     this.loadPendingDeletions();
+    // Load pending local changes from storage
+    this.loadPendingLocalChanges();
     // Start polling for remote changes if in multi-user mode
     this.startPolling();
   }
@@ -33,6 +36,44 @@ export class DataSyncService {
 
   private savePendingDeletions() {
     localStorage.setItem('pendingDeletions', JSON.stringify(Array.from(this.pendingDeletions)));
+  }
+
+  private loadPendingLocalChanges() {
+    const saved = localStorage.getItem('pendingLocalChanges');
+    if (saved) {
+      try {
+        const changes = JSON.parse(saved);
+        this.pendingLocalChanges = new Map(changes);
+        // Clean up old pending changes (older than 5 minutes)
+        const fiveMinutesAgo = Date.now() - 5 * 60 * 1000;
+        for (const [truckId, change] of this.pendingLocalChanges.entries()) {
+          if (change.timestamp < fiveMinutesAgo) {
+            this.pendingLocalChanges.delete(truckId);
+          }
+        }
+        this.savePendingLocalChanges();
+      } catch {
+        this.pendingLocalChanges = new Map();
+      }
+    }
+  }
+
+  private savePendingLocalChanges() {
+    const changes = Array.from(this.pendingLocalChanges.entries());
+    localStorage.setItem('pendingLocalChanges', JSON.stringify(changes));
+  }
+
+  private markTruckAsPendingSync(truckId: string, operation: string) {
+    this.pendingLocalChanges.set(truckId, {
+      timestamp: Date.now(),
+      operation
+    });
+    this.savePendingLocalChanges();
+  }
+
+  clearPendingSync(truckId: string) {
+    this.pendingLocalChanges.delete(truckId);
+    this.savePendingLocalChanges();
   }
 
   async loadData(): Promise<TruckData> {
@@ -63,7 +104,7 @@ export class DataSyncService {
   }
 
   private mergeRemoteData(remoteData: TruckData) {
-    // Simple merge strategy: combine trucks from both sources, keeping the newest version of duplicates
+    // Improved merge strategy: preserve local changes that haven't synced yet
     const truckMap = new Map<string, Truck>();
 
     // Add local trucks
@@ -71,17 +112,33 @@ export class DataSyncService {
       truckMap.set(truck.id, truck);
     });
 
-    // Add/update with remote trucks (newer ones win)
+    // Add/update with remote trucks, but respect pending local changes
     remoteData.trucks.forEach(remoteTruck => {
-      // CRITICAL: Skip if this truck is pending deletion locally
+      // Skip if this truck is pending deletion locally
       if (this.pendingDeletions.has(remoteTruck.id)) {
         console.log(`Skipping merge of deleted truck ${remoteTruck.id}`);
         return;
       }
 
+      // Skip if this truck has pending local changes that haven't synced
+      if (this.pendingLocalChanges.has(remoteTruck.id)) {
+        console.log(`Preserving local changes for truck ${remoteTruck.id}`);
+        return;
+      }
+
       const localTruck = truckMap.get(remoteTruck.id);
-      if (!localTruck || new Date(remoteTruck.updatedAt || remoteTruck.createdAt) > new Date(localTruck.updatedAt || localTruck.createdAt)) {
+      // Only update if remote is genuinely newer or truck doesn't exist locally
+      if (!localTruck) {
         truckMap.set(remoteTruck.id, remoteTruck);
+      } else {
+        // Compare actual modification times, not just existence
+        const remoteTime = new Date(remoteTruck.updatedAt || remoteTruck.createdAt).getTime();
+        const localTime = new Date(localTruck.updatedAt || localTruck.createdAt).getTime();
+
+        // Only replace if remote is actually newer (with a 1-second tolerance for sync delays)
+        if (remoteTime > localTime + 1000) {
+          truckMap.set(remoteTruck.id, remoteTruck);
+        }
       }
     });
 
@@ -114,6 +171,9 @@ export class DataSyncService {
   }
 
   async updateTruck(truckId: string, updates: Partial<Truck>): Promise<void> {
+    // Mark this truck as having pending local changes
+    this.markTruckAsPendingSync(truckId, 'update');
+
     const updatedTrucks = this.localData.trucks.map(truck =>
       truck.id === truckId ? { ...truck, ...updates, updatedAt: new Date().toISOString() } : truck
     );
@@ -130,6 +190,9 @@ export class DataSyncService {
     // Add to pending deletions to prevent resurrection during merge
     this.pendingDeletions.add(truckId);
     this.savePendingDeletions();
+
+    // Also mark as pending local change
+    this.markTruckAsPendingSync(truckId, 'delete');
 
     const updatedTrucks = this.localData.trucks.filter(truck => truck.id !== truckId);
 
@@ -168,6 +231,8 @@ export class DataSyncService {
   clearPendingDeletion(truckId: string) {
     this.pendingDeletions.delete(truckId);
     this.savePendingDeletions();
+    // Also clear from pending local changes
+    this.clearPendingSync(truckId);
   }
 
   private cleanupOldTrucks(): void {

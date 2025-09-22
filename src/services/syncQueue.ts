@@ -153,10 +153,15 @@ class SyncQueueManager {
         this.lastSyncTime = new Date();
         this.saveQueue();
 
-        // Clear from pending deletions if this was a successful delete
-        if (operation.type === 'delete' && operation.entityId) {
+        // Clear from pending deletions and pending local changes after successful sync
+        if (operation.entityId) {
           const { dataSyncService } = await import('./dataSync');
-          dataSyncService.clearPendingDeletion(operation.entityId);
+          if (operation.type === 'delete') {
+            dataSyncService.clearPendingDeletion(operation.entityId);
+          } else {
+            // For update operations, just clear the pending sync flag
+            dataSyncService.clearPendingSync(operation.entityId);
+          }
         }
 
         this.notifyListeners();
@@ -197,6 +202,10 @@ class SyncQueueManager {
         // Get current local data
         const localData = JSON.parse(localStorage.getItem('truckData') || '{}') as TruckData;
         await githubService.saveData(localData, `Sync: ${operation.type} operation`);
+        // Clear pending local changes for all trucks after successful sync
+        if (operation.type === 'update' && !operation.entityId) {
+          localStorage.removeItem('pendingLocalChanges');
+        }
         break;
 
       case 'delete':
