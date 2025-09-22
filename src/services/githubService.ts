@@ -32,7 +32,7 @@ export class GitHubService {
       });
 
       if ('content' in response.data && response.data.type === 'file') {
-        const content = Buffer.from(response.data.content, 'base64').toString('utf-8');
+        const content = atob(response.data.content);
         return JSON.parse(content) as TruckData;
       }
 
@@ -76,7 +76,7 @@ export class GitHubService {
       }
 
       // Update the file
-      const content = Buffer.from(JSON.stringify(data, null, 2)).toString('base64');
+      const content = btoa(JSON.stringify(data, null, 2));
 
       await this.octokit!.rest.repos.createOrUpdateFileContents({
         owner: this.owner,
