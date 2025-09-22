@@ -1,4 +1,101 @@
 {
-  "trucks": [],
-  "lastUpdated": "2025-09-22T11:51:41.953Z"
+  "trucks": [
+    {
+      "id": "a8c4fbcb-2f7a-4669-8225-57b2b6054f0f",
+      "supplierName": "Dan Buhu",
+      "bags": 600,
+      "moistureLevel": 13,
+      "truckNumber": "DKA 89 XC",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-09-22T12:35:30.118Z"
+        }
+      ],
+      "createdAt": "2025-09-22T12:35:30.118Z",
+      "updatedAt": "2025-09-22T12:35:30.118Z"
+    },
+    {
+      "id": "2cd85fcb-3ebc-4a4a-9dd2-16cde79c8943",
+      "supplierName": "Dan Buhu",
+      "bags": 600,
+      "moistureLevel": 13,
+      "truckNumber": "FKY 297 XB",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-09-22T12:35:30.118Z"
+        }
+      ],
+      "createdAt": "2025-09-22T12:35:30.118Z",
+      "updatedAt": "2025-09-22T12:35:30.118Z"
+    },
+    {
+      "id": "cb12d327-795f-41d8-8905-17e0bf45d65d",
+      "supplierName": "Ibrahim kaita",
+      "bags": 300,
+      "moistureLevel": 13,
+      "truckNumber": "SHD 337 YU",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-09-22T12:35:30.118Z"
+        }
+      ],
+      "createdAt": "2025-09-22T12:35:30.118Z",
+      "updatedAt": "2025-09-22T12:35:30.118Z"
+    },
+    {
+      "id": "9f45afa7-8318-478f-9bc8-003d3974b67f",
+      "supplierName": "Ibrahim kaita",
+      "bags": 400,
+      "moistureLevel": 13,
+      "truckNumber": "SHD 98 YU",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-09-22T12:35:30.118Z"
+        }
+      ],
+      "createdAt": "2025-09-22T12:35:30.118Z",
+      "updatedAt": "2025-09-22T12:35:30.118Z"
+    },
+    {
+      "id": "9fb458bc-1f2b-4ea8-8ff5-e23b6bd21e36",
+      "supplierName": "Idris Haruna",
+      "bags": 310,
+      "moistureLevel": 14,
+      "truckNumber": "SHD 909 YU",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-09-22T12:35:30.118Z"
+        }
+      ],
+      "createdAt": "2025-09-22T12:35:30.118Z",
+      "updatedAt": "2025-09-22T12:35:30.118Z"
+    },
+    {
+      "id": "6d05c2e5-8847-4ecd-9a80-d949d2b4b1a2",
+      "supplierName": "Idris Haruna",
+      "bags": 165,
+      "moistureLevel": 14,
+      "truckNumber": "GME 78 XC",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-09-22T12:35:30.118Z"
+        }
+      ],
+      "createdAt": "2025-09-22T12:35:30.118Z",
+      "updatedAt": "2025-09-22T12:35:30.118Z"
+    }
+  ],
+  "lastUpdated": "2025-09-22T12:35:30.119Z"
 }
