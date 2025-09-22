@@ -1,0 +1,37 @@
+{
+  "trucks": [
+    {
+      "id": "954c1348-4487-4c4c-b183-90dd4991c7e9",
+      "supplierName": "Jamilu yahaya",
+      "bags": 87,
+      "moistureLevel": 13,
+      "truckNumber": "GRK 316 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-09-22T01:11:25.852Z"
+        }
+      ],
+      "createdAt": "2025-09-22T01:11:25.852Z",
+      "updatedAt": "2025-09-22T01:11:25.852Z"
+    },
+    {
+      "id": "814ebe8f-3ca2-4cb0-ab49-c1eb7ecc0a11",
+      "supplierName": "Arma Yau Yusif",
+      "bags": 510,
+      "moistureLevel": 15,
+      "truckNumber": "ZUR 702 ZY",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-09-22T01:11:25.852Z"
+        }
+      ],
+      "createdAt": "2025-09-22T01:11:25.852Z",
+      "updatedAt": "2025-09-22T01:11:25.852Z"
+    }
+  ],
+  "lastUpdated": "2025-09-22T01:11:25.853Z"
+}
