@@ -266,7 +266,11 @@ export const TruckTable: React.FC<TruckTableProps> = ({
       <ConfirmationModal
         isOpen={deleteConfirmTruck !== null}
         onClose={() => setDeleteConfirmTruck(null)}
-        onConfirm={() => deleteConfirmTruck && handleDelete(deleteConfirmTruck)}
+        onConfirm={() => {
+          if (deleteConfirmTruck) {
+            return handleDelete(deleteConfirmTruck);
+          }
+        }}
         title="Delete Truck Entry"
         message="Are you sure you want to delete this truck entry? This action cannot be undone."
         confirmText="Delete"
@@ -278,7 +282,11 @@ export const TruckTable: React.FC<TruckTableProps> = ({
       <ConfirmationModal
         isOpen={rejectConfirmTruck !== null}
         onClose={() => setRejectConfirmTruck(null)}
-        onConfirm={() => rejectConfirmTruck && handleReject(rejectConfirmTruck)}
+        onConfirm={() => {
+          if (rejectConfirmTruck) {
+            return handleReject(rejectConfirmTruck);
+          }
+        }}
         title="Reject Truck"
         message="Are you sure you want to reject this truck? You can scale it in later if needed."
         confirmText="Reject"
