@@ -152,7 +152,7 @@ export const useGitHubData = () => {
   const resetData = useCallback(async () => {
     setSyncing(true);
     try {
-      await dataSyncService.saveData({ trucks: [], lastUpdated: new Date().toISOString() }, 'Reset all data');
+      await dataSyncService.resetData();
       setData({ trucks: [], lastUpdated: new Date().toISOString() });
     } catch (error: any) {
       toast.error('Failed to reset data: ' + error.message);

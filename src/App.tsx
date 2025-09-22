@@ -11,6 +11,7 @@ import { groupByDate, formatDate } from './utils/dateUtils';
 import { githubService } from './services/githubService';
 import { dataSyncService } from './services/dataSync';
 import { Truck as TruckIcon, Loader2 } from 'lucide-react';
+import { SyncStatusIndicator } from './components/SyncStatus';
 import toast from 'react-hot-toast';
 
 function App() {
@@ -84,22 +85,22 @@ function App() {
     return groupedTrucks.get(selectedDate) || [];
   }, [groupedTrucks, selectedDate]);
 
-  // Silently sync data in background every 60 seconds (only if GitHub is configured)
+  // Listen for remote data updates from polling
   useEffect(() => {
-    const interval = setInterval(() => {
-      // Only reload if we're not currently syncing
-      if (!syncing && githubService.isInitialized()) {
-        // Silent reload without showing loading state
-        dataSyncService.loadData().then(newData => {
-          setData(newData);
-        }).catch(() => {
-          // Silently ignore errors in background sync
+    const handleRemoteUpdate = () => {
+      // Reload data when remote updates are detected
+      dataSyncService.loadData().then(newData => {
+        setData(newData);
+        toast.success('Data updated from remote', {
+          duration: 2000,
+          icon: '🔄',
         });
-      }
-    }, 60000); // Every 60 seconds
+      });
+    };
 
-    return () => clearInterval(interval);
-  }, [syncing]);
+    window.addEventListener('remote-data-updated', handleRemoteUpdate);
+    return () => window.removeEventListener('remote-data-updated', handleRemoteUpdate);
+  }, [setData]);
 
   const handleScaleIn = (truckId: string) => {
     const truck = data.trucks.find(t => t.id === truckId);
@@ -203,12 +204,15 @@ function App() {
                 <p className="text-sm text-gray-400">Track and manage paddy truck operations</p>
               </div>
             </div>
-            {syncing && (
-              <div className="flex items-center gap-2 text-sm text-gray-400">
-                <Loader2 className="h-4 w-4 animate-spin" />
-                Syncing with GitHub...
-              </div>
-            )}
+            <div className="flex items-center gap-3">
+              <SyncStatusIndicator />
+              {syncing && (
+                <div className="flex items-center gap-2 text-sm text-gray-400">
+                  <Loader2 className="h-4 w-4 animate-spin" />
+                  Processing...
+                </div>
+              )}
+            </div>
           </div>
         </div>
       </header>
