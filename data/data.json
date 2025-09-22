@@ -30,23 +30,15 @@
       "bags": 510,
       "moistureLevel": 15,
       "truckNumber": "ZUR 702 ZY",
-      "status": "scaled_in",
+      "status": "pending",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-09-22T01:11:25.852Z"
-        },
-        {
-          "status": "scaled_in",
-          "timestamp": "2025-09-22T01:17:45.430Z",
-          "details": {
-            "waybillNumber": "24525"
-          }
         }
       ],
       "createdAt": "2025-09-22T01:11:25.852Z",
-      "updatedAt": "2025-09-22T01:17:45.430Z",
-      "waybillNumber": "24525"
+      "updatedAt": "2025-09-22T01:11:25.852Z"
     },
     {
       "id": "125d2f4e-7801-49eb-98b9-42f8567aa4dd",
@@ -81,5 +73,5 @@
       "updatedAt": "2025-09-22T01:12:13.217Z"
     }
   ],
-  "lastUpdated": "2025-09-22T01:17:45.430Z"
+  "lastUpdated": "2025-09-22T01:17:58.943Z"
 }
