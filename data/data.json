@@ -6,16 +6,24 @@
       "bags": 305,
       "moistureLevel": 23.5,
       "truckNumber": "FTA 256 XB",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-09-24T15:07:03.771Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-09-24T15:12:22.727Z",
+          "details": {
+            "waybillNumber": "6207"
+          }
         }
       ],
       "createdAt": "2025-09-24T15:07:03.771Z",
-      "updatedAt": "2025-09-24T15:07:03.771Z"
+      "updatedAt": "2025-09-24T15:12:22.728Z",
+      "waybillNumber": "6207"
     }
   ],
-  "lastUpdated": "2025-09-24T15:07:03.771Z"
+  "lastUpdated": "2025-09-24T15:12:22.728Z"
 }
