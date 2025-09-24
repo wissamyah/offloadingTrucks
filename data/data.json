@@ -1,4 +1,21 @@
 {
-  "trucks": [],
-  "lastUpdated": "2025-09-22T17:52:08.843Z"
+  "trucks": [
+    {
+      "id": "5ee7acd8-515d-4804-8e21-e7873957f537",
+      "supplierName": "Idris Garba",
+      "bags": 305,
+      "moistureLevel": 23.5,
+      "truckNumber": "FTA 256 XB",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-09-24T15:07:03.771Z"
+        }
+      ],
+      "createdAt": "2025-09-24T15:07:03.771Z",
+      "updatedAt": "2025-09-24T15:07:03.771Z"
+    }
+  ],
+  "lastUpdated": "2025-09-24T15:07:03.771Z"
 }
