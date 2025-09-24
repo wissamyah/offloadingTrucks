@@ -23,7 +23,23 @@
       "createdAt": "2025-09-24T15:07:03.771Z",
       "updatedAt": "2025-09-24T15:12:22.728Z",
       "waybillNumber": "6207"
+    },
+    {
+      "id": "59e0d21a-d3b6-42c4-9963-bf75d6cad929",
+      "supplierName": "Idris Garba",
+      "bags": 305,
+      "moistureLevel": 23.5,
+      "truckNumber": "FTA 256 XB",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-09-24T15:14:45.011Z"
+        }
+      ],
+      "createdAt": "2025-09-24T15:14:45.011Z",
+      "updatedAt": "2025-09-24T15:14:45.011Z"
     }
   ],
-  "lastUpdated": "2025-09-24T15:12:22.728Z"
+  "lastUpdated": "2025-09-24T15:14:45.011Z"
 }
