@@ -54,16 +54,24 @@
       "bags": 180,
       "moistureLevel": 17,
       "truckNumber": "KRN 150 XA",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-09-25T08:20:18.832Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-09-25T09:00:27.520Z",
+          "details": {
+            "waybillNumber": "6209"
+          }
         }
       ],
       "createdAt": "2025-09-25T08:20:18.832Z",
-      "updatedAt": "2025-09-25T08:20:18.832Z"
+      "updatedAt": "2025-09-25T09:00:27.524Z",
+      "waybillNumber": "6209"
     }
   ],
-  "lastUpdated": "2025-09-25T08:20:18.832Z"
+  "lastUpdated": "2025-09-25T09:00:27.525Z"
 }
