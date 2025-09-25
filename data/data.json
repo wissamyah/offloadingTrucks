@@ -47,7 +47,23 @@
       ],
       "createdAt": "2025-09-24T15:14:45.011Z",
       "updatedAt": "2025-09-24T15:14:45.011Z"
+    },
+    {
+      "id": "c39e6823-d0e0-41de-9774-66455fa64d7c",
+      "supplierName": "soba Turawa grains ent",
+      "bags": 180,
+      "moistureLevel": 17,
+      "truckNumber": "KRN 150 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-09-25T08:20:18.832Z"
+        }
+      ],
+      "createdAt": "2025-09-25T08:20:18.832Z",
+      "updatedAt": "2025-09-25T08:20:18.832Z"
     }
   ],
-  "lastUpdated": "2025-09-24T17:43:51.503Z"
+  "lastUpdated": "2025-09-25T08:20:18.832Z"
 }
