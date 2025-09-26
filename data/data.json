@@ -6,16 +6,152 @@
       "bags": 305,
       "moistureLevel": 23.5,
       "truckNumber": "FTA 256 XB",
-      "status": "pending",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-09-24T15:07:03.771Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-09-24T15:12:22.727Z",
+          "details": {
+            "waybillNumber": "6207"
+          }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-09-24T15:51:06.898Z",
+          "details": {
+            "netWeight": 21860
+          }
         }
       ],
       "createdAt": "2025-09-24T15:07:03.771Z",
-      "updatedAt": "2025-09-24T15:07:03.771Z"
+      "updatedAt": "2025-09-24T15:51:06.899Z",
+      "waybillNumber": "6207",
+      "netWeight": 21860
+    },
+    {
+      "id": "59e0d21a-d3b6-42c4-9963-bf75d6cad929",
+      "supplierName": "Idris Garba",
+      "bags": 305,
+      "moistureLevel": 23.5,
+      "truckNumber": "FTA 256 XB",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-09-24T15:14:45.011Z"
+        }
+      ],
+      "createdAt": "2025-09-24T15:14:45.011Z",
+      "updatedAt": "2025-09-24T15:14:45.011Z"
+    },
+    {
+      "id": "c39e6823-d0e0-41de-9774-66455fa64d7c",
+      "supplierName": "soba Turawa grains ent",
+      "bags": 180,
+      "moistureLevel": 17,
+      "truckNumber": "KRN 150 XA",
+      "status": "offloaded",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-09-25T08:20:18.832Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-09-25T09:00:27.520Z",
+          "details": {
+            "waybillNumber": "6209"
+          }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-09-25T09:34:54.096Z",
+          "details": {
+            "netWeight": 11180
+          }
+        }
+      ],
+      "createdAt": "2025-09-25T08:20:18.832Z",
+      "updatedAt": "2025-09-25T09:34:54.100Z",
+      "waybillNumber": "6209",
+      "netWeight": 11180
+    },
+    {
+      "id": "122ec794-3850-4b4a-a04f-e52c0ee15d49",
+      "supplierName": "Idris Garba",
+      "bags": 220,
+      "moistureLevel": 22.5,
+      "truckNumber": "DDM 250 XA",
+      "status": "scaled_in",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-09-26T15:05:44.870Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-09-26T15:08:52.534Z",
+          "details": {
+            "waybillNumber": "6217"
+          }
+        }
+      ],
+      "createdAt": "2025-09-26T15:05:44.870Z",
+      "updatedAt": "2025-09-26T15:08:52.534Z",
+      "waybillNumber": "6217"
+    },
+    {
+      "id": "311116fe-47a3-406a-9610-9c8bbb81e7e2",
+      "supplierName": "Z.A.M.integratet services ng.ltd",
+      "bags": 120,
+      "moistureLevel": 31,
+      "truckNumber": "KRN 187 XB",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-09-26T15:07:45.788Z"
+        }
+      ],
+      "createdAt": "2025-09-26T15:07:45.788Z",
+      "updatedAt": "2025-09-26T15:07:45.788Z"
+    },
+    {
+      "id": "afec14af-2729-4db9-a1cb-2c0d49ffa8a9",
+      "supplierName": "Idris Garba",
+      "bags": 200,
+      "moistureLevel": 23,
+      "truckNumber": "GWL 788XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-09-26T15:07:45.788Z"
+        }
+      ],
+      "createdAt": "2025-09-26T15:07:45.788Z",
+      "updatedAt": "2025-09-26T15:07:45.788Z"
+    },
+    {
+      "id": "d288590e-f718-464a-b1e7-1526cb57fc48",
+      "supplierName": "Addau isyaku",
+      "bags": 100,
+      "moistureLevel": 21,
+      "truckNumber": "GUS 428 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-09-26T15:07:45.788Z"
+        }
+      ],
+      "createdAt": "2025-09-26T15:07:45.788Z",
+      "updatedAt": "2025-09-26T15:07:45.788Z"
     }
   ],
-  "lastUpdated": "2025-09-24T15:07:03.771Z"
+  "lastUpdated": "2025-09-26T15:08:52.534Z"
 }
