@@ -9,11 +9,15 @@ export function parseWhatsAppMessage(message: string): ParsedTruckEntry[] {
   while (currentIndex < lines.length) {
     const line = lines[currentIndex];
 
-    // Check if this line matches a truck entry pattern (starts with number and dot)
-    const truckMatch = line.match(/^(\d+)\.\s*(.+)/);
+    // Check if this line matches a truck entry pattern (starts with number and dot or just a number)
+    const truckMatch = line.match(/^(\d+)\.?\s+(.+)/) || line.match(/^(\d+)\s+(.+)/);
 
-    if (truckMatch) {
-      const fullLine = truckMatch[2];
+    // Also check for format without number prefix but has bags pattern
+    const bagsOnlyMatch = !truckMatch && currentIndex + 2 < lines.length &&
+                          lines[currentIndex + 1].match(/^\d+\s*bags?\s*$/i);
+
+    if (truckMatch || bagsOnlyMatch) {
+      const fullLine = truckMatch ? truckMatch[2] : line;
 
       // Check if this is the old format (all info on one line)
       // Pattern: "1. Supplier Name 234 bags 13%"
@@ -56,32 +60,80 @@ export function parseWhatsAppMessage(message: string): ParsedTruckEntry[] {
         }
       } else {
         // NEW FORMAT: Check if info is spread across multiple lines
-        // Pattern:
-        // 1. Supplier Name
-        // 305 Bags
-        // FTA 256 XB
-        // Moisture 23.5
-
-        // The supplier name is just the text after the number
+        // The supplier name is just the text after the number (or the whole line if no number)
         const supplierName = fullLine.trim();
 
-        // Check if we have enough lines ahead for the new format
-        if (currentIndex + 3 < lines.length) {
+        // Handle special case where entry doesn't start with number but has bags on next line
+        if (bagsOnlyMatch && currentIndex + 3 < lines.length) {
           const bagsLine = lines[currentIndex + 1];
-          const truckLine = lines[currentIndex + 2];
-          const moistureLine = lines[currentIndex + 3];
+          const moistureLine = lines[currentIndex + 2];
+          const truckLine = lines[currentIndex + 3];
 
-          // Parse bags (e.g., "305 Bags")
           const bagsMatch = bagsLine.match(/^(\d+)\s*bags?\s*$/i);
-
-          // Parse moisture (e.g., "Moisture 23.5")
-          const moistureMatch = moistureLine.match(/moisture\s*(\d+(?:\.\d+)?)/i);
+          const moistureMatch = moistureLine.match(/moisture\s*(\d+(?:\.\d+)?)%?/i);
 
           if (bagsMatch && moistureMatch) {
-            // This is the new format
             const bags = parseInt(bagsMatch[1], 10);
             const moistureLevel = parseFloat(moistureMatch[1]);
             const truckNumber = truckLine.trim();
+
+            if (supplierName && bags > 0) {
+              trucks.push({
+                supplierName,
+                bags,
+                moistureLevel,
+                truckNumber,
+              });
+            }
+
+            // Skip the lines we've processed
+            currentIndex += 3;
+          }
+        }
+        // Check if we have enough lines ahead for the new formats
+        else if (currentIndex + 3 < lines.length) {
+          const line2 = lines[currentIndex + 1];
+          const line3 = lines[currentIndex + 2];
+          const line4 = lines[currentIndex + 3];
+
+          // Format 1 (Original multi-line):
+          // 1. Supplier Name
+          // 305 Bags
+          // FTA 256 XB
+          // Moisture 23.5
+          const format1BagsMatch = line2.match(/^(\d+)\s*bags?\s*$/i);
+          const format1MoistureMatch = line4.match(/moisture\s*(\d+(?:\.\d+)?)/i);
+
+          // Format 2 (New format from user):
+          // 1. Supplier Name
+          // 220 bags
+          // Moisture 22.5%
+          // DDM 250 XA
+          const format2BagsMatch = line2.match(/^(\d+)\s*bags?\s*$/i);
+          const format2MoistureMatch = line3.match(/moisture\s*(\d+(?:\.\d+)?)%?/i);
+
+          if (format1BagsMatch && format1MoistureMatch) {
+            // This is Format 1 (original multi-line)
+            const bags = parseInt(format1BagsMatch[1], 10);
+            const moistureLevel = parseFloat(format1MoistureMatch[1]);
+            const truckNumber = line3.trim();
+
+            if (supplierName && bags > 0) {
+              trucks.push({
+                supplierName,
+                bags,
+                moistureLevel,
+                truckNumber,
+              });
+            }
+
+            // Skip the lines we've processed
+            currentIndex += 3;
+          } else if (format2BagsMatch && format2MoistureMatch) {
+            // This is Format 2 (new format with moisture on line 3, truck on line 4)
+            const bags = parseInt(format2BagsMatch[1], 10);
+            const moistureLevel = parseFloat(format2MoistureMatch[1]);
+            const truckNumber = line4.trim();
 
             if (supplierName && bags > 0) {
               trucks.push({
