@@ -86,15 +86,23 @@
       "bags": 220,
       "moistureLevel": 22.5,
       "truckNumber": "DDM 250 XA",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-09-26T15:05:44.870Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-09-26T15:08:52.534Z",
+          "details": {
+            "waybillNumber": "6217"
+          }
         }
       ],
       "createdAt": "2025-09-26T15:05:44.870Z",
-      "updatedAt": "2025-09-26T15:05:44.870Z"
+      "updatedAt": "2025-09-26T15:08:52.534Z",
+      "waybillNumber": "6217"
     },
     {
       "id": "311116fe-47a3-406a-9610-9c8bbb81e7e2",
@@ -145,5 +153,5 @@
       "updatedAt": "2025-09-26T15:07:45.788Z"
     }
   ],
-  "lastUpdated": "2025-09-26T15:07:45.788Z"
+  "lastUpdated": "2025-09-26T15:08:52.534Z"
 }
