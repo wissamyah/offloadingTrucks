@@ -95,7 +95,55 @@
       ],
       "createdAt": "2025-09-26T15:05:44.870Z",
       "updatedAt": "2025-09-26T15:05:44.870Z"
+    },
+    {
+      "id": "311116fe-47a3-406a-9610-9c8bbb81e7e2",
+      "supplierName": "Z.A.M.integratet services ng.ltd",
+      "bags": 120,
+      "moistureLevel": 31,
+      "truckNumber": "KRN 187 XB",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-09-26T15:07:45.788Z"
+        }
+      ],
+      "createdAt": "2025-09-26T15:07:45.788Z",
+      "updatedAt": "2025-09-26T15:07:45.788Z"
+    },
+    {
+      "id": "afec14af-2729-4db9-a1cb-2c0d49ffa8a9",
+      "supplierName": "Idris Garba",
+      "bags": 200,
+      "moistureLevel": 23,
+      "truckNumber": "GWL 788XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-09-26T15:07:45.788Z"
+        }
+      ],
+      "createdAt": "2025-09-26T15:07:45.788Z",
+      "updatedAt": "2025-09-26T15:07:45.788Z"
+    },
+    {
+      "id": "d288590e-f718-464a-b1e7-1526cb57fc48",
+      "supplierName": "Addau isyaku",
+      "bags": 100,
+      "moistureLevel": 21,
+      "truckNumber": "GUS 428 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-09-26T15:07:45.788Z"
+        }
+      ],
+      "createdAt": "2025-09-26T15:07:45.788Z",
+      "updatedAt": "2025-09-26T15:07:45.788Z"
     }
   ],
-  "lastUpdated": "2025-09-26T15:05:44.871Z"
+  "lastUpdated": "2025-09-26T15:07:45.788Z"
 }
