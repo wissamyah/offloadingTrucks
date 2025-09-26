@@ -83,7 +83,7 @@
     {
       "id": "122ec794-3850-4b4a-a04f-e52c0ee15d49",
       "supplierName": "Idris Garba",
-      "bags": 220,
+      "bags": 180,
       "moistureLevel": 22.5,
       "truckNumber": "DDM 250 XA",
       "status": "scaled_in",
@@ -101,7 +101,7 @@
         }
       ],
       "createdAt": "2025-09-26T15:05:44.870Z",
-      "updatedAt": "2025-09-26T15:08:52.534Z",
+      "updatedAt": "2025-09-26T15:33:48.416Z",
       "waybillNumber": "6217"
     },
     {
@@ -153,5 +153,5 @@
       "updatedAt": "2025-09-26T15:07:45.788Z"
     }
   ],
-  "lastUpdated": "2025-09-26T15:31:56.041Z"
+  "lastUpdated": "2025-09-26T15:33:48.416Z"
 }
