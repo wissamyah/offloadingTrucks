@@ -127,8 +127,24 @@
       ],
       "createdAt": "2025-09-27T09:32:59.368Z",
       "updatedAt": "2025-09-27T09:32:59.368Z"
+    },
+    {
+      "id": "truck_1758965580374_ouc7df3e3",
+      "supplierName": "Mohd Usman",
+      "bags": 100,
+      "moistureLevel": 28,
+      "truckNumber": "GRZ 474 XM",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-09-27T09:33:00.375Z"
+        }
+      ],
+      "createdAt": "2025-09-27T09:33:00.375Z",
+      "updatedAt": "2025-09-27T09:33:00.375Z"
     }
   ],
-  "lastModified": "2025-09-27T09:32:59.730Z",
+  "lastModified": "2025-09-27T09:33:00.806Z",
   "version": "2.0.0"
 }
