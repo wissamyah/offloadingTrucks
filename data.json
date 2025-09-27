@@ -63,8 +63,24 @@
       ],
       "createdAt": "2025-09-27T09:32:55.033Z",
       "updatedAt": "2025-09-27T09:32:55.033Z"
+    },
+    {
+      "id": "truck_1758965576072_7zd7ksm9t",
+      "supplierName": "Addau isyaku",
+      "bags": 210,
+      "moistureLevel": 25,
+      "truckNumber": "KMC 761 ZR",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-09-27T09:32:56.072Z"
+        }
+      ],
+      "createdAt": "2025-09-27T09:32:56.072Z",
+      "updatedAt": "2025-09-27T09:32:56.072Z"
     }
   ],
-  "lastModified": "2025-09-27T09:32:55.464Z",
+  "lastModified": "2025-09-27T09:32:56.482Z",
   "version": "2.0.0"
 }
