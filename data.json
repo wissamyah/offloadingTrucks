@@ -6,7 +6,7 @@
       "bags": 150,
       "moistureLevel": 26,
       "truckNumber": "RRN 987 XA",
-      "status": "pending",
+      "status": "rejected",
       "statusHistory": [
         {
           "status": "pending",
@@ -177,6 +177,6 @@
       "updatedAt": "2025-09-27T09:49:32.669Z"
     }
   ],
-  "lastModified": "2025-09-27T09:49:33.012Z",
+  "lastModified": "2025-09-27T11:12:13.203Z",
   "version": "2.0.0"
 }
