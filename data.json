@@ -1,5 +1,182 @@
 {
-  "trucks": [],
-  "lastModified": "2025-09-27T09:37:34.573Z",
+  "trucks": [
+    {
+      "id": "truck_1758966572669_0_1wnt6n7kn",
+      "supplierName": "Addau isyaku",
+      "bags": 150,
+      "moistureLevel": 26,
+      "truckNumber": "RRN 987 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-09-27T09:49:32.669Z"
+        }
+      ],
+      "createdAt": "2025-09-27T09:49:32.669Z",
+      "updatedAt": "2025-09-27T09:49:32.669Z"
+    },
+    {
+      "id": "truck_1758966572669_1_d65e2t4ts",
+      "supplierName": "H.A Tahir investment",
+      "bags": 280,
+      "moistureLevel": 21,
+      "truckNumber": "KTG 435 YG",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-09-27T09:49:32.669Z"
+        }
+      ],
+      "createdAt": "2025-09-27T09:49:32.669Z",
+      "updatedAt": "2025-09-27T09:49:32.669Z"
+    },
+    {
+      "id": "truck_1758966572669_2_wftcdczpv",
+      "supplierName": "Jana tropical food production",
+      "bags": 150,
+      "moistureLevel": 23,
+      "truckNumber": "GME 997 XG",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-09-27T09:49:32.669Z"
+        }
+      ],
+      "createdAt": "2025-09-27T09:49:32.669Z",
+      "updatedAt": "2025-09-27T09:49:32.669Z"
+    },
+    {
+      "id": "truck_1758966572669_3_kaj49saeb",
+      "supplierName": "Addau isyaku",
+      "bags": 184,
+      "moistureLevel": 21,
+      "truckNumber": "GWL 889 YG",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-09-27T09:49:32.669Z"
+        }
+      ],
+      "createdAt": "2025-09-27T09:49:32.669Z",
+      "updatedAt": "2025-09-27T09:49:32.669Z"
+    },
+    {
+      "id": "truck_1758966572669_4_kifb5okh8",
+      "supplierName": "Addau isyaku",
+      "bags": 210,
+      "moistureLevel": 25,
+      "truckNumber": "KMC 761 ZR",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-09-27T09:49:32.669Z"
+        }
+      ],
+      "createdAt": "2025-09-27T09:49:32.669Z",
+      "updatedAt": "2025-09-27T09:49:32.669Z"
+    },
+    {
+      "id": "truck_1758966572669_5_ip1tx6m4i",
+      "supplierName": "Addau isyaku",
+      "bags": 150,
+      "moistureLevel": 23,
+      "truckNumber": "FTA 282 XC",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-09-27T09:49:32.669Z"
+        }
+      ],
+      "createdAt": "2025-09-27T09:49:32.669Z",
+      "updatedAt": "2025-09-27T09:49:32.669Z"
+    },
+    {
+      "id": "truck_1758966572669_6_rvf4w5fez",
+      "supplierName": "Jana tropical food production",
+      "bags": 441,
+      "moistureLevel": 22,
+      "truckNumber": "FTA 691 XB",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-09-27T09:49:32.669Z"
+        }
+      ],
+      "createdAt": "2025-09-27T09:49:32.669Z",
+      "updatedAt": "2025-09-27T09:49:32.669Z"
+    },
+    {
+      "id": "truck_1758966572669_7_hu8em8ss4",
+      "supplierName": "Kabiru sani bako",
+      "bags": 390,
+      "moistureLevel": 31,
+      "truckNumber": "ZAR 606 XU",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-09-27T09:49:32.669Z"
+        }
+      ],
+      "createdAt": "2025-09-27T09:49:32.669Z",
+      "updatedAt": "2025-09-27T09:49:32.669Z"
+    },
+    {
+      "id": "truck_1758966572669_8_kujc46r6n",
+      "supplierName": "Mohd Usman",
+      "bags": 100,
+      "moistureLevel": 28,
+      "truckNumber": "GRZ 474 XM",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-09-27T09:49:32.669Z"
+        }
+      ],
+      "createdAt": "2025-09-27T09:49:32.669Z",
+      "updatedAt": "2025-09-27T09:49:32.669Z"
+    },
+    {
+      "id": "truck_1758966572669_9_98bsi89t4",
+      "supplierName": "Idris Garba",
+      "bags": 203,
+      "moistureLevel": 26,
+      "truckNumber": "TRN 661 ZY",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-09-27T09:49:32.669Z"
+        }
+      ],
+      "createdAt": "2025-09-27T09:49:32.669Z",
+      "updatedAt": "2025-09-27T09:49:32.669Z"
+    },
+    {
+      "id": "truck_1758966572669_10_r5lvevg2p",
+      "supplierName": "Addau isyaku",
+      "bags": 110,
+      "moistureLevel": 22,
+      "truckNumber": "ABC 784 XB",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-09-27T09:49:32.669Z"
+        }
+      ],
+      "createdAt": "2025-09-27T09:49:32.669Z",
+      "updatedAt": "2025-09-27T09:49:32.669Z"
+    }
+  ],
+  "lastModified": "2025-09-27T09:49:33.012Z",
   "version": "2.0.0"
 }
