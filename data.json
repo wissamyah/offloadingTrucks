@@ -106,7 +106,7 @@
       "bags": 441,
       "moistureLevel": 22,
       "truckNumber": "FTA 691 XB",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
@@ -114,7 +114,8 @@
         }
       ],
       "createdAt": "2025-09-27T09:49:32.669Z",
-      "updatedAt": "2025-09-27T09:49:32.669Z"
+      "updatedAt": "2025-09-27T09:49:32.669Z",
+      "waybillNumber": "6224"
     },
     {
       "id": "truck_1758966572669_7_hu8em8ss4",
@@ -182,6 +183,6 @@
       "waybillNumber": "6223"
     }
   ],
-  "lastModified": "2025-09-27T11:37:11.859Z",
+  "lastModified": "2025-09-27T11:37:33.906Z",
   "version": "2.0.0"
 }
