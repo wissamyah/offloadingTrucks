@@ -95,8 +95,24 @@
       ],
       "createdAt": "2025-09-27T09:32:57.158Z",
       "updatedAt": "2025-09-27T09:32:57.158Z"
+    },
+    {
+      "id": "truck_1758965578300_sae42xhme",
+      "supplierName": "Jana tropical food production",
+      "bags": 441,
+      "moistureLevel": 22,
+      "truckNumber": "FTA 691 XB",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-09-27T09:32:58.300Z"
+        }
+      ],
+      "createdAt": "2025-09-27T09:32:58.300Z",
+      "updatedAt": "2025-09-27T09:32:58.300Z"
     }
   ],
-  "lastModified": "2025-09-27T09:32:57.550Z",
+  "lastModified": "2025-09-27T09:32:58.713Z",
   "version": "2.0.0"
 }
