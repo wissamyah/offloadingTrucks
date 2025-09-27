@@ -134,7 +134,7 @@
       "bags": 100,
       "moistureLevel": 28,
       "truckNumber": "GRZ 474 XM",
-      "status": "pending",
+      "status": "rejected",
       "statusHistory": [
         {
           "status": "pending",
@@ -177,6 +177,6 @@
       "updatedAt": "2025-09-27T09:49:32.669Z"
     }
   ],
-  "lastModified": "2025-09-27T11:12:25.610Z",
+  "lastModified": "2025-09-27T11:12:30.096Z",
   "version": "2.0.0"
 }
