@@ -19,7 +19,7 @@
     {
       "id": "truck_1758966572669_1_d65e2t4ts",
       "supplierName": "H.A Tahir investment",
-      "bags": 280,
+      "bags": 248,
       "moistureLevel": 21,
       "truckNumber": "KTG 435 YG",
       "status": "scaled_in",
@@ -183,6 +183,6 @@
       "waybillNumber": "6223"
     }
   ],
-  "lastModified": "2025-09-27T11:37:33.906Z",
+  "lastModified": "2025-09-27T11:41:38.585Z",
   "version": "2.0.0"
 }
