@@ -31,8 +31,24 @@
       ],
       "createdAt": "2025-09-27T09:32:52.902Z",
       "updatedAt": "2025-09-27T09:32:52.902Z"
+    },
+    {
+      "id": "truck_1758965574028_w2os04hst",
+      "supplierName": "Jana tropical food production",
+      "bags": 150,
+      "moistureLevel": 23,
+      "truckNumber": "GME 997 XG",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-09-27T09:32:54.028Z"
+        }
+      ],
+      "createdAt": "2025-09-27T09:32:54.028Z",
+      "updatedAt": "2025-09-27T09:32:54.028Z"
     }
   ],
-  "lastModified": "2025-09-27T09:32:53.391Z",
+  "lastModified": "2025-09-27T09:32:54.413Z",
   "version": "2.0.0"
 }
