@@ -175,7 +175,7 @@
       "bags": 110,
       "moistureLevel": 22,
       "truckNumber": "ABC 784 XB",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -184,9 +184,10 @@
       ],
       "createdAt": "2025-09-27T09:49:32.669Z",
       "updatedAt": "2025-09-27T09:49:32.669Z",
-      "waybillNumber": "6223"
+      "waybillNumber": "6223",
+      "netWeight": 8190
     }
   ],
-  "lastModified": "2025-09-27T11:42:57.528Z",
+  "lastModified": "2025-09-27T11:54:19.092Z",
   "version": "2.0.0"
 }
