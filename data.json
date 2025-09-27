@@ -56,7 +56,7 @@
       "bags": 184,
       "moistureLevel": 21,
       "truckNumber": "GWL 889 YG",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
@@ -64,7 +64,8 @@
         }
       ],
       "createdAt": "2025-09-27T09:49:32.669Z",
-      "updatedAt": "2025-09-27T09:49:32.669Z"
+      "updatedAt": "2025-09-27T09:49:32.669Z",
+      "waybillNumber": "6220"
     },
     {
       "id": "truck_1758966572669_4_kifb5okh8",
@@ -179,6 +180,6 @@
       "updatedAt": "2025-09-27T09:49:32.669Z"
     }
   ],
-  "lastModified": "2025-09-27T11:21:03.520Z",
+  "lastModified": "2025-09-27T11:21:13.973Z",
   "version": "2.0.0"
 }
