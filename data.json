@@ -186,8 +186,24 @@
       "updatedAt": "2025-09-27T09:49:32.669Z",
       "waybillNumber": "6223",
       "netWeight": 8190
+    },
+    {
+      "id": "truck_1758978099766_0_n8aiixp24",
+      "supplierName": "12.MD.Global",
+      "bags": 500,
+      "moistureLevel": 21,
+      "truckNumber": "GME 690 ZY",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-09-27T13:01:39.766Z"
+        }
+      ],
+      "createdAt": "2025-09-27T13:01:39.766Z",
+      "updatedAt": "2025-09-27T13:01:39.766Z"
     }
   ],
-  "lastModified": "2025-09-27T11:54:19.092Z",
+  "lastModified": "2025-09-27T13:01:39.792Z",
   "version": "2.0.0"
 }
