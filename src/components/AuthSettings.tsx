@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Settings, Eye, EyeOff, Check, X, Github } from 'lucide-react';
 import { LoadingButton } from './LoadingButton';
-import { githubService } from '../services/githubService';
+import { githubSync } from '../services/githubSync';
 import toast from 'react-hot-toast';
 
 interface AuthSettingsProps {
@@ -18,20 +18,19 @@ export const AuthSettings: React.FC<AuthSettingsProps> = ({ onConfigured }) => {
   const [isConfigured, setIsConfigured] = useState(false);
 
   useEffect(() => {
-    // Load settings from localStorage
-    const savedSettings = localStorage.getItem('githubSettings');
-    if (savedSettings) {
+    // Load auth settings from localStorage
+    const savedAuth = localStorage.getItem('githubAuth');
+    if (savedAuth) {
       try {
-        const { token, owner, repo } = JSON.parse(savedSettings);
+        const { token, owner, repo } = JSON.parse(savedAuth);
         setToken(token || '');
         setOwner(owner || '');
         setRepo(repo || '');
         if (token && owner && repo) {
-          githubService.initialize(token, owner, repo);
           setIsConfigured(true);
         }
       } catch (error) {
-        console.error('Failed to load GitHub settings:', error);
+        console.error('Failed to load GitHub auth:', error);
       }
     }
   }, []);
@@ -45,8 +44,7 @@ export const AuthSettings: React.FC<AuthSettingsProps> = ({ onConfigured }) => {
     setTesting(true);
 
     try {
-      githubService.initialize(token, owner, repo);
-      const connected = await githubService.testConnection();
+      const connected = await githubSync.initialize(token, owner, repo, 'data.json');
 
       if (!connected) {
         toast.error('Failed to connect to GitHub. Please check your credentials.');
@@ -54,10 +52,10 @@ export const AuthSettings: React.FC<AuthSettingsProps> = ({ onConfigured }) => {
         return;
       }
 
-      // Save settings
-      localStorage.setItem('githubSettings', JSON.stringify({ token, owner, repo }));
+      // Save auth only (no data in localStorage)
+      localStorage.setItem('githubAuth', JSON.stringify({ token, owner, repo, path: 'data.json' }));
       setIsConfigured(true);
-      toast.success('GitHub settings saved successfully!');
+      toast.success('GitHub connected successfully!');
       setIsOpen(false);
       onConfigured();
     } catch (error: any) {
@@ -68,13 +66,14 @@ export const AuthSettings: React.FC<AuthSettingsProps> = ({ onConfigured }) => {
   };
 
   const handleClear = () => {
-    if (window.confirm('Are you sure you want to clear GitHub settings?')) {
-      localStorage.removeItem('githubSettings');
+    if (window.confirm('Are you sure you want to disconnect GitHub?')) {
+      localStorage.removeItem('githubAuth');
+      githubSync.disconnect();
       setToken('');
       setOwner('');
       setRepo('');
       setIsConfigured(false);
-      toast.success('GitHub settings cleared');
+      toast.success('GitHub disconnected');
     }
   };
 

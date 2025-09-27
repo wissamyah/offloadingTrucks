@@ -1,46 +1,55 @@
 import React, { useState, useEffect, useMemo } from 'react';
 import { Toaster } from 'react-hot-toast';
-import { Truck, TruckStatus } from './types/truck';
+import { Truck, TruckStatus, ParsedTruckEntry } from './types/truck';
 import { MessageInput } from './components/MessageInput';
 import { TruckTable } from './components/TruckTable';
 import { Pagination } from './components/Pagination';
 import { ScaleInModal, OffloadModal, EditTruckModal } from './components/ActionModals';
-import { useGitHubData } from './hooks/useGitHubData';
+import { useGitHubSync } from './hooks/useGitHubSync';
 import { groupByDate, formatDate } from './utils/dateUtils';
-import { githubService } from './services/githubService';
-import { dataSyncService } from './services/dataSync';
+import { githubSync } from './services/githubSync';
 import { Truck as TruckIcon, Loader2 } from 'lucide-react';
 import { SyncDropdown } from './components/SyncDropdown';
 import toast from 'react-hot-toast';
 
 function App() {
-  // Initialize GitHub settings from localStorage before anything else
-  useEffect(() => {
-    const savedSettings = localStorage.getItem('githubSettings');
-    if (savedSettings) {
-      try {
-        const { token, owner, repo } = JSON.parse(savedSettings);
-        if (token && owner && repo) {
-          githubService.initialize(token, owner, repo);
-        }
-      } catch (error) {
-        console.error('Failed to initialize GitHub settings:', error);
-      }
-    }
-  }, []);
-
   const {
     data,
-    setData,
     loading,
-    syncing,
-    addTrucks,
-    updateTruckStatus,
+    error,
+    isOnline,
+    lastSync,
+    addTruck,
+    addMultipleTrucks,
     updateTruck,
     deleteTruck,
+    deleteAllTrucks,
     resetData,
-    reload,
-  } = useGitHubData();
+    refresh,
+  } = useGitHubSync();
+
+  // Helper function to add multiple trucks from parsed entries
+  const addTrucks = async (entries: ParsedTruckEntry[]) => {
+    const timestamp = Date.now();
+    const trucks: Truck[] = entries.map((entry, index) => ({
+      id: `truck_${timestamp}_${index}_${Math.random().toString(36).substr(2, 9)}`,
+      ...entry,
+      status: 'pending' as const,
+      statusHistory: [{
+        status: 'pending' as const,
+        timestamp: new Date().toISOString()
+      }],
+      createdAt: new Date().toISOString(),
+      updatedAt: new Date().toISOString()
+    }));
+
+    await addMultipleTrucks(trucks);
+  };
+
+  // Helper function to update truck status
+  const updateTruckStatus = async (id: string, status: TruckStatus, additionalData?: any) => {
+    await updateTruck(id, { status, ...additionalData });
+  };
 
   const [selectedDate, setSelectedDate] = useState<string>('');
   const [scaleInModal, setScaleInModal] = useState<{ open: boolean; truck: Truck | null }>({
@@ -84,22 +93,12 @@ function App() {
     return groupedTrucks.get(selectedDate) || [];
   }, [groupedTrucks, selectedDate]);
 
-  // Listen for remote data updates from polling
+  // Show sync status
   useEffect(() => {
-    const handleRemoteUpdate = () => {
-      // Reload data when remote updates are detected
-      dataSyncService.loadData().then(newData => {
-        setData(newData);
-        toast.success('Data updated from remote', {
-          duration: 2000,
-          icon: '🔄',
-        });
-      });
-    };
-
-    window.addEventListener('remote-data-updated', handleRemoteUpdate);
-    return () => window.removeEventListener('remote-data-updated', handleRemoteUpdate);
-  }, [setData]);
+    if (!isOnline && githubSync.isInitialized()) {
+      toast.error('You are offline. Changes will be synced when connection is restored.');
+    }
+  }, [isOnline]);
 
   const handleScaleIn = (truckId: string) => {
     const truck = data.trucks.find(t => t.id === truckId);
@@ -175,16 +174,7 @@ function App() {
     }
   };
 
-  if (loading) {
-    return (
-      <div className="min-h-screen bg-gray-900 flex items-center justify-center">
-        <div className="text-center">
-          <Loader2 className="h-12 w-12 animate-spin text-blue-500 mx-auto mb-4" />
-          <p className="text-gray-400">Loading truck data...</p>
-        </div>
-      </div>
-    );
-  }
+  // Don't block on loading or errors - show the main interface
 
   return (
     <div className="min-h-screen bg-gray-900">
@@ -203,11 +193,10 @@ function App() {
               </div>
             </div>
             <div className="flex items-center gap-3">
-              <SyncDropdown onConfigured={reload} />
-              {syncing && (
-                <div className="flex items-center gap-2 text-sm text-gray-400">
-                  <Loader2 className="h-4 w-4 animate-spin" />
-                  Processing...
+              <SyncDropdown onConfigured={refresh} />
+              {lastSync && (
+                <div className="text-sm text-gray-400">
+                  Last sync: {lastSync.toLocaleTimeString()}
                 </div>
               )}
             </div>
@@ -219,7 +208,7 @@ function App() {
       <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         <div className="space-y-6">
           {/* Message Input */}
-          <MessageInput onProcess={addTrucks} onReset={resetData} />
+          <MessageInput onProcess={addTrucks} onReset={() => resetData({ trucks: [], lastModified: new Date().toISOString() })} />
 
           {/* Date Pagination */}
           {availableDates.length > 0 && (

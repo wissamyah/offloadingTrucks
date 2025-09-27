@@ -27,7 +27,8 @@ export interface Truck {
 
 export interface TruckData {
   trucks: Truck[];
-  lastUpdated: string;
+  lastModified: string;
+  version?: string;
 }
 
 export interface ParsedTruckEntry {

@@ -10,7 +10,8 @@ export function parseWhatsAppMessage(message: string): ParsedTruckEntry[] {
     const line = lines[currentIndex];
 
     // Check if this line matches a truck entry pattern (starts with number and dot or just a number)
-    const truckMatch = line.match(/^(\d+)\.?\s+(.+)/) || line.match(/^(\d+)\s+(.+)/);
+    // Handle cases with spaces before the dot like "11 ."
+    const truckMatch = line.match(/^(\d+)\s*\.?\s+(.+)/) || line.match(/^(\d+)\s+(.+)/);
 
     // Also check for format without number prefix but has bags pattern
     const bagsOnlyMatch = !truckMatch && currentIndex + 2 < lines.length &&
@@ -60,20 +61,24 @@ export function parseWhatsAppMessage(message: string): ParsedTruckEntry[] {
         }
       } else {
         // NEW FORMAT: Check if info is spread across multiple lines
-        // The supplier name is just the text after the number (or the whole line if no number)
-        const supplierName = fullLine.trim();
+        // First check for Format 3: Supplier (bags in parentheses) format
+        const parenthesesBagsMatch = fullLine.match(/^(.+?)\s*\((\d+)\s*bags?\)/i);
 
-        // Handle special case where entry doesn't start with number but has bags on next line
-        if (bagsOnlyMatch && currentIndex + 3 < lines.length) {
-          const bagsLine = lines[currentIndex + 1];
-          const moistureLine = lines[currentIndex + 2];
-          const truckLine = lines[currentIndex + 3];
+        if (parenthesesBagsMatch && currentIndex + 2 < lines.length) {
+          // Format 3:
+          // 1. Supplier Name (150 bags)
+          // Moisture - 26%
+          // RRN 987 XA
+          const supplierName = parenthesesBagsMatch[1].trim();
+          const bags = parseInt(parenthesesBagsMatch[2], 10);
 
-          const bagsMatch = bagsLine.match(/^(\d+)\s*bags?\s*$/i);
-          const moistureMatch = moistureLine.match(/moisture\s*(\d+(?:\.\d+)?)%?/i);
+          const moistureLine = lines[currentIndex + 1];
+          const truckLine = lines[currentIndex + 2];
 
-          if (bagsMatch && moistureMatch) {
-            const bags = parseInt(bagsMatch[1], 10);
+          // Match moisture with optional dash before percentage
+          const moistureMatch = moistureLine.match(/moisture\s*[-:]?\s*(\d+(?:\.\d+)?)%?/i);
+
+          if (moistureMatch) {
             const moistureLevel = parseFloat(moistureMatch[1]);
             const truckNumber = truckLine.trim();
 
@@ -87,102 +92,171 @@ export function parseWhatsAppMessage(message: string): ParsedTruckEntry[] {
             }
 
             // Skip the lines we've processed
-            currentIndex += 3;
+            currentIndex += 2;
+            continue; // Skip to next iteration to avoid double processing
           }
         }
-        // Check if we have enough lines ahead for the new formats
-        else if (currentIndex + 3 < lines.length) {
-          const line2 = lines[currentIndex + 1];
-          const line3 = lines[currentIndex + 2];
-          const line4 = lines[currentIndex + 3];
+        // Format 4: Supplier name with bags (no parentheses) on first line
+        else if (currentIndex + 2 < lines.length) {
+          const bagsWithoutParensMatch = fullLine.match(/^(.+?)\s+(\d+)\s+bags?\s*$/i);
 
-          // Format 1 (Original multi-line):
-          // 1. Supplier Name
-          // 305 Bags
-          // FTA 256 XB
-          // Moisture 23.5
-          const format1BagsMatch = line2.match(/^(\d+)\s*bags?\s*$/i);
-          const format1MoistureMatch = line4.match(/moisture\s*(\d+(?:\.\d+)?)/i);
+          if (bagsWithoutParensMatch) {
+            // Format 4:
+            // 1. Addau isyaku 110 bags
+            // Moisture 22%
+            // ABC 784 XB
+            const supplierName = bagsWithoutParensMatch[1].trim();
+            const bags = parseInt(bagsWithoutParensMatch[2], 10);
 
-          // Format 2 (New format from user):
-          // 1. Supplier Name
-          // 220 bags
-          // Moisture 22.5%
-          // DDM 250 XA
-          const format2BagsMatch = line2.match(/^(\d+)\s*bags?\s*$/i);
-          const format2MoistureMatch = line3.match(/moisture\s*(\d+(?:\.\d+)?)%?/i);
+            const moistureLine = lines[currentIndex + 1];
+            const truckLine = lines[currentIndex + 2];
 
-          if (format1BagsMatch && format1MoistureMatch) {
-            // This is Format 1 (original multi-line)
-            const bags = parseInt(format1BagsMatch[1], 10);
-            const moistureLevel = parseFloat(format1MoistureMatch[1]);
-            const truckNumber = line3.trim();
+            // Match moisture with or without dash/colon
+            const moistureMatch = moistureLine.match(/moisture\s*[-:]?\s*(\d+(?:\.\d+)?)%?/i);
 
-            if (supplierName && bags > 0) {
-              trucks.push({
-                supplierName,
-                bags,
-                moistureLevel,
-                truckNumber,
-              });
-            }
+            if (moistureMatch) {
+              const moistureLevel = parseFloat(moistureMatch[1]);
+              const truckNumber = truckLine.trim();
 
-            // Skip the lines we've processed
-            currentIndex += 3;
-          } else if (format2BagsMatch && format2MoistureMatch) {
-            // This is Format 2 (new format with moisture on line 3, truck on line 4)
-            const bags = parseInt(format2BagsMatch[1], 10);
-            const moistureLevel = parseFloat(format2MoistureMatch[1]);
-            const truckNumber = line4.trim();
-
-            if (supplierName && bags > 0) {
-              trucks.push({
-                supplierName,
-                bags,
-                moistureLevel,
-                truckNumber,
-              });
-            }
-
-            // Skip the lines we've processed
-            currentIndex += 3;
-          } else if (supplierName) {
-            // This might be old format with just supplier name on the line
-            // Try to find bags and moisture info in the supplier name itself
-            const bagsInNameMatch = supplierName.match(/(\d+)\s*bags?\s*/i);
-            const moistureInNameMatch = supplierName.match(/(\*?)(\d+(?:\.\d+)?)%(\*?)/);
-
-            if (bagsInNameMatch) {
-              const bags = parseInt(bagsInNameMatch[1], 10);
-              const moistureLevel = moistureInNameMatch ? parseFloat(moistureInNameMatch[2]) : 0;
-
-              // Extract actual supplier name
-              const bagsIndex = supplierName.indexOf(bagsInNameMatch[0]);
-              const cleanSupplierName = supplierName.substring(0, bagsIndex).trim();
-
-              // Look for truck number on the next line
-              let truckNumber = '';
-              if (currentIndex + 1 < lines.length) {
-                const nextLine = lines[currentIndex + 1];
-                if (!nextLine.match(/^\d+\./)) {
-                  truckNumber = nextLine.trim();
-                  currentIndex++;
-                }
-              }
-
-              if (cleanSupplierName && bags > 0) {
+              if (supplierName && bags > 0) {
                 trucks.push({
-                  supplierName: cleanSupplierName,
+                  supplierName,
                   bags,
                   moistureLevel,
                   truckNumber,
                 });
               }
+
+              // Skip the lines we've processed
+              currentIndex += 2;
+              continue; // Skip to next iteration
+            }
+          }
+        }
+
+        // The supplier name is just the text after the number (or the whole line if no number)
+        const supplierName = fullLine.trim();
+
+          // Handle special case where entry doesn't start with number but has bags on next line
+          if (bagsOnlyMatch && currentIndex + 3 < lines.length) {
+            const bagsLine = lines[currentIndex + 1];
+            const moistureLine = lines[currentIndex + 2];
+            const truckLine = lines[currentIndex + 3];
+
+            const bagsMatch = bagsLine.match(/^(\d+)\s*bags?\s*$/i);
+            const moistureMatch = moistureLine.match(/moisture\s*(\d+(?:\.\d+)?)%?/i);
+
+            if (bagsMatch && moistureMatch) {
+              const bags = parseInt(bagsMatch[1], 10);
+              const moistureLevel = parseFloat(moistureMatch[1]);
+              const truckNumber = truckLine.trim();
+
+              if (supplierName && bags > 0) {
+                trucks.push({
+                  supplierName,
+                  bags,
+                  moistureLevel,
+                  truckNumber,
+                });
+              }
+
+              // Skip the lines we've processed
+              currentIndex += 3;
+            }
+          }
+          // Check if we have enough lines ahead for the new formats
+          else if (currentIndex + 3 < lines.length) {
+            const line2 = lines[currentIndex + 1];
+            const line3 = lines[currentIndex + 2];
+            const line4 = lines[currentIndex + 3];
+
+            // Format 1 (Original multi-line):
+            // 1. Supplier Name
+            // 305 Bags
+            // FTA 256 XB
+            // Moisture 23.5
+            const format1BagsMatch = line2.match(/^(\d+)\s*bags?\s*$/i);
+            const format1MoistureMatch = line4.match(/moisture\s*(\d+(?:\.\d+)?)/i);
+
+            // Format 2 (New format from user):
+            // 1. Supplier Name
+            // 220 bags
+            // Moisture 22.5%
+            // DDM 250 XA
+            const format2BagsMatch = line2.match(/^(\d+)\s*bags?\s*$/i);
+            const format2MoistureMatch = line3.match(/moisture\s*(\d+(?:\.\d+)?)%?/i);
+
+            if (format1BagsMatch && format1MoistureMatch) {
+              // This is Format 1 (original multi-line)
+              const bags = parseInt(format1BagsMatch[1], 10);
+              const moistureLevel = parseFloat(format1MoistureMatch[1]);
+              const truckNumber = line3.trim();
+
+              if (supplierName && bags > 0) {
+                trucks.push({
+                  supplierName,
+                  bags,
+                  moistureLevel,
+                  truckNumber,
+                });
+              }
+
+              // Skip the lines we've processed
+              currentIndex += 3;
+            } else if (format2BagsMatch && format2MoistureMatch) {
+              // This is Format 2 (new format with moisture on line 3, truck on line 4)
+              const bags = parseInt(format2BagsMatch[1], 10);
+              const moistureLevel = parseFloat(format2MoistureMatch[1]);
+              const truckNumber = line4.trim();
+
+              if (supplierName && bags > 0) {
+                trucks.push({
+                  supplierName,
+                  bags,
+                  moistureLevel,
+                  truckNumber,
+                });
+              }
+
+              // Skip the lines we've processed
+              currentIndex += 3;
+            } else if (supplierName) {
+              // This might be old format with just supplier name on the line
+              // Try to find bags and moisture info in the supplier name itself
+              const bagsInNameMatch = supplierName.match(/(\d+)\s*bags?\s*/i);
+              const moistureInNameMatch = supplierName.match(/(\*?)(\d+(?:\.\d+)?)%(\*?)/);
+
+              if (bagsInNameMatch) {
+                const bags = parseInt(bagsInNameMatch[1], 10);
+                const moistureLevel = moistureInNameMatch ? parseFloat(moistureInNameMatch[2]) : 0;
+
+                // Extract actual supplier name
+                const bagsIndex = supplierName.indexOf(bagsInNameMatch[0]);
+                const cleanSupplierName = supplierName.substring(0, bagsIndex).trim();
+
+                // Look for truck number on the next line
+                let truckNumber = '';
+                if (currentIndex + 1 < lines.length) {
+                  const nextLine = lines[currentIndex + 1];
+                  if (!nextLine.match(/^\d+\./)) {
+                    truckNumber = nextLine.trim();
+                    currentIndex++;
+                  }
+                }
+
+                if (cleanSupplierName && bags > 0) {
+                  trucks.push({
+                    supplierName: cleanSupplierName,
+                    bags,
+                    moistureLevel,
+                    truckNumber,
+                  });
+                }
+              }
             }
           }
         }
       }
-    }
 
     currentIndex++;
   }
