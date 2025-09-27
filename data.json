@@ -39,7 +39,7 @@
       "bags": 150,
       "moistureLevel": 23,
       "truckNumber": "GME 997 XG",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
@@ -47,7 +47,8 @@
         }
       ],
       "createdAt": "2025-09-27T09:49:32.669Z",
-      "updatedAt": "2025-09-27T09:49:32.669Z"
+      "updatedAt": "2025-09-27T09:49:32.669Z",
+      "waybillNumber": "6218"
     },
     {
       "id": "truck_1758966572669_3_kaj49saeb",
@@ -178,6 +179,6 @@
       "updatedAt": "2025-09-27T09:49:32.669Z"
     }
   ],
-  "lastModified": "2025-09-27T11:20:53.445Z",
+  "lastModified": "2025-09-27T11:21:03.520Z",
   "version": "2.0.0"
 }
