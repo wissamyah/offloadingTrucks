@@ -1,4 +1,149 @@
 {
-  "trucks": [],
-  "lastUpdated": "2025-09-26T23:36:56.117Z"
+  "trucks": [
+    {
+      "id": "5abf2757-6612-45ab-901b-49a8620f626b",
+      "supplierName": "Addau isyaku (",
+      "bags": 150,
+      "moistureLevel": 0,
+      "truckNumber": "Moisture - 26%",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-09-27T08:07:43.365Z"
+        }
+      ],
+      "createdAt": "2025-09-27T08:07:43.365Z",
+      "updatedAt": "2025-09-27T08:07:43.365Z"
+    },
+    {
+      "id": "cb923fa0-6b6d-4f0c-bbb8-c11a87a0809c",
+      "supplierName": "H.A Tahir investment (",
+      "bags": 280,
+      "moistureLevel": 0,
+      "truckNumber": "Moisture - 21%",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-09-27T08:07:43.365Z"
+        }
+      ],
+      "createdAt": "2025-09-27T08:07:43.365Z",
+      "updatedAt": "2025-09-27T08:07:43.365Z"
+    },
+    {
+      "id": "209502ff-73c0-4a0a-a7c8-076afc4fa80a",
+      "supplierName": "Jana tropical food production (",
+      "bags": 150,
+      "moistureLevel": 0,
+      "truckNumber": "Moisture - 23%",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-09-27T08:07:43.365Z"
+        }
+      ],
+      "createdAt": "2025-09-27T08:07:43.365Z",
+      "updatedAt": "2025-09-27T08:07:43.365Z"
+    },
+    {
+      "id": "a3e85b9f-84b1-4bd2-a620-3599d48d1abe",
+      "supplierName": "Addau isyaku (",
+      "bags": 184,
+      "moistureLevel": 0,
+      "truckNumber": "Moisture -21%",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-09-27T08:07:43.365Z"
+        }
+      ],
+      "createdAt": "2025-09-27T08:07:43.365Z",
+      "updatedAt": "2025-09-27T08:07:43.365Z"
+    },
+    {
+      "id": "335802f3-0fa1-4b9e-9a4c-25189cfa6f32",
+      "supplierName": "Addau isyaku (",
+      "bags": 210,
+      "moistureLevel": 0,
+      "truckNumber": "Moisture - 25%",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-09-27T08:07:43.365Z"
+        }
+      ],
+      "createdAt": "2025-09-27T08:07:43.365Z",
+      "updatedAt": "2025-09-27T08:07:43.365Z"
+    },
+    {
+      "id": "7182e9f6-5246-48ec-bd98-fd8fc0caff79",
+      "supplierName": "Addau isyaku (",
+      "bags": 150,
+      "moistureLevel": 0,
+      "truckNumber": "Moisture - 23%",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-09-27T08:07:43.365Z"
+        }
+      ],
+      "createdAt": "2025-09-27T08:07:43.365Z",
+      "updatedAt": "2025-09-27T08:07:43.365Z"
+    },
+    {
+      "id": "ba508ad4-1616-4f80-8695-02a59f2c7432",
+      "supplierName": "Jana tropical food production (",
+      "bags": 441,
+      "moistureLevel": 0,
+      "truckNumber": "Moisture - 22%",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-09-27T08:07:43.365Z"
+        }
+      ],
+      "createdAt": "2025-09-27T08:07:43.365Z",
+      "updatedAt": "2025-09-27T08:07:43.365Z"
+    },
+    {
+      "id": "27548e94-c5eb-4808-bbbe-2eb600b9bf0e",
+      "supplierName": "Kabiru sani bako (",
+      "bags": 390,
+      "moistureLevel": 0,
+      "truckNumber": "Moisture - 31%",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-09-27T08:07:43.365Z"
+        }
+      ],
+      "createdAt": "2025-09-27T08:07:43.365Z",
+      "updatedAt": "2025-09-27T08:07:43.365Z"
+    },
+    {
+      "id": "6122c604-927a-476b-b64a-1f210775fe33",
+      "supplierName": "Mohd Usman (",
+      "bags": 100,
+      "moistureLevel": 0,
+      "truckNumber": "Moisture - 28%",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-09-27T08:07:43.365Z"
+        }
+      ],
+      "createdAt": "2025-09-27T08:07:43.365Z",
+      "updatedAt": "2025-09-27T08:07:43.365Z"
+    }
+  ],
+  "lastUpdated": "2025-09-27T08:07:43.365Z"
 }
