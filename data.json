@@ -193,7 +193,7 @@
       "bags": 500,
       "moistureLevel": 21,
       "truckNumber": "GME 690 ZY",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
@@ -201,9 +201,10 @@
         }
       ],
       "createdAt": "2025-09-27T13:01:39.766Z",
-      "updatedAt": "2025-09-27T13:01:39.766Z"
+      "updatedAt": "2025-09-27T13:01:39.766Z",
+      "waybillNumber": "6226"
     }
   ],
-  "lastModified": "2025-09-27T13:01:54.949Z",
+  "lastModified": "2025-09-27T13:14:58.093Z",
   "version": "2.0.0"
 }
