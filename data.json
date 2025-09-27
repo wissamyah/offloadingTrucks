@@ -150,7 +150,7 @@
       "bags": 203,
       "moistureLevel": 26,
       "truckNumber": "TRN 661 ZY",
-      "status": "pending",
+      "status": "rejected",
       "statusHistory": [
         {
           "status": "pending",
@@ -177,6 +177,6 @@
       "updatedAt": "2025-09-27T09:49:32.669Z"
     }
   ],
-  "lastModified": "2025-09-27T11:12:30.096Z",
+  "lastModified": "2025-09-27T11:12:33.077Z",
   "version": "2.0.0"
 }
