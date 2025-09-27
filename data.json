@@ -15,8 +15,24 @@
       ],
       "createdAt": "2025-09-27T09:32:52.091Z",
       "updatedAt": "2025-09-27T09:32:52.091Z"
+    },
+    {
+      "id": "truck_1758965572902_iu3qe2e3n",
+      "supplierName": "H.A Tahir investment",
+      "bags": 280,
+      "moistureLevel": 21,
+      "truckNumber": "KTG 435 YG",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-09-27T09:32:52.902Z"
+        }
+      ],
+      "createdAt": "2025-09-27T09:32:52.902Z",
+      "updatedAt": "2025-09-27T09:32:52.902Z"
     }
   ],
-  "lastModified": "2025-09-27T09:32:52.220Z",
+  "lastModified": "2025-09-27T09:32:53.391Z",
   "version": "2.0.0"
 }
