@@ -47,8 +47,24 @@
       ],
       "createdAt": "2025-09-27T09:32:54.028Z",
       "updatedAt": "2025-09-27T09:32:54.028Z"
+    },
+    {
+      "id": "truck_1758965575033_f8m60vu64",
+      "supplierName": "Addau isyaku",
+      "bags": 184,
+      "moistureLevel": 21,
+      "truckNumber": "GWL 889 YG",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-09-27T09:32:55.033Z"
+        }
+      ],
+      "createdAt": "2025-09-27T09:32:55.033Z",
+      "updatedAt": "2025-09-27T09:32:55.033Z"
     }
   ],
-  "lastModified": "2025-09-27T09:32:54.413Z",
+  "lastModified": "2025-09-27T09:32:55.464Z",
   "version": "2.0.0"
 }
