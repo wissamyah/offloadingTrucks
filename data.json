@@ -226,7 +226,7 @@
       "bags": 113,
       "moistureLevel": 24,
       "truckNumber": "KMC 84 XU",
-      "status": "pending",
+      "status": "rejected",
       "statusHistory": [
         {
           "status": "pending",
@@ -333,6 +333,6 @@
       "updatedAt": "2025-09-28T09:58:20.978Z"
     }
   ],
-  "lastModified": "2025-09-28T09:59:48.442Z",
+  "lastModified": "2025-09-28T09:59:53.768Z",
   "version": "2.0.0"
 }
