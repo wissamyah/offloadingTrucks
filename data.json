@@ -334,8 +334,24 @@
       ],
       "createdAt": "2025-09-28T09:58:20.978Z",
       "updatedAt": "2025-09-28T09:58:20.978Z"
+    },
+    {
+      "id": "truck_1759053698001_0_m8926vhdn",
+      "supplierName": "mansur mansur",
+      "bags": 115,
+      "moistureLevel": 22,
+      "truckNumber": "KMC 45 BW",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-09-28T10:01:38.001Z"
+        }
+      ],
+      "createdAt": "2025-09-28T10:01:38.001Z",
+      "updatedAt": "2025-09-28T10:01:38.001Z"
     }
   ],
-  "lastModified": "2025-09-28T10:01:20.513Z",
+  "lastModified": "2025-09-28T10:01:38.033Z",
   "version": "2.0.0"
 }
