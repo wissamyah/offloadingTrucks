@@ -274,7 +274,7 @@
       "bags": 136,
       "moistureLevel": 22,
       "truckNumber": "LSR 622 XR",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
@@ -282,7 +282,8 @@
         }
       ],
       "createdAt": "2025-09-28T09:58:20.978Z",
-      "updatedAt": "2025-09-28T09:58:20.978Z"
+      "updatedAt": "2025-09-28T09:58:20.978Z",
+      "waybillNumber": "6231"
     },
     {
       "id": "truck_1759053500978_6_7xoggk8fm",
@@ -334,6 +335,6 @@
       "updatedAt": "2025-09-28T09:58:20.978Z"
     }
   ],
-  "lastModified": "2025-09-28T10:00:58.922Z",
+  "lastModified": "2025-09-28T10:01:11.577Z",
   "version": "2.0.0"
 }
