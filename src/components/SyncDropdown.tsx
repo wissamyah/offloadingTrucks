@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Cloud, CloudOff, RefreshCw, Settings, Github, Eye, EyeOff, X } from 'lucide-react';
 import { LoadingButton } from './LoadingButton';
 import { githubSync } from '../services/githubSync';
+import { useGitHubSync } from '../hooks/useGitHubSync';
 import toast from 'react-hot-toast';
 
 interface SyncDropdownProps {
@@ -9,6 +10,7 @@ interface SyncDropdownProps {
 }
 
 export const SyncDropdown: React.FC<SyncDropdownProps> = ({ onConfigured }) => {
+  const { refresh } = useGitHubSync();
   const [showDropdown, setShowDropdown] = useState(false);
   const [showGitHubSettings, setShowGitHubSettings] = useState(false);
   const [token, setToken] = useState('');
@@ -85,13 +87,12 @@ export const SyncDropdown: React.FC<SyncDropdownProps> = ({ onConfigured }) => {
 
   const handleRefresh = async () => {
     try {
-      const data = await githubSync.fetchData();
-      toast.success('Data refreshed from GitHub');
+      await refresh();
       if (onConfigured) {
         onConfigured();
       }
     } catch (error) {
-      toast.error('Failed to refresh data');
+      // Error already handled by hook
     }
   };
 

@@ -68,7 +68,6 @@ export const MessageInput: React.FC<MessageInputProps> = ({ onProcess, onReset }
 
       await onProcess(entries);
       setMessage('');
-      toast.success(`Successfully processed ${entries.length} truck${entries.length > 1 ? 's' : ''}`);
 
       // Smooth scroll to table
       setTimeout(() => {
@@ -78,7 +77,7 @@ export const MessageInput: React.FC<MessageInputProps> = ({ onProcess, onReset }
         }
       }, 100);
     } catch (error: any) {
-      toast.error(error.message || 'Failed to process message');
+      // Error already handled by hook
     } finally {
       setProcessing(false);
     }
@@ -94,9 +93,8 @@ export const MessageInput: React.FC<MessageInputProps> = ({ onProcess, onReset }
     try {
       await onReset();
       setMessage('');
-      toast.success('All truck data has been reset');
     } catch (error: any) {
-      toast.error(error.message || 'Failed to reset data');
+      // Error already handled by hook
     } finally {
       setResetting(false);
     }
@@ -112,7 +110,7 @@ export const MessageInput: React.FC<MessageInputProps> = ({ onProcess, onReset }
           ref={textareaRef}
           id="message-input"
           className="w-full px-3 py-2 text-gray-100 bg-gray-700 border border-gray-600 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent resize-none transition-[height,border-color,box-shadow] duration-500 ease-out"
-          style={{ minHeight: '60px', overflow: 'hidden' }}
+          style={{ minHeight: '60px', overflow: 'auto' }}
           placeholder="Paste WhatsApp message here..."
           value={message}
           onChange={(e) => setMessage(e.target.value)}

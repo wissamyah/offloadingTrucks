@@ -48,9 +48,9 @@ export function getTimeDifference(dateString: string): string {
 export function groupByDate<T extends { createdAt: string }>(items: T[]): Map<string, T[]> {
   const grouped = new Map<string, T[]>();
 
-  // Sort items by createdAt (oldest first - FIFO)
+  // Sort items by createdAt (newest first - LIFO)
   const sortedItems = [...items].sort((a, b) =>
-    new Date(a.createdAt).getTime() - new Date(b.createdAt).getTime()
+    new Date(b.createdAt).getTime() - new Date(a.createdAt).getTime()
   );
 
   sortedItems.forEach(item => {

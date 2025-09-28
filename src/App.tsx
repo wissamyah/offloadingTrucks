@@ -76,14 +76,25 @@ function App() {
     return Array.from(groupedTrucks.keys());
   }, [groupedTrucks]);
 
-  // Set initial selected date
+  // Set initial selected date (default to today's date)
   useEffect(() => {
-    if (availableDates.length > 0 && !selectedDate) {
-      setSelectedDate(availableDates[0]);
-    } else if (availableDates.length === 0) {
-      setSelectedDate('');
-    } else if (!availableDates.includes(selectedDate)) {
-      setSelectedDate(availableDates[0]);
+    const today = new Date().toISOString().split('T')[0]; // Format: yyyy-MM-dd
+
+    if (!selectedDate) {
+      // If no date is selected, try to set today's date or fall back to the first available
+      if (availableDates.includes(today)) {
+        setSelectedDate(today);
+      } else if (availableDates.length > 0) {
+        setSelectedDate(availableDates[0]);
+      } else {
+        // No data yet, but set today's date anyway
+        setSelectedDate(today);
+      }
+    } else if (availableDates.length > 0 && !availableDates.includes(selectedDate)) {
+      // If selected date has no data, keep it selected (especially for today)
+      if (selectedDate !== today) {
+        setSelectedDate(availableDates[0]);
+      }
     }
   }, [availableDates, selectedDate]);
 
@@ -115,7 +126,6 @@ function App() {
 
     try {
       await updateTruckStatus(truckId, 'scaled_in', { waybillNumber });
-      toast.success('Truck scaled in successfully');
     } catch (error) {
       // Error already handled by hook
     } finally {
@@ -138,7 +148,6 @@ function App() {
 
     try {
       await updateTruckStatus(truckId, 'offloaded', { netWeight, deduction });
-      toast.success('Truck marked as offloaded');
     } catch (error) {
       // Error already handled by hook
     } finally {
@@ -151,7 +160,6 @@ function App() {
 
     try {
       await updateTruckStatus(truckId, 'rejected');
-      toast.success('Truck rejected');
     } catch (error) {
       // Error already handled by hook
     } finally {
@@ -168,7 +176,6 @@ function App() {
 
     try {
       await updateTruck(editModal.truck.id, updates);
-      toast.success('Truck details updated');
     } catch (error) {
       // Error already handled by hook
     }

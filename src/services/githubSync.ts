@@ -69,7 +69,8 @@ class GitHubSyncService {
       const file = await response.json();
       this.currentSha = file.sha;
 
-      const content = atob(file.content);
+      // Properly decode base64 with UTF-8 support
+      const content = decodeURIComponent(escape(atob(file.content)));
       const data = JSON.parse(content) as TruckData;
 
       // Ensure data structure
@@ -104,11 +105,13 @@ class GitHubSyncService {
         }
       }
 
-      const content = btoa(JSON.stringify({
+      // Properly encode to base64 with UTF-8 support
+      const jsonString = JSON.stringify({
         ...data,
         lastModified: new Date().toISOString(),
         version: '2.0.0'
-      }, null, 2));
+      }, null, 2);
+      const content = btoa(unescape(encodeURIComponent(jsonString)));
 
       const body: any = {
         message,
