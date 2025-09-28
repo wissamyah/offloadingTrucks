@@ -1,5 +1,54 @@
 {
-  "trucks": [],
-  "lastModified": "2025-09-28T15:44:16.661Z",
+  "trucks": [
+    {
+      "id": "truck_1759075460573_0_54pna0y1g",
+      "supplierName": "Addau isyaku",
+      "bags": 112,
+      "moistureLevel": 21,
+      "truckNumber": "MLF 334 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-09-28T16:04:20.573Z"
+        }
+      ],
+      "createdAt": "2025-09-28T16:04:20.573Z",
+      "updatedAt": "2025-09-28T16:04:20.573Z"
+    },
+    {
+      "id": "truck_1759075460573_1_bs7sird03",
+      "supplierName": "Idris Garba",
+      "bags": 38,
+      "moistureLevel": 20,
+      "truckNumber": "LSR 794 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-09-28T16:04:20.573Z"
+        }
+      ],
+      "createdAt": "2025-09-28T16:04:20.573Z",
+      "updatedAt": "2025-09-28T16:04:20.573Z"
+    },
+    {
+      "id": "truck_1759075460573_2_dvagn6ayw",
+      "supplierName": "Idris Garba",
+      "bags": 100,
+      "moistureLevel": 23.7,
+      "truckNumber": "DDM  176 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-09-28T16:04:20.573Z"
+        }
+      ],
+      "createdAt": "2025-09-28T16:04:20.573Z",
+      "updatedAt": "2025-09-28T16:04:20.573Z"
+    }
+  ],
+  "lastModified": "2025-09-28T16:04:20.599Z",
   "version": "2.0.0"
 }
