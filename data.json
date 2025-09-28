@@ -37,7 +37,7 @@
       "supplierName": "mansur mansur",
       "bags": 115,
       "moistureLevel": 22,
-      "truckNumber": "4 bags black rice",
+      "truckNumber": "ABC 123 DEF",
       "status": "pending",
       "statusHistory": [
         {
@@ -145,6 +145,6 @@
       "updatedAt": "2025-09-28T20:03:07.286Z"
     }
   ],
-  "lastModified": "2025-09-28T20:03:07.361Z",
+  "lastModified": "2025-09-28T20:03:18.367Z",
   "version": "2.0.0"
 }
