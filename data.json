@@ -237,22 +237,6 @@
       "updatedAt": "2025-09-28T09:58:20.978Z"
     },
     {
-      "id": "truck_1759053500978_2_hc46r2n50",
-      "supplierName": "mansur mansur",
-      "bags": 115,
-      "moistureLevel": 22,
-      "truckNumber": "4 bags black rice",
-      "status": "pending",
-      "statusHistory": [
-        {
-          "status": "pending",
-          "timestamp": "2025-09-28T09:58:20.978Z"
-        }
-      ],
-      "createdAt": "2025-09-28T09:58:20.978Z",
-      "updatedAt": "2025-09-28T09:58:20.978Z"
-    },
-    {
       "id": "truck_1759053500978_3_r0ltd8god",
       "supplierName": "Samul chamblatela",
       "bags": 201,
@@ -349,6 +333,6 @@
       "updatedAt": "2025-09-28T09:58:20.978Z"
     }
   ],
-  "lastModified": "2025-09-28T09:58:21.015Z",
+  "lastModified": "2025-09-28T09:59:39.049Z",
   "version": "2.0.0"
 }
