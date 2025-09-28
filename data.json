@@ -290,7 +290,7 @@
       "bags": 95,
       "moistureLevel": 21,
       "truckNumber": "BKR 495 XA",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
@@ -298,7 +298,8 @@
         }
       ],
       "createdAt": "2025-09-28T09:58:20.978Z",
-      "updatedAt": "2025-09-28T09:58:20.978Z"
+      "updatedAt": "2025-09-28T09:58:20.978Z",
+      "waybillNumber": "6232"
     },
     {
       "id": "truck_1759053500978_7_29ghs4c23",
@@ -333,6 +334,6 @@
       "updatedAt": "2025-09-28T09:58:20.978Z"
     }
   ],
-  "lastModified": "2025-09-28T10:00:40.154Z",
+  "lastModified": "2025-09-28T10:00:58.922Z",
   "version": "2.0.0"
 }
