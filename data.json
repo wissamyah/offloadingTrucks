@@ -1,22 +1,5 @@
 {
-  "trucks": [
-    {
-      "id": "truck_1759089841369_2_lw44icisr",
-      "supplierName": "Idris Garba",
-      "bags": 100,
-      "moistureLevel": 23.7,
-      "truckNumber": "DDM  176 XA",
-      "status": "pending",
-      "statusHistory": [
-        {
-          "status": "pending",
-          "timestamp": "2025-09-28T20:04:01.369Z"
-        }
-      ],
-      "createdAt": "2025-09-28T20:04:01.369Z",
-      "updatedAt": "2025-09-28T20:04:01.369Z"
-    }
-  ],
-  "lastModified": "2025-09-28T20:04:12.613Z",
+  "trucks": [],
+  "lastModified": "2025-09-28T20:04:15.358Z",
   "version": "2.0.0"
 }
