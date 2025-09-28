@@ -47,8 +47,152 @@
       ],
       "createdAt": "2025-09-28T16:04:20.573Z",
       "updatedAt": "2025-09-28T16:04:20.573Z"
+    },
+    {
+      "id": "truck_1759075476975_0_xjit8th7t",
+      "supplierName": "Zakariya Hudu",
+      "bags": 104,
+      "moistureLevel": 23.5,
+      "truckNumber": "APP 267 XM",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-09-28T16:04:36.975Z"
+        }
+      ],
+      "createdAt": "2025-09-28T16:04:36.975Z",
+      "updatedAt": "2025-09-28T16:04:36.975Z"
+    },
+    {
+      "id": "truck_1759075476975_1_tqmygf0j8",
+      "supplierName": "Addau isyaku",
+      "bags": 113,
+      "moistureLevel": 24,
+      "truckNumber": "KMC 84 XU",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-09-28T16:04:36.975Z"
+        }
+      ],
+      "createdAt": "2025-09-28T16:04:36.975Z",
+      "updatedAt": "2025-09-28T16:04:36.975Z"
+    },
+    {
+      "id": "truck_1759075476975_2_tc1v8vge0",
+      "supplierName": "mansur mansur",
+      "bags": 115,
+      "moistureLevel": 22,
+      "truckNumber": "4 bags black rice",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-09-28T16:04:36.975Z"
+        }
+      ],
+      "createdAt": "2025-09-28T16:04:36.975Z",
+      "updatedAt": "2025-09-28T16:04:36.975Z"
+    },
+    {
+      "id": "truck_1759075476975_3_ymbp6i56b",
+      "supplierName": "Samul chamblatela",
+      "bags": 201,
+      "moistureLevel": 28,
+      "truckNumber": "BNW 328 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-09-28T16:04:36.975Z"
+        }
+      ],
+      "createdAt": "2025-09-28T16:04:36.975Z",
+      "updatedAt": "2025-09-28T16:04:36.975Z"
+    },
+    {
+      "id": "truck_1759075476975_4_i61fcxkoa",
+      "supplierName": "Idris Garba",
+      "bags": 225,
+      "moistureLevel": 26,
+      "truckNumber": "MMUS 228XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-09-28T16:04:36.975Z"
+        }
+      ],
+      "createdAt": "2025-09-28T16:04:36.975Z",
+      "updatedAt": "2025-09-28T16:04:36.975Z"
+    },
+    {
+      "id": "truck_1759075476975_5_98ro9d9u6",
+      "supplierName": "Addau isyaku",
+      "bags": 136,
+      "moistureLevel": 22,
+      "truckNumber": "LSR 622 XR",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-09-28T16:04:36.975Z"
+        }
+      ],
+      "createdAt": "2025-09-28T16:04:36.975Z",
+      "updatedAt": "2025-09-28T16:04:36.975Z"
+    },
+    {
+      "id": "truck_1759075476975_6_i7m3dohj8",
+      "supplierName": "Addau isyaku",
+      "bags": 95,
+      "moistureLevel": 21,
+      "truckNumber": "BBK 495 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-09-28T16:04:36.975Z"
+        }
+      ],
+      "createdAt": "2025-09-28T16:04:36.975Z",
+      "updatedAt": "2025-09-28T16:04:36.975Z"
+    },
+    {
+      "id": "truck_1759075476975_7_k7zddiahf",
+      "supplierName": "Addau isyaku",
+      "bags": 104,
+      "moistureLevel": 22,
+      "truckNumber": "BGW  878 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-09-28T16:04:36.975Z"
+        }
+      ],
+      "createdAt": "2025-09-28T16:04:36.975Z",
+      "updatedAt": "2025-09-28T16:04:36.975Z"
+    },
+    {
+      "id": "truck_1759075476975_8_jzpdwwah6",
+      "supplierName": "Idris Garba",
+      "bags": 110,
+      "moistureLevel": 28,
+      "truckNumber": "LSR 516 XJ",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-09-28T16:04:36.975Z"
+        }
+      ],
+      "createdAt": "2025-09-28T16:04:36.975Z",
+      "updatedAt": "2025-09-28T16:04:36.975Z"
     }
   ],
-  "lastModified": "2025-09-28T16:04:20.599Z",
+  "lastModified": "2025-09-28T16:04:37.360Z",
   "version": "2.0.0"
 }
