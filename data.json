@@ -308,7 +308,7 @@
       "bags": 104,
       "moistureLevel": 22,
       "truckNumber": "BGW  878 XA",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
@@ -316,7 +316,8 @@
         }
       ],
       "createdAt": "2025-09-28T09:58:20.978Z",
-      "updatedAt": "2025-09-28T09:58:20.978Z"
+      "updatedAt": "2025-09-28T09:58:20.978Z",
+      "waybillNumber": "6230"
     },
     {
       "id": "truck_1759053500978_8_qo3gx0qmk",
@@ -335,6 +336,6 @@
       "updatedAt": "2025-09-28T09:58:20.978Z"
     }
   ],
-  "lastModified": "2025-09-28T10:01:11.577Z",
+  "lastModified": "2025-09-28T10:01:20.513Z",
   "version": "2.0.0"
 }
