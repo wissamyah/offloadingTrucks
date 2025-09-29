@@ -6,7 +6,7 @@
       "bags": 200,
       "moistureLevel": 20,
       "truckNumber": "NLG 677 XA",
-      "status": "scaled_in",
+      "status": "rejected",
       "statusHistory": [
         {
           "status": "pending",
@@ -71,6 +71,6 @@
       "waybillNumber": "6245"
     }
   ],
-  "lastModified": "2025-09-29T10:12:47.365Z",
+  "lastModified": "2025-09-29T10:45:00.874Z",
   "version": "2.0.0"
 }
