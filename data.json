@@ -39,7 +39,7 @@
       "bags": 10,
       "moistureLevel": 20,
       "truckNumber": "MGA 396 XA",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -48,7 +48,8 @@
       ],
       "createdAt": "2025-09-29T07:42:09.154Z",
       "updatedAt": "2025-09-29T07:42:09.154Z",
-      "waybillNumber": "6243"
+      "waybillNumber": "6243",
+      "netWeight": 1350
     },
     {
       "id": "truck_1759131729154_3_jo88ls0f6",
@@ -69,6 +70,6 @@
       "netWeight": 6740
     }
   ],
-  "lastModified": "2025-09-29T09:01:12.535Z",
+  "lastModified": "2025-09-29T09:01:18.662Z",
   "version": "2.0.0"
 }
