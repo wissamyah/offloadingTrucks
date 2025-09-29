@@ -54,7 +54,7 @@
       "bags": 105,
       "moistureLevel": 21,
       "truckNumber": "BJK 427 XA",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
@@ -62,9 +62,10 @@
         }
       ],
       "createdAt": "2025-09-29T07:42:09.154Z",
-      "updatedAt": "2025-09-29T07:42:09.154Z"
+      "updatedAt": "2025-09-29T07:42:09.154Z",
+      "waybillNumber": "6241"
     }
   ],
-  "lastModified": "2025-09-29T07:42:09.910Z",
+  "lastModified": "2025-09-29T07:42:29.624Z",
   "version": "2.0.0"
 }
