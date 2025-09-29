@@ -52,8 +52,24 @@
       "updatedAt": "2025-09-29T07:42:09.154Z",
       "waybillNumber": "6241",
       "netWeight": 6740
+    },
+    {
+      "id": "truck_1759139948645_0_c8owu2yfm",
+      "supplierName": "H.A.Tahir",
+      "bags": 270,
+      "moistureLevel": 22,
+      "truckNumber": "MJB 216 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-09-29T09:59:08.645Z"
+        }
+      ],
+      "createdAt": "2025-09-29T09:59:08.645Z",
+      "updatedAt": "2025-09-29T09:59:08.645Z"
     }
   ],
-  "lastModified": "2025-09-29T09:02:39.740Z",
+  "lastModified": "2025-09-29T09:59:08.676Z",
   "version": "2.0.0"
 }
