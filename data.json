@@ -70,8 +70,24 @@
       "updatedAt": "2025-09-29T09:59:08.645Z",
       "waybillNumber": "6245",
       "netWeight": 17000
+    },
+    {
+      "id": "truck_1759155064254_0_1d6d14a88",
+      "supplierName": "Addau isyaku",
+      "bags": 30,
+      "moistureLevel": 16,
+      "truckNumber": "KZR 20 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-09-29T14:11:04.254Z"
+        }
+      ],
+      "createdAt": "2025-09-29T14:11:04.255Z",
+      "updatedAt": "2025-09-29T14:11:04.255Z"
     }
   ],
-  "lastModified": "2025-09-29T11:05:05.356Z",
+  "lastModified": "2025-09-29T14:11:04.332Z",
   "version": "2.0.0"
 }
