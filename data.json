@@ -59,7 +59,7 @@
       "bags": 270,
       "moistureLevel": 22,
       "truckNumber": "MJB 216 XA",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -68,9 +68,10 @@
       ],
       "createdAt": "2025-09-29T09:59:08.645Z",
       "updatedAt": "2025-09-29T09:59:08.645Z",
-      "waybillNumber": "6245"
+      "waybillNumber": "6245",
+      "netWeight": 17000
     }
   ],
-  "lastModified": "2025-09-29T10:45:00.874Z",
+  "lastModified": "2025-09-29T11:05:05.356Z",
   "version": "2.0.0"
 }
