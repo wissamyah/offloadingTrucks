@@ -18,22 +18,6 @@
       "waybillNumber": "6242"
     },
     {
-      "id": "truck_1759131729154_1_nvt9fwqgl",
-      "supplierName": "Addau isyaku",
-      "bags": 120,
-      "moistureLevel": 22.5,
-      "truckNumber": "All bags black and yellow rice 20%",
-      "status": "rejected",
-      "statusHistory": [
-        {
-          "status": "pending",
-          "timestamp": "2025-09-29T07:42:09.154Z"
-        }
-      ],
-      "createdAt": "2025-09-29T07:42:09.154Z",
-      "updatedAt": "2025-09-29T07:42:09.154Z"
-    },
-    {
       "id": "truck_1759131729154_2_ys0rp2k73",
       "supplierName": "Nazur Abdulmuminu",
       "bags": 10,
@@ -70,6 +54,6 @@
       "netWeight": 6740
     }
   ],
-  "lastModified": "2025-09-29T09:01:18.662Z",
+  "lastModified": "2025-09-29T09:02:39.740Z",
   "version": "2.0.0"
 }
