@@ -52,8 +52,8 @@
     },
     {
       "id": "truck_1759131729154_3_jo88ls0f6",
-      "supplierName": "4.Bahiru Haruna Babangida",
-      "bags": 105,
+      "supplierName": "Idris Garba",
+      "bags": 90,
       "moistureLevel": 21,
       "truckNumber": "BJK 427 XA",
       "status": "scaled_in",
@@ -68,6 +68,6 @@
       "waybillNumber": "6241"
     }
   ],
-  "lastModified": "2025-09-29T08:57:25.588Z",
+  "lastModified": "2025-09-29T08:57:46.438Z",
   "version": "2.0.0"
 }
