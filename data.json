@@ -1,5 +1,70 @@
 {
-  "trucks": [],
-  "lastModified": "2025-09-28T20:04:22.339Z",
+  "trucks": [
+    {
+      "id": "truck_1759131729154_0_q317ofz9u",
+      "supplierName": "Jana tropical food production invest",
+      "bags": 200,
+      "moistureLevel": 20,
+      "truckNumber": "NLG 677 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-09-29T07:42:09.154Z"
+        }
+      ],
+      "createdAt": "2025-09-29T07:42:09.154Z",
+      "updatedAt": "2025-09-29T07:42:09.154Z"
+    },
+    {
+      "id": "truck_1759131729154_1_nvt9fwqgl",
+      "supplierName": "Addau isyaku",
+      "bags": 120,
+      "moistureLevel": 22.5,
+      "truckNumber": "All bags black and yellow rice 20%",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-09-29T07:42:09.154Z"
+        }
+      ],
+      "createdAt": "2025-09-29T07:42:09.154Z",
+      "updatedAt": "2025-09-29T07:42:09.154Z"
+    },
+    {
+      "id": "truck_1759131729154_2_ys0rp2k73",
+      "supplierName": "Nazur Abdulmuminu",
+      "bags": 10,
+      "moistureLevel": 20,
+      "truckNumber": "MGA 396 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-09-29T07:42:09.154Z"
+        }
+      ],
+      "createdAt": "2025-09-29T07:42:09.154Z",
+      "updatedAt": "2025-09-29T07:42:09.154Z"
+    },
+    {
+      "id": "truck_1759131729154_3_jo88ls0f6",
+      "supplierName": "4.Bahiru Haruna Babangida",
+      "bags": 105,
+      "moistureLevel": 21,
+      "truckNumber": "BJK 427 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-09-29T07:42:09.154Z"
+        }
+      ],
+      "createdAt": "2025-09-29T07:42:09.154Z",
+      "updatedAt": "2025-09-29T07:42:09.154Z"
+    }
+  ],
+  "lastModified": "2025-09-29T07:42:09.910Z",
   "version": "2.0.0"
 }
