@@ -173,22 +173,6 @@
       "updatedAt": "2025-09-30T07:36:01.109Z"
     },
     {
-      "id": "truck_1759217761109_4_eyhcbk2si",
-      "supplierName": "Kabiru sani Bako",
-      "bags": 248,
-      "moistureLevel": 22,
-      "truckNumber": "6  Soba Turawa 406 bags",
-      "status": "pending",
-      "statusHistory": [
-        {
-          "status": "pending",
-          "timestamp": "2025-09-30T07:36:01.109Z"
-        }
-      ],
-      "createdAt": "2025-09-30T07:36:01.109Z",
-      "updatedAt": "2025-09-30T07:36:01.109Z"
-    },
-    {
       "id": "truck_1759217761109_5_0kjdj6hvl",
       "supplierName": "Soba Turawa",
       "bags": 406,
@@ -205,6 +189,6 @@
       "updatedAt": "2025-09-30T07:36:01.109Z"
     }
   ],
-  "lastModified": "2025-09-30T07:36:33.671Z",
+  "lastModified": "2025-09-30T07:50:55.385Z",
   "version": "2.0.0"
 }
