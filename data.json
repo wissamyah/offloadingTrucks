@@ -129,7 +129,7 @@
       "bags": 502,
       "moistureLevel": 23,
       "truckNumber": "To 218 YB",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
@@ -137,7 +137,8 @@
         }
       ],
       "createdAt": "2025-09-30T07:36:01.109Z",
-      "updatedAt": "2025-09-30T07:36:01.109Z"
+      "updatedAt": "2025-09-30T07:36:01.109Z",
+      "waybillNumber": "6254"
     },
     {
       "id": "truck_1759217761109_2_ibez9ooeg",
@@ -207,6 +208,6 @@
       "waybillNumber": "6252"
     }
   ],
-  "lastModified": "2025-09-30T09:13:38.863Z",
+  "lastModified": "2025-09-30T09:18:10.045Z",
   "version": "2.0.0"
 }
