@@ -106,8 +106,104 @@
       "updatedAt": "2025-09-29T15:26:06.911Z",
       "waybillNumber": "6250",
       "netWeight": 1980
+    },
+    {
+      "id": "truck_1759217761109_0_k1in0bkd8",
+      "supplierName": "Ismaila san",
+      "bags": 120,
+      "moistureLevel": 25,
+      "truckNumber": "GWL 323 SK",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-09-30T07:36:01.109Z"
+        }
+      ],
+      "createdAt": "2025-09-30T07:36:01.109Z",
+      "updatedAt": "2025-09-30T07:36:01.109Z"
+    },
+    {
+      "id": "truck_1759217761109_1_w4h66shau",
+      "supplierName": "M.D.global",
+      "bags": 502,
+      "moistureLevel": 23,
+      "truckNumber": "To 218 YB",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-09-30T07:36:01.109Z"
+        }
+      ],
+      "createdAt": "2025-09-30T07:36:01.109Z",
+      "updatedAt": "2025-09-30T07:36:01.109Z"
+    },
+    {
+      "id": "truck_1759217761109_2_ibez9ooeg",
+      "supplierName": "Kabiru sani Bako",
+      "bags": 230,
+      "moistureLevel": 23,
+      "truckNumber": "PKM 94 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-09-30T07:36:01.109Z"
+        }
+      ],
+      "createdAt": "2025-09-30T07:36:01.109Z",
+      "updatedAt": "2025-09-30T07:36:01.109Z"
+    },
+    {
+      "id": "truck_1759217761109_3_vmk6yzyn5",
+      "supplierName": "S.M. Maigoro",
+      "bags": 392,
+      "moistureLevel": 21,
+      "truckNumber": "GWL 348XC",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-09-30T07:36:01.109Z"
+        }
+      ],
+      "createdAt": "2025-09-30T07:36:01.109Z",
+      "updatedAt": "2025-09-30T07:36:01.109Z"
+    },
+    {
+      "id": "truck_1759217761109_4_eyhcbk2si",
+      "supplierName": "Kabiru sani Bako",
+      "bags": 248,
+      "moistureLevel": 22,
+      "truckNumber": "6  Soba Turawa 406 bags",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-09-30T07:36:01.109Z"
+        }
+      ],
+      "createdAt": "2025-09-30T07:36:01.109Z",
+      "updatedAt": "2025-09-30T07:36:01.109Z"
+    },
+    {
+      "id": "truck_1759217761109_5_0kjdj6hvl",
+      "supplierName": "Soba Turawa",
+      "bags": 406,
+      "moistureLevel": 24,
+      "truckNumber": "DKA 397 XJ",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-09-30T07:36:01.109Z"
+        }
+      ],
+      "createdAt": "2025-09-30T07:36:01.109Z",
+      "updatedAt": "2025-09-30T07:36:01.109Z"
     }
   ],
-  "lastModified": "2025-09-29T15:42:17.243Z",
+  "lastModified": "2025-09-30T07:36:01.202Z",
   "version": "2.0.0"
 }
