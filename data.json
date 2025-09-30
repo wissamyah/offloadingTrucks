@@ -233,7 +233,7 @@
       "bags": 100,
       "moistureLevel": 25,
       "truckNumber": "FTA-895-XA",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
@@ -241,9 +241,10 @@
         }
       ],
       "createdAt": "2025-09-30T13:54:48.203Z",
-      "updatedAt": "2025-09-30T13:54:48.203Z"
+      "updatedAt": "2025-09-30T13:54:48.203Z",
+      "waybillNumber": "6263"
     }
   ],
-  "lastModified": "2025-09-30T13:54:48.255Z",
+  "lastModified": "2025-09-30T13:55:17.003Z",
   "version": "2.0.0"
 }
