@@ -267,7 +267,7 @@
       "bags": 103,
       "moistureLevel": 21,
       "truckNumber": "MNA 945 XV",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
@@ -275,9 +275,10 @@
         }
       ],
       "createdAt": "2025-09-30T14:04:31.350Z",
-      "updatedAt": "2025-09-30T14:04:31.350Z"
+      "updatedAt": "2025-09-30T14:04:31.350Z",
+      "waybillNumber": "6264"
     }
   ],
-  "lastModified": "2025-09-30T14:04:31.400Z",
+  "lastModified": "2025-09-30T14:04:48.831Z",
   "version": "2.0.0"
 }
