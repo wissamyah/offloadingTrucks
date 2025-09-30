@@ -183,7 +183,7 @@
       "bags": 406,
       "moistureLevel": 24,
       "truckNumber": "DKA 397 XJ",
-      "status": "scaled_in",
+      "status": "rejected",
       "statusHistory": [
         {
           "status": "pending",
@@ -267,6 +267,6 @@
       "netWeight": 7010
     }
   ],
-  "lastModified": "2025-09-30T14:49:03.104Z",
+  "lastModified": "2025-09-30T15:06:43.189Z",
   "version": "2.0.0"
 }
