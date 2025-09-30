@@ -187,8 +187,24 @@
       ],
       "createdAt": "2025-09-30T07:36:01.109Z",
       "updatedAt": "2025-09-30T07:36:01.109Z"
+    },
+    {
+      "id": "truck_1759218807826_0_7k047hlx6",
+      "supplierName": "Kabiru sani bako",
+      "bags": 248,
+      "moistureLevel": 22,
+      "truckNumber": "SBG 439 XM",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-09-30T07:53:27.826Z"
+        }
+      ],
+      "createdAt": "2025-09-30T07:53:27.826Z",
+      "updatedAt": "2025-09-30T07:53:27.826Z"
     }
   ],
-  "lastModified": "2025-09-30T07:50:55.385Z",
+  "lastModified": "2025-09-30T07:53:28.995Z",
   "version": "2.0.0"
 }
