@@ -113,7 +113,7 @@
       "bags": 120,
       "moistureLevel": 25,
       "truckNumber": "GWL 323 SK",
-      "status": "pending",
+      "status": "rejected",
       "statusHistory": [
         {
           "status": "pending",
@@ -208,6 +208,6 @@
       "waybillNumber": "6252"
     }
   ],
-  "lastModified": "2025-09-30T09:18:10.045Z",
+  "lastModified": "2025-09-30T09:48:55.736Z",
   "version": "2.0.0"
 }
