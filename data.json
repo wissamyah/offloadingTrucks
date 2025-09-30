@@ -196,7 +196,7 @@
       "bags": 248,
       "moistureLevel": 22,
       "truckNumber": "SBG 439 XM",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -205,9 +205,10 @@
       ],
       "createdAt": "2025-09-30T07:53:27.826Z",
       "updatedAt": "2025-09-30T07:53:27.826Z",
-      "waybillNumber": "6252"
+      "waybillNumber": "6252",
+      "netWeight": 15700
     }
   ],
-  "lastModified": "2025-09-30T09:48:55.736Z",
+  "lastModified": "2025-09-30T09:56:36.978Z",
   "version": "2.0.0"
 }
