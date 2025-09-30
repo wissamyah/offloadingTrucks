@@ -229,22 +229,6 @@
       "waybillNumber": "6263"
     },
     {
-      "id": "truck_1759240925992_0_gflpqjzxv",
-      "supplierName": "Idris Garba",
-      "bags": 106,
-      "moistureLevel": 20,
-      "truckNumber": "GWA 109 XS",
-      "status": "pending",
-      "statusHistory": [
-        {
-          "status": "pending",
-          "timestamp": "2025-09-30T14:02:05.992Z"
-        }
-      ],
-      "createdAt": "2025-09-30T14:02:05.992Z",
-      "updatedAt": "2025-09-30T14:02:05.992Z"
-    },
-    {
       "id": "truck_1759240990615_0_qjl4ww5zc",
       "supplierName": "Idris Garba",
       "bags": 106,
@@ -279,6 +263,6 @@
       "waybillNumber": "6264"
     }
   ],
-  "lastModified": "2025-09-30T14:04:48.831Z",
+  "lastModified": "2025-09-30T14:06:08.553Z",
   "version": "2.0.0"
 }
