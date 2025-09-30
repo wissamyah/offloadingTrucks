@@ -217,7 +217,7 @@
       "bags": 100,
       "moistureLevel": 25,
       "truckNumber": "FTA-895-XA",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -226,7 +226,8 @@
       ],
       "createdAt": "2025-09-30T13:54:48.203Z",
       "updatedAt": "2025-09-30T13:54:48.203Z",
-      "waybillNumber": "6263"
+      "waybillNumber": "6263",
+      "netWeight": 7160
     },
     {
       "id": "truck_1759240990615_0_qjl4ww5zc",
@@ -264,6 +265,6 @@
       "waybillNumber": "6264"
     }
   ],
-  "lastModified": "2025-09-30T14:11:11.289Z",
+  "lastModified": "2025-09-30T14:15:09.133Z",
   "version": "2.0.0"
 }
