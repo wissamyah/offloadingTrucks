@@ -163,7 +163,7 @@
       "bags": 392,
       "moistureLevel": 21,
       "truckNumber": "GWL 348XC",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -172,7 +172,9 @@
       ],
       "createdAt": "2025-09-30T07:36:01.109Z",
       "updatedAt": "2025-09-30T07:36:01.109Z",
-      "waybillNumber": "6253"
+      "waybillNumber": "6253",
+      "netWeight": 27170,
+      "deduction": 40
     },
     {
       "id": "truck_1759217761109_5_0kjdj6hvl",
@@ -209,6 +211,6 @@
       "netWeight": 15700
     }
   ],
-  "lastModified": "2025-09-30T09:56:36.978Z",
+  "lastModified": "2025-09-30T10:32:36.263Z",
   "version": "2.0.0"
 }
