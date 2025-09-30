@@ -146,7 +146,7 @@
       "bags": 230,
       "moistureLevel": 23,
       "truckNumber": "PKM 94 XA",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -155,7 +155,8 @@
       ],
       "createdAt": "2025-09-30T07:36:01.109Z",
       "updatedAt": "2025-09-30T07:36:01.109Z",
-      "waybillNumber": "6251"
+      "waybillNumber": "6251",
+      "netWeight": 12060
     },
     {
       "id": "truck_1759217761109_3_vmk6yzyn5",
@@ -211,6 +212,6 @@
       "netWeight": 15700
     }
   ],
-  "lastModified": "2025-09-30T10:32:36.263Z",
+  "lastModified": "2025-09-30T10:33:27.267Z",
   "version": "2.0.0"
 }
