@@ -210,8 +210,24 @@
       "updatedAt": "2025-09-30T07:53:27.826Z",
       "waybillNumber": "6252",
       "netWeight": 15700
+    },
+    {
+      "id": "truck_1759240367006_0_621jiit6y",
+      "supplierName": "Idris Garba",
+      "bags": 100,
+      "moistureLevel": 25,
+      "truckNumber": "FTA-895-XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-09-30T13:52:47.007Z"
+        }
+      ],
+      "createdAt": "2025-09-30T13:52:47.007Z",
+      "updatedAt": "2025-09-30T13:52:47.007Z"
     }
   ],
-  "lastModified": "2025-09-30T11:37:14.707Z",
+  "lastModified": "2025-09-30T13:52:47.124Z",
   "version": "2.0.0"
 }
