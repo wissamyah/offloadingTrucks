@@ -183,7 +183,7 @@
       "bags": 406,
       "moistureLevel": 24,
       "truckNumber": "DKA 397 XJ",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
@@ -191,7 +191,8 @@
         }
       ],
       "createdAt": "2025-09-30T07:36:01.109Z",
-      "updatedAt": "2025-09-30T07:36:01.109Z"
+      "updatedAt": "2025-09-30T07:36:01.109Z",
+      "waybillNumber": "6259"
     },
     {
       "id": "truck_1759218807826_0_7k047hlx6",
@@ -265,6 +266,6 @@
       "waybillNumber": "6264"
     }
   ],
-  "lastModified": "2025-09-30T14:15:09.133Z",
+  "lastModified": "2025-09-30T14:38:36.190Z",
   "version": "2.0.0"
 }
