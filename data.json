@@ -129,7 +129,7 @@
       "bags": 502,
       "moistureLevel": 23,
       "truckNumber": "To 218 YB",
-      "status": "scaled_in",
+      "status": "rejected",
       "statusHistory": [
         {
           "status": "pending",
@@ -212,6 +212,6 @@
       "netWeight": 15700
     }
   ],
-  "lastModified": "2025-09-30T10:33:27.267Z",
+  "lastModified": "2025-09-30T11:37:14.707Z",
   "version": "2.0.0"
 }
