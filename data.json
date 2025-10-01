@@ -340,7 +340,7 @@
       "bags": 110,
       "moistureLevel": 20,
       "truckNumber": "MUS 737 XE",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
@@ -348,7 +348,8 @@
         }
       ],
       "createdAt": "2025-10-01T07:58:36.202Z",
-      "updatedAt": "2025-10-01T07:58:36.202Z"
+      "updatedAt": "2025-10-01T07:58:36.202Z",
+      "waybillNumber": "6273"
     },
     {
       "id": "truck_1759305516200_5_2axa2ls5w",
@@ -383,6 +384,6 @@
       "updatedAt": "2025-10-01T07:58:36.202Z"
     }
   ],
-  "lastModified": "2025-10-01T09:12:09.432Z",
+  "lastModified": "2025-10-01T09:34:40.510Z",
   "version": "2.0.0"
 }
