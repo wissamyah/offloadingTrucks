@@ -304,7 +304,7 @@
       "bags": 100,
       "moistureLevel": 20,
       "truckNumber": "FSK 518 XA",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
@@ -312,7 +312,8 @@
         }
       ],
       "createdAt": "2025-10-01T07:58:36.201Z",
-      "updatedAt": "2025-10-01T07:58:36.201Z"
+      "updatedAt": "2025-10-01T07:58:36.201Z",
+      "waybillNumber": "6270"
     },
     {
       "id": "truck_1759305516200_3_vxcykuewv",
@@ -379,6 +380,6 @@
       "updatedAt": "2025-10-01T07:58:36.202Z"
     }
   ],
-  "lastModified": "2025-10-01T07:58:36.438Z",
+  "lastModified": "2025-10-01T08:00:03.627Z",
   "version": "2.0.0"
 }
