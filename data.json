@@ -391,7 +391,7 @@
       "bags": 97,
       "moistureLevel": 22,
       "truckNumber": "MLF 334 XA",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
@@ -399,9 +399,10 @@
         }
       ],
       "createdAt": "2025-10-01T09:44:09.413Z",
-      "updatedAt": "2025-10-01T09:44:09.413Z"
+      "updatedAt": "2025-10-01T09:44:09.413Z",
+      "waybillNumber": "6276"
     }
   ],
-  "lastModified": "2025-10-01T09:44:09.455Z",
+  "lastModified": "2025-10-01T09:44:28.425Z",
   "version": "2.0.0"
 }
