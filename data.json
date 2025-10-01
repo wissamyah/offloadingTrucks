@@ -272,7 +272,7 @@
       "bags": 100,
       "moistureLevel": 21,
       "truckNumber": "BKR 463 XA",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
@@ -280,7 +280,8 @@
         }
       ],
       "createdAt": "2025-10-01T07:58:36.201Z",
-      "updatedAt": "2025-10-01T07:58:36.201Z"
+      "updatedAt": "2025-10-01T07:58:36.201Z",
+      "waybillNumber": "6271"
     },
     {
       "id": "truck_1759305516200_1_388id00zr",
@@ -380,6 +381,6 @@
       "updatedAt": "2025-10-01T07:58:36.202Z"
     }
   ],
-  "lastModified": "2025-10-01T08:00:03.627Z",
+  "lastModified": "2025-10-01T08:01:57.639Z",
   "version": "2.0.0"
 }
