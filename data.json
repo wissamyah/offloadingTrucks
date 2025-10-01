@@ -377,7 +377,7 @@
       "bags": 154,
       "moistureLevel": 23,
       "truckNumber": "KMC 136 YQ",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -386,7 +386,8 @@
       ],
       "createdAt": "2025-10-01T07:58:36.202Z",
       "updatedAt": "2025-10-01T07:58:36.202Z",
-      "waybillNumber": "6275"
+      "waybillNumber": "6275",
+      "netWeight": 9510
     },
     {
       "id": "truck_1759311849412_0_7pkiyv0dy",
@@ -406,6 +407,6 @@
       "waybillNumber": "6276"
     }
   ],
-  "lastModified": "2025-10-01T10:36:28.691Z",
+  "lastModified": "2025-10-01T10:54:33.461Z",
   "version": "2.0.0"
 }
