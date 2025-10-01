@@ -323,7 +323,7 @@
       "bags": 71,
       "moistureLevel": 20,
       "truckNumber": "All bags black and yellow rice 20%",
-      "status": "pending",
+      "status": "rejected",
       "statusHistory": [
         {
           "status": "pending",
@@ -382,6 +382,6 @@
       "updatedAt": "2025-10-01T07:58:36.202Z"
     }
   ],
-  "lastModified": "2025-10-01T08:04:27.127Z",
+  "lastModified": "2025-10-01T08:18:12.136Z",
   "version": "2.0.0"
 }
