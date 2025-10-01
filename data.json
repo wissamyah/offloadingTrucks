@@ -265,8 +265,120 @@
       "updatedAt": "2025-09-30T14:04:31.350Z",
       "waybillNumber": "6264",
       "netWeight": 7010
+    },
+    {
+      "id": "truck_1759305516200_0_6vc9lp7a2",
+      "supplierName": "Addau isyaku",
+      "bags": 100,
+      "moistureLevel": 21,
+      "truckNumber": "BKR 463 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-01T07:58:36.201Z"
+        }
+      ],
+      "createdAt": "2025-10-01T07:58:36.201Z",
+      "updatedAt": "2025-10-01T07:58:36.201Z"
+    },
+    {
+      "id": "truck_1759305516200_1_388id00zr",
+      "supplierName": "Addau isyaku",
+      "bags": 97,
+      "moistureLevel": 21,
+      "truckNumber": "AAA 924 XE",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-01T07:58:36.201Z"
+        }
+      ],
+      "createdAt": "2025-10-01T07:58:36.201Z",
+      "updatedAt": "2025-10-01T07:58:36.201Z"
+    },
+    {
+      "id": "truck_1759305516200_2_cbn6dilj4",
+      "supplierName": "Addau isyaku",
+      "bags": 100,
+      "moistureLevel": 20,
+      "truckNumber": "FSK 518 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-01T07:58:36.201Z"
+        }
+      ],
+      "createdAt": "2025-10-01T07:58:36.201Z",
+      "updatedAt": "2025-10-01T07:58:36.201Z"
+    },
+    {
+      "id": "truck_1759305516200_3_vxcykuewv",
+      "supplierName": "Zakariya Hudu",
+      "bags": 71,
+      "moistureLevel": 20,
+      "truckNumber": "All bags black and yellow rice 20%",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-01T07:58:36.202Z"
+        }
+      ],
+      "createdAt": "2025-10-01T07:58:36.202Z",
+      "updatedAt": "2025-10-01T07:58:36.202Z"
+    },
+    {
+      "id": "truck_1759305516200_4_pycn6dq8a",
+      "supplierName": "Addau isyaku",
+      "bags": 110,
+      "moistureLevel": 20,
+      "truckNumber": "MUS 737 XE",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-01T07:58:36.202Z"
+        }
+      ],
+      "createdAt": "2025-10-01T07:58:36.202Z",
+      "updatedAt": "2025-10-01T07:58:36.202Z"
+    },
+    {
+      "id": "truck_1759305516200_5_2axa2ls5w",
+      "supplierName": "Mansur Mansur",
+      "bags": 93,
+      "moistureLevel": 21,
+      "truckNumber": "ZUR 165 XP",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-01T07:58:36.202Z"
+        }
+      ],
+      "createdAt": "2025-10-01T07:58:36.202Z",
+      "updatedAt": "2025-10-01T07:58:36.202Z"
+    },
+    {
+      "id": "truck_1759305516200_6_9p504ph59",
+      "supplierName": "Zakariya Hudu",
+      "bags": 154,
+      "moistureLevel": 23,
+      "truckNumber": "KMC 136 YQ",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-01T07:58:36.202Z"
+        }
+      ],
+      "createdAt": "2025-10-01T07:58:36.202Z",
+      "updatedAt": "2025-10-01T07:58:36.202Z"
     }
   ],
-  "lastModified": "2025-09-30T15:06:43.189Z",
+  "lastModified": "2025-10-01T07:58:36.438Z",
   "version": "2.0.0"
 }
