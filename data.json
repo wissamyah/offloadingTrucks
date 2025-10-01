@@ -289,7 +289,7 @@
       "bags": 97,
       "moistureLevel": 21,
       "truckNumber": "AAA 924 XE",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
@@ -297,7 +297,8 @@
         }
       ],
       "createdAt": "2025-10-01T07:58:36.201Z",
-      "updatedAt": "2025-10-01T07:58:36.201Z"
+      "updatedAt": "2025-10-01T07:58:36.201Z",
+      "waybillNumber": "6272"
     },
     {
       "id": "truck_1759305516200_2_cbn6dilj4",
@@ -381,6 +382,6 @@
       "updatedAt": "2025-10-01T07:58:36.202Z"
     }
   ],
-  "lastModified": "2025-10-01T08:01:57.639Z",
+  "lastModified": "2025-10-01T08:04:27.127Z",
   "version": "2.0.0"
 }
