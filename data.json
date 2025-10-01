@@ -384,8 +384,24 @@
       "createdAt": "2025-10-01T07:58:36.202Z",
       "updatedAt": "2025-10-01T07:58:36.202Z",
       "waybillNumber": "6275"
+    },
+    {
+      "id": "truck_1759311849412_0_7pkiyv0dy",
+      "supplierName": "Mansur Mansur",
+      "bags": 97,
+      "moistureLevel": 22,
+      "truckNumber": "MLF 334 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-01T09:44:09.412Z"
+        }
+      ],
+      "createdAt": "2025-10-01T09:44:09.413Z",
+      "updatedAt": "2025-10-01T09:44:09.413Z"
     }
   ],
-  "lastModified": "2025-10-01T09:40:47.960Z",
+  "lastModified": "2025-10-01T09:44:09.455Z",
   "version": "2.0.0"
 }
