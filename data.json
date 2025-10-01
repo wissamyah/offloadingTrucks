@@ -269,7 +269,7 @@
     {
       "id": "truck_1759305516200_0_6vc9lp7a2",
       "supplierName": "Addau isyaku",
-      "bags": 100,
+      "bags": 76,
       "moistureLevel": 21,
       "truckNumber": "BKR 463 XA",
       "status": "offloaded",
@@ -404,6 +404,6 @@
       "waybillNumber": "6276"
     }
   ],
-  "lastModified": "2025-10-01T10:03:58.212Z",
+  "lastModified": "2025-10-01T10:06:55.158Z",
   "version": "2.0.0"
 }
