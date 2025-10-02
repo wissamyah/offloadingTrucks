@@ -405,8 +405,56 @@
       "createdAt": "2025-10-01T09:44:09.413Z",
       "updatedAt": "2025-10-01T09:44:09.413Z",
       "waybillNumber": "6276"
+    },
+    {
+      "id": "truck_1759390717093_0_i75kejgpw",
+      "supplierName": "Addau isyaku",
+      "bags": 110,
+      "moistureLevel": 22,
+      "truckNumber": "BGM 878 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-02T07:38:37.093Z"
+        }
+      ],
+      "createdAt": "2025-10-02T07:38:37.093Z",
+      "updatedAt": "2025-10-02T07:38:37.093Z"
+    },
+    {
+      "id": "truck_1759390717093_1_fypolrrb2",
+      "supplierName": "Idris Garba",
+      "bags": 102,
+      "moistureLevel": 21,
+      "truckNumber": "GWA 109 XS",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-02T07:38:37.093Z"
+        }
+      ],
+      "createdAt": "2025-10-02T07:38:37.093Z",
+      "updatedAt": "2025-10-02T07:38:37.093Z"
+    },
+    {
+      "id": "truck_1759390717093_2_oqcgpvhjq",
+      "supplierName": "Addau isyaku",
+      "bags": 300,
+      "moistureLevel": 21,
+      "truckNumber": "MNA 324 XB",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-02T07:38:37.093Z"
+        }
+      ],
+      "createdAt": "2025-10-02T07:38:37.093Z",
+      "updatedAt": "2025-10-02T07:38:37.093Z"
     }
   ],
-  "lastModified": "2025-10-01T10:54:33.461Z",
+  "lastModified": "2025-10-02T07:38:37.161Z",
   "version": "2.0.0"
 }
