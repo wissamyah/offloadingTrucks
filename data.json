@@ -431,7 +431,7 @@
       "bags": 102,
       "moistureLevel": 21,
       "truckNumber": "GWA 109 XS",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -440,7 +440,9 @@
       ],
       "createdAt": "2025-10-02T07:38:37.093Z",
       "updatedAt": "2025-10-02T07:38:37.093Z",
-      "waybillNumber": "6286"
+      "waybillNumber": "6286",
+      "netWeight": 7170,
+      "deduction": 100
     },
     {
       "id": "truck_1759390717093_2_oqcgpvhjq",
@@ -460,6 +462,6 @@
       "waybillNumber": "6287"
     }
   ],
-  "lastModified": "2025-10-02T09:12:31.617Z",
+  "lastModified": "2025-10-02T09:37:27.854Z",
   "version": "2.0.0"
 }
