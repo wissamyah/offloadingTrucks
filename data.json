@@ -487,7 +487,7 @@
       "bags": 200,
       "moistureLevel": 21,
       "truckNumber": "KMC 333XW",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -496,9 +496,10 @@
       ],
       "createdAt": "2025-10-02T17:30:56.691Z",
       "updatedAt": "2025-10-02T17:30:56.691Z",
-      "waybillNumber": "12,980"
+      "waybillNumber": "12,980",
+      "netWeight": 12980
     }
   ],
-  "lastModified": "2025-10-02T17:31:13.084Z",
+  "lastModified": "2025-10-02T17:31:36.041Z",
   "version": "2.0.0"
 }
