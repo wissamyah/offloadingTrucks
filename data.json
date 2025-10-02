@@ -480,8 +480,24 @@
       "updatedAt": "2025-10-02T11:33:59.505Z",
       "waybillNumber": "6298",
       "netWeight": 18960
+    },
+    {
+      "id": "truck_1759426256690_0_hnq40t3ym",
+      "supplierName": "sobo Turawa",
+      "bags": 200,
+      "moistureLevel": 21,
+      "truckNumber": "KMC 333XW",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-02T17:30:56.690Z"
+        }
+      ],
+      "createdAt": "2025-10-02T17:30:56.691Z",
+      "updatedAt": "2025-10-02T17:30:56.691Z"
     }
   ],
-  "lastModified": "2025-10-02T17:29:41.617Z",
+  "lastModified": "2025-10-02T17:30:56.720Z",
   "version": "2.0.0"
 }
