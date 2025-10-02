@@ -462,8 +462,24 @@
       "waybillNumber": "6287",
       "netWeight": 24480,
       "deduction": 150
+    },
+    {
+      "id": "truck_1759404839505_0_viaakbvj3",
+      "supplierName": "H.A.Tahir",
+      "bags": 250,
+      "moistureLevel": 21,
+      "truckNumber": "KMC 62 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-02T11:33:59.505Z"
+        }
+      ],
+      "createdAt": "2025-10-02T11:33:59.505Z",
+      "updatedAt": "2025-10-02T11:33:59.505Z"
     }
   ],
-  "lastModified": "2025-10-02T10:21:05.131Z",
+  "lastModified": "2025-10-02T11:33:59.592Z",
   "version": "2.0.0"
 }
