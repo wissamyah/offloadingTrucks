@@ -469,7 +469,7 @@
       "bags": 250,
       "moistureLevel": 21,
       "truckNumber": "KMC 62 XA",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
@@ -477,9 +477,10 @@
         }
       ],
       "createdAt": "2025-10-02T11:33:59.505Z",
-      "updatedAt": "2025-10-02T11:33:59.505Z"
+      "updatedAt": "2025-10-02T11:33:59.505Z",
+      "waybillNumber": "6298"
     }
   ],
-  "lastModified": "2025-10-02T11:33:59.592Z",
+  "lastModified": "2025-10-02T11:34:39.150Z",
   "version": "2.0.0"
 }
