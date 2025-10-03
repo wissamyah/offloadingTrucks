@@ -498,8 +498,56 @@
       "updatedAt": "2025-10-02T17:30:56.691Z",
       "waybillNumber": "12,980",
       "netWeight": 12980
+    },
+    {
+      "id": "truck_1759476128053_0_a427z1uc0",
+      "supplierName": "Murtala yahaya",
+      "bags": 105,
+      "moistureLevel": 23,
+      "truckNumber": "MKD 77 ZN.",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-03T07:22:08.053Z"
+        }
+      ],
+      "createdAt": "2025-10-03T07:22:08.053Z",
+      "updatedAt": "2025-10-03T07:22:08.053Z"
+    },
+    {
+      "id": "truck_1759476128053_1_plr1ptems",
+      "supplierName": "Jamilu Jangale",
+      "bags": 230,
+      "moistureLevel": 23,
+      "truckNumber": "GSH 254 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-03T07:22:08.053Z"
+        }
+      ],
+      "createdAt": "2025-10-03T07:22:08.053Z",
+      "updatedAt": "2025-10-03T07:22:08.053Z"
+    },
+    {
+      "id": "truck_1759476128053_2_oh3y7umk8",
+      "supplierName": "Idris Garba",
+      "bags": 98,
+      "moistureLevel": 23,
+      "truckNumber": "TRT 96 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-03T07:22:08.053Z"
+        }
+      ],
+      "createdAt": "2025-10-03T07:22:08.053Z",
+      "updatedAt": "2025-10-03T07:22:08.053Z"
     }
   ],
-  "lastModified": "2025-10-02T17:31:36.041Z",
+  "lastModified": "2025-10-03T07:22:08.115Z",
   "version": "2.0.0"
 }
