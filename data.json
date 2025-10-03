@@ -505,7 +505,7 @@
       "bags": 105,
       "moistureLevel": 23,
       "truckNumber": "MKD 77 ZN.",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -514,7 +514,9 @@
       ],
       "createdAt": "2025-10-03T07:22:08.053Z",
       "updatedAt": "2025-10-03T07:22:08.053Z",
-      "waybillNumber": "6293"
+      "waybillNumber": "6293",
+      "netWeight": 8270,
+      "deduction": 80
     },
     {
       "id": "truck_1759476128053_1_plr1ptems",
@@ -551,6 +553,6 @@
       "waybillNumber": "6294"
     }
   ],
-  "lastModified": "2025-10-03T07:29:40.204Z",
+  "lastModified": "2025-10-03T08:55:58.287Z",
   "version": "2.0.0"
 }
