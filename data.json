@@ -538,7 +538,7 @@
       "bags": 98,
       "moistureLevel": 23,
       "truckNumber": "TRT 96 XA",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
@@ -546,9 +546,10 @@
         }
       ],
       "createdAt": "2025-10-03T07:22:08.053Z",
-      "updatedAt": "2025-10-03T07:22:08.053Z"
+      "updatedAt": "2025-10-03T07:22:08.053Z",
+      "waybillNumber": "6294"
     }
   ],
-  "lastModified": "2025-10-03T07:22:36.859Z",
+  "lastModified": "2025-10-03T07:25:10.472Z",
   "version": "2.0.0"
 }
