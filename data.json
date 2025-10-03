@@ -522,7 +522,7 @@
       "bags": 230,
       "moistureLevel": 23,
       "truckNumber": "GSH 254 XA",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
@@ -530,7 +530,8 @@
         }
       ],
       "createdAt": "2025-10-03T07:22:08.053Z",
-      "updatedAt": "2025-10-03T07:22:08.053Z"
+      "updatedAt": "2025-10-03T07:22:08.053Z",
+      "waybillNumber": "6295"
     },
     {
       "id": "truck_1759476128053_2_oh3y7umk8",
@@ -550,6 +551,6 @@
       "waybillNumber": "6294"
     }
   ],
-  "lastModified": "2025-10-03T07:25:10.472Z",
+  "lastModified": "2025-10-03T07:29:40.204Z",
   "version": "2.0.0"
 }
