@@ -552,8 +552,88 @@
       "updatedAt": "2025-10-03T07:22:08.053Z",
       "waybillNumber": "6294",
       "netWeight": 6370
+    },
+    {
+      "id": "truck_1759566301118_0_32kp1xl9w",
+      "supplierName": "Idris Garba",
+      "bags": 250,
+      "moistureLevel": 23,
+      "truckNumber": "GWW 815 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-04T08:25:01.118Z"
+        }
+      ],
+      "createdAt": "2025-10-04T08:25:01.118Z",
+      "updatedAt": "2025-10-04T08:25:01.118Z"
+    },
+    {
+      "id": "truck_1759566301118_1_bt5ffvq90",
+      "supplierName": "Idris Garba",
+      "bags": 104,
+      "moistureLevel": 21,
+      "truckNumber": "GWA 109 XS",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-04T08:25:01.118Z"
+        }
+      ],
+      "createdAt": "2025-10-04T08:25:01.118Z",
+      "updatedAt": "2025-10-04T08:25:01.118Z"
+    },
+    {
+      "id": "truck_1759566301118_2_zwsq2baf4",
+      "supplierName": "Idris Garba",
+      "bags": 250,
+      "moistureLevel": 28,
+      "truckNumber": "HJA 980 YD",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-04T08:25:01.118Z"
+        }
+      ],
+      "createdAt": "2025-10-04T08:25:01.118Z",
+      "updatedAt": "2025-10-04T08:25:01.118Z"
+    },
+    {
+      "id": "truck_1759566301118_3_6iva7t0bv",
+      "supplierName": "Idris Garba",
+      "bags": 115,
+      "moistureLevel": 21,
+      "truckNumber": "LSR 516 XJ",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-04T08:25:01.118Z"
+        }
+      ],
+      "createdAt": "2025-10-04T08:25:01.118Z",
+      "updatedAt": "2025-10-04T08:25:01.118Z"
+    },
+    {
+      "id": "truck_1759566301118_4_x8kfayk97",
+      "supplierName": "H.A.Tahir.",
+      "bags": 271,
+      "moistureLevel": 20,
+      "truckNumber": "KTG 435 YG",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-04T08:25:01.118Z"
+        }
+      ],
+      "createdAt": "2025-10-04T08:25:01.118Z",
+      "updatedAt": "2025-10-04T08:25:01.118Z"
     }
   ],
-  "lastModified": "2025-10-03T08:56:36.724Z",
+  "lastModified": "2025-10-04T08:25:01.207Z",
   "version": "2.0.0"
 }
