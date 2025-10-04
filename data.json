@@ -640,8 +640,24 @@
       "createdAt": "2025-10-04T08:25:01.118Z",
       "updatedAt": "2025-10-04T08:25:01.118Z",
       "waybillNumber": "6303"
+    },
+    {
+      "id": "truck_1759573276097_0_4sv7i53n1",
+      "supplierName": "Idris Garba",
+      "bags": 7,
+      "moistureLevel": 21,
+      "truckNumber": "LSR 516 XJ",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-04T10:21:16.098Z"
+        }
+      ],
+      "createdAt": "2025-10-04T10:21:16.102Z",
+      "updatedAt": "2025-10-04T10:21:16.102Z"
     }
   ],
-  "lastModified": "2025-10-04T09:22:49.657Z",
+  "lastModified": "2025-10-04T10:21:16.196Z",
   "version": "2.0.0"
 }
