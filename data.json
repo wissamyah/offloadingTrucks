@@ -626,25 +626,6 @@
       "deduction": 50
     },
     {
-      "id": "truck_1759566301118_4_x8kfayk97",
-      "supplierName": "H.A.Tahir.",
-      "bags": 271,
-      "moistureLevel": 20,
-      "truckNumber": "KTG 435 YG",
-      "status": "offloaded",
-      "statusHistory": [
-        {
-          "status": "pending",
-          "timestamp": "2025-10-04T08:25:01.118Z"
-        }
-      ],
-      "createdAt": "2025-10-04T08:25:01.118Z",
-      "updatedAt": "2025-10-04T08:25:01.118Z",
-      "waybillNumber": "6303",
-      "netWeight": 20140,
-      "deduction": 110
-    },
-    {
       "id": "truck_1759573276097_0_4sv7i53n1",
       "supplierName": "Idris Garba",
       "bags": 7,
@@ -663,6 +644,6 @@
       "netWeight": 470
     }
   ],
-  "lastModified": "2025-10-04T11:01:18.224Z",
+  "lastModified": "2025-10-04T11:04:31.351Z",
   "version": "2.0.0"
 }
