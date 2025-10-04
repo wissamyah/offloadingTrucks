@@ -642,8 +642,24 @@
       "updatedAt": "2025-10-04T10:21:16.102Z",
       "waybillNumber": "6306",
       "netWeight": 470
+    },
+    {
+      "id": "truck_1759576030861_0_pw0wb2k8u",
+      "supplierName": "H.A.Tahir.",
+      "bags": 271,
+      "moistureLevel": 20,
+      "truckNumber": "KTG 435 YG",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-04T11:07:10.864Z"
+        }
+      ],
+      "createdAt": "2025-10-04T11:07:10.864Z",
+      "updatedAt": "2025-10-04T11:07:10.864Z"
     }
   ],
-  "lastModified": "2025-10-04T11:04:31.351Z",
+  "lastModified": "2025-10-04T11:07:10.951Z",
   "version": "2.0.0"
 }
