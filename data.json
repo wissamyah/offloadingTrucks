@@ -668,7 +668,7 @@
       "bags": 36,
       "moistureLevel": 17,
       "truckNumber": "LSR 516 XJ",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
@@ -676,9 +676,10 @@
         }
       ],
       "createdAt": "2025-10-04T12:17:11.360Z",
-      "updatedAt": "2025-10-04T12:17:11.360Z"
+      "updatedAt": "2025-10-04T12:17:11.360Z",
+      "waybillNumber": "6307"
     }
   ],
-  "lastModified": "2025-10-04T12:17:11.380Z",
+  "lastModified": "2025-10-04T12:18:36.767Z",
   "version": "2.0.0"
 }
