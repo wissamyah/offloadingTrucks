@@ -559,7 +559,7 @@
       "bags": 250,
       "moistureLevel": 23,
       "truckNumber": "GWW 815 XA",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -568,7 +568,8 @@
       ],
       "createdAt": "2025-10-04T08:25:01.118Z",
       "updatedAt": "2025-10-04T08:25:01.118Z",
-      "waybillNumber": "6304"
+      "waybillNumber": "6304",
+      "netWeight": 16250
     },
     {
       "id": "truck_1759566301118_1_bt5ffvq90",
@@ -660,6 +661,6 @@
       "netWeight": 470
     }
   ],
-  "lastModified": "2025-10-04T10:38:04.097Z",
+  "lastModified": "2025-10-04T10:38:47.332Z",
   "version": "2.0.0"
 }
