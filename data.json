@@ -556,7 +556,7 @@
     {
       "id": "truck_1759566301118_0_32kp1xl9w",
       "supplierName": "Idris Garba",
-      "bags": 250,
+      "bags": 210,
       "moistureLevel": 23,
       "truckNumber": "GWW 815 XA",
       "status": "offloaded",
@@ -681,6 +681,6 @@
       "netWeight": 2510
     }
   ],
-  "lastModified": "2025-10-04T15:07:49.925Z",
+  "lastModified": "2025-10-04T15:08:22.201Z",
   "version": "2.0.0"
 }
