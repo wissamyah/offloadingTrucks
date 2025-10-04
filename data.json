@@ -649,7 +649,7 @@
       "bags": 271,
       "moistureLevel": 20,
       "truckNumber": "KTG 435 YG",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
@@ -657,9 +657,10 @@
         }
       ],
       "createdAt": "2025-10-04T11:07:10.864Z",
-      "updatedAt": "2025-10-04T11:07:10.864Z"
+      "updatedAt": "2025-10-04T11:07:10.864Z",
+      "waybillNumber": "6303"
     }
   ],
-  "lastModified": "2025-10-04T11:07:10.951Z",
+  "lastModified": "2025-10-04T11:07:56.630Z",
   "version": "2.0.0"
 }
