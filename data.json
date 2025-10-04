@@ -596,7 +596,7 @@
       "bags": 250,
       "moistureLevel": 28,
       "truckNumber": "HJA 980 YD",
-      "status": "pending",
+      "status": "rejected",
       "statusHistory": [
         {
           "status": "pending",
@@ -663,6 +663,6 @@
       "deduction": 110
     }
   ],
-  "lastModified": "2025-10-04T11:08:52.398Z",
+  "lastModified": "2025-10-04T12:16:51.157Z",
   "version": "2.0.0"
 }
