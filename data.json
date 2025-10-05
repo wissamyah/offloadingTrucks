@@ -680,8 +680,56 @@
       "updatedAt": "2025-10-04T12:17:11.360Z",
       "waybillNumber": "6307",
       "netWeight": 2510
+    },
+    {
+      "id": "truck_1759649583828_0_0h2rzhr8v",
+      "supplierName": "Kurum Agro Allied",
+      "bags": 162,
+      "moistureLevel": 20,
+      "truckNumber": "RAN 324 ST",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-05T07:33:03.829Z"
+        }
+      ],
+      "createdAt": "2025-10-05T07:33:03.829Z",
+      "updatedAt": "2025-10-05T07:33:03.830Z"
+    },
+    {
+      "id": "truck_1759649583828_1_ur34sp8yo",
+      "supplierName": "Samuel chamblatda",
+      "bags": 200,
+      "moistureLevel": 20,
+      "truckNumber": "BNW 328 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-05T07:33:03.830Z"
+        }
+      ],
+      "createdAt": "2025-10-05T07:33:03.830Z",
+      "updatedAt": "2025-10-05T07:33:03.830Z"
+    },
+    {
+      "id": "truck_1759649583828_2_f57ypd661",
+      "supplierName": "Idris Haruna",
+      "bags": 88,
+      "moistureLevel": 21,
+      "truckNumber": "DKA 890 ZP",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-05T07:33:03.830Z"
+        }
+      ],
+      "createdAt": "2025-10-05T07:33:03.830Z",
+      "updatedAt": "2025-10-05T07:33:03.830Z"
     }
   ],
-  "lastModified": "2025-10-04T15:10:17.727Z",
+  "lastModified": "2025-10-05T07:33:03.893Z",
   "version": "2.0.0"
 }
