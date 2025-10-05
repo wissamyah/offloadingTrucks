@@ -687,7 +687,7 @@
       "bags": 162,
       "moistureLevel": 20,
       "truckNumber": "RAN 324 ST",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -696,7 +696,9 @@
       ],
       "createdAt": "2025-10-05T07:33:03.829Z",
       "updatedAt": "2025-10-05T07:33:03.830Z",
-      "waybillNumber": "6309"
+      "waybillNumber": "6309",
+      "netWeight": 11510,
+      "deduction": 100
     },
     {
       "id": "truck_1759649583828_1_ur34sp8yo",
@@ -734,6 +736,6 @@
       "netWeight": 6310
     }
   ],
-  "lastModified": "2025-10-05T08:59:45.832Z",
+  "lastModified": "2025-10-05T09:12:34.193Z",
   "version": "2.0.0"
 }
