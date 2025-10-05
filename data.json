@@ -706,7 +706,7 @@
       "bags": 200,
       "moistureLevel": 20,
       "truckNumber": "BNW 328 XA",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -715,7 +715,9 @@
       ],
       "createdAt": "2025-10-05T07:33:03.830Z",
       "updatedAt": "2025-10-05T07:33:03.830Z",
-      "waybillNumber": "6310"
+      "waybillNumber": "6310",
+      "netWeight": 17020,
+      "deduction": 90
     },
     {
       "id": "truck_1759649583828_2_f57ypd661",
@@ -736,6 +738,6 @@
       "netWeight": 6310
     }
   ],
-  "lastModified": "2025-10-05T09:12:34.193Z",
+  "lastModified": "2025-10-05T10:03:10.191Z",
   "version": "2.0.0"
 }
