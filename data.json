@@ -769,8 +769,24 @@
       ],
       "createdAt": "2025-10-06T07:30:40.857Z",
       "updatedAt": "2025-10-06T07:30:40.857Z"
+    },
+    {
+      "id": "truck_1759735967147_0_tzcjahyfk",
+      "supplierName": "H.A.Tahir",
+      "bags": 189,
+      "moistureLevel": 21,
+      "truckNumber": "ZAR 871 XJ",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-06T07:32:47.147Z"
+        }
+      ],
+      "createdAt": "2025-10-06T07:32:47.147Z",
+      "updatedAt": "2025-10-06T07:32:47.147Z"
     }
   ],
-  "lastModified": "2025-10-06T07:32:19.543Z",
+  "lastModified": "2025-10-06T07:32:47.196Z",
   "version": "2.0.0"
 }
