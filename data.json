@@ -736,8 +736,40 @@
       "updatedAt": "2025-10-05T07:33:03.830Z",
       "waybillNumber": "6311",
       "netWeight": 6310
+    },
+    {
+      "id": "truck_1759735840856_0_c5snnxl15",
+      "supplierName": "Idris Garba",
+      "bags": 105,
+      "moistureLevel": 21,
+      "truckNumber": "GWA 109 XS",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-06T07:30:40.856Z"
+        }
+      ],
+      "createdAt": "2025-10-06T07:30:40.857Z",
+      "updatedAt": "2025-10-06T07:30:40.857Z"
+    },
+    {
+      "id": "truck_1759735840856_1_7cvqs6ima",
+      "supplierName": "Mukhtar sale",
+      "bags": 100,
+      "moistureLevel": 21,
+      "truckNumber": "MNA 161 XV",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-06T07:30:40.857Z"
+        }
+      ],
+      "createdAt": "2025-10-06T07:30:40.857Z",
+      "updatedAt": "2025-10-06T07:30:40.857Z"
     }
   ],
-  "lastModified": "2025-10-05T10:03:10.191Z",
+  "lastModified": "2025-10-06T07:30:40.931Z",
   "version": "2.0.0"
 }
