@@ -762,7 +762,7 @@
       "bags": 100,
       "moistureLevel": 21,
       "truckNumber": "MNA 161 XV",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -771,7 +771,9 @@
       ],
       "createdAt": "2025-10-06T07:30:40.857Z",
       "updatedAt": "2025-10-06T07:30:40.857Z",
-      "waybillNumber": "6314"
+      "waybillNumber": "6314",
+      "netWeight": 7510,
+      "deduction": 70
     },
     {
       "id": "truck_1759735967147_0_tzcjahyfk",
@@ -791,6 +793,6 @@
       "waybillNumber": "6315"
     }
   ],
-  "lastModified": "2025-10-06T09:21:43.534Z",
+  "lastModified": "2025-10-06T09:23:00.777Z",
   "version": "2.0.0"
 }
