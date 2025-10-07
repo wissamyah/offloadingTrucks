@@ -814,7 +814,7 @@
       "bags": 107,
       "moistureLevel": 21,
       "truckNumber": "GYA 206 XA",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
@@ -822,7 +822,8 @@
         }
       ],
       "createdAt": "2025-10-07T07:29:28.140Z",
-      "updatedAt": "2025-10-07T07:29:28.140Z"
+      "updatedAt": "2025-10-07T07:29:28.140Z",
+      "waybillNumber": "6320"
     },
     {
       "id": "truck_1759822168139_2_qhfc0vyzo",
@@ -841,6 +842,6 @@
       "updatedAt": "2025-10-07T07:29:28.140Z"
     }
   ],
-  "lastModified": "2025-10-07T07:29:28.268Z",
+  "lastModified": "2025-10-07T07:31:29.836Z",
   "version": "2.0.0"
 }
