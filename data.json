@@ -791,8 +791,56 @@
       "createdAt": "2025-10-06T07:32:47.147Z",
       "updatedAt": "2025-10-06T07:32:47.147Z",
       "waybillNumber": "6315"
+    },
+    {
+      "id": "truck_1759822168139_0_zygmplfs5",
+      "supplierName": "Jamilu Jangale",
+      "bags": 300,
+      "moistureLevel": 23,
+      "truckNumber": "SKK 333 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-07T07:29:28.140Z"
+        }
+      ],
+      "createdAt": "2025-10-07T07:29:28.140Z",
+      "updatedAt": "2025-10-07T07:29:28.140Z"
+    },
+    {
+      "id": "truck_1759822168139_1_lyxgtu94v",
+      "supplierName": "Mansur Mansur",
+      "bags": 107,
+      "moistureLevel": 21,
+      "truckNumber": "GYA 206 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-07T07:29:28.140Z"
+        }
+      ],
+      "createdAt": "2025-10-07T07:29:28.140Z",
+      "updatedAt": "2025-10-07T07:29:28.140Z"
+    },
+    {
+      "id": "truck_1759822168139_2_qhfc0vyzo",
+      "supplierName": "Kurum Agro Allied",
+      "bags": 190,
+      "moistureLevel": 28,
+      "truckNumber": "MKA 278 XJ",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-07T07:29:28.140Z"
+        }
+      ],
+      "createdAt": "2025-10-07T07:29:28.140Z",
+      "updatedAt": "2025-10-07T07:29:28.140Z"
     }
   ],
-  "lastModified": "2025-10-06T09:23:00.777Z",
+  "lastModified": "2025-10-07T07:29:28.268Z",
   "version": "2.0.0"
 }
