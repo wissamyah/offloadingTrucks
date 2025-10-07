@@ -852,7 +852,7 @@
       "bags": 105,
       "moistureLevel": 22,
       "truckNumber": "TRN 143 XA",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
@@ -860,9 +860,10 @@
         }
       ],
       "createdAt": "2025-10-07T12:48:53.828Z",
-      "updatedAt": "2025-10-07T12:48:53.828Z"
+      "updatedAt": "2025-10-07T12:48:53.828Z",
+      "waybillNumber": "6324"
     }
   ],
-  "lastModified": "2025-10-07T12:48:53.889Z",
+  "lastModified": "2025-10-07T12:49:15.316Z",
   "version": "2.0.0"
 }
