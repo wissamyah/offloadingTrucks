@@ -852,7 +852,7 @@
       "bags": 105,
       "moistureLevel": 22,
       "truckNumber": "TRN 143 XA",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -861,9 +861,11 @@
       ],
       "createdAt": "2025-10-07T12:48:53.828Z",
       "updatedAt": "2025-10-07T12:48:53.828Z",
-      "waybillNumber": "6324"
+      "waybillNumber": "6324",
+      "netWeight": 7240,
+      "deduction": 60
     }
   ],
-  "lastModified": "2025-10-07T12:49:15.316Z",
+  "lastModified": "2025-10-07T12:52:32.203Z",
   "version": "2.0.0"
 }
