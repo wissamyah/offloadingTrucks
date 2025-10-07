@@ -798,7 +798,7 @@
       "bags": 300,
       "moistureLevel": 23,
       "truckNumber": "SKK 333 XA",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
@@ -806,7 +806,8 @@
         }
       ],
       "createdAt": "2025-10-07T07:29:28.140Z",
-      "updatedAt": "2025-10-07T07:29:28.140Z"
+      "updatedAt": "2025-10-07T07:29:28.140Z",
+      "waybillNumber": "6321"
     },
     {
       "id": "truck_1759822168139_1_lyxgtu94v",
@@ -842,6 +843,6 @@
       "updatedAt": "2025-10-07T07:29:28.140Z"
     }
   ],
-  "lastModified": "2025-10-07T07:31:29.836Z",
+  "lastModified": "2025-10-07T07:34:43.125Z",
   "version": "2.0.0"
 }
