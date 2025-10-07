@@ -845,8 +845,24 @@
       ],
       "createdAt": "2025-10-07T07:29:28.140Z",
       "updatedAt": "2025-10-07T07:29:28.140Z"
+    },
+    {
+      "id": "truck_1759841333827_0_wvithaliv",
+      "supplierName": "Idris Garba",
+      "bags": 105,
+      "moistureLevel": 22,
+      "truckNumber": "TRN 143 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-07T12:48:53.828Z"
+        }
+      ],
+      "createdAt": "2025-10-07T12:48:53.828Z",
+      "updatedAt": "2025-10-07T12:48:53.828Z"
     }
   ],
-  "lastModified": "2025-10-07T09:34:20.735Z",
+  "lastModified": "2025-10-07T12:48:53.889Z",
   "version": "2.0.0"
 }
