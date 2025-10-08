@@ -864,8 +864,88 @@
       "waybillNumber": "6324",
       "netWeight": 7240,
       "deduction": 60
+    },
+    {
+      "id": "truck_1759909829889_0_s806ui7n6",
+      "supplierName": "Addau isyaku",
+      "bags": 110,
+      "moistureLevel": 26,
+      "truckNumber": "KMC 371 ZN",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-08T07:50:29.889Z"
+        }
+      ],
+      "createdAt": "2025-10-08T07:50:29.889Z",
+      "updatedAt": "2025-10-08T07:50:29.889Z"
+    },
+    {
+      "id": "truck_1759909829889_1_cr42jlipd",
+      "supplierName": "Samuel chamblatda",
+      "bags": 231,
+      "moistureLevel": 21,
+      "truckNumber": "TRK 472 XH",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-08T07:50:29.889Z"
+        }
+      ],
+      "createdAt": "2025-10-08T07:50:29.889Z",
+      "updatedAt": "2025-10-08T07:50:29.889Z"
+    },
+    {
+      "id": "truck_1759909829889_2_kk1fjcbir",
+      "supplierName": "Murtala yahaya",
+      "bags": 252,
+      "moistureLevel": 21,
+      "truckNumber": "YKS 292 YY",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-08T07:50:29.889Z"
+        }
+      ],
+      "createdAt": "2025-10-08T07:50:29.889Z",
+      "updatedAt": "2025-10-08T07:50:29.889Z"
+    },
+    {
+      "id": "truck_1759909829889_3_8vljcxt3t",
+      "supplierName": "Idris Garba",
+      "bags": 101,
+      "moistureLevel": 21,
+      "truckNumber": "MKH 612 XR",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-08T07:50:29.889Z"
+        }
+      ],
+      "createdAt": "2025-10-08T07:50:29.889Z",
+      "updatedAt": "2025-10-08T07:50:29.889Z"
+    },
+    {
+      "id": "truck_1759909829889_4_qoy929vre",
+      "supplierName": "Addau isyaku",
+      "bags": 105,
+      "moistureLevel": 21,
+      "truckNumber": "MUS 737 XE",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-08T07:50:29.889Z"
+        }
+      ],
+      "createdAt": "2025-10-08T07:50:29.889Z",
+      "updatedAt": "2025-10-08T07:50:29.889Z"
     }
   ],
-  "lastModified": "2025-10-07T12:52:32.203Z",
+  "lastModified": "2025-10-08T07:50:30.004Z",
   "version": "2.0.0"
 }
