@@ -921,7 +921,7 @@
       "bags": 101,
       "moistureLevel": 21,
       "truckNumber": "MKH 612 XR",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -930,7 +930,9 @@
       ],
       "createdAt": "2025-10-08T07:50:41.538Z",
       "updatedAt": "2025-10-08T07:50:41.538Z",
-      "waybillNumber": "6328"
+      "waybillNumber": "6328",
+      "netWeight": 7640,
+      "deduction": 50
     },
     {
       "id": "truck_1759909841538_4_he5mq6ylq",
@@ -949,6 +951,6 @@
       "updatedAt": "2025-10-08T07:50:41.538Z"
     }
   ],
-  "lastModified": "2025-10-08T07:57:50.734Z",
+  "lastModified": "2025-10-08T08:49:55.527Z",
   "version": "2.0.0"
 }
