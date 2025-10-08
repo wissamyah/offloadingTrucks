@@ -921,7 +921,7 @@
       "bags": 101,
       "moistureLevel": 21,
       "truckNumber": "MKH 612 XR",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
@@ -929,7 +929,8 @@
         }
       ],
       "createdAt": "2025-10-08T07:50:41.538Z",
-      "updatedAt": "2025-10-08T07:50:41.538Z"
+      "updatedAt": "2025-10-08T07:50:41.538Z",
+      "waybillNumber": "6328"
     },
     {
       "id": "truck_1759909841538_4_he5mq6ylq",
@@ -948,6 +949,6 @@
       "updatedAt": "2025-10-08T07:50:41.538Z"
     }
   ],
-  "lastModified": "2025-10-08T07:54:18.009Z",
+  "lastModified": "2025-10-08T07:57:50.734Z",
   "version": "2.0.0"
 }
