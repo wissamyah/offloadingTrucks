@@ -962,7 +962,7 @@
       "bags": 400,
       "moistureLevel": 22,
       "truckNumber": "DKA 659 ZU",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
@@ -970,9 +970,10 @@
         }
       ],
       "createdAt": "2025-10-08T12:57:08.647Z",
-      "updatedAt": "2025-10-08T12:57:08.647Z"
+      "updatedAt": "2025-10-08T12:57:08.647Z",
+      "waybillNumber": "6332"
     }
   ],
-  "lastModified": "2025-10-08T12:57:34.991Z",
+  "lastModified": "2025-10-08T12:59:39.895Z",
   "version": "2.0.0"
 }
