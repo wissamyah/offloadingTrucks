@@ -887,7 +887,7 @@
       "bags": 231,
       "moistureLevel": 21,
       "truckNumber": "TRK 472 XH",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
@@ -895,7 +895,8 @@
         }
       ],
       "createdAt": "2025-10-08T07:50:41.538Z",
-      "updatedAt": "2025-10-08T07:50:41.538Z"
+      "updatedAt": "2025-10-08T07:50:41.538Z",
+      "waybillNumber": "6326"
     },
     {
       "id": "truck_1759909841538_2_37y96onp9",
@@ -946,6 +947,6 @@
       "updatedAt": "2025-10-08T07:50:41.538Z"
     }
   ],
-  "lastModified": "2025-10-08T07:52:22.263Z",
+  "lastModified": "2025-10-08T07:52:38.617Z",
   "version": "2.0.0"
 }
