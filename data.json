@@ -904,7 +904,7 @@
       "bags": 252,
       "moistureLevel": 21,
       "truckNumber": "YKS 292 YY",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -913,7 +913,9 @@
       ],
       "createdAt": "2025-10-08T07:50:41.538Z",
       "updatedAt": "2025-10-08T07:50:41.538Z",
-      "waybillNumber": "6327"
+      "waybillNumber": "6327",
+      "netWeight": 19320,
+      "deduction": 400
     },
     {
       "id": "truck_1759909841538_3_5aj6r1y4l",
@@ -951,6 +953,6 @@
       "updatedAt": "2025-10-08T07:50:41.538Z"
     }
   ],
-  "lastModified": "2025-10-08T08:51:39.710Z",
+  "lastModified": "2025-10-08T09:34:47.041Z",
   "version": "2.0.0"
 }
