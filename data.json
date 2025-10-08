@@ -871,7 +871,7 @@
       "bags": 110,
       "moistureLevel": 26,
       "truckNumber": "KMC 371 ZN",
-      "status": "pending",
+      "status": "rejected",
       "statusHistory": [
         {
           "status": "pending",
@@ -951,6 +951,6 @@
       "updatedAt": "2025-10-08T07:50:41.538Z"
     }
   ],
-  "lastModified": "2025-10-08T08:49:55.527Z",
+  "lastModified": "2025-10-08T08:51:39.710Z",
   "version": "2.0.0"
 }
