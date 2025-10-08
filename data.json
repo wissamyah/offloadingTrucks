@@ -953,8 +953,24 @@
       "createdAt": "2025-10-08T07:50:41.538Z",
       "updatedAt": "2025-10-08T07:50:41.538Z",
       "waybillNumber": "6330"
+    },
+    {
+      "id": "truck_1759928228645_0_gqs1u54gj",
+      "supplierName": "Jamilu yahaya",
+      "bags": 400,
+      "moistureLevel": 22,
+      "truckNumber": "DKA 659 ZU",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-08T12:57:08.647Z"
+        }
+      ],
+      "createdAt": "2025-10-08T12:57:08.647Z",
+      "updatedAt": "2025-10-08T12:57:08.647Z"
     }
   ],
-  "lastModified": "2025-10-08T10:28:17.277Z",
+  "lastModified": "2025-10-08T12:57:08.803Z",
   "version": "2.0.0"
 }
