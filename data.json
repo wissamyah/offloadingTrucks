@@ -866,22 +866,6 @@
       "deduction": 60
     },
     {
-      "id": "truck_1759909829889_2_kk1fjcbir",
-      "supplierName": "Murtala yahaya",
-      "bags": 252,
-      "moistureLevel": 21,
-      "truckNumber": "YKS 292 YY",
-      "status": "pending",
-      "statusHistory": [
-        {
-          "status": "pending",
-          "timestamp": "2025-10-08T07:50:29.889Z"
-        }
-      ],
-      "createdAt": "2025-10-08T07:50:29.889Z",
-      "updatedAt": "2025-10-08T07:50:29.889Z"
-    },
-    {
       "id": "truck_1759909829889_3_8vljcxt3t",
       "supplierName": "Idris Garba",
       "bags": 101,
@@ -994,6 +978,6 @@
       "updatedAt": "2025-10-08T07:50:41.538Z"
     }
   ],
-  "lastModified": "2025-10-08T07:51:53.626Z",
+  "lastModified": "2025-10-08T07:52:04.474Z",
   "version": "2.0.0"
 }
