@@ -866,22 +866,6 @@
       "deduction": 60
     },
     {
-      "id": "truck_1759909829889_3_8vljcxt3t",
-      "supplierName": "Idris Garba",
-      "bags": 101,
-      "moistureLevel": 21,
-      "truckNumber": "MKH 612 XR",
-      "status": "pending",
-      "statusHistory": [
-        {
-          "status": "pending",
-          "timestamp": "2025-10-08T07:50:29.889Z"
-        }
-      ],
-      "createdAt": "2025-10-08T07:50:29.889Z",
-      "updatedAt": "2025-10-08T07:50:29.889Z"
-    },
-    {
       "id": "truck_1759909829889_4_qoy929vre",
       "supplierName": "Addau isyaku",
       "bags": 105,
@@ -978,6 +962,6 @@
       "updatedAt": "2025-10-08T07:50:41.538Z"
     }
   ],
-  "lastModified": "2025-10-08T07:52:04.474Z",
+  "lastModified": "2025-10-08T07:52:08.265Z",
   "version": "2.0.0"
 }
