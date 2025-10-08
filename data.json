@@ -904,7 +904,7 @@
       "bags": 252,
       "moistureLevel": 21,
       "truckNumber": "YKS 292 YY",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
@@ -912,7 +912,8 @@
         }
       ],
       "createdAt": "2025-10-08T07:50:41.538Z",
-      "updatedAt": "2025-10-08T07:50:41.538Z"
+      "updatedAt": "2025-10-08T07:50:41.538Z",
+      "waybillNumber": "6327"
     },
     {
       "id": "truck_1759909841538_3_5aj6r1y4l",
@@ -947,6 +948,6 @@
       "updatedAt": "2025-10-08T07:50:41.538Z"
     }
   ],
-  "lastModified": "2025-10-08T07:52:38.617Z",
+  "lastModified": "2025-10-08T07:54:18.009Z",
   "version": "2.0.0"
 }
