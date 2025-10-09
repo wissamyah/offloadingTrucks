@@ -1082,7 +1082,7 @@
       "bags": 110,
       "moistureLevel": 22,
       "truckNumber": "MNA 739 XA",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -1091,7 +1091,8 @@
       ],
       "createdAt": "2025-10-09T07:22:23.782Z",
       "updatedAt": "2025-10-09T07:22:23.782Z",
-      "waybillNumber": "6337"
+      "waybillNumber": "6337",
+      "netWeight": 8960
     },
     {
       "id": "truck_1760000271810_0_gpgn132j1",
@@ -1111,6 +1112,6 @@
       "waybillNumber": "6341"
     }
   ],
-  "lastModified": "2025-10-09T09:00:13.144Z",
+  "lastModified": "2025-10-09T09:12:33.667Z",
   "version": "2.0.0"
 }
