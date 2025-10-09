@@ -1099,7 +1099,7 @@
       "bags": 437,
       "moistureLevel": 20,
       "truckNumber": "YLA 606 ZV",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
@@ -1107,9 +1107,10 @@
         }
       ],
       "createdAt": "2025-10-09T08:57:51.810Z",
-      "updatedAt": "2025-10-09T08:57:51.810Z"
+      "updatedAt": "2025-10-09T08:57:51.810Z",
+      "waybillNumber": "6341"
     }
   ],
-  "lastModified": "2025-10-09T08:57:59.353Z",
+  "lastModified": "2025-10-09T09:00:13.144Z",
   "version": "2.0.0"
 }
