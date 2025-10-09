@@ -1094,22 +1094,6 @@
       "waybillNumber": "6337"
     },
     {
-      "id": "truck_1760000247752_0_2p64aa3y5",
-      "supplierName": "Mukhtar sale",
-      "bags": 437,
-      "moistureLevel": 20,
-      "truckNumber": "YLA 606 ZV",
-      "status": "pending",
-      "statusHistory": [
-        {
-          "status": "pending",
-          "timestamp": "2025-10-09T08:57:27.753Z"
-        }
-      ],
-      "createdAt": "2025-10-09T08:57:27.753Z",
-      "updatedAt": "2025-10-09T08:57:27.753Z"
-    },
-    {
       "id": "truck_1760000271810_0_gpgn132j1",
       "supplierName": "Mukhtar sale",
       "bags": 437,
@@ -1126,6 +1110,6 @@
       "updatedAt": "2025-10-09T08:57:51.810Z"
     }
   ],
-  "lastModified": "2025-10-09T08:57:52.220Z",
+  "lastModified": "2025-10-09T08:57:59.353Z",
   "version": "2.0.0"
 }
