@@ -1035,7 +1035,7 @@
       "bags": 202,
       "moistureLevel": 22,
       "truckNumber": "MDG 64 XA",
-      "status": "rejected",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
@@ -1120,6 +1120,6 @@
       "waybillNumber": "6341"
     }
   ],
-  "lastModified": "2025-10-09T11:15:21.504Z",
+  "lastModified": "2025-10-09T11:51:28.448Z",
   "version": "2.0.0"
 }
