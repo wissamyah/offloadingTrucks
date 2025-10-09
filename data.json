@@ -1048,7 +1048,7 @@
       "bags": 100,
       "moistureLevel": 22,
       "truckNumber": "DRZ 582 XA",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -1057,7 +1057,9 @@
       ],
       "createdAt": "2025-10-09T07:22:23.782Z",
       "updatedAt": "2025-10-09T07:22:23.782Z",
-      "waybillNumber": "6334"
+      "waybillNumber": "6334",
+      "netWeight": 6730,
+      "deduction": 50
     },
     {
       "id": "truck_1759994543781_5_cuv1dehir",
@@ -1112,6 +1114,6 @@
       "waybillNumber": "6341"
     }
   ],
-  "lastModified": "2025-10-09T09:12:33.667Z",
+  "lastModified": "2025-10-09T09:15:46.021Z",
   "version": "2.0.0"
 }
