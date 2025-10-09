@@ -1032,7 +1032,7 @@
     {
       "id": "truck_1759994543781_3_jrbgcpznb",
       "supplierName": "Samuel chamblatda",
-      "bags": 202,
+      "bags": 147,
       "moistureLevel": 22,
       "truckNumber": "MDG 64 XA",
       "status": "offloaded",
@@ -1121,6 +1121,6 @@
       "waybillNumber": "6341"
     }
   ],
-  "lastModified": "2025-10-09T11:51:34.327Z",
+  "lastModified": "2025-10-09T11:51:41.759Z",
   "version": "2.0.0"
 }
