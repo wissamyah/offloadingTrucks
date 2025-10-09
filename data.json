@@ -1014,7 +1014,7 @@
       "bags": 100,
       "moistureLevel": 23,
       "truckNumber": "GWA 109 XX",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -1023,7 +1023,9 @@
       ],
       "createdAt": "2025-10-09T07:22:23.782Z",
       "updatedAt": "2025-10-09T07:22:23.782Z",
-      "waybillNumber": "6333"
+      "waybillNumber": "6333",
+      "netWeight": 7360,
+      "deduction": 100
     },
     {
       "id": "truck_1759994543781_3_jrbgcpznb",
@@ -1114,6 +1116,6 @@
       "waybillNumber": "6341"
     }
   ],
-  "lastModified": "2025-10-09T09:15:46.021Z",
+  "lastModified": "2025-10-09T09:18:48.515Z",
   "version": "2.0.0"
 }
