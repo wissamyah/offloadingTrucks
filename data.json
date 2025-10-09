@@ -972,8 +972,120 @@
       "createdAt": "2025-10-08T12:57:08.647Z",
       "updatedAt": "2025-10-08T12:57:08.647Z",
       "waybillNumber": "6332"
+    },
+    {
+      "id": "truck_1759994543781_0_9avuehlrr",
+      "supplierName": "Jamilu Jangale",
+      "bags": 255,
+      "moistureLevel": 23,
+      "truckNumber": "FTA 370 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-09T07:22:23.781Z"
+        }
+      ],
+      "createdAt": "2025-10-09T07:22:23.781Z",
+      "updatedAt": "2025-10-09T07:22:23.782Z"
+    },
+    {
+      "id": "truck_1759994543781_1_59vsp61pe",
+      "supplierName": "Jamilu yahaya",
+      "bags": 110,
+      "moistureLevel": 22,
+      "truckNumber": "KMC 458 XV",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-09T07:22:23.782Z"
+        }
+      ],
+      "createdAt": "2025-10-09T07:22:23.782Z",
+      "updatedAt": "2025-10-09T07:22:23.782Z"
+    },
+    {
+      "id": "truck_1759994543781_2_c4n63cy21",
+      "supplierName": "Idris Garba",
+      "bags": 100,
+      "moistureLevel": 23,
+      "truckNumber": "GWA 109 XX",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-09T07:22:23.782Z"
+        }
+      ],
+      "createdAt": "2025-10-09T07:22:23.782Z",
+      "updatedAt": "2025-10-09T07:22:23.782Z"
+    },
+    {
+      "id": "truck_1759994543781_3_jrbgcpznb",
+      "supplierName": "Samuel chamblatda",
+      "bags": 202,
+      "moistureLevel": 22,
+      "truckNumber": "MDG 64 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-09T07:22:23.782Z"
+        }
+      ],
+      "createdAt": "2025-10-09T07:22:23.782Z",
+      "updatedAt": "2025-10-09T07:22:23.782Z"
+    },
+    {
+      "id": "truck_1759994543781_4_4jv7bojwl",
+      "supplierName": "Idris Haruna",
+      "bags": 100,
+      "moistureLevel": 22,
+      "truckNumber": "DRZ 582 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-09T07:22:23.782Z"
+        }
+      ],
+      "createdAt": "2025-10-09T07:22:23.782Z",
+      "updatedAt": "2025-10-09T07:22:23.782Z"
+    },
+    {
+      "id": "truck_1759994543781_5_cuv1dehir",
+      "supplierName": "Mukhtar sale",
+      "bags": 161,
+      "moistureLevel": 21,
+      "truckNumber": "DAL 535 YY",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-09T07:22:23.782Z"
+        }
+      ],
+      "createdAt": "2025-10-09T07:22:23.782Z",
+      "updatedAt": "2025-10-09T07:22:23.782Z"
+    },
+    {
+      "id": "truck_1759994543781_6_7080jf6nq",
+      "supplierName": "Idris Garba",
+      "bags": 110,
+      "moistureLevel": 22,
+      "truckNumber": "MNA 739 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-09T07:22:23.782Z"
+        }
+      ],
+      "createdAt": "2025-10-09T07:22:23.782Z",
+      "updatedAt": "2025-10-09T07:22:23.782Z"
     }
   ],
-  "lastModified": "2025-10-08T12:59:39.895Z",
+  "lastModified": "2025-10-09T07:22:23.876Z",
   "version": "2.0.0"
 }
