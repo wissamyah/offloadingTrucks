@@ -1197,7 +1197,7 @@
     {
       "id": "truck_1760082605933_4_csz1876ex",
       "supplierName": "Addau isyaku",
-      "bags": 200,
+      "bags": 160,
       "moistureLevel": 22,
       "truckNumber": "ZUR 423 ZY",
       "status": "scaled_in",
@@ -1297,6 +1297,6 @@
       "updatedAt": "2025-10-10T07:50:05.933Z"
     }
   ],
-  "lastModified": "2025-10-10T10:49:15.280Z",
+  "lastModified": "2025-10-10T10:58:05.396Z",
   "version": "2.0.0"
 }
