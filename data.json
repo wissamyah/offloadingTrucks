@@ -1239,7 +1239,7 @@
       "bags": 352,
       "moistureLevel": 23,
       "truckNumber": "RSH 618 XA",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -1248,7 +1248,8 @@
       ],
       "createdAt": "2025-10-10T07:50:05.933Z",
       "updatedAt": "2025-10-10T07:50:05.933Z",
-      "waybillNumber": "6358"
+      "waybillNumber": "6358",
+      "netWeight": 26730
     },
     {
       "id": "truck_1760082605933_7_hwffqapny",
@@ -1320,6 +1321,6 @@
       "waybillNumber": "6360"
     }
   ],
-  "lastModified": "2025-10-10T15:00:02.474Z",
+  "lastModified": "2025-10-10T18:34:27.072Z",
   "version": "2.0.0"
 }
