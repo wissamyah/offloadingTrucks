@@ -1125,7 +1125,7 @@
       "supplierName": "sammaf Agro Allied",
       "bags": 500,
       "moistureLevel": 22,
-      "truckNumber": "FO 467 KT",
+      "truckNumber": "T 0467 KT",
       "status": "scaled_in",
       "statusHistory": [
         {
@@ -1299,6 +1299,6 @@
       "updatedAt": "2025-10-10T07:50:05.933Z"
     }
   ],
-  "lastModified": "2025-10-10T11:42:16.363Z",
+  "lastModified": "2025-10-10T13:38:06.886Z",
   "version": "2.0.0"
 }
