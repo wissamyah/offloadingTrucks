@@ -1267,7 +1267,7 @@
       "bags": 468,
       "moistureLevel": 21,
       "truckNumber": "ABJ 161 XD",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
@@ -1275,7 +1275,8 @@
         }
       ],
       "createdAt": "2025-10-10T07:50:05.933Z",
-      "updatedAt": "2025-10-10T07:50:05.933Z"
+      "updatedAt": "2025-10-10T07:50:05.933Z",
+      "waybillNumber": "6355"
     },
     {
       "id": "truck_1760082605933_9_jwu9zjh68",
@@ -1294,6 +1295,6 @@
       "updatedAt": "2025-10-10T07:50:05.933Z"
     }
   ],
-  "lastModified": "2025-10-10T10:45:39.654Z",
+  "lastModified": "2025-10-10T10:47:02.955Z",
   "version": "2.0.0"
 }
