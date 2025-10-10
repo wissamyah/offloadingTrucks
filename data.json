@@ -1250,7 +1250,7 @@
       "bags": 500,
       "moistureLevel": 20,
       "truckNumber": "MKA 249  YL",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
@@ -1258,7 +1258,8 @@
         }
       ],
       "createdAt": "2025-10-10T07:50:05.933Z",
-      "updatedAt": "2025-10-10T07:50:05.933Z"
+      "updatedAt": "2025-10-10T07:50:05.933Z",
+      "waybillNumber": "6356"
     },
     {
       "id": "truck_1760082605933_8_8zms7qixn",
@@ -1293,6 +1294,6 @@
       "updatedAt": "2025-10-10T07:50:05.933Z"
     }
   ],
-  "lastModified": "2025-10-10T10:14:02.407Z",
+  "lastModified": "2025-10-10T10:45:39.654Z",
   "version": "2.0.0"
 }
