@@ -1119,8 +1119,168 @@
       "createdAt": "2025-10-09T08:57:51.810Z",
       "updatedAt": "2025-10-09T08:57:51.810Z",
       "waybillNumber": "6341"
+    },
+    {
+      "id": "truck_1760082605933_0_kkjv587fx",
+      "supplierName": "sammaf Agro Allied",
+      "bags": 500,
+      "moistureLevel": 22,
+      "truckNumber": "FO 467 KT",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-10T07:50:05.933Z"
+        }
+      ],
+      "createdAt": "2025-10-10T07:50:05.933Z",
+      "updatedAt": "2025-10-10T07:50:05.933Z"
+    },
+    {
+      "id": "truck_1760082605933_1_fwj1re0mk",
+      "supplierName": "Malam Bulala",
+      "bags": 208,
+      "moistureLevel": 21,
+      "truckNumber": "NNG 398 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-10T07:50:05.933Z"
+        }
+      ],
+      "createdAt": "2025-10-10T07:50:05.933Z",
+      "updatedAt": "2025-10-10T07:50:05.933Z"
+    },
+    {
+      "id": "truck_1760082605933_2_9fy08crwy",
+      "supplierName": "Addau isyaku",
+      "bags": 114,
+      "moistureLevel": 21,
+      "truckNumber": "BGM 878 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-10T07:50:05.933Z"
+        }
+      ],
+      "createdAt": "2025-10-10T07:50:05.933Z",
+      "updatedAt": "2025-10-10T07:50:05.933Z"
+    },
+    {
+      "id": "truck_1760082605933_3_2z02u6wus",
+      "supplierName": "Jamilu Jangale",
+      "bags": 300,
+      "moistureLevel": 23,
+      "truckNumber": "ZUR 168 XR",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-10T07:50:05.933Z"
+        }
+      ],
+      "createdAt": "2025-10-10T07:50:05.933Z",
+      "updatedAt": "2025-10-10T07:50:05.933Z"
+    },
+    {
+      "id": "truck_1760082605933_4_csz1876ex",
+      "supplierName": "Addau isyaku",
+      "bags": 200,
+      "moistureLevel": 22,
+      "truckNumber": "ZUR 423 ZY",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-10T07:50:05.933Z"
+        }
+      ],
+      "createdAt": "2025-10-10T07:50:05.933Z",
+      "updatedAt": "2025-10-10T07:50:05.933Z"
+    },
+    {
+      "id": "truck_1760082605933_5_8u280ak46",
+      "supplierName": "Addau isyaku",
+      "bags": 250,
+      "moistureLevel": 22,
+      "truckNumber": "MJB 561 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-10T07:50:05.933Z"
+        }
+      ],
+      "createdAt": "2025-10-10T07:50:05.933Z",
+      "updatedAt": "2025-10-10T07:50:05.933Z"
+    },
+    {
+      "id": "truck_1760082605933_6_i6xbi2bes",
+      "supplierName": "Soba Turawa",
+      "bags": 395,
+      "moistureLevel": 23,
+      "truckNumber": "RSH 618 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-10T07:50:05.933Z"
+        }
+      ],
+      "createdAt": "2025-10-10T07:50:05.933Z",
+      "updatedAt": "2025-10-10T07:50:05.933Z"
+    },
+    {
+      "id": "truck_1760082605933_7_hwffqapny",
+      "supplierName": "H.A . Tahir",
+      "bags": 500,
+      "moistureLevel": 20,
+      "truckNumber": "MKA 249  YL",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-10T07:50:05.933Z"
+        }
+      ],
+      "createdAt": "2025-10-10T07:50:05.933Z",
+      "updatedAt": "2025-10-10T07:50:05.933Z"
+    },
+    {
+      "id": "truck_1760082605933_8_8zms7qixn",
+      "supplierName": "Addau isyaku",
+      "bags": 468,
+      "moistureLevel": 21,
+      "truckNumber": "ABJ 161 XD",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-10T07:50:05.933Z"
+        }
+      ],
+      "createdAt": "2025-10-10T07:50:05.933Z",
+      "updatedAt": "2025-10-10T07:50:05.933Z"
+    },
+    {
+      "id": "truck_1760082605933_9_jwu9zjh68",
+      "supplierName": "Sammaf Agro Allied",
+      "bags": 520,
+      "moistureLevel": 26,
+      "truckNumber": "APP 61 XT",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-10T07:50:05.933Z"
+        }
+      ],
+      "createdAt": "2025-10-10T07:50:05.933Z",
+      "updatedAt": "2025-10-10T07:50:05.933Z"
     }
   ],
-  "lastModified": "2025-10-09T11:51:41.759Z",
+  "lastModified": "2025-10-10T07:50:06.031Z",
   "version": "2.0.0"
 }
