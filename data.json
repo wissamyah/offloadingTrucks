@@ -1274,7 +1274,7 @@
       "bags": 520,
       "moistureLevel": 26,
       "truckNumber": "APP 61 XT",
-      "status": "pending",
+      "status": "rejected",
       "statusHistory": [
         {
           "status": "pending",
@@ -1285,6 +1285,6 @@
       "updatedAt": "2025-10-10T07:50:05.933Z"
     }
   ],
-  "lastModified": "2025-10-10T07:57:23.937Z",
+  "lastModified": "2025-10-10T08:59:18.256Z",
   "version": "2.0.0"
 }
