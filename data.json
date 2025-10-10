@@ -1126,7 +1126,7 @@
       "bags": 500,
       "moistureLevel": 22,
       "truckNumber": "FO 467 KT",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
@@ -1134,7 +1134,8 @@
         }
       ],
       "createdAt": "2025-10-10T07:50:05.933Z",
-      "updatedAt": "2025-10-10T07:50:05.933Z"
+      "updatedAt": "2025-10-10T07:50:05.933Z",
+      "waybillNumber": "6354"
     },
     {
       "id": "truck_1760082605933_1_fwj1re0mk",
@@ -1288,6 +1289,6 @@
       "updatedAt": "2025-10-10T07:50:05.933Z"
     }
   ],
-  "lastModified": "2025-10-10T09:08:57.055Z",
+  "lastModified": "2025-10-10T09:14:32.061Z",
   "version": "2.0.0"
 }
