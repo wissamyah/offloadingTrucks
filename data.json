@@ -1176,7 +1176,7 @@
       "bags": 300,
       "moistureLevel": 23,
       "truckNumber": "ZUR 168 XR",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
@@ -1184,7 +1184,8 @@
         }
       ],
       "createdAt": "2025-10-10T07:50:05.933Z",
-      "updatedAt": "2025-10-10T07:50:05.933Z"
+      "updatedAt": "2025-10-10T07:50:05.933Z",
+      "waybillNumber": "6351"
     },
     {
       "id": "truck_1760082605933_4_csz1876ex",
@@ -1283,6 +1284,6 @@
       "updatedAt": "2025-10-10T07:50:05.933Z"
     }
   ],
-  "lastModified": "2025-10-10T07:55:37.720Z",
+  "lastModified": "2025-10-10T07:56:33.243Z",
   "version": "2.0.0"
 }
