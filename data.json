@@ -1209,7 +1209,7 @@
       "bags": 250,
       "moistureLevel": 22,
       "truckNumber": "MJB 561 XA",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
@@ -1217,7 +1217,8 @@
         }
       ],
       "createdAt": "2025-10-10T07:50:05.933Z",
-      "updatedAt": "2025-10-10T07:50:05.933Z"
+      "updatedAt": "2025-10-10T07:50:05.933Z",
+      "waybillNumber": "6352"
     },
     {
       "id": "truck_1760082605933_6_i6xbi2bes",
@@ -1284,6 +1285,6 @@
       "updatedAt": "2025-10-10T07:50:05.933Z"
     }
   ],
-  "lastModified": "2025-10-10T07:56:33.243Z",
+  "lastModified": "2025-10-10T07:57:23.937Z",
   "version": "2.0.0"
 }
