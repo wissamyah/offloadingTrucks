@@ -1193,7 +1193,7 @@
       "bags": 200,
       "moistureLevel": 22,
       "truckNumber": "ZUR 423 ZY",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
@@ -1201,7 +1201,8 @@
         }
       ],
       "createdAt": "2025-10-10T07:50:05.933Z",
-      "updatedAt": "2025-10-10T07:50:05.933Z"
+      "updatedAt": "2025-10-10T07:50:05.933Z",
+      "waybillNumber": "6353"
     },
     {
       "id": "truck_1760082605933_5_8u280ak46",
@@ -1285,6 +1286,6 @@
       "updatedAt": "2025-10-10T07:50:05.933Z"
     }
   ],
-  "lastModified": "2025-10-10T08:59:18.256Z",
+  "lastModified": "2025-10-10T09:06:27.764Z",
   "version": "2.0.0"
 }
