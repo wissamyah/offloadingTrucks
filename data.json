@@ -1475,7 +1475,7 @@
       "bags": 200,
       "moistureLevel": 29,
       "truckNumber": "HJA 900 XA",
-      "status": "pending",
+      "status": "rejected",
       "statusHistory": [
         {
           "status": "pending",
@@ -1521,6 +1521,6 @@
       "deduction": 260
     }
   ],
-  "lastModified": "2025-10-11T11:44:01.658Z",
+  "lastModified": "2025-10-11T12:56:24.519Z",
   "version": "2.0.0"
 }
