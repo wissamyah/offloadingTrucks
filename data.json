@@ -1428,7 +1428,7 @@
       "bags": 200,
       "moistureLevel": 20,
       "truckNumber": "BBR 822XB",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
@@ -1436,7 +1436,8 @@
         }
       ],
       "createdAt": "2025-10-11T07:54:27.946Z",
-      "updatedAt": "2025-10-11T07:54:27.946Z"
+      "updatedAt": "2025-10-11T07:54:27.946Z",
+      "waybillNumber": "6368"
     },
     {
       "id": "truck_1760169267943_7_d1kt6guax",
@@ -1504,6 +1505,6 @@
       "waybillNumber": "6365"
     }
   ],
-  "lastModified": "2025-10-11T08:59:36.332Z",
+  "lastModified": "2025-10-11T09:23:36.301Z",
   "version": "2.0.0"
 }
