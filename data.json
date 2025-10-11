@@ -1499,7 +1499,7 @@
       "bags": 450,
       "moistureLevel": 23,
       "truckNumber": "MKA 298 YJ",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -1508,9 +1508,11 @@
       ],
       "createdAt": "2025-10-11T07:56:38.789Z",
       "updatedAt": "2025-10-11T07:56:38.789Z",
-      "waybillNumber": "6365"
+      "waybillNumber": "6365",
+      "netWeight": 32470,
+      "deduction": 260
     }
   ],
-  "lastModified": "2025-10-11T10:59:20.019Z",
+  "lastModified": "2025-10-11T11:38:01.295Z",
   "version": "2.0.0"
 }
