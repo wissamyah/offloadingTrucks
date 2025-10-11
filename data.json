@@ -1483,8 +1483,24 @@
       ],
       "createdAt": "2025-10-11T07:54:27.946Z",
       "updatedAt": "2025-10-11T07:54:27.946Z"
+    },
+    {
+      "id": "truck_1760169398789_0_7v9aggcsu",
+      "supplierName": "Bazama Business concept",
+      "bags": 450,
+      "moistureLevel": 23,
+      "truckNumber": "MKA 298 YJ",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-11T07:56:38.789Z"
+        }
+      ],
+      "createdAt": "2025-10-11T07:56:38.789Z",
+      "updatedAt": "2025-10-11T07:56:38.789Z"
     }
   ],
-  "lastModified": "2025-10-11T07:56:03.989Z",
+  "lastModified": "2025-10-11T07:56:38.840Z",
   "version": "2.0.0"
 }
