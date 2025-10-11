@@ -1542,7 +1542,7 @@
       "bags": 500,
       "moistureLevel": 20,
       "truckNumber": "NGL 482 XA",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
@@ -1550,9 +1550,10 @@
         }
       ],
       "createdAt": "2025-10-11T13:01:09.296Z",
-      "updatedAt": "2025-10-11T13:01:09.296Z"
+      "updatedAt": "2025-10-11T13:01:09.296Z",
+      "waybillNumber": "6371"
     }
   ],
-  "lastModified": "2025-10-11T13:01:09.341Z",
+  "lastModified": "2025-10-11T13:01:24.778Z",
   "version": "2.0.0"
 }
