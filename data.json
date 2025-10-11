@@ -1360,7 +1360,7 @@
       "bags": 200,
       "moistureLevel": 20,
       "truckNumber": "FKY 230 XA",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
@@ -1368,7 +1368,8 @@
         }
       ],
       "createdAt": "2025-10-11T07:54:27.946Z",
-      "updatedAt": "2025-10-11T07:54:27.946Z"
+      "updatedAt": "2025-10-11T07:54:27.946Z",
+      "waybillNumber": "6363"
     },
     {
       "id": "truck_1760169267943_3_e2d3devpc",
@@ -1483,6 +1484,6 @@
       "updatedAt": "2025-10-11T07:54:27.946Z"
     }
   ],
-  "lastModified": "2025-10-11T07:54:28.034Z",
+  "lastModified": "2025-10-11T07:55:23.373Z",
   "version": "2.0.0"
 }
