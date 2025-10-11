@@ -1383,7 +1383,7 @@
       "bags": 103,
       "moistureLevel": 21,
       "truckNumber": "BJK 427 XA",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -1392,7 +1392,9 @@
       ],
       "createdAt": "2025-10-11T07:54:27.946Z",
       "updatedAt": "2025-10-11T07:54:27.946Z",
-      "waybillNumber": "6366"
+      "waybillNumber": "6366",
+      "netWeight": 7570,
+      "deduction": 150
     },
     {
       "id": "truck_1760169267943_4_ijekbzk5s",
@@ -1515,6 +1517,6 @@
       "deduction": 260
     }
   ],
-  "lastModified": "2025-10-11T11:39:41.931Z",
+  "lastModified": "2025-10-11T11:41:13.712Z",
   "version": "2.0.0"
 }
