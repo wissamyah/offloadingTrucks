@@ -1347,7 +1347,7 @@
       "bags": 490,
       "moistureLevel": 23,
       "truckNumber": "KRN 328 XA",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -1356,7 +1356,8 @@
       ],
       "createdAt": "2025-10-11T07:54:27.946Z",
       "updatedAt": "2025-10-11T07:54:27.946Z",
-      "waybillNumber": "6370"
+      "waybillNumber": "6370",
+      "netWeight": 33220
     },
     {
       "id": "truck_1760169267943_2_8z67o8pth",
@@ -1538,6 +1539,6 @@
       "waybillNumber": "6371"
     }
   ],
-  "lastModified": "2025-10-11T13:02:44.450Z",
+  "lastModified": "2025-10-11T14:44:46.452Z",
   "version": "2.0.0"
 }
