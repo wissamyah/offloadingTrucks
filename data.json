@@ -1422,7 +1422,7 @@
       "bags": 100,
       "moistureLevel": 23,
       "truckNumber": "AAA 924 XD",
-      "status": "pending",
+      "status": "rejected",
       "statusHistory": [
         {
           "status": "pending",
@@ -1541,6 +1541,6 @@
       "deduction": 190
     }
   ],
-  "lastModified": "2025-10-11T16:37:31.616Z",
+  "lastModified": "2025-10-11T23:16:06.866Z",
   "version": "2.0.0"
 }
