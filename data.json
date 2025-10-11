@@ -1321,8 +1321,168 @@
       "createdAt": "2025-10-10T14:38:06.510Z",
       "updatedAt": "2025-10-10T14:38:06.510Z",
       "waybillNumber": "6360"
+    },
+    {
+      "id": "truck_1760169267943_0_0v5oa39e7",
+      "supplierName": "Idris Garba",
+      "bags": 252,
+      "moistureLevel": 22,
+      "truckNumber": "HJA 980 YD",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-11T07:54:27.946Z"
+        }
+      ],
+      "createdAt": "2025-10-11T07:54:27.946Z",
+      "updatedAt": "2025-10-11T07:54:27.946Z"
+    },
+    {
+      "id": "truck_1760169267943_1_bt5keihn4",
+      "supplierName": "Sammaf Agro Allied",
+      "bags": 490,
+      "moistureLevel": 23,
+      "truckNumber": "KRN 328 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-11T07:54:27.946Z"
+        }
+      ],
+      "createdAt": "2025-10-11T07:54:27.946Z",
+      "updatedAt": "2025-10-11T07:54:27.946Z"
+    },
+    {
+      "id": "truck_1760169267943_2_8z67o8pth",
+      "supplierName": "Addau isyaku",
+      "bags": 200,
+      "moistureLevel": 20,
+      "truckNumber": "FKY 230 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-11T07:54:27.946Z"
+        }
+      ],
+      "createdAt": "2025-10-11T07:54:27.946Z",
+      "updatedAt": "2025-10-11T07:54:27.946Z"
+    },
+    {
+      "id": "truck_1760169267943_3_e2d3devpc",
+      "supplierName": "Idris Garba",
+      "bags": 103,
+      "moistureLevel": 21,
+      "truckNumber": "BJK 427 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-11T07:54:27.946Z"
+        }
+      ],
+      "createdAt": "2025-10-11T07:54:27.946Z",
+      "updatedAt": "2025-10-11T07:54:27.946Z"
+    },
+    {
+      "id": "truck_1760169267943_4_ijekbzk5s",
+      "supplierName": "Mukhtar sale",
+      "bags": 79,
+      "moistureLevel": 20,
+      "truckNumber": "RNG 761 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-11T07:54:27.946Z"
+        }
+      ],
+      "createdAt": "2025-10-11T07:54:27.946Z",
+      "updatedAt": "2025-10-11T07:54:27.946Z"
+    },
+    {
+      "id": "truck_1760169267943_5_oqqjo7khc",
+      "supplierName": "Addau isyaku",
+      "bags": 100,
+      "moistureLevel": 23,
+      "truckNumber": "AAA 924 XD",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-11T07:54:27.946Z"
+        }
+      ],
+      "createdAt": "2025-10-11T07:54:27.946Z",
+      "updatedAt": "2025-10-11T07:54:27.946Z"
+    },
+    {
+      "id": "truck_1760169267943_6_3gv2cucdq",
+      "supplierName": "Samuel chamblatda",
+      "bags": 200,
+      "moistureLevel": 20,
+      "truckNumber": "BBR 822XB",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-11T07:54:27.946Z"
+        }
+      ],
+      "createdAt": "2025-10-11T07:54:27.946Z",
+      "updatedAt": "2025-10-11T07:54:27.946Z"
+    },
+    {
+      "id": "truck_1760169267943_7_d1kt6guax",
+      "supplierName": "Mukhtar sale",
+      "bags": 250,
+      "moistureLevel": 23,
+      "truckNumber": "GWW 815 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-11T07:54:27.946Z"
+        }
+      ],
+      "createdAt": "2025-10-11T07:54:27.946Z",
+      "updatedAt": "2025-10-11T07:54:27.946Z"
+    },
+    {
+      "id": "truck_1760169267943_8_tyvxcpq2j",
+      "supplierName": "Murtala yahaya",
+      "bags": 200,
+      "moistureLevel": 29,
+      "truckNumber": "HJA 900 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-11T07:54:27.946Z"
+        }
+      ],
+      "createdAt": "2025-10-11T07:54:27.946Z",
+      "updatedAt": "2025-10-11T07:54:27.946Z"
+    },
+    {
+      "id": "truck_1760169267943_9_xnrey2fk4",
+      "supplierName": "Murtala yahaya",
+      "bags": 222,
+      "moistureLevel": 24,
+      "truckNumber": "FST 498 XB",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-11T07:54:27.946Z"
+        }
+      ],
+      "createdAt": "2025-10-11T07:54:27.946Z",
+      "updatedAt": "2025-10-11T07:54:27.946Z"
     }
   ],
-  "lastModified": "2025-10-10T18:34:56.069Z",
+  "lastModified": "2025-10-11T07:54:28.034Z",
   "version": "2.0.0"
 }
