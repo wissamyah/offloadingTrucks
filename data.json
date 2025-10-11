@@ -1402,7 +1402,7 @@
       "bags": 79,
       "moistureLevel": 20,
       "truckNumber": "RNG 761 XA",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -1411,7 +1411,9 @@
       ],
       "createdAt": "2025-10-11T07:54:27.946Z",
       "updatedAt": "2025-10-11T07:54:27.946Z",
-      "waybillNumber": "6367"
+      "waybillNumber": "6367",
+      "netWeight": 5380,
+      "deduction": 40
     },
     {
       "id": "truck_1760169267943_5_oqqjo7khc",
@@ -1519,6 +1521,6 @@
       "deduction": 260
     }
   ],
-  "lastModified": "2025-10-11T11:43:03.181Z",
+  "lastModified": "2025-10-11T11:44:01.658Z",
   "version": "2.0.0"
 }
