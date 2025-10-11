@@ -1490,7 +1490,7 @@
       "bags": 450,
       "moistureLevel": 23,
       "truckNumber": "MKA 298 YJ",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
@@ -1498,9 +1498,10 @@
         }
       ],
       "createdAt": "2025-10-11T07:56:38.789Z",
-      "updatedAt": "2025-10-11T07:56:38.789Z"
+      "updatedAt": "2025-10-11T07:56:38.789Z",
+      "waybillNumber": "6365"
     }
   ],
-  "lastModified": "2025-10-11T07:56:38.840Z",
+  "lastModified": "2025-10-11T07:56:55.632Z",
   "version": "2.0.0"
 }
