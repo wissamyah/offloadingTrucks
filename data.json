@@ -1519,8 +1519,24 @@
       "waybillNumber": "6365",
       "netWeight": 32470,
       "deduction": 260
+    },
+    {
+      "id": "truck_1760187598770_0_e2kfrrdzd",
+      "supplierName": "Murtala yahaya",
+      "bags": 500,
+      "moistureLevel": 20,
+      "truckNumber": "NGL 482 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-11T12:59:58.770Z"
+        }
+      ],
+      "createdAt": "2025-10-11T12:59:58.770Z",
+      "updatedAt": "2025-10-11T12:59:58.770Z"
     }
   ],
-  "lastModified": "2025-10-11T12:57:45.859Z",
+  "lastModified": "2025-10-11T12:59:58.801Z",
   "version": "2.0.0"
 }
