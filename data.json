@@ -1539,8 +1539,152 @@
       "waybillNumber": "6371",
       "netWeight": 34940,
       "deduction": 190
+    },
+    {
+      "id": "truck_1760266183948_0_8ba5cg097",
+      "supplierName": "Jamilu jangale",
+      "bags": 400,
+      "moistureLevel": 21,
+      "truckNumber": "SKK 778 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-12T10:49:43.948Z"
+        }
+      ],
+      "createdAt": "2025-10-12T10:49:43.948Z",
+      "updatedAt": "2025-10-12T10:49:43.948Z"
+    },
+    {
+      "id": "truck_1760266183948_1_dcx6two9g",
+      "supplierName": "Mukhtari Sale",
+      "bags": 112,
+      "moistureLevel": 20,
+      "truckNumber": "UGG 592 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-12T10:49:43.948Z"
+        }
+      ],
+      "createdAt": "2025-10-12T10:49:43.948Z",
+      "updatedAt": "2025-10-12T10:49:43.948Z"
+    },
+    {
+      "id": "truck_1760266183948_2_iuhnqw15i",
+      "supplierName": "Umar Ahmad Danmalik",
+      "bags": 322,
+      "moistureLevel": 20,
+      "truckNumber": "KMC 376 ZB",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-12T10:49:43.948Z"
+        }
+      ],
+      "createdAt": "2025-10-12T10:49:43.948Z",
+      "updatedAt": "2025-10-12T10:49:43.948Z"
+    },
+    {
+      "id": "truck_1760266183948_3_fx7x0vp7o",
+      "supplierName": "Idris Garba",
+      "bags": 100,
+      "moistureLevel": 20,
+      "truckNumber": "DTN 506 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-12T10:49:43.948Z"
+        }
+      ],
+      "createdAt": "2025-10-12T10:49:43.948Z",
+      "updatedAt": "2025-10-12T10:49:43.948Z"
+    },
+    {
+      "id": "truck_1760266183948_4_fgp7gr6mh",
+      "supplierName": "Murtala Yahaya",
+      "bags": 100,
+      "moistureLevel": 21,
+      "truckNumber": "BKR 440 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-12T10:49:43.948Z"
+        }
+      ],
+      "createdAt": "2025-10-12T10:49:43.948Z",
+      "updatedAt": "2025-10-12T10:49:43.948Z"
+    },
+    {
+      "id": "truck_1760266183948_5_ro84kvzoq",
+      "supplierName": "Idris Garba",
+      "bags": 120,
+      "moistureLevel": 22,
+      "truckNumber": "MTZ 67 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-12T10:49:43.948Z"
+        }
+      ],
+      "createdAt": "2025-10-12T10:49:43.948Z",
+      "updatedAt": "2025-10-12T10:49:43.948Z"
+    },
+    {
+      "id": "truck_1760266183948_6_owylxksgc",
+      "supplierName": "Jamilu Yahaya",
+      "bags": 500,
+      "moistureLevel": 20,
+      "truckNumber": "GUS 996 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-12T10:49:43.948Z"
+        }
+      ],
+      "createdAt": "2025-10-12T10:49:43.948Z",
+      "updatedAt": "2025-10-12T10:49:43.948Z"
+    },
+    {
+      "id": "truck_1760266183948_7_j9vp9gbyk",
+      "supplierName": "H A Tahir",
+      "bags": 200,
+      "moistureLevel": 20,
+      "truckNumber": "LFA 773 ZY",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-12T10:49:43.948Z"
+        }
+      ],
+      "createdAt": "2025-10-12T10:49:43.948Z",
+      "updatedAt": "2025-10-12T10:49:43.948Z"
+    },
+    {
+      "id": "truck_1760266183948_8_eb2wzc4zy",
+      "supplierName": "Mukhtari Sale",
+      "bags": 203,
+      "moistureLevel": 20,
+      "truckNumber": "KTN 223 XQ",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-12T10:49:43.948Z"
+        }
+      ],
+      "createdAt": "2025-10-12T10:49:43.948Z",
+      "updatedAt": "2025-10-12T10:49:43.948Z"
     }
   ],
-  "lastModified": "2025-10-11T23:16:06.866Z",
+  "lastModified": "2025-10-12T10:49:44.249Z",
   "version": "2.0.0"
 }
