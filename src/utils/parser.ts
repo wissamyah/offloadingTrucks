@@ -21,7 +21,11 @@ export function parseWhatsAppMessage(message: string): ParsedTruckEntry[] {
       const fullLine = truckMatch ? truckMatch[2] : line;
 
       // Check if this is the old format (all info on one line)
-      // Pattern: "1. Supplier Name 234 bags 13%"
+      // Supports multiple patterns:
+      // - "1. Supplier Name 234 bags 13%"
+      // - "1. Jamilu jangale 400 bags *21%*" (with asterisks around moisture)
+      // - "5. Murtala Yahaya 100 bags 21%" (without asterisks)
+      // Truck number expected on next line (possibly indented)
       const oldFormatBagsMatch = fullLine.match(/(\d+)\s*bags?\s*/i);
       const oldFormatMoistureMatch = fullLine.match(/(\*?)(\d+(?:\.\d+)?)%(\*?)/);
 
@@ -37,7 +41,8 @@ export function parseWhatsAppMessage(message: string): ParsedTruckEntry[] {
         const bags = parseInt(oldFormatBagsMatch[1], 10);
 
         // Get supplier name (everything before the bags number)
-        const bagsIndex = beforeMoisture.indexOf(oldFormatBagsMatch[0]);
+        // Use the bag number + " bag" pattern to find the index (more robust than using full match)
+        const bagsIndex = beforeMoisture.indexOf(`${bags} bag`);
         const supplierName = beforeMoisture.substring(0, bagsIndex).trim();
 
         // Look for truck number on the next line
