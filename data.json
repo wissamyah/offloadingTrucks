@@ -1771,7 +1771,7 @@
       "bags": 140,
       "moistureLevel": 20,
       "truckNumber": "MLF 470 XA",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
@@ -1779,7 +1779,8 @@
         }
       ],
       "createdAt": "2025-10-13T07:34:32.314Z",
-      "updatedAt": "2025-10-13T07:34:32.314Z"
+      "updatedAt": "2025-10-13T07:34:32.314Z",
+      "waybillNumber": "6388"
     },
     {
       "id": "truck_1760340872313_6_nxs9un5nr",
@@ -1878,6 +1879,6 @@
       "updatedAt": "2025-10-13T07:35:27.217Z"
     }
   ],
-  "lastModified": "2025-10-13T07:40:14.968Z",
+  "lastModified": "2025-10-13T07:49:05.304Z",
   "version": "2.0.0"
 }
