@@ -1794,7 +1794,7 @@
       "bags": 90,
       "moistureLevel": 20,
       "truckNumber": "XB 378 TSF",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
@@ -1802,7 +1802,8 @@
         }
       ],
       "createdAt": "2025-10-13T07:35:27.217Z",
-      "updatedAt": "2025-10-13T07:35:27.217Z"
+      "updatedAt": "2025-10-13T07:35:27.217Z",
+      "waybillNumber": "6395"
     },
     {
       "id": "truck_1760340927217_1_7e1xcpa3j",
@@ -1889,6 +1890,6 @@
       "netWeight": 8970
     }
   ],
-  "lastModified": "2025-10-13T09:04:23.469Z",
+  "lastModified": "2025-10-13T09:05:04.872Z",
   "version": "2.0.0"
 }
