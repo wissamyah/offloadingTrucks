@@ -1944,7 +1944,7 @@
       "bags": 58,
       "moistureLevel": 20,
       "truckNumber": "XB 378 TSF",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
@@ -1952,9 +1952,10 @@
         }
       ],
       "createdAt": "2025-10-13T16:44:40.646Z",
-      "updatedAt": "2025-10-13T16:44:40.646Z"
+      "updatedAt": "2025-10-13T16:44:40.646Z",
+      "waybillNumber": "6404"
     }
   ],
-  "lastModified": "2025-10-13T16:44:40.710Z",
+  "lastModified": "2025-10-13T16:44:56.130Z",
   "version": "2.0.0"
 }
