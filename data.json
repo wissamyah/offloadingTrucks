@@ -1852,7 +1852,7 @@
       "bags": 250,
       "moistureLevel": 23,
       "truckNumber": "PKM 289 ZY",
-      "status": "pending",
+      "status": "rejected",
       "statusHistory": [
         {
           "status": "pending",
@@ -1900,6 +1900,6 @@
       "netWeight": 8970
     }
   ],
-  "lastModified": "2025-10-13T12:13:06.615Z",
+  "lastModified": "2025-10-13T12:13:14.412Z",
   "version": "2.0.0"
 }
