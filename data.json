@@ -1861,8 +1861,24 @@
       ],
       "createdAt": "2025-10-13T07:35:27.217Z",
       "updatedAt": "2025-10-13T07:35:27.217Z"
+    },
+    {
+      "id": "truck_1760343138316_0_l51vaqhdp",
+      "supplierName": "Addau Isyaku",
+      "bags": 102,
+      "moistureLevel": 20,
+      "truckNumber": "BKR 179 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-13T08:12:18.316Z"
+        }
+      ],
+      "createdAt": "2025-10-13T08:12:18.316Z",
+      "updatedAt": "2025-10-13T08:12:18.316Z"
     }
   ],
-  "lastModified": "2025-10-13T08:08:29.405Z",
+  "lastModified": "2025-10-13T08:12:18.397Z",
   "version": "2.0.0"
 }
