@@ -1795,8 +1795,88 @@
       ],
       "createdAt": "2025-10-13T07:34:32.314Z",
       "updatedAt": "2025-10-13T07:34:32.314Z"
+    },
+    {
+      "id": "truck_1760340927217_0_ugafy0o8p",
+      "supplierName": "Mukhtari Sale",
+      "bags": 90,
+      "moistureLevel": 20,
+      "truckNumber": "XB 378 TSF",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-13T07:35:27.217Z"
+        }
+      ],
+      "createdAt": "2025-10-13T07:35:27.217Z",
+      "updatedAt": "2025-10-13T07:35:27.217Z"
+    },
+    {
+      "id": "truck_1760340927217_1_7e1xcpa3j",
+      "supplierName": "Jamilu Yahaya",
+      "bags": 219,
+      "moistureLevel": 23,
+      "truckNumber": "JJN 468 XB",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-13T07:35:27.217Z"
+        }
+      ],
+      "createdAt": "2025-10-13T07:35:27.217Z",
+      "updatedAt": "2025-10-13T07:35:27.217Z"
+    },
+    {
+      "id": "truck_1760340927217_2_ocxgheny4",
+      "supplierName": "Jamilu Yahaya",
+      "bags": 220,
+      "moistureLevel": 21,
+      "truckNumber": "DDM 304 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-13T07:35:27.217Z"
+        }
+      ],
+      "createdAt": "2025-10-13T07:35:27.217Z",
+      "updatedAt": "2025-10-13T07:35:27.217Z"
+    },
+    {
+      "id": "truck_1760340927217_3_k417cvybg",
+      "supplierName": "M D Global",
+      "bags": 250,
+      "moistureLevel": 23,
+      "truckNumber": "PKM 289 ZY",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-13T07:35:27.217Z"
+        }
+      ],
+      "createdAt": "2025-10-13T07:35:27.217Z",
+      "updatedAt": "2025-10-13T07:35:27.217Z"
+    },
+    {
+      "id": "truck_1760340927217_4_59pdavyh5",
+      "supplierName": "Idris Haruna",
+      "bags": 88,
+      "moistureLevel": 20,
+      "truckNumber": "DKA 890 ZP",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-13T07:35:27.217Z"
+        }
+      ],
+      "createdAt": "2025-10-13T07:35:27.217Z",
+      "updatedAt": "2025-10-13T07:35:27.217Z"
     }
   ],
-  "lastModified": "2025-10-13T07:34:32.421Z",
+  "lastModified": "2025-10-13T07:35:27.279Z",
   "version": "2.0.0"
 }
