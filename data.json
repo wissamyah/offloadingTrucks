@@ -1915,8 +1915,24 @@
       "createdAt": "2025-10-13T13:19:48.101Z",
       "updatedAt": "2025-10-13T13:19:48.101Z",
       "waybillNumber": "6401"
+    },
+    {
+      "id": "truck_1760361637185_0_uuko4zqhp",
+      "supplierName": "Idris Garba",
+      "bags": 51,
+      "moistureLevel": 20,
+      "truckNumber": "XA 162 WRN",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-13T13:20:37.185Z"
+        }
+      ],
+      "createdAt": "2025-10-13T13:20:37.185Z",
+      "updatedAt": "2025-10-13T13:20:37.185Z"
     }
   ],
-  "lastModified": "2025-10-13T13:20:08.047Z",
+  "lastModified": "2025-10-13T13:20:37.593Z",
   "version": "2.0.0"
 }
