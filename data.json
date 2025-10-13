@@ -1745,7 +1745,7 @@
       "bags": 114,
       "moistureLevel": 23,
       "truckNumber": "KMC 45 BW",
-      "status": "pending",
+      "status": "rejected",
       "statusHistory": [
         {
           "status": "pending",
@@ -1900,6 +1900,6 @@
       "netWeight": 8970
     }
   ],
-  "lastModified": "2025-10-13T12:13:14.412Z",
+  "lastModified": "2025-10-13T12:13:18.649Z",
   "version": "2.0.0"
 }
