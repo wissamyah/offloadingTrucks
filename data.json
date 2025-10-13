@@ -1937,8 +1937,24 @@
       "waybillNumber": "6402",
       "netWeight": 3660,
       "deduction": 80
+    },
+    {
+      "id": "truck_1760373880645_0_l3ktze8kz",
+      "supplierName": "Addau Isyaku",
+      "bags": 58,
+      "moistureLevel": 20,
+      "truckNumber": "XB 378 TSF",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-13T16:44:40.646Z"
+        }
+      ],
+      "createdAt": "2025-10-13T16:44:40.646Z",
+      "updatedAt": "2025-10-13T16:44:40.646Z"
     }
   ],
-  "lastModified": "2025-10-13T14:36:05.771Z",
+  "lastModified": "2025-10-13T16:44:40.710Z",
   "version": "2.0.0"
 }
