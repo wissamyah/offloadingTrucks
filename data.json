@@ -1923,7 +1923,7 @@
       "bags": 51,
       "moistureLevel": 20,
       "truckNumber": "XA 162 WRN",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -1932,9 +1932,11 @@
       ],
       "createdAt": "2025-10-13T13:20:37.185Z",
       "updatedAt": "2025-10-13T13:20:37.185Z",
-      "waybillNumber": "6402"
+      "waybillNumber": "6402",
+      "netWeight": 3660,
+      "deduction": 80
     }
   ],
-  "lastModified": "2025-10-13T14:06:31.507Z",
+  "lastModified": "2025-10-13T14:06:49.415Z",
   "version": "2.0.0"
 }
