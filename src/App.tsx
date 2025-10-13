@@ -191,21 +191,16 @@ function App() {
       {/* Header */}
       <header className="bg-gray-800 shadow-xl border-b border-gray-700">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
-          <div className="flex items-center justify-between">
-            <div className="flex items-center gap-3">
-              <TruckIcon className="h-8 w-8 text-blue-500" />
-              <div>
-                <h1 className="text-2xl font-bold text-gray-100">Paddy Truck Monitoring System</h1>
-                <p className="text-sm text-gray-400">Track and manage paddy truck operations</p>
+          <div className="flex items-center justify-between gap-2 sm:gap-3">
+            <div className="flex items-center gap-2 sm:gap-3 min-w-0 flex-1">
+              <TruckIcon className="h-6 w-6 sm:h-8 sm:w-8 text-blue-500 flex-shrink-0" />
+              <div className="min-w-0 flex-1">
+                <h1 className="text-lg sm:text-2xl font-bold text-gray-100 truncate">Paddy Truck Monitoring System</h1>
+                <p className="text-xs sm:text-sm text-gray-400 hidden sm:block">Track and manage paddy truck operations</p>
               </div>
             </div>
-            <div className="flex items-center gap-3">
-              <SyncDropdown onConfigured={refresh} />
-              {lastSync && (
-                <div className="text-sm text-gray-400">
-                  Last sync: {lastSync.toLocaleTimeString()}
-                </div>
-              )}
+            <div className="flex items-center flex-shrink-0">
+              <SyncDropdown onConfigured={refresh} lastSync={lastSync} />
             </div>
           </div>
         </div>

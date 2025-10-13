@@ -4,7 +4,7 @@ import { Loader2 } from 'lucide-react';
 interface LoadingButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
   loading?: boolean;
   variant?: 'primary' | 'secondary' | 'danger' | 'success';
-  size?: 'sm' | 'md' | 'lg';
+  size?: 'xs' | 'sm' | 'md' | 'lg';
   icon?: React.ReactNode;
 }
 
@@ -28,6 +28,7 @@ export const LoadingButton: React.FC<LoadingButtonProps> = ({
   };
 
   const sizeClasses = {
+    xs: 'px-2 py-1 text-xs gap-1',
     sm: 'px-3 py-1.5 text-sm gap-1.5',
     md: 'px-4 py-2 text-base gap-2',
     lg: 'px-6 py-3 text-lg gap-3',
@@ -42,9 +43,9 @@ export const LoadingButton: React.FC<LoadingButtonProps> = ({
       {...props}
     >
       {loading ? (
-        <Loader2 className={`animate-spin ${size === 'sm' ? 'h-4 w-4' : size === 'lg' ? 'h-6 w-6' : 'h-5 w-5'}`} />
+        <Loader2 className={`animate-spin ${size === 'xs' ? 'h-3 w-3' : size === 'sm' ? 'h-4 w-4' : size === 'lg' ? 'h-6 w-6' : 'h-5 w-5'}`} />
       ) : icon ? (
-        <span className={size === 'sm' ? 'h-4 w-4' : size === 'lg' ? 'h-6 w-6' : 'h-5 w-5'}>{icon}</span>
+        <span className={size === 'xs' ? 'h-3 w-3' : size === 'sm' ? 'h-4 w-4' : size === 'lg' ? 'h-6 w-6' : 'h-5 w-5'}>{icon}</span>
       ) : null}
       {children}
     </button>

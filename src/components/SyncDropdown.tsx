@@ -7,9 +7,10 @@ import toast from 'react-hot-toast';
 
 interface SyncDropdownProps {
   onConfigured?: () => void;
+  lastSync?: Date | null;
 }
 
-export const SyncDropdown: React.FC<SyncDropdownProps> = ({ onConfigured }) => {
+export const SyncDropdown: React.FC<SyncDropdownProps> = ({ onConfigured, lastSync }) => {
   const { refresh } = useGitHubSync();
   const [showDropdown, setShowDropdown] = useState(false);
   const [showGitHubSettings, setShowGitHubSettings] = useState(false);
@@ -148,6 +149,15 @@ export const SyncDropdown: React.FC<SyncDropdownProps> = ({ onConfigured }) => {
                   {isConfigured ? (isOnline ? 'Connected' : 'Offline') : 'Not configured'}
                 </span>
               </div>
+
+              {lastSync && (
+                <div className="flex items-center justify-between text-sm pt-2 border-t border-gray-700">
+                  <span className="text-gray-400">Last sync</span>
+                  <span className="text-gray-300">
+                    {lastSync.toLocaleTimeString()}
+                  </span>
+                </div>
+              )}
 
               {isConfigured && (
                 <>

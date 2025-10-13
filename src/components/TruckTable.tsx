@@ -51,7 +51,7 @@ const StatusBadge: React.FC<{ status: TruckStatus }> = ({ status }) => {
   };
 
   return (
-    <span className={`inline-flex items-center gap-1 px-2.5 py-1 rounded-full text-xs font-medium border ${statusStyles[status]}`}>
+    <span className={`inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-xs font-medium border ${statusStyles[status]}`}>
       {statusIcons[status]}
       {statusLabels[status]}
     </span>
@@ -266,37 +266,37 @@ export const TruckTable: React.FC<TruckTableProps> = ({
           <table className="min-w-full divide-y divide-gray-700">
           <thead className="bg-gray-750">
             <tr>
-              <th className="px-6 py-3 text-left text-xs font-medium text-gray-400 uppercase tracking-wider">
+              <th className="px-2 py-2 text-left text-xs font-medium text-gray-400 uppercase tracking-wider">
                 Time
               </th>
-              <th className="px-6 py-3 text-left text-xs font-medium text-gray-400 uppercase tracking-wider">
+              <th className="px-2 py-2 text-left text-xs font-medium text-gray-400 uppercase tracking-wider">
                 Supplier
               </th>
-              <th className="px-6 py-3 text-left text-xs font-medium text-gray-400 uppercase tracking-wider">
+              <th className="px-2 py-2 text-left text-xs font-medium text-gray-400 uppercase tracking-wider">
                 Truck
               </th>
-              <th className="px-6 py-3 text-left text-xs font-medium text-gray-400 uppercase tracking-wider">
+              <th className="px-2 py-2 text-left text-xs font-medium text-gray-400 uppercase tracking-wider">
                 Bags
               </th>
-              <th className="px-6 py-3 text-left text-xs font-medium text-gray-400 uppercase tracking-wider">
+              <th className="px-2 py-2 text-left text-xs font-medium text-gray-400 uppercase tracking-wider">
                 <div className="flex items-center gap-1">
-                  <Droplets className="h-4 w-4" />
-                  Moisture
+                  <Droplets className="h-3 w-3" />
+                  Moist.
                 </div>
               </th>
-              <th className="px-6 py-3 text-left text-xs font-medium text-gray-400 uppercase tracking-wider">
+              <th className="px-2 py-2 text-left text-xs font-medium text-gray-400 uppercase tracking-wider">
                 Status
               </th>
-              <th className="px-6 py-3 text-left text-xs font-medium text-gray-400 uppercase tracking-wider">
+              <th className="px-2 py-2 text-left text-xs font-medium text-gray-400 uppercase tracking-wider">
                 Waybill
               </th>
-              <th className="px-6 py-3 text-left text-xs font-medium text-gray-400 uppercase tracking-wider">
-                Net Weight
+              <th className="px-2 py-2 text-left text-xs font-medium text-gray-400 uppercase tracking-wider">
+                Net Wt.
               </th>
-              <th className="px-6 py-3 text-left text-xs font-medium text-gray-400 uppercase tracking-wider">
-                Deduction
+              <th className="px-2 py-2 text-left text-xs font-medium text-gray-400 uppercase tracking-wider">
+                Deduc.
               </th>
-              <th className="px-6 py-3 text-right text-xs font-medium text-gray-500 uppercase tracking-wider">
+              <th className="px-2 py-2 text-right text-xs font-medium text-gray-500 uppercase tracking-wider">
                 Actions
               </th>
             </tr>
@@ -304,20 +304,20 @@ export const TruckTable: React.FC<TruckTableProps> = ({
           <tbody className="bg-gray-800 divide-y divide-gray-700">
             {trucks.map((truck) => (
               <tr key={truck.id} className="hover:bg-gray-750 transition-colors">
-                <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-400">
+                <td className="px-2 py-3 whitespace-nowrap text-xs text-gray-400">
                   {getLatestStatusTime(truck)}
                 </td>
-                <td className="px-6 py-4 whitespace-nowrap">
-                  <div className="text-sm font-medium text-gray-100">{truck.supplierName}</div>
+                <td className="px-2 py-3 whitespace-nowrap">
+                  <div className="text-xs font-medium text-gray-100">{truck.supplierName}</div>
                 </td>
-                <td className="px-6 py-4 whitespace-nowrap">
+                <td className="px-2 py-3 whitespace-nowrap">
                   <div
-                    className="text-sm font-mono text-gray-200 cursor-pointer hover:text-gray-100 inline-block"
+                    className="text-xs font-mono text-gray-200 cursor-pointer hover:text-gray-100 inline-block"
                     onClick={() => copyTruckNumber(truck)}
                   >
                     {copiedTruck === truck.id ? (
                       <span className="text-green-400 flex items-center gap-1">
-                        <CheckCircle className="h-4 w-4" />
+                        <CheckCircle className="h-3 w-3" />
                         Copied!
                       </span>
                     ) : (
@@ -325,34 +325,34 @@ export const TruckTable: React.FC<TruckTableProps> = ({
                     )}
                   </div>
                 </td>
-                <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-200">
+                <td className="px-2 py-3 whitespace-nowrap text-xs text-gray-200">
                   {truck.bags}
                 </td>
-                <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-200">
+                <td className="px-2 py-3 whitespace-nowrap text-xs text-gray-200">
                   {truck.moistureLevel}%
                 </td>
-                <td className="px-6 py-4 whitespace-nowrap">
+                <td className="px-2 py-3 whitespace-nowrap">
                   <StatusBadge status={truck.status} />
                 </td>
-                <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-200">
+                <td className="px-2 py-3 whitespace-nowrap text-xs text-gray-200">
                   {truck.waybillNumber || '-'}
                 </td>
-                <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-200">
+                <td className="px-2 py-3 whitespace-nowrap text-xs text-gray-200">
                   {truck.netWeight ? `${truck.netWeight} kg` : '-'}
                 </td>
-                <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-200">
+                <td className="px-2 py-3 whitespace-nowrap text-xs text-gray-200">
                   {truck.deduction ? `${truck.deduction} kg` : '-'}
                 </td>
-                <td className="px-6 py-4 whitespace-nowrap text-right text-sm font-medium">
-                  <div className="flex justify-end gap-2">
+                <td className="px-2 py-3 whitespace-nowrap text-right text-xs font-medium">
+                  <div className="flex justify-end gap-1">
                     {truck.status === 'pending' && (
                       <>
                         <LoadingButton
                           onClick={() => onScaleIn(truck.id)}
                           loading={loadingStates[`scale-${truck.id}`]}
                           variant="primary"
-                          size="sm"
-                          icon={<Scale className="h-4 w-4" />}
+                          size="xs"
+                          icon={<Scale className="h-3 w-3" />}
                         >
                           Scale In
                         </LoadingButton>
@@ -360,7 +360,7 @@ export const TruckTable: React.FC<TruckTableProps> = ({
                           onClick={() => setRejectConfirmTruck(truck.id)}
                           loading={loadingStates[`reject-${truck.id}`]}
                           variant="danger"
-                          size="sm"
+                          size="xs"
                         >
                           Reject
                         </LoadingButton>
@@ -373,16 +373,16 @@ export const TruckTable: React.FC<TruckTableProps> = ({
                           onClick={() => onOffload(truck.id)}
                           loading={loadingStates[`offload-${truck.id}`]}
                           variant="success"
-                          size="sm"
-                          icon={<Package className="h-4 w-4" />}
+                          size="xs"
+                          icon={<Package className="h-3 w-3" />}
                         >
-                          Offloaded
+                          Offload
                         </LoadingButton>
                         <LoadingButton
                           onClick={() => setRejectConfirmTruck(truck.id)}
                           loading={loadingStates[`reject-${truck.id}`]}
                           variant="danger"
-                          size="sm"
+                          size="xs"
                         >
                           Reject
                         </LoadingButton>
@@ -394,8 +394,8 @@ export const TruckTable: React.FC<TruckTableProps> = ({
                         onClick={() => onScaleIn(truck.id)}
                         loading={loadingStates[`scale-${truck.id}`]}
                         variant="primary"
-                        size="sm"
-                        icon={<Scale className="h-4 w-4" />}
+                        size="xs"
+                        icon={<Scale className="h-3 w-3" />}
                       >
                         Scale In
                       </LoadingButton>
@@ -403,22 +403,22 @@ export const TruckTable: React.FC<TruckTableProps> = ({
 
                     <button
                       onClick={() => onEdit(truck)}
-                      className="text-blue-400 hover:text-blue-300 transition-colors p-1"
+                      className="text-blue-400 hover:text-blue-300 transition-colors p-0.5"
                       title="Edit"
                     >
-                      <Edit className="h-4 w-4" />
+                      <Edit className="h-3.5 w-3.5" />
                     </button>
 
                     <button
                       onClick={() => setDeleteConfirmTruck(truck.id)}
-                      className="text-red-400 hover:text-red-300 transition-colors p-1"
+                      className="text-red-400 hover:text-red-300 transition-colors p-0.5"
                       disabled={deletingTrucks.has(truck.id)}
                       title="Delete"
                     >
                       {deletingTrucks.has(truck.id) ? (
-                        <div className="animate-spin h-4 w-4 border-2 border-red-400 border-t-transparent rounded-full" />
+                        <div className="animate-spin h-3.5 w-3.5 border-2 border-red-400 border-t-transparent rounded-full" />
                       ) : (
-                        <Trash2 className="h-4 w-4" />
+                        <Trash2 className="h-3.5 w-3.5" />
                       )}
                     </button>
                   </div>
