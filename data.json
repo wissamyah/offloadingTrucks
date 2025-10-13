@@ -1868,7 +1868,7 @@
       "bags": 102,
       "moistureLevel": 20,
       "truckNumber": "BKR 179 XA",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
@@ -1876,9 +1876,10 @@
         }
       ],
       "createdAt": "2025-10-13T08:12:18.316Z",
-      "updatedAt": "2025-10-13T08:12:18.316Z"
+      "updatedAt": "2025-10-13T08:12:18.316Z",
+      "waybillNumber": "6390"
     }
   ],
-  "lastModified": "2025-10-13T08:12:18.397Z",
+  "lastModified": "2025-10-13T08:12:31.254Z",
   "version": "2.0.0"
 }
