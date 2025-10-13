@@ -1683,8 +1683,120 @@
       ],
       "createdAt": "2025-10-12T10:49:43.948Z",
       "updatedAt": "2025-10-12T10:49:43.948Z"
+    },
+    {
+      "id": "truck_1760340872313_0_4rk2o82gz",
+      "supplierName": "Mukhtari Sale",
+      "bags": 112,
+      "moistureLevel": 20,
+      "truckNumber": "UGG 592 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-13T07:34:32.314Z"
+        }
+      ],
+      "createdAt": "2025-10-13T07:34:32.314Z",
+      "updatedAt": "2025-10-13T07:34:32.314Z"
+    },
+    {
+      "id": "truck_1760340872313_1_ji6ndhggp",
+      "supplierName": "Sammaf Agro Allied",
+      "bags": 200,
+      "moistureLevel": 20,
+      "truckNumber": "AKD 27 YJ",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-13T07:34:32.314Z"
+        }
+      ],
+      "createdAt": "2025-10-13T07:34:32.314Z",
+      "updatedAt": "2025-10-13T07:34:32.314Z"
+    },
+    {
+      "id": "truck_1760340872313_2_i8l3dtg01",
+      "supplierName": "Addau Isyaku",
+      "bags": 119,
+      "moistureLevel": 20,
+      "truckNumber": "BGM 878 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-13T07:34:32.314Z"
+        }
+      ],
+      "createdAt": "2025-10-13T07:34:32.314Z",
+      "updatedAt": "2025-10-13T07:34:32.314Z"
+    },
+    {
+      "id": "truck_1760340872313_3_l3dsc1aka",
+      "supplierName": "Addau Isyaku",
+      "bags": 114,
+      "moistureLevel": 23,
+      "truckNumber": "KMC 45 BW",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-13T07:34:32.314Z"
+        }
+      ],
+      "createdAt": "2025-10-13T07:34:32.314Z",
+      "updatedAt": "2025-10-13T07:34:32.314Z"
+    },
+    {
+      "id": "truck_1760340872313_4_ang25z4by",
+      "supplierName": "Addau Isyaku",
+      "bags": 102,
+      "moistureLevel": 20,
+      "truckNumber": "BKR 179 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-13T07:34:32.314Z"
+        }
+      ],
+      "createdAt": "2025-10-13T07:34:32.314Z",
+      "updatedAt": "2025-10-13T07:34:32.314Z"
+    },
+    {
+      "id": "truck_1760340872313_5_5m77k2ft5",
+      "supplierName": "Mansur Mansur",
+      "bags": 140,
+      "moistureLevel": 20,
+      "truckNumber": "MLF 470 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-13T07:34:32.314Z"
+        }
+      ],
+      "createdAt": "2025-10-13T07:34:32.314Z",
+      "updatedAt": "2025-10-13T07:34:32.314Z"
+    },
+    {
+      "id": "truck_1760340872313_6_nxs9un5nr",
+      "supplierName": "Idris Garba",
+      "bags": 105,
+      "moistureLevel": 20,
+      "truckNumber": "TRN 265 SY",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-13T07:34:32.314Z"
+        }
+      ],
+      "createdAt": "2025-10-13T07:34:32.314Z",
+      "updatedAt": "2025-10-13T07:34:32.314Z"
     }
   ],
-  "lastModified": "2025-10-12T10:49:44.249Z",
+  "lastModified": "2025-10-13T07:34:32.421Z",
   "version": "2.0.0"
 }
