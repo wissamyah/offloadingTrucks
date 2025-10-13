@@ -1823,7 +1823,7 @@
       "bags": 220,
       "moistureLevel": 21,
       "truckNumber": "DDM 304 XA",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
@@ -1831,7 +1831,8 @@
         }
       ],
       "createdAt": "2025-10-13T07:35:27.217Z",
-      "updatedAt": "2025-10-13T07:35:27.217Z"
+      "updatedAt": "2025-10-13T07:35:27.217Z",
+      "waybillNumber": "6394"
     },
     {
       "id": "truck_1760340927217_3_k417cvybg",
@@ -1885,6 +1886,6 @@
       "netWeight": 8970
     }
   ],
-  "lastModified": "2025-10-13T08:52:10.303Z",
+  "lastModified": "2025-10-13T08:55:40.447Z",
   "version": "2.0.0"
 }
