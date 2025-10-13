@@ -1749,23 +1749,6 @@
       "updatedAt": "2025-10-13T07:34:32.314Z"
     },
     {
-      "id": "truck_1760340872313_4_ang25z4by",
-      "supplierName": "Addau Isyaku",
-      "bags": 102,
-      "moistureLevel": 20,
-      "truckNumber": "BKR 179 XA",
-      "status": "scaled_in",
-      "statusHistory": [
-        {
-          "status": "pending",
-          "timestamp": "2025-10-13T07:34:32.314Z"
-        }
-      ],
-      "createdAt": "2025-10-13T07:34:32.314Z",
-      "updatedAt": "2025-10-13T07:34:32.314Z",
-      "waybillNumber": "6387"
-    },
-    {
       "id": "truck_1760340872313_5_5m77k2ft5",
       "supplierName": "Mansur Mansur",
       "bags": 140,
@@ -1880,6 +1863,6 @@
       "updatedAt": "2025-10-13T07:35:27.217Z"
     }
   ],
-  "lastModified": "2025-10-13T07:53:40.791Z",
+  "lastModified": "2025-10-13T08:08:29.405Z",
   "version": "2.0.0"
 }
