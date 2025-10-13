@@ -1817,7 +1817,7 @@
       "bags": 219,
       "moistureLevel": 23,
       "truckNumber": "JJN 468 XB",
-      "status": "pending",
+      "status": "rejected",
       "statusHistory": [
         {
           "status": "pending",
@@ -1900,6 +1900,6 @@
       "netWeight": 8970
     }
   ],
-  "lastModified": "2025-10-13T10:58:39.233Z",
+  "lastModified": "2025-10-13T12:13:06.615Z",
   "version": "2.0.0"
 }
