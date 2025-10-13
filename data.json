@@ -1728,7 +1728,7 @@
       "bags": 119,
       "moistureLevel": 20,
       "truckNumber": "BGM 878 XA",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -1737,7 +1737,8 @@
       ],
       "createdAt": "2025-10-13T07:34:32.314Z",
       "updatedAt": "2025-10-13T07:34:32.314Z",
-      "waybillNumber": "6398"
+      "waybillNumber": "6398",
+      "netWeight": 8210
     },
     {
       "id": "truck_1760340872313_3_l3dsc1aka",
@@ -1950,6 +1951,6 @@
       "updatedAt": "2025-10-13T13:21:21.811Z"
     }
   ],
-  "lastModified": "2025-10-13T13:21:34.491Z",
+  "lastModified": "2025-10-13T14:03:10.455Z",
   "version": "2.0.0"
 }
