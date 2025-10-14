@@ -2126,7 +2126,7 @@
       "bags": 114,
       "moistureLevel": 19,
       "truckNumber": "JJJ 761 DM",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -2135,9 +2135,11 @@
       ],
       "createdAt": "2025-10-14T08:50:12.227Z",
       "updatedAt": "2025-10-14T08:50:12.227Z",
-      "waybillNumber": "6413"
+      "waybillNumber": "6413",
+      "netWeight": 8250,
+      "deduction": 100
     }
   ],
-  "lastModified": "2025-10-14T10:45:58.928Z",
+  "lastModified": "2025-10-14T10:46:20.907Z",
   "version": "2.0.0"
 }
