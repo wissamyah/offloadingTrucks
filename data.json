@@ -2149,7 +2149,7 @@
       "bags": 472,
       "moistureLevel": 20,
       "truckNumber": "JMT 248 YR",
-      "status": "scaled_in",
+      "status": "rejected",
       "statusHistory": [
         {
           "status": "pending",
@@ -2196,6 +2196,6 @@
       "waybillNumber": "6418"
     }
   ],
-  "lastModified": "2025-10-14T14:18:07.740Z",
+  "lastModified": "2025-10-14T14:42:43.933Z",
   "version": "2.0.0"
 }
