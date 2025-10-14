@@ -2181,7 +2181,7 @@
       "bags": 100,
       "moistureLevel": 20,
       "truckNumber": "GYA 616 XA",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
@@ -2189,9 +2189,10 @@
         }
       ],
       "createdAt": "2025-10-14T13:02:43.652Z",
-      "updatedAt": "2025-10-14T13:02:43.652Z"
+      "updatedAt": "2025-10-14T13:02:43.652Z",
+      "waybillNumber": "6417"
     }
   ],
-  "lastModified": "2025-10-14T13:02:43.779Z",
+  "lastModified": "2025-10-14T13:04:26.688Z",
   "version": "2.0.0"
 }
