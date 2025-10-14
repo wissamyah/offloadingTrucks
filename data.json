@@ -2012,7 +2012,7 @@
       "bags": 114,
       "moistureLevel": 19,
       "truckNumber": "JJJ 761 DM",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
@@ -2020,7 +2020,8 @@
         }
       ],
       "createdAt": "2025-10-14T07:29:32.405Z",
-      "updatedAt": "2025-10-14T07:29:32.405Z"
+      "updatedAt": "2025-10-14T07:29:32.405Z",
+      "waybillNumber": "6412"
     },
     {
       "id": "truck_1760426972405_4_t5dcr8ib6",
@@ -2123,6 +2124,6 @@
       "updatedAt": "2025-10-14T07:29:51.207Z"
     }
   ],
-  "lastModified": "2025-10-14T07:58:56.637Z",
+  "lastModified": "2025-10-14T08:00:33.945Z",
   "version": "2.0.0"
 }
