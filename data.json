@@ -2076,7 +2076,7 @@
       "bags": 520,
       "moistureLevel": 21,
       "truckNumber": "FSK 478 XA",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -2085,7 +2085,9 @@
       ],
       "createdAt": "2025-10-14T07:29:51.207Z",
       "updatedAt": "2025-10-14T07:29:51.207Z",
-      "waybillNumber": "6410"
+      "waybillNumber": "6410",
+      "netWeight": 39780,
+      "deduction": 150
     },
     {
       "id": "truck_1760426991207_3_nlx83sptk",
@@ -2140,6 +2142,6 @@
       "deduction": 100
     }
   ],
-  "lastModified": "2025-10-14T10:46:20.907Z",
+  "lastModified": "2025-10-14T11:24:55.783Z",
   "version": "2.0.0"
 }
