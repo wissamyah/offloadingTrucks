@@ -2035,8 +2035,88 @@
       ],
       "createdAt": "2025-10-14T07:29:32.405Z",
       "updatedAt": "2025-10-14T07:29:32.405Z"
+    },
+    {
+      "id": "truck_1760426991207_0_pu4yhbpyi",
+      "supplierName": "Addau Isyaku",
+      "bags": 100,
+      "moistureLevel": 20,
+      "truckNumber": "AAA 924 XF",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-14T07:29:51.207Z"
+        }
+      ],
+      "createdAt": "2025-10-14T07:29:51.207Z",
+      "updatedAt": "2025-10-14T07:29:51.207Z"
+    },
+    {
+      "id": "truck_1760426991207_1_2p1oc8lco",
+      "supplierName": "Jamilu jangale",
+      "bags": 500,
+      "moistureLevel": 20,
+      "truckNumber": "DAL 315 ZY",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-14T07:29:51.207Z"
+        }
+      ],
+      "createdAt": "2025-10-14T07:29:51.207Z",
+      "updatedAt": "2025-10-14T07:29:51.207Z"
+    },
+    {
+      "id": "truck_1760426991207_2_1ethf4ahv",
+      "supplierName": "Jamilu Yahaya",
+      "bags": 520,
+      "moistureLevel": 21,
+      "truckNumber": "FSK 478 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-14T07:29:51.207Z"
+        }
+      ],
+      "createdAt": "2025-10-14T07:29:51.207Z",
+      "updatedAt": "2025-10-14T07:29:51.207Z"
+    },
+    {
+      "id": "truck_1760426991207_3_nlx83sptk",
+      "supplierName": "Mukhtari Sale",
+      "bags": 210,
+      "moistureLevel": 20,
+      "truckNumber": "EKY 785 BU",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-14T07:29:51.207Z"
+        }
+      ],
+      "createdAt": "2025-10-14T07:29:51.207Z",
+      "updatedAt": "2025-10-14T07:29:51.207Z"
+    },
+    {
+      "id": "truck_1760426991207_4_ttvyfdq9a",
+      "supplierName": "Mujaheed Sabiu",
+      "bags": 90,
+      "moistureLevel": 24,
+      "truckNumber": "RGG 173 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-14T07:29:51.207Z"
+        }
+      ],
+      "createdAt": "2025-10-14T07:29:51.207Z",
+      "updatedAt": "2025-10-14T07:29:51.207Z"
     }
   ],
-  "lastModified": "2025-10-14T07:29:32.520Z",
+  "lastModified": "2025-10-14T07:29:51.640Z",
   "version": "2.0.0"
 }
