@@ -2175,8 +2175,24 @@
       "createdAt": "2025-10-14T13:02:43.652Z",
       "updatedAt": "2025-10-14T13:02:43.652Z",
       "waybillNumber": "6417"
+    },
+    {
+      "id": "truck_1760447584307_0_2l3hgwsrf",
+      "supplierName": "M B Flour",
+      "bags": 400,
+      "moistureLevel": 20,
+      "truckNumber": "DKA 384 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-14T13:13:04.307Z"
+        }
+      ],
+      "createdAt": "2025-10-14T13:13:04.307Z",
+      "updatedAt": "2025-10-14T13:13:04.307Z"
     }
   ],
-  "lastModified": "2025-10-14T13:12:07.928Z",
+  "lastModified": "2025-10-14T13:13:04.388Z",
   "version": "2.0.0"
 }
