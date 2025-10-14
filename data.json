@@ -1995,7 +1995,7 @@
       "bags": 90,
       "moistureLevel": 20,
       "truckNumber": "KMC 877 XD",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
@@ -2003,7 +2003,8 @@
         }
       ],
       "createdAt": "2025-10-14T07:29:32.405Z",
-      "updatedAt": "2025-10-14T07:29:32.405Z"
+      "updatedAt": "2025-10-14T07:29:32.405Z",
+      "waybillNumber": "6409"
     },
     {
       "id": "truck_1760426972405_3_535ce89a4",
@@ -2119,6 +2120,6 @@
       "updatedAt": "2025-10-14T07:29:51.207Z"
     }
   ],
-  "lastModified": "2025-10-14T07:42:43.298Z",
+  "lastModified": "2025-10-14T07:46:04.241Z",
   "version": "2.0.0"
 }
