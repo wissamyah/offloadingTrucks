@@ -2051,7 +2051,7 @@
       "bags": 500,
       "moistureLevel": 20,
       "truckNumber": "DAL 315 ZY",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -2060,7 +2060,9 @@
       ],
       "createdAt": "2025-10-14T07:29:51.207Z",
       "updatedAt": "2025-10-14T07:29:51.207Z",
-      "waybillNumber": "6406"
+      "waybillNumber": "6406",
+      "netWeight": 38480,
+      "deduction": 250
     },
     {
       "id": "truck_1760426991207_2_1ethf4ahv",
@@ -2129,6 +2131,6 @@
       "waybillNumber": "6413"
     }
   ],
-  "lastModified": "2025-10-14T09:53:08.291Z",
+  "lastModified": "2025-10-14T09:53:56.923Z",
   "version": "2.0.0"
 }
