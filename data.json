@@ -1978,7 +1978,7 @@
       "bags": 200,
       "moistureLevel": 20,
       "truckNumber": "GML 376 XA",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
@@ -1986,7 +1986,8 @@
         }
       ],
       "createdAt": "2025-10-14T07:29:32.405Z",
-      "updatedAt": "2025-10-14T07:29:32.405Z"
+      "updatedAt": "2025-10-14T07:29:32.405Z",
+      "waybillNumber": "6408"
     },
     {
       "id": "truck_1760426972405_2_n7cnqqtdz",
@@ -2118,6 +2119,6 @@
       "updatedAt": "2025-10-14T07:29:51.207Z"
     }
   ],
-  "lastModified": "2025-10-14T07:36:49.409Z",
+  "lastModified": "2025-10-14T07:42:43.298Z",
   "version": "2.0.0"
 }
