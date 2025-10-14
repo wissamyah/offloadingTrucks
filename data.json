@@ -2149,7 +2149,7 @@
       "bags": 472,
       "moistureLevel": 20,
       "truckNumber": "JMT 248 YR",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
@@ -2157,7 +2157,8 @@
         }
       ],
       "createdAt": "2025-10-14T13:02:43.652Z",
-      "updatedAt": "2025-10-14T13:02:43.652Z"
+      "updatedAt": "2025-10-14T13:02:43.652Z",
+      "waybillNumber": "6420"
     },
     {
       "id": "truck_1760446963652_2_c4v62p9eo",
@@ -2195,6 +2196,6 @@
       "waybillNumber": "6418"
     }
   ],
-  "lastModified": "2025-10-14T13:25:31.089Z",
+  "lastModified": "2025-10-14T14:18:07.740Z",
   "version": "2.0.0"
 }
