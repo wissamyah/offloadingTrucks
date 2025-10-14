@@ -1955,8 +1955,88 @@
       "updatedAt": "2025-10-13T16:44:40.646Z",
       "waybillNumber": "6404",
       "netWeight": 2660
+    },
+    {
+      "id": "truck_1760426972405_0_4p6zr4kpr",
+      "supplierName": "Samuel Chamblatda",
+      "bags": 200,
+      "moistureLevel": 20,
+      "truckNumber": "BBR 822 XB",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-14T07:29:32.405Z"
+        }
+      ],
+      "createdAt": "2025-10-14T07:29:32.405Z",
+      "updatedAt": "2025-10-14T07:29:32.405Z"
+    },
+    {
+      "id": "truck_1760426972405_1_wvhahub4a",
+      "supplierName": "Addau Isyaku",
+      "bags": 200,
+      "moistureLevel": 20,
+      "truckNumber": "GML 376 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-14T07:29:32.405Z"
+        }
+      ],
+      "createdAt": "2025-10-14T07:29:32.405Z",
+      "updatedAt": "2025-10-14T07:29:32.405Z"
+    },
+    {
+      "id": "truck_1760426972405_2_n7cnqqtdz",
+      "supplierName": "Addau Isyaku",
+      "bags": 90,
+      "moistureLevel": 20,
+      "truckNumber": "KMC 877 XD",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-14T07:29:32.405Z"
+        }
+      ],
+      "createdAt": "2025-10-14T07:29:32.405Z",
+      "updatedAt": "2025-10-14T07:29:32.405Z"
+    },
+    {
+      "id": "truck_1760426972405_3_535ce89a4",
+      "supplierName": "Mukhtari Sale",
+      "bags": 114,
+      "moistureLevel": 19,
+      "truckNumber": "JJJ 761 DM",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-14T07:29:32.405Z"
+        }
+      ],
+      "createdAt": "2025-10-14T07:29:32.405Z",
+      "updatedAt": "2025-10-14T07:29:32.405Z"
+    },
+    {
+      "id": "truck_1760426972405_4_t5dcr8ib6",
+      "supplierName": "Addau Isyaku",
+      "bags": 98,
+      "moistureLevel": 20,
+      "truckNumber": "FTA 444 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-14T07:29:32.405Z"
+        }
+      ],
+      "createdAt": "2025-10-14T07:29:32.405Z",
+      "updatedAt": "2025-10-14T07:29:32.405Z"
     }
   ],
-  "lastModified": "2025-10-13T16:45:06.026Z",
+  "lastModified": "2025-10-14T07:29:32.520Z",
   "version": "2.0.0"
 }
