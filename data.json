@@ -2028,7 +2028,7 @@
       "bags": 98,
       "moistureLevel": 20,
       "truckNumber": "FTA 444 XA",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
@@ -2036,7 +2036,8 @@
         }
       ],
       "createdAt": "2025-10-14T07:29:32.405Z",
-      "updatedAt": "2025-10-14T07:29:32.405Z"
+      "updatedAt": "2025-10-14T07:29:32.405Z",
+      "waybillNumber": "6412"
     },
     {
       "id": "truck_1760426991207_0_pu4yhbpyi",
@@ -2122,6 +2123,6 @@
       "updatedAt": "2025-10-14T07:29:51.207Z"
     }
   ],
-  "lastModified": "2025-10-14T07:53:27.593Z",
+  "lastModified": "2025-10-14T07:58:56.637Z",
   "version": "2.0.0"
 }
