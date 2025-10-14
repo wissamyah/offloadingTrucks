@@ -2091,7 +2091,7 @@
       "bags": 210,
       "moistureLevel": 20,
       "truckNumber": "EKY 785 BU",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
@@ -2099,7 +2099,8 @@
         }
       ],
       "createdAt": "2025-10-14T07:29:51.207Z",
-      "updatedAt": "2025-10-14T07:29:51.207Z"
+      "updatedAt": "2025-10-14T07:29:51.207Z",
+      "waybillNumber": "6416"
     },
     {
       "id": "truck_1760426991207_4_ttvyfdq9a",
@@ -2135,6 +2136,6 @@
       "waybillNumber": "6413"
     }
   ],
-  "lastModified": "2025-10-14T10:03:23.457Z",
+  "lastModified": "2025-10-14T10:21:55.654Z",
   "version": "2.0.0"
 }
