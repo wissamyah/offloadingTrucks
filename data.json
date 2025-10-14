@@ -2044,7 +2044,7 @@
       "bags": 100,
       "moistureLevel": 20,
       "truckNumber": "AAA 924 XF",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
@@ -2052,7 +2052,8 @@
         }
       ],
       "createdAt": "2025-10-14T07:29:51.207Z",
-      "updatedAt": "2025-10-14T07:29:51.207Z"
+      "updatedAt": "2025-10-14T07:29:51.207Z",
+      "waybillNumber": "6411"
     },
     {
       "id": "truck_1760426991207_1_2p1oc8lco",
@@ -2121,6 +2122,6 @@
       "updatedAt": "2025-10-14T07:29:51.207Z"
     }
   ],
-  "lastModified": "2025-10-14T07:49:32.410Z",
+  "lastModified": "2025-10-14T07:53:27.593Z",
   "version": "2.0.0"
 }
