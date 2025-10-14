@@ -2160,24 +2160,6 @@
       "updatedAt": "2025-10-14T13:02:43.652Z"
     },
     {
-      "id": "truck_1760446963652_1_o5y9qh3ux",
-      "supplierName": "M B Flour",
-      "bags": 400,
-      "moistureLevel": 20,
-      "truckNumber": "DKA 384 XA",
-      "status": "offloaded",
-      "statusHistory": [
-        {
-          "status": "pending",
-          "timestamp": "2025-10-14T13:02:43.652Z"
-        }
-      ],
-      "createdAt": "2025-10-14T13:02:43.652Z",
-      "updatedAt": "2025-10-14T13:02:43.652Z",
-      "waybillNumber": "6418",
-      "netWeight": 6418
-    },
-    {
       "id": "truck_1760446963652_2_c4v62p9eo",
       "supplierName": "Abubakar Muhd Tukur",
       "bags": 100,
@@ -2195,6 +2177,6 @@
       "waybillNumber": "6417"
     }
   ],
-  "lastModified": "2025-10-14T13:11:39.107Z",
+  "lastModified": "2025-10-14T13:12:07.928Z",
   "version": "2.0.0"
 }
