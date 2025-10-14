@@ -2106,8 +2106,24 @@
       ],
       "createdAt": "2025-10-14T07:29:51.207Z",
       "updatedAt": "2025-10-14T07:29:51.207Z"
+    },
+    {
+      "id": "truck_1760431812227_0_4jycurv4y",
+      "supplierName": "Mukhtari Sale",
+      "bags": 114,
+      "moistureLevel": 19,
+      "truckNumber": "JJJ 761 DM",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-14T08:50:12.227Z"
+        }
+      ],
+      "createdAt": "2025-10-14T08:50:12.227Z",
+      "updatedAt": "2025-10-14T08:50:12.227Z"
     }
   ],
-  "lastModified": "2025-10-14T08:48:22.972Z",
+  "lastModified": "2025-10-14T08:50:12.270Z",
   "version": "2.0.0"
 }
