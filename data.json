@@ -2165,7 +2165,7 @@
       "bags": 100,
       "moistureLevel": 20,
       "truckNumber": "GYA 616 XA",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -2174,7 +2174,8 @@
       ],
       "createdAt": "2025-10-14T13:02:43.652Z",
       "updatedAt": "2025-10-14T13:02:43.652Z",
-      "waybillNumber": "6417"
+      "waybillNumber": "6417",
+      "netWeight": 7230
     },
     {
       "id": "truck_1760447584307_0_2l3hgwsrf",
@@ -2194,6 +2195,6 @@
       "waybillNumber": "6418"
     }
   ],
-  "lastModified": "2025-10-14T13:13:34.179Z",
+  "lastModified": "2025-10-14T13:25:31.089Z",
   "version": "2.0.0"
 }
