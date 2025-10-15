@@ -2275,7 +2275,7 @@
       "bags": 101,
       "moistureLevel": 20,
       "truckNumber": "MTZ 45 XA",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -2284,7 +2284,8 @@
       ],
       "createdAt": "2025-10-15T07:25:03.225Z",
       "updatedAt": "2025-10-15T07:25:03.225Z",
-      "waybillNumber": "6429"
+      "waybillNumber": "6429",
+      "netWeight": 8150
     },
     {
       "id": "truck_1760513103225_6_ej9hh1kf8",
@@ -2322,6 +2323,6 @@
       "netWeight": 8500
     }
   ],
-  "lastModified": "2025-10-15T09:27:35.253Z",
+  "lastModified": "2025-10-15T09:33:56.360Z",
   "version": "2.0.0"
 }
