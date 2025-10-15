@@ -2203,7 +2203,7 @@
       "bags": 240,
       "moistureLevel": 20,
       "truckNumber": "NNG 398 XA",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -2212,7 +2212,9 @@
       ],
       "createdAt": "2025-10-15T07:25:03.225Z",
       "updatedAt": "2025-10-15T07:25:03.225Z",
-      "waybillNumber": "6430"
+      "waybillNumber": "6430",
+      "netWeight": 24360,
+      "deduction": 180
     },
     {
       "id": "truck_1760513103225_2_o3pydwvhu",
@@ -2320,6 +2322,6 @@
       "netWeight": 8500
     }
   ],
-  "lastModified": "2025-10-15T08:56:20.963Z",
+  "lastModified": "2025-10-15T09:27:35.253Z",
   "version": "2.0.0"
 }
