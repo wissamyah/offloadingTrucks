@@ -2362,8 +2362,40 @@
       "createdAt": "2025-10-15T14:25:42.025Z",
       "updatedAt": "2025-10-15T14:25:42.025Z",
       "waybillNumber": "6441"
+    },
+    {
+      "id": "truck_1760538407481_0_3nbhu0web",
+      "supplierName": "Mukhtari Sale",
+      "bags": 127,
+      "moistureLevel": 19,
+      "truckNumber": "MGR 31 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-15T14:26:47.482Z"
+        }
+      ],
+      "createdAt": "2025-10-15T14:26:47.482Z",
+      "updatedAt": "2025-10-15T14:26:47.482Z"
+    },
+    {
+      "id": "truck_1760538407481_1_nppotse5x",
+      "supplierName": "Mukhtari Sale",
+      "bags": 46,
+      "moistureLevel": 20,
+      "truckNumber": "GWL 932 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-15T14:26:47.482Z"
+        }
+      ],
+      "createdAt": "2025-10-15T14:26:47.482Z",
+      "updatedAt": "2025-10-15T14:26:47.482Z"
     }
   ],
-  "lastModified": "2025-10-15T14:26:03.507Z",
+  "lastModified": "2025-10-15T14:26:47.519Z",
   "version": "2.0.0"
 }
