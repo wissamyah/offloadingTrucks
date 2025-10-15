@@ -2236,7 +2236,7 @@
       "bags": 200,
       "moistureLevel": 20,
       "truckNumber": "JJJ 209 YE",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
@@ -2244,7 +2244,8 @@
         }
       ],
       "createdAt": "2025-10-15T07:25:03.225Z",
-      "updatedAt": "2025-10-15T07:25:03.225Z"
+      "updatedAt": "2025-10-15T07:25:03.225Z",
+      "waybillNumber": "6425"
     },
     {
       "id": "truck_1760513103225_4_4zk3j978q",
@@ -2315,6 +2316,6 @@
       "waybillNumber": "6427"
     }
   ],
-  "lastModified": "2025-10-15T08:03:45.568Z",
+  "lastModified": "2025-10-15T08:05:16.304Z",
   "version": "2.0.0"
 }
