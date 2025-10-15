@@ -2292,8 +2292,24 @@
       ],
       "createdAt": "2025-10-15T07:25:03.225Z",
       "updatedAt": "2025-10-15T07:25:03.225Z"
+    },
+    {
+      "id": "truck_1760513234673_0_3oxulpo14",
+      "supplierName": "Addau Isyaku",
+      "bags": 100,
+      "moistureLevel": 20,
+      "truckNumber": "FSK 518 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-15T07:27:14.673Z"
+        }
+      ],
+      "createdAt": "2025-10-15T07:27:14.673Z",
+      "updatedAt": "2025-10-15T07:27:14.673Z"
     }
   ],
-  "lastModified": "2025-10-15T07:26:38.201Z",
+  "lastModified": "2025-10-15T07:27:14.735Z",
   "version": "2.0.0"
 }
