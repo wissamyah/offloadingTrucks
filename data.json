@@ -2296,7 +2296,7 @@
       "bags": 219,
       "moistureLevel": 19,
       "truckNumber": "JRE 138 XB",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -2305,7 +2305,9 @@
       ],
       "createdAt": "2025-10-15T07:25:03.225Z",
       "updatedAt": "2025-10-15T07:25:03.225Z",
-      "waybillNumber": "6426"
+      "waybillNumber": "6426",
+      "netWeight": 18930,
+      "deduction": 200
     },
     {
       "id": "truck_1760513234673_0_3oxulpo14",
@@ -2326,6 +2328,6 @@
       "netWeight": 8500
     }
   ],
-  "lastModified": "2025-10-15T09:35:12.211Z",
+  "lastModified": "2025-10-15T10:38:20.359Z",
   "version": "2.0.0"
 }
