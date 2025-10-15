@@ -2352,7 +2352,7 @@
       "bags": 219,
       "moistureLevel": 20,
       "truckNumber": "HJA 188 YD",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -2361,7 +2361,9 @@
       ],
       "createdAt": "2025-10-15T14:25:42.025Z",
       "updatedAt": "2025-10-15T14:25:42.025Z",
-      "waybillNumber": "6441"
+      "waybillNumber": "6441",
+      "netWeight": 15220,
+      "deduction": 100
     },
     {
       "id": "truck_1760538407481_0_3nbhu0web",
@@ -2401,6 +2403,6 @@
       "netWeight": 4280
     }
   ],
-  "lastModified": "2025-10-15T14:29:25.486Z",
+  "lastModified": "2025-10-15T15:16:29.555Z",
   "version": "2.0.0"
 }
