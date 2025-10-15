@@ -2326,8 +2326,24 @@
       "updatedAt": "2025-10-15T07:27:14.673Z",
       "waybillNumber": "6427",
       "netWeight": 8500
+    },
+    {
+      "id": "truck_1760526859294_0_ja1m4fqi5",
+      "supplierName": "Idris Haruna",
+      "bags": 88,
+      "moistureLevel": 22,
+      "truckNumber": "DKA 890 ZP",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-15T11:14:19.295Z"
+        }
+      ],
+      "createdAt": "2025-10-15T11:14:19.296Z",
+      "updatedAt": "2025-10-15T11:14:19.296Z"
     }
   ],
-  "lastModified": "2025-10-15T10:38:20.359Z",
+  "lastModified": "2025-10-15T11:14:19.452Z",
   "version": "2.0.0"
 }
