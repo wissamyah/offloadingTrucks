@@ -2403,23 +2403,6 @@
       "netWeight": 4280
     },
     {
-      "id": "truck_1760599760938_0_n173kuou3",
-      "supplierName": "Habirbu Yusif",
-      "bags": 465,
-      "moistureLevel": 19,
-      "truckNumber": "HJA 180 YD",
-      "status": "scaled_in",
-      "statusHistory": [
-        {
-          "status": "pending",
-          "timestamp": "2025-10-16T07:29:20.938Z"
-        }
-      ],
-      "createdAt": "2025-10-16T07:29:20.938Z",
-      "updatedAt": "2025-10-16T07:29:20.938Z",
-      "waybillNumber": "6447"
-    },
-    {
       "id": "truck_1760599760938_1_fi6psesy3",
       "supplierName": "Jamilu jangale",
       "bags": 350,
@@ -2588,6 +2571,6 @@
       "deduction": 200
     }
   ],
-  "lastModified": "2025-10-16T11:17:03.731Z",
+  "lastModified": "2025-10-16T11:17:31.104Z",
   "version": "2.0.0"
 }
