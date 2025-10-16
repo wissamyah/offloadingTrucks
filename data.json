@@ -2568,7 +2568,7 @@
       "bags": 102,
       "moistureLevel": 19,
       "truckNumber": "KRD 944 XN",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -2577,9 +2577,11 @@
       ],
       "createdAt": "2025-10-16T07:29:42.208Z",
       "updatedAt": "2025-10-16T07:29:42.208Z",
-      "waybillNumber": "6452"
+      "waybillNumber": "6452",
+      "netWeight": 7280,
+      "deduction": 200
     }
   ],
-  "lastModified": "2025-10-16T10:10:34.100Z",
+  "lastModified": "2025-10-16T10:45:16.769Z",
   "version": "2.0.0"
 }
