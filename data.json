@@ -2401,8 +2401,88 @@
       "updatedAt": "2025-10-15T14:26:47.482Z",
       "waybillNumber": "6438",
       "netWeight": 4280
+    },
+    {
+      "id": "truck_1760599760938_0_n173kuou3",
+      "supplierName": "Habirbu Yusif",
+      "bags": 465,
+      "moistureLevel": 19,
+      "truckNumber": "HJA 180 YD",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-16T07:29:20.938Z"
+        }
+      ],
+      "createdAt": "2025-10-16T07:29:20.938Z",
+      "updatedAt": "2025-10-16T07:29:20.938Z"
+    },
+    {
+      "id": "truck_1760599760938_1_fi6psesy3",
+      "supplierName": "Jamilu jangale",
+      "bags": 350,
+      "moistureLevel": 20,
+      "truckNumber": "FTA 422 XC",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-16T07:29:20.938Z"
+        }
+      ],
+      "createdAt": "2025-10-16T07:29:20.938Z",
+      "updatedAt": "2025-10-16T07:29:20.938Z"
+    },
+    {
+      "id": "truck_1760599760938_2_1tusev5bn",
+      "supplierName": "Samuel Chamblatda",
+      "bags": 200,
+      "moistureLevel": 20,
+      "truckNumber": "BBR 822 XB",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-16T07:29:20.938Z"
+        }
+      ],
+      "createdAt": "2025-10-16T07:29:20.938Z",
+      "updatedAt": "2025-10-16T07:29:20.938Z"
+    },
+    {
+      "id": "truck_1760599760938_3_bgampb0wk",
+      "supplierName": "Idris Garba",
+      "bags": 100,
+      "moistureLevel": 20,
+      "truckNumber": "BJK 427 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-16T07:29:20.938Z"
+        }
+      ],
+      "createdAt": "2025-10-16T07:29:20.938Z",
+      "updatedAt": "2025-10-16T07:29:20.938Z"
+    },
+    {
+      "id": "truck_1760599760938_4_6kmxl70s0",
+      "supplierName": "Idris Garba",
+      "bags": 115,
+      "moistureLevel": 22,
+      "truckNumber": "ZAR 771 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-16T07:29:20.938Z"
+        }
+      ],
+      "createdAt": "2025-10-16T07:29:20.938Z",
+      "updatedAt": "2025-10-16T07:29:20.938Z"
     }
   ],
-  "lastModified": "2025-10-15T15:16:29.555Z",
+  "lastModified": "2025-10-16T07:29:21.021Z",
   "version": "2.0.0"
 }
