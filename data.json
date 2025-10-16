@@ -2595,7 +2595,7 @@
       "bags": 520,
       "moistureLevel": 20,
       "truckNumber": "FGE 716 XB",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
@@ -2603,9 +2603,10 @@
         }
       ],
       "createdAt": "2025-10-16T14:29:15.598Z",
-      "updatedAt": "2025-10-16T14:29:15.598Z"
+      "updatedAt": "2025-10-16T14:29:15.598Z",
+      "waybillNumber": "6456"
     }
   ],
-  "lastModified": "2025-10-16T14:29:15.704Z",
+  "lastModified": "2025-10-16T14:29:32.058Z",
   "version": "2.0.0"
 }
