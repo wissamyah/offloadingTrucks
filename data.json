@@ -2612,7 +2612,7 @@
       "bags": 94,
       "moistureLevel": 20,
       "truckNumber": "FTA 841 XB",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -2621,9 +2621,11 @@
       ],
       "createdAt": "2025-10-16T15:16:35.014Z",
       "updatedAt": "2025-10-16T15:16:35.014Z",
-      "waybillNumber": "6457"
+      "waybillNumber": "6457",
+      "netWeight": 7020,
+      "deduction": 60
     }
   ],
-  "lastModified": "2025-10-16T15:17:01.494Z",
+  "lastModified": "2025-10-16T16:28:41.343Z",
   "version": "2.0.0"
 }
