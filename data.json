@@ -2576,7 +2576,7 @@
       "bags": 465,
       "moistureLevel": 19,
       "truckNumber": "HJA 180 YD",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -2585,9 +2585,11 @@
       ],
       "createdAt": "2025-10-16T11:19:46.319Z",
       "updatedAt": "2025-10-16T11:19:46.319Z",
-      "waybillNumber": "6447"
+      "waybillNumber": "6447",
+      "netWeight": 33910,
+      "deduction": 300
     }
   ],
-  "lastModified": "2025-10-16T11:20:02.550Z",
+  "lastModified": "2025-10-16T11:20:24.360Z",
   "version": "2.0.0"
 }
