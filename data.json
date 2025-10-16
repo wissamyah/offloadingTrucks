@@ -2480,7 +2480,7 @@
       "bags": 115,
       "moistureLevel": 22,
       "truckNumber": "ZAR 771 XA",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -2489,7 +2489,9 @@
       ],
       "createdAt": "2025-10-16T07:29:20.938Z",
       "updatedAt": "2025-10-16T07:29:20.938Z",
-      "waybillNumber": "6450"
+      "waybillNumber": "6450",
+      "netWeight": 9150,
+      "deduction": 150
     },
     {
       "id": "truck_1760599782208_0_ahfly3bzt",
@@ -2584,6 +2586,6 @@
       "deduction": 200
     }
   ],
-  "lastModified": "2025-10-16T10:45:42.054Z",
+  "lastModified": "2025-10-16T11:16:02.415Z",
   "version": "2.0.0"
 }
