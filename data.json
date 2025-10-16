@@ -2510,7 +2510,7 @@
       "bags": 35,
       "moistureLevel": 19,
       "truckNumber": "MSA 776 XA",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -2519,7 +2519,8 @@
       ],
       "createdAt": "2025-10-16T07:29:42.208Z",
       "updatedAt": "2025-10-16T07:29:42.208Z",
-      "waybillNumber": "6444"
+      "waybillNumber": "6444",
+      "netWeight": 2800
     },
     {
       "id": "truck_1760599782208_2_2p1cl6wvh",
@@ -2575,6 +2576,6 @@
       "waybillNumber": "6452"
     }
   ],
-  "lastModified": "2025-10-16T08:33:40.270Z",
+  "lastModified": "2025-10-16T08:33:59.278Z",
   "version": "2.0.0"
 }
