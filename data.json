@@ -2481,8 +2481,88 @@
       ],
       "createdAt": "2025-10-16T07:29:20.938Z",
       "updatedAt": "2025-10-16T07:29:20.938Z"
+    },
+    {
+      "id": "truck_1760599782208_0_ahfly3bzt",
+      "supplierName": "H A Tahir",
+      "bags": 216,
+      "moistureLevel": 20,
+      "truckNumber": "RNG 697 XC",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-16T07:29:42.208Z"
+        }
+      ],
+      "createdAt": "2025-10-16T07:29:42.208Z",
+      "updatedAt": "2025-10-16T07:29:42.208Z"
+    },
+    {
+      "id": "truck_1760599782208_1_vupnacdlk",
+      "supplierName": "Alh Danasabe",
+      "bags": 35,
+      "moistureLevel": 19,
+      "truckNumber": "MSA 776 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-16T07:29:42.208Z"
+        }
+      ],
+      "createdAt": "2025-10-16T07:29:42.208Z",
+      "updatedAt": "2025-10-16T07:29:42.208Z"
+    },
+    {
+      "id": "truck_1760599782208_2_2p1cl6wvh",
+      "supplierName": "Alh Danasabe",
+      "bags": 35,
+      "moistureLevel": 18,
+      "truckNumber": "GME 667 XD",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-16T07:29:42.208Z"
+        }
+      ],
+      "createdAt": "2025-10-16T07:29:42.208Z",
+      "updatedAt": "2025-10-16T07:29:42.208Z"
+    },
+    {
+      "id": "truck_1760599782208_3_q4rw0hsh7",
+      "supplierName": "Alh Danasabe",
+      "bags": 34,
+      "moistureLevel": 19,
+      "truckNumber": "DRZ 041 LG",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-16T07:29:42.208Z"
+        }
+      ],
+      "createdAt": "2025-10-16T07:29:42.208Z",
+      "updatedAt": "2025-10-16T07:29:42.208Z"
+    },
+    {
+      "id": "truck_1760599782208_4_2d3e4omzh",
+      "supplierName": "Mukhtari Sale",
+      "bags": 102,
+      "moistureLevel": 19,
+      "truckNumber": "KRD 944 XN",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-16T07:29:42.208Z"
+        }
+      ],
+      "createdAt": "2025-10-16T07:29:42.208Z",
+      "updatedAt": "2025-10-16T07:29:42.208Z"
     }
   ],
-  "lastModified": "2025-10-16T07:29:21.021Z",
+  "lastModified": "2025-10-16T07:29:43.178Z",
   "version": "2.0.0"
 }
