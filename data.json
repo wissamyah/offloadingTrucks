@@ -2605,8 +2605,24 @@
       "createdAt": "2025-10-16T14:29:15.598Z",
       "updatedAt": "2025-10-16T14:29:15.598Z",
       "waybillNumber": "6456"
+    },
+    {
+      "id": "truck_1760627795012_0_mp15lfcd1",
+      "supplierName": "Addau Isyaku",
+      "bags": 94,
+      "moistureLevel": 20,
+      "truckNumber": "FTA 841 XB",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-16T15:16:35.014Z"
+        }
+      ],
+      "createdAt": "2025-10-16T15:16:35.014Z",
+      "updatedAt": "2025-10-16T15:16:35.014Z"
     }
   ],
-  "lastModified": "2025-10-16T14:29:32.058Z",
+  "lastModified": "2025-10-16T15:16:35.113Z",
   "version": "2.0.0"
 }
