@@ -2544,7 +2544,7 @@
       "bags": 34,
       "moistureLevel": 19,
       "truckNumber": "DRZ 041 LG",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -2553,7 +2553,8 @@
       ],
       "createdAt": "2025-10-16T07:29:42.208Z",
       "updatedAt": "2025-10-16T07:29:42.208Z",
-      "waybillNumber": "6443"
+      "waybillNumber": "6443",
+      "netWeight": 2900
     },
     {
       "id": "truck_1760599782208_4_2d3e4omzh",
@@ -2573,6 +2574,6 @@
       "waybillNumber": "6452"
     }
   ],
-  "lastModified": "2025-10-16T08:15:48.284Z",
+  "lastModified": "2025-10-16T08:31:53.208Z",
   "version": "2.0.0"
 }
