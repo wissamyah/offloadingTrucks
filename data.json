@@ -2595,7 +2595,7 @@
       "bags": 520,
       "moistureLevel": 20,
       "truckNumber": "FGE 716 XB",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -2604,7 +2604,9 @@
       ],
       "createdAt": "2025-10-16T14:29:15.598Z",
       "updatedAt": "2025-10-16T14:29:15.598Z",
-      "waybillNumber": "6456"
+      "waybillNumber": "6456",
+      "netWeight": 39350,
+      "deduction": 160
     },
     {
       "id": "truck_1760627795012_0_mp15lfcd1",
@@ -2626,6 +2628,6 @@
       "deduction": 60
     }
   ],
-  "lastModified": "2025-10-16T16:28:41.343Z",
+  "lastModified": "2025-10-16T16:29:09.377Z",
   "version": "2.0.0"
 }
