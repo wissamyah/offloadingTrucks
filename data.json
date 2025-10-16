@@ -2588,8 +2588,24 @@
       "waybillNumber": "6447",
       "netWeight": 33910,
       "deduction": 300
+    },
+    {
+      "id": "truck_1760624955597_0_196cjo911",
+      "supplierName": "Idris Haruna",
+      "bags": 520,
+      "moistureLevel": 20,
+      "truckNumber": "FGE 716 XB",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-16T14:29:15.598Z"
+        }
+      ],
+      "createdAt": "2025-10-16T14:29:15.598Z",
+      "updatedAt": "2025-10-16T14:29:15.598Z"
     }
   ],
-  "lastModified": "2025-10-16T11:20:24.360Z",
+  "lastModified": "2025-10-16T14:29:15.704Z",
   "version": "2.0.0"
 }
