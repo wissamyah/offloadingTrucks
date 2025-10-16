@@ -2425,7 +2425,7 @@
       "bags": 350,
       "moistureLevel": 20,
       "truckNumber": "FTA 422 XC",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -2434,7 +2434,9 @@
       ],
       "createdAt": "2025-10-16T07:29:20.938Z",
       "updatedAt": "2025-10-16T07:29:20.938Z",
-      "waybillNumber": "6446"
+      "waybillNumber": "6446",
+      "netWeight": 26400,
+      "deduction": 200
     },
     {
       "id": "truck_1760599760938_2_1tusev5bn",
@@ -2576,6 +2578,6 @@
       "waybillNumber": "6452"
     }
   ],
-  "lastModified": "2025-10-16T08:33:59.278Z",
+  "lastModified": "2025-10-16T09:28:41.459Z",
   "version": "2.0.0"
 }
