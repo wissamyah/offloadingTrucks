@@ -2495,7 +2495,7 @@
       "bags": 216,
       "moistureLevel": 20,
       "truckNumber": "RNG 697 XC",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -2504,7 +2504,9 @@
       ],
       "createdAt": "2025-10-16T07:29:42.208Z",
       "updatedAt": "2025-10-16T07:29:42.208Z",
-      "waybillNumber": "6448"
+      "waybillNumber": "6448",
+      "netWeight": 16160,
+      "deduction": 180
     },
     {
       "id": "truck_1760599782208_1_vupnacdlk",
@@ -2578,6 +2580,6 @@
       "waybillNumber": "6452"
     }
   ],
-  "lastModified": "2025-10-16T09:28:41.459Z",
+  "lastModified": "2025-10-16T10:10:34.100Z",
   "version": "2.0.0"
 }
