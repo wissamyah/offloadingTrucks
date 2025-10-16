@@ -2527,7 +2527,7 @@
       "bags": 35,
       "moistureLevel": 18,
       "truckNumber": "GME 667 XD",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -2536,7 +2536,8 @@
       ],
       "createdAt": "2025-10-16T07:29:42.208Z",
       "updatedAt": "2025-10-16T07:29:42.208Z",
-      "waybillNumber": "6445"
+      "waybillNumber": "6445",
+      "netWeight": 2870
     },
     {
       "id": "truck_1760599782208_3_q4rw0hsh7",
@@ -2574,6 +2575,6 @@
       "waybillNumber": "6452"
     }
   ],
-  "lastModified": "2025-10-16T08:31:53.208Z",
+  "lastModified": "2025-10-16T08:33:40.270Z",
   "version": "2.0.0"
 }
