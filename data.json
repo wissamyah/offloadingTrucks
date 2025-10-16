@@ -2569,8 +2569,24 @@
       "waybillNumber": "6452",
       "netWeight": 7280,
       "deduction": 200
+    },
+    {
+      "id": "truck_1760613586318_0_o9ferix1g",
+      "supplierName": "Addau Isyaku",
+      "bags": 465,
+      "moistureLevel": 19,
+      "truckNumber": "HJA 180 YD",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-16T11:19:46.319Z"
+        }
+      ],
+      "createdAt": "2025-10-16T11:19:46.319Z",
+      "updatedAt": "2025-10-16T11:19:46.319Z"
     }
   ],
-  "lastModified": "2025-10-16T11:17:31.104Z",
+  "lastModified": "2025-10-16T11:19:46.395Z",
   "version": "2.0.0"
 }
