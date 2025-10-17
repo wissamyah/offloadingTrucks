@@ -2798,7 +2798,7 @@
       "bags": 250,
       "moistureLevel": 21,
       "truckNumber": "KTG 620 XA",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -2807,9 +2807,11 @@
       ],
       "createdAt": "2025-10-17T12:53:47.705Z",
       "updatedAt": "2025-10-17T12:53:47.705Z",
-      "waybillNumber": "6468"
+      "waybillNumber": "6468",
+      "netWeight": 19030,
+      "deduction": 300
     }
   ],
-  "lastModified": "2025-10-17T14:11:35.270Z",
+  "lastModified": "2025-10-17T14:12:11.860Z",
   "version": "2.0.0"
 }
