@@ -2686,7 +2686,7 @@
       "bags": 101,
       "moistureLevel": 19,
       "truckNumber": "KTN 286 YZ",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -2695,7 +2695,8 @@
       ],
       "createdAt": "2025-10-17T07:42:49.579Z",
       "updatedAt": "2025-10-17T07:42:49.579Z",
-      "waybillNumber": "6462"
+      "waybillNumber": "6462",
+      "netWeight": 8120
     },
     {
       "id": "truck_1760686969579_4_efht5nyil",
@@ -2749,6 +2750,6 @@
       "waybillNumber": "6463"
     }
   ],
-  "lastModified": "2025-10-17T09:07:41.713Z",
+  "lastModified": "2025-10-17T09:09:55.804Z",
   "version": "2.0.0"
 }
