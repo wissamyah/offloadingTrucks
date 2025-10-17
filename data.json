@@ -2626,8 +2626,120 @@
       "waybillNumber": "6457",
       "netWeight": 7020,
       "deduction": 60
+    },
+    {
+      "id": "truck_1760686969579_0_o0f99zhnh",
+      "supplierName": "Idris Garba",
+      "bags": 100,
+      "moistureLevel": 20,
+      "truckNumber": "KMC 391 XU",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-17T07:42:49.579Z"
+        }
+      ],
+      "createdAt": "2025-10-17T07:42:49.579Z",
+      "updatedAt": "2025-10-17T07:42:49.579Z"
+    },
+    {
+      "id": "truck_1760686969579_1_1wq7i8urv",
+      "supplierName": "Idris Garba",
+      "bags": 184,
+      "moistureLevel": 22,
+      "truckNumber": "EPE 429 XB",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-17T07:42:49.579Z"
+        }
+      ],
+      "createdAt": "2025-10-17T07:42:49.579Z",
+      "updatedAt": "2025-10-17T07:42:49.579Z"
+    },
+    {
+      "id": "truck_1760686969579_2_xpxzww4y2",
+      "supplierName": "Addau Isyaku",
+      "bags": 100,
+      "moistureLevel": 19,
+      "truckNumber": "DUT 241 ZB",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-17T07:42:49.579Z"
+        }
+      ],
+      "createdAt": "2025-10-17T07:42:49.579Z",
+      "updatedAt": "2025-10-17T07:42:49.579Z"
+    },
+    {
+      "id": "truck_1760686969579_3_gha3j73ah",
+      "supplierName": "Addau Isyaku",
+      "bags": 101,
+      "moistureLevel": 19,
+      "truckNumber": "KTN 286 YZ",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-17T07:42:49.579Z"
+        }
+      ],
+      "createdAt": "2025-10-17T07:42:49.579Z",
+      "updatedAt": "2025-10-17T07:42:49.579Z"
+    },
+    {
+      "id": "truck_1760686969579_4_efht5nyil",
+      "supplierName": "Samuel Chamblatda",
+      "bags": 200,
+      "moistureLevel": 21,
+      "truckNumber": "BBR 822 XB",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-17T07:42:49.579Z"
+        }
+      ],
+      "createdAt": "2025-10-17T07:42:49.579Z",
+      "updatedAt": "2025-10-17T07:42:49.579Z"
+    },
+    {
+      "id": "truck_1760686969579_5_cp8l0l0ch",
+      "supplierName": "Samuel Chamblatda",
+      "bags": 210,
+      "moistureLevel": 19,
+      "truckNumber": "NNG 402 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-17T07:42:49.579Z"
+        }
+      ],
+      "createdAt": "2025-10-17T07:42:49.579Z",
+      "updatedAt": "2025-10-17T07:42:49.579Z"
+    },
+    {
+      "id": "truck_1760686969579_6_zqogxfepw",
+      "supplierName": "Jamilu Yahaya",
+      "bags": 520,
+      "moistureLevel": 20,
+      "truckNumber": "FGE 86 ZS",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-17T07:42:49.579Z"
+        }
+      ],
+      "createdAt": "2025-10-17T07:42:49.579Z",
+      "updatedAt": "2025-10-17T07:42:49.579Z"
     }
   ],
-  "lastModified": "2025-10-16T16:29:09.377Z",
+  "lastModified": "2025-10-17T07:42:49.745Z",
   "version": "2.0.0"
 }
