@@ -2771,8 +2771,24 @@
       "updatedAt": "2025-10-17T10:33:01.055Z",
       "waybillNumber": "6465",
       "netWeight": 7550
+    },
+    {
+      "id": "truck_1760697442020_0_5pn5mirfw",
+      "supplierName": "Mukhtari Sale",
+      "bags": 411,
+      "moistureLevel": 18,
+      "truckNumber": "FKY 230 XL",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-17T10:37:22.020Z"
+        }
+      ],
+      "createdAt": "2025-10-17T10:37:22.020Z",
+      "updatedAt": "2025-10-17T10:37:22.020Z"
     }
   ],
-  "lastModified": "2025-10-17T10:33:40.980Z",
+  "lastModified": "2025-10-17T10:37:22.050Z",
   "version": "2.0.0"
 }
