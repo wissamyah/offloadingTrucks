@@ -2779,7 +2779,7 @@
       "bags": 411,
       "moistureLevel": 18,
       "truckNumber": "FKY 230 XL",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
@@ -2787,9 +2787,10 @@
         }
       ],
       "createdAt": "2025-10-17T10:37:22.020Z",
-      "updatedAt": "2025-10-17T10:37:22.020Z"
+      "updatedAt": "2025-10-17T10:37:22.020Z",
+      "waybillNumber": "6467"
     }
   ],
-  "lastModified": "2025-10-17T11:14:43.831Z",
+  "lastModified": "2025-10-17T11:15:52.988Z",
   "version": "2.0.0"
 }
