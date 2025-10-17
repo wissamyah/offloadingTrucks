@@ -2753,8 +2753,24 @@
       "waybillNumber": "6463",
       "netWeight": 38800,
       "deduction": 350
+    },
+    {
+      "id": "truck_1760697181054_0_mdz8vbl8q",
+      "supplierName": "Addau Isyaku",
+      "bags": 99,
+      "moistureLevel": 20,
+      "truckNumber": "MNA 860 YL",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-17T10:33:01.055Z"
+        }
+      ],
+      "createdAt": "2025-10-17T10:33:01.055Z",
+      "updatedAt": "2025-10-17T10:33:01.055Z"
     }
   ],
-  "lastModified": "2025-10-17T10:17:03.445Z",
+  "lastModified": "2025-10-17T10:33:01.196Z",
   "version": "2.0.0"
 }
