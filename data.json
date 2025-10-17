@@ -2684,7 +2684,7 @@
       "bags": 101,
       "moistureLevel": 19,
       "truckNumber": "KTN 286 YZ",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
@@ -2692,7 +2692,8 @@
         }
       ],
       "createdAt": "2025-10-17T07:42:49.579Z",
-      "updatedAt": "2025-10-17T07:42:49.579Z"
+      "updatedAt": "2025-10-17T07:42:49.579Z",
+      "waybillNumber": "6462"
     },
     {
       "id": "truck_1760686969579_4_efht5nyil",
@@ -2744,6 +2745,6 @@
       "updatedAt": "2025-10-17T07:42:49.579Z"
     }
   ],
-  "lastModified": "2025-10-17T07:48:25.014Z",
+  "lastModified": "2025-10-17T07:49:37.014Z",
   "version": "2.0.0"
 }
