@@ -2834,7 +2834,7 @@
       "bags": 176,
       "moistureLevel": 20,
       "truckNumber": "AA 197 SD",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
@@ -2842,9 +2842,10 @@
         }
       ],
       "createdAt": "2025-10-17T15:00:45.847Z",
-      "updatedAt": "2025-10-17T15:00:45.847Z"
+      "updatedAt": "2025-10-17T15:00:45.847Z",
+      "waybillNumber": "6472"
     }
   ],
-  "lastModified": "2025-10-17T15:00:45.877Z",
+  "lastModified": "2025-10-17T15:14:34.135Z",
   "version": "2.0.0"
 }
