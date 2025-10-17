@@ -2669,7 +2669,7 @@
       "bags": 100,
       "moistureLevel": 19,
       "truckNumber": "DUT 241 ZB",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -2678,7 +2678,8 @@
       ],
       "createdAt": "2025-10-17T07:42:49.579Z",
       "updatedAt": "2025-10-17T07:42:49.579Z",
-      "waybillNumber": "6460"
+      "waybillNumber": "6460",
+      "netWeight": 8560
     },
     {
       "id": "truck_1760686969579_3_gha3j73ah",
@@ -2750,6 +2751,6 @@
       "waybillNumber": "6463"
     }
   ],
-  "lastModified": "2025-10-17T09:09:55.804Z",
+  "lastModified": "2025-10-17T09:10:51.662Z",
   "version": "2.0.0"
 }
