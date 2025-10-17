@@ -2827,8 +2827,24 @@
       ],
       "createdAt": "2025-10-17T14:55:17.213Z",
       "updatedAt": "2025-10-17T14:55:17.213Z"
+    },
+    {
+      "id": "truck_1760713245847_0_ve97bpqan",
+      "supplierName": "Idris Haruna",
+      "bags": 176,
+      "moistureLevel": 20,
+      "truckNumber": "AA 197 SD",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-17T15:00:45.847Z"
+        }
+      ],
+      "createdAt": "2025-10-17T15:00:45.847Z",
+      "updatedAt": "2025-10-17T15:00:45.847Z"
     }
   ],
-  "lastModified": "2025-10-17T14:55:17.243Z",
+  "lastModified": "2025-10-17T15:00:45.877Z",
   "version": "2.0.0"
 }
