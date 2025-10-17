@@ -2789,8 +2789,24 @@
       "createdAt": "2025-10-17T10:37:22.020Z",
       "updatedAt": "2025-10-17T10:37:22.020Z",
       "waybillNumber": "6467"
+    },
+    {
+      "id": "truck_1760705627705_0_r2ffslh89",
+      "supplierName": "Real Grains",
+      "bags": 250,
+      "moistureLevel": 21,
+      "truckNumber": "KTG 620 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-17T12:53:47.705Z"
+        }
+      ],
+      "createdAt": "2025-10-17T12:53:47.705Z",
+      "updatedAt": "2025-10-17T12:53:47.705Z"
     }
   ],
-  "lastModified": "2025-10-17T11:15:52.988Z",
+  "lastModified": "2025-10-17T12:53:47.740Z",
   "version": "2.0.0"
 }
