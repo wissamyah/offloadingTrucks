@@ -2760,7 +2760,7 @@
       "bags": 99,
       "moistureLevel": 20,
       "truckNumber": "MNA 860 YL",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -2769,9 +2769,10 @@
       ],
       "createdAt": "2025-10-17T10:33:01.055Z",
       "updatedAt": "2025-10-17T10:33:01.055Z",
-      "waybillNumber": "6465"
+      "waybillNumber": "6465",
+      "netWeight": 7550
     }
   ],
-  "lastModified": "2025-10-17T10:33:19.619Z",
+  "lastModified": "2025-10-17T10:33:40.980Z",
   "version": "2.0.0"
 }
