@@ -2741,7 +2741,7 @@
       "bags": 520,
       "moistureLevel": 20,
       "truckNumber": "FGE 86 ZS",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -2750,9 +2750,11 @@
       ],
       "createdAt": "2025-10-17T07:42:49.579Z",
       "updatedAt": "2025-10-17T07:42:49.579Z",
-      "waybillNumber": "6463"
+      "waybillNumber": "6463",
+      "netWeight": 38800,
+      "deduction": 350
     }
   ],
-  "lastModified": "2025-10-17T10:12:43.001Z",
+  "lastModified": "2025-10-17T10:17:03.445Z",
   "version": "2.0.0"
 }
