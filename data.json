@@ -2652,7 +2652,7 @@
       "bags": 184,
       "moistureLevel": 22,
       "truckNumber": "EPE 429 XB",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -2661,7 +2661,9 @@
       ],
       "createdAt": "2025-10-17T07:42:49.579Z",
       "updatedAt": "2025-10-17T07:42:49.579Z",
-      "waybillNumber": "6461"
+      "waybillNumber": "6461",
+      "netWeight": 13710,
+      "deduction": 800
     },
     {
       "id": "truck_1760686969579_2_xpxzww4y2",
@@ -2807,6 +2809,6 @@
       "updatedAt": "2025-10-17T12:53:47.705Z"
     }
   ],
-  "lastModified": "2025-10-17T12:53:47.740Z",
+  "lastModified": "2025-10-17T12:56:24.124Z",
   "version": "2.0.0"
 }
