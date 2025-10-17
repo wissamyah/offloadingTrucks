@@ -2781,7 +2781,7 @@
       "bags": 411,
       "moistureLevel": 18,
       "truckNumber": "FKY 230 XL",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -2790,7 +2790,8 @@
       ],
       "createdAt": "2025-10-17T10:37:22.020Z",
       "updatedAt": "2025-10-17T10:37:22.020Z",
-      "waybillNumber": "6467"
+      "waybillNumber": "6467",
+      "netWeight": 37000
     },
     {
       "id": "truck_1760705627705_0_r2ffslh89",
@@ -2812,6 +2813,6 @@
       "deduction": 300
     }
   ],
-  "lastModified": "2025-10-17T14:12:11.860Z",
+  "lastModified": "2025-10-17T14:30:28.060Z",
   "version": "2.0.0"
 }
