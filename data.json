@@ -2818,7 +2818,7 @@
       "bags": 404,
       "moistureLevel": 20,
       "truckNumber": "KKR 259 XA",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -2827,7 +2827,9 @@
       ],
       "createdAt": "2025-10-17T14:55:17.213Z",
       "updatedAt": "2025-10-17T14:55:17.213Z",
-      "waybillNumber": "6469"
+      "waybillNumber": "6469",
+      "netWeight": 30530,
+      "deduction": 150
     },
     {
       "id": "truck_1760713245847_0_ve97bpqan",
@@ -2847,6 +2849,6 @@
       "waybillNumber": "6472"
     }
   ],
-  "lastModified": "2025-10-17T15:15:45.936Z",
+  "lastModified": "2025-10-17T16:36:17.526Z",
   "version": "2.0.0"
 }
