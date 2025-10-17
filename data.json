@@ -2633,7 +2633,7 @@
       "bags": 100,
       "moistureLevel": 20,
       "truckNumber": "KMC 391 XU",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -2642,7 +2642,9 @@
       ],
       "createdAt": "2025-10-17T07:42:49.579Z",
       "updatedAt": "2025-10-17T07:42:49.579Z",
-      "waybillNumber": "6458"
+      "waybillNumber": "6458",
+      "netWeight": 7140,
+      "deduction": 100
     },
     {
       "id": "truck_1760686969579_1_1wq7i8urv",
@@ -2747,6 +2749,6 @@
       "waybillNumber": "6463"
     }
   ],
-  "lastModified": "2025-10-17T07:51:07.543Z",
+  "lastModified": "2025-10-17T09:07:41.713Z",
   "version": "2.0.0"
 }
