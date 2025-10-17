@@ -2714,7 +2714,7 @@
       "bags": 210,
       "moistureLevel": 19,
       "truckNumber": "NNG 402 XA",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
@@ -2722,7 +2722,8 @@
         }
       ],
       "createdAt": "2025-10-17T07:42:49.579Z",
-      "updatedAt": "2025-10-17T07:42:49.579Z"
+      "updatedAt": "2025-10-17T07:42:49.579Z",
+      "waybillNumber": "6459"
     },
     {
       "id": "truck_1760686969579_6_zqogxfepw",
@@ -2741,6 +2742,6 @@
       "updatedAt": "2025-10-17T07:42:49.579Z"
     }
   ],
-  "lastModified": "2025-10-17T07:46:08.690Z",
+  "lastModified": "2025-10-17T07:47:01.451Z",
   "version": "2.0.0"
 }
