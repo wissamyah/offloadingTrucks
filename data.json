@@ -3110,7 +3110,7 @@
       "bags": 164,
       "moistureLevel": 19,
       "truckNumber": "KTG 196 XB",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
@@ -3118,9 +3118,10 @@
         }
       ],
       "createdAt": "2025-10-18T15:34:28.310Z",
-      "updatedAt": "2025-10-18T15:34:28.310Z"
+      "updatedAt": "2025-10-18T15:34:28.310Z",
+      "waybillNumber": "6494"
     }
   ],
-  "lastModified": "2025-10-18T15:36:21.417Z",
+  "lastModified": "2025-10-18T15:39:16.087Z",
   "version": "2.0.0"
 }
