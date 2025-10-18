@@ -2908,7 +2908,7 @@
       "bags": 207,
       "moistureLevel": 20,
       "truckNumber": "LUY 682 XA",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -2917,7 +2917,9 @@
       ],
       "createdAt": "2025-10-18T08:28:17.680Z",
       "updatedAt": "2025-10-18T08:28:17.680Z",
-      "waybillNumber": "6478"
+      "waybillNumber": "6478",
+      "netWeight": 18960,
+      "deduction": 70
     },
     {
       "id": "truck_1760776097680_1_qkmnz8raz",
@@ -2992,6 +2994,6 @@
       "deduction": 100
     }
   ],
-  "lastModified": "2025-10-18T09:40:06.037Z",
+  "lastModified": "2025-10-18T10:21:44.962Z",
   "version": "2.0.0"
 }
