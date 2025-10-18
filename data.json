@@ -3086,8 +3086,40 @@
       ],
       "createdAt": "2025-10-18T10:51:55.060Z",
       "updatedAt": "2025-10-18T10:51:55.060Z"
+    },
+    {
+      "id": "truck_1760801668310_0_0hlt1i5oq",
+      "supplierName": "Aminu Muhd Kabo",
+      "bags": 56,
+      "moistureLevel": 20,
+      "truckNumber": "FGE 566 XB",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-18T15:34:28.310Z"
+        }
+      ],
+      "createdAt": "2025-10-18T15:34:28.310Z",
+      "updatedAt": "2025-10-18T15:34:28.310Z"
+    },
+    {
+      "id": "truck_1760801668310_1_o7mfm41cc",
+      "supplierName": "Mukhtari Sale",
+      "bags": 164,
+      "moistureLevel": 19,
+      "truckNumber": "KTG 196 XB",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-18T15:34:28.310Z"
+        }
+      ],
+      "createdAt": "2025-10-18T15:34:28.310Z",
+      "updatedAt": "2025-10-18T15:34:28.310Z"
     }
   ],
-  "lastModified": "2025-10-18T12:47:13.741Z",
+  "lastModified": "2025-10-18T15:34:28.389Z",
   "version": "2.0.0"
 }
