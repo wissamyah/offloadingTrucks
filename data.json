@@ -3003,7 +3003,7 @@
       "bags": 500,
       "moistureLevel": 20,
       "truckNumber": "AKK 150 XA",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
@@ -3011,7 +3011,8 @@
         }
       ],
       "createdAt": "2025-10-18T10:51:55.060Z",
-      "updatedAt": "2025-10-18T10:51:55.060Z"
+      "updatedAt": "2025-10-18T10:51:55.060Z",
+      "waybillNumber": "6486"
     },
     {
       "id": "truck_1760784715060_1_40yybeq51",
@@ -3078,6 +3079,6 @@
       "updatedAt": "2025-10-18T10:51:55.060Z"
     }
   ],
-  "lastModified": "2025-10-18T10:51:55.184Z",
+  "lastModified": "2025-10-18T10:52:11.039Z",
   "version": "2.0.0"
 }
