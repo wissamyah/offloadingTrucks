@@ -2854,7 +2854,7 @@
       "bags": 210,
       "moistureLevel": 19,
       "truckNumber": "XA 103 KTG",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -2863,7 +2863,8 @@
       ],
       "createdAt": "2025-10-18T08:26:55.179Z",
       "updatedAt": "2025-10-18T08:26:55.179Z",
-      "waybillNumber": "6477"
+      "waybillNumber": "6477",
+      "netWeight": 18750
     },
     {
       "id": "truck_1760776015179_1_4oniqd102",
@@ -2963,6 +2964,6 @@
       "updatedAt": "2025-10-18T08:28:17.680Z"
     }
   ],
-  "lastModified": "2025-10-18T08:28:17.739Z",
+  "lastModified": "2025-10-18T08:34:00.851Z",
   "version": "2.0.0"
 }
