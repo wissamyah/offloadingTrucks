@@ -2964,8 +2964,24 @@
       ],
       "createdAt": "2025-10-18T08:28:17.680Z",
       "updatedAt": "2025-10-18T08:28:17.680Z"
+    },
+    {
+      "id": "truck_1760777093149_0_v75kp10vx",
+      "supplierName": "Mukhtari Sale",
+      "bags": 108,
+      "moistureLevel": 21,
+      "truckNumber": "GWL 189 AE",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-18T08:44:53.150Z"
+        }
+      ],
+      "createdAt": "2025-10-18T08:44:53.150Z",
+      "updatedAt": "2025-10-18T08:44:53.150Z"
     }
   ],
-  "lastModified": "2025-10-18T08:42:23.908Z",
+  "lastModified": "2025-10-18T08:44:53.237Z",
   "version": "2.0.0"
 }
