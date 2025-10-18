@@ -2891,7 +2891,7 @@
       "bags": 115,
       "moistureLevel": 21,
       "truckNumber": "KKR 38 XA",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -2900,7 +2900,9 @@
       ],
       "createdAt": "2025-10-18T08:26:55.179Z",
       "updatedAt": "2025-10-18T08:26:55.179Z",
-      "waybillNumber": "6476"
+      "waybillNumber": "6476",
+      "netWeight": 7740,
+      "deduction": 150
     },
     {
       "id": "truck_1760776097680_0_eeiy9wo2k",
@@ -2994,6 +2996,6 @@
       "deduction": 100
     }
   ],
-  "lastModified": "2025-10-18T10:21:44.962Z",
+  "lastModified": "2025-10-18T10:23:52.729Z",
   "version": "2.0.0"
 }
