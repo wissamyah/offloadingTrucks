@@ -2959,7 +2959,7 @@
       "bags": 230,
       "moistureLevel": 20,
       "truckNumber": "KBK 359 XA",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
@@ -2967,7 +2967,8 @@
         }
       ],
       "createdAt": "2025-10-18T08:28:17.680Z",
-      "updatedAt": "2025-10-18T08:28:17.680Z"
+      "updatedAt": "2025-10-18T08:28:17.680Z",
+      "waybillNumber": "6482"
     },
     {
       "id": "truck_1760777093149_0_v75kp10vx",
@@ -2989,6 +2990,6 @@
       "deduction": 100
     }
   ],
-  "lastModified": "2025-10-18T09:29:57.338Z",
+  "lastModified": "2025-10-18T09:30:33.937Z",
   "version": "2.0.0"
 }
