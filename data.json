@@ -2872,7 +2872,7 @@
       "bags": 421,
       "moistureLevel": 18,
       "truckNumber": "ZAR 639 XS",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -2881,7 +2881,9 @@
       ],
       "createdAt": "2025-10-18T08:26:55.179Z",
       "updatedAt": "2025-10-18T08:26:55.179Z",
-      "waybillNumber": "6474"
+      "waybillNumber": "6474",
+      "netWeight": 31370,
+      "deduction": 180
     },
     {
       "id": "truck_1760776015179_2_vrfvie3fq",
@@ -2985,6 +2987,6 @@
       "deduction": 100
     }
   ],
-  "lastModified": "2025-10-18T09:18:16.381Z",
+  "lastModified": "2025-10-18T09:22:09.432Z",
   "version": "2.0.0"
 }
