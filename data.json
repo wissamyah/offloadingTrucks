@@ -3053,7 +3053,7 @@
       "bags": 200,
       "moistureLevel": 20,
       "truckNumber": "MKA 535 ZU",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
@@ -3061,7 +3061,8 @@
         }
       ],
       "createdAt": "2025-10-18T10:51:55.060Z",
-      "updatedAt": "2025-10-18T10:51:55.060Z"
+      "updatedAt": "2025-10-18T10:51:55.060Z",
+      "waybillNumber": "6488"
     },
     {
       "id": "truck_1760784715060_4_tautngbia",
@@ -3080,6 +3081,6 @@
       "updatedAt": "2025-10-18T10:51:55.060Z"
     }
   ],
-  "lastModified": "2025-10-18T10:54:26.156Z",
+  "lastModified": "2025-10-18T10:58:58.043Z",
   "version": "2.0.0"
 }
