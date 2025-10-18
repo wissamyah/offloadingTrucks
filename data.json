@@ -3077,7 +3077,7 @@
       "bags": 500,
       "moistureLevel": 21,
       "truckNumber": "GWL 334 XC",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
@@ -3085,7 +3085,8 @@
         }
       ],
       "createdAt": "2025-10-18T10:51:55.060Z",
-      "updatedAt": "2025-10-18T10:51:55.060Z"
+      "updatedAt": "2025-10-18T10:51:55.060Z",
+      "waybillNumber": "6490"
     },
     {
       "id": "truck_1760801668310_0_0hlt1i5oq",
@@ -3122,6 +3123,6 @@
       "waybillNumber": "6494"
     }
   ],
-  "lastModified": "2025-10-18T15:39:16.087Z",
+  "lastModified": "2025-10-18T15:40:39.907Z",
   "version": "2.0.0"
 }
