@@ -3093,7 +3093,7 @@
       "bags": 56,
       "moistureLevel": 20,
       "truckNumber": "FGE 566 XB",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
@@ -3101,7 +3101,8 @@
         }
       ],
       "createdAt": "2025-10-18T15:34:28.310Z",
-      "updatedAt": "2025-10-18T15:34:28.310Z"
+      "updatedAt": "2025-10-18T15:34:28.310Z",
+      "waybillNumber": "6493"
     },
     {
       "id": "truck_1760801668310_1_o7mfm41cc",
@@ -3120,6 +3121,6 @@
       "updatedAt": "2025-10-18T15:34:28.310Z"
     }
   ],
-  "lastModified": "2025-10-18T15:34:28.389Z",
+  "lastModified": "2025-10-18T15:36:21.417Z",
   "version": "2.0.0"
 }
