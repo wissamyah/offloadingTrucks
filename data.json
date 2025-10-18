@@ -2948,7 +2948,7 @@
       "bags": 368,
       "moistureLevel": 20,
       "truckNumber": "KMC 260 YW",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -2957,7 +2957,8 @@
       ],
       "createdAt": "2025-10-18T08:28:17.680Z",
       "updatedAt": "2025-10-18T08:28:17.680Z",
-      "waybillNumber": "6483"
+      "waybillNumber": "6483",
+      "netWeight": 26440
     },
     {
       "id": "truck_1760776097680_3_hyd6ejk7v",
@@ -3087,6 +3088,6 @@
       "updatedAt": "2025-10-18T10:51:55.060Z"
     }
   ],
-  "lastModified": "2025-10-18T12:47:05.851Z",
+  "lastModified": "2025-10-18T12:47:13.741Z",
   "version": "2.0.0"
 }
