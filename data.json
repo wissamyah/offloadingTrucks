@@ -2945,7 +2945,7 @@
     {
       "id": "truck_1760776097680_2_7i7r631oy",
       "supplierName": "Idris Garba",
-      "bags": 460,
+      "bags": 368,
       "moistureLevel": 20,
       "truckNumber": "KMC 260 YW",
       "status": "scaled_in",
@@ -3082,6 +3082,6 @@
       "updatedAt": "2025-10-18T10:51:55.060Z"
     }
   ],
-  "lastModified": "2025-10-18T11:00:47.195Z",
+  "lastModified": "2025-10-18T11:53:18.450Z",
   "version": "2.0.0"
 }
