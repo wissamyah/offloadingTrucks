@@ -2847,8 +2847,56 @@
       "createdAt": "2025-10-17T15:00:45.847Z",
       "updatedAt": "2025-10-17T15:00:45.847Z",
       "waybillNumber": "6472"
+    },
+    {
+      "id": "truck_1760776015179_0_auwxuw48o",
+      "supplierName": "Samuel Chamblatda",
+      "bags": 210,
+      "moistureLevel": 19,
+      "truckNumber": "XA 103 KTG",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-18T08:26:55.179Z"
+        }
+      ],
+      "createdAt": "2025-10-18T08:26:55.179Z",
+      "updatedAt": "2025-10-18T08:26:55.179Z"
+    },
+    {
+      "id": "truck_1760776015179_1_4oniqd102",
+      "supplierName": "H A Tahir",
+      "bags": 421,
+      "moistureLevel": 18,
+      "truckNumber": "ZAR 639 XS",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-18T08:26:55.179Z"
+        }
+      ],
+      "createdAt": "2025-10-18T08:26:55.179Z",
+      "updatedAt": "2025-10-18T08:26:55.179Z"
+    },
+    {
+      "id": "truck_1760776015179_2_vrfvie3fq",
+      "supplierName": "Idris Garba",
+      "bags": 115,
+      "moistureLevel": 21,
+      "truckNumber": "KKR 38 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-18T08:26:55.179Z"
+        }
+      ],
+      "createdAt": "2025-10-18T08:26:55.179Z",
+      "updatedAt": "2025-10-18T08:26:55.179Z"
     }
   ],
-  "lastModified": "2025-10-17T16:36:17.526Z",
+  "lastModified": "2025-10-18T08:26:55.253Z",
   "version": "2.0.0"
 }
