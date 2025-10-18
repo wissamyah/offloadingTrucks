@@ -2971,7 +2971,7 @@
       "bags": 108,
       "moistureLevel": 21,
       "truckNumber": "GWL 189 AE",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -2980,9 +2980,11 @@
       ],
       "createdAt": "2025-10-18T08:44:53.150Z",
       "updatedAt": "2025-10-18T08:44:53.150Z",
-      "waybillNumber": "6475"
+      "waybillNumber": "6475",
+      "netWeight": 7760,
+      "deduction": 100
     }
   ],
-  "lastModified": "2025-10-18T08:45:21.680Z",
+  "lastModified": "2025-10-18T09:18:16.381Z",
   "version": "2.0.0"
 }
