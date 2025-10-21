@@ -3989,7 +3989,7 @@
       "bags": 500,
       "moistureLevel": 19,
       "truckNumber": "KSF 148 XX",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -3998,7 +3998,9 @@
       ],
       "createdAt": "2025-10-21T07:30:29.643Z",
       "updatedAt": "2025-10-21T07:30:29.643Z",
-      "waybillNumber": "6564"
+      "waybillNumber": "6564",
+      "netWeight": 37520,
+      "deduction": 100
     },
     {
       "id": "truck_1761031829643_2_0nnzqlgpx",
@@ -4125,6 +4127,6 @@
       "updatedAt": "2025-10-21T16:06:36.230Z"
     }
   ],
-  "lastModified": "2025-10-21T16:06:36.363Z",
+  "lastModified": "2025-10-21T16:07:21.119Z",
   "version": "2.0.0"
 }
