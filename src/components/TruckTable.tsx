@@ -9,7 +9,10 @@ import {
   AlertCircle,
   Clock,
   Droplets,
-  Copy
+  Copy,
+  ArrowUpDown,
+  ArrowUp,
+  ArrowDown
 } from 'lucide-react';
 import { Truck, TruckStatus } from '../types/truck';
 import { formatDateTime, formatTime } from '../utils/dateUtils';
@@ -26,6 +29,9 @@ interface TruckTableProps {
   loadingStates: {
     [key: string]: boolean;
   };
+  sortBy?: string;
+  sortDirection?: 'asc' | 'desc';
+  onSort?: (column: string) => void;
 }
 
 const StatusBadge: React.FC<{ status: TruckStatus }> = ({ status }) => {
@@ -58,6 +64,36 @@ const StatusBadge: React.FC<{ status: TruckStatus }> = ({ status }) => {
   );
 };
 
+const SortableHeader: React.FC<{
+  column: string;
+  label: string | React.ReactNode;
+  sortBy?: string;
+  sortDirection?: 'asc' | 'desc';
+  onSort?: (column: string) => void;
+}> = ({ column, label, sortBy, sortDirection, onSort }) => {
+  if (!onSort) {
+    return <th className="px-2 py-2 text-left text-xs font-medium text-gray-400 uppercase tracking-wider">{label}</th>;
+  }
+
+  const isActive = sortBy === column;
+
+  return (
+    <th className="px-2 py-2 text-left text-xs font-medium text-gray-400 uppercase tracking-wider">
+      <button
+        onClick={() => onSort(column)}
+        className="flex items-center gap-1 hover:text-gray-200 transition-colors group w-full"
+      >
+        {label}
+        <span className="ml-auto">
+          {!isActive && <ArrowUpDown className="h-3 w-3 opacity-0 group-hover:opacity-50 transition-opacity" />}
+          {isActive && sortDirection === 'asc' && <ArrowUp className="h-3 w-3 text-blue-400" />}
+          {isActive && sortDirection === 'desc' && <ArrowDown className="h-3 w-3 text-blue-400" />}
+        </span>
+      </button>
+    </th>
+  );
+};
+
 export const TruckTable: React.FC<TruckTableProps> = ({
   trucks,
   onScaleIn,
@@ -66,6 +102,9 @@ export const TruckTable: React.FC<TruckTableProps> = ({
   onEdit,
   onDelete,
   loadingStates,
+  sortBy,
+  sortDirection,
+  onSort,
 }) => {
   const [deletingTrucks, setDeletingTrucks] = useState<Set<string>>(new Set());
   const [deleteConfirmTruck, setDeleteConfirmTruck] = useState<string | null>(null);
@@ -266,36 +305,26 @@ export const TruckTable: React.FC<TruckTableProps> = ({
           <table className="min-w-full divide-y divide-gray-700">
           <thead className="bg-gray-750">
             <tr>
-              <th className="px-2 py-2 text-left text-xs font-medium text-gray-400 uppercase tracking-wider">
-                Time
-              </th>
-              <th className="px-2 py-2 text-left text-xs font-medium text-gray-400 uppercase tracking-wider">
-                Supplier
-              </th>
-              <th className="px-2 py-2 text-left text-xs font-medium text-gray-400 uppercase tracking-wider">
-                Truck
-              </th>
-              <th className="px-2 py-2 text-left text-xs font-medium text-gray-400 uppercase tracking-wider">
-                Bags
-              </th>
-              <th className="px-2 py-2 text-left text-xs font-medium text-gray-400 uppercase tracking-wider">
-                <div className="flex items-center gap-1">
-                  <Droplets className="h-3 w-3" />
-                  Moist.
-                </div>
-              </th>
-              <th className="px-2 py-2 text-left text-xs font-medium text-gray-400 uppercase tracking-wider">
-                Status
-              </th>
-              <th className="px-2 py-2 text-left text-xs font-medium text-gray-400 uppercase tracking-wider">
-                Waybill
-              </th>
-              <th className="px-2 py-2 text-left text-xs font-medium text-gray-400 uppercase tracking-wider">
-                Net Wt.
-              </th>
-              <th className="px-2 py-2 text-left text-xs font-medium text-gray-400 uppercase tracking-wider">
-                Deduc.
-              </th>
+              <SortableHeader column="time" label="Time" sortBy={sortBy} sortDirection={sortDirection} onSort={onSort} />
+              <SortableHeader column="supplier" label="Supplier" sortBy={sortBy} sortDirection={sortDirection} onSort={onSort} />
+              <SortableHeader column="truck" label="Truck" sortBy={sortBy} sortDirection={sortDirection} onSort={onSort} />
+              <SortableHeader column="bags" label="Bags" sortBy={sortBy} sortDirection={sortDirection} onSort={onSort} />
+              <SortableHeader
+                column="moisture"
+                label={
+                  <div className="flex items-center gap-1">
+                    <Droplets className="h-3 w-3" />
+                    Moist.
+                  </div>
+                }
+                sortBy={sortBy}
+                sortDirection={sortDirection}
+                onSort={onSort}
+              />
+              <SortableHeader column="status" label="Status" sortBy={sortBy} sortDirection={sortDirection} onSort={onSort} />
+              <SortableHeader column="waybill" label="Waybill" sortBy={sortBy} sortDirection={sortDirection} onSort={onSort} />
+              <SortableHeader column="netWeight" label="Net Wt." sortBy={sortBy} sortDirection={sortDirection} onSort={onSort} />
+              <SortableHeader column="deduction" label="Deduc." sortBy={sortBy} sortDirection={sortDirection} onSort={onSort} />
               <th className="px-2 py-2 text-right text-xs font-medium text-gray-500 uppercase tracking-wider">
                 Actions
               </th>

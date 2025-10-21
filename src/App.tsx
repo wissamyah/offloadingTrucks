@@ -8,7 +8,7 @@ import { ScaleInModal, OffloadModal, EditTruckModal } from './components/ActionM
 import { useGitHubSync } from './hooks/useGitHubSync';
 import { groupByDate, formatDate } from './utils/dateUtils';
 import { githubSync } from './services/githubSync';
-import { Truck as TruckIcon, Loader2 } from 'lucide-react';
+import { Truck as TruckIcon, Loader2, Search, X } from 'lucide-react';
 import { SyncDropdown } from './components/SyncDropdown';
 import toast from 'react-hot-toast';
 
@@ -52,6 +52,9 @@ function App() {
   };
 
   const [selectedDate, setSelectedDate] = useState<string>('');
+  const [supplierFilter, setSupplierFilter] = useState<string>('');
+  const [sortBy, setSortBy] = useState<string>('');
+  const [sortDirection, setSortDirection] = useState<'asc' | 'desc'>('asc');
   const [scaleInModal, setScaleInModal] = useState<{ open: boolean; truck: Truck | null }>({
     open: false,
     truck: null,
@@ -103,6 +106,106 @@ function App() {
     if (!selectedDate) return [];
     return groupedTrucks.get(selectedDate) || [];
   }, [groupedTrucks, selectedDate]);
+
+  // Get unique suppliers for the current date
+  const availableSuppliers = useMemo(() => {
+    const suppliers = new Set(currentTrucks.map(truck => truck.supplierName));
+    return Array.from(suppliers).sort();
+  }, [currentTrucks]);
+
+  // Filter trucks by supplier name
+  const filteredTrucks = useMemo(() => {
+    if (!supplierFilter) return currentTrucks;
+    return currentTrucks.filter(truck =>
+      truck.supplierName.toLowerCase().includes(supplierFilter.toLowerCase())
+    );
+  }, [currentTrucks, supplierFilter]);
+
+  // Sort handler
+  const handleSort = (column: string) => {
+    if (sortBy === column) {
+      // Toggle direction if same column
+      setSortDirection(sortDirection === 'asc' ? 'desc' : 'asc');
+    } else {
+      // New column, default to ascending
+      setSortBy(column);
+      setSortDirection('asc');
+    }
+  };
+
+  // Sort trucks
+  const sortedTrucks = useMemo(() => {
+    if (!sortBy) return filteredTrucks;
+
+    const sorted = [...filteredTrucks].sort((a, b) => {
+      let aValue: any;
+      let bValue: any;
+
+      switch (sortBy) {
+        case 'time':
+          // Get latest status timestamp
+          aValue = a.statusHistory.length > 0
+            ? new Date(a.statusHistory[a.statusHistory.length - 1].timestamp).getTime()
+            : new Date(a.createdAt).getTime();
+          bValue = b.statusHistory.length > 0
+            ? new Date(b.statusHistory[b.statusHistory.length - 1].timestamp).getTime()
+            : new Date(b.createdAt).getTime();
+          break;
+
+        case 'supplier':
+          aValue = a.supplierName.toLowerCase();
+          bValue = b.supplierName.toLowerCase();
+          break;
+
+        case 'truck':
+          aValue = a.truckNumber.toLowerCase();
+          bValue = b.truckNumber.toLowerCase();
+          break;
+
+        case 'bags':
+          aValue = a.bags;
+          bValue = b.bags;
+          break;
+
+        case 'moisture':
+          aValue = a.moistureLevel;
+          bValue = b.moistureLevel;
+          break;
+
+        case 'status':
+          // Custom status order: pending < scaled_in < offloaded < rejected
+          const statusOrder = { pending: 0, scaled_in: 1, offloaded: 2, rejected: 3 };
+          aValue = statusOrder[a.status];
+          bValue = statusOrder[b.status];
+          break;
+
+        case 'waybill':
+          aValue = a.waybillNumber?.toLowerCase() || '';
+          bValue = b.waybillNumber?.toLowerCase() || '';
+          break;
+
+        case 'netWeight':
+          aValue = a.netWeight || 0;
+          bValue = b.netWeight || 0;
+          break;
+
+        case 'deduction':
+          aValue = a.deduction || 0;
+          bValue = b.deduction || 0;
+          break;
+
+        default:
+          return 0;
+      }
+
+      // Compare values
+      if (aValue < bValue) return sortDirection === 'asc' ? -1 : 1;
+      if (aValue > bValue) return sortDirection === 'asc' ? 1 : -1;
+      return 0;
+    });
+
+    return sorted;
+  }, [filteredTrucks, sortBy, sortDirection]);
 
   // Show sync status
   useEffect(() => {
@@ -226,25 +329,61 @@ function App() {
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
               <div className="bg-gray-800 p-4 rounded-lg shadow-xl border border-gray-700">
                 <p className="text-sm text-gray-400 mb-1">Total Trucks</p>
-                <p className="text-2xl font-bold text-gray-100">{currentTrucks.length}</p>
+                <p className="text-2xl font-bold text-gray-100">{sortedTrucks.length}</p>
               </div>
               <div className="bg-gray-800 p-4 rounded-lg shadow-xl border border-gray-700">
                 <p className="text-sm text-gray-400 mb-1">Pending</p>
                 <p className="text-2xl font-bold text-yellow-500">
-                  {currentTrucks.filter(t => t.status === 'pending').length}
+                  {sortedTrucks.filter(t => t.status === 'pending').length}
                 </p>
               </div>
               <div className="bg-gray-800 p-4 rounded-lg shadow-xl border border-gray-700">
                 <p className="text-sm text-gray-400 mb-1">Scaled In</p>
                 <p className="text-2xl font-bold text-blue-500">
-                  {currentTrucks.filter(t => t.status === 'scaled_in').length}
+                  {sortedTrucks.filter(t => t.status === 'scaled_in').length}
                 </p>
               </div>
               <div className="bg-gray-800 p-4 rounded-lg shadow-xl border border-gray-700">
                 <p className="text-sm text-gray-400 mb-1">Offloaded</p>
                 <p className="text-2xl font-bold text-green-500">
-                  {currentTrucks.filter(t => t.status === 'offloaded').length}
+                  {sortedTrucks.filter(t => t.status === 'offloaded').length}
                 </p>
+              </div>
+            </div>
+          )}
+
+          {/* Supplier Filter */}
+          {currentTrucks.length > 0 && (
+            <div className="bg-gray-800 p-4 rounded-lg shadow-xl border border-gray-700">
+              <div className="flex flex-col sm:flex-row gap-3 items-start sm:items-center">
+                <label htmlFor="supplier-filter" className="text-sm font-medium text-gray-300 flex items-center gap-2 whitespace-nowrap">
+                  <Search className="h-4 w-4 text-gray-400" />
+                  Filter by Supplier:
+                </label>
+                <div className="relative flex-1 w-full sm:max-w-md">
+                  <input
+                    id="supplier-filter"
+                    type="text"
+                    value={supplierFilter}
+                    onChange={(e) => setSupplierFilter(e.target.value)}
+                    placeholder="Search supplier name..."
+                    className="w-full px-3 py-2 bg-gray-700 border border-gray-600 rounded-lg text-gray-100 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent pr-10"
+                  />
+                  {supplierFilter && (
+                    <button
+                      onClick={() => setSupplierFilter('')}
+                      className="absolute right-2 top-1/2 -translate-y-1/2 p-1 hover:bg-gray-600 rounded-md transition-colors"
+                      aria-label="Clear filter"
+                    >
+                      <X className="h-4 w-4 text-gray-400" />
+                    </button>
+                  )}
+                </div>
+                {supplierFilter && (
+                  <span className="text-sm text-gray-400 whitespace-nowrap">
+                    Showing {sortedTrucks.length} of {currentTrucks.length}
+                  </span>
+                )}
               </div>
             </div>
           )}
@@ -252,13 +391,16 @@ function App() {
           {/* Truck Table */}
           <div id="truck-table">
             <TruckTable
-            trucks={currentTrucks}
+            trucks={sortedTrucks}
             onScaleIn={handleScaleIn}
             onOffload={handleOffload}
             onReject={handleReject}
             onEdit={handleEdit}
             onDelete={deleteTruck}
             loadingStates={loadingStates}
+            sortBy={sortBy}
+            sortDirection={sortDirection}
+            onSort={handleSort}
             />
           </div>
         </div>
