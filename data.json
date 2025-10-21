@@ -4093,7 +4093,7 @@
       "bags": 251,
       "moistureLevel": 18,
       "truckNumber": "GME 313 XB",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
@@ -4101,9 +4101,10 @@
         }
       ],
       "createdAt": "2025-10-21T13:37:59.293Z",
-      "updatedAt": "2025-10-21T13:37:59.293Z"
+      "updatedAt": "2025-10-21T13:37:59.293Z",
+      "waybillNumber": "6566"
     }
   ],
-  "lastModified": "2025-10-21T14:25:07.076Z",
+  "lastModified": "2025-10-21T14:34:24.656Z",
   "version": "2.0.0"
 }
