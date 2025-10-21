@@ -3809,7 +3809,7 @@
       "bags": 525,
       "moistureLevel": 21,
       "truckNumber": "DTM 551 XA",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -3818,7 +3818,9 @@
       ],
       "createdAt": "2025-10-21T07:29:36.439Z",
       "updatedAt": "2025-10-21T07:29:36.439Z",
-      "waybillNumber": "6551"
+      "waybillNumber": "6551",
+      "netWeight": 39930,
+      "deduction": 500
     },
     {
       "id": "truck_1761031776439_2_7j10mn7xc",
@@ -4051,6 +4053,6 @@
       "netWeight": 1515
     }
   ],
-  "lastModified": "2025-10-21T13:29:14.865Z",
+  "lastModified": "2025-10-21T13:29:26.886Z",
   "version": "2.0.0"
 }
