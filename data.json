@@ -3770,7 +3770,7 @@
       "bags": 500,
       "moistureLevel": 20,
       "truckNumber": "FUN 93 XA",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -3779,7 +3779,9 @@
       ],
       "createdAt": "2025-10-21T07:29:13.106Z",
       "updatedAt": "2025-10-21T07:29:13.106Z",
-      "waybillNumber": "6555"
+      "waybillNumber": "6555",
+      "netWeight": 39930,
+      "deduction": 500
     },
     {
       "id": "truck_1761031776439_0_i8q98ij9q",
@@ -4045,6 +4047,6 @@
       "netWeight": 1515
     }
   ],
-  "lastModified": "2025-10-21T12:04:47.228Z",
+  "lastModified": "2025-10-21T13:25:38.403Z",
   "version": "2.0.0"
 }
