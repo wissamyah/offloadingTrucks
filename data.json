@@ -4107,8 +4107,24 @@
       "waybillNumber": "6566",
       "netWeight": 21650,
       "deduction": 45
+    },
+    {
+      "id": "truck_1761062796229_0_3c25diibp",
+      "supplierName": "Buliyaminu Muhd",
+      "bags": 60,
+      "moistureLevel": 18,
+      "truckNumber": "DUT 322 XB",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-21T16:06:36.229Z"
+        }
+      ],
+      "createdAt": "2025-10-21T16:06:36.230Z",
+      "updatedAt": "2025-10-21T16:06:36.230Z"
     }
   ],
-  "lastModified": "2025-10-21T15:58:49.524Z",
+  "lastModified": "2025-10-21T16:06:36.363Z",
   "version": "2.0.0"
 }
