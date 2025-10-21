@@ -3866,7 +3866,7 @@
       "bags": 255,
       "moistureLevel": 22,
       "truckNumber": "KEF 766 ZF",
-      "status": "pending",
+      "status": "rejected",
       "statusHistory": [
         {
           "status": "pending",
@@ -4104,6 +4104,6 @@
       "updatedAt": "2025-10-21T13:37:59.293Z"
     }
   ],
-  "lastModified": "2025-10-21T14:24:59.419Z",
+  "lastModified": "2025-10-21T14:25:07.076Z",
   "version": "2.0.0"
 }
