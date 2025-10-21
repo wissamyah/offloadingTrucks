@@ -3718,7 +3718,7 @@
       "bags": 115,
       "moistureLevel": 25,
       "truckNumber": "ZAR 771 XA",
-      "status": "pending",
+      "status": "rejected",
       "statusHistory": [
         {
           "status": "pending",
@@ -4104,6 +4104,6 @@
       "updatedAt": "2025-10-21T13:37:59.293Z"
     }
   ],
-  "lastModified": "2025-10-21T13:39:43.040Z",
+  "lastModified": "2025-10-21T14:24:59.419Z",
   "version": "2.0.0"
 }
