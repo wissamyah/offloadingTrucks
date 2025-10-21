@@ -4063,7 +4063,7 @@
       "bags": 402,
       "moistureLevel": 18,
       "truckNumber": "DKA 384 XA",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -4072,7 +4072,8 @@
       ],
       "createdAt": "2025-10-21T13:37:59.293Z",
       "updatedAt": "2025-10-21T13:37:59.293Z",
-      "waybillNumber": "6567"
+      "waybillNumber": "6567",
+      "netWeight": 34730
     },
     {
       "id": "truck_1761053879292_1_9o33m80pi",
@@ -4129,6 +4130,6 @@
       "netWeight": 3940
     }
   ],
-  "lastModified": "2025-10-21T16:55:44.168Z",
+  "lastModified": "2025-10-21T16:56:09.889Z",
   "version": "2.0.0"
 }
