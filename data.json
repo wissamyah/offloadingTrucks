@@ -4436,8 +4436,88 @@
       ],
       "createdAt": "2025-10-22T07:50:09.645Z",
       "updatedAt": "2025-10-22T07:50:09.645Z"
+    },
+    {
+      "id": "truck_1761119438066_0_glrvk9jnp",
+      "supplierName": "Mansur Mansur",
+      "bags": 480,
+      "moistureLevel": 17,
+      "truckNumber": "FUN 356 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-22T07:50:38.067Z"
+        }
+      ],
+      "createdAt": "2025-10-22T07:50:38.067Z",
+      "updatedAt": "2025-10-22T07:50:38.067Z"
+    },
+    {
+      "id": "truck_1761119438066_1_9v9cvu97l",
+      "supplierName": "Jamilu Yahaya",
+      "bags": 110,
+      "moistureLevel": 19,
+      "truckNumber": "KMC 458 XV",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-22T07:50:38.067Z"
+        }
+      ],
+      "createdAt": "2025-10-22T07:50:38.067Z",
+      "updatedAt": "2025-10-22T07:50:38.067Z"
+    },
+    {
+      "id": "truck_1761119438066_2_tw7k3sh91",
+      "supplierName": "Idris Haruna",
+      "bags": 191,
+      "moistureLevel": 20,
+      "truckNumber": "SBA 10 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-22T07:50:38.067Z"
+        }
+      ],
+      "createdAt": "2025-10-22T07:50:38.067Z",
+      "updatedAt": "2025-10-22T07:50:38.067Z"
+    },
+    {
+      "id": "truck_1761119438066_3_icz4dnqrg",
+      "supplierName": "H A Tahir",
+      "bags": 266,
+      "moistureLevel": 18,
+      "truckNumber": "ABJ 918 YV",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-22T07:50:38.067Z"
+        }
+      ],
+      "createdAt": "2025-10-22T07:50:38.067Z",
+      "updatedAt": "2025-10-22T07:50:38.067Z"
+    },
+    {
+      "id": "truck_1761119438066_4_h2xq3vkw3",
+      "supplierName": "Idris Garba",
+      "bags": 100,
+      "moistureLevel": 26,
+      "truckNumber": "TRT 158 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-22T07:50:38.067Z"
+        }
+      ],
+      "createdAt": "2025-10-22T07:50:38.067Z",
+      "updatedAt": "2025-10-22T07:50:38.067Z"
     }
   ],
-  "lastModified": "2025-10-22T07:50:09.747Z",
+  "lastModified": "2025-10-22T07:50:38.153Z",
   "version": "2.0.0"
 }
