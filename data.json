@@ -4157,7 +4157,7 @@
       "bags": 500,
       "moistureLevel": 20,
       "truckNumber": "TRT 42 XA",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
@@ -4165,7 +4165,8 @@
         }
       ],
       "createdAt": "2025-10-22T07:47:22.043Z",
-      "updatedAt": "2025-10-22T07:47:22.043Z"
+      "updatedAt": "2025-10-22T07:47:22.043Z",
+      "waybillNumber": "6575"
     },
     {
       "id": "truck_1761119242043_2_kac35iv4v",
@@ -4591,6 +4592,6 @@
       "updatedAt": "2025-10-22T07:53:10.884Z"
     }
   ],
-  "lastModified": "2025-10-22T08:56:39.639Z",
+  "lastModified": "2025-10-22T08:58:09.984Z",
   "version": "2.0.0"
 }
