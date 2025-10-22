@@ -4779,7 +4779,7 @@
       "bags": 230,
       "moistureLevel": 19,
       "truckNumber": "TGZ 75 XA",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
@@ -4787,7 +4787,8 @@
         }
       ],
       "createdAt": "2025-10-22T13:48:04.422Z",
-      "updatedAt": "2025-10-22T13:48:04.422Z"
+      "updatedAt": "2025-10-22T13:48:04.422Z",
+      "waybillNumber": "6605"
     },
     {
       "id": "truck_1761140884421_3_7cg2ezu7p",
@@ -4840,6 +4841,6 @@
       "waybillNumber": "6606"
     }
   ],
-  "lastModified": "2025-10-22T15:58:29.445Z",
+  "lastModified": "2025-10-22T15:59:23.748Z",
   "version": "2.0.0"
 }
