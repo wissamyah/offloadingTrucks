@@ -4523,7 +4523,7 @@
       "bags": 100,
       "moistureLevel": 26,
       "truckNumber": "TRT 158 XA",
-      "status": "pending",
+      "status": "rejected",
       "statusHistory": [
         {
           "status": "pending",
@@ -4615,6 +4615,6 @@
       "waybillNumber": "6576"
     }
   ],
-  "lastModified": "2025-10-22T10:11:11.791Z",
+  "lastModified": "2025-10-22T10:11:28.416Z",
   "version": "2.0.0"
 }
