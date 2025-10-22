@@ -4839,7 +4839,7 @@
       "bags": 181,
       "moistureLevel": 18,
       "truckNumber": "BSA 730 XA",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -4848,9 +4848,10 @@
       ],
       "createdAt": "2025-10-22T15:58:11.159Z",
       "updatedAt": "2025-10-22T15:58:11.159Z",
-      "waybillNumber": "6606"
+      "waybillNumber": "6606",
+      "netWeight": 16240
     }
   ],
-  "lastModified": "2025-10-22T17:39:49.607Z",
+  "lastModified": "2025-10-22T17:48:26.724Z",
   "version": "2.0.0"
 }
