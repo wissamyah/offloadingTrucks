@@ -4362,7 +4362,7 @@
       "bags": 270,
       "moistureLevel": 19,
       "truckNumber": "HJA 406 XR",
-      "status": "pending",
+      "status": "rejected",
       "statusHistory": [
         {
           "status": "pending",
@@ -4615,6 +4615,6 @@
       "waybillNumber": "6576"
     }
   ],
-  "lastModified": "2025-10-22T10:11:55.095Z",
+  "lastModified": "2025-10-22T10:12:18.009Z",
   "version": "2.0.0"
 }
