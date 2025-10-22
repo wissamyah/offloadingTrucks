@@ -4313,7 +4313,7 @@
       "bags": 400,
       "moistureLevel": 18,
       "truckNumber": "GME 579 XB",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -4322,7 +4322,9 @@
       ],
       "createdAt": "2025-10-22T07:49:32.035Z",
       "updatedAt": "2025-10-22T07:49:32.035Z",
-      "waybillNumber": "6583"
+      "waybillNumber": "6583",
+      "netWeight": 34580,
+      "deduction": 80
     },
     {
       "id": "truck_1761119372035_2_n57l6x0ks",
@@ -4621,6 +4623,6 @@
       "netWeight": 7680
     }
   ],
-  "lastModified": "2025-10-22T12:02:30.547Z",
+  "lastModified": "2025-10-22T12:02:43.867Z",
   "version": "2.0.0"
 }
