@@ -4242,7 +4242,7 @@
       "bags": 200,
       "moistureLevel": 25,
       "truckNumber": "ZAK 216 XA",
-      "status": "pending",
+      "status": "rejected",
       "statusHistory": [
         {
           "status": "pending",
@@ -4615,6 +4615,6 @@
       "waybillNumber": "6576"
     }
   ],
-  "lastModified": "2025-10-22T10:11:06.173Z",
+  "lastModified": "2025-10-22T10:11:11.791Z",
   "version": "2.0.0"
 }
