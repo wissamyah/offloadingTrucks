@@ -2,16 +2,14 @@ import React, { useState } from 'react';
 import { Cloud, CloudOff, RefreshCw, Settings, Github, Eye, EyeOff, X } from 'lucide-react';
 import { LoadingButton } from './LoadingButton';
 import { githubSync } from '../services/githubSync';
-import { useGitHubSync } from '../hooks/useGitHubSync';
 import toast from 'react-hot-toast';
 
 interface SyncDropdownProps {
-  onConfigured?: () => void;
+  onRefresh?: () => Promise<void>;
   lastSync?: Date | null;
 }
 
-export const SyncDropdown: React.FC<SyncDropdownProps> = ({ onConfigured, lastSync }) => {
-  const { refresh } = useGitHubSync();
+export const SyncDropdown: React.FC<SyncDropdownProps> = ({ onRefresh, lastSync }) => {
   const [showDropdown, setShowDropdown] = useState(false);
   const [showGitHubSettings, setShowGitHubSettings] = useState(false);
   const [token, setToken] = useState('');
@@ -64,8 +62,9 @@ export const SyncDropdown: React.FC<SyncDropdownProps> = ({ onConfigured, lastSy
       setShowGitHubSettings(false);
       setShowDropdown(false);
 
-      if (onConfigured) {
-        onConfigured();
+      // Refresh data after configuration
+      if (onRefresh) {
+        await onRefresh();
       }
     } catch (error: any) {
       toast.error(error.message || 'Failed to connect to GitHub');
@@ -87,13 +86,12 @@ export const SyncDropdown: React.FC<SyncDropdownProps> = ({ onConfigured, lastSy
   };
 
   const handleRefresh = async () => {
-    try {
-      await refresh();
-      if (onConfigured) {
-        onConfigured();
+    if (onRefresh) {
+      try {
+        await onRefresh();
+      } catch (error) {
+        // Error already handled by hook
       }
-    } catch (error) {
-      // Error already handled by hook
     }
   };
 

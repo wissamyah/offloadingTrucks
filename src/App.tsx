@@ -3,12 +3,11 @@ import { Toaster } from 'react-hot-toast';
 import { Truck, TruckStatus, ParsedTruckEntry } from './types/truck';
 import { MessageInput } from './components/MessageInput';
 import { TruckTable } from './components/TruckTable';
-import { Pagination } from './components/Pagination';
 import { ScaleInModal, OffloadModal, EditTruckModal } from './components/ActionModals';
 import { useGitHubSync } from './hooks/useGitHubSync';
 import { groupByDate, formatDate } from './utils/dateUtils';
 import { githubSync } from './services/githubSync';
-import { Truck as TruckIcon, Loader2, Search, X } from 'lucide-react';
+import { Truck as TruckIcon, Loader2 } from 'lucide-react';
 import { SyncDropdown } from './components/SyncDropdown';
 import toast from 'react-hot-toast';
 
@@ -113,11 +112,12 @@ function App() {
     return Array.from(suppliers).sort();
   }, [currentTrucks]);
 
-  // Filter trucks by supplier name
+  // Filter trucks by supplier name and truck number
   const filteredTrucks = useMemo(() => {
     if (!supplierFilter) return currentTrucks;
     return currentTrucks.filter(truck =>
-      truck.supplierName.toLowerCase().includes(supplierFilter.toLowerCase())
+      truck.supplierName.toLowerCase().includes(supplierFilter.toLowerCase()) ||
+      truck.truckNumber.toLowerCase().includes(supplierFilter.toLowerCase())
     );
   }, [currentTrucks, supplierFilter]);
 
@@ -303,7 +303,7 @@ function App() {
               </div>
             </div>
             <div className="flex items-center flex-shrink-0">
-              <SyncDropdown onConfigured={refresh} lastSync={lastSync} />
+              <SyncDropdown onRefresh={refresh} lastSync={lastSync} />
             </div>
           </div>
         </div>
@@ -312,81 +312,41 @@ function App() {
       {/* Main Content */}
       <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         <div className="space-y-6">
-          {/* Message Input */}
-          <MessageInput onProcess={addTrucks} onReset={() => resetData({ trucks: [], lastModified: new Date().toISOString() })} />
-
-          {/* Date Pagination */}
-          {availableDates.length > 0 && (
-            <Pagination
-              dates={availableDates}
-              currentDate={selectedDate}
-              onDateChange={setSelectedDate}
-            />
-          )}
-
-          {/* Stats */}
-          {currentTrucks.length > 0 && (
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-              <div className="bg-gray-800 p-4 rounded-lg shadow-xl border border-gray-700">
-                <p className="text-sm text-gray-400 mb-1">Total Trucks</p>
-                <p className="text-2xl font-bold text-gray-100">{sortedTrucks.length}</p>
-              </div>
-              <div className="bg-gray-800 p-4 rounded-lg shadow-xl border border-gray-700">
-                <p className="text-sm text-gray-400 mb-1">Pending</p>
-                <p className="text-2xl font-bold text-yellow-500">
-                  {sortedTrucks.filter(t => t.status === 'pending').length}
-                </p>
-              </div>
-              <div className="bg-gray-800 p-4 rounded-lg shadow-xl border border-gray-700">
-                <p className="text-sm text-gray-400 mb-1">Scaled In</p>
-                <p className="text-2xl font-bold text-blue-500">
-                  {sortedTrucks.filter(t => t.status === 'scaled_in').length}
-                </p>
-              </div>
-              <div className="bg-gray-800 p-4 rounded-lg shadow-xl border border-gray-700">
-                <p className="text-sm text-gray-400 mb-1">Offloaded</p>
-                <p className="text-2xl font-bold text-green-500">
-                  {sortedTrucks.filter(t => t.status === 'offloaded').length}
-                </p>
-              </div>
+          {/* Message Input and Stats */}
+          <div className="flex flex-col lg:flex-row gap-6">
+            {/* Message Input */}
+            <div className="flex-1">
+              <MessageInput onProcess={addTrucks} onReset={() => resetData({ trucks: [], lastModified: new Date().toISOString() })} />
             </div>
-          )}
 
-          {/* Supplier Filter */}
-          {currentTrucks.length > 0 && (
-            <div className="bg-gray-800 p-4 rounded-lg shadow-xl border border-gray-700">
-              <div className="flex flex-col sm:flex-row gap-3 items-start sm:items-center">
-                <label htmlFor="supplier-filter" className="text-sm font-medium text-gray-300 flex items-center gap-2 whitespace-nowrap">
-                  <Search className="h-4 w-4 text-gray-400" />
-                  Filter by Supplier:
-                </label>
-                <div className="relative flex-1 w-full sm:max-w-md">
-                  <input
-                    id="supplier-filter"
-                    type="text"
-                    value={supplierFilter}
-                    onChange={(e) => setSupplierFilter(e.target.value)}
-                    placeholder="Search supplier name..."
-                    className="w-full px-3 py-2 bg-gray-700 border border-gray-600 rounded-lg text-gray-100 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent pr-10"
-                  />
-                  {supplierFilter && (
-                    <button
-                      onClick={() => setSupplierFilter('')}
-                      className="absolute right-2 top-1/2 -translate-y-1/2 p-1 hover:bg-gray-600 rounded-md transition-colors"
-                      aria-label="Clear filter"
-                    >
-                      <X className="h-4 w-4 text-gray-400" />
-                    </button>
-                  )}
+            {/* Stats */}
+            {currentTrucks.length > 0 && (
+              <div className="grid grid-cols-2 lg:grid-cols-2 gap-4 lg:w-96">
+                <div className="bg-gray-800 p-4 rounded-lg shadow-xl border border-gray-700">
+                  <p className="text-sm text-gray-400 mb-1">Total Trucks</p>
+                  <p className="text-2xl font-bold text-gray-100">{sortedTrucks.length}</p>
                 </div>
-                {supplierFilter && (
-                  <span className="text-sm text-gray-400 whitespace-nowrap">
-                    Showing {sortedTrucks.length} of {currentTrucks.length}
-                  </span>
-                )}
+                <div className="bg-gray-800 p-4 rounded-lg shadow-xl border border-gray-700">
+                  <p className="text-sm text-gray-400 mb-1">Pending</p>
+                  <p className="text-2xl font-bold text-yellow-500">
+                    {sortedTrucks.filter(t => t.status === 'pending').length}
+                  </p>
+                </div>
+                <div className="bg-gray-800 p-4 rounded-lg shadow-xl border border-gray-700">
+                  <p className="text-sm text-gray-400 mb-1">Scaled In</p>
+                  <p className="text-2xl font-bold text-blue-500">
+                    {sortedTrucks.filter(t => t.status === 'scaled_in').length}
+                  </p>
+                </div>
+                <div className="bg-gray-800 p-4 rounded-lg shadow-xl border border-gray-700">
+                  <p className="text-sm text-gray-400 mb-1">Offloaded</p>
+                  <p className="text-2xl font-bold text-green-500">
+                    {sortedTrucks.filter(t => t.status === 'offloaded').length}
+                  </p>
+                </div>
               </div>
-            </div>
-          )}
+            )}
+          </div>
 
           {/* Truck Table */}
           <div id="truck-table">
@@ -401,6 +361,12 @@ function App() {
             sortBy={sortBy}
             sortDirection={sortDirection}
             onSort={handleSort}
+            searchFilter={supplierFilter}
+            onSearchChange={setSupplierFilter}
+            totalTrucks={currentTrucks.length}
+            availableDates={availableDates}
+            selectedDate={selectedDate}
+            onDateChange={setSelectedDate}
             />
           </div>
         </div>

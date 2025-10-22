@@ -12,12 +12,19 @@ import {
   Copy,
   ArrowUpDown,
   ArrowUp,
-  ArrowDown
+  ArrowDown,
+  Search,
+  X,
+  ChevronLeft,
+  ChevronRight,
+  Calendar
 } from 'lucide-react';
 import { Truck, TruckStatus } from '../types/truck';
 import { formatDateTime, formatTime } from '../utils/dateUtils';
 import { LoadingButton } from './LoadingButton';
 import { ConfirmationModal } from './ConfirmationModal';
+import { CustomDropdown } from './CustomDropdown';
+import { format, parseISO, startOfDay, isSameDay } from 'date-fns';
 
 interface TruckTableProps {
   trucks: Truck[];
@@ -32,6 +39,12 @@ interface TruckTableProps {
   sortBy?: string;
   sortDirection?: 'asc' | 'desc';
   onSort?: (column: string) => void;
+  searchFilter?: string;
+  onSearchChange?: (value: string) => void;
+  totalTrucks?: number;
+  availableDates?: string[];
+  selectedDate?: string;
+  onDateChange?: (date: string) => void;
 }
 
 const StatusBadge: React.FC<{ status: TruckStatus }> = ({ status }) => {
@@ -105,11 +118,83 @@ export const TruckTable: React.FC<TruckTableProps> = ({
   sortBy,
   sortDirection,
   onSort,
+  searchFilter = '',
+  onSearchChange,
+  totalTrucks = 0,
+  availableDates = [],
+  selectedDate = '',
+  onDateChange,
 }) => {
   const [deletingTrucks, setDeletingTrucks] = useState<Set<string>>(new Set());
   const [deleteConfirmTruck, setDeleteConfirmTruck] = useState<string | null>(null);
   const [rejectConfirmTruck, setRejectConfirmTruck] = useState<string | null>(null);
   const [copiedTruck, setCopiedTruck] = useState<string | null>(null);
+  const [isMobile, setIsMobile] = useState(false);
+
+  React.useEffect(() => {
+    const checkMobile = () => {
+      setIsMobile(window.innerWidth < 640);
+    };
+    checkMobile();
+    window.addEventListener('resize', checkMobile);
+    return () => window.removeEventListener('resize', checkMobile);
+  }, []);
+
+  const formatDateDisplay = (dateKey: string, isMobile: boolean = false) => {
+    if (!dateKey) return 'No date';
+
+    try {
+      const date = parseISO(dateKey);
+      if (isNaN(date.getTime())) {
+        return 'Invalid date';
+      }
+
+      const today = startOfDay(new Date());
+      const yesterday = new Date(today);
+      yesterday.setDate(yesterday.getDate() - 1);
+
+      if (isSameDay(date, today)) {
+        return isMobile
+          ? `Today - ${format(date, 'MMM d')}`
+          : `Today - ${format(date, 'EEEE, MMM d')}`;
+      }
+
+      if (isSameDay(date, yesterday)) {
+        return isMobile
+          ? `Yesterday - ${format(date, 'MMM d')}`
+          : `Yesterday - ${format(date, 'EEEE, MMM d')}`;
+      }
+
+      return isMobile
+        ? format(date, 'MMM d, yyyy')
+        : format(date, 'EEEE, MMM d');
+    } catch (error) {
+      console.error('Error formatting date:', dateKey, error);
+      return 'Invalid date';
+    }
+  };
+
+  const dropdownOptions = React.useMemo(() => {
+    return availableDates.map(date => ({
+      value: date,
+      label: formatDateDisplay(date, false),
+      shortLabel: formatDateDisplay(date, true)
+    }));
+  }, [availableDates, isMobile]);
+
+  const currentIndex = availableDates.indexOf(selectedDate);
+
+  const handlePrevious = () => {
+    if (currentIndex < availableDates.length - 1 && onDateChange) {
+      onDateChange(availableDates[currentIndex + 1]);
+    }
+  };
+
+  const handleNext = () => {
+    if (currentIndex > 0 && onDateChange) {
+      onDateChange(availableDates[currentIndex - 1]);
+    }
+  };
 
   const copyTruckNumber = (truck: Truck) => {
     navigator.clipboard.writeText(truck.truckNumber).then(() => {
@@ -155,13 +240,92 @@ export const TruckTable: React.FC<TruckTableProps> = ({
   }
 
   return (
-    <div>
+    <div className="bg-gray-800 rounded-lg shadow-xl border border-gray-700 overflow-hidden">
+      {/* Search Bar and Date Pagination */}
+      <div className="p-4 border-b border-gray-700">
+        <div className="flex flex-col lg:flex-row gap-3 items-start lg:items-center">
+          {/* Search Bar */}
+          {onSearchChange && (
+            <div className="flex-1 w-full">
+              <div className="flex gap-3 items-center">
+                <div className="relative flex-1 w-full">
+                  <Search className="absolute left-3 top-1/2 -translate-y-1/2 h-4 w-4 text-gray-400 pointer-events-none" />
+                  <input
+                    id="supplier-filter"
+                    type="text"
+                    value={searchFilter}
+                    onChange={(e) => onSearchChange(e.target.value)}
+                    placeholder="Search supplier or truck number..."
+                    className="w-full pl-10 pr-10 py-2 bg-gray-700 border border-gray-600 rounded-lg text-gray-100 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                  />
+                  {searchFilter && (
+                    <button
+                      onClick={() => onSearchChange('')}
+                      className="absolute right-2 top-1/2 -translate-y-1/2 p-1 hover:bg-gray-600 rounded-md transition-colors"
+                      aria-label="Clear filter"
+                    >
+                      <X className="h-4 w-4 text-gray-400" />
+                    </button>
+                  )}
+                </div>
+                {searchFilter && (
+                  <span className="text-sm text-gray-400 whitespace-nowrap">
+                    Showing {trucks.length} of {totalTrucks}
+                  </span>
+                )}
+              </div>
+            </div>
+          )}
+
+          {/* Date Pagination Controls */}
+          {availableDates.length > 0 && onDateChange && (
+            <div className="flex items-center gap-1 sm:gap-2 w-full lg:w-auto">
+              <button
+                onClick={handlePrevious}
+                disabled={currentIndex === availableDates.length - 1}
+                className={`p-1 sm:p-2 rounded-md transition-colors flex-shrink-0 ${
+                  currentIndex === availableDates.length - 1
+                    ? 'text-gray-600 cursor-not-allowed'
+                    : 'text-gray-300 hover:bg-gray-700'
+                }`}
+              >
+                <ChevronLeft className="h-4 w-4 sm:h-5 sm:w-5" />
+              </button>
+
+              <div className="flex items-center justify-center gap-1 sm:gap-2 min-w-0 flex-1 lg:flex-initial">
+                <Calendar className="h-4 w-4 sm:h-5 sm:w-5 text-gray-400 hidden sm:block flex-shrink-0" />
+                <div className="min-w-0 max-w-[180px] sm:max-w-[280px]">
+                  <CustomDropdown
+                    value={selectedDate}
+                    options={dropdownOptions}
+                    onChange={onDateChange}
+                    isMobile={isMobile}
+                  />
+                </div>
+              </div>
+
+              <button
+                onClick={handleNext}
+                disabled={currentIndex === 0}
+                className={`p-1 sm:p-2 rounded-md transition-colors flex-shrink-0 ${
+                  currentIndex === 0
+                    ? 'text-gray-600 cursor-not-allowed'
+                    : 'text-gray-300 hover:bg-gray-700'
+                }`}
+              >
+                <ChevronRight className="h-4 w-4 sm:h-5 sm:w-5" />
+              </button>
+            </div>
+          )}
+        </div>
+      </div>
+
       {/* Mobile Card View */}
-      <div className="block md:hidden space-y-4">
+      <div className="block md:hidden space-y-4 p-4">
         {trucks.map((truck) => (
           <div
             key={truck.id}
-            className="bg-gray-800 rounded-lg shadow-xl border border-gray-700 p-4"
+            className="bg-gray-750 rounded-lg border border-gray-700 p-4"
           >
             <div className="flex justify-between items-start mb-3">
               <div className="flex-1">
@@ -276,22 +440,26 @@ export const TruckTable: React.FC<TruckTableProps> = ({
 
               <button
                 onClick={() => onEdit(truck)}
-                className="text-blue-400 hover:text-blue-300 transition-colors p-2"
+                className="text-blue-400 hover:text-blue-300 transition-colors p-2 flex items-center gap-1"
                 title="Edit"
               >
                 <Edit className="h-4 w-4" />
+                <span className="text-sm">Edit</span>
               </button>
 
               <button
                 onClick={() => setDeleteConfirmTruck(truck.id)}
-                className="text-red-400 hover:text-red-300 transition-colors p-2"
+                className="text-red-400 hover:text-red-300 transition-colors p-2 flex items-center gap-1"
                 disabled={deletingTrucks.has(truck.id)}
                 title="Delete"
               >
                 {deletingTrucks.has(truck.id) ? (
                   <div className="animate-spin h-4 w-4 border-2 border-red-400 border-t-transparent rounded-full" />
                 ) : (
-                  <Trash2 className="h-4 w-4" />
+                  <>
+                    <Trash2 className="h-4 w-4" />
+                    <span className="text-sm">Delete</span>
+                  </>
                 )}
               </button>
             </div>
@@ -300,7 +468,7 @@ export const TruckTable: React.FC<TruckTableProps> = ({
       </div>
 
       {/* Desktop Table View */}
-      <div className="hidden md:block bg-gray-800 rounded-lg shadow-xl border border-gray-700 overflow-hidden">
+      <div className="hidden md:block overflow-hidden">
         <div className="overflow-x-auto">
           <table className="min-w-full divide-y divide-gray-700">
           <thead className="bg-gray-750">
@@ -432,22 +600,26 @@ export const TruckTable: React.FC<TruckTableProps> = ({
 
                     <button
                       onClick={() => onEdit(truck)}
-                      className="text-blue-400 hover:text-blue-300 transition-colors p-0.5"
+                      className="text-blue-400 hover:text-blue-300 transition-colors p-0.5 flex items-center gap-1"
                       title="Edit"
                     >
                       <Edit className="h-3.5 w-3.5" />
+                      <span className="text-xs">Edit</span>
                     </button>
 
                     <button
                       onClick={() => setDeleteConfirmTruck(truck.id)}
-                      className="text-red-400 hover:text-red-300 transition-colors p-0.5"
+                      className="text-red-400 hover:text-red-300 transition-colors p-0.5 flex items-center gap-1"
                       disabled={deletingTrucks.has(truck.id)}
                       title="Delete"
                     >
                       {deletingTrucks.has(truck.id) ? (
                         <div className="animate-spin h-3.5 w-3.5 border-2 border-red-400 border-t-transparent rounded-full" />
                       ) : (
-                        <Trash2 className="h-3.5 w-3.5" />
+                        <>
+                          <Trash2 className="h-3.5 w-3.5" />
+                          <span className="text-xs">Delete</span>
+                        </>
                       )}
                     </button>
                   </div>

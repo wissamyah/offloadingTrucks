@@ -272,6 +272,9 @@ export const EditTruckModal: React.FC<EditTruckModalProps> = ({ isOpen, onClose,
     bags: '',
     moistureLevel: '',
     truckNumber: '',
+    waybillNumber: '',
+    netWeight: '',
+    deduction: '',
   });
   const [loading, setLoading] = useState(false);
 
@@ -282,6 +285,9 @@ export const EditTruckModal: React.FC<EditTruckModalProps> = ({ isOpen, onClose,
         bags: truck.bags.toString(),
         moistureLevel: truck.moistureLevel.toString(),
         truckNumber: truck.truckNumber,
+        waybillNumber: truck.waybillNumber || '',
+        netWeight: truck.netWeight ? truck.netWeight.toString() : '',
+        deduction: truck.deduction ? truck.deduction.toString() : '',
       });
     }
   }, [truck]);
@@ -306,6 +312,25 @@ export const EditTruckModal: React.FC<EditTruckModalProps> = ({ isOpen, onClose,
 
     if (isNaN(updates.moistureLevel!) || updates.moistureLevel! < 0 || updates.moistureLevel! > 100) {
       return;
+    }
+
+    // Add optional fields if provided
+    if (formData.waybillNumber.trim()) {
+      updates.waybillNumber = formData.waybillNumber.trim();
+    }
+
+    if (formData.netWeight) {
+      const netWeight = parseFloat(formData.netWeight);
+      if (!isNaN(netWeight) && netWeight > 0) {
+        updates.netWeight = netWeight;
+      }
+    }
+
+    if (formData.deduction) {
+      const deduction = parseFloat(formData.deduction);
+      if (!isNaN(deduction) && deduction >= 0) {
+        updates.deduction = deduction;
+      }
     }
 
     setLoading(true);
@@ -377,6 +402,50 @@ export const EditTruckModal: React.FC<EditTruckModalProps> = ({ isOpen, onClose,
               value={formData.truckNumber}
               onChange={(e) => setFormData({ ...formData, truckNumber: e.target.value })}
               required
+            />
+          </div>
+
+          <div>
+            <label htmlFor="edit-waybill" className="block text-sm font-medium text-gray-300 mb-2">
+              Waybill Number <span className="text-gray-500">(optional)</span>
+            </label>
+            <input
+              id="edit-waybill"
+              type="text"
+              className="w-full px-3 py-2 bg-gray-700 text-gray-100 border border-gray-600 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 placeholder-gray-400"
+              value={formData.waybillNumber}
+              onChange={(e) => setFormData({ ...formData, waybillNumber: e.target.value })}
+              placeholder="Enter waybill number"
+            />
+          </div>
+
+          <div>
+            <label htmlFor="edit-netWeight" className="block text-sm font-medium text-gray-300 mb-2">
+              Net Weight (kg) <span className="text-gray-500">(optional)</span>
+            </label>
+            <input
+              id="edit-netWeight"
+              type="number"
+              step="0.01"
+              className="w-full px-3 py-2 bg-gray-700 text-gray-100 border border-gray-600 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 placeholder-gray-400"
+              value={formData.netWeight}
+              onChange={(e) => setFormData({ ...formData, netWeight: e.target.value })}
+              placeholder="Enter net weight in kg"
+            />
+          </div>
+
+          <div>
+            <label htmlFor="edit-deduction" className="block text-sm font-medium text-gray-300 mb-2">
+              Deduction (kg) <span className="text-gray-500">(optional)</span>
+            </label>
+            <input
+              id="edit-deduction"
+              type="number"
+              step="0.01"
+              className="w-full px-3 py-2 bg-gray-700 text-gray-100 border border-gray-600 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 placeholder-gray-400"
+              value={formData.deduction}
+              onChange={(e) => setFormData({ ...formData, deduction: e.target.value })}
+              placeholder="Enter deduction in kg"
             />
           </div>
         </div>
