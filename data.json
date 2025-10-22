@@ -4452,7 +4452,7 @@
       "bags": 460,
       "moistureLevel": 20,
       "truckNumber": "NSR 524 XA",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
@@ -4460,7 +4460,8 @@
         }
       ],
       "createdAt": "2025-10-22T07:50:09.645Z",
-      "updatedAt": "2025-10-22T07:50:09.645Z"
+      "updatedAt": "2025-10-22T07:50:09.645Z",
+      "waybillNumber": "6599"
     },
     {
       "id": "truck_1761119438066_0_glrvk9jnp",
@@ -4635,6 +4636,6 @@
       "netWeight": 7680
     }
   ],
-  "lastModified": "2025-10-22T13:40:59.697Z",
+  "lastModified": "2025-10-22T13:44:32.874Z",
   "version": "2.0.0"
 }
