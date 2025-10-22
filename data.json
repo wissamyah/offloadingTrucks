@@ -4196,8 +4196,88 @@
       ],
       "createdAt": "2025-10-22T07:47:22.043Z",
       "updatedAt": "2025-10-22T07:47:22.043Z"
+    },
+    {
+      "id": "truck_1761119263276_0_3eivxy15k",
+      "supplierName": "Soba Turawa",
+      "bags": 205,
+      "moistureLevel": 25,
+      "truckNumber": "ZAR 871 XJ",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-22T07:47:43.276Z"
+        }
+      ],
+      "createdAt": "2025-10-22T07:47:43.276Z",
+      "updatedAt": "2025-10-22T07:47:43.276Z"
+    },
+    {
+      "id": "truck_1761119263276_1_fg9m9jgbm",
+      "supplierName": "H A Tahir",
+      "bags": 184,
+      "moistureLevel": 19,
+      "truckNumber": "RBA 25 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-22T07:47:43.276Z"
+        }
+      ],
+      "createdAt": "2025-10-22T07:47:43.276Z",
+      "updatedAt": "2025-10-22T07:47:43.276Z"
+    },
+    {
+      "id": "truck_1761119263276_2_5q7bvx410",
+      "supplierName": "Zakariya Hudu",
+      "bags": 200,
+      "moistureLevel": 25,
+      "truckNumber": "ZAK 216 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-22T07:47:43.276Z"
+        }
+      ],
+      "createdAt": "2025-10-22T07:47:43.276Z",
+      "updatedAt": "2025-10-22T07:47:43.276Z"
+    },
+    {
+      "id": "truck_1761119263276_3_n8mspejp4",
+      "supplierName": "Mansur Mansur",
+      "bags": 500,
+      "moistureLevel": 18,
+      "truckNumber": "MLF 648 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-22T07:47:43.276Z"
+        }
+      ],
+      "createdAt": "2025-10-22T07:47:43.276Z",
+      "updatedAt": "2025-10-22T07:47:43.276Z"
+    },
+    {
+      "id": "truck_1761119263276_4_ve4seu85u",
+      "supplierName": "Samuel Chamblatda",
+      "bags": 210,
+      "moistureLevel": 18,
+      "truckNumber": "MSA 966 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-22T07:47:43.276Z"
+        }
+      ],
+      "createdAt": "2025-10-22T07:47:43.276Z",
+      "updatedAt": "2025-10-22T07:47:43.276Z"
     }
   ],
-  "lastModified": "2025-10-22T07:47:22.148Z",
+  "lastModified": "2025-10-22T07:47:44.590Z",
   "version": "2.0.0"
 }
