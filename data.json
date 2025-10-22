@@ -4276,8 +4276,88 @@
       ],
       "createdAt": "2025-10-22T07:47:43.276Z",
       "updatedAt": "2025-10-22T07:47:43.276Z"
+    },
+    {
+      "id": "truck_1761119372035_0_28znvm1xv",
+      "supplierName": "Soba Turawa",
+      "bags": 150,
+      "moistureLevel": 21,
+      "truckNumber": "KMC 145 YK",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-22T07:49:32.035Z"
+        }
+      ],
+      "createdAt": "2025-10-22T07:49:32.035Z",
+      "updatedAt": "2025-10-22T07:49:32.035Z"
+    },
+    {
+      "id": "truck_1761119372035_1_z1ex2t3ee",
+      "supplierName": "M B Flour",
+      "bags": 400,
+      "moistureLevel": 18,
+      "truckNumber": "GME 79 XB",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-22T07:49:32.035Z"
+        }
+      ],
+      "createdAt": "2025-10-22T07:49:32.035Z",
+      "updatedAt": "2025-10-22T07:49:32.035Z"
+    },
+    {
+      "id": "truck_1761119372035_2_n57l6x0ks",
+      "supplierName": "Shamsu Muhd",
+      "bags": 35,
+      "moistureLevel": 18,
+      "truckNumber": "KMC 34 XQ",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-22T07:49:32.035Z"
+        }
+      ],
+      "createdAt": "2025-10-22T07:49:32.035Z",
+      "updatedAt": "2025-10-22T07:49:32.035Z"
+    },
+    {
+      "id": "truck_1761119372035_3_ex23odduh",
+      "supplierName": "Zakariya Hudu",
+      "bags": 87,
+      "moistureLevel": 20,
+      "truckNumber": "DAL 915 ZY",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-22T07:49:32.035Z"
+        }
+      ],
+      "createdAt": "2025-10-22T07:49:32.035Z",
+      "updatedAt": "2025-10-22T07:49:32.035Z"
+    },
+    {
+      "id": "truck_1761119372035_4_3r3og58r0",
+      "supplierName": "Samuel Chamblatda",
+      "bags": 270,
+      "moistureLevel": 19,
+      "truckNumber": "HJA 406 XR",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-22T07:49:32.035Z"
+        }
+      ],
+      "createdAt": "2025-10-22T07:49:32.035Z",
+      "updatedAt": "2025-10-22T07:49:32.035Z"
     }
   ],
-  "lastModified": "2025-10-22T07:47:44.590Z",
+  "lastModified": "2025-10-22T07:49:32.871Z",
   "version": "2.0.0"
 }
