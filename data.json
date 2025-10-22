@@ -4356,8 +4356,88 @@
       ],
       "createdAt": "2025-10-22T07:49:32.035Z",
       "updatedAt": "2025-10-22T07:49:32.035Z"
+    },
+    {
+      "id": "truck_1761119409645_0_cxg0l5ui4",
+      "supplierName": "Damakasu Agro Allied",
+      "bags": 616,
+      "moistureLevel": 18,
+      "truckNumber": "T 11028 LA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-22T07:50:09.645Z"
+        }
+      ],
+      "createdAt": "2025-10-22T07:50:09.645Z",
+      "updatedAt": "2025-10-22T07:50:09.645Z"
+    },
+    {
+      "id": "truck_1761119409645_1_t2un4h1tn",
+      "supplierName": "Mukhtari Sale",
+      "bags": 300,
+      "moistureLevel": 20,
+      "truckNumber": "KMC 82 LY",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-22T07:50:09.645Z"
+        }
+      ],
+      "createdAt": "2025-10-22T07:50:09.645Z",
+      "updatedAt": "2025-10-22T07:50:09.645Z"
+    },
+    {
+      "id": "truck_1761119409645_2_dxr00iufo",
+      "supplierName": "Mukhtari Sale",
+      "bags": 110,
+      "moistureLevel": 19,
+      "truckNumber": "DKA 691 XB",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-22T07:50:09.645Z"
+        }
+      ],
+      "createdAt": "2025-10-22T07:50:09.645Z",
+      "updatedAt": "2025-10-22T07:50:09.645Z"
+    },
+    {
+      "id": "truck_1761119409645_3_qprqgjv4v",
+      "supplierName": "Jamilu jangale",
+      "bags": 500,
+      "moistureLevel": 19,
+      "truckNumber": "DAL 315 ZY",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-22T07:50:09.645Z"
+        }
+      ],
+      "createdAt": "2025-10-22T07:50:09.645Z",
+      "updatedAt": "2025-10-22T07:50:09.645Z"
+    },
+    {
+      "id": "truck_1761119409645_4_wggs82gyb",
+      "supplierName": "Yushau Maishanu",
+      "bags": 460,
+      "moistureLevel": 20,
+      "truckNumber": "NSR 524 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-22T07:50:09.645Z"
+        }
+      ],
+      "createdAt": "2025-10-22T07:50:09.645Z",
+      "updatedAt": "2025-10-22T07:50:09.645Z"
     }
   ],
-  "lastModified": "2025-10-22T07:49:32.871Z",
+  "lastModified": "2025-10-22T07:50:09.747Z",
   "version": "2.0.0"
 }
