@@ -4673,7 +4673,7 @@
       "bags": 45,
       "moistureLevel": 18,
       "truckNumber": "CRC 49 XA",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -4682,7 +4682,8 @@
       ],
       "createdAt": "2025-10-22T13:47:37.004Z",
       "updatedAt": "2025-10-22T13:47:37.004Z",
-      "waybillNumber": "6603"
+      "waybillNumber": "6603",
+      "netWeight": 3370
     },
     {
       "id": "truck_1761140857003_2_kzvufqsjx",
@@ -4850,6 +4851,6 @@
       "waybillNumber": "6606"
     }
   ],
-  "lastModified": "2025-10-22T17:16:52.251Z",
+  "lastModified": "2025-10-22T17:39:49.607Z",
   "version": "2.0.0"
 }
