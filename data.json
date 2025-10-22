@@ -4308,7 +4308,7 @@
       "bags": 400,
       "moistureLevel": 18,
       "truckNumber": "GME 79 XB",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
@@ -4316,7 +4316,8 @@
         }
       ],
       "createdAt": "2025-10-22T07:49:32.035Z",
-      "updatedAt": "2025-10-22T07:49:32.035Z"
+      "updatedAt": "2025-10-22T07:49:32.035Z",
+      "waybillNumber": "6583"
     },
     {
       "id": "truck_1761119372035_2_n57l6x0ks",
@@ -4609,6 +4610,6 @@
       "waybillNumber": "6576"
     }
   ],
-  "lastModified": "2025-10-22T09:03:42.170Z",
+  "lastModified": "2025-10-22T09:07:36.614Z",
   "version": "2.0.0"
 }
