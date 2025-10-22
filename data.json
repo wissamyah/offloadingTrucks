@@ -4285,7 +4285,7 @@
       "bags": 150,
       "moistureLevel": 21,
       "truckNumber": "KMC 145 YK",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
@@ -4293,7 +4293,8 @@
         }
       ],
       "createdAt": "2025-10-22T07:49:32.035Z",
-      "updatedAt": "2025-10-22T07:49:32.035Z"
+      "updatedAt": "2025-10-22T07:49:32.035Z",
+      "waybillNumber": "6577"
     },
     {
       "id": "truck_1761119372035_1_z1ex2t3ee",
@@ -4584,6 +4585,6 @@
       "updatedAt": "2025-10-22T07:53:10.884Z"
     }
   ],
-  "lastModified": "2025-10-22T07:53:10.981Z",
+  "lastModified": "2025-10-22T08:15:07.610Z",
   "version": "2.0.0"
 }
