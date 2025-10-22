@@ -4616,7 +4616,7 @@
       "bags": 200,
       "moistureLevel": 20,
       "truckNumber": "GME 923 XX",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -4625,7 +4625,9 @@
       ],
       "createdAt": "2025-10-22T07:53:10.884Z",
       "updatedAt": "2025-10-22T07:53:10.884Z",
-      "waybillNumber": "6600"
+      "waybillNumber": "6600",
+      "netWeight": 18850,
+      "deduction": 60
     },
     {
       "id": "truck_1761123746096_0_3ahtx20ak",
@@ -4844,6 +4846,6 @@
       "waybillNumber": "6606"
     }
   ],
-  "lastModified": "2025-10-22T16:55:14.162Z",
+  "lastModified": "2025-10-22T17:05:47.173Z",
   "version": "2.0.0"
 }
