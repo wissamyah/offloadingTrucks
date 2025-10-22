@@ -4132,8 +4132,72 @@
       "updatedAt": "2025-10-21T16:06:36.230Z",
       "waybillNumber": "6569",
       "netWeight": 3940
+    },
+    {
+      "id": "truck_1761119242043_0_y9lxukoir",
+      "supplierName": "Idris Haruna",
+      "bags": 411,
+      "moistureLevel": 18,
+      "truckNumber": "KTN 268 YZ",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-22T07:47:22.043Z"
+        }
+      ],
+      "createdAt": "2025-10-22T07:47:22.043Z",
+      "updatedAt": "2025-10-22T07:47:22.043Z"
+    },
+    {
+      "id": "truck_1761119242043_1_dvysi1mk7",
+      "supplierName": "Idris Haruna",
+      "bags": 500,
+      "moistureLevel": 20,
+      "truckNumber": "TRT 42 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-22T07:47:22.043Z"
+        }
+      ],
+      "createdAt": "2025-10-22T07:47:22.043Z",
+      "updatedAt": "2025-10-22T07:47:22.043Z"
+    },
+    {
+      "id": "truck_1761119242043_2_kac35iv4v",
+      "supplierName": "Idris Garba",
+      "bags": 110,
+      "moistureLevel": 19,
+      "truckNumber": "GWA 346 XD",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-22T07:47:22.043Z"
+        }
+      ],
+      "createdAt": "2025-10-22T07:47:22.043Z",
+      "updatedAt": "2025-10-22T07:47:22.043Z"
+    },
+    {
+      "id": "truck_1761119242043_3_oz8wb2ki9",
+      "supplierName": "Idris Garba",
+      "bags": 107,
+      "moistureLevel": 20,
+      "truckNumber": "LSD 886 YG",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-22T07:47:22.043Z"
+        }
+      ],
+      "createdAt": "2025-10-22T07:47:22.043Z",
+      "updatedAt": "2025-10-22T07:47:22.043Z"
     }
   ],
-  "lastModified": "2025-10-21T16:58:41.122Z",
+  "lastModified": "2025-10-22T07:47:22.148Z",
   "version": "2.0.0"
 }
