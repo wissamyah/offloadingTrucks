@@ -4680,7 +4680,7 @@
       "bags": 550,
       "moistureLevel": 20,
       "truckNumber": "NNR 448 XA",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
@@ -4688,7 +4688,8 @@
         }
       ],
       "createdAt": "2025-10-22T13:47:37.004Z",
-      "updatedAt": "2025-10-22T13:47:37.004Z"
+      "updatedAt": "2025-10-22T13:47:37.004Z",
+      "waybillNumber": "6597"
     },
     {
       "id": "truck_1761140857003_3_m44dozc68",
@@ -4820,6 +4821,6 @@
       "waybillNumber": "6604"
     }
   ],
-  "lastModified": "2025-10-22T15:43:21.755Z",
+  "lastModified": "2025-10-22T15:49:09.560Z",
   "version": "2.0.0"
 }
