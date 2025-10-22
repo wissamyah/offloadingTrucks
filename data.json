@@ -4565,7 +4565,7 @@
       "bags": 208,
       "moistureLevel": 16,
       "truckNumber": "BUJ 31 XA",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
@@ -4573,7 +4573,8 @@
         }
       ],
       "createdAt": "2025-10-22T07:53:10.884Z",
-      "updatedAt": "2025-10-22T07:53:10.884Z"
+      "updatedAt": "2025-10-22T07:53:10.884Z",
+      "waybillNumber": "6588"
     },
     {
       "id": "truck_1761119590884_2_snv2vkkug",
@@ -4626,6 +4627,6 @@
       "netWeight": 7680
     }
   ],
-  "lastModified": "2025-10-22T12:50:19.727Z",
+  "lastModified": "2025-10-22T12:52:14.807Z",
   "version": "2.0.0"
 }
