@@ -4478,7 +4478,7 @@
       "bags": 110,
       "moistureLevel": 19,
       "truckNumber": "KMC 458 XV",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
@@ -4486,7 +4486,8 @@
         }
       ],
       "createdAt": "2025-10-22T07:50:38.067Z",
-      "updatedAt": "2025-10-22T07:50:38.067Z"
+      "updatedAt": "2025-10-22T07:50:38.067Z",
+      "waybillNumber": "6587"
     },
     {
       "id": "truck_1761119438066_2_tw7k3sh91",
@@ -4619,6 +4620,6 @@
       "netWeight": 7680
     }
   ],
-  "lastModified": "2025-10-22T10:54:37.166Z",
+  "lastModified": "2025-10-22T11:17:01.157Z",
   "version": "2.0.0"
 }
