@@ -4469,7 +4469,7 @@
       "bags": 480,
       "moistureLevel": 17,
       "truckNumber": "FUN 356 XA",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -4478,7 +4478,8 @@
       ],
       "createdAt": "2025-10-22T07:50:38.067Z",
       "updatedAt": "2025-10-22T07:50:38.067Z",
-      "waybillNumber": "6585"
+      "waybillNumber": "6585",
+      "netWeight": 39040
     },
     {
       "id": "truck_1761119438066_1_9v9cvu97l",
@@ -4813,6 +4814,6 @@
       "updatedAt": "2025-10-22T13:48:04.422Z"
     }
   ],
-  "lastModified": "2025-10-22T13:52:34.072Z",
+  "lastModified": "2025-10-22T14:56:02.908Z",
   "version": "2.0.0"
 }
