@@ -4346,7 +4346,7 @@
       "bags": 87,
       "moistureLevel": 20,
       "truckNumber": "DAL 915 ZY",
-      "status": "pending",
+      "status": "rejected",
       "statusHistory": [
         {
           "status": "pending",
@@ -4615,6 +4615,6 @@
       "waybillNumber": "6576"
     }
   ],
-  "lastModified": "2025-10-22T10:12:18.009Z",
+  "lastModified": "2025-10-22T10:12:52.894Z",
   "version": "2.0.0"
 }
