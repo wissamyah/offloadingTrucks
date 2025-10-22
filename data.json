@@ -4808,7 +4808,7 @@
       "bags": 45,
       "moistureLevel": 20,
       "truckNumber": "KTN 42 YJ",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
@@ -4816,9 +4816,10 @@
         }
       ],
       "createdAt": "2025-10-22T13:48:04.422Z",
-      "updatedAt": "2025-10-22T13:48:04.422Z"
+      "updatedAt": "2025-10-22T13:48:04.422Z",
+      "waybillNumber": "6604"
     }
   ],
-  "lastModified": "2025-10-22T15:42:02.430Z",
+  "lastModified": "2025-10-22T15:43:21.755Z",
   "version": "2.0.0"
 }
