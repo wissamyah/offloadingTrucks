@@ -4193,7 +4193,7 @@
       "bags": 107,
       "moistureLevel": 20,
       "truckNumber": "LSD 886 YG",
-      "status": "pending",
+      "status": "rejected",
       "statusHistory": [
         {
           "status": "pending",
@@ -4615,6 +4615,6 @@
       "waybillNumber": "6576"
     }
   ],
-  "lastModified": "2025-10-22T10:11:28.416Z",
+  "lastModified": "2025-10-22T10:11:33.676Z",
   "version": "2.0.0"
 }
