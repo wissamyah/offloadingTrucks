@@ -4757,7 +4757,7 @@
       "bags": 35,
       "moistureLevel": 16,
       "truckNumber": "KTG 624 XB",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
@@ -4765,7 +4765,8 @@
         }
       ],
       "createdAt": "2025-10-22T13:48:04.421Z",
-      "updatedAt": "2025-10-22T13:48:04.421Z"
+      "updatedAt": "2025-10-22T13:48:04.421Z",
+      "waybillNumber": "6607"
     },
     {
       "id": "truck_1761140884421_1_349vt3x8v",
@@ -4853,6 +4854,6 @@
       "netWeight": 16240
     }
   ],
-  "lastModified": "2025-10-22T17:56:17.851Z",
+  "lastModified": "2025-10-22T18:06:46.606Z",
   "version": "2.0.0"
 }
