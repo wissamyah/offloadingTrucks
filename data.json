@@ -4822,7 +4822,7 @@
       "bags": 45,
       "moistureLevel": 20,
       "truckNumber": "KTN 42 YJ",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -4831,7 +4831,8 @@
       ],
       "createdAt": "2025-10-22T13:48:04.422Z",
       "updatedAt": "2025-10-22T13:48:04.422Z",
-      "waybillNumber": "6604"
+      "waybillNumber": "6604",
+      "netWeight": 3470
     },
     {
       "id": "truck_1761148691158_0_lu1tcs7tc",
@@ -4852,6 +4853,6 @@
       "netWeight": 16240
     }
   ],
-  "lastModified": "2025-10-22T17:48:26.724Z",
+  "lastModified": "2025-10-22T17:56:17.851Z",
   "version": "2.0.0"
 }
