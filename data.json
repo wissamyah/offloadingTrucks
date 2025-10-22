@@ -4209,7 +4209,7 @@
       "bags": 205,
       "moistureLevel": 25,
       "truckNumber": "ZAR 871 XJ",
-      "status": "pending",
+      "status": "rejected",
       "statusHistory": [
         {
           "status": "pending",
@@ -4615,6 +4615,6 @@
       "waybillNumber": "6576"
     }
   ],
-  "lastModified": "2025-10-22T10:10:39.770Z",
+  "lastModified": "2025-10-22T10:11:06.173Z",
   "version": "2.0.0"
 }
