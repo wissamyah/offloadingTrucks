@@ -4518,8 +4518,72 @@
       ],
       "createdAt": "2025-10-22T07:50:38.067Z",
       "updatedAt": "2025-10-22T07:50:38.067Z"
+    },
+    {
+      "id": "truck_1761119590884_0_fmtuyxzik",
+      "supplierName": "Mukhtari Sale",
+      "bags": 175,
+      "moistureLevel": 19,
+      "truckNumber": "KTG 196 XB",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-22T07:53:10.884Z"
+        }
+      ],
+      "createdAt": "2025-10-22T07:53:10.884Z",
+      "updatedAt": "2025-10-22T07:53:10.884Z"
+    },
+    {
+      "id": "truck_1761119590884_1_h2z973fv9",
+      "supplierName": "Mukhtari Sale",
+      "bags": 208,
+      "moistureLevel": 16,
+      "truckNumber": "BUJ 31 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-22T07:53:10.884Z"
+        }
+      ],
+      "createdAt": "2025-10-22T07:53:10.884Z",
+      "updatedAt": "2025-10-22T07:53:10.884Z"
+    },
+    {
+      "id": "truck_1761119590884_2_snv2vkkug",
+      "supplierName": "Samuel Chamblatda",
+      "bags": 200,
+      "moistureLevel": 16,
+      "truckNumber": "NNG 736 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-22T07:53:10.884Z"
+        }
+      ],
+      "createdAt": "2025-10-22T07:53:10.884Z",
+      "updatedAt": "2025-10-22T07:53:10.884Z"
+    },
+    {
+      "id": "truck_1761119590884_3_xnkbngmq7",
+      "supplierName": "Idris Garba",
+      "bags": 200,
+      "moistureLevel": 20,
+      "truckNumber": "GME 923 XX",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-22T07:53:10.884Z"
+        }
+      ],
+      "createdAt": "2025-10-22T07:53:10.884Z",
+      "updatedAt": "2025-10-22T07:53:10.884Z"
     }
   ],
-  "lastModified": "2025-10-22T07:51:56.599Z",
+  "lastModified": "2025-10-22T07:53:10.981Z",
   "version": "2.0.0"
 }
