@@ -4312,7 +4312,7 @@
       "supplierName": "M B Flour",
       "bags": 400,
       "moistureLevel": 18,
-      "truckNumber": "GME 79 XB",
+      "truckNumber": "GME 579 XB",
       "status": "scaled_in",
       "statusHistory": [
         {
@@ -4621,6 +4621,6 @@
       "netWeight": 7680
     }
   ],
-  "lastModified": "2025-10-22T11:17:15.036Z",
+  "lastModified": "2025-10-22T12:02:30.547Z",
   "version": "2.0.0"
 }
