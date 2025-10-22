@@ -4502,7 +4502,7 @@
       "bags": 191,
       "moistureLevel": 20,
       "truckNumber": "SBA 10 XA",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
@@ -4510,7 +4510,8 @@
         }
       ],
       "createdAt": "2025-10-22T07:50:38.067Z",
-      "updatedAt": "2025-10-22T07:50:38.067Z"
+      "updatedAt": "2025-10-22T07:50:38.067Z",
+      "waybillNumber": "6597"
     },
     {
       "id": "truck_1761119438066_3_icz4dnqrg",
@@ -4632,6 +4633,6 @@
       "netWeight": 7680
     }
   ],
-  "lastModified": "2025-10-22T13:05:53.752Z",
+  "lastModified": "2025-10-22T13:06:40.930Z",
   "version": "2.0.0"
 }
