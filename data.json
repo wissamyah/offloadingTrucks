@@ -4519,7 +4519,7 @@
       "bags": 266,
       "moistureLevel": 18,
       "truckNumber": "ABJ 918 YV",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
@@ -4527,7 +4527,8 @@
         }
       ],
       "createdAt": "2025-10-22T07:50:38.067Z",
-      "updatedAt": "2025-10-22T07:50:38.067Z"
+      "updatedAt": "2025-10-22T07:50:38.067Z",
+      "waybillNumber": "6595"
     },
     {
       "id": "truck_1761119438066_4_h2xq3vkw3",
@@ -4633,6 +4634,6 @@
       "netWeight": 7680
     }
   ],
-  "lastModified": "2025-10-22T13:06:40.930Z",
+  "lastModified": "2025-10-22T13:09:27.901Z",
   "version": "2.0.0"
 }
