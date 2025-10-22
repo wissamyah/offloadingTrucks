@@ -4434,7 +4434,7 @@
       "bags": 500,
       "moistureLevel": 19,
       "truckNumber": "DAL 315 ZY",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
@@ -4442,7 +4442,8 @@
         }
       ],
       "createdAt": "2025-10-22T07:50:09.645Z",
-      "updatedAt": "2025-10-22T07:50:09.645Z"
+      "updatedAt": "2025-10-22T07:50:09.645Z",
+      "waybillNumber": "6594"
     },
     {
       "id": "truck_1761119409645_4_wggs82gyb",
@@ -4631,6 +4632,6 @@
       "netWeight": 7680
     }
   ],
-  "lastModified": "2025-10-22T13:03:45.611Z",
+  "lastModified": "2025-10-22T13:05:53.752Z",
   "version": "2.0.0"
 }
