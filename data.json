@@ -4221,7 +4221,7 @@
       "bags": 184,
       "moistureLevel": 19,
       "truckNumber": "RBA 25 XA",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
@@ -4229,7 +4229,8 @@
         }
       ],
       "createdAt": "2025-10-22T07:47:43.276Z",
-      "updatedAt": "2025-10-22T07:47:43.276Z"
+      "updatedAt": "2025-10-22T07:47:43.276Z",
+      "waybillNumber": "6579"
     },
     {
       "id": "truck_1761119263276_2_5q7bvx410",
@@ -4585,6 +4586,6 @@
       "updatedAt": "2025-10-22T07:53:10.884Z"
     }
   ],
-  "lastModified": "2025-10-22T08:15:07.610Z",
+  "lastModified": "2025-10-22T08:20:57.178Z",
   "version": "2.0.0"
 }
