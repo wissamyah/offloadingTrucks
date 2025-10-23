@@ -5286,8 +5286,24 @@
       "createdAt": "2025-10-23T13:10:39.509Z",
       "updatedAt": "2025-10-23T13:10:39.509Z",
       "waybillNumber": "6635"
+    },
+    {
+      "id": "truck_1761225206701_0_bdo0tq1gd",
+      "supplierName": "Mukhtari Sale",
+      "bags": 399,
+      "moistureLevel": 18,
+      "truckNumber": "GRM 516 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-23T13:13:26.701Z"
+        }
+      ],
+      "createdAt": "2025-10-23T13:13:26.701Z",
+      "updatedAt": "2025-10-23T13:13:26.701Z"
     }
   ],
-  "lastModified": "2025-10-23T13:11:03.642Z",
+  "lastModified": "2025-10-23T13:13:26.791Z",
   "version": "2.0.0"
 }
