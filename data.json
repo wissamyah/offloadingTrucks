@@ -5053,7 +5053,7 @@
       "bags": 246,
       "moistureLevel": 20,
       "truckNumber": "MUS 762 AS",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
@@ -5061,7 +5061,8 @@
         }
       ],
       "createdAt": "2025-10-23T07:52:59.337Z",
-      "updatedAt": "2025-10-23T07:52:59.337Z"
+      "updatedAt": "2025-10-23T07:52:59.337Z",
+      "waybillNumber": "6628"
     },
     {
       "id": "truck_1761205979337_3_cca7fvisj",
@@ -5304,6 +5305,6 @@
       "updatedAt": "2025-10-23T08:00:25.898Z"
     }
   ],
-  "lastModified": "2025-10-23T11:23:18.023Z",
+  "lastModified": "2025-10-23T11:23:36.706Z",
   "version": "2.0.0"
 }
