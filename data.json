@@ -5276,7 +5276,7 @@
       "bags": 50,
       "moistureLevel": 20,
       "truckNumber": "KTU 669 XV",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
@@ -5284,9 +5284,10 @@
         }
       ],
       "createdAt": "2025-10-23T13:10:39.509Z",
-      "updatedAt": "2025-10-23T13:10:39.509Z"
+      "updatedAt": "2025-10-23T13:10:39.509Z",
+      "waybillNumber": "6635"
     }
   ],
-  "lastModified": "2025-10-23T13:10:39.614Z",
+  "lastModified": "2025-10-23T13:11:03.642Z",
   "version": "2.0.0"
 }
