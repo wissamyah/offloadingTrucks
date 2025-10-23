@@ -119,4 +119,30 @@
   .custom-scrollbar::-webkit-scrollbar-thumb:hover {
     @apply bg-gray-500;
   }
+
+  /* Textarea subtle scrollbar */
+  .textarea-scrollbar::-webkit-scrollbar {
+    width: 6px;
+  }
+
+  .textarea-scrollbar::-webkit-scrollbar-track {
+    @apply bg-transparent;
+    border-radius: 8px;
+    margin: 8px 2px;
+  }
+
+  .textarea-scrollbar::-webkit-scrollbar-thumb {
+    @apply bg-gray-600;
+    border-radius: 8px;
+  }
+
+  .textarea-scrollbar::-webkit-scrollbar-thumb:hover {
+    @apply bg-gray-500;
+  }
+
+  /* Firefox scrollbar for textarea */
+  .textarea-scrollbar {
+    scrollbar-width: thin;
+    scrollbar-color: #4b5563 transparent;
+  }
 }

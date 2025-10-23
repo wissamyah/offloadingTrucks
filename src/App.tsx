@@ -323,7 +323,7 @@ function App() {
           {/* Message Input and Stats */}
           <div className="flex flex-col lg:flex-row gap-6">
             {/* Message Input */}
-            <div className="flex-1">
+            <div className="flex-1 flex w-full lg:w-auto">
               <MessageInput onProcess={addTrucks} onReset={() => resetData({ trucks: [], lastModified: new Date().toISOString() })} />
             </div>
 
@@ -375,9 +375,19 @@ function App() {
                 </div>
                 <div className="bg-gray-800 p-4 rounded-lg shadow-xl border border-gray-700">
                   <p className="text-sm text-gray-400 mb-1">Offloaded</p>
-                  <p className="text-2xl font-bold text-green-500">
-                    {sortedTrucks.filter(t => t.status === 'offloaded').length}
-                  </p>
+                  <div className="flex items-baseline gap-2">
+                    <p className="text-2xl font-bold text-green-500">
+                      {sortedTrucks.filter(t => t.status === 'offloaded').length}
+                    </p>
+                    <p className="text-sm text-gray-500">
+                      {(() => {
+                        const totalWeight = sortedTrucks
+                          .filter(t => t.status === 'offloaded' && t.netWeight)
+                          .reduce((sum, t) => sum + (t.netWeight || 0), 0);
+                        return totalWeight > 0 ? `• ${totalWeight.toLocaleString()} kg` : '';
+                      })()}
+                    </p>
+                  </div>
                 </div>
                 <div className="bg-gray-800 p-4 rounded-lg shadow-xl border border-gray-700">
                   <p className="text-sm text-gray-400 mb-1">Rejected</p>

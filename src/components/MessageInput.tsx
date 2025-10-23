@@ -21,26 +21,14 @@ export const MessageInput: React.FC<MessageInputProps> = ({ onProcess, onReset }
 
   useEffect(() => {
     if (textareaRef.current) {
-      // Don't reset to auto for smoother transition
-      const minHeight = isFocused ? 100 : 60; // Smaller when not focused
-
-      // Get the scroll height without resetting
-      const tempHeight = textareaRef.current.style.height;
+      // Reset height to auto to get the correct scrollHeight
       textareaRef.current.style.height = 'auto';
-      const contentHeight = textareaRef.current.scrollHeight;
-      textareaRef.current.style.height = tempHeight;
-
-      // Smooth transition to new height
-      const newHeight = Math.max(minHeight, Math.min(contentHeight, 400));
-
-      // Use requestAnimationFrame for smoother transition
-      requestAnimationFrame(() => {
-        if (textareaRef.current) {
-          textareaRef.current.style.height = `${newHeight}px`;
-        }
-      });
+      // Set height based on content, with min and max constraints
+      const scrollHeight = textareaRef.current.scrollHeight;
+      const newHeight = Math.max(120, Math.min(scrollHeight, 400));
+      textareaRef.current.style.height = `${newHeight}px`;
     }
-  }, [message, isFocused]);
+  }, [message]);
 
   const handleProcess = async () => {
     if (!message.trim()) {
@@ -101,16 +89,13 @@ export const MessageInput: React.FC<MessageInputProps> = ({ onProcess, onReset }
   };
 
   return (
-    <div className="bg-gray-800 rounded-lg shadow-xl p-6 border border-gray-700">
-      <div className="mb-4">
-        <label htmlFor="message-input" className="block text-sm font-medium text-gray-300 mb-2">
-          WhatsApp Message Input
-        </label>
+    <div className="bg-gray-800 rounded-lg shadow-xl p-6 border border-gray-700 flex flex-col min-h-full w-full">
+      <div className="mb-4 w-full">
         <textarea
           ref={textareaRef}
           id="message-input"
-          className="w-full px-3 py-2 text-gray-100 bg-gray-700 border border-gray-600 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent resize-none transition-[height,border-color,box-shadow] duration-500 ease-out"
-          style={{ minHeight: '60px', overflow: 'auto' }}
+          className="w-full px-3 py-2 text-gray-100 bg-gray-700 border border-gray-600 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent resize-none transition-[border-color,box-shadow] duration-200 ease-out textarea-scrollbar overflow-auto"
+          style={{ height: '120px' }}
           placeholder="Paste WhatsApp message here..."
           value={message}
           onChange={(e) => setMessage(e.target.value)}
