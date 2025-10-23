@@ -4896,7 +4896,7 @@
       "bags": 105,
       "moistureLevel": 21,
       "truckNumber": "MJB 690 XA",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
@@ -4904,7 +4904,8 @@
         }
       ],
       "createdAt": "2025-10-23T07:50:17.775Z",
-      "updatedAt": "2025-10-23T07:50:17.775Z"
+      "updatedAt": "2025-10-23T07:50:17.775Z",
+      "waybillNumber": "8040"
     },
     {
       "id": "truck_1761205817775_3_fznxvgglk",
@@ -5333,6 +5334,6 @@
       "updatedAt": "2025-10-23T08:00:25.898Z"
     }
   ],
-  "lastModified": "2025-10-23T10:54:03.563Z",
+  "lastModified": "2025-10-23T10:54:22.209Z",
   "version": "2.0.0"
 }
