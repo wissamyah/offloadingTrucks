@@ -5257,7 +5257,7 @@
       "bags": 119,
       "moistureLevel": 22,
       "truckNumber": "ZAR 771 XA",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
@@ -5265,9 +5265,10 @@
         }
       ],
       "createdAt": "2025-10-23T12:26:08.608Z",
-      "updatedAt": "2025-10-23T12:26:08.608Z"
+      "updatedAt": "2025-10-23T12:26:08.608Z",
+      "waybillNumber": "6632"
     }
   ],
-  "lastModified": "2025-10-23T12:26:08.652Z",
+  "lastModified": "2025-10-23T12:27:08.536Z",
   "version": "2.0.0"
 }
