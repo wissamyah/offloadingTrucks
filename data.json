@@ -4878,7 +4878,7 @@
       "bags": 40,
       "moistureLevel": 18,
       "truckNumber": "DUT 465 ZB",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -4887,7 +4887,8 @@
       ],
       "createdAt": "2025-10-23T07:50:17.775Z",
       "updatedAt": "2025-10-23T07:50:17.775Z",
-      "waybillNumber": "6615"
+      "waybillNumber": "6615",
+      "netWeight": 3500
     },
     {
       "id": "truck_1761205817775_2_to0zkdkao",
@@ -5330,6 +5331,6 @@
       "updatedAt": "2025-10-23T08:00:25.898Z"
     }
   ],
-  "lastModified": "2025-10-23T08:53:08.204Z",
+  "lastModified": "2025-10-23T10:53:49.996Z",
   "version": "2.0.0"
 }
