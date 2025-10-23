@@ -5250,8 +5250,24 @@
       "updatedAt": "2025-10-23T08:00:25.898Z",
       "waybillNumber": "6612",
       "netWeight": 42370
+    },
+    {
+      "id": "truck_1761222368608_0_0cypn3plp",
+      "supplierName": "Idris Garba",
+      "bags": 119,
+      "moistureLevel": 22,
+      "truckNumber": "ZAR 771 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-23T12:26:08.608Z"
+        }
+      ],
+      "createdAt": "2025-10-23T12:26:08.608Z",
+      "updatedAt": "2025-10-23T12:26:08.608Z"
     }
   ],
-  "lastModified": "2025-10-23T12:25:05.177Z",
+  "lastModified": "2025-10-23T12:26:08.652Z",
   "version": "2.0.0"
 }
