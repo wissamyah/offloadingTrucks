@@ -4932,7 +4932,7 @@
       "bags": 198,
       "moistureLevel": 22,
       "truckNumber": "AE 981 KTG",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -4941,7 +4941,9 @@
       ],
       "createdAt": "2025-10-23T07:52:39.923Z",
       "updatedAt": "2025-10-23T07:52:39.923Z",
-      "waybillNumber": "6634"
+      "waybillNumber": "6634",
+      "netWeight": 14540,
+      "deduction": 300
     },
     {
       "id": "truck_1761205959923_1_grbkmpq7v",
@@ -5343,6 +5345,6 @@
       "waybillNumber": "6637"
     }
   ],
-  "lastModified": "2025-10-23T14:44:40.614Z",
+  "lastModified": "2025-10-23T14:51:53.166Z",
   "version": "2.0.0"
 }
