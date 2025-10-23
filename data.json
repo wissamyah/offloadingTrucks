@@ -5144,7 +5144,7 @@
       ],
       "createdAt": "2025-10-23T07:53:26.721Z",
       "updatedAt": "2025-10-23T07:53:26.721Z",
-      "waybillNumber": "1"
+      "waybillNumber": "6623"
     },
     {
       "id": "truck_1761206006721_3_v1j8pxtko",
@@ -5303,6 +5303,6 @@
       "updatedAt": "2025-10-23T08:00:25.898Z"
     }
   ],
-  "lastModified": "2025-10-23T11:22:18.171Z",
+  "lastModified": "2025-10-23T11:22:55.541Z",
   "version": "2.0.0"
 }
