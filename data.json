@@ -4853,8 +4853,72 @@
       "updatedAt": "2025-10-22T15:58:11.159Z",
       "waybillNumber": "6606",
       "netWeight": 16240
+    },
+    {
+      "id": "truck_1761205817775_0_ilwv6hvcv",
+      "supplierName": "Addau Isyaku",
+      "bags": 50,
+      "moistureLevel": 18,
+      "truckNumber": "KTU 437 XW",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-23T07:50:17.775Z"
+        }
+      ],
+      "createdAt": "2025-10-23T07:50:17.775Z",
+      "updatedAt": "2025-10-23T07:50:17.775Z"
+    },
+    {
+      "id": "truck_1761205817775_1_ntcctwmql",
+      "supplierName": "H A Tahir",
+      "bags": 40,
+      "moistureLevel": 18,
+      "truckNumber": "DUT 465 ZB",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-23T07:50:17.775Z"
+        }
+      ],
+      "createdAt": "2025-10-23T07:50:17.775Z",
+      "updatedAt": "2025-10-23T07:50:17.775Z"
+    },
+    {
+      "id": "truck_1761205817775_2_to0zkdkao",
+      "supplierName": "Jamilu Yahaya",
+      "bags": 105,
+      "moistureLevel": 21,
+      "truckNumber": "MJB 690 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-23T07:50:17.775Z"
+        }
+      ],
+      "createdAt": "2025-10-23T07:50:17.775Z",
+      "updatedAt": "2025-10-23T07:50:17.775Z"
+    },
+    {
+      "id": "truck_1761205817775_3_fznxvgglk",
+      "supplierName": "Alh Danasabe",
+      "bags": 35,
+      "moistureLevel": 15,
+      "truckNumber": "MSA 58 LG",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-23T07:50:17.775Z"
+        }
+      ],
+      "createdAt": "2025-10-23T07:50:17.775Z",
+      "updatedAt": "2025-10-23T07:50:17.775Z"
     }
   ],
-  "lastModified": "2025-10-22T18:07:04.904Z",
+  "lastModified": "2025-10-23T07:50:17.947Z",
   "version": "2.0.0"
 }
