@@ -230,7 +230,13 @@ export const TruckTable: React.FC<TruckTableProps> = ({
     return formatTime(truck.createdAt);
   };
 
-  if (trucks.length === 0) {
+  // Check if we have a search filter active and total trucks exist
+  const isSearching = searchFilter && searchFilter.trim().length > 0;
+  const hasData = totalTrucks > 0;
+  const noResults = trucks.length === 0;
+
+  // Early return only if there's truly no data AND no search is active
+  if (noResults && !isSearching && !hasData) {
     return (
       <div className="bg-gray-800 rounded-lg shadow-xl border border-gray-700 p-8 text-center">
         <AlertCircle className="h-12 w-12 text-gray-500 mx-auto mb-4" />
@@ -322,7 +328,14 @@ export const TruckTable: React.FC<TruckTableProps> = ({
 
       {/* Mobile Card View */}
       <div className="block md:hidden space-y-4 p-4">
-        {trucks.map((truck) => (
+        {noResults ? (
+          <div className="bg-gray-750 rounded-lg border border-gray-700 p-8 text-center">
+            <AlertCircle className="h-12 w-12 text-gray-500 mx-auto mb-4" />
+            <p className="text-gray-400 mb-2">No trucks found matching "{searchFilter}"</p>
+            <p className="text-sm text-gray-500">Try a different search term or clear the filter</p>
+          </div>
+        ) : (
+          trucks.map((truck) => (
           <div
             key={truck.id}
             className="bg-gray-750 rounded-lg border border-gray-700 p-4"
@@ -464,7 +477,8 @@ export const TruckTable: React.FC<TruckTableProps> = ({
               </button>
             </div>
           </div>
-        ))}
+        ))
+        )}
       </div>
 
       {/* Desktop Table View */}
@@ -499,7 +513,18 @@ export const TruckTable: React.FC<TruckTableProps> = ({
             </tr>
           </thead>
           <tbody className="bg-gray-800 divide-y divide-gray-700">
-            {trucks.map((truck) => (
+            {noResults ? (
+              <tr>
+                <td colSpan={10} className="px-4 py-8">
+                  <div className="text-center">
+                    <AlertCircle className="h-12 w-12 text-gray-500 mx-auto mb-4" />
+                    <p className="text-gray-400 mb-2">No trucks found matching "{searchFilter}"</p>
+                    <p className="text-sm text-gray-500">Try a different search term or clear the filter</p>
+                  </div>
+                </td>
+              </tr>
+            ) : (
+              trucks.map((truck) => (
               <tr key={truck.id} className="hover:bg-gray-750 transition-colors">
                 <td className="px-2 py-3 whitespace-nowrap text-xs text-gray-400">
                   {getLatestStatusTime(truck)}
@@ -625,7 +650,8 @@ export const TruckTable: React.FC<TruckTableProps> = ({
                   </div>
                 </td>
               </tr>
-            ))}
+            ))
+            )}
           </tbody>
         </table>
       </div>

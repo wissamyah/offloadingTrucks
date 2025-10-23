@@ -135,9 +135,17 @@ function App() {
 
   // Sort trucks
   const sortedTrucks = useMemo(() => {
-    if (!sortBy) return filteredTrucks;
-
     const sorted = [...filteredTrucks].sort((a, b) => {
+      // Default sorting: alphabetical by supplier name if no sort column is selected
+      if (!sortBy) {
+        const aValue = a.supplierName.toLowerCase();
+        const bValue = b.supplierName.toLowerCase();
+        if (aValue < bValue) return -1;
+        if (aValue > bValue) return 1;
+        return 0;
+      }
+
+      // Custom column sorting
       let aValue: any;
       let bValue: any;
 
@@ -321,10 +329,37 @@ function App() {
 
             {/* Stats */}
             {currentTrucks.length > 0 && (
-              <div className="grid grid-cols-2 lg:grid-cols-2 gap-4 lg:w-96">
+              <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 lg:w-auto">
                 <div className="bg-gray-800 p-4 rounded-lg shadow-xl border border-gray-700">
                   <p className="text-sm text-gray-400 mb-1">Total Trucks</p>
                   <p className="text-2xl font-bold text-gray-100">{sortedTrucks.length}</p>
+                </div>
+                <div className="bg-gray-800 p-4 rounded-lg shadow-xl border border-gray-700">
+                  <p className="text-sm text-gray-400 mb-1">Total Bags</p>
+                  <p className="text-2xl font-bold text-purple-500">
+                    {sortedTrucks.reduce((sum, t) => sum + t.bags, 0)}
+                  </p>
+                </div>
+                <div className="bg-gray-800 p-4 rounded-lg shadow-xl border border-gray-700">
+                  <p className="text-sm text-gray-400 mb-1">Avg. Moisture</p>
+                  <p className="text-2xl font-bold text-cyan-500">
+                    {sortedTrucks.length > 0
+                      ? (sortedTrucks.reduce((sum, t) => sum + t.moistureLevel, 0) / sortedTrucks.length).toFixed(1)
+                      : 0}%
+                  </p>
+                </div>
+                <div className="bg-gray-800 p-4 rounded-lg shadow-xl border border-gray-700">
+                  <p className="text-sm text-gray-400 mb-1">Avg Bag Weight</p>
+                  <p className="text-2xl font-bold text-orange-500">
+                    {(() => {
+                      const trucksWithWeight = sortedTrucks.filter(t => t.netWeight && t.netWeight > 0);
+                      if (trucksWithWeight.length === 0) return '-';
+                      const avgBagWeight = trucksWithWeight.reduce((sum, t) => {
+                        return sum + (t.netWeight! / t.bags);
+                      }, 0) / trucksWithWeight.length;
+                      return `${avgBagWeight.toFixed(1)} kg`;
+                    })()}
+                  </p>
                 </div>
                 <div className="bg-gray-800 p-4 rounded-lg shadow-xl border border-gray-700">
                   <p className="text-sm text-gray-400 mb-1">Pending</p>
@@ -342,6 +377,12 @@ function App() {
                   <p className="text-sm text-gray-400 mb-1">Offloaded</p>
                   <p className="text-2xl font-bold text-green-500">
                     {sortedTrucks.filter(t => t.status === 'offloaded').length}
+                  </p>
+                </div>
+                <div className="bg-gray-800 p-4 rounded-lg shadow-xl border border-gray-700">
+                  <p className="text-sm text-gray-400 mb-1">Rejected</p>
+                  <p className="text-2xl font-bold text-red-500">
+                    {sortedTrucks.filter(t => t.status === 'rejected').length}
                   </p>
                 </div>
               </div>
