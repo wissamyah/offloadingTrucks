@@ -4965,7 +4965,7 @@
       "bags": 210,
       "moistureLevel": 20,
       "truckNumber": "KTG 64 YL",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
@@ -4973,7 +4973,8 @@
         }
       ],
       "createdAt": "2025-10-23T07:52:39.923Z",
-      "updatedAt": "2025-10-23T07:52:39.923Z"
+      "updatedAt": "2025-10-23T07:52:39.923Z",
+      "waybillNumber": "6619"
     },
     {
       "id": "truck_1761205959923_3_b6vltplbe",
@@ -5337,6 +5338,6 @@
       "updatedAt": "2025-10-23T08:00:25.898Z"
     }
   ],
-  "lastModified": "2025-10-23T10:54:58.958Z",
+  "lastModified": "2025-10-23T10:55:12.641Z",
   "version": "2.0.0"
 }
