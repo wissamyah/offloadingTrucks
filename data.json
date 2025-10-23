@@ -5177,22 +5177,6 @@
       "updatedAt": "2025-10-23T07:57:27.511Z"
     },
     {
-      "id": "truck_1761206247511_1_d1pvz58f9",
-      "supplierName": "Shamsu Muhammad",
-      "bags": 45,
-      "moistureLevel": 18,
-      "truckNumber": "CRC 49 XA",
-      "status": "pending",
-      "statusHistory": [
-        {
-          "status": "pending",
-          "timestamp": "2025-10-23T07:57:27.511Z"
-        }
-      ],
-      "createdAt": "2025-10-23T07:57:27.511Z",
-      "updatedAt": "2025-10-23T07:57:27.511Z"
-    },
-    {
       "id": "truck_1761206247511_2_bxi9ow1oe",
       "supplierName": "Idris Garba",
       "bags": 550,
@@ -5313,6 +5297,6 @@
       "updatedAt": "2025-10-23T08:00:25.898Z"
     }
   ],
-  "lastModified": "2025-10-23T10:59:05.655Z",
+  "lastModified": "2025-10-23T10:59:21.953Z",
   "version": "2.0.0"
 }
