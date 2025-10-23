@@ -5239,8 +5239,88 @@
       ],
       "createdAt": "2025-10-23T07:57:27.511Z",
       "updatedAt": "2025-10-23T07:57:27.511Z"
+    },
+    {
+      "id": "truck_1761206425898_0_oycjfimbt",
+      "supplierName": "Alh Danasabe",
+      "bags": 35,
+      "moistureLevel": 16,
+      "truckNumber": "KTG 624 XB",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-23T08:00:25.898Z"
+        }
+      ],
+      "createdAt": "2025-10-23T08:00:25.898Z",
+      "updatedAt": "2025-10-23T08:00:25.898Z"
+    },
+    {
+      "id": "truck_1761206425898_1_c60sa8ras",
+      "supplierName": "Ibrahim Gwarzo",
+      "bags": 600,
+      "moistureLevel": 18,
+      "truckNumber": "FKY 72 XB",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-23T08:00:25.898Z"
+        }
+      ],
+      "createdAt": "2025-10-23T08:00:25.898Z",
+      "updatedAt": "2025-10-23T08:00:25.898Z"
+    },
+    {
+      "id": "truck_1761206425898_2_hsqu45x30",
+      "supplierName": "Yahaya Yunusa",
+      "bags": 230,
+      "moistureLevel": 19,
+      "truckNumber": "TGZ 75 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-23T08:00:25.898Z"
+        }
+      ],
+      "createdAt": "2025-10-23T08:00:25.898Z",
+      "updatedAt": "2025-10-23T08:00:25.898Z"
+    },
+    {
+      "id": "truck_1761206425898_3_zmsl29x3y",
+      "supplierName": "Mukhtari Sale",
+      "bags": 450,
+      "moistureLevel": 19,
+      "truckNumber": "GRM 232 XB",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-23T08:00:25.898Z"
+        }
+      ],
+      "createdAt": "2025-10-23T08:00:25.898Z",
+      "updatedAt": "2025-10-23T08:00:25.898Z"
+    },
+    {
+      "id": "truck_1761206425898_4_ylxmpjigk",
+      "supplierName": "Addau Isyaku",
+      "bags": 45,
+      "moistureLevel": 20,
+      "truckNumber": "KTN 42 YJ",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-23T08:00:25.898Z"
+        }
+      ],
+      "createdAt": "2025-10-23T08:00:25.898Z",
+      "updatedAt": "2025-10-23T08:00:25.898Z"
     }
   ],
-  "lastModified": "2025-10-23T07:57:28.357Z",
+  "lastModified": "2025-10-23T08:00:26.004Z",
   "version": "2.0.0"
 }
