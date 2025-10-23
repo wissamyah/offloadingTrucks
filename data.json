@@ -4998,8 +4998,88 @@
       ],
       "createdAt": "2025-10-23T07:52:39.923Z",
       "updatedAt": "2025-10-23T07:52:39.923Z"
+    },
+    {
+      "id": "truck_1761205979337_0_wh90oiebd",
+      "supplierName": "Idris Haruna",
+      "bags": 500,
+      "moistureLevel": 18,
+      "truckNumber": "GJB 364 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-23T07:52:59.337Z"
+        }
+      ],
+      "createdAt": "2025-10-23T07:52:59.337Z",
+      "updatedAt": "2025-10-23T07:52:59.337Z"
+    },
+    {
+      "id": "truck_1761205979337_1_xpq80qnxx",
+      "supplierName": "Idris Garba",
+      "bags": 500,
+      "moistureLevel": 20,
+      "truckNumber": "KTN 726 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-23T07:52:59.337Z"
+        }
+      ],
+      "createdAt": "2025-10-23T07:52:59.337Z",
+      "updatedAt": "2025-10-23T07:52:59.337Z"
+    },
+    {
+      "id": "truck_1761205979337_2_mmxqqzg0j",
+      "supplierName": "Jamilu Yahaya",
+      "bags": 246,
+      "moistureLevel": 20,
+      "truckNumber": "MUS 762 AS",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-23T07:52:59.337Z"
+        }
+      ],
+      "createdAt": "2025-10-23T07:52:59.337Z",
+      "updatedAt": "2025-10-23T07:52:59.337Z"
+    },
+    {
+      "id": "truck_1761205979337_3_cca7fvisj",
+      "supplierName": "Mukhtari Sale",
+      "bags": 313,
+      "moistureLevel": 18,
+      "truckNumber": "AKK 465 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-23T07:52:59.337Z"
+        }
+      ],
+      "createdAt": "2025-10-23T07:52:59.337Z",
+      "updatedAt": "2025-10-23T07:52:59.337Z"
+    },
+    {
+      "id": "truck_1761205979337_4_ddilz7zac",
+      "supplierName": "Sammaf Agro Allied",
+      "bags": 420,
+      "moistureLevel": 19,
+      "truckNumber": "ZUR 621 YL",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-23T07:52:59.337Z"
+        }
+      ],
+      "createdAt": "2025-10-23T07:52:59.337Z",
+      "updatedAt": "2025-10-23T07:52:59.337Z"
     }
   ],
-  "lastModified": "2025-10-23T07:52:41.277Z",
+  "lastModified": "2025-10-23T07:52:59.414Z",
   "version": "2.0.0"
 }
