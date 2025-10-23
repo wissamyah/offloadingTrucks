@@ -4908,7 +4908,7 @@
       "bags": 35,
       "moistureLevel": 15,
       "truckNumber": "MSA 58 LG",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
@@ -4916,9 +4916,10 @@
         }
       ],
       "createdAt": "2025-10-23T07:50:17.775Z",
-      "updatedAt": "2025-10-23T07:50:17.775Z"
+      "updatedAt": "2025-10-23T07:50:17.775Z",
+      "waybillNumber": "6613"
     }
   ],
-  "lastModified": "2025-10-23T07:50:17.947Z",
+  "lastModified": "2025-10-23T07:52:00.412Z",
   "version": "2.0.0"
 }
