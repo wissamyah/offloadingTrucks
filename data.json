@@ -5339,8 +5339,40 @@
       ],
       "createdAt": "2025-10-23T14:40:07.604Z",
       "updatedAt": "2025-10-23T14:40:07.604Z"
+    },
+    {
+      "id": "truck_1761230425700_0_lu6pvvfbf",
+      "supplierName": "Idris Garba",
+      "bags": 328,
+      "moistureLevel": 20,
+      "truckNumber": "FTA 446 XC",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-23T14:40:25.700Z"
+        }
+      ],
+      "createdAt": "2025-10-23T14:40:25.700Z",
+      "updatedAt": "2025-10-23T14:40:25.700Z"
+    },
+    {
+      "id": "truck_1761230425700_1_12dly7jkn",
+      "supplierName": "Mukhtari Sale",
+      "bags": 235,
+      "moistureLevel": 18,
+      "truckNumber": "HJA 729 XB",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-23T14:40:25.700Z"
+        }
+      ],
+      "createdAt": "2025-10-23T14:40:25.700Z",
+      "updatedAt": "2025-10-23T14:40:25.700Z"
     }
   ],
-  "lastModified": "2025-10-23T14:40:07.760Z",
+  "lastModified": "2025-10-23T14:40:25.756Z",
   "version": "2.0.0"
 }
