@@ -5231,22 +5231,6 @@
       "deduction": 250
     },
     {
-      "id": "truck_1761206247511_5_yb9du642t",
-      "supplierName": "Idris Haruna",
-      "bags": 250,
-      "moistureLevel": 16,
-      "truckNumber": "XA 954 TRR",
-      "status": "pending",
-      "statusHistory": [
-        {
-          "status": "pending",
-          "timestamp": "2025-10-23T07:57:27.511Z"
-        }
-      ],
-      "createdAt": "2025-10-23T07:57:27.511Z",
-      "updatedAt": "2025-10-23T07:57:27.511Z"
-    },
-    {
       "id": "truck_1761206425898_1_c60sa8ras",
       "supplierName": "Ibrahim Gwarzo",
       "bags": 600,
@@ -5265,6 +5249,6 @@
       "netWeight": 42370
     }
   ],
-  "lastModified": "2025-10-23T11:58:00.183Z",
+  "lastModified": "2025-10-23T11:58:29.164Z",
   "version": "2.0.0"
 }
