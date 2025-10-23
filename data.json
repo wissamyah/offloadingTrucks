@@ -5025,7 +5025,7 @@
       "bags": 500,
       "moistureLevel": 18,
       "truckNumber": "GJB 364 XA",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -5034,7 +5034,9 @@
       ],
       "createdAt": "2025-10-23T07:52:59.337Z",
       "updatedAt": "2025-10-23T07:52:59.337Z",
-      "waybillNumber": "6626"
+      "waybillNumber": "6626",
+      "netWeight": 37420,
+      "deduction": 180
     },
     {
       "id": "truck_1761205979337_1_xpq80qnxx",
@@ -5345,6 +5347,6 @@
       "waybillNumber": "6637"
     }
   ],
-  "lastModified": "2025-10-23T14:51:53.166Z",
+  "lastModified": "2025-10-23T15:44:41.988Z",
   "version": "2.0.0"
 }
