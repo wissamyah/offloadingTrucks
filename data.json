@@ -5070,7 +5070,7 @@
       "bags": 313,
       "moistureLevel": 18,
       "truckNumber": "AKK 465 XA",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
@@ -5078,7 +5078,8 @@
         }
       ],
       "createdAt": "2025-10-23T07:52:59.337Z",
-      "updatedAt": "2025-10-23T07:52:59.337Z"
+      "updatedAt": "2025-10-23T07:52:59.337Z",
+      "waybillNumber": "6629"
     },
     {
       "id": "truck_1761205979337_4_ddilz7zac",
@@ -5305,6 +5306,6 @@
       "updatedAt": "2025-10-23T08:00:25.898Z"
     }
   ],
-  "lastModified": "2025-10-23T11:23:36.706Z",
+  "lastModified": "2025-10-23T11:23:56.731Z",
   "version": "2.0.0"
 }
