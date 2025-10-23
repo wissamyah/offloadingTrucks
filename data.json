@@ -5174,22 +5174,6 @@
       "waybillNumber": "6622"
     },
     {
-      "id": "truck_1761206247511_0_ddvd6p355",
-      "supplierName": "Damakasu Agro Allied",
-      "bags": 450,
-      "moistureLevel": 20,
-      "truckNumber": "T 8717 LA",
-      "status": "pending",
-      "statusHistory": [
-        {
-          "status": "pending",
-          "timestamp": "2025-10-23T07:57:27.511Z"
-        }
-      ],
-      "createdAt": "2025-10-23T07:57:27.511Z",
-      "updatedAt": "2025-10-23T07:57:27.511Z"
-    },
-    {
       "id": "truck_1761206247511_2_bxi9ow1oe",
       "supplierName": "Idris Garba",
       "bags": 550,
@@ -5281,6 +5265,6 @@
       "netWeight": 42370
     }
   ],
-  "lastModified": "2025-10-23T11:57:00.178Z",
+  "lastModified": "2025-10-23T11:58:00.183Z",
   "version": "2.0.0"
 }
