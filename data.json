@@ -4918,8 +4918,88 @@
       "createdAt": "2025-10-23T07:50:17.775Z",
       "updatedAt": "2025-10-23T07:50:17.775Z",
       "waybillNumber": "6613"
+    },
+    {
+      "id": "truck_1761205959923_0_prcqyerdy",
+      "supplierName": "Mukhtari Sale",
+      "bags": 198,
+      "moistureLevel": 22,
+      "truckNumber": "AE 981 KTG",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-23T07:52:39.923Z"
+        }
+      ],
+      "createdAt": "2025-10-23T07:52:39.923Z",
+      "updatedAt": "2025-10-23T07:52:39.923Z"
+    },
+    {
+      "id": "truck_1761205959923_1_grbkmpq7v",
+      "supplierName": "H A Tahir",
+      "bags": 525,
+      "moistureLevel": 19,
+      "truckNumber": "BDG 558 XV",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-23T07:52:39.923Z"
+        }
+      ],
+      "createdAt": "2025-10-23T07:52:39.923Z",
+      "updatedAt": "2025-10-23T07:52:39.923Z"
+    },
+    {
+      "id": "truck_1761205959923_2_lq32v831y",
+      "supplierName": "Samuel Chamblatda",
+      "bags": 210,
+      "moistureLevel": 20,
+      "truckNumber": "KTG 64 YL",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-23T07:52:39.923Z"
+        }
+      ],
+      "createdAt": "2025-10-23T07:52:39.923Z",
+      "updatedAt": "2025-10-23T07:52:39.923Z"
+    },
+    {
+      "id": "truck_1761205959923_3_b6vltplbe",
+      "supplierName": "Mukhtari Sale",
+      "bags": 110,
+      "moistureLevel": 20,
+      "truckNumber": "LSD 401 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-23T07:52:39.923Z"
+        }
+      ],
+      "createdAt": "2025-10-23T07:52:39.923Z",
+      "updatedAt": "2025-10-23T07:52:39.923Z"
+    },
+    {
+      "id": "truck_1761205959923_4_f7urcy1zi",
+      "supplierName": "Mansur Mansur",
+      "bags": 440,
+      "moistureLevel": 18,
+      "truckNumber": "MLF 442 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-23T07:52:39.923Z"
+        }
+      ],
+      "createdAt": "2025-10-23T07:52:39.923Z",
+      "updatedAt": "2025-10-23T07:52:39.923Z"
     }
   ],
-  "lastModified": "2025-10-23T07:52:00.412Z",
+  "lastModified": "2025-10-23T07:52:41.277Z",
   "version": "2.0.0"
 }
