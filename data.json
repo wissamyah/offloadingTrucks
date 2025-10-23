@@ -5314,7 +5314,7 @@
       "bags": 328,
       "moistureLevel": 20,
       "truckNumber": "FTA 446 XC",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
@@ -5322,7 +5322,8 @@
         }
       ],
       "createdAt": "2025-10-23T14:40:07.604Z",
-      "updatedAt": "2025-10-23T14:40:07.604Z"
+      "updatedAt": "2025-10-23T14:40:07.604Z",
+      "waybillNumber": "6638"
     },
     {
       "id": "truck_1761230407604_1_4n69jj101",
@@ -5342,6 +5343,6 @@
       "waybillNumber": "6637"
     }
   ],
-  "lastModified": "2025-10-23T14:42:09.517Z",
+  "lastModified": "2025-10-23T14:44:40.614Z",
   "version": "2.0.0"
 }
