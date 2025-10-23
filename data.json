@@ -5143,8 +5143,104 @@
       ],
       "createdAt": "2025-10-23T07:53:26.721Z",
       "updatedAt": "2025-10-23T07:53:26.721Z"
+    },
+    {
+      "id": "truck_1761206247511_0_ddvd6p355",
+      "supplierName": "Damakasu Agro Allied",
+      "bags": 450,
+      "moistureLevel": 20,
+      "truckNumber": "T 8717 LA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-23T07:57:27.511Z"
+        }
+      ],
+      "createdAt": "2025-10-23T07:57:27.511Z",
+      "updatedAt": "2025-10-23T07:57:27.511Z"
+    },
+    {
+      "id": "truck_1761206247511_1_d1pvz58f9",
+      "supplierName": "Shamsu Muhammad",
+      "bags": 45,
+      "moistureLevel": 18,
+      "truckNumber": "CRC 49 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-23T07:57:27.511Z"
+        }
+      ],
+      "createdAt": "2025-10-23T07:57:27.511Z",
+      "updatedAt": "2025-10-23T07:57:27.511Z"
+    },
+    {
+      "id": "truck_1761206247511_2_bxi9ow1oe",
+      "supplierName": "Idris Garba",
+      "bags": 550,
+      "moistureLevel": 20,
+      "truckNumber": "NNR 448 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-23T07:57:27.511Z"
+        }
+      ],
+      "createdAt": "2025-10-23T07:57:27.511Z",
+      "updatedAt": "2025-10-23T07:57:27.511Z"
+    },
+    {
+      "id": "truck_1761206247511_3_vdn1e7vki",
+      "supplierName": "Idris Garba",
+      "bags": 500,
+      "moistureLevel": 20,
+      "truckNumber": "WER 189 ZE",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-23T07:57:27.511Z"
+        }
+      ],
+      "createdAt": "2025-10-23T07:57:27.511Z",
+      "updatedAt": "2025-10-23T07:57:27.511Z"
+    },
+    {
+      "id": "truck_1761206247511_4_7tgzkz5hz",
+      "supplierName": "Mukhtari Sale",
+      "bags": 520,
+      "moistureLevel": 21,
+      "truckNumber": "NSR 875 YQ",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-23T07:57:27.511Z"
+        }
+      ],
+      "createdAt": "2025-10-23T07:57:27.511Z",
+      "updatedAt": "2025-10-23T07:57:27.511Z"
+    },
+    {
+      "id": "truck_1761206247511_5_yb9du642t",
+      "supplierName": "Idris Haruna",
+      "bags": 250,
+      "moistureLevel": 16,
+      "truckNumber": "XA 954 TRR",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-23T07:57:27.511Z"
+        }
+      ],
+      "createdAt": "2025-10-23T07:57:27.511Z",
+      "updatedAt": "2025-10-23T07:57:27.511Z"
     }
   ],
-  "lastModified": "2025-10-23T07:55:28.056Z",
+  "lastModified": "2025-10-23T07:57:28.357Z",
   "version": "2.0.0"
 }
