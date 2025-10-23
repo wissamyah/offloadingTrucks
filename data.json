@@ -4981,7 +4981,7 @@
       "bags": 110,
       "moistureLevel": 20,
       "truckNumber": "LSD 401 XA",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -4990,7 +4990,8 @@
       ],
       "createdAt": "2025-10-23T07:52:39.923Z",
       "updatedAt": "2025-10-23T07:52:39.923Z",
-      "waybillNumber": "6625"
+      "waybillNumber": "6625",
+      "netWeight": 8280
     },
     {
       "id": "truck_1761205959923_4_f7urcy1zi",
@@ -5336,6 +5337,6 @@
       "updatedAt": "2025-10-23T08:00:25.898Z"
     }
   ],
-  "lastModified": "2025-10-23T10:54:52.829Z",
+  "lastModified": "2025-10-23T10:54:58.958Z",
   "version": "2.0.0"
 }
