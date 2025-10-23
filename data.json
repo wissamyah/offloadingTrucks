@@ -5162,7 +5162,7 @@
       "bags": 492,
       "moistureLevel": 18,
       "truckNumber": "BCH 594 XA",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -5171,7 +5171,8 @@
       ],
       "createdAt": "2025-10-23T07:53:26.721Z",
       "updatedAt": "2025-10-23T07:53:26.721Z",
-      "waybillNumber": "6622"
+      "waybillNumber": "6622",
+      "netWeight": 43020
     },
     {
       "id": "truck_1761206247511_2_bxi9ow1oe",
@@ -5249,6 +5250,6 @@
       "netWeight": 42370
     }
   ],
-  "lastModified": "2025-10-23T11:58:29.164Z",
+  "lastModified": "2025-10-23T12:24:55.161Z",
   "version": "2.0.0"
 }
