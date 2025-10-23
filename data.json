@@ -5279,24 +5279,8 @@
       "updatedAt": "2025-10-23T08:00:25.898Z",
       "waybillNumber": "6612",
       "netWeight": 42370
-    },
-    {
-      "id": "truck_1761206425898_3_zmsl29x3y",
-      "supplierName": "Mukhtari Sale",
-      "bags": 450,
-      "moistureLevel": 19,
-      "truckNumber": "GRM 232 XB",
-      "status": "pending",
-      "statusHistory": [
-        {
-          "status": "pending",
-          "timestamp": "2025-10-23T08:00:25.898Z"
-        }
-      ],
-      "createdAt": "2025-10-23T08:00:25.898Z",
-      "updatedAt": "2025-10-23T08:00:25.898Z"
     }
   ],
-  "lastModified": "2025-10-23T11:55:27.914Z",
+  "lastModified": "2025-10-23T11:57:00.178Z",
   "version": "2.0.0"
 }
