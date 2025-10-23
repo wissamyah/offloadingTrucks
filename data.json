@@ -5301,7 +5301,7 @@
       "bags": 399,
       "moistureLevel": 18,
       "truckNumber": "GRM 516 XA",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -5310,7 +5310,8 @@
       ],
       "createdAt": "2025-10-23T13:13:26.701Z",
       "updatedAt": "2025-10-23T13:13:26.701Z",
-      "waybillNumber": "6636"
+      "waybillNumber": "6636",
+      "netWeight": 35720
     },
     {
       "id": "truck_1761230407604_0_dvx3c3d9k",
@@ -5348,6 +5349,6 @@
       "netWeight": 20840
     }
   ],
-  "lastModified": "2025-10-23T15:45:27.269Z",
+  "lastModified": "2025-10-23T16:16:23.119Z",
   "version": "2.0.0"
 }
