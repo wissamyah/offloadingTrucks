@@ -5122,7 +5122,7 @@
       "bags": 189,
       "moistureLevel": 20,
       "truckNumber": "XC 288 KTG",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -5131,7 +5131,9 @@
       ],
       "createdAt": "2025-10-23T07:53:26.721Z",
       "updatedAt": "2025-10-23T07:53:26.721Z",
-      "waybillNumber": "6627"
+      "waybillNumber": "6627",
+      "netWeight": 13490,
+      "deduction": 350
     },
     {
       "id": "truck_1761206006721_2_lkpr289ia",
@@ -5307,6 +5309,6 @@
       "updatedAt": "2025-10-23T08:00:25.898Z"
     }
   ],
-  "lastModified": "2025-10-23T11:24:45.567Z",
+  "lastModified": "2025-10-23T11:27:20.133Z",
   "version": "2.0.0"
 }
