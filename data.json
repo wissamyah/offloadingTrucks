@@ -5214,7 +5214,7 @@
       "bags": 500,
       "moistureLevel": 20,
       "truckNumber": "WER 189 ZE",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
@@ -5222,7 +5222,8 @@
         }
       ],
       "createdAt": "2025-10-23T07:57:27.511Z",
-      "updatedAt": "2025-10-23T07:57:27.511Z"
+      "updatedAt": "2025-10-23T07:57:27.511Z",
+      "waybillNumber": "6611"
     },
     {
       "id": "truck_1761206247511_4_7tgzkz5hz",
@@ -5340,6 +5341,6 @@
       "updatedAt": "2025-10-23T08:00:25.898Z"
     }
   ],
-  "lastModified": "2025-10-23T10:55:19.240Z",
+  "lastModified": "2025-10-23T10:55:35.273Z",
   "version": "2.0.0"
 }
