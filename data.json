@@ -5206,7 +5206,7 @@
       "updatedAt": "2025-10-23T07:57:27.511Z",
       "waybillNumber": "6609",
       "netWeight": 40330,
-      "deduction": 40200
+      "deduction": 130
     },
     {
       "id": "truck_1761206247511_3_vdn1e7vki",
@@ -5313,6 +5313,6 @@
       "updatedAt": "2025-10-23T08:00:25.898Z"
     }
   ],
-  "lastModified": "2025-10-23T11:29:39.105Z",
+  "lastModified": "2025-10-23T11:35:43.992Z",
   "version": "2.0.0"
 }
