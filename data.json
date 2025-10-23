@@ -5295,7 +5295,7 @@
       "bags": 399,
       "moistureLevel": 18,
       "truckNumber": "GRM 516 XA",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
@@ -5303,9 +5303,10 @@
         }
       ],
       "createdAt": "2025-10-23T13:13:26.701Z",
-      "updatedAt": "2025-10-23T13:13:26.701Z"
+      "updatedAt": "2025-10-23T13:13:26.701Z",
+      "waybillNumber": "6634"
     }
   ],
-  "lastModified": "2025-10-23T13:23:28.622Z",
+  "lastModified": "2025-10-23T13:34:13.417Z",
   "version": "2.0.0"
 }
