@@ -4981,7 +4981,7 @@
       "bags": 110,
       "moistureLevel": 20,
       "truckNumber": "LSD 401 XA",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
@@ -4989,7 +4989,8 @@
         }
       ],
       "createdAt": "2025-10-23T07:52:39.923Z",
-      "updatedAt": "2025-10-23T07:52:39.923Z"
+      "updatedAt": "2025-10-23T07:52:39.923Z",
+      "waybillNumber": "6625"
     },
     {
       "id": "truck_1761205959923_4_f7urcy1zi",
@@ -5335,6 +5336,6 @@
       "updatedAt": "2025-10-23T08:00:25.898Z"
     }
   ],
-  "lastModified": "2025-10-23T10:54:43.689Z",
+  "lastModified": "2025-10-23T10:54:52.829Z",
   "version": "2.0.0"
 }
