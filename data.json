@@ -5284,7 +5284,7 @@
       "bags": 600,
       "moistureLevel": 18,
       "truckNumber": "FKY 72 XB",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
@@ -5292,7 +5292,8 @@
         }
       ],
       "createdAt": "2025-10-23T08:00:25.898Z",
-      "updatedAt": "2025-10-23T08:00:25.898Z"
+      "updatedAt": "2025-10-23T08:00:25.898Z",
+      "waybillNumber": "6612"
     },
     {
       "id": "truck_1761206425898_2_hsqu45x30",
@@ -5343,6 +5344,6 @@
       "updatedAt": "2025-10-23T08:00:25.898Z"
     }
   ],
-  "lastModified": "2025-10-23T10:55:46.742Z",
+  "lastModified": "2025-10-23T10:56:01.187Z",
   "version": "2.0.0"
 }
