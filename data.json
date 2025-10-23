@@ -5311,24 +5311,8 @@
       ],
       "createdAt": "2025-10-23T08:00:25.898Z",
       "updatedAt": "2025-10-23T08:00:25.898Z"
-    },
-    {
-      "id": "truck_1761206425898_4_ylxmpjigk",
-      "supplierName": "Addau Isyaku",
-      "bags": 45,
-      "moistureLevel": 20,
-      "truckNumber": "KTN 42 YJ",
-      "status": "pending",
-      "statusHistory": [
-        {
-          "status": "pending",
-          "timestamp": "2025-10-23T08:00:25.898Z"
-        }
-      ],
-      "createdAt": "2025-10-23T08:00:25.898Z",
-      "updatedAt": "2025-10-23T08:00:25.898Z"
     }
   ],
-  "lastModified": "2025-10-23T10:58:49.994Z",
+  "lastModified": "2025-10-23T10:59:05.655Z",
   "version": "2.0.0"
 }
