@@ -5269,8 +5269,24 @@
       "createdAt": "2025-10-23T12:26:08.608Z",
       "updatedAt": "2025-10-23T12:26:08.608Z",
       "waybillNumber": "6632"
+    },
+    {
+      "id": "truck_1761225039509_0_r4xvvjecr",
+      "supplierName": "Addau Isyaku",
+      "bags": 50,
+      "moistureLevel": 20,
+      "truckNumber": "KTU 669 XV",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-23T13:10:39.509Z"
+        }
+      ],
+      "createdAt": "2025-10-23T13:10:39.509Z",
+      "updatedAt": "2025-10-23T13:10:39.509Z"
     }
   ],
-  "lastModified": "2025-10-23T13:06:37.750Z",
+  "lastModified": "2025-10-23T13:10:39.614Z",
   "version": "2.0.0"
 }
