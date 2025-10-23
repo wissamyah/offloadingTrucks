@@ -4948,7 +4948,7 @@
       "bags": 525,
       "moistureLevel": 19,
       "truckNumber": "BDG 558 XV",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -4957,7 +4957,9 @@
       ],
       "createdAt": "2025-10-23T07:52:39.923Z",
       "updatedAt": "2025-10-23T07:52:39.923Z",
-      "waybillNumber": "6618"
+      "waybillNumber": "6618",
+      "netWeight": 39530,
+      "deduction": 150
     },
     {
       "id": "truck_1761205959923_2_lq32v831y",
@@ -5311,6 +5313,6 @@
       "updatedAt": "2025-10-23T08:00:25.898Z"
     }
   ],
-  "lastModified": "2025-10-23T11:27:59.809Z",
+  "lastModified": "2025-10-23T11:29:39.105Z",
   "version": "2.0.0"
 }
