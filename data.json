@@ -5131,7 +5131,7 @@
       ],
       "createdAt": "2025-10-23T07:53:26.721Z",
       "updatedAt": "2025-10-23T07:53:26.721Z",
-      "waybillNumber": "1"
+      "waybillNumber": "6627"
     },
     {
       "id": "truck_1761206006721_2_lkpr289ia",
@@ -5307,6 +5307,6 @@
       "updatedAt": "2025-10-23T08:00:25.898Z"
     }
   ],
-  "lastModified": "2025-10-23T11:24:12.290Z",
+  "lastModified": "2025-10-23T11:24:45.567Z",
   "version": "2.0.0"
 }
