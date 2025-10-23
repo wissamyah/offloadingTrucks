@@ -5335,7 +5335,7 @@
       "bags": 235,
       "moistureLevel": 18,
       "truckNumber": "HJA 729 XB",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -5344,9 +5344,10 @@
       ],
       "createdAt": "2025-10-23T14:40:07.604Z",
       "updatedAt": "2025-10-23T14:40:07.604Z",
-      "waybillNumber": "6637"
+      "waybillNumber": "6637",
+      "netWeight": 20840
     }
   ],
-  "lastModified": "2025-10-23T15:44:41.988Z",
+  "lastModified": "2025-10-23T15:45:27.269Z",
   "version": "2.0.0"
 }
