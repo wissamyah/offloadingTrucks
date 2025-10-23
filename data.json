@@ -5135,7 +5135,7 @@
       "bags": 530,
       "moistureLevel": 20,
       "truckNumber": "PKM 706 ZY",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
@@ -5143,7 +5143,8 @@
         }
       ],
       "createdAt": "2025-10-23T07:53:26.721Z",
-      "updatedAt": "2025-10-23T07:53:26.721Z"
+      "updatedAt": "2025-10-23T07:53:26.721Z",
+      "waybillNumber": "1"
     },
     {
       "id": "truck_1761206006721_3_v1j8pxtko",
@@ -5301,6 +5302,6 @@
       "updatedAt": "2025-10-23T08:00:25.898Z"
     }
   ],
-  "lastModified": "2025-10-23T11:00:07.003Z",
+  "lastModified": "2025-10-23T11:00:18.783Z",
   "version": "2.0.0"
 }
