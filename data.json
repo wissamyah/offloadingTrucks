@@ -4911,7 +4911,7 @@
       "bags": 35,
       "moistureLevel": 15,
       "truckNumber": "MSA 58 LG",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -4920,7 +4920,8 @@
       ],
       "createdAt": "2025-10-23T07:50:17.775Z",
       "updatedAt": "2025-10-23T07:50:17.775Z",
-      "waybillNumber": "6613"
+      "waybillNumber": "6613",
+      "netWeight": 2960
     },
     {
       "id": "truck_1761205959923_0_prcqyerdy",
@@ -5326,6 +5327,6 @@
       "updatedAt": "2025-10-23T08:00:25.898Z"
     }
   ],
-  "lastModified": "2025-10-23T08:43:12.938Z",
+  "lastModified": "2025-10-23T08:45:37.796Z",
   "version": "2.0.0"
 }
