@@ -4860,7 +4860,7 @@
       "bags": 50,
       "moistureLevel": 18,
       "truckNumber": "KTU 437 XW",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -4869,7 +4869,8 @@
       ],
       "createdAt": "2025-10-23T07:50:17.775Z",
       "updatedAt": "2025-10-23T07:50:17.775Z",
-      "waybillNumber": "6614"
+      "waybillNumber": "6614",
+      "netWeight": 3400
     },
     {
       "id": "truck_1761205817775_1_ntcctwmql",
@@ -5325,6 +5326,6 @@
       "updatedAt": "2025-10-23T08:00:25.898Z"
     }
   ],
-  "lastModified": "2025-10-23T08:25:35.175Z",
+  "lastModified": "2025-10-23T08:43:12.938Z",
   "version": "2.0.0"
 }
