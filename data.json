@@ -5078,8 +5078,72 @@
       ],
       "createdAt": "2025-10-23T07:52:59.337Z",
       "updatedAt": "2025-10-23T07:52:59.337Z"
+    },
+    {
+      "id": "truck_1761206006721_0_qt0uqtgvy",
+      "supplierName": "Maazu Abdullahi",
+      "bags": 154,
+      "moistureLevel": 20,
+      "truckNumber": "KTN 107 XB",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-23T07:53:26.721Z"
+        }
+      ],
+      "createdAt": "2025-10-23T07:53:26.721Z",
+      "updatedAt": "2025-10-23T07:53:26.721Z"
+    },
+    {
+      "id": "truck_1761206006721_1_pezcx6z65",
+      "supplierName": "Mukhtari Sale",
+      "bags": 189,
+      "moistureLevel": 20,
+      "truckNumber": "XC 288 KTG",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-23T07:53:26.721Z"
+        }
+      ],
+      "createdAt": "2025-10-23T07:53:26.721Z",
+      "updatedAt": "2025-10-23T07:53:26.721Z"
+    },
+    {
+      "id": "truck_1761206006721_2_lkpr289ia",
+      "supplierName": "Jamilu Yahaya",
+      "bags": 530,
+      "moistureLevel": 20,
+      "truckNumber": "PKM 706 ZY",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-23T07:53:26.721Z"
+        }
+      ],
+      "createdAt": "2025-10-23T07:53:26.721Z",
+      "updatedAt": "2025-10-23T07:53:26.721Z"
+    },
+    {
+      "id": "truck_1761206006721_3_v1j8pxtko",
+      "supplierName": "Jamilu Yahaya",
+      "bags": 492,
+      "moistureLevel": 18,
+      "truckNumber": "BCH 594 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-23T07:53:26.721Z"
+        }
+      ],
+      "createdAt": "2025-10-23T07:53:26.721Z",
+      "updatedAt": "2025-10-23T07:53:26.721Z"
     }
   ],
-  "lastModified": "2025-10-23T07:52:59.414Z",
+  "lastModified": "2025-10-23T07:53:26.836Z",
   "version": "2.0.0"
 }
