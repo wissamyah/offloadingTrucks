@@ -5278,7 +5278,7 @@
       "bags": 50,
       "moistureLevel": 20,
       "truckNumber": "KTU 669 XV",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -5287,7 +5287,8 @@
       ],
       "createdAt": "2025-10-23T13:10:39.509Z",
       "updatedAt": "2025-10-23T13:10:39.509Z",
-      "waybillNumber": "6635"
+      "waybillNumber": "6635",
+      "netWeight": 3770
     },
     {
       "id": "truck_1761225206701_0_bdo0tq1gd",
@@ -5307,6 +5308,6 @@
       "waybillNumber": "6636"
     }
   ],
-  "lastModified": "2025-10-23T13:35:43.751Z",
+  "lastModified": "2025-10-23T14:38:12.711Z",
   "version": "2.0.0"
 }
