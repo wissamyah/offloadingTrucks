@@ -261,12 +261,9 @@ export const TruckTable: React.FC<TruckTableProps> = ({
     setRejectConfirmTruck(null);
   };
 
-  const getLatestStatusTime = (truck: Truck): string => {
-    if (truck.statusHistory.length > 0) {
-      const latest = truck.statusHistory[truck.statusHistory.length - 1];
-      return formatTime(latest.timestamp);
-    }
-    return formatTime(truck.createdAt);
+  // Get the time when the truck was first added to the table
+  const getTruckCreationTime = (truck: Truck): string => {
+    return formatTimeWAT(truck.createdAt);
   };
 
   // Check if we have a search filter active and total trucks exist
@@ -396,7 +393,7 @@ export const TruckTable: React.FC<TruckTableProps> = ({
                   )}
                 </div>
               </div>
-              <div className="text-sm text-gray-400">{getLatestStatusTime(truck)}</div>
+              <div className="text-sm text-gray-400">{getTruckCreationTime(truck)}</div>
             </div>
 
             <div className="grid grid-cols-2 gap-3 mb-3">
@@ -566,7 +563,7 @@ export const TruckTable: React.FC<TruckTableProps> = ({
               trucks.map((truck) => (
               <tr key={truck.id} className="hover:bg-gray-750 transition-colors">
                 <td className="px-2 py-3 whitespace-nowrap text-xs text-gray-400">
-                  {getLatestStatusTime(truck)}
+                  {getTruckCreationTime(truck)}
                 </td>
                 <td className="px-2 py-3 whitespace-nowrap">
                   <div className="text-xs font-medium text-gray-100">{truck.supplierName}</div>
