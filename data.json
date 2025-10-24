@@ -5903,8 +5903,56 @@
       "updatedAt": "2025-10-24T07:58:41.466Z",
       "waybillNumber": "6643",
       "netWeight": 4790
+    },
+    {
+      "id": "truck_1761320683253_0_gjvr6ju26",
+      "supplierName": "Mansur Mansur",
+      "bags": 250,
+      "moistureLevel": 18,
+      "truckNumber": "KTG 814 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-24T15:44:43.253Z"
+        }
+      ],
+      "createdAt": "2025-10-24T15:44:43.253Z",
+      "updatedAt": "2025-10-24T15:44:43.253Z"
+    },
+    {
+      "id": "truck_1761320683253_1_itbg1oq0v",
+      "supplierName": "Mubarak Abba",
+      "bags": 90,
+      "moistureLevel": 17,
+      "truckNumber": "BGR 120 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-24T15:44:43.253Z"
+        }
+      ],
+      "createdAt": "2025-10-24T15:44:43.253Z",
+      "updatedAt": "2025-10-24T15:44:43.253Z"
+    },
+    {
+      "id": "truck_1761320683253_2_symzi33do",
+      "supplierName": "Mukhtari Sale",
+      "bags": 250,
+      "moistureLevel": 18,
+      "truckNumber": "GME 313 XB",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-24T15:44:43.253Z"
+        }
+      ],
+      "createdAt": "2025-10-24T15:44:43.253Z",
+      "updatedAt": "2025-10-24T15:44:43.253Z"
     }
   ],
-  "lastModified": "2025-10-24T15:42:50.744Z",
+  "lastModified": "2025-10-24T15:44:43.309Z",
   "version": "2.0.0"
 }
