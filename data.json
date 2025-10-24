@@ -5774,7 +5774,7 @@
       "bags": 545,
       "moistureLevel": 19,
       "truckNumber": "FUN 614 XA",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
@@ -5782,7 +5782,8 @@
         }
       ],
       "createdAt": "2025-10-24T07:58:41.466Z",
-      "updatedAt": "2025-10-24T07:58:41.466Z"
+      "updatedAt": "2025-10-24T07:58:41.466Z",
+      "waybillNumber": "6667"
     },
     {
       "id": "truck_1761292721466_6_z2mpfaqol",
@@ -5854,6 +5855,6 @@
       "netWeight": 4790
     }
   ],
-  "lastModified": "2025-10-24T12:25:04.782Z",
+  "lastModified": "2025-10-24T12:25:49.033Z",
   "version": "2.0.0"
 }
