@@ -5662,7 +5662,7 @@
       "bags": 501,
       "moistureLevel": 19,
       "truckNumber": "ZUR 834 XT",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
@@ -5670,7 +5670,8 @@
         }
       ],
       "createdAt": "2025-10-24T07:58:09.525Z",
-      "updatedAt": "2025-10-24T07:58:09.525Z"
+      "updatedAt": "2025-10-24T07:58:09.525Z",
+      "waybillNumber": "6661"
     },
     {
       "id": "truck_1761292721466_0_tlh51f66s",
@@ -5842,6 +5843,6 @@
       "netWeight": 4790
     }
   ],
-  "lastModified": "2025-10-24T10:58:24.074Z",
+  "lastModified": "2025-10-24T10:59:44.290Z",
   "version": "2.0.0"
 }
