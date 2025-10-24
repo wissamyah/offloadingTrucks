@@ -5584,7 +5584,7 @@
       "bags": 300,
       "moistureLevel": 17,
       "truckNumber": "GAK 874 XH",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -5593,7 +5593,9 @@
       ],
       "createdAt": "2025-10-24T07:58:09.525Z",
       "updatedAt": "2025-10-24T07:58:09.525Z",
-      "waybillNumber": "6657"
+      "waybillNumber": "6657",
+      "netWeight": 22620,
+      "deduction": 130
     },
     {
       "id": "truck_1761292689525_5_70hpdg9t0",
@@ -5848,6 +5850,6 @@
       "netWeight": 4790
     }
   ],
-  "lastModified": "2025-10-24T11:20:31.490Z",
+  "lastModified": "2025-10-24T11:28:18.200Z",
   "version": "2.0.0"
 }
