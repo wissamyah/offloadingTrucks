@@ -5663,16 +5663,26 @@
       "bags": 505,
       "moistureLevel": 18,
       "truckNumber": "DKA 277 XR",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-10-24T07:58:09.525Z"
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-10-24T14:40:26.092Z",
+          "details": {
+            "netWeight": 37070,
+            "deduction": 90
+          }
         }
       ],
       "createdAt": "2025-10-24T07:58:09.525Z",
-      "updatedAt": "2025-10-24T07:58:09.525Z",
-      "waybillNumber": "6662"
+      "updatedAt": "2025-10-24T14:40:26.093Z",
+      "waybillNumber": "6662",
+      "netWeight": 37070,
+      "deduction": 90
     },
     {
       "id": "truck_1761292689525_9_kiiqr6nyz",
@@ -5865,6 +5875,6 @@
       "netWeight": 4790
     }
   ],
-  "lastModified": "2025-10-24T14:18:43.441Z",
+  "lastModified": "2025-10-24T14:40:26.235Z",
   "version": "2.0.0"
 }
