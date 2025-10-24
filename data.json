@@ -5467,7 +5467,7 @@
       "bags": 55,
       "moistureLevel": 17,
       "truckNumber": "KYW 374 XA",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
@@ -5475,7 +5475,8 @@
         }
       ],
       "createdAt": "2025-10-24T07:55:51.846Z",
-      "updatedAt": "2025-10-24T07:55:51.846Z"
+      "updatedAt": "2025-10-24T07:55:51.846Z",
+      "waybillNumber": "6642"
     },
     {
       "id": "truck_1761292551846_8_birogenye",
@@ -5816,6 +5817,6 @@
       "updatedAt": "2025-10-24T07:58:41.466Z"
     }
   ],
-  "lastModified": "2025-10-24T08:40:26.192Z",
+  "lastModified": "2025-10-24T08:41:11.837Z",
   "version": "2.0.0"
 }
