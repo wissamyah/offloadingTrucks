@@ -5555,7 +5555,7 @@
       "bags": 600,
       "moistureLevel": 19,
       "truckNumber": "GGE 648 XN",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
@@ -5563,7 +5563,8 @@
         }
       ],
       "createdAt": "2025-10-24T07:58:09.525Z",
-      "updatedAt": "2025-10-24T07:58:09.525Z"
+      "updatedAt": "2025-10-24T07:58:09.525Z",
+      "waybillNumber": "6656"
     },
     {
       "id": "truck_1761292689525_4_4jgbihz6m",
@@ -5827,6 +5828,6 @@
       "netWeight": 4790
     }
   ],
-  "lastModified": "2025-10-24T09:41:58.840Z",
+  "lastModified": "2025-10-24T09:50:55.499Z",
   "version": "2.0.0"
 }
