@@ -5577,16 +5577,26 @@
       "bags": 600,
       "moistureLevel": 19,
       "truckNumber": "GGE 648 XN",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-10-24T07:58:09.525Z"
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-10-24T14:43:26.510Z",
+          "details": {
+            "netWeight": 48130,
+            "deduction": 80
+          }
         }
       ],
       "createdAt": "2025-10-24T07:58:09.525Z",
-      "updatedAt": "2025-10-24T07:58:09.525Z",
-      "waybillNumber": "6656"
+      "updatedAt": "2025-10-24T14:43:26.510Z",
+      "waybillNumber": "6656",
+      "netWeight": 48130,
+      "deduction": 80
     },
     {
       "id": "truck_1761292689525_4_4jgbihz6m",
@@ -5883,6 +5893,6 @@
       "netWeight": 4790
     }
   ],
-  "lastModified": "2025-10-24T14:41:41.907Z",
+  "lastModified": "2025-10-24T14:43:26.585Z",
   "version": "2.0.0"
 }
