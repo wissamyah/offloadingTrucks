@@ -5623,16 +5623,26 @@
       "bags": 350,
       "moistureLevel": 18,
       "truckNumber": "BKK 570 XH",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-10-24T07:58:09.525Z"
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-10-24T16:20:40.358Z",
+          "details": {
+            "netWeight": 24770,
+            "deduction": 150
+          }
         }
       ],
       "createdAt": "2025-10-24T07:58:09.525Z",
-      "updatedAt": "2025-10-24T07:58:09.525Z",
-      "waybillNumber": "6660"
+      "updatedAt": "2025-10-24T16:20:40.358Z",
+      "waybillNumber": "6660",
+      "netWeight": 24770,
+      "deduction": 150
     },
     {
       "id": "truck_1761292689525_6_unyf1jm1r",
@@ -5963,6 +5973,6 @@
       "updatedAt": "2025-10-24T15:44:43.253Z"
     }
   ],
-  "lastModified": "2025-10-24T16:19:28.324Z",
+  "lastModified": "2025-10-24T16:20:40.429Z",
   "version": "2.0.0"
 }
