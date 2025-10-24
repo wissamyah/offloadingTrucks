@@ -5492,8 +5492,168 @@
       ],
       "createdAt": "2025-10-24T07:55:51.846Z",
       "updatedAt": "2025-10-24T07:55:51.846Z"
+    },
+    {
+      "id": "truck_1761292689525_0_iw3l53zbw",
+      "supplierName": "Alh Danasabe",
+      "bags": 35,
+      "moistureLevel": 17,
+      "truckNumber": "MSA 852 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-24T07:58:09.525Z"
+        }
+      ],
+      "createdAt": "2025-10-24T07:58:09.525Z",
+      "updatedAt": "2025-10-24T07:58:09.525Z"
+    },
+    {
+      "id": "truck_1761292689525_1_9pis7xrtb",
+      "supplierName": "BL Barka Nigeria Ltd",
+      "bags": 243,
+      "moistureLevel": 19,
+      "truckNumber": "NNG 398 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-24T07:58:09.525Z"
+        }
+      ],
+      "createdAt": "2025-10-24T07:58:09.525Z",
+      "updatedAt": "2025-10-24T07:58:09.525Z"
+    },
+    {
+      "id": "truck_1761292689525_2_qhf755zzc",
+      "supplierName": "Sammaf Agro Allied",
+      "bags": 539,
+      "moistureLevel": 20,
+      "truckNumber": "LSD 472 XP",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-24T07:58:09.525Z"
+        }
+      ],
+      "createdAt": "2025-10-24T07:58:09.525Z",
+      "updatedAt": "2025-10-24T07:58:09.525Z"
+    },
+    {
+      "id": "truck_1761292689525_3_fjs1ka7df",
+      "supplierName": "Idris Haruna",
+      "bags": 600,
+      "moistureLevel": 19,
+      "truckNumber": "GGE 648 XN",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-24T07:58:09.525Z"
+        }
+      ],
+      "createdAt": "2025-10-24T07:58:09.525Z",
+      "updatedAt": "2025-10-24T07:58:09.525Z"
+    },
+    {
+      "id": "truck_1761292689525_4_4jgbihz6m",
+      "supplierName": "Damakasu Agro Allied",
+      "bags": 300,
+      "moistureLevel": 17,
+      "truckNumber": "GAK 874 XH",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-24T07:58:09.525Z"
+        }
+      ],
+      "createdAt": "2025-10-24T07:58:09.525Z",
+      "updatedAt": "2025-10-24T07:58:09.525Z"
+    },
+    {
+      "id": "truck_1761292689525_5_70hpdg9t0",
+      "supplierName": "Damakasu Agro Allied",
+      "bags": 350,
+      "moistureLevel": 18,
+      "truckNumber": "BKK 570 XH",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-24T07:58:09.525Z"
+        }
+      ],
+      "createdAt": "2025-10-24T07:58:09.525Z",
+      "updatedAt": "2025-10-24T07:58:09.525Z"
+    },
+    {
+      "id": "truck_1761292689525_6_unyf1jm1r",
+      "supplierName": "BL Barka Nigeria Ltd",
+      "bags": 200,
+      "moistureLevel": 21,
+      "truckNumber": "HJA 472 YD",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-24T07:58:09.525Z"
+        }
+      ],
+      "createdAt": "2025-10-24T07:58:09.525Z",
+      "updatedAt": "2025-10-24T07:58:09.525Z"
+    },
+    {
+      "id": "truck_1761292689525_7_vlkofm6ra",
+      "supplierName": "Bazama Business Concept",
+      "bags": 500,
+      "moistureLevel": 20,
+      "truckNumber": "RSH 342 XN",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-24T07:58:09.525Z"
+        }
+      ],
+      "createdAt": "2025-10-24T07:58:09.525Z",
+      "updatedAt": "2025-10-24T07:58:09.525Z"
+    },
+    {
+      "id": "truck_1761292689525_8_901yrx8li",
+      "supplierName": "Jamilu Yahaya",
+      "bags": 505,
+      "moistureLevel": 18,
+      "truckNumber": "DKA 277 XR",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-24T07:58:09.525Z"
+        }
+      ],
+      "createdAt": "2025-10-24T07:58:09.525Z",
+      "updatedAt": "2025-10-24T07:58:09.525Z"
+    },
+    {
+      "id": "truck_1761292689525_9_kiiqr6nyz",
+      "supplierName": "Jamilu Yahaya",
+      "bags": 501,
+      "moistureLevel": 19,
+      "truckNumber": "ZUR 834 XT",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-24T07:58:09.525Z"
+        }
+      ],
+      "createdAt": "2025-10-24T07:58:09.525Z",
+      "updatedAt": "2025-10-24T07:58:09.525Z"
     }
   ],
-  "lastModified": "2025-10-24T07:55:51.934Z",
+  "lastModified": "2025-10-24T07:58:09.616Z",
   "version": "2.0.0"
 }
