@@ -5652,8 +5652,168 @@
       ],
       "createdAt": "2025-10-24T07:58:09.525Z",
       "updatedAt": "2025-10-24T07:58:09.525Z"
+    },
+    {
+      "id": "truck_1761292721466_0_tlh51f66s",
+      "supplierName": "MB Flour",
+      "bags": 431,
+      "moistureLevel": 19,
+      "truckNumber": "ANC 659 XR",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-24T07:58:41.466Z"
+        }
+      ],
+      "createdAt": "2025-10-24T07:58:41.466Z",
+      "updatedAt": "2025-10-24T07:58:41.466Z"
+    },
+    {
+      "id": "truck_1761292721466_1_tfwv7wkiy",
+      "supplierName": "Idris Garba",
+      "bags": 251,
+      "moistureLevel": 22,
+      "truckNumber": "MKA 624 ZF",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-24T07:58:41.466Z"
+        }
+      ],
+      "createdAt": "2025-10-24T07:58:41.466Z",
+      "updatedAt": "2025-10-24T07:58:41.466Z"
+    },
+    {
+      "id": "truck_1761292721466_2_ekiz70mby",
+      "supplierName": "Mukhtari Sale",
+      "bags": 163,
+      "moistureLevel": 18,
+      "truckNumber": "KTG 196 XB",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-24T07:58:41.466Z"
+        }
+      ],
+      "createdAt": "2025-10-24T07:58:41.466Z",
+      "updatedAt": "2025-10-24T07:58:41.466Z"
+    },
+    {
+      "id": "truck_1761292721466_3_ypuwsxyg0",
+      "supplierName": "Mansur Mansur",
+      "bags": 450,
+      "moistureLevel": 15,
+      "truckNumber": "KFR 227 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-24T07:58:41.466Z"
+        }
+      ],
+      "createdAt": "2025-10-24T07:58:41.466Z",
+      "updatedAt": "2025-10-24T07:58:41.466Z"
+    },
+    {
+      "id": "truck_1761292721466_4_1xg71eznw",
+      "supplierName": "Mansur Mansur",
+      "bags": 450,
+      "moistureLevel": 16,
+      "truckNumber": "KFR 183 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-24T07:58:41.466Z"
+        }
+      ],
+      "createdAt": "2025-10-24T07:58:41.466Z",
+      "updatedAt": "2025-10-24T07:58:41.466Z"
+    },
+    {
+      "id": "truck_1761292721466_5_yohmd2tkw",
+      "supplierName": "Mustapha Lawan",
+      "bags": 545,
+      "moistureLevel": 19,
+      "truckNumber": "FUN 614 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-24T07:58:41.466Z"
+        }
+      ],
+      "createdAt": "2025-10-24T07:58:41.466Z",
+      "updatedAt": "2025-10-24T07:58:41.466Z"
+    },
+    {
+      "id": "truck_1761292721466_6_z2mpfaqol",
+      "supplierName": "Alh Dayyabu",
+      "bags": 273,
+      "moistureLevel": 22,
+      "truckNumber": "KMC 470 ZF",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-24T07:58:41.466Z"
+        }
+      ],
+      "createdAt": "2025-10-24T07:58:41.466Z",
+      "updatedAt": "2025-10-24T07:58:41.466Z"
+    },
+    {
+      "id": "truck_1761292721466_7_ptq1chkt0",
+      "supplierName": "Sammaf Agro Allied",
+      "bags": 520,
+      "moistureLevel": 18,
+      "truckNumber": "BKR 349 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-24T07:58:41.466Z"
+        }
+      ],
+      "createdAt": "2025-10-24T07:58:41.466Z",
+      "updatedAt": "2025-10-24T07:58:41.466Z"
+    },
+    {
+      "id": "truck_1761292721466_8_w2v0tsnc4",
+      "supplierName": "Abubakar Muhd Tukur",
+      "bags": 55,
+      "moistureLevel": 16,
+      "truckNumber": "BDG 387 YE",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-24T07:58:41.466Z"
+        }
+      ],
+      "createdAt": "2025-10-24T07:58:41.466Z",
+      "updatedAt": "2025-10-24T07:58:41.466Z"
+    },
+    {
+      "id": "truck_1761292721466_9_nqcgm9kwr",
+      "supplierName": "Abubakar Muhd Tukur",
+      "bags": 55,
+      "moistureLevel": 17,
+      "truckNumber": "FGE 566 XB",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-24T07:58:41.466Z"
+        }
+      ],
+      "createdAt": "2025-10-24T07:58:41.466Z",
+      "updatedAt": "2025-10-24T07:58:41.466Z"
     }
   ],
-  "lastModified": "2025-10-24T07:58:09.616Z",
+  "lastModified": "2025-10-24T07:58:41.542Z",
   "version": "2.0.0"
 }
