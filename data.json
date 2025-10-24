@@ -5620,7 +5620,7 @@
       "bags": 200,
       "moistureLevel": 21,
       "truckNumber": "HJA 472 YD",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
@@ -5628,7 +5628,8 @@
         }
       ],
       "createdAt": "2025-10-24T07:58:09.525Z",
-      "updatedAt": "2025-10-24T07:58:09.525Z"
+      "updatedAt": "2025-10-24T07:58:09.525Z",
+      "waybillNumber": "6666"
     },
     {
       "id": "truck_1761292689525_7_vlkofm6ra",
@@ -5853,6 +5854,6 @@
       "netWeight": 4790
     }
   ],
-  "lastModified": "2025-10-24T12:24:10.780Z",
+  "lastModified": "2025-10-24T12:25:04.782Z",
   "version": "2.0.0"
 }
