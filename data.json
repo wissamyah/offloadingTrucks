@@ -5405,7 +5405,7 @@
       "bags": 500,
       "moistureLevel": 20,
       "truckNumber": "TMA 257 XA",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -5414,7 +5414,9 @@
       ],
       "createdAt": "2025-10-24T07:55:51.846Z",
       "updatedAt": "2025-10-24T07:55:51.846Z",
-      "waybillNumber": "6652"
+      "waybillNumber": "6652",
+      "netWeight": 36730,
+      "deduction": 140
     },
     {
       "id": "truck_1761292551846_4_laqep9atj",
@@ -5846,6 +5848,6 @@
       "netWeight": 4790
     }
   ],
-  "lastModified": "2025-10-24T11:19:59.888Z",
+  "lastModified": "2025-10-24T11:20:31.490Z",
   "version": "2.0.0"
 }
