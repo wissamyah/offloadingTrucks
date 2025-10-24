@@ -47,7 +47,27 @@ function App() {
 
   // Helper function to update truck status
   const updateTruckStatus = async (id: string, status: TruckStatus, additionalData?: any) => {
-    await updateTruck(id, { status, ...additionalData });
+    const truck = data.trucks.find(t => t.id === id);
+    if (!truck) {
+      throw new Error('Truck not found');
+    }
+
+    // Add new status change to history
+    const statusHistory = [
+      ...(truck.statusHistory || []),
+      {
+        status,
+        timestamp: new Date().toISOString(),
+        details: additionalData
+      }
+    ];
+
+    await updateTruck(id, {
+      status,
+      statusHistory,
+      updatedAt: new Date().toISOString(),
+      ...additionalData
+    });
   };
 
   const [selectedDate, setSelectedDate] = useState<string>('');

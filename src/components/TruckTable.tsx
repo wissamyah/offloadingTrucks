@@ -20,7 +20,7 @@ import {
   Calendar
 } from 'lucide-react';
 import { Truck, TruckStatus } from '../types/truck';
-import { formatDateTime, formatTime } from '../utils/dateUtils';
+import { formatDateTime, formatTime, formatTimeWAT } from '../utils/dateUtils';
 import { LoadingButton } from './LoadingButton';
 import { ConfirmationModal } from './ConfirmationModal';
 import { CustomDropdown } from './CustomDropdown';
@@ -47,7 +47,7 @@ interface TruckTableProps {
   onDateChange?: (date: string) => void;
 }
 
-const StatusBadge: React.FC<{ status: TruckStatus }> = ({ status }) => {
+const StatusBadge: React.FC<{ status: TruckStatus; truck: Truck }> = ({ status, truck }) => {
   const statusStyles = {
     pending: 'bg-yellow-900/30 text-yellow-400 border-yellow-700',
     scaled_in: 'bg-blue-900/30 text-blue-400 border-blue-700',
@@ -69,10 +69,49 @@ const StatusBadge: React.FC<{ status: TruckStatus }> = ({ status }) => {
     rejected: 'Rejected',
   };
 
+  // Get the timestamp for the relevant status change
+  const getStatusTime = (): string | null => {
+    // Only show time for scaled_in and offloaded statuses
+    if (status !== 'scaled_in' && status !== 'offloaded') {
+      return null;
+    }
+
+    // Backward compatibility: Check if statusHistory exists
+    if (!truck.statusHistory || truck.statusHistory.length === 0) {
+      // For old trucks without statusHistory, fall back to updatedAt if status matches
+      if (truck.status === status && truck.updatedAt) {
+        return formatTimeWAT(truck.updatedAt);
+      }
+      return null;
+    }
+
+    // Find the status change in history
+    const statusChange = truck.statusHistory.find(sh => sh.status === status);
+    if (statusChange) {
+      return formatTimeWAT(statusChange.timestamp);
+    }
+
+    // Fallback: If current status matches but no history entry, use updatedAt
+    if (truck.status === status && truck.updatedAt) {
+      return formatTimeWAT(truck.updatedAt);
+    }
+
+    return null;
+  };
+
+  const statusTime = getStatusTime();
+
   return (
     <span className={`inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-xs font-medium border ${statusStyles[status]}`}>
-      {statusIcons[status]}
-      {statusLabels[status]}
+      <div className="flex items-center gap-1">
+        {statusIcons[status]}
+        <div className="flex flex-col">
+          <span>{statusLabels[status]}</span>
+          {statusTime && (
+            <span className="text-[10px] opacity-60 font-normal leading-tight">{statusTime}</span>
+          )}
+        </div>
+      </div>
     </span>
   );
 };
@@ -391,7 +430,7 @@ export const TruckTable: React.FC<TruckTableProps> = ({
             </div>
 
             <div className="mb-3">
-              <StatusBadge status={truck.status} />
+              <StatusBadge status={truck.status} truck={truck} />
             </div>
 
             <div className="flex flex-wrap gap-2">
@@ -554,7 +593,7 @@ export const TruckTable: React.FC<TruckTableProps> = ({
                   {truck.moistureLevel}%
                 </td>
                 <td className="px-2 py-3 whitespace-nowrap">
-                  <StatusBadge status={truck.status} />
+                  <StatusBadge status={truck.status} truck={truck} />
                 </td>
                 <td className="px-2 py-3 whitespace-nowrap text-xs text-gray-200">
                   {truck.waybillNumber || '-'}

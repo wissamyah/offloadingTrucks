@@ -1,4 +1,8 @@
 import { format, startOfDay, isBefore } from 'date-fns';
+import { toZonedTime } from 'date-fns-tz';
+
+// Nigeria/Kano is in West Africa Time (WAT) - UTC+1
+const NIGERIA_TIMEZONE = 'Africa/Lagos';
 
 export function getLocalTime(): Date {
   return new Date();
@@ -17,6 +21,13 @@ export function formatDate(dateString: string): string {
 export function formatTime(dateString: string): string {
   const date = new Date(dateString);
   return format(date, 'HH:mm');
+}
+
+// Format time in Nigeria/Kano timezone (WAT - UTC+1)
+export function formatTimeWAT(dateString: string): string {
+  const date = new Date(dateString);
+  const zonedDate = toZonedTime(date, NIGERIA_TIMEZONE);
+  return format(zonedDate, 'HH:mm');
 }
 
 export function getDateKey(dateString: string): string {
