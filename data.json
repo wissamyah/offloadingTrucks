@@ -5483,7 +5483,7 @@
       "bags": 50,
       "moistureLevel": 19,
       "truckNumber": "GWL 932 XA",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -5492,7 +5492,8 @@
       ],
       "createdAt": "2025-10-24T07:55:51.846Z",
       "updatedAt": "2025-10-24T07:55:51.846Z",
-      "waybillNumber": "6641"
+      "waybillNumber": "6641",
+      "netWeight": 4320
     },
     {
       "id": "truck_1761292689525_0_iw3l53zbw",
@@ -5815,6 +5816,6 @@
       "updatedAt": "2025-10-24T07:58:41.466Z"
     }
   ],
-  "lastModified": "2025-10-24T08:39:26.182Z",
+  "lastModified": "2025-10-24T08:39:48.296Z",
   "version": "2.0.0"
 }
