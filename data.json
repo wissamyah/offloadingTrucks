@@ -5698,7 +5698,7 @@
       "bags": 251,
       "moistureLevel": 22,
       "truckNumber": "MKA 624 ZF",
-      "status": "pending",
+      "status": "rejected",
       "statusHistory": [
         {
           "status": "pending",
@@ -5845,6 +5845,6 @@
       "netWeight": 4790
     }
   ],
-  "lastModified": "2025-10-24T11:09:36.833Z",
+  "lastModified": "2025-10-24T11:09:45.546Z",
   "version": "2.0.0"
 }
