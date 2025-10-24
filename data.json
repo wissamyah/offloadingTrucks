@@ -5538,7 +5538,7 @@
       "bags": 539,
       "moistureLevel": 20,
       "truckNumber": "LSD 472 XP",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
@@ -5546,7 +5546,8 @@
         }
       ],
       "createdAt": "2025-10-24T07:58:09.525Z",
-      "updatedAt": "2025-10-24T07:58:09.525Z"
+      "updatedAt": "2025-10-24T07:58:09.525Z",
+      "waybillNumber": "6658"
     },
     {
       "id": "truck_1761292689525_3_fjs1ka7df",
@@ -5826,6 +5827,6 @@
       "netWeight": 4790
     }
   ],
-  "lastModified": "2025-10-24T09:41:10.919Z",
+  "lastModified": "2025-10-24T09:41:58.840Z",
   "version": "2.0.0"
 }
