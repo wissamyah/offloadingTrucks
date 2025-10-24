@@ -5682,7 +5682,7 @@
     },
     {
       "id": "truck_1761292721466_0_tlh51f66s",
-      "supplierName": "MB Flour",
+      "supplierName": "M B Flour",
       "bags": 431,
       "moistureLevel": 19,
       "truckNumber": "ANC 659 XR",
@@ -5852,6 +5852,6 @@
       "netWeight": 4790
     }
   ],
-  "lastModified": "2025-10-24T11:47:24.781Z",
+  "lastModified": "2025-10-24T12:19:09.996Z",
   "version": "2.0.0"
 }
