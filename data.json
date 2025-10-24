@@ -5373,7 +5373,7 @@
       "bags": 201,
       "moistureLevel": 22,
       "truckNumber": "MKA 535 ZU",
-      "status": "pending",
+      "status": "rejected",
       "statusHistory": [
         {
           "status": "pending",
@@ -5845,6 +5845,6 @@
       "netWeight": 4790
     }
   ],
-  "lastModified": "2025-10-24T11:09:07.538Z",
+  "lastModified": "2025-10-24T11:09:27.441Z",
   "version": "2.0.0"
 }
