@@ -5782,7 +5782,7 @@
       "bags": 273,
       "moistureLevel": 22,
       "truckNumber": "KMC 470 ZF",
-      "status": "pending",
+      "status": "rejected",
       "statusHistory": [
         {
           "status": "pending",
@@ -5845,6 +5845,6 @@
       "netWeight": 4790
     }
   ],
-  "lastModified": "2025-10-24T11:09:27.441Z",
+  "lastModified": "2025-10-24T11:09:36.833Z",
   "version": "2.0.0"
 }
