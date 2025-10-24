@@ -5439,7 +5439,7 @@
       "bags": 500,
       "moistureLevel": 19,
       "truckNumber": "GME 286 XC",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -5448,7 +5448,8 @@
       ],
       "createdAt": "2025-10-24T07:55:51.846Z",
       "updatedAt": "2025-10-24T07:55:51.846Z",
-      "waybillNumber": "6654"
+      "waybillNumber": "6654",
+      "netWeight": 37560
     },
     {
       "id": "truck_1761292551846_6_hkx4gsfs8",
@@ -5844,6 +5845,6 @@
       "netWeight": 4790
     }
   ],
-  "lastModified": "2025-10-24T11:03:49.881Z",
+  "lastModified": "2025-10-24T11:04:19.026Z",
   "version": "2.0.0"
 }
