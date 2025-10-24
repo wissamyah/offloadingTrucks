@@ -5805,7 +5805,7 @@
       "bags": 520,
       "moistureLevel": 18,
       "truckNumber": "BKR 349 XA",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
@@ -5813,7 +5813,8 @@
         }
       ],
       "createdAt": "2025-10-24T07:58:41.466Z",
-      "updatedAt": "2025-10-24T07:58:41.466Z"
+      "updatedAt": "2025-10-24T07:58:41.466Z",
+      "waybillNumber": "6665"
     },
     {
       "id": "truck_1761292721466_8_w2v0tsnc4",
@@ -5852,6 +5853,6 @@
       "netWeight": 4790
     }
   ],
-  "lastModified": "2025-10-24T12:19:09.996Z",
+  "lastModified": "2025-10-24T12:24:10.780Z",
   "version": "2.0.0"
 }
