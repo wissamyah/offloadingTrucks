@@ -5686,7 +5686,7 @@
       "bags": 431,
       "moistureLevel": 19,
       "truckNumber": "ANC 659 XR",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -5695,7 +5695,9 @@
       ],
       "createdAt": "2025-10-24T07:58:41.466Z",
       "updatedAt": "2025-10-24T07:58:41.466Z",
-      "waybillNumber": "6659"
+      "waybillNumber": "6659",
+      "netWeight": 33440,
+      "deduction": 130
     },
     {
       "id": "truck_1761292721466_1_tfwv7wkiy",
@@ -5850,6 +5852,6 @@
       "netWeight": 4790
     }
   ],
-  "lastModified": "2025-10-24T11:28:18.200Z",
+  "lastModified": "2025-10-24T11:47:24.781Z",
   "version": "2.0.0"
 }
