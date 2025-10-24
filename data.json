@@ -5503,7 +5503,7 @@
       "bags": 35,
       "moistureLevel": 17,
       "truckNumber": "MSA 852 XA",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
@@ -5511,7 +5511,8 @@
         }
       ],
       "createdAt": "2025-10-24T07:58:09.525Z",
-      "updatedAt": "2025-10-24T07:58:09.525Z"
+      "updatedAt": "2025-10-24T07:58:09.525Z",
+      "waybillNumber": "6640"
     },
     {
       "id": "truck_1761292689525_1_9pis7xrtb",
@@ -5824,6 +5825,6 @@
       "netWeight": 4790
     }
   ],
-  "lastModified": "2025-10-24T09:21:35.492Z",
+  "lastModified": "2025-10-24T09:39:13.047Z",
   "version": "2.0.0"
 }
