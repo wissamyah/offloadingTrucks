@@ -5736,7 +5736,7 @@
       "bags": 450,
       "moistureLevel": 16,
       "truckNumber": "KFR 183 XA",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
@@ -5744,7 +5744,8 @@
         }
       ],
       "createdAt": "2025-10-24T07:58:41.466Z",
-      "updatedAt": "2025-10-24T07:58:41.466Z"
+      "updatedAt": "2025-10-24T07:58:41.466Z",
+      "waybillNumber": "6650"
     },
     {
       "id": "truck_1761292721466_5_yohmd2tkw",
@@ -5831,6 +5832,6 @@
       "netWeight": 4790
     }
   ],
-  "lastModified": "2025-10-24T09:54:43.574Z",
+  "lastModified": "2025-10-24T09:55:14.844Z",
   "version": "2.0.0"
 }
