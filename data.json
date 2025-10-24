@@ -5807,7 +5807,7 @@
       "bags": 55,
       "moistureLevel": 17,
       "truckNumber": "FGE 566 XB",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -5816,9 +5816,10 @@
       ],
       "createdAt": "2025-10-24T07:58:41.466Z",
       "updatedAt": "2025-10-24T07:58:41.466Z",
-      "waybillNumber": "6643"
+      "waybillNumber": "6643",
+      "netWeight": 4790
     }
   ],
-  "lastModified": "2025-10-24T08:43:38.637Z",
+  "lastModified": "2025-10-24T08:44:31.378Z",
   "version": "2.0.0"
 }
