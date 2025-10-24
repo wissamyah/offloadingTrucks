@@ -5853,40 +5853,8 @@
       "updatedAt": "2025-10-24T07:58:41.466Z",
       "waybillNumber": "6643",
       "netWeight": 4790
-    },
-    {
-      "id": "truck_1761310793716_0_92sd9ptad",
-      "supplierName": "Idris Garba",
-      "bags": 328,
-      "moistureLevel": 20,
-      "truckNumber": "FTA 446 XC",
-      "status": "offloaded",
-      "statusHistory": [
-        {
-          "status": "pending",
-          "timestamp": "2025-10-24T12:59:53.716Z"
-        },
-        {
-          "status": "scaled_in",
-          "timestamp": "2025-10-24T13:01:09.245Z",
-          "details": {
-            "waybillNumber": "9999999"
-          }
-        },
-        {
-          "status": "offloaded",
-          "timestamp": "2025-10-24T13:02:01.715Z",
-          "details": {
-            "netWeight": 3434343434343
-          }
-        }
-      ],
-      "createdAt": "2025-10-24T12:59:53.716Z",
-      "updatedAt": "2025-10-24T13:02:01.715Z",
-      "waybillNumber": "9999999",
-      "netWeight": 3434343434343
     }
   ],
-  "lastModified": "2025-10-24T13:02:01.787Z",
+  "lastModified": "2025-10-24T13:02:13.340Z",
   "version": "2.0.0"
 }
