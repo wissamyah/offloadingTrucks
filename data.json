@@ -5389,7 +5389,7 @@
       "bags": 376,
       "moistureLevel": 20,
       "truckNumber": "ZAR 657 XZ",
-      "status": "pending",
+      "status": "rejected",
       "statusHistory": [
         {
           "status": "pending",
@@ -5845,6 +5845,6 @@
       "netWeight": 4790
     }
   ],
-  "lastModified": "2025-10-24T11:09:45.546Z",
+  "lastModified": "2025-10-24T11:10:57.108Z",
   "version": "2.0.0"
 }
