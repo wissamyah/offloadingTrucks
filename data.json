@@ -5705,7 +5705,7 @@
       "bags": 163,
       "moistureLevel": 18,
       "truckNumber": "KTG 196 XB",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
@@ -5713,7 +5713,8 @@
         }
       ],
       "createdAt": "2025-10-24T07:58:41.466Z",
-      "updatedAt": "2025-10-24T07:58:41.466Z"
+      "updatedAt": "2025-10-24T07:58:41.466Z",
+      "waybillNumber": "6649"
     },
     {
       "id": "truck_1761292721466_3_ypuwsxyg0",
@@ -5833,6 +5834,6 @@
       "netWeight": 4790
     }
   ],
-  "lastModified": "2025-10-24T10:00:00.082Z",
+  "lastModified": "2025-10-24T10:02:23.545Z",
   "version": "2.0.0"
 }
