@@ -5665,15 +5665,19 @@
       "bags": 500,
       "moistureLevel": 20,
       "truckNumber": "RSH 342 XN",
-      "status": "pending",
+      "status": "rejected",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-10-24T07:58:09.525Z"
+        },
+        {
+          "status": "rejected",
+          "timestamp": "2025-10-24T15:42:50.687Z"
         }
       ],
       "createdAt": "2025-10-24T07:58:09.525Z",
-      "updatedAt": "2025-10-24T07:58:09.525Z"
+      "updatedAt": "2025-10-24T15:42:50.687Z"
     },
     {
       "id": "truck_1761292689525_8_901yrx8li",
@@ -5901,6 +5905,6 @@
       "netWeight": 4790
     }
   ],
-  "lastModified": "2025-10-24T15:30:45.209Z",
+  "lastModified": "2025-10-24T15:42:50.744Z",
   "version": "2.0.0"
 }
