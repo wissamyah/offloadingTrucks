@@ -5453,7 +5453,7 @@
     },
     {
       "id": "truck_1761292551846_6_hkx4gsfs8",
-      "supplierName": "Mustapha Musa",
+      "supplierName": "Murtala Musa",
       "bags": 220,
       "moistureLevel": 17,
       "truckNumber": "XA 249 FKA",
@@ -5845,6 +5845,6 @@
       "netWeight": 4790
     }
   ],
-  "lastModified": "2025-10-24T11:04:19.026Z",
+  "lastModified": "2025-10-24T11:09:07.538Z",
   "version": "2.0.0"
 }
