@@ -5420,7 +5420,7 @@
       "bags": 500,
       "moistureLevel": 18,
       "truckNumber": "LND 766 YA",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -5429,7 +5429,8 @@
       ],
       "createdAt": "2025-10-24T07:55:51.846Z",
       "updatedAt": "2025-10-24T07:55:51.846Z",
-      "waybillNumber": "6651"
+      "waybillNumber": "6651",
+      "netWeight": 37830
     },
     {
       "id": "truck_1761292551846_5_dr6rtnqpz",
@@ -5832,6 +5833,6 @@
       "netWeight": 4790
     }
   ],
-  "lastModified": "2025-10-24T09:55:14.844Z",
+  "lastModified": "2025-10-24T10:00:00.082Z",
   "version": "2.0.0"
 }
