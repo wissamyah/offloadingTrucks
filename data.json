@@ -5637,7 +5637,7 @@
     {
       "id": "truck_1761292689525_6_unyf1jm1r",
       "supplierName": "BL Barka Nigeria Ltd",
-      "bags": 200,
+      "bags": 209,
       "moistureLevel": 21,
       "truckNumber": "HJA 472 YD",
       "status": "scaled_in",
@@ -5893,6 +5893,6 @@
       "netWeight": 4790
     }
   ],
-  "lastModified": "2025-10-24T14:43:26.585Z",
+  "lastModified": "2025-10-24T15:30:30.888Z",
   "version": "2.0.0"
 }
