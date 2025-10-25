@@ -6310,15 +6310,23 @@
       "bags": 190,
       "moistureLevel": 18,
       "truckNumber": "MGR 640 XA",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-10-25T08:53:37.757Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-10-25T11:15:39.834Z",
+          "details": {
+            "waybillNumber": "XA 118 KWM"
+          }
         }
       ],
       "createdAt": "2025-10-25T08:53:37.757Z",
-      "updatedAt": "2025-10-25T08:53:37.757Z"
+      "updatedAt": "2025-10-25T11:15:39.834Z",
+      "waybillNumber": "XA 118 KWM"
     },
     {
       "id": "truck_1761382417757_8_7j8zdlduh",
@@ -6781,6 +6789,6 @@
       "deduction": 70
     }
   ],
-  "lastModified": "2025-10-25T11:00:46.999Z",
+  "lastModified": "2025-10-25T11:15:40.187Z",
   "version": "2.0.0"
 }
