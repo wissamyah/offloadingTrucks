@@ -6484,15 +6484,23 @@
       "bags": 91,
       "moistureLevel": 19,
       "truckNumber": "KMC 894 ZU",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-10-25T09:10:24.834Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-10-25T10:18:39.865Z",
+          "details": {
+            "waybillNumber": "6685"
+          }
         }
       ],
       "createdAt": "2025-10-25T09:10:24.834Z",
-      "updatedAt": "2025-10-25T09:10:24.834Z"
+      "updatedAt": "2025-10-25T10:18:39.865Z",
+      "waybillNumber": "6685"
     },
     {
       "id": "truck_1761383424834_4_z6b3k2052",
@@ -6623,6 +6631,6 @@
       "updatedAt": "2025-10-25T09:10:24.834Z"
     }
   ],
-  "lastModified": "2025-10-25T10:17:10.004Z",
+  "lastModified": "2025-10-25T10:18:41.161Z",
   "version": "2.0.0"
 }
