@@ -6468,15 +6468,19 @@
       "bags": 206,
       "moistureLevel": 23,
       "truckNumber": "MKR 397 XA",
-      "status": "pending",
+      "status": "rejected",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-10-25T09:10:24.834Z"
+        },
+        {
+          "status": "rejected",
+          "timestamp": "2025-10-25T10:49:18.598Z"
         }
       ],
       "createdAt": "2025-10-25T09:10:24.834Z",
-      "updatedAt": "2025-10-25T09:10:24.834Z"
+      "updatedAt": "2025-10-25T10:49:18.598Z"
     },
     {
       "id": "truck_1761383424834_2_br6008qnr",
@@ -6667,6 +6671,6 @@
       "waybillNumber": "6690"
     }
   ],
-  "lastModified": "2025-10-25T10:49:15.433Z",
+  "lastModified": "2025-10-25T10:49:19.186Z",
   "version": "2.0.0"
 }
