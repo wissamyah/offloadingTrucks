@@ -6020,15 +6020,19 @@
       "bags": 318,
       "moistureLevel": 23,
       "truckNumber": "KUJ 931 ZE",
-      "status": "pending",
+      "status": "rejected",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-10-25T08:53:04.090Z"
+        },
+        {
+          "status": "rejected",
+          "timestamp": "2025-10-25T10:49:41.337Z"
         }
       ],
       "createdAt": "2025-10-25T08:53:04.090Z",
-      "updatedAt": "2025-10-25T08:53:04.090Z"
+      "updatedAt": "2025-10-25T10:49:41.337Z"
     },
     {
       "id": "truck_1761382384090_2_e0xkjj48e",
@@ -6679,6 +6683,6 @@
       "waybillNumber": "6690"
     }
   ],
-  "lastModified": "2025-10-25T10:49:28.266Z",
+  "lastModified": "2025-10-25T10:49:41.383Z",
   "version": "2.0.0"
 }
