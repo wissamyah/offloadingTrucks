@@ -6165,14 +6165,14 @@
         },
         {
           "status": "offloaded",
-          "timestamp": "2025-10-25T11:16:36.128Z",
+          "timestamp": "2025-10-25T11:17:00.450Z",
           "details": {
             "netWeight": 33480
           }
         }
       ],
       "createdAt": "2025-10-25T08:53:04.090Z",
-      "updatedAt": "2025-10-25T11:16:36.128Z",
+      "updatedAt": "2025-10-25T11:17:00.450Z",
       "waybillNumber": "6682",
       "netWeight": 33480
     },
@@ -6805,6 +6805,6 @@
       "deduction": 70
     }
   ],
-  "lastModified": "2025-10-25T11:16:39.268Z",
+  "lastModified": "2025-10-25T11:17:01.379Z",
   "version": "2.0.0"
 }
