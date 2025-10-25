@@ -6737,8 +6737,24 @@
       "waybillNumber": "6675",
       "netWeight": 45710,
       "deduction": 150
+    },
+    {
+      "id": "truck_1761389820105_0_kbvnmwp39",
+      "supplierName": "Mustapha Lawan",
+      "bags": 530,
+      "moistureLevel": 21,
+      "truckNumber": "PKM 817 ZY",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-25T10:57:00.105Z"
+        }
+      ],
+      "createdAt": "2025-10-25T10:57:00.105Z",
+      "updatedAt": "2025-10-25T10:57:00.105Z"
     }
   ],
-  "lastModified": "2025-10-25T10:55:58.663Z",
+  "lastModified": "2025-10-25T10:57:00.173Z",
   "version": "2.0.0"
 }
