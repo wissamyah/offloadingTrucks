@@ -5981,8 +5981,152 @@
       ],
       "createdAt": "2025-10-24T15:44:43.253Z",
       "updatedAt": "2025-10-24T15:44:43.253Z"
+    },
+    {
+      "id": "truck_1761382384090_0_scuazep4f",
+      "supplierName": "B L Barka Nigeria Ltd",
+      "bags": 210,
+      "moistureLevel": 18,
+      "truckNumber": "HJA 980 YD",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-25T08:53:04.090Z"
+        }
+      ],
+      "createdAt": "2025-10-25T08:53:04.090Z",
+      "updatedAt": "2025-10-25T08:53:04.090Z"
+    },
+    {
+      "id": "truck_1761382384090_1_zmzplyy78",
+      "supplierName": "Jamilu Yahaya",
+      "bags": 318,
+      "moistureLevel": 23,
+      "truckNumber": "KUJ 931 ZE",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-25T08:53:04.090Z"
+        }
+      ],
+      "createdAt": "2025-10-25T08:53:04.090Z",
+      "updatedAt": "2025-10-25T08:53:04.090Z"
+    },
+    {
+      "id": "truck_1761382384090_2_e0xkjj48e",
+      "supplierName": "B L Barka",
+      "bags": 250,
+      "moistureLevel": 21,
+      "truckNumber": "APP 798 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-25T08:53:04.090Z"
+        }
+      ],
+      "createdAt": "2025-10-25T08:53:04.090Z",
+      "updatedAt": "2025-10-25T08:53:04.090Z"
+    },
+    {
+      "id": "truck_1761382384090_3_urdyr4yzl",
+      "supplierName": "Addau Isyaku",
+      "bags": 95,
+      "moistureLevel": 20,
+      "truckNumber": "ZUR 831 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-25T08:53:04.090Z"
+        }
+      ],
+      "createdAt": "2025-10-25T08:53:04.090Z",
+      "updatedAt": "2025-10-25T08:53:04.090Z"
+    },
+    {
+      "id": "truck_1761382384090_4_hxphekfsc",
+      "supplierName": "Idris Garba",
+      "bags": 132,
+      "moistureLevel": 23,
+      "truckNumber": "MTZ 67 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-25T08:53:04.090Z"
+        }
+      ],
+      "createdAt": "2025-10-25T08:53:04.090Z",
+      "updatedAt": "2025-10-25T08:53:04.090Z"
+    },
+    {
+      "id": "truck_1761382384090_5_9dibizcc1",
+      "supplierName": "Real Grains",
+      "bags": 110,
+      "moistureLevel": 21,
+      "truckNumber": "MKD 126 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-25T08:53:04.090Z"
+        }
+      ],
+      "createdAt": "2025-10-25T08:53:04.090Z",
+      "updatedAt": "2025-10-25T08:53:04.090Z"
+    },
+    {
+      "id": "truck_1761382384090_6_18kfzkszu",
+      "supplierName": "Suleiman Sani",
+      "bags": 191,
+      "moistureLevel": 19,
+      "truckNumber": "KMC 129 YK",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-25T08:53:04.090Z"
+        }
+      ],
+      "createdAt": "2025-10-25T08:53:04.090Z",
+      "updatedAt": "2025-10-25T08:53:04.090Z"
+    },
+    {
+      "id": "truck_1761382384090_7_j0owsl6qx",
+      "supplierName": "Mubarak Abba",
+      "bags": 450,
+      "moistureLevel": 17,
+      "truckNumber": "XA 118 KWM",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-25T08:53:04.090Z"
+        }
+      ],
+      "createdAt": "2025-10-25T08:53:04.090Z",
+      "updatedAt": "2025-10-25T08:53:04.090Z"
+    },
+    {
+      "id": "truck_1761382384090_8_jsjb4xui7",
+      "supplierName": "Jamilu jangale",
+      "bags": 188,
+      "moistureLevel": 20,
+      "truckNumber": "BAU 602 XR",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-25T08:53:04.090Z"
+        }
+      ],
+      "createdAt": "2025-10-25T08:53:04.090Z",
+      "updatedAt": "2025-10-25T08:53:04.090Z"
     }
   ],
-  "lastModified": "2025-10-24T16:39:40.719Z",
+  "lastModified": "2025-10-25T08:53:04.187Z",
   "version": "2.0.0"
 }
