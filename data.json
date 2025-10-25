@@ -6040,7 +6040,7 @@
       "bags": 250,
       "moistureLevel": 21,
       "truckNumber": "APP 798 XA",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -6052,11 +6052,21 @@
           "details": {
             "waybillNumber": "6692"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-10-25T11:48:40.247Z",
+          "details": {
+            "netWeight": 22260,
+            "deduction": 120
+          }
         }
       ],
       "createdAt": "2025-10-25T08:53:04.090Z",
-      "updatedAt": "2025-10-25T11:00:46.956Z",
-      "waybillNumber": "6692"
+      "updatedAt": "2025-10-25T11:48:40.247Z",
+      "waybillNumber": "6692",
+      "netWeight": 22260,
+      "deduction": 120
     },
     {
       "id": "truck_1761382384090_3_urdyr4yzl",
@@ -6839,6 +6849,6 @@
       "deduction": 70
     }
   ],
-  "lastModified": "2025-10-25T11:41:40.844Z",
+  "lastModified": "2025-10-25T11:48:40.286Z",
   "version": "2.0.0"
 }
