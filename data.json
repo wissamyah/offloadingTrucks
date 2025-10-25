@@ -6292,7 +6292,7 @@
       "bags": 500,
       "moistureLevel": 16,
       "truckNumber": "NSR 296 ZL",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -6304,11 +6304,19 @@
           "details": {
             "waybillNumber": "6695"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-10-25T13:41:52.629Z",
+          "details": {
+            "netWeight": 37510
+          }
         }
       ],
       "createdAt": "2025-10-25T08:53:37.757Z",
-      "updatedAt": "2025-10-25T11:22:22.037Z",
-      "waybillNumber": "6695"
+      "updatedAt": "2025-10-25T13:41:52.629Z",
+      "waybillNumber": "6695",
+      "netWeight": 37510
     },
     {
       "id": "truck_1761382417757_3_o9m9n41lo",
@@ -7001,6 +7009,6 @@
       "updatedAt": "2025-10-25T13:19:26.678Z"
     }
   ],
-  "lastModified": "2025-10-25T13:26:27.222Z",
+  "lastModified": "2025-10-25T13:41:52.726Z",
   "version": "2.0.0"
 }
