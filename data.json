@@ -6068,15 +6068,19 @@
       "bags": 132,
       "moistureLevel": 23,
       "truckNumber": "MTZ 67 XA",
-      "status": "pending",
+      "status": "rejected",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-10-25T08:53:04.090Z"
+        },
+        {
+          "status": "rejected",
+          "timestamp": "2025-10-25T10:49:24.098Z"
         }
       ],
       "createdAt": "2025-10-25T08:53:04.090Z",
-      "updatedAt": "2025-10-25T08:53:04.090Z"
+      "updatedAt": "2025-10-25T10:49:24.098Z"
     },
     {
       "id": "truck_1761382384090_5_9dibizcc1",
@@ -6671,6 +6675,6 @@
       "waybillNumber": "6690"
     }
   ],
-  "lastModified": "2025-10-25T10:49:19.186Z",
+  "lastModified": "2025-10-25T10:49:24.628Z",
   "version": "2.0.0"
 }
