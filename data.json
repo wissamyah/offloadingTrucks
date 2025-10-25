@@ -6108,15 +6108,23 @@
       "bags": 191,
       "moistureLevel": 19,
       "truckNumber": "KMC 129 YK",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-10-25T08:53:04.090Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-10-25T10:55:49.794Z",
+          "details": {
+            "waybillNumber": "6681"
+          }
         }
       ],
       "createdAt": "2025-10-25T08:53:04.090Z",
-      "updatedAt": "2025-10-25T08:53:04.090Z"
+      "updatedAt": "2025-10-25T10:55:49.794Z",
+      "waybillNumber": "6681"
     },
     {
       "id": "truck_1761382384090_7_j0owsl6qx",
@@ -6721,6 +6729,6 @@
       "deduction": 150
     }
   ],
-  "lastModified": "2025-10-25T10:52:25.781Z",
+  "lastModified": "2025-10-25T10:55:49.834Z",
   "version": "2.0.0"
 }
