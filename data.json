@@ -6208,7 +6208,7 @@
       "bags": 500,
       "moistureLevel": 19,
       "truckNumber": "BWR 289 XE",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -6220,11 +6220,19 @@
           "details": {
             "waybillNumber": "6689"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-10-25T11:56:38.277Z",
+          "details": {
+            "netWeight": 37510
+          }
         }
       ],
       "createdAt": "2025-10-25T08:53:37.757Z",
-      "updatedAt": "2025-10-25T10:35:23.824Z",
-      "waybillNumber": "6689"
+      "updatedAt": "2025-10-25T11:56:38.277Z",
+      "waybillNumber": "6689",
+      "netWeight": 37510
     },
     {
       "id": "truck_1761382417757_1_omw06u6az",
@@ -6849,6 +6857,6 @@
       "deduction": 70
     }
   ],
-  "lastModified": "2025-10-25T11:48:40.286Z",
+  "lastModified": "2025-10-25T11:56:38.367Z",
   "version": "2.0.0"
 }
