@@ -6292,15 +6292,23 @@
       "bags": 50,
       "moistureLevel": 20,
       "truckNumber": "XA 511 UY",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-10-25T08:55:24.654Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-10-25T10:08:11.721Z",
+          "details": {
+            "waybillNumber": "6680"
+          }
         }
       ],
       "createdAt": "2025-10-25T08:55:24.654Z",
-      "updatedAt": "2025-10-25T08:55:24.654Z"
+      "updatedAt": "2025-10-25T10:08:11.721Z",
+      "waybillNumber": "6680"
     },
     {
       "id": "truck_1761382524654_1_ud73gd9dg",
@@ -6591,6 +6599,6 @@
       "updatedAt": "2025-10-25T09:10:24.834Z"
     }
   ],
-  "lastModified": "2025-10-25T10:05:08.397Z",
+  "lastModified": "2025-10-25T10:08:56.356Z",
   "version": "2.0.0"
 }
