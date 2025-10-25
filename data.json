@@ -6114,15 +6114,19 @@
       "bags": 110,
       "moistureLevel": 21,
       "truckNumber": "MKD 126 XA",
-      "status": "pending",
+      "status": "rejected",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-10-25T08:53:04.090Z"
+        },
+        {
+          "status": "rejected",
+          "timestamp": "2025-10-25T12:15:40.884Z"
         }
       ],
       "createdAt": "2025-10-25T08:53:04.090Z",
-      "updatedAt": "2025-10-25T08:53:04.090Z"
+      "updatedAt": "2025-10-25T12:15:40.884Z"
     },
     {
       "id": "truck_1761382384090_6_18kfzkszu",
@@ -6893,6 +6897,6 @@
       "deduction": 70
     }
   ],
-  "lastModified": "2025-10-25T12:15:23.984Z",
+  "lastModified": "2025-10-25T12:15:40.956Z",
   "version": "2.0.0"
 }
