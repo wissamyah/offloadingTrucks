@@ -6220,7 +6220,7 @@
       ],
       "createdAt": "2025-10-25T08:53:04.090Z",
       "updatedAt": "2025-10-25T12:15:59.154Z",
-      "waybillNumber": "6689"
+      "waybillNumber": "0"
     },
     {
       "id": "truck_1761382417757_0_xi3wk7zjh",
@@ -6911,6 +6911,6 @@
       "deduction": 70
     }
   ],
-  "lastModified": "2025-10-25T12:45:12.234Z",
+  "lastModified": "2025-10-25T12:46:12.620Z",
   "version": "2.0.0"
 }
