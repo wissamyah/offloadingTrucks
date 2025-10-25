@@ -6420,15 +6420,23 @@
       "bags": 90,
       "moistureLevel": 16,
       "truckNumber": "MLF 726 XA",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-10-25T09:10:24.834Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-10-25T10:15:13.118Z",
+          "details": {
+            "waybillNumber": "6684"
+          }
         }
       ],
       "createdAt": "2025-10-25T09:10:24.834Z",
-      "updatedAt": "2025-10-25T09:10:24.834Z"
+      "updatedAt": "2025-10-25T10:15:13.118Z",
+      "waybillNumber": "6684"
     },
     {
       "id": "truck_1761383424834_1_r8qgbc57l",
@@ -6607,6 +6615,6 @@
       "updatedAt": "2025-10-25T09:10:24.834Z"
     }
   ],
-  "lastModified": "2025-10-25T10:09:48.019Z",
+  "lastModified": "2025-10-25T10:15:13.229Z",
   "version": "2.0.0"
 }
