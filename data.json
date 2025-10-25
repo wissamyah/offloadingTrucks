@@ -6998,15 +6998,23 @@
       "bags": 180,
       "moistureLevel": 16,
       "truckNumber": "KTG 56 XB",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-10-25T13:19:02.527Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-10-25T15:29:48.968Z",
+          "details": {
+            "waybillNumber": "6707"
+          }
         }
       ],
       "createdAt": "2025-10-25T13:19:02.527Z",
-      "updatedAt": "2025-10-25T13:19:02.527Z"
+      "updatedAt": "2025-10-25T15:29:48.969Z",
+      "waybillNumber": "6707"
     },
     {
       "id": "truck_1761398366678_0_kr4rdc5qc",
@@ -7049,6 +7057,6 @@
       "updatedAt": "2025-10-25T14:40:02.405Z"
     }
   ],
-  "lastModified": "2025-10-25T14:55:07.555Z",
+  "lastModified": "2025-10-25T15:29:49.097Z",
   "version": "2.0.0"
 }
