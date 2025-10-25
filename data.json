@@ -6397,8 +6397,168 @@
       ],
       "createdAt": "2025-10-25T08:55:24.654Z",
       "updatedAt": "2025-10-25T08:55:24.654Z"
+    },
+    {
+      "id": "truck_1761383424834_0_tcsg6fcuq",
+      "supplierName": "Musbahu Ashiru",
+      "bags": 90,
+      "moistureLevel": 16,
+      "truckNumber": "MLF 726 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-25T09:10:24.834Z"
+        }
+      ],
+      "createdAt": "2025-10-25T09:10:24.834Z",
+      "updatedAt": "2025-10-25T09:10:24.834Z"
+    },
+    {
+      "id": "truck_1761383424834_1_r8qgbc57l",
+      "supplierName": "Sammaf Agro Allied",
+      "bags": 206,
+      "moistureLevel": 23,
+      "truckNumber": "MKR 397 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-25T09:10:24.834Z"
+        }
+      ],
+      "createdAt": "2025-10-25T09:10:24.834Z",
+      "updatedAt": "2025-10-25T09:10:24.834Z"
+    },
+    {
+      "id": "truck_1761383424834_2_br6008qnr",
+      "supplierName": "Musbahu Ashiru",
+      "bags": 50,
+      "moistureLevel": 21,
+      "truckNumber": "KUJ 518 XU",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-25T09:10:24.834Z"
+        }
+      ],
+      "createdAt": "2025-10-25T09:10:24.834Z",
+      "updatedAt": "2025-10-25T09:10:24.834Z"
+    },
+    {
+      "id": "truck_1761383424834_3_dxli6r3nc",
+      "supplierName": "Addau Isyaku",
+      "bags": 91,
+      "moistureLevel": 19,
+      "truckNumber": "KMC 894 ZU",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-25T09:10:24.834Z"
+        }
+      ],
+      "createdAt": "2025-10-25T09:10:24.834Z",
+      "updatedAt": "2025-10-25T09:10:24.834Z"
+    },
+    {
+      "id": "truck_1761383424834_4_z6b3k2052",
+      "supplierName": "Mansur Mansur",
+      "bags": 104,
+      "moistureLevel": 20,
+      "truckNumber": "NSR 612 XL",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-25T09:10:24.834Z"
+        }
+      ],
+      "createdAt": "2025-10-25T09:10:24.834Z",
+      "updatedAt": "2025-10-25T09:10:24.834Z"
+    },
+    {
+      "id": "truck_1761383424834_5_mvjz9dbar",
+      "supplierName": "Alh Danasabe",
+      "bags": 39,
+      "moistureLevel": 12,
+      "truckNumber": "DRZ 090 LG",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-25T09:10:24.834Z"
+        }
+      ],
+      "createdAt": "2025-10-25T09:10:24.834Z",
+      "updatedAt": "2025-10-25T09:10:24.834Z"
+    },
+    {
+      "id": "truck_1761383424834_6_3i2w58n7y",
+      "supplierName": "Alh Danasabe",
+      "bags": 35,
+      "moistureLevel": 15,
+      "truckNumber": "DRZ 283 ZY",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-25T09:10:24.834Z"
+        }
+      ],
+      "createdAt": "2025-10-25T09:10:24.834Z",
+      "updatedAt": "2025-10-25T09:10:24.834Z"
+    },
+    {
+      "id": "truck_1761383424834_7_zk4418nk6",
+      "supplierName": "Mansur Mansur",
+      "bags": 129,
+      "moistureLevel": 18,
+      "truckNumber": "MSH 71 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-25T09:10:24.834Z"
+        }
+      ],
+      "createdAt": "2025-10-25T09:10:24.834Z",
+      "updatedAt": "2025-10-25T09:10:24.834Z"
+    },
+    {
+      "id": "truck_1761383424834_8_8oruk657j",
+      "supplierName": "H A Tahir",
+      "bags": 200,
+      "moistureLevel": 20,
+      "truckNumber": "RBA 25 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-25T09:10:24.834Z"
+        }
+      ],
+      "createdAt": "2025-10-25T09:10:24.834Z",
+      "updatedAt": "2025-10-25T09:10:24.834Z"
+    },
+    {
+      "id": "truck_1761383424834_9_uvp985iw0",
+      "supplierName": "Idris Haruna",
+      "bags": 520,
+      "moistureLevel": 19,
+      "truckNumber": "FGE 546 XT",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-25T09:10:24.834Z"
+        }
+      ],
+      "createdAt": "2025-10-25T09:10:24.834Z",
+      "updatedAt": "2025-10-25T09:10:24.834Z"
     }
   ],
-  "lastModified": "2025-10-25T09:06:52.229Z",
+  "lastModified": "2025-10-25T09:10:24.929Z",
   "version": "2.0.0"
 }
