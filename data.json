@@ -6500,7 +6500,7 @@
       "bags": 35,
       "moistureLevel": 15,
       "truckNumber": "DRZ 283 ZY",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -6512,11 +6512,19 @@
           "details": {
             "waybillNumber": "6679"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-10-25T09:11:44.283Z",
+          "details": {
+            "netWeight": 2960
+          }
         }
       ],
       "createdAt": "2025-10-25T09:10:24.834Z",
-      "updatedAt": "2025-10-25T09:10:52.957Z",
-      "waybillNumber": "6679"
+      "updatedAt": "2025-10-25T09:11:44.283Z",
+      "waybillNumber": "6679",
+      "netWeight": 2960
     },
     {
       "id": "truck_1761383424834_7_zk4418nk6",
@@ -6567,6 +6575,6 @@
       "updatedAt": "2025-10-25T09:10:24.834Z"
     }
   ],
-  "lastModified": "2025-10-25T09:10:53.036Z",
+  "lastModified": "2025-10-25T09:11:44.359Z",
   "version": "2.0.0"
 }
