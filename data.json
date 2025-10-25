@@ -6200,7 +6200,7 @@
       "bags": 188,
       "moistureLevel": 20,
       "truckNumber": "BAU 602 XR",
-      "status": "scaled_in",
+      "status": "rejected",
       "statusHistory": [
         {
           "status": "pending",
@@ -6212,10 +6212,14 @@
           "details": {
             "waybillNumber": "6689"
           }
+        },
+        {
+          "status": "rejected",
+          "timestamp": "2025-10-25T12:15:59.154Z"
         }
       ],
       "createdAt": "2025-10-25T08:53:04.090Z",
-      "updatedAt": "2025-10-25T11:58:41.975Z",
+      "updatedAt": "2025-10-25T12:15:59.154Z",
       "waybillNumber": "6689"
     },
     {
@@ -6897,6 +6901,6 @@
       "deduction": 70
     }
   ],
-  "lastModified": "2025-10-25T12:15:40.956Z",
+  "lastModified": "2025-10-25T12:15:59.687Z",
   "version": "2.0.0"
 }
