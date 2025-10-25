@@ -6983,8 +6983,24 @@
       ],
       "createdAt": "2025-10-25T13:19:02.527Z",
       "updatedAt": "2025-10-25T13:19:02.527Z"
+    },
+    {
+      "id": "truck_1761398366678_0_kr4rdc5qc",
+      "supplierName": "Celestine C James",
+      "bags": 165,
+      "moistureLevel": 20,
+      "truckNumber": "LAR 115 YD",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-25T13:19:26.678Z"
+        }
+      ],
+      "createdAt": "2025-10-25T13:19:26.678Z",
+      "updatedAt": "2025-10-25T13:19:26.678Z"
     }
   ],
-  "lastModified": "2025-10-25T13:19:02.608Z",
+  "lastModified": "2025-10-25T13:19:26.754Z",
   "version": "2.0.0"
 }
