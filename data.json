@@ -6492,14 +6492,14 @@
         },
         {
           "status": "scaled_in",
-          "timestamp": "2025-10-25T10:03:49.713Z",
+          "timestamp": "2025-10-25T10:04:16.547Z",
           "details": {
             "waybillNumber": "6678"
           }
         }
       ],
       "createdAt": "2025-10-25T09:10:24.834Z",
-      "updatedAt": "2025-10-25T10:03:49.713Z",
+      "updatedAt": "2025-10-25T10:04:16.547Z",
       "waybillNumber": "6678"
     },
     {
@@ -6583,6 +6583,6 @@
       "updatedAt": "2025-10-25T09:10:24.834Z"
     }
   ],
-  "lastModified": "2025-10-25T10:03:52.523Z",
+  "lastModified": "2025-10-25T10:04:19.072Z",
   "version": "2.0.0"
 }
