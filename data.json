@@ -6484,15 +6484,23 @@
       "bags": 39,
       "moistureLevel": 12,
       "truckNumber": "DRZ 090 LG",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-10-25T09:10:24.834Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-10-25T10:03:49.713Z",
+          "details": {
+            "waybillNumber": "6678"
+          }
         }
       ],
       "createdAt": "2025-10-25T09:10:24.834Z",
-      "updatedAt": "2025-10-25T09:10:24.834Z"
+      "updatedAt": "2025-10-25T10:03:49.713Z",
+      "waybillNumber": "6678"
     },
     {
       "id": "truck_1761383424834_6_3i2w58n7y",
@@ -6575,6 +6583,6 @@
       "updatedAt": "2025-10-25T09:10:24.834Z"
     }
   ],
-  "lastModified": "2025-10-25T09:11:44.359Z",
+  "lastModified": "2025-10-25T10:03:52.523Z",
   "version": "2.0.0"
 }
