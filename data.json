@@ -6150,7 +6150,7 @@
       "bags": 450,
       "moistureLevel": 17,
       "truckNumber": "XA 118 KWM",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -6162,11 +6162,19 @@
           "details": {
             "waybillNumber": "6682"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-10-25T11:16:36.128Z",
+          "details": {
+            "netWeight": 33480
+          }
         }
       ],
       "createdAt": "2025-10-25T08:53:04.090Z",
-      "updatedAt": "2025-10-25T11:16:31.905Z",
-      "waybillNumber": "6682"
+      "updatedAt": "2025-10-25T11:16:36.128Z",
+      "waybillNumber": "6682",
+      "netWeight": 33480
     },
     {
       "id": "truck_1761382384090_8_jsjb4xui7",
@@ -6797,6 +6805,6 @@
       "deduction": 70
     }
   ],
-  "lastModified": "2025-10-25T11:16:31.948Z",
+  "lastModified": "2025-10-25T11:16:39.268Z",
   "version": "2.0.0"
 }
