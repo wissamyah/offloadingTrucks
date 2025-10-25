@@ -6440,15 +6440,23 @@
       "bags": 530,
       "moistureLevel": 20,
       "truckNumber": "GME 311 XA",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-10-25T08:53:37.757Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-10-25T14:55:07.440Z",
+          "details": {
+            "waybillNumber": "6703"
+          }
         }
       ],
       "createdAt": "2025-10-25T08:53:37.757Z",
-      "updatedAt": "2025-10-25T08:53:37.757Z"
+      "updatedAt": "2025-10-25T14:55:07.440Z",
+      "waybillNumber": "6703"
     },
     {
       "id": "truck_1761382524654_0_mc40sa7f3",
@@ -7041,6 +7049,6 @@
       "updatedAt": "2025-10-25T14:40:02.405Z"
     }
   ],
-  "lastModified": "2025-10-25T14:54:32.442Z",
+  "lastModified": "2025-10-25T14:55:07.555Z",
   "version": "2.0.0"
 }
