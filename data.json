@@ -6208,15 +6208,19 @@
       "bags": 220,
       "moistureLevel": 21,
       "truckNumber": "FGE 64 ZY",
-      "status": "pending",
+      "status": "rejected",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-10-25T08:53:37.757Z"
+        },
+        {
+          "status": "rejected",
+          "timestamp": "2025-10-25T10:49:27.908Z"
         }
       ],
       "createdAt": "2025-10-25T08:53:37.757Z",
-      "updatedAt": "2025-10-25T08:53:37.757Z"
+      "updatedAt": "2025-10-25T10:49:27.908Z"
     },
     {
       "id": "truck_1761382417757_4_h74szm13c",
@@ -6675,6 +6679,6 @@
       "waybillNumber": "6690"
     }
   ],
-  "lastModified": "2025-10-25T10:49:24.628Z",
+  "lastModified": "2025-10-25T10:49:28.266Z",
   "version": "2.0.0"
 }
