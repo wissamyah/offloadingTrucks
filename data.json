@@ -6260,15 +6260,23 @@
       "bags": 420,
       "moistureLevel": 21,
       "truckNumber": "KTU 85 YA",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-10-25T08:53:37.757Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-10-25T13:14:52.296Z",
+          "details": {
+            "waybillNumber": "6694"
+          }
         }
       ],
       "createdAt": "2025-10-25T08:53:37.757Z",
-      "updatedAt": "2025-10-25T08:53:37.757Z"
+      "updatedAt": "2025-10-25T13:14:52.296Z",
+      "waybillNumber": "6694"
     },
     {
       "id": "truck_1761382417757_2_8l2bv5qys",
@@ -6921,6 +6929,6 @@
       "deduction": 70
     }
   ],
-  "lastModified": "2025-10-25T13:03:45.740Z",
+  "lastModified": "2025-10-25T13:14:52.644Z",
   "version": "2.0.0"
 }
