@@ -6344,7 +6344,7 @@
       "bags": 486,
       "moistureLevel": 18,
       "truckNumber": "CAL 628 XA",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -6356,11 +6356,21 @@
           "details": {
             "waybillNumber": "6696"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-10-25T16:35:59.047Z",
+          "details": {
+            "netWeight": 36040,
+            "deduction": 150
+          }
         }
       ],
       "createdAt": "2025-10-25T08:53:37.757Z",
-      "updatedAt": "2025-10-25T11:30:59.637Z",
-      "waybillNumber": "6696"
+      "updatedAt": "2025-10-25T16:35:59.047Z",
+      "waybillNumber": "6696",
+      "netWeight": 36040,
+      "deduction": 150
     },
     {
       "id": "truck_1761382417757_5_gpz7uqo5w",
@@ -7083,6 +7093,6 @@
       "waybillNumber": "6706"
     }
   ],
-  "lastModified": "2025-10-25T16:07:14.047Z",
+  "lastModified": "2025-10-25T16:35:59.212Z",
   "version": "2.0.0"
 }
