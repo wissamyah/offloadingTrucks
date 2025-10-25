@@ -6750,15 +6750,19 @@
       "bags": 129,
       "moistureLevel": 18,
       "truckNumber": "MSH 71 XA",
-      "status": "pending",
+      "status": "rejected",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-10-25T09:10:24.834Z"
+        },
+        {
+          "status": "rejected",
+          "timestamp": "2025-10-25T12:13:09.593Z"
         }
       ],
       "createdAt": "2025-10-25T09:10:24.834Z",
-      "updatedAt": "2025-10-25T09:10:24.834Z"
+      "updatedAt": "2025-10-25T12:13:09.593Z"
     },
     {
       "id": "truck_1761383424834_8_8oruk657j",
@@ -6877,6 +6881,6 @@
       "deduction": 70
     }
   ],
-  "lastModified": "2025-10-25T12:12:38.268Z",
+  "lastModified": "2025-10-25T12:13:09.664Z",
   "version": "2.0.0"
 }
