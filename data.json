@@ -7007,8 +7007,24 @@
       ],
       "createdAt": "2025-10-25T13:19:26.678Z",
       "updatedAt": "2025-10-25T13:19:26.678Z"
+    },
+    {
+      "id": "truck_1761403202405_0_qqr98svm1",
+      "supplierName": "Alh Danasabe",
+      "bags": 160,
+      "moistureLevel": 15,
+      "truckNumber": "NGU 488 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-25T14:40:02.405Z"
+        }
+      ],
+      "createdAt": "2025-10-25T14:40:02.405Z",
+      "updatedAt": "2025-10-25T14:40:02.405Z"
     }
   ],
-  "lastModified": "2025-10-25T13:41:52.726Z",
+  "lastModified": "2025-10-25T14:40:02.476Z",
   "version": "2.0.0"
 }
