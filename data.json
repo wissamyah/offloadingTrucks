@@ -6326,7 +6326,7 @@
       ],
       "createdAt": "2025-10-25T08:53:37.757Z",
       "updatedAt": "2025-10-25T11:15:39.834Z",
-      "waybillNumber": "XA 118 KWM"
+      "waybillNumber": "6683"
     },
     {
       "id": "truck_1761382417757_8_7j8zdlduh",
@@ -6789,6 +6789,6 @@
       "deduction": 70
     }
   ],
-  "lastModified": "2025-10-25T11:15:40.187Z",
+  "lastModified": "2025-10-25T11:15:54.420Z",
   "version": "2.0.0"
 }
