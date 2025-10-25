@@ -6324,7 +6324,7 @@
       "bags": 20,
       "moistureLevel": 15,
       "truckNumber": "KWY 70 LG",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -6336,11 +6336,19 @@
           "details": {
             "waybillNumber": "6676"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-10-25T09:05:13.904Z",
+          "details": {
+            "netWeight": 1800
+          }
         }
       ],
       "createdAt": "2025-10-25T08:55:24.654Z",
-      "updatedAt": "2025-10-25T09:05:05.296Z",
-      "waybillNumber": "6676"
+      "updatedAt": "2025-10-25T09:05:13.904Z",
+      "waybillNumber": "6676",
+      "netWeight": 1800
     },
     {
       "id": "truck_1761382524654_3_aw3czdvh5",
@@ -6375,6 +6383,6 @@
       "updatedAt": "2025-10-25T08:55:24.654Z"
     }
   ],
-  "lastModified": "2025-10-25T09:05:05.387Z",
+  "lastModified": "2025-10-25T09:05:13.981Z",
   "version": "2.0.0"
 }
