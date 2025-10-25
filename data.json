@@ -6935,8 +6935,56 @@
       "waybillNumber": "6674",
       "netWeight": 40540,
       "deduction": 70
+    },
+    {
+      "id": "truck_1761398342527_0_grpla8soe",
+      "supplierName": "Mansur Mansur",
+      "bags": 500,
+      "moistureLevel": 17,
+      "truckNumber": "MLF 648 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-25T13:19:02.527Z"
+        }
+      ],
+      "createdAt": "2025-10-25T13:19:02.527Z",
+      "updatedAt": "2025-10-25T13:19:02.527Z"
+    },
+    {
+      "id": "truck_1761398342527_1_6atlb6uez",
+      "supplierName": "B L Barka Nigeria Ltd",
+      "bags": 250,
+      "moistureLevel": 17,
+      "truckNumber": "GME 368 XB",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-25T13:19:02.527Z"
+        }
+      ],
+      "createdAt": "2025-10-25T13:19:02.527Z",
+      "updatedAt": "2025-10-25T13:19:02.527Z"
+    },
+    {
+      "id": "truck_1761398342527_2_x5k0sjb7v",
+      "supplierName": "Mukhtari Sale",
+      "bags": 180,
+      "moistureLevel": 16,
+      "truckNumber": "KTG 56 XB",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-25T13:19:02.527Z"
+        }
+      ],
+      "createdAt": "2025-10-25T13:19:02.527Z",
+      "updatedAt": "2025-10-25T13:19:02.527Z"
     }
   ],
-  "lastModified": "2025-10-25T13:15:28.293Z",
+  "lastModified": "2025-10-25T13:19:02.608Z",
   "version": "2.0.0"
 }
