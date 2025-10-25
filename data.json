@@ -7074,7 +7074,7 @@
       "bags": 160,
       "moistureLevel": 15,
       "truckNumber": "NGU 488 XA",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -7086,13 +7086,21 @@
           "details": {
             "waybillNumber": "6706"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-10-25T16:41:19.966Z",
+          "details": {
+            "netWeight": 13180
+          }
         }
       ],
       "createdAt": "2025-10-25T14:40:02.405Z",
-      "updatedAt": "2025-10-25T15:30:27.114Z",
-      "waybillNumber": "6706"
+      "updatedAt": "2025-10-25T16:41:19.966Z",
+      "waybillNumber": "6706",
+      "netWeight": 13180
     }
   ],
-  "lastModified": "2025-10-25T16:35:59.212Z",
+  "lastModified": "2025-10-25T16:41:20.027Z",
   "version": "2.0.0"
 }
