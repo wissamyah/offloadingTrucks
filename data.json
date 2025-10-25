@@ -6744,17 +6744,25 @@
       "bags": 530,
       "moistureLevel": 21,
       "truckNumber": "PKM 817 ZY",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-10-25T10:57:00.105Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-10-25T10:57:07.859Z",
+          "details": {
+            "waybillNumber": "6674"
+          }
         }
       ],
       "createdAt": "2025-10-25T10:57:00.105Z",
-      "updatedAt": "2025-10-25T10:57:00.105Z"
+      "updatedAt": "2025-10-25T10:57:07.859Z",
+      "waybillNumber": "6674"
     }
   ],
-  "lastModified": "2025-10-25T10:57:00.173Z",
+  "lastModified": "2025-10-25T10:57:08.411Z",
   "version": "2.0.0"
 }
