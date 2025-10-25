@@ -6324,15 +6324,23 @@
       "bags": 200,
       "moistureLevel": 20,
       "truckNumber": "GRA 686 XA",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-10-25T08:55:24.654Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-10-25T10:26:22.309Z",
+          "details": {
+            "waybillNumber": "6688"
+          }
         }
       ],
       "createdAt": "2025-10-25T08:55:24.654Z",
-      "updatedAt": "2025-10-25T08:55:24.654Z"
+      "updatedAt": "2025-10-25T10:26:22.309Z",
+      "waybillNumber": "6688"
     },
     {
       "id": "truck_1761382524654_2_n30camqkm",
@@ -6639,6 +6647,6 @@
       "updatedAt": "2025-10-25T09:10:24.834Z"
     }
   ],
-  "lastModified": "2025-10-25T10:20:06.426Z",
+  "lastModified": "2025-10-25T10:26:23.293Z",
   "version": "2.0.0"
 }
