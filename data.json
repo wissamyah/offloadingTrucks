@@ -6248,15 +6248,19 @@
       "bags": 42,
       "moistureLevel": 20,
       "truckNumber": "SBG 886 XR",
-      "status": "pending",
+      "status": "rejected",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-10-25T08:53:37.757Z"
+        },
+        {
+          "status": "rejected",
+          "timestamp": "2025-10-25T10:50:03.710Z"
         }
       ],
       "createdAt": "2025-10-25T08:53:37.757Z",
-      "updatedAt": "2025-10-25T08:53:37.757Z"
+      "updatedAt": "2025-10-25T10:50:03.710Z"
     },
     {
       "id": "truck_1761382417757_6_0m3rx25ti",
@@ -6683,6 +6687,6 @@
       "waybillNumber": "6690"
     }
   ],
-  "lastModified": "2025-10-25T10:49:41.383Z",
+  "lastModified": "2025-10-25T10:50:04.364Z",
   "version": "2.0.0"
 }
