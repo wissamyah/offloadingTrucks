@@ -6306,7 +6306,7 @@
     },
     {
       "id": "truck_1761382417757_6_0m3rx25ti",
-      "supplierName": "Mukhtari Sale",
+      "supplierName": "Mukhtari Saleh",
       "bags": 250,
       "moistureLevel": 20,
       "truckNumber": "KWR 168 XA",
@@ -6805,6 +6805,6 @@
       "deduction": 70
     }
   ],
-  "lastModified": "2025-10-25T11:17:01.379Z",
+  "lastModified": "2025-10-25T11:17:17.902Z",
   "version": "2.0.0"
 }
