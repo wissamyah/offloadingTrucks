@@ -6998,15 +6998,23 @@
       "bags": 165,
       "moistureLevel": 20,
       "truckNumber": "LAR 115 YD",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-10-25T13:19:26.678Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-10-25T14:53:58.844Z",
+          "details": {
+            "waybillNumber": "6705"
+          }
         }
       ],
       "createdAt": "2025-10-25T13:19:26.678Z",
-      "updatedAt": "2025-10-25T13:19:26.678Z"
+      "updatedAt": "2025-10-25T14:53:58.845Z",
+      "waybillNumber": "6705"
     },
     {
       "id": "truck_1761403202405_0_qqr98svm1",
@@ -7025,6 +7033,6 @@
       "updatedAt": "2025-10-25T14:40:02.405Z"
     }
   ],
-  "lastModified": "2025-10-25T14:40:02.476Z",
+  "lastModified": "2025-10-25T14:53:58.956Z",
   "version": "2.0.0"
 }
