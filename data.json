@@ -6277,8 +6277,88 @@
       ],
       "createdAt": "2025-10-25T08:53:37.757Z",
       "updatedAt": "2025-10-25T08:53:37.757Z"
+    },
+    {
+      "id": "truck_1761382524654_0_mc40sa7f3",
+      "supplierName": "Celestine C James",
+      "bags": 50,
+      "moistureLevel": 20,
+      "truckNumber": "XA 511 UY",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-25T08:55:24.654Z"
+        }
+      ],
+      "createdAt": "2025-10-25T08:55:24.654Z",
+      "updatedAt": "2025-10-25T08:55:24.654Z"
+    },
+    {
+      "id": "truck_1761382524654_1_ud73gd9dg",
+      "supplierName": "Alh Danasabe",
+      "bags": 200,
+      "moistureLevel": 20,
+      "truckNumber": "GRA 686 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-25T08:55:24.654Z"
+        }
+      ],
+      "createdAt": "2025-10-25T08:55:24.654Z",
+      "updatedAt": "2025-10-25T08:55:24.654Z"
+    },
+    {
+      "id": "truck_1761382524654_2_n30camqkm",
+      "supplierName": "Mubarak Abba",
+      "bags": 20,
+      "moistureLevel": 15,
+      "truckNumber": "KWY 70 LG",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-25T08:55:24.654Z"
+        }
+      ],
+      "createdAt": "2025-10-25T08:55:24.654Z",
+      "updatedAt": "2025-10-25T08:55:24.654Z"
+    },
+    {
+      "id": "truck_1761382524654_3_aw3czdvh5",
+      "supplierName": "Mubarak Abba",
+      "bags": 30,
+      "moistureLevel": 16,
+      "truckNumber": "NNG 489 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-25T08:55:24.654Z"
+        }
+      ],
+      "createdAt": "2025-10-25T08:55:24.654Z",
+      "updatedAt": "2025-10-25T08:55:24.654Z"
+    },
+    {
+      "id": "truck_1761382524654_4_ocp0jk2xs",
+      "supplierName": "Mubarak Abba",
+      "bags": 100,
+      "moistureLevel": 19,
+      "truckNumber": "KMC 894 ZV",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-25T08:55:24.654Z"
+        }
+      ],
+      "createdAt": "2025-10-25T08:55:24.654Z",
+      "updatedAt": "2025-10-25T08:55:24.654Z"
     }
   ],
-  "lastModified": "2025-10-25T08:54:27.834Z",
+  "lastModified": "2025-10-25T08:55:24.715Z",
   "version": "2.0.0"
 }
