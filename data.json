@@ -6074,15 +6074,19 @@
       "bags": 95,
       "moistureLevel": 20,
       "truckNumber": "ZUR 831 XA",
-      "status": "pending",
+      "status": "rejected",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-10-25T08:53:04.090Z"
+        },
+        {
+          "status": "rejected",
+          "timestamp": "2025-10-25T12:15:23.912Z"
         }
       ],
       "createdAt": "2025-10-25T08:53:04.090Z",
-      "updatedAt": "2025-10-25T08:53:04.090Z"
+      "updatedAt": "2025-10-25T12:15:23.912Z"
     },
     {
       "id": "truck_1761382384090_4_hxphekfsc",
@@ -6889,6 +6893,6 @@
       "deduction": 70
     }
   ],
-  "lastModified": "2025-10-25T12:14:03.169Z",
+  "lastModified": "2025-10-25T12:15:23.984Z",
   "version": "2.0.0"
 }
