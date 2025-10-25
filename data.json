@@ -6546,15 +6546,19 @@
       "bags": 100,
       "moistureLevel": 19,
       "truckNumber": "KMC 894 ZV",
-      "status": "pending",
+      "status": "rejected",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-10-25T08:55:24.654Z"
+        },
+        {
+          "status": "rejected",
+          "timestamp": "2025-10-25T12:13:35.963Z"
         }
       ],
       "createdAt": "2025-10-25T08:55:24.654Z",
-      "updatedAt": "2025-10-25T08:55:24.654Z"
+      "updatedAt": "2025-10-25T12:13:35.963Z"
     },
     {
       "id": "truck_1761383424834_0_tcsg6fcuq",
@@ -6881,6 +6885,6 @@
       "deduction": 70
     }
   ],
-  "lastModified": "2025-10-25T12:13:09.664Z",
+  "lastModified": "2025-10-25T12:13:36.358Z",
   "version": "2.0.0"
 }
