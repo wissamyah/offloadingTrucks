@@ -6414,7 +6414,7 @@
       "bags": 200,
       "moistureLevel": 20,
       "truckNumber": "GRA 686 XA",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -6426,11 +6426,21 @@
           "details": {
             "waybillNumber": "6688"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-10-25T11:41:40.737Z",
+          "details": {
+            "netWeight": 16360,
+            "deduction": 130
+          }
         }
       ],
       "createdAt": "2025-10-25T08:55:24.654Z",
-      "updatedAt": "2025-10-25T10:26:22.309Z",
-      "waybillNumber": "6688"
+      "updatedAt": "2025-10-25T11:41:40.737Z",
+      "waybillNumber": "6688",
+      "netWeight": 16360,
+      "deduction": 130
     },
     {
       "id": "truck_1761382524654_2_n30camqkm",
@@ -6829,6 +6839,6 @@
       "deduction": 70
     }
   ],
-  "lastModified": "2025-10-25T11:33:30.104Z",
+  "lastModified": "2025-10-25T11:41:40.844Z",
   "version": "2.0.0"
 }
