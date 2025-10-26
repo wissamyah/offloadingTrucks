@@ -7179,8 +7179,72 @@
       ],
       "createdAt": "2025-10-26T07:31:28.638Z",
       "updatedAt": "2025-10-26T07:31:28.638Z"
+    },
+    {
+      "id": "truck_1761463912854_0_c8xhypfzu",
+      "supplierName": "Shamsu Muhammad",
+      "bags": 39,
+      "moistureLevel": 19,
+      "truckNumber": "KMC 34 XQ",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-26T07:31:52.854Z"
+        }
+      ],
+      "createdAt": "2025-10-26T07:31:52.856Z",
+      "updatedAt": "2025-10-26T07:31:52.856Z"
+    },
+    {
+      "id": "truck_1761463912854_1_jnu0dtsmt",
+      "supplierName": "Mubarak Abba",
+      "bags": 100,
+      "moistureLevel": 18,
+      "truckNumber": "RSH 679 XS",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-26T07:31:52.856Z"
+        }
+      ],
+      "createdAt": "2025-10-26T07:31:52.856Z",
+      "updatedAt": "2025-10-26T07:31:52.856Z"
+    },
+    {
+      "id": "truck_1761463912854_2_pkotohiel",
+      "supplierName": "Idris Garba",
+      "bags": 50,
+      "moistureLevel": 18,
+      "truckNumber": "EKY 742 XH",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-26T07:31:52.856Z"
+        }
+      ],
+      "createdAt": "2025-10-26T07:31:52.856Z",
+      "updatedAt": "2025-10-26T07:31:52.856Z"
+    },
+    {
+      "id": "truck_1761463912854_3_cnyo67gh1",
+      "supplierName": "Maazu Abdullahi",
+      "bags": 154,
+      "moistureLevel": 20,
+      "truckNumber": "KTN 107 XB",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-26T07:31:52.856Z"
+        }
+      ],
+      "createdAt": "2025-10-26T07:31:52.856Z",
+      "updatedAt": "2025-10-26T07:31:52.856Z"
     }
   ],
-  "lastModified": "2025-10-26T07:31:28.782Z",
+  "lastModified": "2025-10-26T07:31:53.849Z",
   "version": "2.0.0"
 }
