@@ -7243,8 +7243,88 @@
       ],
       "createdAt": "2025-10-26T07:31:52.856Z",
       "updatedAt": "2025-10-26T07:31:52.856Z"
+    },
+    {
+      "id": "truck_1761464024077_0_g1e0hjtd1",
+      "supplierName": "Idris Garba",
+      "bags": 501,
+      "moistureLevel": 19,
+      "truckNumber": "KMC 124 XG",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-26T07:33:44.078Z"
+        }
+      ],
+      "createdAt": "2025-10-26T07:33:44.078Z",
+      "updatedAt": "2025-10-26T07:33:44.078Z"
+    },
+    {
+      "id": "truck_1761464024077_1_szldsvo9j",
+      "supplierName": "M B Flour",
+      "bags": 500,
+      "moistureLevel": 19,
+      "truckNumber": "FKJ 131 YA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-26T07:33:44.078Z"
+        }
+      ],
+      "createdAt": "2025-10-26T07:33:44.078Z",
+      "updatedAt": "2025-10-26T07:33:44.078Z"
+    },
+    {
+      "id": "truck_1761464024077_2_7j69w2fsq",
+      "supplierName": "Mujaheed Sabiu",
+      "bags": 150,
+      "moistureLevel": 20,
+      "truckNumber": "MKA 855 ZF",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-26T07:33:44.078Z"
+        }
+      ],
+      "createdAt": "2025-10-26T07:33:44.078Z",
+      "updatedAt": "2025-10-26T07:33:44.078Z"
+    },
+    {
+      "id": "truck_1761464024077_3_rfnoqclwq",
+      "supplierName": "Mujaheed Sabiu",
+      "bags": 280,
+      "moistureLevel": 19,
+      "truckNumber": "JJN 31 YS",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-26T07:33:44.078Z"
+        }
+      ],
+      "createdAt": "2025-10-26T07:33:44.078Z",
+      "updatedAt": "2025-10-26T07:33:44.078Z"
+    },
+    {
+      "id": "truck_1761464024077_4_7nj53pt2e",
+      "supplierName": "Alh Danasabe",
+      "bags": 360,
+      "moistureLevel": 18,
+      "truckNumber": "FKA 845 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-26T07:33:44.078Z"
+        }
+      ],
+      "createdAt": "2025-10-26T07:33:44.078Z",
+      "updatedAt": "2025-10-26T07:33:44.078Z"
     }
   ],
-  "lastModified": "2025-10-26T07:31:53.849Z",
+  "lastModified": "2025-10-26T07:33:44.182Z",
   "version": "2.0.0"
 }
