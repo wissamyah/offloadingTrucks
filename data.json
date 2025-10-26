@@ -7106,15 +7106,23 @@
       "bags": 211,
       "moistureLevel": 18,
       "truckNumber": "AKK 415 ZA",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-10-26T07:31:28.638Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-10-26T09:30:35.071Z",
+          "details": {
+            "waybillNumber": "6721"
+          }
         }
       ],
       "createdAt": "2025-10-26T07:31:28.638Z",
-      "updatedAt": "2025-10-26T07:31:28.638Z"
+      "updatedAt": "2025-10-26T09:30:35.071Z",
+      "waybillNumber": "6721"
     },
     {
       "id": "truck_1761463888638_1_nzypy0bwr",
@@ -7589,6 +7597,6 @@
       "netWeight": 25200
     }
   ],
-  "lastModified": "2025-10-26T09:28:17.241Z",
+  "lastModified": "2025-10-26T09:30:35.289Z",
   "version": "2.0.0"
 }
