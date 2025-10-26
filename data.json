@@ -7218,7 +7218,7 @@
       "bags": 39,
       "moistureLevel": 19,
       "truckNumber": "KMC 34 XQ",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -7230,11 +7230,19 @@
           "details": {
             "waybillNumber": "6718"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-10-26T09:28:17.084Z",
+          "details": {
+            "netWeight": 2910
+          }
         }
       ],
       "createdAt": "2025-10-26T07:31:52.856Z",
-      "updatedAt": "2025-10-26T08:08:18.673Z",
-      "waybillNumber": "6718"
+      "updatedAt": "2025-10-26T09:28:17.084Z",
+      "waybillNumber": "6718",
+      "netWeight": 2910
     },
     {
       "id": "truck_1761463912854_1_jnu0dtsmt",
@@ -7581,6 +7589,6 @@
       "netWeight": 25200
     }
   ],
-  "lastModified": "2025-10-26T09:25:18.249Z",
+  "lastModified": "2025-10-26T09:28:17.241Z",
   "version": "2.0.0"
 }
