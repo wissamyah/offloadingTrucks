@@ -7777,8 +7777,72 @@
       "createdAt": "2025-10-26T10:56:09.009Z",
       "updatedAt": "2025-10-26T10:57:35.014Z",
       "waybillNumber": "6628"
+    },
+    {
+      "id": "truck_1761482590736_0_w5wsuvn0u",
+      "supplierName": "Jamilu Yahaya",
+      "bags": 216,
+      "moistureLevel": 20,
+      "truckNumber": "DAL 102 YE",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-26T12:43:10.736Z"
+        }
+      ],
+      "createdAt": "2025-10-26T12:43:10.736Z",
+      "updatedAt": "2025-10-26T12:43:10.736Z"
+    },
+    {
+      "id": "truck_1761482590736_1_wt9fscnu8",
+      "supplierName": "Abubakar Muhd Tukur",
+      "bags": 48,
+      "moistureLevel": 20,
+      "truckNumber": "SML 537 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-26T12:43:10.736Z"
+        }
+      ],
+      "createdAt": "2025-10-26T12:43:10.736Z",
+      "updatedAt": "2025-10-26T12:43:10.736Z"
+    },
+    {
+      "id": "truck_1761482590736_2_hj9zg072z",
+      "supplierName": "Idris Garba",
+      "bags": 190,
+      "moistureLevel": 17,
+      "truckNumber": "GME 770 XB",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-26T12:43:10.736Z"
+        }
+      ],
+      "createdAt": "2025-10-26T12:43:10.736Z",
+      "updatedAt": "2025-10-26T12:43:10.736Z"
+    },
+    {
+      "id": "truck_1761482590736_3_tg19c4fyr",
+      "supplierName": "Mukhtari Sale",
+      "bags": 241,
+      "moistureLevel": 16,
+      "truckNumber": "KTG 433 XB",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-26T12:43:10.736Z"
+        }
+      ],
+      "createdAt": "2025-10-26T12:43:10.736Z",
+      "updatedAt": "2025-10-26T12:43:10.736Z"
     }
   ],
-  "lastModified": "2025-10-26T12:40:00.469Z",
+  "lastModified": "2025-10-26T12:43:10.841Z",
   "version": "2.0.0"
 }
