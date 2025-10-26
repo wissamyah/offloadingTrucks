@@ -7498,15 +7498,23 @@
       "bags": 50,
       "moistureLevel": 19,
       "truckNumber": "RNG 976 XC",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-10-26T07:50:38.509Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-10-26T08:03:21.799Z",
+          "details": {
+            "waybillNumber": "6716"
+          }
         }
       ],
       "createdAt": "2025-10-26T07:50:38.509Z",
-      "updatedAt": "2025-10-26T07:50:38.509Z"
+      "updatedAt": "2025-10-26T08:03:21.799Z",
+      "waybillNumber": "6716"
     },
     {
       "id": "truck_1761465503450_0_70cnufjge",
@@ -7533,6 +7541,6 @@
       "waybillNumber": "6712"
     }
   ],
-  "lastModified": "2025-10-26T08:00:44.430Z",
+  "lastModified": "2025-10-26T08:03:21.930Z",
   "version": "2.0.0"
 }
