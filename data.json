@@ -7099,8 +7099,88 @@
       "updatedAt": "2025-10-25T16:41:19.966Z",
       "waybillNumber": "6706",
       "netWeight": 13180
+    },
+    {
+      "id": "truck_1761463888638_0_4g14lh6lu",
+      "supplierName": "Mukhtari Sale",
+      "bags": 211,
+      "moistureLevel": 18,
+      "truckNumber": "AKK 415 ZA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-26T07:31:28.638Z"
+        }
+      ],
+      "createdAt": "2025-10-26T07:31:28.638Z",
+      "updatedAt": "2025-10-26T07:31:28.638Z"
+    },
+    {
+      "id": "truck_1761463888638_1_nzypy0bwr",
+      "supplierName": "Idris Haruna",
+      "bags": 475,
+      "moistureLevel": 15,
+      "truckNumber": "BAU 241 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-26T07:31:28.638Z"
+        }
+      ],
+      "createdAt": "2025-10-26T07:31:28.638Z",
+      "updatedAt": "2025-10-26T07:31:28.638Z"
+    },
+    {
+      "id": "truck_1761463888638_2_lpenfwlpb",
+      "supplierName": "Alh Danasabe",
+      "bags": 38,
+      "moistureLevel": 16,
+      "truckNumber": "DRZ 041 LG",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-26T07:31:28.638Z"
+        }
+      ],
+      "createdAt": "2025-10-26T07:31:28.638Z",
+      "updatedAt": "2025-10-26T07:31:28.638Z"
+    },
+    {
+      "id": "truck_1761463888638_3_4uc4uizyw",
+      "supplierName": "Mansur Mansur",
+      "bags": 100,
+      "moistureLevel": 20,
+      "truckNumber": "KMC 877 XD",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-26T07:31:28.638Z"
+        }
+      ],
+      "createdAt": "2025-10-26T07:31:28.638Z",
+      "updatedAt": "2025-10-26T07:31:28.638Z"
+    },
+    {
+      "id": "truck_1761463888638_4_9f2cm80qm",
+      "supplierName": "Idris Garba",
+      "bags": 90,
+      "moistureLevel": 20,
+      "truckNumber": "ZUR 472 YL",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-26T07:31:28.638Z"
+        }
+      ],
+      "createdAt": "2025-10-26T07:31:28.638Z",
+      "updatedAt": "2025-10-26T07:31:28.638Z"
     }
   ],
-  "lastModified": "2025-10-25T16:41:20.027Z",
+  "lastModified": "2025-10-26T07:31:28.782Z",
   "version": "2.0.0"
 }
