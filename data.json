@@ -7562,7 +7562,7 @@
       "bags": 500,
       "moistureLevel": 19,
       "truckNumber": "WRN 444 XA",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -7574,11 +7574,21 @@
           "details": {
             "waybillNumber": "6722"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-10-26T11:46:31.475Z",
+          "details": {
+            "netWeight": 38330,
+            "deduction": 150
+          }
         }
       ],
       "createdAt": "2025-10-26T07:50:15.326Z",
-      "updatedAt": "2025-10-26T09:33:37.198Z",
-      "waybillNumber": "6722"
+      "updatedAt": "2025-10-26T11:46:31.475Z",
+      "waybillNumber": "6722",
+      "netWeight": 38330,
+      "deduction": 150
     },
     {
       "id": "truck_1761465038508_0_7c2zmho6c",
@@ -7725,6 +7735,6 @@
       "waybillNumber": "6628"
     }
   ],
-  "lastModified": "2025-10-26T11:34:10.251Z",
+  "lastModified": "2025-10-26T11:46:31.543Z",
   "version": "2.0.0"
 }
