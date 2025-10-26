@@ -7339,8 +7339,88 @@
       ],
       "createdAt": "2025-10-26T07:33:44.078Z",
       "updatedAt": "2025-10-26T07:33:44.078Z"
+    },
+    {
+      "id": "truck_1761465015326_0_yf73rrmmv",
+      "supplierName": "Alh Dayyabu",
+      "bags": 123,
+      "moistureLevel": 22,
+      "truckNumber": "TRR 925 YX",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-26T07:50:15.326Z"
+        }
+      ],
+      "createdAt": "2025-10-26T07:50:15.326Z",
+      "updatedAt": "2025-10-26T07:50:15.326Z"
+    },
+    {
+      "id": "truck_1761465015326_1_9exjiy8bl",
+      "supplierName": "H A Tahir",
+      "bags": 521,
+      "moistureLevel": 19,
+      "truckNumber": "BDG 558 XV",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-26T07:50:15.326Z"
+        }
+      ],
+      "createdAt": "2025-10-26T07:50:15.326Z",
+      "updatedAt": "2025-10-26T07:50:15.326Z"
+    },
+    {
+      "id": "truck_1761465015326_2_u2745nmd8",
+      "supplierName": "Mubarak Abba",
+      "bags": 550,
+      "moistureLevel": 15,
+      "truckNumber": "BWR 739 XE",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-26T07:50:15.326Z"
+        }
+      ],
+      "createdAt": "2025-10-26T07:50:15.326Z",
+      "updatedAt": "2025-10-26T07:50:15.326Z"
+    },
+    {
+      "id": "truck_1761465015326_3_f3ysbt6kx",
+      "supplierName": "MD Yahaya Global",
+      "bags": 244,
+      "moistureLevel": 18,
+      "truckNumber": "SHD 840 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-26T07:50:15.326Z"
+        }
+      ],
+      "createdAt": "2025-10-26T07:50:15.326Z",
+      "updatedAt": "2025-10-26T07:50:15.326Z"
+    },
+    {
+      "id": "truck_1761465015326_4_c50ulax43",
+      "supplierName": "S M Maigoro",
+      "bags": 500,
+      "moistureLevel": 19,
+      "truckNumber": "WRN 444 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-26T07:50:15.326Z"
+        }
+      ],
+      "createdAt": "2025-10-26T07:50:15.326Z",
+      "updatedAt": "2025-10-26T07:50:15.326Z"
     }
   ],
-  "lastModified": "2025-10-26T07:37:08.147Z",
+  "lastModified": "2025-10-26T07:50:15.444Z",
   "version": "2.0.0"
 }
