@@ -7274,7 +7274,7 @@
       "bags": 50,
       "moistureLevel": 18,
       "truckNumber": "EKY 742 XH",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -7286,11 +7286,19 @@
           "details": {
             "waybillNumber": "6717"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-10-26T09:50:25.572Z",
+          "details": {
+            "netWeight": 4050
+          }
         }
       ],
       "createdAt": "2025-10-26T07:31:52.856Z",
-      "updatedAt": "2025-10-26T08:05:36.912Z",
-      "waybillNumber": "6717"
+      "updatedAt": "2025-10-26T09:50:25.572Z",
+      "waybillNumber": "6717",
+      "netWeight": 4050
     },
     {
       "id": "truck_1761463912854_3_cnyo67gh1",
@@ -7605,6 +7613,6 @@
       "netWeight": 25200
     }
   ],
-  "lastModified": "2025-10-26T09:33:37.296Z",
+  "lastModified": "2025-10-26T09:50:26.559Z",
   "version": "2.0.0"
 }
