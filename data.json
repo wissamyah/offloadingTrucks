@@ -7640,7 +7640,7 @@
       "bags": 240,
       "moistureLevel": 16,
       "truckNumber": "BAU 211 XW",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -7652,11 +7652,19 @@
           "details": {
             "waybillNumber": "6729"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-10-26T12:39:59.664Z",
+          "details": {
+            "netWeight": 20350
+          }
         }
       ],
       "createdAt": "2025-10-26T07:50:38.508Z",
-      "updatedAt": "2025-10-26T10:59:34.373Z",
-      "waybillNumber": "6729"
+      "updatedAt": "2025-10-26T12:39:59.664Z",
+      "waybillNumber": "6729",
+      "netWeight": 20350
     },
     {
       "id": "truck_1761465038508_2_i5a1ed29a",
@@ -7771,6 +7779,6 @@
       "waybillNumber": "6628"
     }
   ],
-  "lastModified": "2025-10-26T12:28:32.642Z",
+  "lastModified": "2025-10-26T12:40:00.469Z",
   "version": "2.0.0"
 }
