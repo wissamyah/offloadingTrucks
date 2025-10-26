@@ -7306,15 +7306,23 @@
       "bags": 154,
       "moistureLevel": 20,
       "truckNumber": "KTN 107 XB",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-10-26T07:31:52.856Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-10-26T10:07:20.455Z",
+          "details": {
+            "waybillNumber": "6725"
+          }
         }
       ],
       "createdAt": "2025-10-26T07:31:52.856Z",
-      "updatedAt": "2025-10-26T07:31:52.856Z"
+      "updatedAt": "2025-10-26T10:07:20.455Z",
+      "waybillNumber": "6725"
     },
     {
       "id": "truck_1761464024077_0_g1e0hjtd1",
@@ -7641,6 +7649,6 @@
       "netWeight": 25200
     }
   ],
-  "lastModified": "2025-10-26T10:05:05.855Z",
+  "lastModified": "2025-10-26T10:07:20.571Z",
   "version": "2.0.0"
 }
