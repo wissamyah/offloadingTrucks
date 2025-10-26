@@ -7419,8 +7419,72 @@
       ],
       "createdAt": "2025-10-26T07:50:15.326Z",
       "updatedAt": "2025-10-26T07:50:15.326Z"
+    },
+    {
+      "id": "truck_1761465038508_0_7c2zmho6c",
+      "supplierName": "M B Flour",
+      "bags": 528,
+      "moistureLevel": 24,
+      "truckNumber": "XF 521 KJR",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-26T07:50:38.508Z"
+        }
+      ],
+      "createdAt": "2025-10-26T07:50:38.508Z",
+      "updatedAt": "2025-10-26T07:50:38.508Z"
+    },
+    {
+      "id": "truck_1761465038508_1_v2t658qh1",
+      "supplierName": "Mukhtari Sale",
+      "bags": 240,
+      "moistureLevel": 16,
+      "truckNumber": "BAU 211 XW",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-26T07:50:38.508Z"
+        }
+      ],
+      "createdAt": "2025-10-26T07:50:38.508Z",
+      "updatedAt": "2025-10-26T07:50:38.508Z"
+    },
+    {
+      "id": "truck_1761465038508_2_i5a1ed29a",
+      "supplierName": "Idris Haruna",
+      "bags": 250,
+      "moistureLevel": 16,
+      "truckNumber": "XA 954 TRR",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-26T07:50:38.508Z"
+        }
+      ],
+      "createdAt": "2025-10-26T07:50:38.509Z",
+      "updatedAt": "2025-10-26T07:50:38.509Z"
+    },
+    {
+      "id": "truck_1761465038508_3_b9kcmxsx1",
+      "supplierName": "Musbahu Ashiru",
+      "bags": 50,
+      "moistureLevel": 19,
+      "truckNumber": "RNG 976 XC",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-26T07:50:38.509Z"
+        }
+      ],
+      "createdAt": "2025-10-26T07:50:38.509Z",
+      "updatedAt": "2025-10-26T07:50:38.509Z"
     }
   ],
-  "lastModified": "2025-10-26T07:50:15.444Z",
+  "lastModified": "2025-10-26T07:50:39.626Z",
   "version": "2.0.0"
 }
