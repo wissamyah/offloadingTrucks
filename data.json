@@ -7670,17 +7670,25 @@
       "bags": 106,
       "moistureLevel": 18,
       "truckNumber": "KUR 390 XA",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-10-26T10:56:09.007Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-10-26T10:57:35.014Z",
+          "details": {
+            "waybillNumber": "6628"
+          }
         }
       ],
       "createdAt": "2025-10-26T10:56:09.009Z",
-      "updatedAt": "2025-10-26T10:56:09.009Z"
+      "updatedAt": "2025-10-26T10:57:35.014Z",
+      "waybillNumber": "6628"
     }
   ],
-  "lastModified": "2025-10-26T10:56:09.259Z",
+  "lastModified": "2025-10-26T10:57:35.185Z",
   "version": "2.0.0"
 }
