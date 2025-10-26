@@ -7146,15 +7146,23 @@
       "bags": 38,
       "moistureLevel": 16,
       "truckNumber": "DRZ 041 LG",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-10-26T07:31:28.638Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-10-26T07:57:58.866Z",
+          "details": {
+            "waybillNumber": "6715"
+          }
         }
       ],
       "createdAt": "2025-10-26T07:31:28.638Z",
-      "updatedAt": "2025-10-26T07:31:28.638Z"
+      "updatedAt": "2025-10-26T07:57:58.866Z",
+      "waybillNumber": "6715"
     },
     {
       "id": "truck_1761463888638_3_4uc4uizyw",
@@ -7501,6 +7509,6 @@
       "updatedAt": "2025-10-26T07:50:38.509Z"
     }
   ],
-  "lastModified": "2025-10-26T07:52:57.423Z",
+  "lastModified": "2025-10-26T07:57:59.057Z",
   "version": "2.0.0"
 }
