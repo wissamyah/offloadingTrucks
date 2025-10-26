@@ -7380,7 +7380,7 @@
       "bags": 150,
       "moistureLevel": 20,
       "truckNumber": "MKA 855 ZF",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -7392,11 +7392,21 @@
           "details": {
             "waybillNumber": "6724"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-10-26T11:20:02.068Z",
+          "details": {
+            "netWeight": 11370,
+            "deduction": 130
+          }
         }
       ],
       "createdAt": "2025-10-26T07:33:44.078Z",
-      "updatedAt": "2025-10-26T10:05:05.756Z",
-      "waybillNumber": "6724"
+      "updatedAt": "2025-10-26T11:20:02.068Z",
+      "waybillNumber": "6724",
+      "netWeight": 11370,
+      "deduction": 130
     },
     {
       "id": "truck_1761464024077_3_rfnoqclwq",
@@ -7707,6 +7717,6 @@
       "waybillNumber": "6628"
     }
   ],
-  "lastModified": "2025-10-26T11:15:42.111Z",
+  "lastModified": "2025-10-26T11:20:02.138Z",
   "version": "2.0.0"
 }
