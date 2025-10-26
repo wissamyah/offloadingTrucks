@@ -7186,15 +7186,23 @@
       "bags": 90,
       "moistureLevel": 20,
       "truckNumber": "ZUR 472 YL",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-10-26T07:31:28.638Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-10-26T08:10:27.913Z",
+          "details": {
+            "waybillNumber": "6719"
+          }
         }
       ],
       "createdAt": "2025-10-26T07:31:28.638Z",
-      "updatedAt": "2025-10-26T07:31:28.638Z"
+      "updatedAt": "2025-10-26T08:10:27.913Z",
+      "waybillNumber": "6719"
     },
     {
       "id": "truck_1761463912854_0_c8xhypfzu",
@@ -7557,6 +7565,6 @@
       "waybillNumber": "6712"
     }
   ],
-  "lastModified": "2025-10-26T08:08:19.731Z",
+  "lastModified": "2025-10-26T08:10:28.056Z",
   "version": "2.0.0"
 }
