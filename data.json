@@ -7330,15 +7330,23 @@
       "bags": 501,
       "moistureLevel": 19,
       "truckNumber": "KMC 124 XG",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-10-26T07:33:44.078Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-10-26T11:34:10.018Z",
+          "details": {
+            "waybillNumber": "6732"
+          }
         }
       ],
       "createdAt": "2025-10-26T07:33:44.078Z",
-      "updatedAt": "2025-10-26T07:33:44.078Z"
+      "updatedAt": "2025-10-26T11:34:10.018Z",
+      "waybillNumber": "6732"
     },
     {
       "id": "truck_1761464024077_1_szldsvo9j",
@@ -7717,6 +7725,6 @@
       "waybillNumber": "6628"
     }
   ],
-  "lastModified": "2025-10-26T11:20:02.138Z",
+  "lastModified": "2025-10-26T11:34:10.251Z",
   "version": "2.0.0"
 }
