@@ -7800,15 +7800,23 @@
       "bags": 48,
       "moistureLevel": 20,
       "truckNumber": "SML 537 XA",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-10-26T12:43:10.736Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-10-26T13:00:29.839Z",
+          "details": {
+            "waybillNumber": "6735"
+          }
         }
       ],
       "createdAt": "2025-10-26T12:43:10.736Z",
-      "updatedAt": "2025-10-26T12:43:10.736Z"
+      "updatedAt": "2025-10-26T13:00:29.839Z",
+      "waybillNumber": "6735"
     },
     {
       "id": "truck_1761482590736_2_hj9zg072z",
@@ -7843,6 +7851,6 @@
       "updatedAt": "2025-10-26T12:43:10.736Z"
     }
   ],
-  "lastModified": "2025-10-26T12:43:10.841Z",
+  "lastModified": "2025-10-26T13:00:29.913Z",
   "version": "2.0.0"
 }
