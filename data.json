@@ -7266,15 +7266,23 @@
       "bags": 500,
       "moistureLevel": 19,
       "truckNumber": "FKJ 131 YA",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-10-26T07:33:44.078Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-10-26T07:34:06.941Z",
+          "details": {
+            "waybillNumber": "6710"
+          }
         }
       ],
       "createdAt": "2025-10-26T07:33:44.078Z",
-      "updatedAt": "2025-10-26T07:33:44.078Z"
+      "updatedAt": "2025-10-26T07:34:06.941Z",
+      "waybillNumber": "6710"
     },
     {
       "id": "truck_1761464024077_2_7j69w2fsq",
@@ -7325,6 +7333,6 @@
       "updatedAt": "2025-10-26T07:33:44.078Z"
     }
   ],
-  "lastModified": "2025-10-26T07:33:44.182Z",
+  "lastModified": "2025-10-26T07:34:07.041Z",
   "version": "2.0.0"
 }
