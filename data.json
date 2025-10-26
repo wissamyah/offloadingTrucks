@@ -7663,8 +7663,24 @@
       "updatedAt": "2025-10-26T09:23:34.751Z",
       "waybillNumber": "6712",
       "netWeight": 25200
+    },
+    {
+      "id": "truck_1761476169006_0_2pcmyo4ny",
+      "supplierName": "Mubarak Abba",
+      "bags": 106,
+      "moistureLevel": 18,
+      "truckNumber": "KUR 390 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-26T10:56:09.007Z"
+        }
+      ],
+      "createdAt": "2025-10-26T10:56:09.009Z",
+      "updatedAt": "2025-10-26T10:56:09.009Z"
     }
   ],
-  "lastModified": "2025-10-26T10:30:12.143Z",
+  "lastModified": "2025-10-26T10:56:09.259Z",
   "version": "2.0.0"
 }
