@@ -7792,15 +7792,23 @@
       "bags": 216,
       "moistureLevel": 20,
       "truckNumber": "DAL 102 YE",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-10-26T12:43:10.736Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-10-26T14:08:57.219Z",
+          "details": {
+            "waybillNumber": "17610"
+          }
         }
       ],
       "createdAt": "2025-10-26T12:43:10.736Z",
-      "updatedAt": "2025-10-26T12:43:10.736Z"
+      "updatedAt": "2025-10-26T14:08:57.219Z",
+      "waybillNumber": "17610"
     },
     {
       "id": "truck_1761482590736_1_wt9fscnu8",
@@ -7867,6 +7875,6 @@
       "updatedAt": "2025-10-26T12:43:10.736Z"
     }
   ],
-  "lastModified": "2025-10-26T13:55:41.637Z",
+  "lastModified": "2025-10-26T14:08:57.386Z",
   "version": "2.0.0"
 }
