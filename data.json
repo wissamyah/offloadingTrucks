@@ -7514,17 +7514,25 @@
       "bags": 250,
       "moistureLevel": 17,
       "truckNumber": "GME 368 XB",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-10-26T07:58:23.451Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-10-26T08:00:43.593Z",
+          "details": {
+            "waybillNumber": "6712"
+          }
         }
       ],
       "createdAt": "2025-10-26T07:58:23.451Z",
-      "updatedAt": "2025-10-26T07:58:23.451Z"
+      "updatedAt": "2025-10-26T08:00:43.593Z",
+      "waybillNumber": "6712"
     }
   ],
-  "lastModified": "2025-10-26T07:58:24.608Z",
+  "lastModified": "2025-10-26T08:00:44.430Z",
   "version": "2.0.0"
 }
