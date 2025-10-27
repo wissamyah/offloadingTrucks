@@ -8494,15 +8494,23 @@
       "bags": 500,
       "moistureLevel": 16,
       "truckNumber": "TMA 106 XA",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-10-27T08:42:38.117Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-10-27T11:37:18.643Z",
+          "details": {
+            "waybillNumber": "6762"
+          }
         }
       ],
       "createdAt": "2025-10-27T08:42:38.117Z",
-      "updatedAt": "2025-10-27T08:42:38.117Z"
+      "updatedAt": "2025-10-27T11:37:18.643Z",
+      "waybillNumber": "6762"
     },
     {
       "id": "truck_1761554558117_3_w6e4wtln8",
@@ -8761,6 +8769,6 @@
       "updatedAt": "2025-10-27T11:35:27.880Z"
     }
   ],
-  "lastModified": "2025-10-27T11:35:28.782Z",
+  "lastModified": "2025-10-27T11:37:18.778Z",
   "version": "2.0.0"
 }
