@@ -8768,7 +8768,7 @@
       "bags": 510,
       "moistureLevel": 17,
       "truckNumber": "KAT 253 XA",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -8780,11 +8780,21 @@
           "details": {
             "waybillNumber": "6769"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-10-27T16:47:35.393Z",
+          "details": {
+            "netWeight": 38100,
+            "deduction": 180
+          }
         }
       ],
       "createdAt": "2025-10-27T08:43:02.250Z",
-      "updatedAt": "2025-10-27T14:17:41.414Z",
-      "waybillNumber": "6769"
+      "updatedAt": "2025-10-27T16:47:35.393Z",
+      "waybillNumber": "6769",
+      "netWeight": 38100,
+      "deduction": 180
     },
     {
       "id": "truck_1761554582250_4_dxijtffna",
@@ -9037,6 +9047,6 @@
       "netWeight": 40810
     }
   ],
-  "lastModified": "2025-10-27T16:35:06.104Z",
+  "lastModified": "2025-10-27T16:47:35.832Z",
   "version": "2.0.0"
 }
