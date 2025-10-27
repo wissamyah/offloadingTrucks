@@ -8337,8 +8337,72 @@
       ],
       "createdAt": "2025-10-27T08:42:19.038Z",
       "updatedAt": "2025-10-27T08:42:19.038Z"
+    },
+    {
+      "id": "truck_1761554558117_0_2t62u7wjd",
+      "supplierName": "Sammaf Agro Allied",
+      "bags": 509,
+      "moistureLevel": 23,
+      "truckNumber": "FTA 798 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-27T08:42:38.117Z"
+        }
+      ],
+      "createdAt": "2025-10-27T08:42:38.117Z",
+      "updatedAt": "2025-10-27T08:42:38.117Z"
+    },
+    {
+      "id": "truck_1761554558117_1_bmfz4vsah",
+      "supplierName": "Mubarak Abba",
+      "bags": 567,
+      "moistureLevel": 18,
+      "truckNumber": "JAL 862 ZY",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-27T08:42:38.117Z"
+        }
+      ],
+      "createdAt": "2025-10-27T08:42:38.117Z",
+      "updatedAt": "2025-10-27T08:42:38.117Z"
+    },
+    {
+      "id": "truck_1761554558117_2_zs6b40q06",
+      "supplierName": "Jamilu jangale",
+      "bags": 500,
+      "moistureLevel": 16,
+      "truckNumber": "TMA 106 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-27T08:42:38.117Z"
+        }
+      ],
+      "createdAt": "2025-10-27T08:42:38.117Z",
+      "updatedAt": "2025-10-27T08:42:38.117Z"
+    },
+    {
+      "id": "truck_1761554558117_3_w6e4wtln8",
+      "supplierName": "Mansur Mansur",
+      "bags": 450,
+      "moistureLevel": 16,
+      "truckNumber": "MLF 442 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-27T08:42:38.117Z"
+        }
+      ],
+      "createdAt": "2025-10-27T08:42:38.117Z",
+      "updatedAt": "2025-10-27T08:42:38.117Z"
     }
   ],
-  "lastModified": "2025-10-27T08:42:19.144Z",
+  "lastModified": "2025-10-27T08:42:38.226Z",
   "version": "2.0.0"
 }
