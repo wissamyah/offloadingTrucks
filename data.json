@@ -7873,8 +7873,72 @@
       ],
       "createdAt": "2025-10-26T12:43:10.736Z",
       "updatedAt": "2025-10-26T12:43:10.736Z"
+    },
+    {
+      "id": "truck_1761549514794_0_wwvor9ih5",
+      "supplierName": "Alh Danasabe",
+      "bags": 430,
+      "moistureLevel": 17,
+      "truckNumber": "NSR 875 YQ",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-27T07:18:34.794Z"
+        }
+      ],
+      "createdAt": "2025-10-27T07:18:34.794Z",
+      "updatedAt": "2025-10-27T07:18:34.795Z"
+    },
+    {
+      "id": "truck_1761549514794_1_0lne0y6yc",
+      "supplierName": "Sammaf Agro Allied",
+      "bags": 400,
+      "moistureLevel": 19,
+      "truckNumber": "GME 13 XB",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-27T07:18:34.795Z"
+        }
+      ],
+      "createdAt": "2025-10-27T07:18:34.795Z",
+      "updatedAt": "2025-10-27T07:18:34.795Z"
+    },
+    {
+      "id": "truck_1761549514794_2_hdwz1awpx",
+      "supplierName": "Idris Haruna",
+      "bags": 500,
+      "moistureLevel": 19,
+      "truckNumber": "YLA 551 XB",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-27T07:18:34.795Z"
+        }
+      ],
+      "createdAt": "2025-10-27T07:18:34.795Z",
+      "updatedAt": "2025-10-27T07:18:34.795Z"
+    },
+    {
+      "id": "truck_1761549514794_3_aawesqh2f",
+      "supplierName": "Mujaheed Rogo",
+      "bags": 100,
+      "moistureLevel": 16,
+      "truckNumber": "KRD 713 XF",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-27T07:18:34.795Z"
+        }
+      ],
+      "createdAt": "2025-10-27T07:18:34.795Z",
+      "updatedAt": "2025-10-27T07:18:34.795Z"
     }
   ],
-  "lastModified": "2025-10-26T14:08:57.386Z",
+  "lastModified": "2025-10-27T07:18:34.928Z",
   "version": "2.0.0"
 }
