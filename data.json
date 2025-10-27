@@ -8018,7 +8018,7 @@
       "bags": 100,
       "moistureLevel": 16,
       "truckNumber": "GWW 314 XA",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -8030,11 +8030,19 @@
           "details": {
             "waybillNumber": "6743"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-10-27T09:55:34.250Z",
+          "details": {
+            "netWeight": 8840
+          }
         }
       ],
       "createdAt": "2025-10-27T07:27:47.254Z",
-      "updatedAt": "2025-10-27T08:22:58.128Z",
-      "waybillNumber": "6743"
+      "updatedAt": "2025-10-27T09:55:34.250Z",
+      "waybillNumber": "6743",
+      "netWeight": 8840
     },
     {
       "id": "truck_1761550067254_3_2xic3eiq6",
@@ -8679,6 +8687,6 @@
       "updatedAt": "2025-10-27T08:43:54.719Z"
     }
   ],
-  "lastModified": "2025-10-27T09:54:21.952Z",
+  "lastModified": "2025-10-27T09:55:34.340Z",
   "version": "2.0.0"
 }
