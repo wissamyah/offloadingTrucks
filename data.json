@@ -8177,8 +8177,24 @@
       ],
       "createdAt": "2025-10-27T07:28:42.110Z",
       "updatedAt": "2025-10-27T07:28:42.110Z"
+    },
+    {
+      "id": "truck_1761550355851_0_ml1mcvkta",
+      "supplierName": "M B Flour",
+      "bags": 450,
+      "moistureLevel": 17,
+      "truckNumber": "XC 689 DAL",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-27T07:32:35.851Z"
+        }
+      ],
+      "createdAt": "2025-10-27T07:32:35.851Z",
+      "updatedAt": "2025-10-27T07:32:35.851Z"
     }
   ],
-  "lastModified": "2025-10-27T07:28:43.238Z",
+  "lastModified": "2025-10-27T07:32:35.945Z",
   "version": "2.0.0"
 }
