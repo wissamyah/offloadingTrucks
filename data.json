@@ -8760,7 +8760,7 @@
       "createdAt": "2025-10-27T08:43:02.250Z",
       "updatedAt": "2025-10-27T15:18:24.305Z",
       "waybillNumber": "6766",
-      "netWeight": 37170
+      "netWeight": 37330
     },
     {
       "id": "truck_1761554582250_3_itoshldw5",
@@ -9019,6 +9019,6 @@
       "netWeight": 40810
     }
   ],
-  "lastModified": "2025-10-27T15:33:29.088Z",
+  "lastModified": "2025-10-27T15:52:46.733Z",
   "version": "2.0.0"
 }
