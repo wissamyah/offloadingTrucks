@@ -8704,15 +8704,23 @@
       "bags": 432,
       "moistureLevel": 16,
       "truckNumber": "DRZ 523 XA",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-10-27T08:43:02.250Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-10-27T14:23:00.071Z",
+          "details": {
+            "waybillNumber": "6770"
+          }
         }
       ],
       "createdAt": "2025-10-27T08:43:02.250Z",
-      "updatedAt": "2025-10-27T08:43:02.250Z"
+      "updatedAt": "2025-10-27T14:23:00.071Z",
+      "waybillNumber": "6770"
     },
     {
       "id": "truck_1761554600935_0_wtt7arufr",
@@ -8899,6 +8907,6 @@
       "netWeight": 40810
     }
   ],
-  "lastModified": "2025-10-27T14:17:41.522Z",
+  "lastModified": "2025-10-27T14:23:00.210Z",
   "version": "2.0.0"
 }
