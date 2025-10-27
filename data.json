@@ -8002,7 +8002,7 @@
       "bags": 520,
       "moistureLevel": 17,
       "truckNumber": "WRN 443 XA",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -8014,11 +8014,21 @@
           "details": {
             "waybillNumber": "6746"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-10-27T11:21:46.891Z",
+          "details": {
+            "netWeight": 38040,
+            "deduction": 180
+          }
         }
       ],
       "createdAt": "2025-10-27T07:27:47.254Z",
-      "updatedAt": "2025-10-27T08:41:23.124Z",
-      "waybillNumber": "6746"
+      "updatedAt": "2025-10-27T11:21:46.892Z",
+      "waybillNumber": "6746",
+      "netWeight": 38040,
+      "deduction": 180
     },
     {
       "id": "truck_1761550067254_2_cyp00hs7q",
@@ -8735,6 +8745,6 @@
       "updatedAt": "2025-10-27T08:43:54.719Z"
     }
   ],
-  "lastModified": "2025-10-27T11:10:32.201Z",
+  "lastModified": "2025-10-27T11:21:47.013Z",
   "version": "2.0.0"
 }
