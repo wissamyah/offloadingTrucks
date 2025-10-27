@@ -7937,8 +7937,88 @@
       ],
       "createdAt": "2025-10-27T07:18:34.795Z",
       "updatedAt": "2025-10-27T07:18:34.795Z"
+    },
+    {
+      "id": "truck_1761550067254_0_eryc8s5hc",
+      "supplierName": "Addau Isyaku",
+      "bags": 580,
+      "moistureLevel": 19,
+      "truckNumber": "DKA 196 XY",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-27T07:27:47.254Z"
+        }
+      ],
+      "createdAt": "2025-10-27T07:27:47.254Z",
+      "updatedAt": "2025-10-27T07:27:47.254Z"
+    },
+    {
+      "id": "truck_1761550067254_1_4ebn2p900",
+      "supplierName": "Idris Haruna",
+      "bags": 520,
+      "moistureLevel": 17,
+      "truckNumber": "WRN 443 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-27T07:27:47.254Z"
+        }
+      ],
+      "createdAt": "2025-10-27T07:27:47.254Z",
+      "updatedAt": "2025-10-27T07:27:47.254Z"
+    },
+    {
+      "id": "truck_1761550067254_2_cyp00hs7q",
+      "supplierName": "Abubakar Muhd Tukur",
+      "bags": 100,
+      "moistureLevel": 16,
+      "truckNumber": "GWW 314 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-27T07:27:47.254Z"
+        }
+      ],
+      "createdAt": "2025-10-27T07:27:47.254Z",
+      "updatedAt": "2025-10-27T07:27:47.254Z"
+    },
+    {
+      "id": "truck_1761550067254_3_2xic3eiq6",
+      "supplierName": "Mansur Mansur",
+      "bags": 450,
+      "moistureLevel": 16,
+      "truckNumber": "KFR 207 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-27T07:27:47.254Z"
+        }
+      ],
+      "createdAt": "2025-10-27T07:27:47.254Z",
+      "updatedAt": "2025-10-27T07:27:47.254Z"
+    },
+    {
+      "id": "truck_1761550067254_4_7t784zp16",
+      "supplierName": "Mukhtari Sale",
+      "bags": 178,
+      "moistureLevel": 16,
+      "truckNumber": "XA 768 KTG",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-27T07:27:47.254Z"
+        }
+      ],
+      "createdAt": "2025-10-27T07:27:47.254Z",
+      "updatedAt": "2025-10-27T07:27:47.254Z"
     }
   ],
-  "lastModified": "2025-10-27T07:18:34.928Z",
+  "lastModified": "2025-10-27T07:27:47.355Z",
   "version": "2.0.0"
 }
