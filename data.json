@@ -8898,7 +8898,7 @@
       "bags": 208,
       "moistureLevel": 18,
       "truckNumber": "XA 564 GJW",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -8910,11 +8910,19 @@
           "details": {
             "waybillNumber": "6773"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-10-27T17:11:15.331Z",
+          "details": {
+            "netWeight": 208
+          }
         }
       ],
       "createdAt": "2025-10-27T08:43:20.935Z",
-      "updatedAt": "2025-10-27T15:33:28.937Z",
-      "waybillNumber": "6773"
+      "updatedAt": "2025-10-27T17:11:15.331Z",
+      "waybillNumber": "6773",
+      "netWeight": 208
     },
     {
       "id": "truck_1761554634718_0_6miffw0pi",
@@ -9047,6 +9055,6 @@
       "netWeight": 40810
     }
   ],
-  "lastModified": "2025-10-27T16:47:35.832Z",
+  "lastModified": "2025-10-27T17:11:15.515Z",
   "version": "2.0.0"
 }
