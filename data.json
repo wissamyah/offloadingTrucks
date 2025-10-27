@@ -8546,15 +8546,19 @@
       "bags": 509,
       "moistureLevel": 23,
       "truckNumber": "FTA 798 XA",
-      "status": "pending",
+      "status": "rejected",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-10-27T08:42:38.117Z"
+        },
+        {
+          "status": "rejected",
+          "timestamp": "2025-10-27T15:22:47.445Z"
         }
       ],
       "createdAt": "2025-10-27T08:42:38.117Z",
-      "updatedAt": "2025-10-27T08:42:38.117Z"
+      "updatedAt": "2025-10-27T15:22:47.445Z"
     },
     {
       "id": "truck_1761554558117_1_bmfz4vsah",
@@ -8967,6 +8971,6 @@
       "netWeight": 40810
     }
   ],
-  "lastModified": "2025-10-27T15:22:29.368Z",
+  "lastModified": "2025-10-27T15:22:48.098Z",
   "version": "2.0.0"
 }
