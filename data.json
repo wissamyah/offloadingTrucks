@@ -8344,15 +8344,19 @@
       "bags": 310,
       "moistureLevel": 23,
       "truckNumber": "KMC 82 LY",
-      "status": "pending",
+      "status": "rejected",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-10-27T07:28:42.110Z"
+        },
+        {
+          "status": "rejected",
+          "timestamp": "2025-10-27T15:23:03.906Z"
         }
       ],
       "createdAt": "2025-10-27T07:28:42.110Z",
-      "updatedAt": "2025-10-27T07:28:42.110Z"
+      "updatedAt": "2025-10-27T15:23:03.906Z"
     },
     {
       "id": "truck_1761550122110_4_qdb4fs8tt",
@@ -8983,6 +8987,6 @@
       "netWeight": 40810
     }
   ],
-  "lastModified": "2025-10-27T15:23:00.054Z",
+  "lastModified": "2025-10-27T15:23:04.687Z",
   "version": "2.0.0"
 }
