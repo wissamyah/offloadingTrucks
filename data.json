@@ -8478,15 +8478,23 @@
       "bags": 567,
       "moistureLevel": 18,
       "truckNumber": "JAL 862 ZY",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-10-27T08:42:38.117Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-10-27T11:42:10.282Z",
+          "details": {
+            "waybillNumber": "6763"
+          }
         }
       ],
       "createdAt": "2025-10-27T08:42:38.117Z",
-      "updatedAt": "2025-10-27T08:42:38.117Z"
+      "updatedAt": "2025-10-27T11:42:10.283Z",
+      "waybillNumber": "6763"
     },
     {
       "id": "truck_1761554558117_2_zs6b40q06",
@@ -8777,6 +8785,6 @@
       "waybillNumber": "6761"
     }
   ],
-  "lastModified": "2025-10-27T11:37:54.302Z",
+  "lastModified": "2025-10-27T11:42:10.345Z",
   "version": "2.0.0"
 }
