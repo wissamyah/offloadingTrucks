@@ -8174,15 +8174,19 @@
       "bags": 180,
       "moistureLevel": 22,
       "truckNumber": "GWW 755 XA",
-      "status": "pending",
+      "status": "rejected",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-10-27T07:28:15.887Z"
+        },
+        {
+          "status": "rejected",
+          "timestamp": "2025-10-27T15:23:19.124Z"
         }
       ],
       "createdAt": "2025-10-27T07:28:15.887Z",
-      "updatedAt": "2025-10-27T07:28:15.887Z"
+      "updatedAt": "2025-10-27T15:23:19.124Z"
     },
     {
       "id": "truck_1761550095887_2_2pbrm1yct",
@@ -8999,6 +9003,6 @@
       "netWeight": 40810
     }
   ],
-  "lastModified": "2025-10-27T15:23:16.169Z",
+  "lastModified": "2025-10-27T15:23:21.124Z",
   "version": "2.0.0"
 }
