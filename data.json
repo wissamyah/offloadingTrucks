@@ -8282,7 +8282,7 @@
       "bags": 450,
       "moistureLevel": 17,
       "truckNumber": "XC 689 DAL",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -8294,11 +8294,21 @@
           "details": {
             "waybillNumber": "6738"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-10-27T09:54:21.815Z",
+          "details": {
+            "netWeight": 33630,
+            "deduction": 130
+          }
         }
       ],
       "createdAt": "2025-10-27T07:32:35.851Z",
-      "updatedAt": "2025-10-27T07:33:11.795Z",
-      "waybillNumber": "6738"
+      "updatedAt": "2025-10-27T09:54:21.815Z",
+      "waybillNumber": "6738",
+      "netWeight": 33630,
+      "deduction": 130
     },
     {
       "id": "truck_1761554539037_0_kv5gmu3mc",
@@ -8669,6 +8679,6 @@
       "updatedAt": "2025-10-27T08:43:54.719Z"
     }
   ],
-  "lastModified": "2025-10-27T09:46:00.743Z",
+  "lastModified": "2025-10-27T09:54:21.952Z",
   "version": "2.0.0"
 }
