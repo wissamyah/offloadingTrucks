@@ -8257,8 +8257,88 @@
       "createdAt": "2025-10-27T07:32:35.851Z",
       "updatedAt": "2025-10-27T07:33:11.795Z",
       "waybillNumber": "6738"
+    },
+    {
+      "id": "truck_1761554539037_0_kv5gmu3mc",
+      "supplierName": "B L Barka Nigeria Ltd",
+      "bags": 210,
+      "moistureLevel": 17,
+      "truckNumber": "NNG 373 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-27T08:42:19.037Z"
+        }
+      ],
+      "createdAt": "2025-10-27T08:42:19.037Z",
+      "updatedAt": "2025-10-27T08:42:19.037Z"
+    },
+    {
+      "id": "truck_1761554539037_1_rxhswij4b",
+      "supplierName": "Idris Garba",
+      "bags": 100,
+      "moistureLevel": 16,
+      "truckNumber": "GWL 121 XB",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-27T08:42:19.037Z"
+        }
+      ],
+      "createdAt": "2025-10-27T08:42:19.037Z",
+      "updatedAt": "2025-10-27T08:42:19.037Z"
+    },
+    {
+      "id": "truck_1761554539037_2_78pk5vr8a",
+      "supplierName": "Kabiru Sani Bako",
+      "bags": 185,
+      "moistureLevel": 23,
+      "truckNumber": "MKA 278 XJ",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-27T08:42:19.037Z"
+        }
+      ],
+      "createdAt": "2025-10-27T08:42:19.037Z",
+      "updatedAt": "2025-10-27T08:42:19.037Z"
+    },
+    {
+      "id": "truck_1761554539037_3_yf8d0se8k",
+      "supplierName": "Mubarak Abba",
+      "bags": 450,
+      "moistureLevel": 16,
+      "truckNumber": "XA 118 KWM",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-27T08:42:19.037Z"
+        }
+      ],
+      "createdAt": "2025-10-27T08:42:19.037Z",
+      "updatedAt": "2025-10-27T08:42:19.037Z"
+    },
+    {
+      "id": "truck_1761554539037_4_6e6zv53o4",
+      "supplierName": "Lawan Ibrahim",
+      "bags": 510,
+      "moistureLevel": 16,
+      "truckNumber": "TRR 559 YX",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-27T08:42:19.038Z"
+        }
+      ],
+      "createdAt": "2025-10-27T08:42:19.038Z",
+      "updatedAt": "2025-10-27T08:42:19.038Z"
     }
   ],
-  "lastModified": "2025-10-27T08:41:23.216Z",
+  "lastModified": "2025-10-27T08:42:19.144Z",
   "version": "2.0.0"
 }
