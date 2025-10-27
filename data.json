@@ -8561,8 +8561,72 @@
       ],
       "createdAt": "2025-10-27T08:43:20.935Z",
       "updatedAt": "2025-10-27T08:43:20.935Z"
+    },
+    {
+      "id": "truck_1761554634718_0_6miffw0pi",
+      "supplierName": "Alh Danasabe",
+      "bags": 120,
+      "moistureLevel": 18,
+      "truckNumber": "KTG 557 YG",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-27T08:43:54.718Z"
+        }
+      ],
+      "createdAt": "2025-10-27T08:43:54.718Z",
+      "updatedAt": "2025-10-27T08:43:54.718Z"
+    },
+    {
+      "id": "truck_1761554634718_1_ghgtadnfn",
+      "supplierName": "Idris Haruna",
+      "bags": 416,
+      "moistureLevel": 18,
+      "truckNumber": "KMC 984 ZQ",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-27T08:43:54.718Z"
+        }
+      ],
+      "createdAt": "2025-10-27T08:43:54.718Z",
+      "updatedAt": "2025-10-27T08:43:54.718Z"
+    },
+    {
+      "id": "truck_1761554634718_2_b8y7jlibq",
+      "supplierName": "H A Tahir",
+      "bags": 450,
+      "moistureLevel": 20,
+      "truckNumber": "XC 697 BUU",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-27T08:43:54.718Z"
+        }
+      ],
+      "createdAt": "2025-10-27T08:43:54.718Z",
+      "updatedAt": "2025-10-27T08:43:54.719Z"
+    },
+    {
+      "id": "truck_1761554634718_3_eqzlfbgyv",
+      "supplierName": "Mukhtari Sale",
+      "bags": 150,
+      "moistureLevel": 16,
+      "truckNumber": "GRM 816 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-27T08:43:54.719Z"
+        }
+      ],
+      "createdAt": "2025-10-27T08:43:54.719Z",
+      "updatedAt": "2025-10-27T08:43:54.719Z"
     }
   ],
-  "lastModified": "2025-10-27T08:43:22.196Z",
+  "lastModified": "2025-10-27T08:43:55.947Z",
   "version": "2.0.0"
 }
