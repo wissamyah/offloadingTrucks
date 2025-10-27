@@ -7880,15 +7880,23 @@
       "bags": 430,
       "moistureLevel": 17,
       "truckNumber": "NSR 875 YQ",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-10-27T07:18:34.794Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-10-27T07:43:05.418Z",
+          "details": {
+            "waybillNumber": "6741"
+          }
         }
       ],
       "createdAt": "2025-10-27T07:18:34.794Z",
-      "updatedAt": "2025-10-27T07:18:34.795Z"
+      "updatedAt": "2025-10-27T07:43:05.418Z",
+      "waybillNumber": "6741"
     },
     {
       "id": "truck_1761549514794_1_0lne0y6yc",
@@ -8219,6 +8227,6 @@
       "waybillNumber": "6738"
     }
   ],
-  "lastModified": "2025-10-27T07:40:20.406Z",
+  "lastModified": "2025-10-27T07:43:06.267Z",
   "version": "2.0.0"
 }
