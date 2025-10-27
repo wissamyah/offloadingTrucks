@@ -8743,8 +8743,24 @@
       ],
       "createdAt": "2025-10-27T08:43:54.719Z",
       "updatedAt": "2025-10-27T08:43:54.719Z"
+    },
+    {
+      "id": "truck_1761564927879_0_x28jk5yaj",
+      "supplierName": "Mukhtari Sale",
+      "bags": 450,
+      "moistureLevel": 16,
+      "truckNumber": "BCH 909 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-27T11:35:27.880Z"
+        }
+      ],
+      "createdAt": "2025-10-27T11:35:27.880Z",
+      "updatedAt": "2025-10-27T11:35:27.880Z"
     }
   ],
-  "lastModified": "2025-10-27T11:21:47.013Z",
+  "lastModified": "2025-10-27T11:35:28.782Z",
   "version": "2.0.0"
 }
