@@ -7920,15 +7920,23 @@
       "bags": 500,
       "moistureLevel": 19,
       "truckNumber": "YLA 551 XB",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-10-27T07:18:34.795Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-10-27T07:40:20.318Z",
+          "details": {
+            "waybillNumber": "6740"
+          }
         }
       ],
       "createdAt": "2025-10-27T07:18:34.795Z",
-      "updatedAt": "2025-10-27T07:18:34.795Z"
+      "updatedAt": "2025-10-27T07:40:20.318Z",
+      "waybillNumber": "6740"
     },
     {
       "id": "truck_1761549514794_3_aawesqh2f",
@@ -8211,6 +8219,6 @@
       "waybillNumber": "6738"
     }
   ],
-  "lastModified": "2025-10-27T07:36:58.234Z",
+  "lastModified": "2025-10-27T07:40:20.406Z",
   "version": "2.0.0"
 }
