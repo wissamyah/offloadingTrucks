@@ -8550,15 +8550,23 @@
       "bags": 165,
       "moistureLevel": 16,
       "truckNumber": "LFA 48 XA",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-10-27T08:43:02.250Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-10-27T12:07:28.997Z",
+          "details": {
+            "waybillNumber": "6765"
+          }
         }
       ],
       "createdAt": "2025-10-27T08:43:02.250Z",
-      "updatedAt": "2025-10-27T08:43:02.250Z"
+      "updatedAt": "2025-10-27T12:07:28.998Z",
+      "waybillNumber": "6765"
     },
     {
       "id": "truck_1761554582250_1_nkmuzqpns",
@@ -8793,6 +8801,6 @@
       "waybillNumber": "6761"
     }
   ],
-  "lastModified": "2025-10-27T11:45:40.359Z",
+  "lastModified": "2025-10-27T12:07:29.095Z",
   "version": "2.0.0"
 }
