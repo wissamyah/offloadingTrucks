@@ -8184,17 +8184,25 @@
       "bags": 450,
       "moistureLevel": 17,
       "truckNumber": "XC 689 DAL",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-10-27T07:32:35.851Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-10-27T07:33:11.795Z",
+          "details": {
+            "waybillNumber": "6738"
+          }
         }
       ],
       "createdAt": "2025-10-27T07:32:35.851Z",
-      "updatedAt": "2025-10-27T07:32:35.851Z"
+      "updatedAt": "2025-10-27T07:33:11.795Z",
+      "waybillNumber": "6738"
     }
   ],
-  "lastModified": "2025-10-27T07:32:35.945Z",
+  "lastModified": "2025-10-27T07:33:11.906Z",
   "version": "2.0.0"
 }
