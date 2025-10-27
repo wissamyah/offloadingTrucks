@@ -8097,8 +8097,88 @@
       ],
       "createdAt": "2025-10-27T07:28:15.887Z",
       "updatedAt": "2025-10-27T07:28:15.887Z"
+    },
+    {
+      "id": "truck_1761550122110_0_pv6v9dyk6",
+      "supplierName": "B L Barka",
+      "bags": 250,
+      "moistureLevel": 22,
+      "truckNumber": "APP 798 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-27T07:28:42.110Z"
+        }
+      ],
+      "createdAt": "2025-10-27T07:28:42.110Z",
+      "updatedAt": "2025-10-27T07:28:42.110Z"
+    },
+    {
+      "id": "truck_1761550122110_1_zh3qw6reh",
+      "supplierName": "Jamilu Yahaya",
+      "bags": 105,
+      "moistureLevel": 21,
+      "truckNumber": "KMC 458 XV",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-27T07:28:42.110Z"
+        }
+      ],
+      "createdAt": "2025-10-27T07:28:42.110Z",
+      "updatedAt": "2025-10-27T07:28:42.110Z"
+    },
+    {
+      "id": "truck_1761550122110_2_4jwv2w4ct",
+      "supplierName": "Aminu Muhd Kabo",
+      "bags": 61,
+      "moistureLevel": 18,
+      "truckNumber": "NND 327 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-27T07:28:42.110Z"
+        }
+      ],
+      "createdAt": "2025-10-27T07:28:42.110Z",
+      "updatedAt": "2025-10-27T07:28:42.110Z"
+    },
+    {
+      "id": "truck_1761550122110_3_kqyhpmwf8",
+      "supplierName": "Mukhtari Sale",
+      "bags": 310,
+      "moistureLevel": 23,
+      "truckNumber": "KMC 82 LY",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-27T07:28:42.110Z"
+        }
+      ],
+      "createdAt": "2025-10-27T07:28:42.110Z",
+      "updatedAt": "2025-10-27T07:28:42.110Z"
+    },
+    {
+      "id": "truck_1761550122110_4_qdb4fs8tt",
+      "supplierName": "Addau Isyaku",
+      "bags": 168,
+      "moistureLevel": 22,
+      "truckNumber": "GKW 875 XD",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-27T07:28:42.110Z"
+        }
+      ],
+      "createdAt": "2025-10-27T07:28:42.110Z",
+      "updatedAt": "2025-10-27T07:28:42.110Z"
     }
   ],
-  "lastModified": "2025-10-27T07:28:15.969Z",
+  "lastModified": "2025-10-27T07:28:43.238Z",
   "version": "2.0.0"
 }
