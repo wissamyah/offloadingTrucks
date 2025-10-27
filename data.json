@@ -8952,7 +8952,7 @@
       "bags": 450,
       "moistureLevel": 20,
       "truckNumber": "XC 697 BUU",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -8964,11 +8964,21 @@
           "details": {
             "waybillNumber": "6768"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-10-27T16:35:05.996Z",
+          "details": {
+            "netWeight": 36140,
+            "deduction": 150
+          }
         }
       ],
       "createdAt": "2025-10-27T08:43:54.718Z",
-      "updatedAt": "2025-10-27T13:38:46.122Z",
-      "waybillNumber": "6768"
+      "updatedAt": "2025-10-27T16:35:05.996Z",
+      "waybillNumber": "6768",
+      "netWeight": 36140,
+      "deduction": 150
     },
     {
       "id": "truck_1761554634718_3_eqzlfbgyv",
@@ -9027,6 +9037,6 @@
       "netWeight": 40810
     }
   ],
-  "lastModified": "2025-10-27T16:14:51.576Z",
+  "lastModified": "2025-10-27T16:35:06.104Z",
   "version": "2.0.0"
 }
