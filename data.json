@@ -8481,8 +8481,88 @@
       ],
       "createdAt": "2025-10-27T08:43:02.250Z",
       "updatedAt": "2025-10-27T08:43:02.250Z"
+    },
+    {
+      "id": "truck_1761554600935_0_wtt7arufr",
+      "supplierName": "Idris Haruna",
+      "bags": 550,
+      "moistureLevel": 17,
+      "truckNumber": "KTN 268 YZ",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-27T08:43:20.935Z"
+        }
+      ],
+      "createdAt": "2025-10-27T08:43:20.935Z",
+      "updatedAt": "2025-10-27T08:43:20.935Z"
+    },
+    {
+      "id": "truck_1761554600935_1_6fymzvr90",
+      "supplierName": "MB Flour",
+      "bags": 450,
+      "moistureLevel": 22,
+      "truckNumber": "HJA 403 YD",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-27T08:43:20.935Z"
+        }
+      ],
+      "createdAt": "2025-10-27T08:43:20.935Z",
+      "updatedAt": "2025-10-27T08:43:20.935Z"
+    },
+    {
+      "id": "truck_1761554600935_2_or4hvgbmw",
+      "supplierName": "Idris Garba",
+      "bags": 500,
+      "moistureLevel": 23,
+      "truckNumber": "DKU 992 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-27T08:43:20.935Z"
+        }
+      ],
+      "createdAt": "2025-10-27T08:43:20.935Z",
+      "updatedAt": "2025-10-27T08:43:20.935Z"
+    },
+    {
+      "id": "truck_1761554600935_3_gutm6xumg",
+      "supplierName": "MB Flour",
+      "bags": 442,
+      "moistureLevel": 16,
+      "truckNumber": "DKA 384 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-27T08:43:20.935Z"
+        }
+      ],
+      "createdAt": "2025-10-27T08:43:20.935Z",
+      "updatedAt": "2025-10-27T08:43:20.935Z"
+    },
+    {
+      "id": "truck_1761554600935_4_csj6hvme1",
+      "supplierName": "Mukhtari Sale",
+      "bags": 208,
+      "moistureLevel": 18,
+      "truckNumber": "XA 564 GJW",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-27T08:43:20.935Z"
+        }
+      ],
+      "createdAt": "2025-10-27T08:43:20.935Z",
+      "updatedAt": "2025-10-27T08:43:20.935Z"
     }
   ],
-  "lastModified": "2025-10-27T08:43:03.454Z",
+  "lastModified": "2025-10-27T08:43:22.196Z",
   "version": "2.0.0"
 }
