@@ -8364,15 +8364,19 @@
       "bags": 168,
       "moistureLevel": 22,
       "truckNumber": "GKW 875 XD",
-      "status": "pending",
+      "status": "rejected",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-10-27T07:28:42.110Z"
+        },
+        {
+          "status": "rejected",
+          "timestamp": "2025-10-27T15:23:15.593Z"
         }
       ],
       "createdAt": "2025-10-27T07:28:42.110Z",
-      "updatedAt": "2025-10-27T07:28:42.110Z"
+      "updatedAt": "2025-10-27T15:23:15.593Z"
     },
     {
       "id": "truck_1761550355851_0_ml1mcvkta",
@@ -8995,6 +8999,6 @@
       "netWeight": 40810
     }
   ],
-  "lastModified": "2025-10-27T15:23:12.125Z",
+  "lastModified": "2025-10-27T15:23:16.169Z",
   "version": "2.0.0"
 }
