@@ -8188,7 +8188,7 @@
       "bags": 250,
       "moistureLevel": 16,
       "truckNumber": "KUJ 74 XB",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -8200,11 +8200,21 @@
           "details": {
             "waybillNumber": "6755"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-10-27T12:08:45.946Z",
+          "details": {
+            "netWeight": 18520,
+            "deduction": 170
+          }
         }
       ],
       "createdAt": "2025-10-27T07:28:15.887Z",
-      "updatedAt": "2025-10-27T09:46:00.630Z",
-      "waybillNumber": "6755"
+      "updatedAt": "2025-10-27T12:08:45.946Z",
+      "waybillNumber": "6755",
+      "netWeight": 18520,
+      "deduction": 170
     },
     {
       "id": "truck_1761550095887_4_ujy82j0fu",
@@ -8801,6 +8811,6 @@
       "waybillNumber": "6761"
     }
   ],
-  "lastModified": "2025-10-27T12:07:29.095Z",
+  "lastModified": "2025-10-27T12:08:46.015Z",
   "version": "2.0.0"
 }
