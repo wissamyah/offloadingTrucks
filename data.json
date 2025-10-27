@@ -8616,15 +8616,23 @@
       "bags": 522,
       "moistureLevel": 15,
       "truckNumber": "TRR 269 XX",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-10-27T08:43:02.250Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-10-27T12:21:39.261Z",
+          "details": {
+            "waybillNumber": "6766"
+          }
         }
       ],
       "createdAt": "2025-10-27T08:43:02.250Z",
-      "updatedAt": "2025-10-27T08:43:02.250Z"
+      "updatedAt": "2025-10-27T12:21:39.261Z",
+      "waybillNumber": "6766"
     },
     {
       "id": "truck_1761554582250_3_itoshldw5",
@@ -8827,6 +8835,6 @@
       "waybillNumber": "6761"
     }
   ],
-  "lastModified": "2025-10-27T12:09:49.867Z",
+  "lastModified": "2025-10-27T12:21:40.079Z",
   "version": "2.0.0"
 }
