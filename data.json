@@ -8401,8 +8401,88 @@
       ],
       "createdAt": "2025-10-27T08:42:38.117Z",
       "updatedAt": "2025-10-27T08:42:38.117Z"
+    },
+    {
+      "id": "truck_1761554582250_0_uu3asxyry",
+      "supplierName": "Mubarak Abba",
+      "bags": 165,
+      "moistureLevel": 16,
+      "truckNumber": "LFA 48 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-27T08:43:02.250Z"
+        }
+      ],
+      "createdAt": "2025-10-27T08:43:02.250Z",
+      "updatedAt": "2025-10-27T08:43:02.250Z"
+    },
+    {
+      "id": "truck_1761554582250_1_nkmuzqpns",
+      "supplierName": "Mansur Mansur",
+      "bags": 426,
+      "moistureLevel": 18,
+      "truckNumber": "AG 666 KTN",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-27T08:43:02.250Z"
+        }
+      ],
+      "createdAt": "2025-10-27T08:43:02.250Z",
+      "updatedAt": "2025-10-27T08:43:02.250Z"
+    },
+    {
+      "id": "truck_1761554582250_2_cc8qzvbwu",
+      "supplierName": "Lawan Ibrahim",
+      "bags": 522,
+      "moistureLevel": 15,
+      "truckNumber": "TRR 269 XX",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-27T08:43:02.250Z"
+        }
+      ],
+      "createdAt": "2025-10-27T08:43:02.250Z",
+      "updatedAt": "2025-10-27T08:43:02.250Z"
+    },
+    {
+      "id": "truck_1761554582250_3_itoshldw5",
+      "supplierName": "Idris Haruna",
+      "bags": 510,
+      "moistureLevel": 17,
+      "truckNumber": "KAT 253 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-27T08:43:02.250Z"
+        }
+      ],
+      "createdAt": "2025-10-27T08:43:02.250Z",
+      "updatedAt": "2025-10-27T08:43:02.250Z"
+    },
+    {
+      "id": "truck_1761554582250_4_dxijtffna",
+      "supplierName": "Mukhtari Sale",
+      "bags": 432,
+      "moistureLevel": 16,
+      "truckNumber": "DRZ 523 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-27T08:43:02.250Z"
+        }
+      ],
+      "createdAt": "2025-10-27T08:43:02.250Z",
+      "updatedAt": "2025-10-27T08:43:02.250Z"
     }
   ],
-  "lastModified": "2025-10-27T08:42:38.226Z",
+  "lastModified": "2025-10-27T08:43:03.454Z",
   "version": "2.0.0"
 }
