@@ -8904,15 +8904,23 @@
       "bags": 120,
       "moistureLevel": 18,
       "truckNumber": "KTG 557 YG",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-10-27T08:43:54.718Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-10-27T15:29:43.542Z",
+          "details": {
+            "waybillNumber": "6772"
+          }
         }
       ],
       "createdAt": "2025-10-27T08:43:54.718Z",
-      "updatedAt": "2025-10-27T08:43:54.718Z"
+      "updatedAt": "2025-10-27T15:29:43.542Z",
+      "waybillNumber": "6772"
     },
     {
       "id": "truck_1761554634718_1_ghgtadnfn",
@@ -9003,6 +9011,6 @@
       "netWeight": 40810
     }
   ],
-  "lastModified": "2025-10-27T15:23:27.167Z",
+  "lastModified": "2025-10-27T15:29:43.644Z",
   "version": "2.0.0"
 }
