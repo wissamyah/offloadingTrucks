@@ -8294,7 +8294,7 @@
       "bags": 61,
       "moistureLevel": 18,
       "truckNumber": "NND 327 XA",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -8306,11 +8306,19 @@
           "details": {
             "waybillNumber": "6749"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-10-27T15:20:47.846Z",
+          "details": {
+            "netWeight": 5460
+          }
         }
       ],
       "createdAt": "2025-10-27T07:28:42.110Z",
-      "updatedAt": "2025-10-27T09:31:20.203Z",
-      "waybillNumber": "6749"
+      "updatedAt": "2025-10-27T15:20:47.846Z",
+      "waybillNumber": "6749",
+      "netWeight": 5460
     },
     {
       "id": "truck_1761550122110_3_kqyhpmwf8",
@@ -8949,6 +8957,6 @@
       "netWeight": 40810
     }
   ],
-  "lastModified": "2025-10-27T15:19:35.332Z",
+  "lastModified": "2025-10-27T15:20:47.902Z",
   "version": "2.0.0"
 }
