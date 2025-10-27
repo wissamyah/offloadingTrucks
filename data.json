@@ -8340,7 +8340,7 @@
       "bags": 210,
       "moistureLevel": 17,
       "truckNumber": "NNG 373 XA",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -8352,11 +8352,19 @@
           "details": {
             "waybillNumber": "6754"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-10-27T11:10:32.135Z",
+          "details": {
+            "netWeight": 20790
+          }
         }
       ],
       "createdAt": "2025-10-27T08:42:19.037Z",
-      "updatedAt": "2025-10-27T11:10:05.198Z",
-      "waybillNumber": "6754"
+      "updatedAt": "2025-10-27T11:10:32.135Z",
+      "waybillNumber": "6754",
+      "netWeight": 20790
     },
     {
       "id": "truck_1761554539037_1_rxhswij4b",
@@ -8727,6 +8735,6 @@
       "updatedAt": "2025-10-27T08:43:54.719Z"
     }
   ],
-  "lastModified": "2025-10-27T11:10:05.289Z",
+  "lastModified": "2025-10-27T11:10:32.201Z",
   "version": "2.0.0"
 }
