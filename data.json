@@ -8222,7 +8222,7 @@
       "bags": 481,
       "moistureLevel": 18,
       "truckNumber": "DUT 457 XC",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -8234,11 +8234,19 @@
           "details": {
             "waybillNumber": "6752"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-10-27T12:09:49.787Z",
+          "details": {
+            "netWeight": 42780
+          }
         }
       ],
       "createdAt": "2025-10-27T07:28:15.887Z",
-      "updatedAt": "2025-10-27T12:09:20.549Z",
-      "waybillNumber": "6752"
+      "updatedAt": "2025-10-27T12:09:49.787Z",
+      "waybillNumber": "6752",
+      "netWeight": 42780
     },
     {
       "id": "truck_1761550122110_0_pv6v9dyk6",
@@ -8819,6 +8827,6 @@
       "waybillNumber": "6761"
     }
   ],
-  "lastModified": "2025-10-27T12:09:20.625Z",
+  "lastModified": "2025-10-27T12:09:49.867Z",
   "version": "2.0.0"
 }
