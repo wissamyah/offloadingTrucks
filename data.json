@@ -8272,15 +8272,19 @@
       "bags": 250,
       "moistureLevel": 22,
       "truckNumber": "APP 798 XA",
-      "status": "pending",
+      "status": "rejected",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-10-27T07:28:42.110Z"
+        },
+        {
+          "status": "rejected",
+          "timestamp": "2025-10-27T15:22:51.637Z"
         }
       ],
       "createdAt": "2025-10-27T07:28:42.110Z",
-      "updatedAt": "2025-10-27T07:28:42.110Z"
+      "updatedAt": "2025-10-27T15:22:51.637Z"
     },
     {
       "id": "truck_1761550122110_1_zh3qw6reh",
@@ -8971,6 +8975,6 @@
       "netWeight": 40810
     }
   ],
-  "lastModified": "2025-10-27T15:22:48.098Z",
+  "lastModified": "2025-10-27T15:22:52.029Z",
   "version": "2.0.0"
 }
