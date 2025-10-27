@@ -9004,7 +9004,7 @@
       "bags": 150,
       "moistureLevel": 16,
       "truckNumber": "GRM 816 XA",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -9016,11 +9016,19 @@
           "details": {
             "waybillNumber": "6774"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-10-27T17:41:12.167Z",
+          "details": {
+            "netWeight": 13270
+          }
         }
       ],
       "createdAt": "2025-10-27T08:43:54.719Z",
-      "updatedAt": "2025-10-27T16:14:20.435Z",
-      "waybillNumber": "6774"
+      "updatedAt": "2025-10-27T17:41:12.167Z",
+      "waybillNumber": "6774",
+      "netWeight": 13270
     },
     {
       "id": "truck_1761564927879_0_x28jk5yaj",
@@ -9055,6 +9063,6 @@
       "netWeight": 40810
     }
   ],
-  "lastModified": "2025-10-27T17:11:15.515Z",
+  "lastModified": "2025-10-27T17:41:12.301Z",
   "version": "2.0.0"
 }
