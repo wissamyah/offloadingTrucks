@@ -8080,7 +8080,7 @@
       "bags": 35,
       "moistureLevel": 17,
       "truckNumber": "MDG 154 XA",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -8092,11 +8092,19 @@
           "details": {
             "waybillNumber": "6742"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-10-27T08:56:39.108Z",
+          "details": {
+            "netWeight": 3040
+          }
         }
       ],
       "createdAt": "2025-10-27T07:28:15.887Z",
-      "updatedAt": "2025-10-27T08:19:14.503Z",
-      "waybillNumber": "6742"
+      "updatedAt": "2025-10-27T08:56:39.108Z",
+      "waybillNumber": "6742",
+      "netWeight": 3040
     },
     {
       "id": "truck_1761550095887_1_7dgp5lh3v",
@@ -8635,6 +8643,6 @@
       "updatedAt": "2025-10-27T08:43:54.719Z"
     }
   ],
-  "lastModified": "2025-10-27T08:45:28.507Z",
+  "lastModified": "2025-10-27T08:56:40.320Z",
   "version": "2.0.0"
 }
