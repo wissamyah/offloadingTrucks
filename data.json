@@ -8348,15 +8348,23 @@
       "bags": 100,
       "moistureLevel": 16,
       "truckNumber": "GWL 121 XB",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-10-27T08:42:19.037Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-10-27T10:30:26.444Z",
+          "details": {
+            "waybillNumber": "6756"
+          }
         }
       ],
       "createdAt": "2025-10-27T08:42:19.037Z",
-      "updatedAt": "2025-10-27T08:42:19.037Z"
+      "updatedAt": "2025-10-27T10:30:26.444Z",
+      "waybillNumber": "6756"
     },
     {
       "id": "truck_1761554539037_2_78pk5vr8a",
@@ -8695,6 +8703,6 @@
       "updatedAt": "2025-10-27T08:43:54.719Z"
     }
   ],
-  "lastModified": "2025-10-27T10:02:12.911Z",
+  "lastModified": "2025-10-27T10:30:26.539Z",
   "version": "2.0.0"
 }
