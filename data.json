@@ -8017,8 +8017,88 @@
       ],
       "createdAt": "2025-10-27T07:27:47.254Z",
       "updatedAt": "2025-10-27T07:27:47.254Z"
+    },
+    {
+      "id": "truck_1761550095887_0_ltotepggh",
+      "supplierName": "Alh Danasabe",
+      "bags": 35,
+      "moistureLevel": 17,
+      "truckNumber": "MDG 154 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-27T07:28:15.887Z"
+        }
+      ],
+      "createdAt": "2025-10-27T07:28:15.887Z",
+      "updatedAt": "2025-10-27T07:28:15.887Z"
+    },
+    {
+      "id": "truck_1761550095887_1_7dgp5lh3v",
+      "supplierName": "Jamilu jangale",
+      "bags": 180,
+      "moistureLevel": 22,
+      "truckNumber": "GWW 755 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-27T07:28:15.887Z"
+        }
+      ],
+      "createdAt": "2025-10-27T07:28:15.887Z",
+      "updatedAt": "2025-10-27T07:28:15.887Z"
+    },
+    {
+      "id": "truck_1761550095887_2_2pbrm1yct",
+      "supplierName": "Idris Garba",
+      "bags": 231,
+      "moistureLevel": 18,
+      "truckNumber": "TRN 771 ZY",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-27T07:28:15.887Z"
+        }
+      ],
+      "createdAt": "2025-10-27T07:28:15.887Z",
+      "updatedAt": "2025-10-27T07:28:15.887Z"
+    },
+    {
+      "id": "truck_1761550095887_3_zuexltghr",
+      "supplierName": "Mukhtari Sale",
+      "bags": 250,
+      "moistureLevel": 16,
+      "truckNumber": "KUJ 74 XB",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-27T07:28:15.887Z"
+        }
+      ],
+      "createdAt": "2025-10-27T07:28:15.887Z",
+      "updatedAt": "2025-10-27T07:28:15.887Z"
+    },
+    {
+      "id": "truck_1761550095887_4_ujy82j0fu",
+      "supplierName": "Mukhtari Sale",
+      "bags": 481,
+      "moistureLevel": 18,
+      "truckNumber": "DUT 457 XC",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-27T07:28:15.887Z"
+        }
+      ],
+      "createdAt": "2025-10-27T07:28:15.887Z",
+      "updatedAt": "2025-10-27T07:28:15.887Z"
     }
   ],
-  "lastModified": "2025-10-27T07:27:47.355Z",
+  "lastModified": "2025-10-27T07:28:15.969Z",
   "version": "2.0.0"
 }
