@@ -10022,7 +10022,8 @@
       ],
       "createdAt": "2025-10-28T14:47:40.921Z",
       "updatedAt": "2025-10-28T16:05:13.873Z",
-      "waybillNumber": "6799"
+      "waybillNumber": "6806",
+      "netWeight": 19470
     },
     {
       "id": "truck_1761662860921_1_yj0a92tdu",
@@ -10193,6 +10194,6 @@
       "netWeight": 7640
     }
   ],
-  "lastModified": "2025-10-28T16:05:30.801Z",
+  "lastModified": "2025-10-28T16:32:39.766Z",
   "version": "2.0.0"
 }
