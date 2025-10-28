@@ -9388,15 +9388,19 @@
       "bags": 100,
       "moistureLevel": 21,
       "truckNumber": "DKA 703 ZP",
-      "status": "pending",
+      "status": "rejected",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-10-28T07:42:53.681Z"
+        },
+        {
+          "status": "rejected",
+          "timestamp": "2025-10-28T10:19:22.136Z"
         }
       ],
       "createdAt": "2025-10-28T07:42:53.681Z",
-      "updatedAt": "2025-10-28T07:42:53.681Z"
+      "updatedAt": "2025-10-28T10:19:22.136Z"
     },
     {
       "id": "truck_1761637373680_1_3txkmzvfg",
@@ -9735,6 +9739,6 @@
       "updatedAt": "2025-10-28T07:45:20.411Z"
     }
   ],
-  "lastModified": "2025-10-28T10:02:55.332Z",
+  "lastModified": "2025-10-28T10:19:22.220Z",
   "version": "2.0.0"
 }
