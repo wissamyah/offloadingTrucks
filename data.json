@@ -9116,14 +9116,14 @@
         },
         {
           "status": "scaled_in",
-          "timestamp": "2025-10-28T08:44:47.069Z",
+          "timestamp": "2025-10-28T08:44:58.285Z",
           "details": {
             "waybillNumber": "6785"
           }
         }
       ],
       "createdAt": "2025-10-28T07:23:14.056Z",
-      "updatedAt": "2025-10-28T08:44:47.069Z",
+      "updatedAt": "2025-10-28T08:44:58.285Z",
       "waybillNumber": "6785"
     },
     {
@@ -9631,6 +9631,6 @@
       "updatedAt": "2025-10-28T07:45:20.411Z"
     }
   ],
-  "lastModified": "2025-10-28T08:44:47.341Z",
+  "lastModified": "2025-10-28T08:44:58.925Z",
   "version": "2.0.0"
 }
