@@ -9061,8 +9061,88 @@
       "updatedAt": "2025-10-27T13:31:19.149Z",
       "waybillNumber": "6761",
       "netWeight": 40810
+    },
+    {
+      "id": "truck_1761636194056_0_q7f32sni3",
+      "supplierName": "Mukhtari Sale",
+      "bags": 111,
+      "moistureLevel": 19,
+      "truckNumber": "KHS 199 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-28T07:23:14.056Z"
+        }
+      ],
+      "createdAt": "2025-10-28T07:23:14.056Z",
+      "updatedAt": "2025-10-28T07:23:14.056Z"
+    },
+    {
+      "id": "truck_1761636194056_1_nfc7dfgje",
+      "supplierName": "Jamilu Yahaya",
+      "bags": 99,
+      "moistureLevel": 19,
+      "truckNumber": "KTG 125 ZZ",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-28T07:23:14.056Z"
+        }
+      ],
+      "createdAt": "2025-10-28T07:23:14.056Z",
+      "updatedAt": "2025-10-28T07:23:14.056Z"
+    },
+    {
+      "id": "truck_1761636194056_2_fj8dxpi48",
+      "supplierName": "Jamilu Yahaya",
+      "bags": 500,
+      "moistureLevel": 16,
+      "truckNumber": "DKD 606 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-28T07:23:14.056Z"
+        }
+      ],
+      "createdAt": "2025-10-28T07:23:14.056Z",
+      "updatedAt": "2025-10-28T07:23:14.056Z"
+    },
+    {
+      "id": "truck_1761636194056_3_0t9wr3lvi",
+      "supplierName": "Abubakar Muhd Tukur",
+      "bags": 210,
+      "moistureLevel": 14,
+      "truckNumber": "MSA 966 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-28T07:23:14.057Z"
+        }
+      ],
+      "createdAt": "2025-10-28T07:23:14.057Z",
+      "updatedAt": "2025-10-28T07:23:14.057Z"
+    },
+    {
+      "id": "truck_1761636194056_4_njc3c26h0",
+      "supplierName": "Mansur Mansur",
+      "bags": 454,
+      "moistureLevel": 17,
+      "truckNumber": "KFR 183 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-28T07:23:14.057Z"
+        }
+      ],
+      "createdAt": "2025-10-28T07:23:14.057Z",
+      "updatedAt": "2025-10-28T07:23:14.057Z"
     }
   ],
-  "lastModified": "2025-10-27T17:41:12.301Z",
+  "lastModified": "2025-10-28T07:23:14.266Z",
   "version": "2.0.0"
 }
