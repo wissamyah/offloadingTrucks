@@ -9292,7 +9292,7 @@
       "bags": 500,
       "moistureLevel": 16,
       "truckNumber": "FUN 91 XA",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -9304,11 +9304,19 @@
           "details": {
             "waybillNumber": "6792"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-10-28T13:13:28.681Z",
+          "details": {
+            "netWeight": 45190
+          }
         }
       ],
       "createdAt": "2025-10-28T07:30:52.898Z",
-      "updatedAt": "2025-10-28T09:43:41.073Z",
-      "waybillNumber": "6792"
+      "updatedAt": "2025-10-28T13:13:28.681Z",
+      "waybillNumber": "6792",
+      "netWeight": 45190
     },
     {
       "id": "truck_1761636652897_1_1hrqrqi0n",
@@ -9857,6 +9865,6 @@
       "updatedAt": "2025-10-28T07:45:20.411Z"
     }
   ],
-  "lastModified": "2025-10-28T13:12:55.623Z",
+  "lastModified": "2025-10-28T13:13:28.746Z",
   "version": "2.0.0"
 }
