@@ -9396,7 +9396,7 @@
       "bags": 50,
       "moistureLevel": 15,
       "truckNumber": "KRY 260 XA",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -9408,11 +9408,19 @@
           "details": {
             "waybillNumber": "6783"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-10-28T09:01:43.709Z",
+          "details": {
+            "netWeight": 3560
+          }
         }
       ],
       "createdAt": "2025-10-28T07:42:53.681Z",
-      "updatedAt": "2025-10-28T08:23:05.192Z",
-      "waybillNumber": "6783"
+      "updatedAt": "2025-10-28T09:01:43.709Z",
+      "waybillNumber": "6783",
+      "netWeight": 3560
     },
     {
       "id": "truck_1761637373680_4_1gmrlusmk",
@@ -9639,6 +9647,6 @@
       "updatedAt": "2025-10-28T07:45:20.411Z"
     }
   ],
-  "lastModified": "2025-10-28T08:54:53.749Z",
+  "lastModified": "2025-10-28T09:01:43.827Z",
   "version": "2.0.0"
 }
