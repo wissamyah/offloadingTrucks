@@ -9293,8 +9293,88 @@
       ],
       "createdAt": "2025-10-28T07:30:52.899Z",
       "updatedAt": "2025-10-28T07:30:52.899Z"
+    },
+    {
+      "id": "truck_1761637373680_0_h2kwmxkh4",
+      "supplierName": "Idris Garba",
+      "bags": 100,
+      "moistureLevel": 21,
+      "truckNumber": "DKA 703 ZP",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-28T07:42:53.681Z"
+        }
+      ],
+      "createdAt": "2025-10-28T07:42:53.681Z",
+      "updatedAt": "2025-10-28T07:42:53.681Z"
+    },
+    {
+      "id": "truck_1761637373680_1_3txkmzvfg",
+      "supplierName": "Idris Garba",
+      "bags": 110,
+      "moistureLevel": 22,
+      "truckNumber": "GWA 109 XS",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-28T07:42:53.681Z"
+        }
+      ],
+      "createdAt": "2025-10-28T07:42:53.681Z",
+      "updatedAt": "2025-10-28T07:42:53.681Z"
+    },
+    {
+      "id": "truck_1761637373680_2_zaa7xgf75",
+      "supplierName": "Alh Danasabe",
+      "bags": 35,
+      "moistureLevel": 13,
+      "truckNumber": "DRZ 065 LG",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-28T07:42:53.681Z"
+        }
+      ],
+      "createdAt": "2025-10-28T07:42:53.681Z",
+      "updatedAt": "2025-10-28T07:42:53.681Z"
+    },
+    {
+      "id": "truck_1761637373680_3_of0f4wc4n",
+      "supplierName": "Musbahu Ashiru",
+      "bags": 50,
+      "moistureLevel": 15,
+      "truckNumber": "KRY 260 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-28T07:42:53.681Z"
+        }
+      ],
+      "createdAt": "2025-10-28T07:42:53.681Z",
+      "updatedAt": "2025-10-28T07:42:53.681Z"
+    },
+    {
+      "id": "truck_1761637373680_4_1gmrlusmk",
+      "supplierName": "Jamilu Yahaya",
+      "bags": 450,
+      "moistureLevel": 19,
+      "truckNumber": "GML 278 XB",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-28T07:42:53.681Z"
+        }
+      ],
+      "createdAt": "2025-10-28T07:42:53.681Z",
+      "updatedAt": "2025-10-28T07:42:53.681Z"
     }
   ],
-  "lastModified": "2025-10-28T07:38:06.024Z",
+  "lastModified": "2025-10-28T07:42:54.490Z",
   "version": "2.0.0"
 }
