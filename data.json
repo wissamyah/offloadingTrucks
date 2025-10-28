@@ -9696,15 +9696,19 @@
       "bags": 500,
       "moistureLevel": 21,
       "truckNumber": "GME 180 XB",
-      "status": "pending",
+      "status": "rejected",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-10-28T07:45:20.411Z"
+        },
+        {
+          "status": "rejected",
+          "timestamp": "2025-10-28T10:19:26.874Z"
         }
       ],
       "createdAt": "2025-10-28T07:45:20.411Z",
-      "updatedAt": "2025-10-28T07:45:20.411Z"
+      "updatedAt": "2025-10-28T10:19:26.874Z"
     },
     {
       "id": "truck_1761637520411_1_l5ltgd61i",
@@ -9739,6 +9743,6 @@
       "updatedAt": "2025-10-28T07:45:20.411Z"
     }
   ],
-  "lastModified": "2025-10-28T10:19:22.220Z",
+  "lastModified": "2025-10-28T10:19:27.425Z",
   "version": "2.0.0"
 }
