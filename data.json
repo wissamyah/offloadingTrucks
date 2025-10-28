@@ -9180,7 +9180,7 @@
       "bags": 550,
       "moistureLevel": 17,
       "truckNumber": "KTN 268 YZ",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -9192,11 +9192,19 @@
           "details": {
             "waybillNumber": "6775"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-10-28T09:21:44.906Z",
+          "details": {
+            "netWeight": 39170
+          }
         }
       ],
       "createdAt": "2025-10-28T07:26:56.098Z",
-      "updatedAt": "2025-10-28T07:29:53.693Z",
-      "waybillNumber": "6775"
+      "updatedAt": "2025-10-28T09:21:44.906Z",
+      "waybillNumber": "6775",
+      "netWeight": 39170
     },
     {
       "id": "truck_1761636416098_1_l750m1qo3",
@@ -9663,6 +9671,6 @@
       "updatedAt": "2025-10-28T07:45:20.411Z"
     }
   ],
-  "lastModified": "2025-10-28T09:10:38.606Z",
+  "lastModified": "2025-10-28T09:21:45.013Z",
   "version": "2.0.0"
 }
