@@ -10142,7 +10142,7 @@
       "bags": 100,
       "moistureLevel": 18,
       "truckNumber": "JJJ 462 XV",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -10154,13 +10154,21 @@
           "details": {
             "waybillNumber": "6807"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-10-28T15:38:25.079Z",
+          "details": {
+            "netWeight": 7640
+          }
         }
       ],
       "createdAt": "2025-10-28T14:49:28.586Z",
-      "updatedAt": "2025-10-28T14:59:42.024Z",
-      "waybillNumber": "6807"
+      "updatedAt": "2025-10-28T15:38:25.079Z",
+      "waybillNumber": "6807",
+      "netWeight": 7640
     }
   ],
-  "lastModified": "2025-10-28T15:35:30.791Z",
+  "lastModified": "2025-10-28T15:38:25.860Z",
   "version": "2.0.0"
 }
