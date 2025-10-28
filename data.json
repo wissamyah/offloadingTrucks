@@ -9453,8 +9453,88 @@
       ],
       "createdAt": "2025-10-28T07:43:14.941Z",
       "updatedAt": "2025-10-28T07:43:14.941Z"
+    },
+    {
+      "id": "truck_1761637499882_0_uk22v72xl",
+      "supplierName": "Mukhtari Sale",
+      "bags": 400,
+      "moistureLevel": 15,
+      "truckNumber": "NNG 32 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-28T07:44:59.883Z"
+        }
+      ],
+      "createdAt": "2025-10-28T07:44:59.883Z",
+      "updatedAt": "2025-10-28T07:44:59.883Z"
+    },
+    {
+      "id": "truck_1761637499882_1_9aw81fvbo",
+      "supplierName": "Mubarak Abba",
+      "bags": 450,
+      "moistureLevel": 17,
+      "truckNumber": "ZAR 872 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-28T07:44:59.883Z"
+        }
+      ],
+      "createdAt": "2025-10-28T07:44:59.883Z",
+      "updatedAt": "2025-10-28T07:44:59.883Z"
+    },
+    {
+      "id": "truck_1761637499882_2_m4oj4x6o2",
+      "supplierName": "Mukhtari Sale",
+      "bags": 181,
+      "moistureLevel": 16,
+      "truckNumber": "MGR 640 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-28T07:44:59.883Z"
+        }
+      ],
+      "createdAt": "2025-10-28T07:44:59.883Z",
+      "updatedAt": "2025-10-28T07:44:59.883Z"
+    },
+    {
+      "id": "truck_1761637499882_3_a7nqjbpe2",
+      "supplierName": "Idris Haruna",
+      "bags": 500,
+      "moistureLevel": 19,
+      "truckNumber": "GME 154 XB",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-28T07:44:59.883Z"
+        }
+      ],
+      "createdAt": "2025-10-28T07:44:59.883Z",
+      "updatedAt": "2025-10-28T07:44:59.883Z"
+    },
+    {
+      "id": "truck_1761637499882_4_ravsxdrx7",
+      "supplierName": "Yahaya Yamusa",
+      "bags": 235,
+      "moistureLevel": 18,
+      "truckNumber": "GLM 916 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-28T07:44:59.883Z"
+        }
+      ],
+      "createdAt": "2025-10-28T07:44:59.883Z",
+      "updatedAt": "2025-10-28T07:44:59.883Z"
     }
   ],
-  "lastModified": "2025-10-28T07:43:15.070Z",
+  "lastModified": "2025-10-28T07:45:00.042Z",
   "version": "2.0.0"
 }
