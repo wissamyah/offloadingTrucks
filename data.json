@@ -9951,8 +9951,88 @@
       ],
       "createdAt": "2025-10-28T14:47:25.692Z",
       "updatedAt": "2025-10-28T14:47:25.692Z"
+    },
+    {
+      "id": "truck_1761662860921_0_62hker6gz",
+      "supplierName": "Mukhtari Sale",
+      "bags": 220,
+      "moistureLevel": 18,
+      "truckNumber": "NNG 876 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-28T14:47:40.921Z"
+        }
+      ],
+      "createdAt": "2025-10-28T14:47:40.921Z",
+      "updatedAt": "2025-10-28T14:47:40.921Z"
+    },
+    {
+      "id": "truck_1761662860921_1_yj0a92tdu",
+      "supplierName": "Jamilu Yahaya",
+      "bags": 450,
+      "moistureLevel": 20,
+      "truckNumber": "ANC 756 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-28T14:47:40.921Z"
+        }
+      ],
+      "createdAt": "2025-10-28T14:47:40.921Z",
+      "updatedAt": "2025-10-28T14:47:40.921Z"
+    },
+    {
+      "id": "truck_1761662860921_2_24uri5g06",
+      "supplierName": "Mubarak Abba",
+      "bags": 160,
+      "moistureLevel": 15,
+      "truckNumber": "KEN 13 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-28T14:47:40.921Z"
+        }
+      ],
+      "createdAt": "2025-10-28T14:47:40.921Z",
+      "updatedAt": "2025-10-28T14:47:40.921Z"
+    },
+    {
+      "id": "truck_1761662860921_3_79ciz65a5",
+      "supplierName": "Mubarak Abba",
+      "bags": 480,
+      "moistureLevel": 15,
+      "truckNumber": "TRN 543 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-28T14:47:40.921Z"
+        }
+      ],
+      "createdAt": "2025-10-28T14:47:40.921Z",
+      "updatedAt": "2025-10-28T14:47:40.921Z"
+    },
+    {
+      "id": "truck_1761662860921_4_cojgf24mm",
+      "supplierName": "Mahi Muhd Munir",
+      "bags": 570,
+      "moistureLevel": 22,
+      "truckNumber": "DKA 951 ZM",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-28T14:47:40.921Z"
+        }
+      ],
+      "createdAt": "2025-10-28T14:47:40.921Z",
+      "updatedAt": "2025-10-28T14:47:40.921Z"
     }
   ],
-  "lastModified": "2025-10-28T14:47:25.817Z",
+  "lastModified": "2025-10-28T14:47:40.987Z",
   "version": "2.0.0"
 }
