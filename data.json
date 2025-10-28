@@ -9532,7 +9532,7 @@
       "bags": 500,
       "moistureLevel": 16,
       "truckNumber": "XB 995 PKM",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -9544,11 +9544,19 @@
           "details": {
             "waybillNumber": "6793"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-10-28T11:36:52.063Z",
+          "details": {
+            "netWeight": 36970
+          }
         }
       ],
       "createdAt": "2025-10-28T07:43:14.941Z",
-      "updatedAt": "2025-10-28T09:59:26.912Z",
-      "waybillNumber": "6793"
+      "updatedAt": "2025-10-28T11:36:52.063Z",
+      "waybillNumber": "6793",
+      "netWeight": 36970
     },
     {
       "id": "truck_1761637394941_1_w8a1c7o8c",
@@ -9795,6 +9803,6 @@
       "updatedAt": "2025-10-28T07:45:20.411Z"
     }
   ],
-  "lastModified": "2025-10-28T11:23:56.082Z",
+  "lastModified": "2025-10-28T11:36:52.493Z",
   "version": "2.0.0"
 }
