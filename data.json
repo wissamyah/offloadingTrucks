@@ -9468,15 +9468,23 @@
       "bags": 450,
       "moistureLevel": 19,
       "truckNumber": "GML 278 XB",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-10-28T07:42:53.681Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-10-28T09:39:43.513Z",
+          "details": {
+            "waybillNumber": "6790"
+          }
         }
       ],
       "createdAt": "2025-10-28T07:42:53.681Z",
-      "updatedAt": "2025-10-28T07:42:53.681Z"
+      "updatedAt": "2025-10-28T09:39:43.513Z",
+      "waybillNumber": "6790"
     },
     {
       "id": "truck_1761637394941_0_n6g6kcb1y",
@@ -9687,6 +9695,6 @@
       "updatedAt": "2025-10-28T07:45:20.411Z"
     }
   ],
-  "lastModified": "2025-10-28T09:37:38.154Z",
+  "lastModified": "2025-10-28T09:39:43.596Z",
   "version": "2.0.0"
 }
