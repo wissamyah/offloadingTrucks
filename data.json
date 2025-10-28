@@ -9716,15 +9716,23 @@
       "bags": 181,
       "moistureLevel": 16,
       "truckNumber": "MGR 640 XA",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-10-28T07:44:59.883Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-10-28T11:44:29.963Z",
+          "details": {
+            "waybillNumber": "6801"
+          }
         }
       ],
       "createdAt": "2025-10-28T07:44:59.883Z",
-      "updatedAt": "2025-10-28T07:44:59.883Z"
+      "updatedAt": "2025-10-28T11:44:29.963Z",
+      "waybillNumber": "6801"
     },
     {
       "id": "truck_1761637499882_3_a7nqjbpe2",
@@ -9811,6 +9819,6 @@
       "updatedAt": "2025-10-28T07:45:20.411Z"
     }
   ],
-  "lastModified": "2025-10-28T11:40:51.880Z",
+  "lastModified": "2025-10-28T11:44:30.129Z",
   "version": "2.0.0"
 }
