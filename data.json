@@ -9284,7 +9284,7 @@
       "bags": 76,
       "moistureLevel": 20,
       "truckNumber": "DKA 890 ZP",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -9296,11 +9296,19 @@
           "details": {
             "waybillNumber": "6782"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-10-28T09:10:38.516Z",
+          "details": {
+            "netWeight": 6260
+          }
         }
       ],
       "createdAt": "2025-10-28T07:30:52.899Z",
-      "updatedAt": "2025-10-28T08:19:36.286Z",
-      "waybillNumber": "6782"
+      "updatedAt": "2025-10-28T09:10:38.516Z",
+      "waybillNumber": "6782",
+      "netWeight": 6260
     },
     {
       "id": "truck_1761636652897_3_f778et7y1",
@@ -9655,6 +9663,6 @@
       "updatedAt": "2025-10-28T07:45:20.411Z"
     }
   ],
-  "lastModified": "2025-10-28T09:07:20.465Z",
+  "lastModified": "2025-10-28T09:10:38.606Z",
   "version": "2.0.0"
 }
