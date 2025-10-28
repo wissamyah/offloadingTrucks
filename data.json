@@ -9372,7 +9372,7 @@
       "bags": 35,
       "moistureLevel": 13,
       "truckNumber": "DRZ 065 LG",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -9384,11 +9384,19 @@
           "details": {
             "waybillNumber": "6779"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-10-28T09:07:20.358Z",
+          "details": {
+            "netWeight": 3060
+          }
         }
       ],
       "createdAt": "2025-10-28T07:42:53.681Z",
-      "updatedAt": "2025-10-28T08:09:23.692Z",
-      "waybillNumber": "6779"
+      "updatedAt": "2025-10-28T09:07:20.358Z",
+      "waybillNumber": "6779",
+      "netWeight": 3060
     },
     {
       "id": "truck_1761637373680_3_of0f4wc4n",
@@ -9647,6 +9655,6 @@
       "updatedAt": "2025-10-28T07:45:20.411Z"
     }
   ],
-  "lastModified": "2025-10-28T09:01:43.827Z",
+  "lastModified": "2025-10-28T09:07:20.465Z",
   "version": "2.0.0"
 }
