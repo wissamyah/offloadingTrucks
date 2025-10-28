@@ -9871,8 +9871,88 @@
       ],
       "createdAt": "2025-10-28T07:45:20.411Z",
       "updatedAt": "2025-10-28T07:45:20.411Z"
+    },
+    {
+      "id": "truck_1761662845692_0_mre0sd9r7",
+      "supplierName": "Mubarak Abba",
+      "bags": 550,
+      "moistureLevel": 16,
+      "truckNumber": "KMC 85 YT",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-28T14:47:25.692Z"
+        }
+      ],
+      "createdAt": "2025-10-28T14:47:25.692Z",
+      "updatedAt": "2025-10-28T14:47:25.692Z"
+    },
+    {
+      "id": "truck_1761662845692_1_dvno2a2f7",
+      "supplierName": "Mukhtari Sale",
+      "bags": 237,
+      "moistureLevel": 15,
+      "truckNumber": "HJA 729 XB",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-28T14:47:25.692Z"
+        }
+      ],
+      "createdAt": "2025-10-28T14:47:25.692Z",
+      "updatedAt": "2025-10-28T14:47:25.692Z"
+    },
+    {
+      "id": "truck_1761662845692_2_mm37gdnsm",
+      "supplierName": "Sammaf Agro Allied",
+      "bags": 463,
+      "moistureLevel": 22,
+      "truckNumber": "T 13681 LA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-28T14:47:25.692Z"
+        }
+      ],
+      "createdAt": "2025-10-28T14:47:25.692Z",
+      "updatedAt": "2025-10-28T14:47:25.692Z"
+    },
+    {
+      "id": "truck_1761662845692_3_a8dv6qxih",
+      "supplierName": "Real Grains",
+      "bags": 245,
+      "moistureLevel": 17,
+      "truckNumber": "FKY 601 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-28T14:47:25.692Z"
+        }
+      ],
+      "createdAt": "2025-10-28T14:47:25.692Z",
+      "updatedAt": "2025-10-28T14:47:25.692Z"
+    },
+    {
+      "id": "truck_1761662845692_4_be41f0pel",
+      "supplierName": "Mujaheed Rogo",
+      "bags": 89,
+      "moistureLevel": 19,
+      "truckNumber": "KMC 531 ZJ",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-28T14:47:25.692Z"
+        }
+      ],
+      "createdAt": "2025-10-28T14:47:25.692Z",
+      "updatedAt": "2025-10-28T14:47:25.692Z"
     }
   ],
-  "lastModified": "2025-10-28T13:47:00.890Z",
+  "lastModified": "2025-10-28T14:47:25.817Z",
   "version": "2.0.0"
 }
