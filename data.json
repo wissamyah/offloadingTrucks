@@ -9676,15 +9676,23 @@
       "bags": 450,
       "moistureLevel": 17,
       "truckNumber": "ZAR 872 XA",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-10-28T07:44:59.883Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-10-28T11:23:55.834Z",
+          "details": {
+            "waybillNumber": "6800"
+          }
         }
       ],
       "createdAt": "2025-10-28T07:44:59.883Z",
-      "updatedAt": "2025-10-28T07:44:59.883Z"
+      "updatedAt": "2025-10-28T11:23:55.834Z",
+      "waybillNumber": "6800"
     },
     {
       "id": "truck_1761637499882_2_m4oj4x6o2",
@@ -9787,6 +9795,6 @@
       "updatedAt": "2025-10-28T07:45:20.411Z"
     }
   ],
-  "lastModified": "2025-10-28T11:18:58.400Z",
+  "lastModified": "2025-10-28T11:23:56.082Z",
   "version": "2.0.0"
 }
