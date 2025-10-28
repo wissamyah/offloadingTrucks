@@ -9533,8 +9533,56 @@
       ],
       "createdAt": "2025-10-28T07:44:59.883Z",
       "updatedAt": "2025-10-28T07:44:59.883Z"
+    },
+    {
+      "id": "truck_1761637520411_0_n1jadzb3h",
+      "supplierName": "Sammaf Agro Allied",
+      "bags": 500,
+      "moistureLevel": 21,
+      "truckNumber": "GME 180 XB",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-28T07:45:20.411Z"
+        }
+      ],
+      "createdAt": "2025-10-28T07:45:20.411Z",
+      "updatedAt": "2025-10-28T07:45:20.411Z"
+    },
+    {
+      "id": "truck_1761637520411_1_l5ltgd61i",
+      "supplierName": "Mubarak Abba",
+      "bags": 570,
+      "moistureLevel": 18,
+      "truckNumber": "BWR 739 XE",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-28T07:45:20.411Z"
+        }
+      ],
+      "createdAt": "2025-10-28T07:45:20.411Z",
+      "updatedAt": "2025-10-28T07:45:20.411Z"
+    },
+    {
+      "id": "truck_1761637520411_2_jfrt86a7q",
+      "supplierName": "Mubarak Abba",
+      "bags": 550,
+      "moistureLevel": 19,
+      "truckNumber": "LSD 726 XY",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-28T07:45:20.411Z"
+        }
+      ],
+      "createdAt": "2025-10-28T07:45:20.411Z",
+      "updatedAt": "2025-10-28T07:45:20.411Z"
     }
   ],
-  "lastModified": "2025-10-28T07:45:00.042Z",
+  "lastModified": "2025-10-28T07:45:20.531Z",
   "version": "2.0.0"
 }
