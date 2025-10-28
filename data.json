@@ -10039,8 +10039,88 @@
       ],
       "createdAt": "2025-10-28T14:47:40.921Z",
       "updatedAt": "2025-10-28T14:47:40.921Z"
+    },
+    {
+      "id": "truck_1761662968586_0_kjpjz4ekt",
+      "supplierName": "Mubarak Abba",
+      "bags": 460,
+      "moistureLevel": 16,
+      "truckNumber": "XA 992 HJA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-28T14:49:28.586Z"
+        }
+      ],
+      "createdAt": "2025-10-28T14:49:28.586Z",
+      "updatedAt": "2025-10-28T14:49:28.586Z"
+    },
+    {
+      "id": "truck_1761662968586_1_vyxqcfzvo",
+      "supplierName": "Jamilu jangale",
+      "bags": 500,
+      "moistureLevel": 20,
+      "truckNumber": "PKM 321 ZY",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-28T14:49:28.586Z"
+        }
+      ],
+      "createdAt": "2025-10-28T14:49:28.586Z",
+      "updatedAt": "2025-10-28T14:49:28.586Z"
+    },
+    {
+      "id": "truck_1761662968586_2_pq2aeqm5f",
+      "supplierName": "Mansur Mansur",
+      "bags": 500,
+      "moistureLevel": 15,
+      "truckNumber": "MLF 648 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-28T14:49:28.586Z"
+        }
+      ],
+      "createdAt": "2025-10-28T14:49:28.586Z",
+      "updatedAt": "2025-10-28T14:49:28.586Z"
+    },
+    {
+      "id": "truck_1761662968586_3_a1eypfam4",
+      "supplierName": "Idris Haruna",
+      "bags": 250,
+      "moistureLevel": 17,
+      "truckNumber": "XA 954 TRR",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-28T14:49:28.586Z"
+        }
+      ],
+      "createdAt": "2025-10-28T14:49:28.586Z",
+      "updatedAt": "2025-10-28T14:49:28.586Z"
+    },
+    {
+      "id": "truck_1761662968586_4_i9qxjbsum",
+      "supplierName": "Soba Turawa",
+      "bags": 100,
+      "moistureLevel": 18,
+      "truckNumber": "JJJ 462 XV",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-28T14:49:28.586Z"
+        }
+      ],
+      "createdAt": "2025-10-28T14:49:28.586Z",
+      "updatedAt": "2025-10-28T14:49:28.586Z"
     }
   ],
-  "lastModified": "2025-10-28T14:48:49.437Z",
+  "lastModified": "2025-10-28T14:49:28.789Z",
   "version": "2.0.0"
 }
