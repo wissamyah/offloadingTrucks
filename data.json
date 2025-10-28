@@ -9197,8 +9197,88 @@
       ],
       "createdAt": "2025-10-28T07:26:56.099Z",
       "updatedAt": "2025-10-28T07:26:56.099Z"
+    },
+    {
+      "id": "truck_1761636652897_0_vjxs30qh7",
+      "supplierName": "Henry Ibe",
+      "bags": 500,
+      "moistureLevel": 16,
+      "truckNumber": "FUN 91 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-28T07:30:52.898Z"
+        }
+      ],
+      "createdAt": "2025-10-28T07:30:52.898Z",
+      "updatedAt": "2025-10-28T07:30:52.898Z"
+    },
+    {
+      "id": "truck_1761636652897_1_1hrqrqi0n",
+      "supplierName": "Mubarak Abba",
+      "bags": 450,
+      "moistureLevel": 22,
+      "truckNumber": "GWL 287 XB",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-28T07:30:52.899Z"
+        }
+      ],
+      "createdAt": "2025-10-28T07:30:52.899Z",
+      "updatedAt": "2025-10-28T07:30:52.899Z"
+    },
+    {
+      "id": "truck_1761636652897_2_n4alne93d",
+      "supplierName": "Shitu Ishaq",
+      "bags": 76,
+      "moistureLevel": 20,
+      "truckNumber": "DKA 890 ZP",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-28T07:30:52.899Z"
+        }
+      ],
+      "createdAt": "2025-10-28T07:30:52.899Z",
+      "updatedAt": "2025-10-28T07:30:52.899Z"
+    },
+    {
+      "id": "truck_1761636652897_3_f778et7y1",
+      "supplierName": "Shitu Ishaq",
+      "bags": 100,
+      "moistureLevel": 21,
+      "truckNumber": "KMC 784 ZJ",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-28T07:30:52.899Z"
+        }
+      ],
+      "createdAt": "2025-10-28T07:30:52.899Z",
+      "updatedAt": "2025-10-28T07:30:52.899Z"
+    },
+    {
+      "id": "truck_1761636652897_4_h73vb0vxr",
+      "supplierName": "B L Barka",
+      "bags": 285,
+      "moistureLevel": 17,
+      "truckNumber": "DDM 311 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-28T07:30:52.899Z"
+        }
+      ],
+      "createdAt": "2025-10-28T07:30:52.899Z",
+      "updatedAt": "2025-10-28T07:30:52.899Z"
     }
   ],
-  "lastModified": "2025-10-28T07:29:54.839Z",
+  "lastModified": "2025-10-28T07:30:54.154Z",
   "version": "2.0.0"
 }
