@@ -9942,15 +9942,23 @@
       "bags": 245,
       "moistureLevel": 17,
       "truckNumber": "FKY 601 XA",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-10-28T14:47:25.692Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-10-28T15:09:15.225Z",
+          "details": {
+            "waybillNumber": "6810"
+          }
         }
       ],
       "createdAt": "2025-10-28T14:47:25.692Z",
-      "updatedAt": "2025-10-28T14:47:25.692Z"
+      "updatedAt": "2025-10-28T15:09:15.225Z",
+      "waybillNumber": "6810"
     },
     {
       "id": "truck_1761662845692_4_be41f0pel",
@@ -10145,6 +10153,6 @@
       "waybillNumber": "6807"
     }
   ],
-  "lastModified": "2025-10-28T15:05:56.485Z",
+  "lastModified": "2025-10-28T15:09:15.349Z",
   "version": "2.0.0"
 }
