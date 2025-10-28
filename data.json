@@ -9360,15 +9360,19 @@
       "bags": 100,
       "moistureLevel": 21,
       "truckNumber": "KMC 784 ZJ",
-      "status": "pending",
+      "status": "rejected",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-10-28T07:30:52.899Z"
+        },
+        {
+          "status": "rejected",
+          "timestamp": "2025-10-28T10:19:45.094Z"
         }
       ],
       "createdAt": "2025-10-28T07:30:52.899Z",
-      "updatedAt": "2025-10-28T07:30:52.899Z"
+      "updatedAt": "2025-10-28T10:19:45.094Z"
     },
     {
       "id": "truck_1761636652897_4_h73vb0vxr",
@@ -9751,6 +9755,6 @@
       "updatedAt": "2025-10-28T07:45:20.411Z"
     }
   ],
-  "lastModified": "2025-10-28T10:19:38.392Z",
+  "lastModified": "2025-10-28T10:19:45.982Z",
   "version": "2.0.0"
 }
