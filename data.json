@@ -10062,7 +10062,7 @@
       "supplierName": "Mubarak Abba",
       "bags": 480,
       "moistureLevel": 15,
-      "truckNumber": "TRN 543 XA",
+      "truckNumber": "TRM 543 XA",
       "status": "scaled_in",
       "statusHistory": [
         {
@@ -10079,7 +10079,8 @@
       ],
       "createdAt": "2025-10-28T14:47:40.921Z",
       "updatedAt": "2025-10-28T16:43:05.182Z",
-      "waybillNumber": "6805"
+      "waybillNumber": "6805",
+      "netWeight": 3587
     },
     {
       "id": "truck_1761662860921_4_cojgf24mm",
@@ -10202,6 +10203,6 @@
       "netWeight": 7640
     }
   ],
-  "lastModified": "2025-10-28T16:43:05.950Z",
+  "lastModified": "2025-10-28T16:43:56.736Z",
   "version": "2.0.0"
 }
