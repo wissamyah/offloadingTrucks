@@ -9141,8 +9141,56 @@
       ],
       "createdAt": "2025-10-28T07:23:14.057Z",
       "updatedAt": "2025-10-28T07:23:14.057Z"
+    },
+    {
+      "id": "truck_1761636416098_0_8ytmiu7sj",
+      "supplierName": "Idris Haruna",
+      "bags": 550,
+      "moistureLevel": 17,
+      "truckNumber": "KTN 268 YZ",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-28T07:26:56.098Z"
+        }
+      ],
+      "createdAt": "2025-10-28T07:26:56.098Z",
+      "updatedAt": "2025-10-28T07:26:56.098Z"
+    },
+    {
+      "id": "truck_1761636416098_1_l750m1qo3",
+      "supplierName": "MB Flour",
+      "bags": 442,
+      "moistureLevel": 16,
+      "truckNumber": "DKA 384 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-28T07:26:56.098Z"
+        }
+      ],
+      "createdAt": "2025-10-28T07:26:56.098Z",
+      "updatedAt": "2025-10-28T07:26:56.098Z"
+    },
+    {
+      "id": "truck_1761636416098_2_7nb6yci7q",
+      "supplierName": "Idris Haruna",
+      "bags": 416,
+      "moistureLevel": 18,
+      "truckNumber": "KMC 984 ZQ",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-28T07:26:56.099Z"
+        }
+      ],
+      "createdAt": "2025-10-28T07:26:56.099Z",
+      "updatedAt": "2025-10-28T07:26:56.099Z"
     }
   ],
-  "lastModified": "2025-10-28T07:23:14.266Z",
+  "lastModified": "2025-10-28T07:26:56.345Z",
   "version": "2.0.0"
 }
