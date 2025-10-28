@@ -9373,8 +9373,88 @@
       ],
       "createdAt": "2025-10-28T07:42:53.681Z",
       "updatedAt": "2025-10-28T07:42:53.681Z"
+    },
+    {
+      "id": "truck_1761637394941_0_n6g6kcb1y",
+      "supplierName": "Jamilu jangale",
+      "bags": 500,
+      "moistureLevel": 16,
+      "truckNumber": "XB 995 PKM",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-28T07:43:14.941Z"
+        }
+      ],
+      "createdAt": "2025-10-28T07:43:14.941Z",
+      "updatedAt": "2025-10-28T07:43:14.941Z"
+    },
+    {
+      "id": "truck_1761637394941_1_w8a1c7o8c",
+      "supplierName": "Jamilu Yahaya",
+      "bags": 530,
+      "moistureLevel": 17,
+      "truckNumber": "SKK 323 XB",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-28T07:43:14.941Z"
+        }
+      ],
+      "createdAt": "2025-10-28T07:43:14.941Z",
+      "updatedAt": "2025-10-28T07:43:14.941Z"
+    },
+    {
+      "id": "truck_1761637394941_2_xszwuwqee",
+      "supplierName": "H A Tahir",
+      "bags": 530,
+      "moistureLevel": 20,
+      "truckNumber": "BDG 558 XV",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-28T07:43:14.941Z"
+        }
+      ],
+      "createdAt": "2025-10-28T07:43:14.941Z",
+      "updatedAt": "2025-10-28T07:43:14.941Z"
+    },
+    {
+      "id": "truck_1761637394941_3_pugdssdpg",
+      "supplierName": "Mubarak Abba",
+      "bags": 450,
+      "moistureLevel": 16,
+      "truckNumber": "KMC 452 ZV",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-28T07:43:14.941Z"
+        }
+      ],
+      "createdAt": "2025-10-28T07:43:14.941Z",
+      "updatedAt": "2025-10-28T07:43:14.941Z"
+    },
+    {
+      "id": "truck_1761637394941_4_19tvga1gy",
+      "supplierName": "Idris Garba",
+      "bags": 540,
+      "moistureLevel": 17,
+      "truckNumber": "KTN 726 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-28T07:43:14.941Z"
+        }
+      ],
+      "createdAt": "2025-10-28T07:43:14.941Z",
+      "updatedAt": "2025-10-28T07:43:14.941Z"
     }
   ],
-  "lastModified": "2025-10-28T07:42:54.490Z",
+  "lastModified": "2025-10-28T07:43:15.070Z",
   "version": "2.0.0"
 }
