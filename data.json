@@ -9140,7 +9140,7 @@
       "bags": 210,
       "moistureLevel": 14,
       "truckNumber": "MSA 966 XA",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -9152,11 +9152,19 @@
           "details": {
             "waybillNumber": "6780"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-10-28T09:27:28.268Z",
+          "details": {
+            "netWeight": 18220
+          }
         }
       ],
       "createdAt": "2025-10-28T07:23:14.057Z",
-      "updatedAt": "2025-10-28T08:13:25.677Z",
-      "waybillNumber": "6780"
+      "updatedAt": "2025-10-28T09:27:28.268Z",
+      "waybillNumber": "6780",
+      "netWeight": 18220
     },
     {
       "id": "truck_1761636194056_4_njc3c26h0",
@@ -9671,6 +9679,6 @@
       "updatedAt": "2025-10-28T07:45:20.411Z"
     }
   ],
-  "lastModified": "2025-10-28T09:21:45.013Z",
+  "lastModified": "2025-10-28T09:27:28.403Z",
   "version": "2.0.0"
 }
