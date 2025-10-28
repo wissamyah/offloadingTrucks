@@ -9084,7 +9084,7 @@
       "bags": 99,
       "moistureLevel": 19,
       "truckNumber": "KTG 125 ZZ",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -9096,11 +9096,19 @@
           "details": {
             "waybillNumber": "6781"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-10-28T08:54:53.582Z",
+          "details": {
+            "netWeight": 7130
+          }
         }
       ],
       "createdAt": "2025-10-28T07:23:14.056Z",
-      "updatedAt": "2025-10-28T08:15:15.018Z",
-      "waybillNumber": "6781"
+      "updatedAt": "2025-10-28T08:54:53.582Z",
+      "waybillNumber": "6781",
+      "netWeight": 7130
     },
     {
       "id": "truck_1761636194056_2_fj8dxpi48",
@@ -9631,6 +9639,6 @@
       "updatedAt": "2025-10-28T07:45:20.411Z"
     }
   ],
-  "lastModified": "2025-10-28T08:44:58.925Z",
+  "lastModified": "2025-10-28T08:54:53.749Z",
   "version": "2.0.0"
 }
