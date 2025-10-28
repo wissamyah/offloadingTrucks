@@ -9308,15 +9308,19 @@
       "bags": 450,
       "moistureLevel": 22,
       "truckNumber": "GWL 287 XB",
-      "status": "pending",
+      "status": "rejected",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-10-28T07:30:52.899Z"
+        },
+        {
+          "status": "rejected",
+          "timestamp": "2025-10-28T10:19:37.929Z"
         }
       ],
       "createdAt": "2025-10-28T07:30:52.899Z",
-      "updatedAt": "2025-10-28T07:30:52.899Z"
+      "updatedAt": "2025-10-28T10:19:37.929Z"
     },
     {
       "id": "truck_1761636652897_2_n4alne93d",
@@ -9747,6 +9751,6 @@
       "updatedAt": "2025-10-28T07:45:20.411Z"
     }
   ],
-  "lastModified": "2025-10-28T10:19:32.769Z",
+  "lastModified": "2025-10-28T10:19:38.392Z",
   "version": "2.0.0"
 }
