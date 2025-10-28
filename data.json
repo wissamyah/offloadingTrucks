@@ -9998,15 +9998,23 @@
       "bags": 220,
       "moistureLevel": 18,
       "truckNumber": "NNG 876 XA",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-10-28T14:47:40.921Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-10-28T16:05:13.873Z",
+          "details": {
+            "waybillNumber": "6799"
+          }
         }
       ],
       "createdAt": "2025-10-28T14:47:40.921Z",
-      "updatedAt": "2025-10-28T14:47:40.921Z"
+      "updatedAt": "2025-10-28T16:05:13.873Z",
+      "waybillNumber": "6799"
     },
     {
       "id": "truck_1761662860921_1_yj0a92tdu",
@@ -10177,6 +10185,6 @@
       "netWeight": 7640
     }
   ],
-  "lastModified": "2025-10-28T15:41:47.129Z",
+  "lastModified": "2025-10-28T16:05:14.029Z",
   "version": "2.0.0"
 }
