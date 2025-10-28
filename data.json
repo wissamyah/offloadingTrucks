@@ -9196,15 +9196,23 @@
       "bags": 416,
       "moistureLevel": 18,
       "truckNumber": "KMC 984 ZQ",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-10-28T07:26:56.099Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-10-28T07:38:05.766Z",
+          "details": {
+            "waybillNumber": "6777"
+          }
         }
       ],
       "createdAt": "2025-10-28T07:26:56.099Z",
-      "updatedAt": "2025-10-28T07:26:56.099Z"
+      "updatedAt": "2025-10-28T07:38:05.766Z",
+      "waybillNumber": "6777"
     },
     {
       "id": "truck_1761636652897_0_vjxs30qh7",
@@ -9287,6 +9295,6 @@
       "updatedAt": "2025-10-28T07:30:52.899Z"
     }
   ],
-  "lastModified": "2025-10-28T07:33:30.487Z",
+  "lastModified": "2025-10-28T07:38:06.024Z",
   "version": "2.0.0"
 }
