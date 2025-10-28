@@ -9532,15 +9532,23 @@
       "bags": 530,
       "moistureLevel": 17,
       "truckNumber": "SKK 323 XB",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-10-28T07:43:14.941Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-10-28T10:02:55.240Z",
+          "details": {
+            "waybillNumber": "6794"
+          }
         }
       ],
       "createdAt": "2025-10-28T07:43:14.941Z",
-      "updatedAt": "2025-10-28T07:43:14.941Z"
+      "updatedAt": "2025-10-28T10:02:55.240Z",
+      "waybillNumber": "6794"
     },
     {
       "id": "truck_1761637394941_2_xszwuwqee",
@@ -9727,6 +9735,6 @@
       "updatedAt": "2025-10-28T07:45:20.411Z"
     }
   ],
-  "lastModified": "2025-10-28T09:59:49.338Z",
+  "lastModified": "2025-10-28T10:02:55.332Z",
   "version": "2.0.0"
 }
