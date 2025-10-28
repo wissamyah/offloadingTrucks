@@ -9974,15 +9974,23 @@
       "bags": 89,
       "moistureLevel": 19,
       "truckNumber": "KMC 531 ZJ",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-10-28T14:47:25.692Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-10-28T15:41:46.999Z",
+          "details": {
+            "waybillNumber": "6812"
+          }
         }
       ],
       "createdAt": "2025-10-28T14:47:25.692Z",
-      "updatedAt": "2025-10-28T14:47:25.692Z"
+      "updatedAt": "2025-10-28T15:41:46.999Z",
+      "waybillNumber": "6812"
     },
     {
       "id": "truck_1761662860921_0_62hker6gz",
@@ -10169,6 +10177,6 @@
       "netWeight": 7640
     }
   ],
-  "lastModified": "2025-10-28T15:38:25.860Z",
+  "lastModified": "2025-10-28T15:41:47.129Z",
   "version": "2.0.0"
 }
