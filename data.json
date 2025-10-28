@@ -9894,7 +9894,7 @@
       "bags": 550,
       "moistureLevel": 16,
       "truckNumber": "KMC 85 YT",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -9906,11 +9906,19 @@
           "details": {
             "waybillNumber": "6804"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-10-28T16:57:37.112Z",
+          "details": {
+            "netWeight": 47570
+          }
         }
       ],
       "createdAt": "2025-10-28T14:47:25.692Z",
-      "updatedAt": "2025-10-28T14:48:49.262Z",
-      "waybillNumber": "6804"
+      "updatedAt": "2025-10-28T16:57:37.112Z",
+      "waybillNumber": "6804",
+      "netWeight": 47570
     },
     {
       "id": "truck_1761662845692_1_dvno2a2f7",
@@ -10219,6 +10227,6 @@
       "netWeight": 7640
     }
   ],
-  "lastModified": "2025-10-28T16:56:58.030Z",
+  "lastModified": "2025-10-28T16:57:37.193Z",
   "version": "2.0.0"
 }
