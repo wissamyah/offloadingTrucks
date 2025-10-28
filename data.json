@@ -9620,15 +9620,23 @@
       "bags": 540,
       "moistureLevel": 17,
       "truckNumber": "KTN 726 XA",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-10-28T07:43:14.941Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-10-28T10:34:10.729Z",
+          "details": {
+            "waybillNumber": "6796"
+          }
         }
       ],
       "createdAt": "2025-10-28T07:43:14.941Z",
-      "updatedAt": "2025-10-28T07:43:14.941Z"
+      "updatedAt": "2025-10-28T10:34:10.729Z",
+      "waybillNumber": "6796"
     },
     {
       "id": "truck_1761637499882_0_uk22v72xl",
@@ -9763,6 +9771,6 @@
       "updatedAt": "2025-10-28T07:45:20.411Z"
     }
   ],
-  "lastModified": "2025-10-28T10:27:47.375Z",
+  "lastModified": "2025-10-28T10:34:11.818Z",
   "version": "2.0.0"
 }
