@@ -9596,15 +9596,23 @@
       "bags": 450,
       "moistureLevel": 16,
       "truckNumber": "KMC 452 ZV",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-10-28T07:43:14.941Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-10-28T10:27:47.231Z",
+          "details": {
+            "waybillNumber": "6795"
+          }
         }
       ],
       "createdAt": "2025-10-28T07:43:14.941Z",
-      "updatedAt": "2025-10-28T07:43:14.941Z"
+      "updatedAt": "2025-10-28T10:27:47.231Z",
+      "waybillNumber": "6795"
     },
     {
       "id": "truck_1761637394941_4_19tvga1gy",
@@ -9755,6 +9763,6 @@
       "updatedAt": "2025-10-28T07:45:20.411Z"
     }
   ],
-  "lastModified": "2025-10-28T10:19:45.982Z",
+  "lastModified": "2025-10-28T10:27:47.375Z",
   "version": "2.0.0"
 }
