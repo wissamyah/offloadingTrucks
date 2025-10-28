@@ -9878,15 +9878,23 @@
       "bags": 550,
       "moistureLevel": 16,
       "truckNumber": "KMC 85 YT",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-10-28T14:47:25.692Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-10-28T14:48:49.262Z",
+          "details": {
+            "waybillNumber": "6804"
+          }
         }
       ],
       "createdAt": "2025-10-28T14:47:25.692Z",
-      "updatedAt": "2025-10-28T14:47:25.692Z"
+      "updatedAt": "2025-10-28T14:48:49.262Z",
+      "waybillNumber": "6804"
     },
     {
       "id": "truck_1761662845692_1_dvno2a2f7",
@@ -10033,6 +10041,6 @@
       "updatedAt": "2025-10-28T14:47:40.921Z"
     }
   ],
-  "lastModified": "2025-10-28T14:47:40.987Z",
+  "lastModified": "2025-10-28T14:48:49.437Z",
   "version": "2.0.0"
 }
