@@ -10466,15 +10466,19 @@
       "bags": 96,
       "moistureLevel": 19,
       "truckNumber": "EPE 406 DJ",
-      "status": "pending",
+      "status": "rejected",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-10-29T07:05:07.492Z"
+        },
+        {
+          "status": "rejected",
+          "timestamp": "2025-10-29T11:56:16.636Z"
         }
       ],
       "createdAt": "2025-10-29T07:05:07.492Z",
-      "updatedAt": "2025-10-29T07:05:07.492Z"
+      "updatedAt": "2025-10-29T11:56:16.636Z"
     },
     {
       "id": "truck_1761721507492_1_dbe2nwyeq",
@@ -10789,6 +10793,6 @@
       "netWeight": 42680
     }
   ],
-  "lastModified": "2025-10-29T11:48:52.223Z",
+  "lastModified": "2025-10-29T11:56:16.695Z",
   "version": "2.0.0"
 }
