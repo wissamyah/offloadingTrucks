@@ -10320,15 +10320,23 @@
       "bags": 494,
       "moistureLevel": 16,
       "truckNumber": "JJN 81 YS",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-10-29T07:04:47.152Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-10-29T08:18:55.096Z",
+          "details": {
+            "waybillNumber": "6818"
+          }
         }
       ],
       "createdAt": "2025-10-29T07:04:47.152Z",
-      "updatedAt": "2025-10-29T07:04:47.152Z"
+      "updatedAt": "2025-10-29T08:18:55.096Z",
+      "waybillNumber": "6818"
     },
     {
       "id": "truck_1761721487152_6_popv6epxl",
@@ -10595,6 +10603,6 @@
       "waybillNumber": "6816"
     }
   ],
-  "lastModified": "2025-10-29T08:08:34.887Z",
+  "lastModified": "2025-10-29T08:18:55.155Z",
   "version": "2.0.0"
 }
