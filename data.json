@@ -10320,15 +10320,23 @@
       "bags": 222,
       "moistureLevel": 17,
       "truckNumber": "NNG 737 XA",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-10-29T07:04:47.152Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-10-29T09:35:32.538Z",
+          "details": {
+            "waybillNumber": "6827"
+          }
         }
       ],
       "createdAt": "2025-10-29T07:04:47.152Z",
-      "updatedAt": "2025-10-29T07:04:47.152Z"
+      "updatedAt": "2025-10-29T09:35:32.538Z",
+      "waybillNumber": "6827"
     },
     {
       "id": "truck_1761721487152_5_a3eab19d6",
@@ -10635,6 +10643,6 @@
       "waybillNumber": "6816"
     }
   ],
-  "lastModified": "2025-10-29T09:25:40.049Z",
+  "lastModified": "2025-10-29T09:35:32.610Z",
   "version": "2.0.0"
 }
