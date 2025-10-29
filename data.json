@@ -10496,15 +10496,23 @@
       "bags": 270,
       "moistureLevel": 20,
       "truckNumber": "MKA 624 ZF",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-10-29T07:05:07.493Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-10-29T09:41:06.261Z",
+          "details": {
+            "waybillNumber": "6829"
+          }
         }
       ],
       "createdAt": "2025-10-29T07:05:07.493Z",
-      "updatedAt": "2025-10-29T07:05:07.493Z"
+      "updatedAt": "2025-10-29T09:41:06.261Z",
+      "waybillNumber": "6829"
     },
     {
       "id": "truck_1761721507492_6_wil6rirpm",
@@ -10651,6 +10659,6 @@
       "waybillNumber": "6816"
     }
   ],
-  "lastModified": "2025-10-29T09:39:09.574Z",
+  "lastModified": "2025-10-29T09:41:07.203Z",
   "version": "2.0.0"
 }
