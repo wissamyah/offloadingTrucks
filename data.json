@@ -10596,7 +10596,7 @@
       "bags": 550,
       "moistureLevel": 15,
       "truckNumber": "TRR 884 YX",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -10608,11 +10608,19 @@
           "details": {
             "waybillNumber": "6837"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-10-29T15:46:13.741Z",
+          "details": {
+            "netWeight": 40500
+          }
         }
       ],
       "createdAt": "2025-10-29T07:05:07.493Z",
-      "updatedAt": "2025-10-29T11:48:52.152Z",
-      "waybillNumber": "6837"
+      "updatedAt": "2025-10-29T15:46:13.741Z",
+      "waybillNumber": "6837",
+      "netWeight": 40500
     },
     {
       "id": "truck_1761721507492_5_kkjgi65uq",
@@ -10887,6 +10895,6 @@
       "waybillNumber": "6840"
     }
   ],
-  "lastModified": "2025-10-29T15:22:56.387Z",
+  "lastModified": "2025-10-29T15:46:13.832Z",
   "version": "2.0.0"
 }
