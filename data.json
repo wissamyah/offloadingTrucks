@@ -10819,8 +10819,40 @@
       "updatedAt": "2025-10-29T09:45:34.541Z",
       "waybillNumber": "6816",
       "netWeight": 42680
+    },
+    {
+      "id": "truck_1761744057908_0_f83nwhcpq",
+      "supplierName": "Mansur Mansur",
+      "bags": 450,
+      "moistureLevel": 15,
+      "truckNumber": "KFR 227 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-29T13:20:57.908Z"
+        }
+      ],
+      "createdAt": "2025-10-29T13:20:57.908Z",
+      "updatedAt": "2025-10-29T13:20:57.908Z"
+    },
+    {
+      "id": "truck_1761744057908_1_n8tyl7vmm",
+      "supplierName": "Idris Haruna",
+      "bags": 500,
+      "moistureLevel": 15,
+      "truckNumber": "TRR 457 YX",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-29T13:20:57.908Z"
+        }
+      ],
+      "createdAt": "2025-10-29T13:20:57.908Z",
+      "updatedAt": "2025-10-29T13:20:57.908Z"
     }
   ],
-  "lastModified": "2025-10-29T13:00:26.932Z",
+  "lastModified": "2025-10-29T13:20:57.975Z",
   "version": "2.0.0"
 }
