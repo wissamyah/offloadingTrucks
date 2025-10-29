@@ -10296,15 +10296,23 @@
       "bags": 100,
       "moistureLevel": 18,
       "truckNumber": "MSH 91 XA",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-10-29T07:04:47.152Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-10-29T09:25:39.960Z",
+          "details": {
+            "waybillNumber": "6823"
+          }
         }
       ],
       "createdAt": "2025-10-29T07:04:47.152Z",
-      "updatedAt": "2025-10-29T07:04:47.152Z"
+      "updatedAt": "2025-10-29T09:25:39.960Z",
+      "waybillNumber": "6823"
     },
     {
       "id": "truck_1761721487152_4_iqmvaflg0",
@@ -10627,6 +10635,6 @@
       "waybillNumber": "6816"
     }
   ],
-  "lastModified": "2025-10-29T09:23:17.037Z",
+  "lastModified": "2025-10-29T09:25:40.049Z",
   "version": "2.0.0"
 }
