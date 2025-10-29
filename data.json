@@ -10544,15 +10544,23 @@
       "bags": 500,
       "moistureLevel": 20,
       "truckNumber": "PKM 321 ZY",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-10-29T07:06:30.256Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-10-29T07:15:59.085Z",
+          "details": {
+            "waybillNumber": "6815"
+          }
         }
       ],
       "createdAt": "2025-10-29T07:06:30.256Z",
-      "updatedAt": "2025-10-29T07:06:30.256Z"
+      "updatedAt": "2025-10-29T07:15:59.085Z",
+      "waybillNumber": "6815"
     },
     {
       "id": "truck_1761721590256_3_3tw7i9jcx",
@@ -10571,6 +10579,6 @@
       "updatedAt": "2025-10-29T07:06:30.256Z"
     }
   ],
-  "lastModified": "2025-10-29T07:11:19.503Z",
+  "lastModified": "2025-10-29T07:16:00.116Z",
   "version": "2.0.0"
 }
