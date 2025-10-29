@@ -10280,15 +10280,23 @@
       "bags": 270,
       "moistureLevel": 16,
       "truckNumber": "FTA 914 XB",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-10-29T07:04:47.152Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-10-29T09:39:09.497Z",
+          "details": {
+            "waybillNumber": "6828"
+          }
         }
       ],
       "createdAt": "2025-10-29T07:04:47.152Z",
-      "updatedAt": "2025-10-29T07:04:47.152Z"
+      "updatedAt": "2025-10-29T09:39:09.497Z",
+      "waybillNumber": "6828"
     },
     {
       "id": "truck_1761721487152_3_csaby0i57",
@@ -10643,6 +10651,6 @@
       "waybillNumber": "6816"
     }
   ],
-  "lastModified": "2025-10-29T09:35:32.610Z",
+  "lastModified": "2025-10-29T09:39:09.574Z",
   "version": "2.0.0"
 }
