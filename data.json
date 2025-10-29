@@ -10361,8 +10361,136 @@
       ],
       "createdAt": "2025-10-29T07:04:47.152Z",
       "updatedAt": "2025-10-29T07:04:47.152Z"
+    },
+    {
+      "id": "truck_1761721507492_0_k1c6alabk",
+      "supplierName": "Idris Garba",
+      "bags": 96,
+      "moistureLevel": 19,
+      "truckNumber": "EPE 406 DJ",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-29T07:05:07.492Z"
+        }
+      ],
+      "createdAt": "2025-10-29T07:05:07.492Z",
+      "updatedAt": "2025-10-29T07:05:07.492Z"
+    },
+    {
+      "id": "truck_1761721507492_1_dbe2nwyeq",
+      "supplierName": "Idris Haruna",
+      "bags": 600,
+      "moistureLevel": 17,
+      "truckNumber": "BAU 241 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-29T07:05:07.493Z"
+        }
+      ],
+      "createdAt": "2025-10-29T07:05:07.493Z",
+      "updatedAt": "2025-10-29T07:05:07.493Z"
+    },
+    {
+      "id": "truck_1761721507492_2_buqqa9kwr",
+      "supplierName": "H A Tahir",
+      "bags": 448,
+      "moistureLevel": 20,
+      "truckNumber": "DTF 479 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-29T07:05:07.493Z"
+        }
+      ],
+      "createdAt": "2025-10-29T07:05:07.493Z",
+      "updatedAt": "2025-10-29T07:05:07.493Z"
+    },
+    {
+      "id": "truck_1761721507492_3_muj51s7z1",
+      "supplierName": "M B Flour",
+      "bags": 540,
+      "moistureLevel": 20,
+      "truckNumber": "ZAR 649 XP",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-29T07:05:07.493Z"
+        }
+      ],
+      "createdAt": "2025-10-29T07:05:07.493Z",
+      "updatedAt": "2025-10-29T07:05:07.493Z"
+    },
+    {
+      "id": "truck_1761721507492_4_45va1uzg2",
+      "supplierName": "Idris Haruna",
+      "bags": 550,
+      "moistureLevel": 15,
+      "truckNumber": "TRR 884 YX",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-29T07:05:07.493Z"
+        }
+      ],
+      "createdAt": "2025-10-29T07:05:07.493Z",
+      "updatedAt": "2025-10-29T07:05:07.493Z"
+    },
+    {
+      "id": "truck_1761721507492_5_kkjgi65uq",
+      "supplierName": "H A Tahir",
+      "bags": 270,
+      "moistureLevel": 20,
+      "truckNumber": "MKA 624 ZF",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-29T07:05:07.493Z"
+        }
+      ],
+      "createdAt": "2025-10-29T07:05:07.493Z",
+      "updatedAt": "2025-10-29T07:05:07.493Z"
+    },
+    {
+      "id": "truck_1761721507492_6_wil6rirpm",
+      "supplierName": "M B Flour",
+      "bags": 510,
+      "moistureLevel": 17,
+      "truckNumber": "BCH 909 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-29T07:05:07.493Z"
+        }
+      ],
+      "createdAt": "2025-10-29T07:05:07.493Z",
+      "updatedAt": "2025-10-29T07:05:07.493Z"
+    },
+    {
+      "id": "truck_1761721507492_7_b9qp42p3t",
+      "supplierName": "Aminu Muhd Kabo",
+      "bags": 75,
+      "moistureLevel": 15,
+      "truckNumber": "ANK 144 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-29T07:05:07.493Z"
+        }
+      ],
+      "createdAt": "2025-10-29T07:05:07.493Z",
+      "updatedAt": "2025-10-29T07:05:07.493Z"
     }
   ],
-  "lastModified": "2025-10-29T07:04:48.358Z",
+  "lastModified": "2025-10-29T07:05:07.594Z",
   "version": "2.0.0"
 }
