@@ -10454,7 +10454,7 @@
       "bags": 500,
       "moistureLevel": 16,
       "truckNumber": "KMC 365 YT",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -10466,11 +10466,19 @@
           "details": {
             "waybillNumber": "6831"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-10-29T13:00:26.835Z",
+          "details": {
+            "netWeight": 40520
+          }
         }
       ],
       "createdAt": "2025-10-29T07:04:47.152Z",
-      "updatedAt": "2025-10-29T10:20:21.394Z",
-      "waybillNumber": "6831"
+      "updatedAt": "2025-10-29T13:00:26.835Z",
+      "waybillNumber": "6831",
+      "netWeight": 40520
     },
     {
       "id": "truck_1761721507492_0_k1c6alabk",
@@ -10813,6 +10821,6 @@
       "netWeight": 42680
     }
   ],
-  "lastModified": "2025-10-29T12:47:22.900Z",
+  "lastModified": "2025-10-29T13:00:26.932Z",
   "version": "2.0.0"
 }
