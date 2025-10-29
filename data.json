@@ -10490,15 +10490,23 @@
       "bags": 448,
       "moistureLevel": 20,
       "truckNumber": "DTF 479 XA",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-10-29T07:05:07.493Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-10-29T10:23:54.913Z",
+          "details": {
+            "waybillNumber": "6832"
+          }
         }
       ],
       "createdAt": "2025-10-29T07:05:07.493Z",
-      "updatedAt": "2025-10-29T07:05:07.493Z"
+      "updatedAt": "2025-10-29T10:23:54.913Z",
+      "waybillNumber": "6832"
     },
     {
       "id": "truck_1761721507492_3_muj51s7z1",
@@ -10717,6 +10725,6 @@
       "netWeight": 42680
     }
   ],
-  "lastModified": "2025-10-29T10:20:22.365Z",
+  "lastModified": "2025-10-29T10:23:56.058Z",
   "version": "2.0.0"
 }
