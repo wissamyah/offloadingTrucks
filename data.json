@@ -10240,15 +10240,23 @@
       "bags": 38,
       "moistureLevel": 15,
       "truckNumber": "DRZ 72 LG",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-10-29T07:04:47.152Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-10-29T09:19:51.833Z",
+          "details": {
+            "waybillNumber": "6821"
+          }
         }
       ],
       "createdAt": "2025-10-29T07:04:47.152Z",
-      "updatedAt": "2025-10-29T07:04:47.152Z"
+      "updatedAt": "2025-10-29T09:19:51.833Z",
+      "waybillNumber": "6821"
     },
     {
       "id": "truck_1761721487152_1_x6fjnz9mn",
@@ -10611,6 +10619,6 @@
       "waybillNumber": "6816"
     }
   ],
-  "lastModified": "2025-10-29T09:13:56.037Z",
+  "lastModified": "2025-10-29T09:19:51.909Z",
   "version": "2.0.0"
 }
