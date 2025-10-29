@@ -10530,15 +10530,23 @@
       "bags": 540,
       "moistureLevel": 20,
       "truckNumber": "ZAR 649 XP",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-10-29T07:05:07.493Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-10-29T11:45:10.320Z",
+          "details": {
+            "waybillNumber": "6836"
+          }
         }
       ],
       "createdAt": "2025-10-29T07:05:07.493Z",
-      "updatedAt": "2025-10-29T07:05:07.493Z"
+      "updatedAt": "2025-10-29T11:45:10.320Z",
+      "waybillNumber": "6836"
     },
     {
       "id": "truck_1761721507492_4_45va1uzg2",
@@ -10773,6 +10781,6 @@
       "netWeight": 42680
     }
   ],
-  "lastModified": "2025-10-29T11:30:40.768Z",
+  "lastModified": "2025-10-29T11:45:10.407Z",
   "version": "2.0.0"
 }
