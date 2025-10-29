@@ -10233,8 +10233,136 @@
       "updatedAt": "2025-10-28T15:38:25.079Z",
       "waybillNumber": "6807",
       "netWeight": 7640
+    },
+    {
+      "id": "truck_1761721487152_0_pia5kw6hj",
+      "supplierName": "Alh Danasabe",
+      "bags": 38,
+      "moistureLevel": 15,
+      "truckNumber": "DRZ 72 LG",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-29T07:04:47.152Z"
+        }
+      ],
+      "createdAt": "2025-10-29T07:04:47.152Z",
+      "updatedAt": "2025-10-29T07:04:47.152Z"
+    },
+    {
+      "id": "truck_1761721487152_1_x6fjnz9mn",
+      "supplierName": "Abubakar Muhd Tukur",
+      "bags": 51,
+      "moistureLevel": 18,
+      "truckNumber": "KYW 374 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-29T07:04:47.152Z"
+        }
+      ],
+      "createdAt": "2025-10-29T07:04:47.152Z",
+      "updatedAt": "2025-10-29T07:04:47.152Z"
+    },
+    {
+      "id": "truck_1761721487152_2_3c3degdks",
+      "supplierName": "Shehu Muhammad",
+      "bags": 270,
+      "moistureLevel": 16,
+      "truckNumber": "FTA 914 XB",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-29T07:04:47.152Z"
+        }
+      ],
+      "createdAt": "2025-10-29T07:04:47.152Z",
+      "updatedAt": "2025-10-29T07:04:47.152Z"
+    },
+    {
+      "id": "truck_1761721487152_3_csaby0i57",
+      "supplierName": "Jamilu Yahaya",
+      "bags": 100,
+      "moistureLevel": 18,
+      "truckNumber": "MSH 91 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-29T07:04:47.152Z"
+        }
+      ],
+      "createdAt": "2025-10-29T07:04:47.152Z",
+      "updatedAt": "2025-10-29T07:04:47.152Z"
+    },
+    {
+      "id": "truck_1761721487152_4_iqmvaflg0",
+      "supplierName": "B L Barka",
+      "bags": 222,
+      "moistureLevel": 17,
+      "truckNumber": "NNG 737 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-29T07:04:47.152Z"
+        }
+      ],
+      "createdAt": "2025-10-29T07:04:47.152Z",
+      "updatedAt": "2025-10-29T07:04:47.152Z"
+    },
+    {
+      "id": "truck_1761721487152_5_a3eab19d6",
+      "supplierName": "Alh Dayyabu",
+      "bags": 494,
+      "moistureLevel": 16,
+      "truckNumber": "JJN 81 YS",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-29T07:04:47.152Z"
+        }
+      ],
+      "createdAt": "2025-10-29T07:04:47.152Z",
+      "updatedAt": "2025-10-29T07:04:47.152Z"
+    },
+    {
+      "id": "truck_1761721487152_6_popv6epxl",
+      "supplierName": "Jamilu jangale",
+      "bags": 510,
+      "moistureLevel": 16,
+      "truckNumber": "XA 272 PKM",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-29T07:04:47.152Z"
+        }
+      ],
+      "createdAt": "2025-10-29T07:04:47.152Z",
+      "updatedAt": "2025-10-29T07:04:47.152Z"
+    },
+    {
+      "id": "truck_1761721487152_7_b563qzkcm",
+      "supplierName": "Idris Haruna",
+      "bags": 500,
+      "moistureLevel": 16,
+      "truckNumber": "KMC 365 YT",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-29T07:04:47.152Z"
+        }
+      ],
+      "createdAt": "2025-10-29T07:04:47.152Z",
+      "updatedAt": "2025-10-29T07:04:47.152Z"
     }
   ],
-  "lastModified": "2025-10-28T17:11:32.895Z",
+  "lastModified": "2025-10-29T07:04:48.358Z",
   "version": "2.0.0"
 }
