@@ -10272,15 +10272,19 @@
       "bags": 51,
       "moistureLevel": 18,
       "truckNumber": "KYW 374 XA",
-      "status": "pending",
+      "status": "rejected",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-10-29T07:04:47.152Z"
+        },
+        {
+          "status": "rejected",
+          "timestamp": "2025-10-29T11:56:20.854Z"
         }
       ],
       "createdAt": "2025-10-29T07:04:47.152Z",
-      "updatedAt": "2025-10-29T07:04:47.152Z"
+      "updatedAt": "2025-10-29T11:56:20.854Z"
     },
     {
       "id": "truck_1761721487152_2_3c3degdks",
@@ -10793,6 +10797,6 @@
       "netWeight": 42680
     }
   ],
-  "lastModified": "2025-10-29T11:56:16.695Z",
+  "lastModified": "2025-10-29T11:56:21.507Z",
   "version": "2.0.0"
 }
