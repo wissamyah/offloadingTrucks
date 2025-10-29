@@ -10240,7 +10240,7 @@
       "bags": 38,
       "moistureLevel": 15,
       "truckNumber": "DRZ 72 LG",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -10252,11 +10252,19 @@
           "details": {
             "waybillNumber": "6821"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-10-29T10:04:46.023Z",
+          "details": {
+            "netWeight": 3350
+          }
         }
       ],
       "createdAt": "2025-10-29T07:04:47.152Z",
-      "updatedAt": "2025-10-29T09:19:51.833Z",
-      "waybillNumber": "6821"
+      "updatedAt": "2025-10-29T10:04:46.023Z",
+      "waybillNumber": "6821",
+      "netWeight": 3350
     },
     {
       "id": "truck_1761721487152_1_x6fjnz9mn",
@@ -10685,6 +10693,6 @@
       "netWeight": 42680
     }
   ],
-  "lastModified": "2025-10-29T10:02:34.595Z",
+  "lastModified": "2025-10-29T10:04:46.111Z",
   "version": "2.0.0"
 }
