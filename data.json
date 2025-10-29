@@ -10312,7 +10312,7 @@
       "bags": 100,
       "moistureLevel": 18,
       "truckNumber": "MSH 91 XA",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -10324,11 +10324,19 @@
           "details": {
             "waybillNumber": "6823"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-10-29T10:09:26.436Z",
+          "details": {
+            "netWeight": 9030
+          }
         }
       ],
       "createdAt": "2025-10-29T07:04:47.152Z",
-      "updatedAt": "2025-10-29T09:25:39.960Z",
-      "waybillNumber": "6823"
+      "updatedAt": "2025-10-29T10:09:26.436Z",
+      "waybillNumber": "6823",
+      "netWeight": 9030
     },
     {
       "id": "truck_1761721487152_4_iqmvaflg0",
@@ -10693,6 +10701,6 @@
       "netWeight": 42680
     }
   ],
-  "lastModified": "2025-10-29T10:04:46.111Z",
+  "lastModified": "2025-10-29T10:09:26.510Z",
   "version": "2.0.0"
 }
