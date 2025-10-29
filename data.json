@@ -10376,7 +10376,7 @@
       "bags": 510,
       "moistureLevel": 16,
       "truckNumber": "XA 272 PKM",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -10388,11 +10388,21 @@
           "details": {
             "waybillNumber": "6817"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-10-29T10:02:34.545Z",
+          "details": {
+            "netWeight": 37900,
+            "deduction": 120
+          }
         }
       ],
       "createdAt": "2025-10-29T07:04:47.152Z",
-      "updatedAt": "2025-10-29T08:08:34.771Z",
-      "waybillNumber": "6817"
+      "updatedAt": "2025-10-29T10:02:34.545Z",
+      "waybillNumber": "6817",
+      "netWeight": 37900,
+      "deduction": 120
     },
     {
       "id": "truck_1761721487152_7_b563qzkcm",
@@ -10675,6 +10685,6 @@
       "netWeight": 42680
     }
   ],
-  "lastModified": "2025-10-29T10:01:45.163Z",
+  "lastModified": "2025-10-29T10:02:34.595Z",
   "version": "2.0.0"
 }
