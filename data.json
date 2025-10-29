@@ -10594,15 +10594,23 @@
       "bags": 510,
       "moistureLevel": 17,
       "truckNumber": "BCH 909 XA",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-10-29T07:05:07.493Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-10-29T11:30:40.652Z",
+          "details": {
+            "waybillNumber": "6835"
+          }
         }
       ],
       "createdAt": "2025-10-29T07:05:07.493Z",
-      "updatedAt": "2025-10-29T07:05:07.493Z"
+      "updatedAt": "2025-10-29T11:30:40.652Z",
+      "waybillNumber": "6835"
     },
     {
       "id": "truck_1761721507492_7_b9qp42p3t",
@@ -10765,6 +10773,6 @@
       "netWeight": 42680
     }
   ],
-  "lastModified": "2025-10-29T11:29:25.846Z",
+  "lastModified": "2025-10-29T11:30:40.768Z",
   "version": "2.0.0"
 }
