@@ -30,9 +30,18 @@ export function formatTimeWAT(dateString: string): string {
   return format(zonedDate, 'HH:mm');
 }
 
+// Get today's date in Nigeria timezone (WAT - UTC+1)
+export function getTodayDateKey(): string {
+  const now = new Date();
+  const zonedDate = toZonedTime(now, NIGERIA_TIMEZONE);
+  return format(startOfDay(zonedDate), 'yyyy-MM-dd');
+}
+
 export function getDateKey(dateString: string): string {
   const date = new Date(dateString);
-  return format(startOfDay(date), 'yyyy-MM-dd');
+  // Convert to Nigeria timezone before getting the date key
+  const zonedDate = toZonedTime(date, NIGERIA_TIMEZONE);
+  return format(startOfDay(zonedDate), 'yyyy-MM-dd');
 }
 
 export function isOlderThan72Hours(dateString: string): boolean {

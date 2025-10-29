@@ -236,23 +236,36 @@ export const TruckTable: React.FC<TruckTableProps> = ({
   };
 
   const dropdownOptions = React.useMemo(() => {
+    if (!availableDates || availableDates.length === 0) {
+      // If no dates available yet, create a single option for today if selectedDate exists
+      if (selectedDate) {
+        return [{
+          value: selectedDate,
+          label: formatDateDisplay(selectedDate, false),
+          shortLabel: formatDateDisplay(selectedDate, true),
+        }];
+      }
+      return [];
+    }
     return availableDates.map((date) => ({
       value: date,
       label: formatDateDisplay(date, false),
       shortLabel: formatDateDisplay(date, true),
     }));
-  }, [availableDates, isMobile]);
+  }, [availableDates, isMobile, selectedDate]);
 
-  const currentIndex = availableDates.indexOf(selectedDate);
+  const currentIndex = availableDates && availableDates.length > 0 
+    ? availableDates.indexOf(selectedDate || '')
+    : -1;
 
   const handlePrevious = () => {
-    if (currentIndex < availableDates.length - 1 && onDateChange) {
+    if (availableDates && availableDates.length > 0 && currentIndex < availableDates.length - 1 && onDateChange) {
       onDateChange(availableDates[currentIndex + 1]);
     }
   };
 
   const handleNext = () => {
-    if (currentIndex > 0 && onDateChange) {
+    if (availableDates && availableDates.length > 0 && currentIndex > 0 && onDateChange) {
       onDateChange(availableDates[currentIndex - 1]);
     }
   };
@@ -288,13 +301,31 @@ export const TruckTable: React.FC<TruckTableProps> = ({
     return formatTimeWAT(truck.createdAt);
   };
 
+  // Background colors for rows/cards by status (match badge hues, lighter opacity)
+  const statusBgByStatus: Record<TruckStatus, string> = {
+    pending: "bg-yellow-900/20",
+    scaled_in: "bg-blue-900/20",
+    offloaded: "bg-green-900/20",
+    rejected: "bg-red-900/20",
+  };
+
+  // Explicit responsive classes so Tailwind can detect them at build time
+  const statusBgDesktopByStatus: Record<TruckStatus, string> = {
+    pending: "lg:bg-yellow-900/20",
+    scaled_in: "lg:bg-blue-900/20",
+    offloaded: "lg:bg-green-900/20",
+    rejected: "lg:bg-red-900/20",
+  };
+
   // Check if we have a search filter active and total trucks exist
   const isSearching = searchFilter && searchFilter.trim().length > 0;
   const hasData = totalTrucks > 0;
   const noResults = trucks.length === 0;
+  const hasDateNavigation = onDateChange && availableDates && availableDates.length > 0;
 
-  // Early return only if there's truly no data AND no search is active
-  if (noResults && !isSearching && !hasData) {
+  // Early return only if there's truly no data, no search is active, AND no date navigation
+  // Always show the header with search/calendar if we have date navigation or search capability
+  if (noResults && !isSearching && !hasData && !hasDateNavigation) {
     return (
       <div className="bg-gray-800 rounded-lg shadow-xl border border-gray-700 p-8 text-center">
         <AlertCircle className="h-12 w-12 text-gray-500 mx-auto mb-4" />
@@ -306,9 +337,9 @@ export const TruckTable: React.FC<TruckTableProps> = ({
   }
 
   return (
-    <div className="bg-gray-800 rounded-lg shadow-xl border border-gray-700 overflow-hidden">
+    <div className="bg-gray-800 rounded-lg shadow-xl border border-gray-700 relative">
       {/* Search Bar and Date Pagination */}
-      <div className="p-4 border-b border-gray-700">
+      <div className="p-4 border-b border-gray-700 relative z-[100]">
         <div className="flex flex-col lg:flex-row gap-3 items-start lg:items-center">
           {/* Search Bar */}
           {onSearchChange && (
@@ -343,14 +374,14 @@ export const TruckTable: React.FC<TruckTableProps> = ({
             </div>
           )}
 
-          {/* Date Pagination Controls */}
-          {availableDates.length > 0 && onDateChange && (
-            <div className="flex items-center gap-1 sm:gap-2 w-full lg:w-auto">
+          {/* Date Pagination Controls - Always show if onDateChange and selectedDate are provided */}
+          {onDateChange && selectedDate && (
+            <div className="flex items-center gap-1 sm:gap-2 w-full lg:w-auto relative z-[101]">
               <button
                 onClick={handlePrevious}
-                disabled={currentIndex === availableDates.length - 1}
+                disabled={!availableDates || availableDates.length === 0 || currentIndex === availableDates.length - 1}
                 className={`p-1 sm:p-2 rounded-md transition-colors flex-shrink-0 ${
-                  currentIndex === availableDates.length - 1
+                  (!availableDates || availableDates.length === 0 || currentIndex === availableDates.length - 1)
                     ? "text-gray-600 cursor-not-allowed"
                     : "text-gray-300 hover:bg-gray-700"
                 }`}
@@ -360,7 +391,7 @@ export const TruckTable: React.FC<TruckTableProps> = ({
 
               <div className="flex items-center justify-center gap-1 sm:gap-2 min-w-0 flex-1 lg:flex-initial">
                 <Calendar className="h-4 w-4 sm:h-5 sm:w-5 text-gray-400 hidden sm:block flex-shrink-0" />
-                <div className="min-w-0 max-w-[180px] sm:max-w-[280px]">
+                <div className="min-w-0 max-w-[180px] sm:max-w-[280px] relative z-[102]">
                   <CustomDropdown
                     value={selectedDate}
                     options={dropdownOptions}
@@ -372,9 +403,9 @@ export const TruckTable: React.FC<TruckTableProps> = ({
 
               <button
                 onClick={handleNext}
-                disabled={currentIndex === 0}
+                disabled={!availableDates || availableDates.length === 0 || currentIndex === 0}
                 className={`p-1 sm:p-2 rounded-md transition-colors flex-shrink-0 ${
-                  currentIndex === 0
+                  (!availableDates || availableDates.length === 0 || currentIndex === 0)
                     ? "text-gray-600 cursor-not-allowed"
                     : "text-gray-300 hover:bg-gray-700"
                 }`}
@@ -391,18 +422,26 @@ export const TruckTable: React.FC<TruckTableProps> = ({
         {noResults ? (
           <div className="bg-gray-750 rounded-lg border border-gray-700 p-8 text-center">
             <AlertCircle className="h-12 w-12 text-gray-500 mx-auto mb-4" />
-            <p className="text-gray-400 mb-2">
-              No trucks found matching "{searchFilter}"
-            </p>
-            <p className="text-sm text-gray-500">
-              Try a different search term or clear the filter
-            </p>
+            {isSearching ? (
+              <>
+                <p className="text-gray-400 mb-2">
+                  No trucks found matching "{searchFilter}"
+                </p>
+                <p className="text-sm text-gray-500">
+                  Try a different search term or clear the filter
+                </p>
+              </>
+            ) : (
+              <p className="text-gray-400">
+                No trucks available for this date
+              </p>
+            )}
           </div>
         ) : (
           trucks.map((truck) => (
             <div
               key={truck.id}
-              className="bg-gray-750 rounded-lg border border-gray-700 p-3 relative"
+              className={`rounded-lg border border-gray-700 p-3 relative ${statusBgByStatus[truck.status]}`}
             >
               <div className="flex justify-between items-center mb-2">
                 <div className="flex-1 min-w-0">
@@ -646,8 +685,8 @@ export const TruckTable: React.FC<TruckTableProps> = ({
       )}
 
       {/* Desktop Table View */}
-      <div className="hidden md:block overflow-hidden">
-        <div className="overflow-x-auto">
+      <div className="hidden md:block">
+        <div className="overflow-x-auto overflow-y-visible">
           <table className="min-w-full divide-y divide-gray-700">
             <thead className="bg-gray-750">
               <tr>
@@ -730,12 +769,20 @@ export const TruckTable: React.FC<TruckTableProps> = ({
                   <td colSpan={10} className="px-4 py-8">
                     <div className="text-center">
                       <AlertCircle className="h-12 w-12 text-gray-500 mx-auto mb-4" />
-                      <p className="text-gray-400 mb-2">
-                        No trucks found matching "{searchFilter}"
-                      </p>
-                      <p className="text-sm text-gray-500">
-                        Try a different search term or clear the filter
-                      </p>
+                      {isSearching ? (
+                        <>
+                          <p className="text-gray-400 mb-2">
+                            No trucks found matching "{searchFilter}"
+                          </p>
+                          <p className="text-sm text-gray-500">
+                            Try a different search term or clear the filter
+                          </p>
+                        </>
+                      ) : (
+                        <p className="text-gray-400">
+                          No trucks available for this date
+                        </p>
+                      )}
                     </div>
                   </td>
                 </tr>
@@ -743,7 +790,7 @@ export const TruckTable: React.FC<TruckTableProps> = ({
                 trucks.map((truck) => (
                   <tr
                     key={truck.id}
-                    className="hover:bg-gray-750 transition-colors"
+                    className={`transition-colors ${statusBgDesktopByStatus[truck.status]}`}
                   >
                     <td className="px-2 py-3 whitespace-nowrap text-xs text-gray-400">
                       {getTruckCreationTime(truck)}

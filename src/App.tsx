@@ -9,10 +9,12 @@ import {
   EditTruckModal,
 } from "./components/ActionModals";
 import { useGitHubSync } from "./hooks/useGitHubSync";
-import { groupByDate, formatDate } from "./utils/dateUtils";
+import { groupByDate, formatDate, getTodayDateKey } from "./utils/dateUtils";
 import { githubSync } from "./services/githubSync";
 import { Truck as TruckIcon, Loader2 } from "lucide-react";
 import { SyncDropdown } from "./components/SyncDropdown";
+import QuickSearch from "./components/QuickSearch";
+import { TruckDetailPanel } from "./components/TruckDetailPanel";
 import toast from "react-hot-toast";
 
 function App() {
@@ -111,19 +113,46 @@ function App() {
     [key: string]: boolean;
   }>({});
 
+  // Quick Search modal state
+  const [quickSearchOpen, setQuickSearchOpen] = useState(false);
+  
+  // Truck Detail Panel state
+  const [selectedTruck, setSelectedTruck] = useState<Truck | null>(null);
+
+  useEffect(() => {
+    const onKeyDown = (e: KeyboardEvent) => {
+      // Ctrl+K on Windows/Linux, Cmd+K on macOS
+      const isMod = e.ctrlKey || e.metaKey;
+      if (isMod && (e.key === "k" || e.key === "K")) {
+        e.preventDefault();
+        setQuickSearchOpen(true);
+      }
+    };
+    window.addEventListener("keydown", onKeyDown);
+    return () => window.removeEventListener("keydown", onKeyDown);
+  }, []);
+
   // Group trucks by date
   const groupedTrucks = useMemo(() => {
     return groupByDate(data.trucks);
   }, [data.trucks]);
 
-  // Get available dates
+  // Get available dates (always include today even if no trucks)
   const availableDates = useMemo(() => {
-    return Array.from(groupedTrucks.keys());
+    const datesFromTrucks = Array.from(groupedTrucks.keys());
+    const today = getTodayDateKey();
+    
+    // Always include today's date in available dates, even if there are no trucks
+    if (!datesFromTrucks.includes(today)) {
+      // Insert today at the beginning since dates are sorted newest first
+      return [today, ...datesFromTrucks];
+    }
+    return datesFromTrucks;
   }, [groupedTrucks]);
 
   // Set initial selected date (default to today's date)
   useEffect(() => {
-    const today = new Date().toISOString().split("T")[0]; // Format: yyyy-MM-dd
+    const today = getTodayDateKey(); // Format: yyyy-MM-dd in Nigeria timezone
 
     if (!selectedDate) {
       // If no date is selected, try to set today's date or fall back to the first available
@@ -382,6 +411,26 @@ function App() {
     }
   };
 
+  const handleDelete = async (truckId: string) => {
+    setLoadingStates((prev) => ({ ...prev, [`delete-${truckId}`]: true }));
+
+    try {
+      await deleteTruck(truckId);
+      // Close detail panel if the deleted truck was selected
+      if (selectedTruck?.id === truckId) {
+        setSelectedTruck(null);
+      }
+    } catch (error) {
+      // Error already handled by hook
+    } finally {
+      setLoadingStates((prev) => ({ ...prev, [`delete-${truckId}`]: false }));
+    }
+  };
+
+  const handleTruckSelect = (truck: Truck) => {
+    setSelectedTruck(truck);
+  };
+
   // Don't block on loading or errors - show the main interface
 
   return (
@@ -565,6 +614,27 @@ function App() {
         onClose={() => setEditModal({ open: false, truck: null })}
         onConfirm={handleConfirmEdit}
         truck={editModal.truck}
+      />
+
+      {/* Quick Search */}
+      <QuickSearch
+        isOpen={quickSearchOpen}
+        onClose={() => setQuickSearchOpen(false)}
+        trucks={currentTrucks}
+        onTruckSelect={handleTruckSelect}
+      />
+
+      {/* Truck Detail Panel */}
+      <TruckDetailPanel
+        truck={selectedTruck}
+        isOpen={selectedTruck !== null}
+        onClose={() => setSelectedTruck(null)}
+        onScaleIn={handleScaleIn}
+        onOffload={handleOffload}
+        onReject={handleReject}
+        onEdit={handleEdit}
+        onDelete={handleDelete}
+        loadingStates={loadingStates}
       />
     </div>
   );

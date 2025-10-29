@@ -7,7 +7,18 @@
       "Bash(npm run build:*)",
       "Bash(git pull:*)",
       "Bash(git stash:*)",
-      "Bash(find:*)"
+      "Bash(find:*)",
+      "WebFetch(domain:wissamyah.github.io)",
+      "Bash(npx tsc:*)",
+      "Bash(npx tsx:*)",
+      "Bash(node test-regex.js)",
+      "Bash(gh run list:*)",
+      "Bash(git remote get-url:*)",
+      "Bash(git fetch:*)",
+      "Bash(git log:*)",
+      "Bash(git checkout:*)",
+      "Bash(git rm:*)",
+      "Bash(npm install:*)"
     ],
     "deny": [],
     "ask": []

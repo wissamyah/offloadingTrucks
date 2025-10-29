@@ -114,7 +114,7 @@ export const CustomDropdown: React.FC<CustomDropdownProps> = ({
       <div
         ref={optionsRef}
         className={`
-          absolute z-50 w-full mt-1
+          absolute z-[9999] w-full mt-1
           bg-gray-800 border border-gray-700 rounded-md shadow-xl
           max-h-60 overflow-auto
           transition-all duration-200 ease-out
