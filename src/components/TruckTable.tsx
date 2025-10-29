@@ -402,7 +402,7 @@ export const TruckTable: React.FC<TruckTableProps> = ({
           trucks.map((truck) => (
             <div
               key={truck.id}
-              className="bg-gray-750 rounded-lg border border-gray-700 p-3"
+              className="bg-gray-750 rounded-lg border border-gray-700 p-3 relative"
             >
               <div className="flex justify-between items-center mb-2">
                 <div className="flex-1 min-w-0">
@@ -425,8 +425,23 @@ export const TruckTable: React.FC<TruckTableProps> = ({
                     </div>
                   </div>
                 </div>
-                <div className="text-xs text-gray-400 ml-2 flex-shrink-0">
-                  {getTruckCreationTime(truck)}
+                <div className="flex items-center gap-2 ml-2 flex-shrink-0">
+                  <div className="text-xs text-gray-400">
+                    {getTruckCreationTime(truck)}
+                  </div>
+                  <button
+                    onClick={() => setDeleteConfirmTruck(truck.id)}
+                    className="text-red-400 hover:text-red-300 transition-colors p-1"
+                    disabled={deletingTrucks.has(truck.id)}
+                    title="Delete"
+                    aria-label="Delete truck"
+                  >
+                    {deletingTrucks.has(truck.id) ? (
+                      <div className="animate-spin h-4 w-4 border-2 border-red-400 border-t-transparent rounded-full" />
+                    ) : (
+                      <Trash2 className="h-4 w-4" />
+                    )}
+                  </button>
                 </div>
               </div>
 
@@ -470,53 +485,9 @@ export const TruckTable: React.FC<TruckTableProps> = ({
                 )}
               </div>
 
-              <div className="flex flex-wrap items-center justify-between gap-1.5 mt-2">
-                <div className="flex flex-wrap gap-1.5">
-                  {truck.status === "pending" && (
-                    <>
-                      <LoadingButton
-                        onClick={() => onScaleIn(truck.id)}
-                        loading={loadingStates[`scale-${truck.id}`]}
-                        variant="primary"
-                        size="sm"
-                        icon={<Scale className="h-3.5 w-3.5" />}
-                      >
-                        Scale In
-                      </LoadingButton>
-                      <LoadingButton
-                        onClick={() => setRejectConfirmTruck(truck.id)}
-                        loading={loadingStates[`reject-${truck.id}`]}
-                        variant="danger"
-                        size="sm"
-                      >
-                        Reject
-                      </LoadingButton>
-                    </>
-                  )}
-
-                  {truck.status === "scaled_in" && (
-                    <>
-                      <LoadingButton
-                        onClick={() => onOffload(truck.id)}
-                        loading={loadingStates[`offload-${truck.id}`]}
-                        variant="success"
-                        size="sm"
-                        icon={<Package className="h-3.5 w-3.5" />}
-                      >
-                        Offloaded
-                      </LoadingButton>
-                      <LoadingButton
-                        onClick={() => setRejectConfirmTruck(truck.id)}
-                        loading={loadingStates[`reject-${truck.id}`]}
-                        variant="danger"
-                        size="sm"
-                      >
-                        Reject
-                      </LoadingButton>
-                    </>
-                  )}
-
-                  {truck.status === "rejected" && (
+              <div className="flex flex-nowrap items-center gap-1.5 mt-2 pr-20">
+                {truck.status === "pending" && (
+                  <>
                     <LoadingButton
                       onClick={() => onScaleIn(truck.id)}
                       loading={loadingStates[`scale-${truck.id}`]}
@@ -526,33 +497,62 @@ export const TruckTable: React.FC<TruckTableProps> = ({
                     >
                       Scale In
                     </LoadingButton>
-                  )}
+                    <LoadingButton
+                      onClick={() => setRejectConfirmTruck(truck.id)}
+                      loading={loadingStates[`reject-${truck.id}`]}
+                      variant="danger"
+                      size="sm"
+                    >
+                      Reject
+                    </LoadingButton>
+                  </>
+                )}
 
-                  <button
-                    onClick={() => onEdit(truck)}
-                    className="text-blue-400 hover:text-blue-300 transition-colors p-1.5 flex items-center gap-1"
-                    title="Edit"
-                  >
-                    <Edit className="h-3.5 w-3.5" />
-                    <span className="text-xs">Edit</span>
-                  </button>
+                {truck.status === "scaled_in" && (
+                  <>
+                    <LoadingButton
+                      onClick={() => onOffload(truck.id)}
+                      loading={loadingStates[`offload-${truck.id}`]}
+                      variant="success"
+                      size="sm"
+                      icon={<Package className="h-3.5 w-3.5" />}
+                    >
+                      Offloaded
+                    </LoadingButton>
+                    <LoadingButton
+                      onClick={() => setRejectConfirmTruck(truck.id)}
+                      loading={loadingStates[`reject-${truck.id}`]}
+                      variant="danger"
+                      size="sm"
+                    >
+                      Reject
+                    </LoadingButton>
+                  </>
+                )}
 
-                  <button
-                    onClick={() => setDeleteConfirmTruck(truck.id)}
-                    className="text-red-400 hover:text-red-300 transition-colors p-1.5 flex items-center gap-1"
-                    disabled={deletingTrucks.has(truck.id)}
-                    title="Delete"
+                {truck.status === "rejected" && (
+                  <LoadingButton
+                    onClick={() => onScaleIn(truck.id)}
+                    loading={loadingStates[`scale-${truck.id}`]}
+                    variant="primary"
+                    size="sm"
+                    icon={<Scale className="h-3.5 w-3.5" />}
                   >
-                    {deletingTrucks.has(truck.id) ? (
-                      <div className="animate-spin h-3.5 w-3.5 border-2 border-red-400 border-t-transparent rounded-full" />
-                    ) : (
-                      <>
-                        <Trash2 className="h-3.5 w-3.5" />
-                        <span className="text-xs">Delete</span>
-                      </>
-                    )}
-                  </button>
-                </div>
+                    Scale In
+                  </LoadingButton>
+                )}
+
+                <button
+                  onClick={() => onEdit(truck)}
+                  className="text-blue-400 hover:text-blue-300 transition-colors p-1.5 flex items-center gap-1"
+                  title="Edit"
+                >
+                  <Edit className="h-3.5 w-3.5" />
+                  <span className="text-xs">Edit</span>
+                </button>
+              </div>
+
+              <div className="absolute bottom-3 right-3">
                 <StatusBadge status={truck.status} truck={truck} />
               </div>
             </div>
