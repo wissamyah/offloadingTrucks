@@ -10504,15 +10504,23 @@
       "bags": 75,
       "moistureLevel": 15,
       "truckNumber": "ANK 144 XA",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-10-29T07:05:07.493Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-10-29T09:23:16.892Z",
+          "details": {
+            "waybillNumber": "6822"
+          }
         }
       ],
       "createdAt": "2025-10-29T07:05:07.493Z",
-      "updatedAt": "2025-10-29T07:05:07.493Z"
+      "updatedAt": "2025-10-29T09:23:16.892Z",
+      "waybillNumber": "6822"
     },
     {
       "id": "truck_1761721590256_0_y2lb2k7in",
@@ -10619,6 +10627,6 @@
       "waybillNumber": "6816"
     }
   ],
-  "lastModified": "2025-10-29T09:19:51.909Z",
+  "lastModified": "2025-10-29T09:23:17.037Z",
   "version": "2.0.0"
 }
