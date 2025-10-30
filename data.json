@@ -11227,8 +11227,88 @@
       "createdAt": "2025-10-30T07:58:21.146Z",
       "updatedAt": "2025-10-30T09:43:22.497Z",
       "waybillNumber": "6854"
+    },
+    {
+      "id": "truck_1761828141555_0_j4ouqbx3s",
+      "supplierName": "Idris Haruna",
+      "bags": 250,
+      "moistureLevel": 17,
+      "truckNumber": "XA 954 TRR",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-30T12:42:21.555Z"
+        }
+      ],
+      "createdAt": "2025-10-30T12:42:21.555Z",
+      "updatedAt": "2025-10-30T12:42:21.555Z"
+    },
+    {
+      "id": "truck_1761828141555_1_6knnvhdor",
+      "supplierName": "Idris Haruna",
+      "bags": 160,
+      "moistureLevel": 20,
+      "truckNumber": "LFA 48 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-30T12:42:21.555Z"
+        }
+      ],
+      "createdAt": "2025-10-30T12:42:21.555Z",
+      "updatedAt": "2025-10-30T12:42:21.555Z"
+    },
+    {
+      "id": "truck_1761828141555_2_67k5w4lwr",
+      "supplierName": "Idris Haruna",
+      "bags": 400,
+      "moistureLevel": 19,
+      "truckNumber": "KMC 984 ZQ",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-30T12:42:21.555Z"
+        }
+      ],
+      "createdAt": "2025-10-30T12:42:21.555Z",
+      "updatedAt": "2025-10-30T12:42:21.555Z"
+    },
+    {
+      "id": "truck_1761828141555_3_6o488099f",
+      "supplierName": "Alh Danasabe",
+      "bags": 190,
+      "moistureLevel": 15,
+      "truckNumber": "NGU 488 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-30T12:42:21.555Z"
+        }
+      ],
+      "createdAt": "2025-10-30T12:42:21.555Z",
+      "updatedAt": "2025-10-30T12:42:21.555Z"
+    },
+    {
+      "id": "truck_1761828141555_4_3npv5mo87",
+      "supplierName": "Idris Haruna",
+      "bags": 446,
+      "moistureLevel": 18,
+      "truckNumber": "KTN 268 YZ",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-30T12:42:21.555Z"
+        }
+      ],
+      "createdAt": "2025-10-30T12:42:21.555Z",
+      "updatedAt": "2025-10-30T12:42:21.555Z"
     }
   ],
-  "lastModified": "2025-10-30T11:46:02.689Z",
+  "lastModified": "2025-10-30T12:42:21.726Z",
   "version": "2.0.0"
 }
