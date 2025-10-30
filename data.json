@@ -11298,15 +11298,23 @@
       "bags": 190,
       "moistureLevel": 15,
       "truckNumber": "NGU 488 XA",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-10-30T12:42:21.555Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-10-30T13:28:56.378Z",
+          "details": {
+            "waybillNumber": "6859"
+          }
         }
       ],
       "createdAt": "2025-10-30T12:42:21.555Z",
-      "updatedAt": "2025-10-30T12:42:21.555Z"
+      "updatedAt": "2025-10-30T13:28:56.378Z",
+      "waybillNumber": "6859"
     },
     {
       "id": "truck_1761828141555_4_3npv5mo87",
@@ -11325,6 +11333,6 @@
       "updatedAt": "2025-10-30T12:42:21.555Z"
     }
   ],
-  "lastModified": "2025-10-30T12:47:36.760Z",
+  "lastModified": "2025-10-30T13:28:56.539Z",
   "version": "2.0.0"
 }
