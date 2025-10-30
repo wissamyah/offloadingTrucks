@@ -11132,17 +11132,25 @@
       "bags": 520,
       "moistureLevel": 19,
       "truckNumber": "FKY 866 YF",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-10-30T07:58:21.146Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-10-30T09:43:22.497Z",
+          "details": {
+            "waybillNumber": "6854"
+          }
         }
       ],
       "createdAt": "2025-10-30T07:58:21.146Z",
-      "updatedAt": "2025-10-30T07:58:21.146Z"
+      "updatedAt": "2025-10-30T09:43:22.497Z",
+      "waybillNumber": "6854"
     }
   ],
-  "lastModified": "2025-10-30T09:37:23.093Z",
+  "lastModified": "2025-10-30T09:43:22.661Z",
   "version": "2.0.0"
 }
