@@ -10917,8 +10917,136 @@
       "updatedAt": "2025-10-29T18:33:39.584Z",
       "waybillNumber": "6840",
       "netWeight": 36580
+    },
+    {
+      "id": "truck_1761809928286_0_b80kuyl8r",
+      "supplierName": "Alh Danasabe",
+      "bags": 37,
+      "moistureLevel": 13,
+      "truckNumber": "14 B 122 BA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-30T07:38:48.286Z"
+        }
+      ],
+      "createdAt": "2025-10-30T07:38:48.286Z",
+      "updatedAt": "2025-10-30T07:38:48.286Z"
+    },
+    {
+      "id": "truck_1761809928286_1_fuujszls1",
+      "supplierName": "Abubakar Muhd Tukur",
+      "bags": 54,
+      "moistureLevel": 13,
+      "truckNumber": "KYW 374 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-30T07:38:48.286Z"
+        }
+      ],
+      "createdAt": "2025-10-30T07:38:48.286Z",
+      "updatedAt": "2025-10-30T07:38:48.286Z"
+    },
+    {
+      "id": "truck_1761809928286_2_4ctc8wqac",
+      "supplierName": "Damakasu Agro Allied",
+      "bags": 700,
+      "moistureLevel": 15,
+      "truckNumber": "MEK 474 XB",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-30T07:38:48.286Z"
+        }
+      ],
+      "createdAt": "2025-10-30T07:38:48.286Z",
+      "updatedAt": "2025-10-30T07:38:48.286Z"
+    },
+    {
+      "id": "truck_1761809928286_3_pkjajmpw2",
+      "supplierName": "Henry Ibe",
+      "bags": 500,
+      "moistureLevel": 19,
+      "truckNumber": "JJN 581 ZY",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-30T07:38:48.286Z"
+        }
+      ],
+      "createdAt": "2025-10-30T07:38:48.286Z",
+      "updatedAt": "2025-10-30T07:38:48.286Z"
+    },
+    {
+      "id": "truck_1761809928286_4_ll293dhkc",
+      "supplierName": "Jamilu Yahaya",
+      "bags": 280,
+      "moistureLevel": 16,
+      "truckNumber": "KUJ 911 XT",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-30T07:38:48.286Z"
+        }
+      ],
+      "createdAt": "2025-10-30T07:38:48.286Z",
+      "updatedAt": "2025-10-30T07:38:48.286Z"
+    },
+    {
+      "id": "truck_1761809928286_5_nlxyw8kb6",
+      "supplierName": "Damakasu Agro Allied",
+      "bags": 500,
+      "moistureLevel": 16,
+      "truckNumber": "GLN 26 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-30T07:38:48.286Z"
+        }
+      ],
+      "createdAt": "2025-10-30T07:38:48.286Z",
+      "updatedAt": "2025-10-30T07:38:48.286Z"
+    },
+    {
+      "id": "truck_1761809928286_6_18cn9sjb9",
+      "supplierName": "Lawan Ibrahim",
+      "bags": 200,
+      "moistureLevel": 18,
+      "truckNumber": "TRR 627 YX",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-30T07:38:48.286Z"
+        }
+      ],
+      "createdAt": "2025-10-30T07:38:48.286Z",
+      "updatedAt": "2025-10-30T07:38:48.286Z"
+    },
+    {
+      "id": "truck_1761809928286_7_ocntfxtih",
+      "supplierName": "H A Tahir",
+      "bags": 510,
+      "moistureLevel": 18,
+      "truckNumber": "GME 181 XB",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-30T07:38:48.286Z"
+        }
+      ],
+      "createdAt": "2025-10-30T07:38:48.286Z",
+      "updatedAt": "2025-10-30T07:38:48.286Z"
     }
   ],
-  "lastModified": "2025-10-29T18:34:02.072Z",
+  "lastModified": "2025-10-30T07:38:48.494Z",
   "version": "2.0.0"
 }
