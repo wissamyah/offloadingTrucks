@@ -11012,15 +11012,23 @@
       "bags": 280,
       "moistureLevel": 16,
       "truckNumber": "KUJ 911 XT",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-10-30T07:38:48.286Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-10-30T08:14:36.491Z",
+          "details": {
+            "waybillNumber": "6848"
+          }
         }
       ],
       "createdAt": "2025-10-30T07:38:48.286Z",
-      "updatedAt": "2025-10-30T07:38:48.286Z"
+      "updatedAt": "2025-10-30T08:14:36.491Z",
+      "waybillNumber": "6848"
     },
     {
       "id": "truck_1761809928286_5_nlxyw8kb6",
@@ -11119,6 +11127,6 @@
       "updatedAt": "2025-10-30T07:58:21.146Z"
     }
   ],
-  "lastModified": "2025-10-30T08:09:08.058Z",
+  "lastModified": "2025-10-30T08:14:36.616Z",
   "version": "2.0.0"
 }
