@@ -603,7 +603,7 @@ export const TruckTable: React.FC<TruckTableProps> = ({
       {onSort && (
         <button
           onClick={() => setSortModalOpen(true)}
-          className="fixed bottom-6 right-6 md:hidden bg-blue-600 hover:bg-blue-500 text-white rounded-full p-4 shadow-2xl z-50 transition-all hover:scale-110 active:scale-95"
+          className="fixed bottom-6 right-6 md:hidden bg-blue-600 hover:bg-blue-500 text-white rounded-full p-4 shadow-2xl z-[300] transition-all hover:scale-110 active:scale-95"
           aria-label="Sort trucks"
         >
           <ArrowUpDown className="h-5 w-5" />
@@ -621,13 +621,13 @@ export const TruckTable: React.FC<TruckTableProps> = ({
           {/* Backdrop */}
           {sortModalOpen && (
             <div
-              className="fixed inset-0 bg-black/50 z-50 md:hidden animate-in fade-in"
+              className="fixed inset-0 bg-black/50 z-[300] md:hidden animate-in fade-in"
               onClick={() => setSortModalOpen(false)}
             />
           )}
           {/* Bottom Sheet */}
           <div
-            className={`fixed bottom-0 left-0 right-0 bg-gray-800 border-t border-gray-700 rounded-t-2xl z-50 md:hidden transform transition-transform duration-300 ease-out ${
+            className={`fixed bottom-0 left-0 right-0 bg-gray-800 border-t border-gray-700 rounded-t-2xl z-[300] md:hidden transform transition-transform duration-300 ease-out ${
               sortModalOpen ? "translate-y-0" : "translate-y-full"
             }`}
           >
@@ -647,12 +647,7 @@ export const TruckTable: React.FC<TruckTableProps> = ({
                   { value: "time", label: "Time" },
                   { value: "supplier", label: "Supplier" },
                   { value: "truck", label: "Truck" },
-                  { value: "bags", label: "Bags" },
-                  { value: "moisture", label: "Moisture" },
                   { value: "status", label: "Status" },
-                  { value: "waybill", label: "Waybill" },
-                  { value: "netWeight", label: "Net Weight" },
-                  { value: "deduction", label: "Deduction" },
                 ].map((option) => {
                   const isActive = sortBy === option.value;
                   return (
@@ -711,25 +706,13 @@ export const TruckTable: React.FC<TruckTableProps> = ({
                   sortDirection={sortDirection}
                   onSort={onSort}
                 />
-                <SortableHeader
-                  column="bags"
-                  label="Bags"
-                  sortBy={sortBy}
-                  sortDirection={sortDirection}
-                  onSort={onSort}
-                />
-                <SortableHeader
-                  column="moisture"
-                  label={
-                    <div className="flex items-center gap-1">
-                      <Droplets className="h-3 w-3" />
-                      Moist.
-                    </div>
-                  }
-                  sortBy={sortBy}
-                  sortDirection={sortDirection}
-                  onSort={onSort}
-                />
+                <th className="px-2 py-2 text-left text-xs font-medium text-gray-400 uppercase tracking-wider">Bags</th>
+                <th className="px-2 py-2 text-left text-xs font-medium text-gray-400 uppercase tracking-wider">
+                  <div className="flex items-center gap-1">
+                    <Droplets className="h-3 w-3" />
+                    Moist.
+                  </div>
+                </th>
                 <SortableHeader
                   column="status"
                   label="Status"
@@ -737,27 +720,9 @@ export const TruckTable: React.FC<TruckTableProps> = ({
                   sortDirection={sortDirection}
                   onSort={onSort}
                 />
-                <SortableHeader
-                  column="waybill"
-                  label="Waybill"
-                  sortBy={sortBy}
-                  sortDirection={sortDirection}
-                  onSort={onSort}
-                />
-                <SortableHeader
-                  column="netWeight"
-                  label="Net Wt."
-                  sortBy={sortBy}
-                  sortDirection={sortDirection}
-                  onSort={onSort}
-                />
-                <SortableHeader
-                  column="deduction"
-                  label="Deduc."
-                  sortBy={sortBy}
-                  sortDirection={sortDirection}
-                  onSort={onSort}
-                />
+                <th className="px-2 py-2 text-left text-xs font-medium text-gray-400 uppercase tracking-wider">Waybill</th>
+                <th className="px-2 py-2 text-left text-xs font-medium text-gray-400 uppercase tracking-wider">Net Wt.</th>
+                <th className="px-2 py-2 text-left text-xs font-medium text-gray-400 uppercase tracking-wider">Deduc.</th>
                 <th className="px-2 py-2 text-right text-xs font-medium text-gray-500 uppercase tracking-wider">
                   Actions
                 </th>

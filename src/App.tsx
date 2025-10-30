@@ -254,15 +254,7 @@ function App() {
           bValue = b.truckNumber.toLowerCase();
           break;
 
-        case "bags":
-          aValue = a.bags;
-          bValue = b.bags;
-          break;
-
-        case "moisture":
-          aValue = a.moistureLevel;
-          bValue = b.moistureLevel;
-          break;
+        
 
         case "status": {
           // Custom status order: pending < scaled_in < offloaded < rejected
@@ -301,20 +293,7 @@ function App() {
           return 0;
         }
 
-        case "waybill":
-          aValue = a.waybillNumber?.toLowerCase() || "";
-          bValue = b.waybillNumber?.toLowerCase() || "";
-          break;
-
-        case "netWeight":
-          aValue = a.netWeight || 0;
-          bValue = b.netWeight || 0;
-          break;
-
-        case "deduction":
-          aValue = a.deduction || 0;
-          bValue = b.deduction || 0;
-          break;
+        
 
         default:
           return 0;
