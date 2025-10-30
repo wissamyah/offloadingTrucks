@@ -11069,8 +11069,40 @@
       "createdAt": "2025-10-30T07:38:48.286Z",
       "updatedAt": "2025-10-30T07:50:57.962Z",
       "waybillNumber": "6845"
+    },
+    {
+      "id": "truck_1761811101146_0_b1nw9delk",
+      "supplierName": "Jamilu Yahaya",
+      "bags": 189,
+      "moistureLevel": 20,
+      "truckNumber": "XA 113 KCH",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-30T07:58:21.146Z"
+        }
+      ],
+      "createdAt": "2025-10-30T07:58:21.146Z",
+      "updatedAt": "2025-10-30T07:58:21.146Z"
+    },
+    {
+      "id": "truck_1761811101146_1_5gin0crma",
+      "supplierName": "Idris Garba",
+      "bags": 520,
+      "moistureLevel": 19,
+      "truckNumber": "FKY 866 YF",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-30T07:58:21.146Z"
+        }
+      ],
+      "createdAt": "2025-10-30T07:58:21.146Z",
+      "updatedAt": "2025-10-30T07:58:21.146Z"
     }
   ],
-  "lastModified": "2025-10-30T07:50:58.133Z",
+  "lastModified": "2025-10-30T07:58:21.257Z",
   "version": "2.0.0"
 }
