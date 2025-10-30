@@ -11056,7 +11056,7 @@
       "bags": 500,
       "moistureLevel": 16,
       "truckNumber": "GLN 26 XA",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -11068,11 +11068,21 @@
           "details": {
             "waybillNumber": "6844"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-10-30T11:06:17.670Z",
+          "details": {
+            "netWeight": 34100,
+            "deduction": 90
+          }
         }
       ],
       "createdAt": "2025-10-30T07:38:48.286Z",
-      "updatedAt": "2025-10-30T07:47:30.480Z",
-      "waybillNumber": "6844"
+      "updatedAt": "2025-10-30T11:06:17.670Z",
+      "waybillNumber": "6844",
+      "netWeight": 34100,
+      "deduction": 90
     },
     {
       "id": "truck_1761809928286_6_18cn9sjb9",
@@ -11199,6 +11209,6 @@
       "waybillNumber": "6854"
     }
   ],
-  "lastModified": "2025-10-30T10:52:29.981Z",
+  "lastModified": "2025-10-30T11:06:17.809Z",
   "version": "2.0.0"
 }
