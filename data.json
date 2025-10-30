@@ -10948,7 +10948,7 @@
       "bags": 54,
       "moistureLevel": 13,
       "truckNumber": "KYW 374 XA",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -10960,11 +10960,19 @@
           "details": {
             "waybillNumber": "6847"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-10-30T09:54:00.001Z",
+          "details": {
+            "netWeight": 4820
+          }
         }
       ],
       "createdAt": "2025-10-30T07:38:48.286Z",
-      "updatedAt": "2025-10-30T08:09:07.950Z",
-      "waybillNumber": "6847"
+      "updatedAt": "2025-10-30T09:54:00.001Z",
+      "waybillNumber": "6847",
+      "netWeight": 4820
     },
     {
       "id": "truck_1761809928286_2_4ctc8wqac",
@@ -11169,6 +11177,6 @@
       "waybillNumber": "6854"
     }
   ],
-  "lastModified": "2025-10-30T09:47:39.495Z",
+  "lastModified": "2025-10-30T09:54:00.130Z",
   "version": "2.0.0"
 }
