@@ -11104,12 +11104,20 @@
             "netWeight": 37850,
             "deduction": 180
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-10-30T09:47:39.366Z",
+          "details": {
+            "netWeight": 37580,
+            "deduction": 180
+          }
         }
       ],
       "createdAt": "2025-10-30T07:38:48.286Z",
-      "updatedAt": "2025-10-30T09:46:17.430Z",
+      "updatedAt": "2025-10-30T09:47:39.366Z",
       "waybillNumber": "6845",
-      "netWeight": 37850,
+      "netWeight": 37580,
       "deduction": 180
     },
     {
@@ -11161,6 +11169,6 @@
       "waybillNumber": "6854"
     }
   ],
-  "lastModified": "2025-10-30T09:46:17.486Z",
+  "lastModified": "2025-10-30T09:47:39.495Z",
   "version": "2.0.0"
 }
