@@ -1,12 +1,5 @@
 import React from "react";
-import {
-  X,
-  Search,
-  Clock,
-  Scale,
-  CheckCircle,
-  XCircle,
-} from "lucide-react";
+import { X, Search, Clock, Scale, CheckCircle, XCircle } from "lucide-react";
 import { Truck, TruckStatus } from "../types/truck";
 import { formatTimeWAT } from "../utils/dateUtils";
 
@@ -93,7 +86,12 @@ const StatusBadge: React.FC<{ status: TruckStatus; truck: Truck }> = ({
   );
 };
 
-export const QuickSearch: React.FC<QuickSearchProps> = ({ isOpen, onClose, trucks, onTruckSelect }) => {
+export const QuickSearch: React.FC<QuickSearchProps> = ({
+  isOpen,
+  onClose,
+  trucks,
+  onTruckSelect,
+}) => {
   const [query, setQuery] = React.useState("");
   const inputRef = React.useRef<HTMLInputElement | null>(null);
 
@@ -136,7 +134,7 @@ export const QuickSearch: React.FC<QuickSearchProps> = ({ isOpen, onClose, truck
   if (!isOpen) return null;
 
   return (
-    <div className="fixed inset-0 z-50">
+    <div className="fixed inset-0 z-[200]">
       {/* Backdrop */}
       <div className="absolute inset-0 bg-black/50" onClick={onClose} />
 
@@ -152,7 +150,10 @@ export const QuickSearch: React.FC<QuickSearchProps> = ({ isOpen, onClose, truck
             placeholder="Search suppliers, truck/plate number, waybill, status..."
             className="flex-1 bg-transparent outline-none text-gray-100 placeholder-gray-400 text-sm"
           />
-          <button onClick={onClose} className="p-1 text-gray-400 hover:text-gray-200">
+          <button
+            onClick={onClose}
+            className="p-1 text-gray-400 hover:text-gray-200"
+          >
             <X className="h-4 w-4" />
           </button>
         </div>
@@ -212,5 +213,3 @@ export const QuickSearch: React.FC<QuickSearchProps> = ({ isOpen, onClose, truck
 };
 
 export default QuickSearch;
-
-

@@ -174,13 +174,13 @@ export const TruckDetailPanel: React.FC<TruckDetailPanelProps> = ({
     <>
       {/* Backdrop */}
       <div
-        className="fixed inset-0 bg-black/40 z-30 transition-opacity"
+        className="fixed inset-0 bg-black/40 z-[150] transition-opacity"
         onClick={onClose}
       />
 
       {/* Panel */}
       <div
-        className={`fixed right-0 top-0 bottom-0 w-full sm:w-[480px] bg-gray-800 border-l border-gray-700 shadow-2xl z-40 transform transition-transform duration-300 ease-out ${
+        className={`fixed right-0 top-0 bottom-0 w-full sm:w-[480px] bg-gray-800 border-l border-gray-700 shadow-2xl z-[160] transform transition-transform duration-300 ease-out ${
           isOpen ? "translate-x-0" : "translate-x-full"
         }`}
       >
