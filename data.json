@@ -11084,7 +11084,7 @@
       "bags": 510,
       "moistureLevel": 18,
       "truckNumber": "GME 181 XB",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -11096,11 +11096,21 @@
           "details": {
             "waybillNumber": "6845"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-10-30T09:46:17.429Z",
+          "details": {
+            "netWeight": 37850,
+            "deduction": 180
+          }
         }
       ],
       "createdAt": "2025-10-30T07:38:48.286Z",
-      "updatedAt": "2025-10-30T07:50:57.962Z",
-      "waybillNumber": "6845"
+      "updatedAt": "2025-10-30T09:46:17.430Z",
+      "waybillNumber": "6845",
+      "netWeight": 37850,
+      "deduction": 180
     },
     {
       "id": "truck_1761811101146_0_b1nw9delk",
@@ -11151,6 +11161,6 @@
       "waybillNumber": "6854"
     }
   ],
-  "lastModified": "2025-10-30T09:43:22.661Z",
+  "lastModified": "2025-10-30T09:46:17.486Z",
   "version": "2.0.0"
 }
