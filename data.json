@@ -11176,7 +11176,7 @@
       "bags": 189,
       "moistureLevel": 20,
       "truckNumber": "XA 113 KCH",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -11188,11 +11188,21 @@
           "details": {
             "waybillNumber": "6853"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-10-30T11:46:02.361Z",
+          "details": {
+            "netWeight": 15470,
+            "deduction": 90
+          }
         }
       ],
       "createdAt": "2025-10-30T07:58:21.146Z",
-      "updatedAt": "2025-10-30T09:37:22.995Z",
-      "waybillNumber": "6853"
+      "updatedAt": "2025-10-30T11:46:02.361Z",
+      "waybillNumber": "6853",
+      "netWeight": 15470,
+      "deduction": 90
     },
     {
       "id": "truck_1761811101146_1_5gin0crma",
@@ -11219,6 +11229,6 @@
       "waybillNumber": "6854"
     }
   ],
-  "lastModified": "2025-10-30T11:37:21.851Z",
+  "lastModified": "2025-10-30T11:46:02.689Z",
   "version": "2.0.0"
 }
