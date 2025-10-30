@@ -10924,15 +10924,23 @@
       "bags": 37,
       "moistureLevel": 13,
       "truckNumber": "14 B 122 BA",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-10-30T07:38:48.286Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-10-30T08:06:12.505Z",
+          "details": {
+            "waybillNumber": "6846"
+          }
         }
       ],
       "createdAt": "2025-10-30T07:38:48.286Z",
-      "updatedAt": "2025-10-30T07:38:48.286Z"
+      "updatedAt": "2025-10-30T08:06:12.505Z",
+      "waybillNumber": "6846"
     },
     {
       "id": "truck_1761809928286_1_fuujszls1",
@@ -11103,6 +11111,6 @@
       "updatedAt": "2025-10-30T07:58:21.146Z"
     }
   ],
-  "lastModified": "2025-10-30T07:58:21.257Z",
+  "lastModified": "2025-10-30T08:06:12.624Z",
   "version": "2.0.0"
 }
