@@ -11012,15 +11012,19 @@
       "bags": 500,
       "moistureLevel": 19,
       "truckNumber": "JJN 581 ZY",
-      "status": "pending",
+      "status": "rejected",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-10-30T07:38:48.286Z"
+        },
+        {
+          "status": "rejected",
+          "timestamp": "2025-10-30T10:09:20.257Z"
         }
       ],
       "createdAt": "2025-10-30T07:38:48.286Z",
-      "updatedAt": "2025-10-30T07:38:48.286Z"
+      "updatedAt": "2025-10-30T10:09:20.257Z"
     },
     {
       "id": "truck_1761809928286_4_ll293dhkc",
@@ -11185,6 +11189,6 @@
       "waybillNumber": "6854"
     }
   ],
-  "lastModified": "2025-10-30T10:05:56.591Z",
+  "lastModified": "2025-10-30T10:09:20.410Z",
   "version": "2.0.0"
 }
