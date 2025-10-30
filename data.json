@@ -11080,7 +11080,7 @@
       "bags": 200,
       "moistureLevel": 18,
       "truckNumber": "TRR 627 YX",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -11092,11 +11092,21 @@
           "details": {
             "waybillNumber": "6852"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-10-30T10:52:29.829Z",
+          "details": {
+            "netWeight": 16980,
+            "deduction": 70
+          }
         }
       ],
       "createdAt": "2025-10-30T07:38:48.286Z",
-      "updatedAt": "2025-10-30T09:33:29.879Z",
-      "waybillNumber": "6852"
+      "updatedAt": "2025-10-30T10:52:29.829Z",
+      "waybillNumber": "6852",
+      "netWeight": 16980,
+      "deduction": 70
     },
     {
       "id": "truck_1761809928286_7_ocntfxtih",
@@ -11189,6 +11199,6 @@
       "waybillNumber": "6854"
     }
   ],
-  "lastModified": "2025-10-30T10:09:20.410Z",
+  "lastModified": "2025-10-30T10:52:29.981Z",
   "version": "2.0.0"
 }
