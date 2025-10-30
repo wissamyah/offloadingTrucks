@@ -10988,7 +10988,7 @@
       "bags": 700,
       "moistureLevel": 15,
       "truckNumber": "MEK 474 XB",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -11000,11 +11000,21 @@
           "details": {
             "waybillNumber": "6843"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-10-30T11:37:21.749Z",
+          "details": {
+            "netWeight": 48130,
+            "deduction": 120
+          }
         }
       ],
       "createdAt": "2025-10-30T07:38:48.286Z",
-      "updatedAt": "2025-10-30T07:45:12.777Z",
-      "waybillNumber": "6843"
+      "updatedAt": "2025-10-30T11:37:21.749Z",
+      "waybillNumber": "6843",
+      "netWeight": 48130,
+      "deduction": 120
     },
     {
       "id": "truck_1761809928286_3_pkjajmpw2",
@@ -11209,6 +11219,6 @@
       "waybillNumber": "6854"
     }
   ],
-  "lastModified": "2025-10-30T11:06:17.809Z",
+  "lastModified": "2025-10-30T11:37:21.851Z",
   "version": "2.0.0"
 }
