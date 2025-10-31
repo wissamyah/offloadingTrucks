@@ -11440,15 +11440,23 @@
       "bags": 230,
       "moistureLevel": 15,
       "truckNumber": "KWM 498 XA",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-10-31T07:59:23.304Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-10-31T09:39:53.580Z",
+          "details": {
+            "waybillNumber": "6871"
+          }
         }
       ],
       "createdAt": "2025-10-31T07:59:23.304Z",
-      "updatedAt": "2025-10-31T07:59:23.304Z"
+      "updatedAt": "2025-10-31T09:39:53.580Z",
+      "waybillNumber": "6871"
     },
     {
       "id": "truck_1761897563304_2_1fro6bk79",
@@ -11835,6 +11843,6 @@
       "updatedAt": "2025-10-31T09:36:32.169Z"
     }
   ],
-  "lastModified": "2025-10-31T09:36:32.331Z",
+  "lastModified": "2025-10-31T09:39:53.723Z",
   "version": "2.0.0"
 }
