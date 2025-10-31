@@ -12014,7 +12014,7 @@
       "bags": 220,
       "moistureLevel": 15,
       "truckNumber": "AA 313 NEG",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -12026,11 +12026,19 @@
           "details": {
             "waybillNumber": "6881"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-10-31T15:41:46.919Z",
+          "details": {
+            "netWeight": 18160
+          }
         }
       ],
       "createdAt": "2025-10-31T09:36:32.169Z",
-      "updatedAt": "2025-10-31T12:53:31.235Z",
-      "waybillNumber": "6881"
+      "updatedAt": "2025-10-31T15:41:46.919Z",
+      "waybillNumber": "6881",
+      "netWeight": 18160
     },
     {
       "id": "truck_1761903392168_2_rwai7dctu",
@@ -12081,6 +12089,6 @@
       "waybillNumber": "6884"
     }
   ],
-  "lastModified": "2025-10-31T15:35:50.696Z",
+  "lastModified": "2025-10-31T15:41:47.093Z",
   "version": "2.0.0"
 }
