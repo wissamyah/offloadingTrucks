@@ -11416,15 +11416,23 @@
       "bags": 500,
       "moistureLevel": 15,
       "truckNumber": "GJB 550 XA",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-10-31T07:59:23.304Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-10-31T08:00:47.727Z",
+          "details": {
+            "waybillNumber": "6864"
+          }
         }
       ],
       "createdAt": "2025-10-31T07:59:23.304Z",
-      "updatedAt": "2025-10-31T07:59:23.304Z"
+      "updatedAt": "2025-10-31T08:00:47.727Z",
+      "waybillNumber": "6864"
     },
     {
       "id": "truck_1761897563304_1_8qyy3z6nb",
@@ -11507,6 +11515,6 @@
       "updatedAt": "2025-10-31T07:59:23.304Z"
     }
   ],
-  "lastModified": "2025-10-31T07:59:23.460Z",
+  "lastModified": "2025-10-31T08:00:47.860Z",
   "version": "2.0.0"
 }
