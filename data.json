@@ -11623,7 +11623,7 @@
       "supplierName": "Sammaf Agro Allied",
       "bags": 500,
       "moistureLevel": 17,
-      "truckNumber": "DKL 812 XL",
+      "truckNumber": "DKA 812 XL",
       "status": "scaled_in",
       "statusHistory": [
         {
@@ -11707,6 +11707,6 @@
       "updatedAt": "2025-10-31T08:08:47.079Z"
     }
   ],
-  "lastModified": "2025-10-31T08:10:59.934Z",
+  "lastModified": "2025-10-31T08:11:14.986Z",
   "version": "2.0.0"
 }
