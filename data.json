@@ -11785,8 +11785,56 @@
       ],
       "createdAt": "2025-10-31T09:35:34.546Z",
       "updatedAt": "2025-10-31T09:35:34.546Z"
+    },
+    {
+      "id": "truck_1761903392168_0_hv3n9g0nb",
+      "supplierName": "Idris Haruna",
+      "bags": 192,
+      "moistureLevel": 15,
+      "truckNumber": "BLG 689 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-31T09:36:32.169Z"
+        }
+      ],
+      "createdAt": "2025-10-31T09:36:32.169Z",
+      "updatedAt": "2025-10-31T09:36:32.169Z"
+    },
+    {
+      "id": "truck_1761903392168_1_q9ixzxpp9",
+      "supplierName": "Alh Danasabe",
+      "bags": 220,
+      "moistureLevel": 15,
+      "truckNumber": "AA 313 NEG",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-31T09:36:32.169Z"
+        }
+      ],
+      "createdAt": "2025-10-31T09:36:32.169Z",
+      "updatedAt": "2025-10-31T09:36:32.169Z"
+    },
+    {
+      "id": "truck_1761903392168_2_rwai7dctu",
+      "supplierName": "Idris Haruna",
+      "bags": 168,
+      "moistureLevel": 17,
+      "truckNumber": "TNK 239 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-31T09:36:32.169Z"
+        }
+      ],
+      "createdAt": "2025-10-31T09:36:32.169Z",
+      "updatedAt": "2025-10-31T09:36:32.169Z"
     }
   ],
-  "lastModified": "2025-10-31T09:35:34.779Z",
+  "lastModified": "2025-10-31T09:36:32.331Z",
   "version": "2.0.0"
 }
