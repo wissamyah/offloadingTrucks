@@ -12086,7 +12086,7 @@
       "bags": 724,
       "moistureLevel": 15,
       "truckNumber": "HJA 197 XR",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -12098,13 +12098,21 @@
           "details": {
             "waybillNumber": "6884"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-10-31T16:37:03.478Z",
+          "details": {
+            "netWeight": 52830
+          }
         }
       ],
       "createdAt": "2025-10-31T13:10:23.377Z",
-      "updatedAt": "2025-10-31T13:12:44.816Z",
-      "waybillNumber": "6884"
+      "updatedAt": "2025-10-31T16:37:03.478Z",
+      "waybillNumber": "6884",
+      "netWeight": 52830
     }
   ],
-  "lastModified": "2025-10-31T16:26:44.590Z",
+  "lastModified": "2025-10-31T16:37:03.701Z",
   "version": "2.0.0"
 }
