@@ -11946,7 +11946,7 @@
       "bags": 253,
       "moistureLevel": 15,
       "truckNumber": "KTG 814 XA",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -11958,11 +11958,19 @@
           "details": {
             "waybillNumber": "6877"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-10-31T15:47:49.089Z",
+          "details": {
+            "netWeight": 22190
+          }
         }
       ],
       "createdAt": "2025-10-31T09:35:34.546Z",
-      "updatedAt": "2025-10-31T10:55:40.420Z",
-      "waybillNumber": "6877"
+      "updatedAt": "2025-10-31T15:47:49.089Z",
+      "waybillNumber": "6877",
+      "netWeight": 22190
     },
     {
       "id": "truck_1761903334546_2_qygg6r7s2",
@@ -12089,6 +12097,6 @@
       "waybillNumber": "6884"
     }
   ],
-  "lastModified": "2025-10-31T15:41:47.093Z",
+  "lastModified": "2025-10-31T15:47:49.352Z",
   "version": "2.0.0"
 }
