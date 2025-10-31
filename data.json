@@ -11780,15 +11780,19 @@
       "bags": 255,
       "moistureLevel": 17,
       "truckNumber": "GML 547 XX",
-      "status": "pending",
+      "status": "rejected",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-10-31T08:08:47.079Z"
+        },
+        {
+          "status": "rejected",
+          "timestamp": "2025-10-31T12:27:09.929Z"
         }
       ],
       "createdAt": "2025-10-31T08:08:47.079Z",
-      "updatedAt": "2025-10-31T08:08:47.079Z"
+      "updatedAt": "2025-10-31T12:27:09.929Z"
     },
     {
       "id": "truck_1761898127079_2_qbnm5458y",
@@ -11977,6 +11981,6 @@
       "updatedAt": "2025-10-31T09:36:32.169Z"
     }
   ],
-  "lastModified": "2025-10-31T11:07:53.574Z",
+  "lastModified": "2025-10-31T12:27:10.194Z",
   "version": "2.0.0"
 }
