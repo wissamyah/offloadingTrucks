@@ -11513,8 +11513,104 @@
       ],
       "createdAt": "2025-10-31T07:59:23.304Z",
       "updatedAt": "2025-10-31T07:59:23.304Z"
+    },
+    {
+      "id": "truck_1761897867266_0_gocixiwha",
+      "supplierName": "Abubakar Muhd Tukur",
+      "bags": 55,
+      "moistureLevel": 15,
+      "truckNumber": "BDG 387 YE",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-31T08:04:27.266Z"
+        }
+      ],
+      "createdAt": "2025-10-31T08:04:27.267Z",
+      "updatedAt": "2025-10-31T08:04:27.267Z"
+    },
+    {
+      "id": "truck_1761897867266_1_0xuqs1ttt",
+      "supplierName": "Abubakar Muhd Tukur",
+      "bags": 52,
+      "moistureLevel": 14,
+      "truckNumber": "KYW 374 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-31T08:04:27.267Z"
+        }
+      ],
+      "createdAt": "2025-10-31T08:04:27.267Z",
+      "updatedAt": "2025-10-31T08:04:27.267Z"
+    },
+    {
+      "id": "truck_1761897867266_2_rjp2xjjyr",
+      "supplierName": "Idris Haruna",
+      "bags": 80,
+      "moistureLevel": 15,
+      "truckNumber": "ZUR 521 YL",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-31T08:04:27.267Z"
+        }
+      ],
+      "createdAt": "2025-10-31T08:04:27.267Z",
+      "updatedAt": "2025-10-31T08:04:27.267Z"
+    },
+    {
+      "id": "truck_1761897867266_3_f6caqmdj8",
+      "supplierName": "Jamilu Yahaya",
+      "bags": 520,
+      "moistureLevel": 17,
+      "truckNumber": "XA 356 NGU",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-31T08:04:27.267Z"
+        }
+      ],
+      "createdAt": "2025-10-31T08:04:27.267Z",
+      "updatedAt": "2025-10-31T08:04:27.267Z"
+    },
+    {
+      "id": "truck_1761897867266_4_ul9rujnno",
+      "supplierName": "Epang",
+      "bags": 500,
+      "moistureLevel": 17,
+      "truckNumber": "XA 347 BTR",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-31T08:04:27.267Z"
+        }
+      ],
+      "createdAt": "2025-10-31T08:04:27.267Z",
+      "updatedAt": "2025-10-31T08:04:27.267Z"
+    },
+    {
+      "id": "truck_1761897867266_5_c9stdd674",
+      "supplierName": "Sammaf Agro Allied",
+      "bags": 450,
+      "moistureLevel": 20,
+      "truckNumber": "KUF 111 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-31T08:04:27.267Z"
+        }
+      ],
+      "createdAt": "2025-10-31T08:04:27.267Z",
+      "updatedAt": "2025-10-31T08:04:27.267Z"
     }
   ],
-  "lastModified": "2025-10-31T08:00:47.860Z",
+  "lastModified": "2025-10-31T08:04:29.790Z",
   "version": "2.0.0"
 }
