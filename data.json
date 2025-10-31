@@ -11664,15 +11664,23 @@
       "bags": 500,
       "moistureLevel": 18,
       "truckNumber": "PKM 220 ZY",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-10-31T08:08:47.079Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-10-31T08:15:14.040Z",
+          "details": {
+            "waybillNumber": "6867"
+          }
         }
       ],
       "createdAt": "2025-10-31T08:08:47.079Z",
-      "updatedAt": "2025-10-31T08:08:47.079Z"
+      "updatedAt": "2025-10-31T08:15:14.040Z",
+      "waybillNumber": "6867"
     },
     {
       "id": "truck_1761898127079_3_3l04lnw2p",
@@ -11707,6 +11715,6 @@
       "updatedAt": "2025-10-31T08:08:47.079Z"
     }
   ],
-  "lastModified": "2025-10-31T08:11:14.986Z",
+  "lastModified": "2025-10-31T08:15:14.236Z",
   "version": "2.0.0"
 }
