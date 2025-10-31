@@ -11954,15 +11954,23 @@
       "bags": 192,
       "moistureLevel": 15,
       "truckNumber": "BLG 689 XA",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-10-31T09:36:32.169Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-10-31T12:56:43.345Z",
+          "details": {
+            "waybillNumber": "6882"
+          }
         }
       ],
       "createdAt": "2025-10-31T09:36:32.169Z",
-      "updatedAt": "2025-10-31T09:36:32.169Z"
+      "updatedAt": "2025-10-31T12:56:43.345Z",
+      "waybillNumber": "6882"
     },
     {
       "id": "truck_1761903392168_1_q9ixzxpp9",
@@ -12005,6 +12013,6 @@
       "updatedAt": "2025-10-31T09:36:32.169Z"
     }
   ],
-  "lastModified": "2025-10-31T12:53:31.490Z",
+  "lastModified": "2025-10-31T12:56:44.581Z",
   "version": "2.0.0"
 }
