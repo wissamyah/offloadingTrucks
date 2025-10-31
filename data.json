@@ -11724,7 +11724,7 @@
       "bags": 500,
       "moistureLevel": 18,
       "truckNumber": "PKM 220 ZY",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -11736,11 +11736,21 @@
           "details": {
             "waybillNumber": "6867"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-10-31T10:19:12.084Z",
+          "details": {
+            "netWeight": 35780,
+            "deduction": 120
+          }
         }
       ],
       "createdAt": "2025-10-31T08:08:47.079Z",
-      "updatedAt": "2025-10-31T08:15:14.040Z",
-      "waybillNumber": "6867"
+      "updatedAt": "2025-10-31T10:19:12.084Z",
+      "waybillNumber": "6867",
+      "netWeight": 35780,
+      "deduction": 120
     },
     {
       "id": "truck_1761898127079_3_3l04lnw2p",
@@ -11879,6 +11889,6 @@
       "updatedAt": "2025-10-31T09:36:32.169Z"
     }
   ],
-  "lastModified": "2025-10-31T10:15:47.030Z",
+  "lastModified": "2025-10-31T10:19:13.090Z",
   "version": "2.0.0"
 }
