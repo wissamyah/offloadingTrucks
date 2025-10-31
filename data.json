@@ -11617,8 +11617,88 @@
       ],
       "createdAt": "2025-10-31T08:04:27.267Z",
       "updatedAt": "2025-10-31T08:04:27.267Z"
+    },
+    {
+      "id": "truck_1761898127079_0_krgdecx4w",
+      "supplierName": "Sammaf Agro Allied",
+      "bags": 500,
+      "moistureLevel": 17,
+      "truckNumber": "DKL 812 XL",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-31T08:08:47.079Z"
+        }
+      ],
+      "createdAt": "2025-10-31T08:08:47.079Z",
+      "updatedAt": "2025-10-31T08:08:47.079Z"
+    },
+    {
+      "id": "truck_1761898127079_1_jb38w6ba7",
+      "supplierName": "Mukhtari Sale",
+      "bags": 255,
+      "moistureLevel": 17,
+      "truckNumber": "GML 547 XX",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-31T08:08:47.079Z"
+        }
+      ],
+      "createdAt": "2025-10-31T08:08:47.079Z",
+      "updatedAt": "2025-10-31T08:08:47.079Z"
+    },
+    {
+      "id": "truck_1761898127079_2_qbnm5458y",
+      "supplierName": "Damakasu Agro Allied",
+      "bags": 500,
+      "moistureLevel": 18,
+      "truckNumber": "PKM 220 ZY",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-31T08:08:47.079Z"
+        }
+      ],
+      "createdAt": "2025-10-31T08:08:47.079Z",
+      "updatedAt": "2025-10-31T08:08:47.079Z"
+    },
+    {
+      "id": "truck_1761898127079_3_3l04lnw2p",
+      "supplierName": "Mansur Mansur",
+      "bags": 450,
+      "moistureLevel": 15,
+      "truckNumber": "KFR 207 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-31T08:08:47.079Z"
+        }
+      ],
+      "createdAt": "2025-10-31T08:08:47.079Z",
+      "updatedAt": "2025-10-31T08:08:47.079Z"
+    },
+    {
+      "id": "truck_1761898127079_4_eq418l0yo",
+      "supplierName": "Jana Tropical",
+      "bags": 180,
+      "moistureLevel": 20,
+      "truckNumber": "SKK 493 ZY",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-31T08:08:47.079Z"
+        }
+      ],
+      "createdAt": "2025-10-31T08:08:47.079Z",
+      "updatedAt": "2025-10-31T08:08:47.079Z"
     }
   ],
-  "lastModified": "2025-10-31T08:06:11.421Z",
+  "lastModified": "2025-10-31T08:08:47.954Z",
   "version": "2.0.0"
 }
