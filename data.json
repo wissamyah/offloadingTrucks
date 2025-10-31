@@ -11409,8 +11409,104 @@
       "waybillNumber": "6862",
       "netWeight": 37280,
       "deduction": 120
+    },
+    {
+      "id": "truck_1761897563304_0_ovx8v62wz",
+      "supplierName": "Damakasu Agro Allied",
+      "bags": 500,
+      "moistureLevel": 15,
+      "truckNumber": "GJB 550 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-31T07:59:23.304Z"
+        }
+      ],
+      "createdAt": "2025-10-31T07:59:23.304Z",
+      "updatedAt": "2025-10-31T07:59:23.304Z"
+    },
+    {
+      "id": "truck_1761897563304_1_8qyy3z6nb",
+      "supplierName": "Real Grains",
+      "bags": 230,
+      "moistureLevel": 15,
+      "truckNumber": "KWM 498 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-31T07:59:23.304Z"
+        }
+      ],
+      "createdAt": "2025-10-31T07:59:23.304Z",
+      "updatedAt": "2025-10-31T07:59:23.304Z"
+    },
+    {
+      "id": "truck_1761897563304_2_1fro6bk79",
+      "supplierName": "Mansur Mansur",
+      "bags": 102,
+      "moistureLevel": 17,
+      "truckNumber": "GML 27 XB",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-31T07:59:23.304Z"
+        }
+      ],
+      "createdAt": "2025-10-31T07:59:23.304Z",
+      "updatedAt": "2025-10-31T07:59:23.304Z"
+    },
+    {
+      "id": "truck_1761897563304_3_nxnt1drj3",
+      "supplierName": "Idris Haruna",
+      "bags": 217,
+      "moistureLevel": 15,
+      "truckNumber": "ALK 781 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-31T07:59:23.304Z"
+        }
+      ],
+      "createdAt": "2025-10-31T07:59:23.304Z",
+      "updatedAt": "2025-10-31T07:59:23.304Z"
+    },
+    {
+      "id": "truck_1761897563304_4_koxkbu1mn",
+      "supplierName": "Abubakar Muhd Tukur",
+      "bags": 156,
+      "moistureLevel": 15,
+      "truckNumber": "YDB 822 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-31T07:59:23.304Z"
+        }
+      ],
+      "createdAt": "2025-10-31T07:59:23.304Z",
+      "updatedAt": "2025-10-31T07:59:23.304Z"
+    },
+    {
+      "id": "truck_1761897563304_5_157uoru5a",
+      "supplierName": "Mukhtari Sale",
+      "bags": 470,
+      "moistureLevel": 16,
+      "truckNumber": "DUT 457 XC",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-31T07:59:23.304Z"
+        }
+      ],
+      "createdAt": "2025-10-31T07:59:23.304Z",
+      "updatedAt": "2025-10-31T07:59:23.304Z"
     }
   ],
-  "lastModified": "2025-10-30T16:42:43.609Z",
+  "lastModified": "2025-10-31T07:59:23.460Z",
   "version": "2.0.0"
 }
