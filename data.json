@@ -11714,7 +11714,7 @@
       "bags": 500,
       "moistureLevel": 17,
       "truckNumber": "DKA 812 XL",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -11726,11 +11726,21 @@
           "details": {
             "waybillNumber": "6866"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-10-31T10:37:54.825Z",
+          "details": {
+            "netWeight": 42530,
+            "deduction": 150
+          }
         }
       ],
       "createdAt": "2025-10-31T08:08:47.079Z",
-      "updatedAt": "2025-10-31T08:10:59.128Z",
-      "waybillNumber": "6866"
+      "updatedAt": "2025-10-31T10:37:54.825Z",
+      "waybillNumber": "6866",
+      "netWeight": 42530,
+      "deduction": 150
     },
     {
       "id": "truck_1761898127079_1_jb38w6ba7",
@@ -11919,6 +11929,6 @@
       "updatedAt": "2025-10-31T09:36:32.169Z"
     }
   ],
-  "lastModified": "2025-10-31T10:32:24.028Z",
+  "lastModified": "2025-10-31T10:37:54.949Z",
   "version": "2.0.0"
 }
