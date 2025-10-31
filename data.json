@@ -11704,15 +11704,23 @@
       "bags": 450,
       "moistureLevel": 15,
       "truckNumber": "KFR 207 XA",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-10-31T08:08:47.079Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-10-31T09:03:12.297Z",
+          "details": {
+            "waybillNumber": "6870"
+          }
         }
       ],
       "createdAt": "2025-10-31T08:08:47.079Z",
-      "updatedAt": "2025-10-31T08:08:47.079Z"
+      "updatedAt": "2025-10-31T09:03:12.297Z",
+      "waybillNumber": "6870"
     },
     {
       "id": "truck_1761898127079_4_eq418l0yo",
@@ -11731,6 +11739,6 @@
       "updatedAt": "2025-10-31T08:08:47.079Z"
     }
   ],
-  "lastModified": "2025-10-31T08:48:04.065Z",
+  "lastModified": "2025-10-31T09:03:12.448Z",
   "version": "2.0.0"
 }
