@@ -11564,15 +11564,19 @@
       "bags": 470,
       "moistureLevel": 16,
       "truckNumber": "DUT 457 XC",
-      "status": "pending",
+      "status": "rejected",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-10-31T07:59:23.304Z"
+        },
+        {
+          "status": "rejected",
+          "timestamp": "2025-10-31T12:28:13.981Z"
         }
       ],
       "createdAt": "2025-10-31T07:59:23.304Z",
-      "updatedAt": "2025-10-31T07:59:23.304Z"
+      "updatedAt": "2025-10-31T12:28:13.981Z"
     },
     {
       "id": "truck_1761897867266_0_gocixiwha",
@@ -11985,6 +11989,6 @@
       "updatedAt": "2025-10-31T09:36:32.169Z"
     }
   ],
-  "lastModified": "2025-10-31T12:27:23.449Z",
+  "lastModified": "2025-10-31T12:28:14.254Z",
   "version": "2.0.0"
 }
