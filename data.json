@@ -11922,15 +11922,19 @@
       "bags": 284,
       "moistureLevel": 21,
       "truckNumber": "ANG 764 XA",
-      "status": "pending",
+      "status": "rejected",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-10-31T09:35:34.546Z"
+        },
+        {
+          "status": "rejected",
+          "timestamp": "2025-10-31T12:27:22.712Z"
         }
       ],
       "createdAt": "2025-10-31T09:35:34.546Z",
-      "updatedAt": "2025-10-31T09:35:34.546Z"
+      "updatedAt": "2025-10-31T12:27:22.712Z"
     },
     {
       "id": "truck_1761903392168_0_hv3n9g0nb",
@@ -11981,6 +11985,6 @@
       "updatedAt": "2025-10-31T09:36:32.169Z"
     }
   ],
-  "lastModified": "2025-10-31T12:27:10.194Z",
+  "lastModified": "2025-10-31T12:27:23.449Z",
   "version": "2.0.0"
 }
