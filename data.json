@@ -11456,15 +11456,23 @@
       "bags": 102,
       "moistureLevel": 17,
       "truckNumber": "GML 27 XB",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-10-31T07:59:23.304Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-10-31T08:45:20.457Z",
+          "details": {
+            "waybillNumber": "6868"
+          }
         }
       ],
       "createdAt": "2025-10-31T07:59:23.304Z",
-      "updatedAt": "2025-10-31T07:59:23.304Z"
+      "updatedAt": "2025-10-31T08:45:20.457Z",
+      "waybillNumber": "6868"
     },
     {
       "id": "truck_1761897563304_3_nxnt1drj3",
@@ -11715,6 +11723,6 @@
       "updatedAt": "2025-10-31T08:08:47.079Z"
     }
   ],
-  "lastModified": "2025-10-31T08:15:14.236Z",
+  "lastModified": "2025-10-31T08:45:20.634Z",
   "version": "2.0.0"
 }
