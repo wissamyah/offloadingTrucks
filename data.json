@@ -11737,8 +11737,56 @@
       ],
       "createdAt": "2025-10-31T08:08:47.079Z",
       "updatedAt": "2025-10-31T08:08:47.079Z"
+    },
+    {
+      "id": "truck_1761903334546_0_bz3nonswv",
+      "supplierName": "Mukhtari Sale",
+      "bags": 177,
+      "moistureLevel": 15,
+      "truckNumber": "MGR 640 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-31T09:35:34.546Z"
+        }
+      ],
+      "createdAt": "2025-10-31T09:35:34.546Z",
+      "updatedAt": "2025-10-31T09:35:34.546Z"
+    },
+    {
+      "id": "truck_1761903334546_1_v73q65ji6",
+      "supplierName": "Mukhtari Sale",
+      "bags": 253,
+      "moistureLevel": 15,
+      "truckNumber": "KTG 814 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-31T09:35:34.546Z"
+        }
+      ],
+      "createdAt": "2025-10-31T09:35:34.546Z",
+      "updatedAt": "2025-10-31T09:35:34.546Z"
+    },
+    {
+      "id": "truck_1761903334546_2_qygg6r7s2",
+      "supplierName": "H A Tahir",
+      "bags": 284,
+      "moistureLevel": 21,
+      "truckNumber": "ANG 764 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-31T09:35:34.546Z"
+        }
+      ],
+      "createdAt": "2025-10-31T09:35:34.546Z",
+      "updatedAt": "2025-10-31T09:35:34.546Z"
     }
   ],
-  "lastModified": "2025-10-31T09:03:12.448Z",
+  "lastModified": "2025-10-31T09:35:34.779Z",
   "version": "2.0.0"
 }
