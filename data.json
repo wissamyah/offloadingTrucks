@@ -11508,7 +11508,7 @@
       "bags": 217,
       "moistureLevel": 15,
       "truckNumber": "ALK 781 XA",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -11520,11 +11520,21 @@
           "details": {
             "waybillNumber": "6872"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-10-31T13:02:30.734Z",
+          "details": {
+            "netWeight": 18830,
+            "deduction": 90
+          }
         }
       ],
       "createdAt": "2025-10-31T07:59:23.304Z",
-      "updatedAt": "2025-10-31T09:44:16.892Z",
-      "waybillNumber": "6872"
+      "updatedAt": "2025-10-31T13:02:30.734Z",
+      "waybillNumber": "6872",
+      "netWeight": 18830,
+      "deduction": 90
     },
     {
       "id": "truck_1761897563304_4_koxkbu1mn",
@@ -12013,6 +12023,6 @@
       "updatedAt": "2025-10-31T09:36:32.169Z"
     }
   ],
-  "lastModified": "2025-10-31T12:56:44.581Z",
+  "lastModified": "2025-10-31T13:02:30.927Z",
   "version": "2.0.0"
 }
