@@ -11866,15 +11866,19 @@
       "bags": 180,
       "moistureLevel": 20,
       "truckNumber": "SKK 493 ZY",
-      "status": "pending",
+      "status": "rejected",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-10-31T08:08:47.079Z"
+        },
+        {
+          "status": "rejected",
+          "timestamp": "2025-10-31T12:28:59.521Z"
         }
       ],
       "createdAt": "2025-10-31T08:08:47.079Z",
-      "updatedAt": "2025-10-31T08:08:47.079Z"
+      "updatedAt": "2025-10-31T12:28:59.522Z"
     },
     {
       "id": "truck_1761903334546_0_bz3nonswv",
@@ -11993,6 +11997,6 @@
       "updatedAt": "2025-10-31T09:36:32.169Z"
     }
   ],
-  "lastModified": "2025-10-31T12:28:25.543Z",
+  "lastModified": "2025-10-31T12:28:59.787Z",
   "version": "2.0.0"
 }
