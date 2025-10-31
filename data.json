@@ -11580,7 +11580,7 @@
       "bags": 55,
       "moistureLevel": 15,
       "truckNumber": "BDG 387 YE",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -11592,11 +11592,19 @@
           "details": {
             "waybillNumber": "6875"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-10-31T11:05:45.227Z",
+          "details": {
+            "netWeight": 4780
+          }
         }
       ],
       "createdAt": "2025-10-31T08:04:27.267Z",
-      "updatedAt": "2025-10-31T10:26:21.794Z",
-      "waybillNumber": "6875"
+      "updatedAt": "2025-10-31T11:05:45.227Z",
+      "waybillNumber": "6875",
+      "netWeight": 4780
     },
     {
       "id": "truck_1761897867266_1_0xuqs1ttt",
@@ -11961,6 +11969,6 @@
       "updatedAt": "2025-10-31T09:36:32.169Z"
     }
   ],
-  "lastModified": "2025-10-31T10:55:40.581Z",
+  "lastModified": "2025-10-31T11:05:45.355Z",
   "version": "2.0.0"
 }
