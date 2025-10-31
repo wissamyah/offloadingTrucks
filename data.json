@@ -12029,8 +12029,24 @@
       "createdAt": "2025-10-31T09:36:32.169Z",
       "updatedAt": "2025-10-31T13:07:55.854Z",
       "waybillNumber": "6883"
+    },
+    {
+      "id": "truck_1761916223377_0_2i49kxn1o",
+      "supplierName": "Damakasu Agro Allied",
+      "bags": 724,
+      "moistureLevel": 15,
+      "truckNumber": "HJA 197 XR",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-10-31T13:10:23.377Z"
+        }
+      ],
+      "createdAt": "2025-10-31T13:10:23.377Z",
+      "updatedAt": "2025-10-31T13:10:23.377Z"
     }
   ],
-  "lastModified": "2025-10-31T13:07:57.001Z",
+  "lastModified": "2025-10-31T13:10:23.637Z",
   "version": "2.0.0"
 }
