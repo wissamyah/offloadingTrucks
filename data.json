@@ -11610,7 +11610,7 @@
       "bags": 520,
       "moistureLevel": 17,
       "truckNumber": "XA 356 NGU",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -11622,11 +11622,21 @@
           "details": {
             "waybillNumber": "6865"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-10-31T10:07:47.639Z",
+          "details": {
+            "netWeight": 38500,
+            "deduction": 130
+          }
         }
       ],
       "createdAt": "2025-10-31T08:04:27.267Z",
-      "updatedAt": "2025-10-31T08:06:11.298Z",
-      "waybillNumber": "6865"
+      "updatedAt": "2025-10-31T10:07:47.639Z",
+      "waybillNumber": "6865",
+      "netWeight": 38500,
+      "deduction": 130
     },
     {
       "id": "truck_1761897867266_4_ul9rujnno",
@@ -11861,6 +11871,6 @@
       "updatedAt": "2025-10-31T09:36:32.169Z"
     }
   ],
-  "lastModified": "2025-10-31T09:57:11.610Z",
+  "lastModified": "2025-10-31T10:07:47.861Z",
   "version": "2.0.0"
 }
