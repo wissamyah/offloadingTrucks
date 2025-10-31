@@ -239,11 +239,13 @@ export const TruckTable: React.FC<TruckTableProps> = ({
     if (!availableDates || availableDates.length === 0) {
       // If no dates available yet, create a single option for today if selectedDate exists
       if (selectedDate) {
-        return [{
-          value: selectedDate,
-          label: formatDateDisplay(selectedDate, false),
-          shortLabel: formatDateDisplay(selectedDate, true),
-        }];
+        return [
+          {
+            value: selectedDate,
+            label: formatDateDisplay(selectedDate, false),
+            shortLabel: formatDateDisplay(selectedDate, true),
+          },
+        ];
       }
       return [];
     }
@@ -254,18 +256,29 @@ export const TruckTable: React.FC<TruckTableProps> = ({
     }));
   }, [availableDates, isMobile, selectedDate]);
 
-  const currentIndex = availableDates && availableDates.length > 0 
-    ? availableDates.indexOf(selectedDate || '')
-    : -1;
+  const currentIndex =
+    availableDates && availableDates.length > 0
+      ? availableDates.indexOf(selectedDate || "")
+      : -1;
 
   const handlePrevious = () => {
-    if (availableDates && availableDates.length > 0 && currentIndex < availableDates.length - 1 && onDateChange) {
+    if (
+      availableDates &&
+      availableDates.length > 0 &&
+      currentIndex < availableDates.length - 1 &&
+      onDateChange
+    ) {
       onDateChange(availableDates[currentIndex + 1]);
     }
   };
 
   const handleNext = () => {
-    if (availableDates && availableDates.length > 0 && currentIndex > 0 && onDateChange) {
+    if (
+      availableDates &&
+      availableDates.length > 0 &&
+      currentIndex > 0 &&
+      onDateChange
+    ) {
       onDateChange(availableDates[currentIndex - 1]);
     }
   };
@@ -321,7 +334,8 @@ export const TruckTable: React.FC<TruckTableProps> = ({
   const isSearching = searchFilter && searchFilter.trim().length > 0;
   const hasData = totalTrucks > 0;
   const noResults = trucks.length === 0;
-  const hasDateNavigation = onDateChange && availableDates && availableDates.length > 0;
+  const hasDateNavigation =
+    onDateChange && availableDates && availableDates.length > 0;
 
   // Early return only if there's truly no data, no search is active, AND no date navigation
   // Always show the header with search/calendar if we have date navigation or search capability
@@ -339,7 +353,7 @@ export const TruckTable: React.FC<TruckTableProps> = ({
   return (
     <div className="bg-gray-800 rounded-lg shadow-xl border border-gray-700 relative">
       {/* Search Bar and Date Pagination */}
-      <div className="p-4 border-b border-gray-700 relative z-[100]">
+      <div className="p-4 border-b border-gray-700 relative">
         <div className="flex flex-col lg:flex-row gap-3 items-start lg:items-center">
           {/* Search Bar */}
           {onSearchChange && (
@@ -376,12 +390,18 @@ export const TruckTable: React.FC<TruckTableProps> = ({
 
           {/* Date Pagination Controls - Always show if onDateChange and selectedDate are provided */}
           {onDateChange && selectedDate && (
-            <div className="flex items-center gap-1 sm:gap-2 w-full lg:w-auto relative z-[101]">
+            <div className="flex items-center gap-1 sm:gap-2 w-full lg:w-auto relative">
               <button
                 onClick={handlePrevious}
-                disabled={!availableDates || availableDates.length === 0 || currentIndex === availableDates.length - 1}
+                disabled={
+                  !availableDates ||
+                  availableDates.length === 0 ||
+                  currentIndex === availableDates.length - 1
+                }
                 className={`p-1 sm:p-2 rounded-md transition-colors flex-shrink-0 ${
-                  (!availableDates || availableDates.length === 0 || currentIndex === availableDates.length - 1)
+                  !availableDates ||
+                  availableDates.length === 0 ||
+                  currentIndex === availableDates.length - 1
                     ? "text-gray-600 cursor-not-allowed"
                     : "text-gray-300 hover:bg-gray-700"
                 }`}
@@ -391,7 +411,7 @@ export const TruckTable: React.FC<TruckTableProps> = ({
 
               <div className="flex items-center justify-center gap-1 sm:gap-2 min-w-0 flex-1 lg:flex-initial">
                 <Calendar className="h-4 w-4 sm:h-5 sm:w-5 text-gray-400 hidden sm:block flex-shrink-0" />
-                <div className="min-w-0 max-w-[180px] sm:max-w-[280px] relative z-[102]">
+                <div className="min-w-0 max-w-[180px] sm:max-w-[280px] relative">
                   <CustomDropdown
                     value={selectedDate}
                     options={dropdownOptions}
@@ -403,9 +423,15 @@ export const TruckTable: React.FC<TruckTableProps> = ({
 
               <button
                 onClick={handleNext}
-                disabled={!availableDates || availableDates.length === 0 || currentIndex === 0}
+                disabled={
+                  !availableDates ||
+                  availableDates.length === 0 ||
+                  currentIndex === 0
+                }
                 className={`p-1 sm:p-2 rounded-md transition-colors flex-shrink-0 ${
-                  (!availableDates || availableDates.length === 0 || currentIndex === 0)
+                  !availableDates ||
+                  availableDates.length === 0 ||
+                  currentIndex === 0
                     ? "text-gray-600 cursor-not-allowed"
                     : "text-gray-300 hover:bg-gray-700"
                 }`}
@@ -432,16 +458,16 @@ export const TruckTable: React.FC<TruckTableProps> = ({
                 </p>
               </>
             ) : (
-              <p className="text-gray-400">
-                No trucks available for this date
-              </p>
+              <p className="text-gray-400">No trucks available for this date</p>
             )}
           </div>
         ) : (
           trucks.map((truck) => (
             <div
               key={truck.id}
-              className={`rounded-lg border border-gray-700 p-3 relative ${statusBgByStatus[truck.status]}`}
+              className={`rounded-lg border border-gray-700 p-3 relative ${
+                statusBgByStatus[truck.status]
+              }`}
             >
               <div className="flex justify-between items-center mb-2">
                 <div className="flex-1 min-w-0">
@@ -706,7 +732,9 @@ export const TruckTable: React.FC<TruckTableProps> = ({
                   sortDirection={sortDirection}
                   onSort={onSort}
                 />
-                <th className="px-2 py-2 text-left text-xs font-medium text-gray-400 uppercase tracking-wider">Bags</th>
+                <th className="px-2 py-2 text-left text-xs font-medium text-gray-400 uppercase tracking-wider">
+                  Bags
+                </th>
                 <th className="px-2 py-2 text-left text-xs font-medium text-gray-400 uppercase tracking-wider">
                   <div className="flex items-center gap-1">
                     <Droplets className="h-3 w-3" />
@@ -720,9 +748,15 @@ export const TruckTable: React.FC<TruckTableProps> = ({
                   sortDirection={sortDirection}
                   onSort={onSort}
                 />
-                <th className="px-2 py-2 text-left text-xs font-medium text-gray-400 uppercase tracking-wider">Waybill</th>
-                <th className="px-2 py-2 text-left text-xs font-medium text-gray-400 uppercase tracking-wider">Net Wt.</th>
-                <th className="px-2 py-2 text-left text-xs font-medium text-gray-400 uppercase tracking-wider">Deduc.</th>
+                <th className="px-2 py-2 text-left text-xs font-medium text-gray-400 uppercase tracking-wider">
+                  Waybill
+                </th>
+                <th className="px-2 py-2 text-left text-xs font-medium text-gray-400 uppercase tracking-wider">
+                  Net Wt.
+                </th>
+                <th className="px-2 py-2 text-left text-xs font-medium text-gray-400 uppercase tracking-wider">
+                  Deduc.
+                </th>
                 <th className="px-2 py-2 text-right text-xs font-medium text-gray-500 uppercase tracking-wider">
                   Actions
                 </th>
@@ -755,7 +789,9 @@ export const TruckTable: React.FC<TruckTableProps> = ({
                 trucks.map((truck) => (
                   <tr
                     key={truck.id}
-                    className={`transition-colors ${statusBgDesktopByStatus[truck.status]}`}
+                    className={`transition-colors ${
+                      statusBgDesktopByStatus[truck.status]
+                    }`}
                   >
                     <td className="px-2 py-3 whitespace-nowrap text-xs text-gray-400">
                       {getTruckCreationTime(truck)}
