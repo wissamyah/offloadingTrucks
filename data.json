@@ -11624,15 +11624,23 @@
       "bags": 500,
       "moistureLevel": 17,
       "truckNumber": "DKL 812 XL",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-10-31T08:08:47.079Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-10-31T08:10:59.128Z",
+          "details": {
+            "waybillNumber": "6866"
+          }
         }
       ],
       "createdAt": "2025-10-31T08:08:47.079Z",
-      "updatedAt": "2025-10-31T08:08:47.079Z"
+      "updatedAt": "2025-10-31T08:10:59.128Z",
+      "waybillNumber": "6866"
     },
     {
       "id": "truck_1761898127079_1_jb38w6ba7",
@@ -11699,6 +11707,6 @@
       "updatedAt": "2025-10-31T08:08:47.079Z"
     }
   ],
-  "lastModified": "2025-10-31T08:08:47.954Z",
+  "lastModified": "2025-10-31T08:10:59.934Z",
   "version": "2.0.0"
 }
