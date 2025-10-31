@@ -11714,15 +11714,19 @@
       "bags": 500,
       "moistureLevel": 17,
       "truckNumber": "XA 347 BTR",
-      "status": "pending",
+      "status": "rejected",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-10-31T08:04:27.267Z"
+        },
+        {
+          "status": "rejected",
+          "timestamp": "2025-10-31T12:28:24.882Z"
         }
       ],
       "createdAt": "2025-10-31T08:04:27.267Z",
-      "updatedAt": "2025-10-31T08:04:27.267Z"
+      "updatedAt": "2025-10-31T12:28:24.882Z"
     },
     {
       "id": "truck_1761897867266_5_c9stdd674",
@@ -11989,6 +11993,6 @@
       "updatedAt": "2025-10-31T09:36:32.169Z"
     }
   ],
-  "lastModified": "2025-10-31T12:28:14.254Z",
+  "lastModified": "2025-10-31T12:28:25.543Z",
   "version": "2.0.0"
 }
