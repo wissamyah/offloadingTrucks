@@ -12012,17 +12012,25 @@
       "bags": 168,
       "moistureLevel": 17,
       "truckNumber": "TNK 239 XA",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-10-31T09:36:32.169Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-10-31T13:07:55.854Z",
+          "details": {
+            "waybillNumber": "6883"
+          }
         }
       ],
       "createdAt": "2025-10-31T09:36:32.169Z",
-      "updatedAt": "2025-10-31T09:36:32.169Z"
+      "updatedAt": "2025-10-31T13:07:55.854Z",
+      "waybillNumber": "6883"
     }
   ],
-  "lastModified": "2025-10-31T13:02:30.927Z",
+  "lastModified": "2025-10-31T13:07:57.001Z",
   "version": "2.0.0"
 }
