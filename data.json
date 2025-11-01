@@ -12184,15 +12184,23 @@
       "bags": 506,
       "moistureLevel": 19,
       "truckNumber": "FKY 80 XB",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-11-01T07:43:13.149Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-11-01T11:10:35.259Z",
+          "details": {
+            "waybillNumber": "6896"
+          }
         }
       ],
       "createdAt": "2025-11-01T07:43:13.149Z",
-      "updatedAt": "2025-11-01T07:43:13.149Z"
+      "updatedAt": "2025-11-01T11:10:35.259Z",
+      "waybillNumber": "6896"
     },
     {
       "id": "truck_1761982993149_3_zmgx5pbci",
@@ -12419,6 +12427,6 @@
       "updatedAt": "2025-11-01T07:44:26.086Z"
     }
   ],
-  "lastModified": "2025-11-01T10:47:29.017Z",
+  "lastModified": "2025-11-01T11:10:35.440Z",
   "version": "2.0.0"
 }
