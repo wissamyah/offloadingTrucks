@@ -12514,15 +12514,23 @@
       "bags": 500,
       "moistureLevel": 17,
       "truckNumber": "BAU 596 XA",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-11-01T13:09:09.169Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-11-01T14:59:30.160Z",
+          "details": {
+            "waybillNumber": "6904"
+          }
         }
       ],
       "createdAt": "2025-11-01T13:09:09.169Z",
-      "updatedAt": "2025-11-01T13:09:09.169Z"
+      "updatedAt": "2025-11-01T14:59:30.160Z",
+      "waybillNumber": "6904"
     },
     {
       "id": "truck_1762002549168_1_atufyflzw",
@@ -12597,6 +12605,6 @@
       "updatedAt": "2025-11-01T13:09:09.169Z"
     }
   ],
-  "lastModified": "2025-11-01T14:58:01.583Z",
+  "lastModified": "2025-11-01T14:59:31.015Z",
   "version": "2.0.0"
 }
