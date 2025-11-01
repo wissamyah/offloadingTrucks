@@ -12336,7 +12336,7 @@
       "bags": 45,
       "moistureLevel": 19,
       "truckNumber": "MKA 608 ZD",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -12348,11 +12348,19 @@
           "details": {
             "waybillNumber": "6891"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-11-01T11:16:38.383Z",
+          "details": {
+            "netWeight": 3320
+          }
         }
       ],
       "createdAt": "2025-11-01T07:44:26.085Z",
-      "updatedAt": "2025-11-01T09:54:24.575Z",
-      "waybillNumber": "6891"
+      "updatedAt": "2025-11-01T11:16:38.383Z",
+      "waybillNumber": "6891",
+      "netWeight": 3320
     },
     {
       "id": "truck_1761983066085_2_6en8cve8y",
@@ -12427,6 +12435,6 @@
       "updatedAt": "2025-11-01T07:44:26.086Z"
     }
   ],
-  "lastModified": "2025-11-01T11:10:35.440Z",
+  "lastModified": "2025-11-01T11:16:38.580Z",
   "version": "2.0.0"
 }
