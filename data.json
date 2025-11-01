@@ -12466,15 +12466,23 @@
       "bags": 500,
       "moistureLevel": 19,
       "truckNumber": "GME 181 XB",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-11-01T07:44:26.085Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-11-01T13:10:57.422Z",
+          "details": {
+            "waybillNumber": "6900"
+          }
         }
       ],
       "createdAt": "2025-11-01T07:44:26.086Z",
-      "updatedAt": "2025-11-01T07:44:26.086Z"
+      "updatedAt": "2025-11-01T13:10:57.422Z",
+      "waybillNumber": "6900"
     },
     {
       "id": "truck_1762002549168_0_ywo17ubsh",
@@ -12557,6 +12565,6 @@
       "updatedAt": "2025-11-01T13:09:09.169Z"
     }
   ],
-  "lastModified": "2025-11-01T13:09:09.380Z",
+  "lastModified": "2025-11-01T13:10:58.295Z",
   "version": "2.0.0"
 }
