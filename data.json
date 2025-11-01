@@ -12562,15 +12562,23 @@
       "bags": 475,
       "moistureLevel": 15,
       "truckNumber": "BAU 255 ZY",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-11-01T13:09:09.169Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-11-01T15:11:08.282Z",
+          "details": {
+            "waybillNumber": "6906"
+          }
         }
       ],
       "createdAt": "2025-11-01T13:09:09.169Z",
-      "updatedAt": "2025-11-01T13:09:09.169Z"
+      "updatedAt": "2025-11-01T15:11:08.282Z",
+      "waybillNumber": "6906"
     },
     {
       "id": "truck_1762002549168_3_s2mdjo379",
@@ -12605,6 +12613,6 @@
       "updatedAt": "2025-11-01T13:09:09.169Z"
     }
   ],
-  "lastModified": "2025-11-01T14:59:31.015Z",
+  "lastModified": "2025-11-01T15:11:08.597Z",
   "version": "2.0.0"
 }
