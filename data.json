@@ -12458,15 +12458,23 @@
       "bags": 290,
       "moistureLevel": 16,
       "truckNumber": "GAK 400 XA",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-11-01T07:44:26.085Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-11-01T14:36:26.500Z",
+          "details": {
+            "waybillNumber": "6903"
+          }
         }
       ],
       "createdAt": "2025-11-01T07:44:26.085Z",
-      "updatedAt": "2025-11-01T07:44:26.085Z"
+      "updatedAt": "2025-11-01T14:36:26.500Z",
+      "waybillNumber": "6903"
     },
     {
       "id": "truck_1761983066085_5_z7ztnmmc9",
@@ -12581,6 +12589,6 @@
       "updatedAt": "2025-11-01T13:09:09.169Z"
     }
   ],
-  "lastModified": "2025-11-01T14:09:44.545Z",
+  "lastModified": "2025-11-01T14:36:26.664Z",
   "version": "2.0.0"
 }
