@@ -12434,15 +12434,23 @@
       "bags": 500,
       "moistureLevel": 16,
       "truckNumber": "DKU 901 XA",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-11-01T07:44:26.085Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-11-01T13:13:54.901Z",
+          "details": {
+            "waybillNumber": "6901"
+          }
         }
       ],
       "createdAt": "2025-11-01T07:44:26.085Z",
-      "updatedAt": "2025-11-01T07:44:26.085Z"
+      "updatedAt": "2025-11-01T13:13:54.901Z",
+      "waybillNumber": "6901"
     },
     {
       "id": "truck_1761983066085_4_03ldohhzc",
@@ -12565,6 +12573,6 @@
       "updatedAt": "2025-11-01T13:09:09.169Z"
     }
   ],
-  "lastModified": "2025-11-01T13:10:58.295Z",
+  "lastModified": "2025-11-01T13:13:55.028Z",
   "version": "2.0.0"
 }
