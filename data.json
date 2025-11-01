@@ -12233,8 +12233,104 @@
       ],
       "createdAt": "2025-11-01T07:43:13.149Z",
       "updatedAt": "2025-11-01T07:43:13.149Z"
+    },
+    {
+      "id": "truck_1761983066085_0_9zy9uxjw2",
+      "supplierName": "Alh Danasabe",
+      "bags": 36,
+      "moistureLevel": 14,
+      "truckNumber": "DRZ 53 LG",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-01T07:44:26.085Z"
+        }
+      ],
+      "createdAt": "2025-11-01T07:44:26.085Z",
+      "updatedAt": "2025-11-01T07:44:26.085Z"
+    },
+    {
+      "id": "truck_1761983066085_1_hzrbfeus8",
+      "supplierName": "Musbahu Ashiru",
+      "bags": 45,
+      "moistureLevel": 19,
+      "truckNumber": "MKA 608 ZD",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-01T07:44:26.085Z"
+        }
+      ],
+      "createdAt": "2025-11-01T07:44:26.085Z",
+      "updatedAt": "2025-11-01T07:44:26.085Z"
+    },
+    {
+      "id": "truck_1761983066085_2_6en8cve8y",
+      "supplierName": "Mansur Mansur",
+      "bags": 460,
+      "moistureLevel": 16,
+      "truckNumber": "MLF 442 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-01T07:44:26.085Z"
+        }
+      ],
+      "createdAt": "2025-11-01T07:44:26.085Z",
+      "updatedAt": "2025-11-01T07:44:26.085Z"
+    },
+    {
+      "id": "truck_1761983066085_3_25s1kbls3",
+      "supplierName": "Idris Garba",
+      "bags": 500,
+      "moistureLevel": 16,
+      "truckNumber": "DKU 901 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-01T07:44:26.085Z"
+        }
+      ],
+      "createdAt": "2025-11-01T07:44:26.085Z",
+      "updatedAt": "2025-11-01T07:44:26.085Z"
+    },
+    {
+      "id": "truck_1761983066085_4_03ldohhzc",
+      "supplierName": "Shehu Muhammad",
+      "bags": 290,
+      "moistureLevel": 16,
+      "truckNumber": "GAK 400 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-01T07:44:26.085Z"
+        }
+      ],
+      "createdAt": "2025-11-01T07:44:26.085Z",
+      "updatedAt": "2025-11-01T07:44:26.085Z"
+    },
+    {
+      "id": "truck_1761983066085_5_z7ztnmmc9",
+      "supplierName": "H A Tahir",
+      "bags": 500,
+      "moistureLevel": 19,
+      "truckNumber": "GME 181 XB",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-01T07:44:26.085Z"
+        }
+      ],
+      "createdAt": "2025-11-01T07:44:26.086Z",
+      "updatedAt": "2025-11-01T07:44:26.086Z"
     }
   ],
-  "lastModified": "2025-11-01T07:43:13.308Z",
+  "lastModified": "2025-11-01T07:44:26.223Z",
   "version": "2.0.0"
 }
