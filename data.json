@@ -12594,15 +12594,23 @@
       "bags": 230,
       "moistureLevel": 14,
       "truckNumber": "HJA 404 XB",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-11-01T13:09:09.169Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-11-01T15:56:01.113Z",
+          "details": {
+            "waybillNumber": "6908"
+          }
         }
       ],
       "createdAt": "2025-11-01T13:09:09.169Z",
-      "updatedAt": "2025-11-01T13:09:09.169Z"
+      "updatedAt": "2025-11-01T15:56:01.113Z",
+      "waybillNumber": "6908"
     },
     {
       "id": "truck_1762002549168_4_78ay3pc7v",
@@ -12629,6 +12637,6 @@
       "waybillNumber": "6907"
     }
   ],
-  "lastModified": "2025-11-01T15:52:12.838Z",
+  "lastModified": "2025-11-01T15:56:01.267Z",
   "version": "2.0.0"
 }
