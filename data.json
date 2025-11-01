@@ -12546,7 +12546,7 @@
       "bags": 41,
       "moistureLevel": 15,
       "truckNumber": "ALK 515 XA",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -12558,11 +12558,19 @@
           "details": {
             "waybillNumber": "6470"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-11-01T16:00:21.680Z",
+          "details": {
+            "netWeight": 4270
+          }
         }
       ],
       "createdAt": "2025-11-01T13:09:09.169Z",
-      "updatedAt": "2025-11-01T14:07:52.366Z",
-      "waybillNumber": "6902"
+      "updatedAt": "2025-11-01T16:00:21.680Z",
+      "waybillNumber": "6902",
+      "netWeight": 4270
     },
     {
       "id": "truck_1762002549168_2_zwfzuzjos",
@@ -12637,6 +12645,6 @@
       "waybillNumber": "6907"
     }
   ],
-  "lastModified": "2025-11-01T15:56:01.267Z",
+  "lastModified": "2025-11-01T16:00:21.885Z",
   "version": "2.0.0"
 }
