@@ -12240,7 +12240,7 @@
       "bags": 500,
       "moistureLevel": 19,
       "truckNumber": "XE 894 GME",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -12252,11 +12252,21 @@
           "details": {
             "waybillNumber": "6888"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-11-01T12:31:03.302Z",
+          "details": {
+            "netWeight": 36870,
+            "deduction": 180
+          }
         }
       ],
       "createdAt": "2025-11-01T07:43:13.149Z",
-      "updatedAt": "2025-11-01T08:10:58.037Z",
-      "waybillNumber": "6888"
+      "updatedAt": "2025-11-01T12:31:03.302Z",
+      "waybillNumber": "6888",
+      "netWeight": 36870,
+      "deduction": 180
     },
     {
       "id": "truck_1761982993149_5_2haxl4cnj",
@@ -12459,6 +12469,6 @@
       "updatedAt": "2025-11-01T07:44:26.086Z"
     }
   ],
-  "lastModified": "2025-11-01T11:23:46.988Z",
+  "lastModified": "2025-11-01T12:31:03.526Z",
   "version": "2.0.0"
 }
