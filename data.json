@@ -12240,7 +12240,7 @@
       "bags": 508,
       "moistureLevel": 13,
       "truckNumber": "KMC 939 ZB",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -12252,11 +12252,19 @@
           "details": {
             "waybillNumber": "6887"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-11-01T10:37:47.866Z",
+          "details": {
+            "netWeight": 45890
+          }
         }
       ],
       "createdAt": "2025-11-01T07:43:13.149Z",
-      "updatedAt": "2025-11-01T08:07:35.402Z",
-      "waybillNumber": "6887"
+      "updatedAt": "2025-11-01T10:37:47.866Z",
+      "waybillNumber": "6887",
+      "netWeight": 45890
     },
     {
       "id": "truck_1761982993149_6_vgc66y1jz",
@@ -12395,6 +12403,6 @@
       "updatedAt": "2025-11-01T07:44:26.086Z"
     }
   ],
-  "lastModified": "2025-11-01T10:30:25.869Z",
+  "lastModified": "2025-11-01T10:37:48.044Z",
   "version": "2.0.0"
 }
