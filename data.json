@@ -12475,8 +12475,88 @@
       ],
       "createdAt": "2025-11-01T07:44:26.086Z",
       "updatedAt": "2025-11-01T07:44:26.086Z"
+    },
+    {
+      "id": "truck_1762002549168_0_ywo17ubsh",
+      "supplierName": "Idris Haruna",
+      "bags": 500,
+      "moistureLevel": 17,
+      "truckNumber": "BAU 596 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-01T13:09:09.169Z"
+        }
+      ],
+      "createdAt": "2025-11-01T13:09:09.169Z",
+      "updatedAt": "2025-11-01T13:09:09.169Z"
+    },
+    {
+      "id": "truck_1762002549168_1_atufyflzw",
+      "supplierName": "Idris Haruna",
+      "bags": 41,
+      "moistureLevel": 15,
+      "truckNumber": "ALK 515 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-01T13:09:09.169Z"
+        }
+      ],
+      "createdAt": "2025-11-01T13:09:09.169Z",
+      "updatedAt": "2025-11-01T13:09:09.169Z"
+    },
+    {
+      "id": "truck_1762002549168_2_zwfzuzjos",
+      "supplierName": "Idris Haruna",
+      "bags": 475,
+      "moistureLevel": 15,
+      "truckNumber": "BAU 255 ZY",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-01T13:09:09.169Z"
+        }
+      ],
+      "createdAt": "2025-11-01T13:09:09.169Z",
+      "updatedAt": "2025-11-01T13:09:09.169Z"
+    },
+    {
+      "id": "truck_1762002549168_3_s2mdjo379",
+      "supplierName": "Alh Danasabe",
+      "bags": 230,
+      "moistureLevel": 14,
+      "truckNumber": "HJA 404 XB",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-01T13:09:09.169Z"
+        }
+      ],
+      "createdAt": "2025-11-01T13:09:09.169Z",
+      "updatedAt": "2025-11-01T13:09:09.169Z"
+    },
+    {
+      "id": "truck_1762002549168_4_78ay3pc7v",
+      "supplierName": "Mubarak Abba",
+      "bags": 148,
+      "moistureLevel": 14,
+      "truckNumber": "LFA 400 XB",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-01T13:09:09.169Z"
+        }
+      ],
+      "createdAt": "2025-11-01T13:09:09.169Z",
+      "updatedAt": "2025-11-01T13:09:09.169Z"
     }
   ],
-  "lastModified": "2025-11-01T12:34:00.110Z",
+  "lastModified": "2025-11-01T13:09:09.380Z",
   "version": "2.0.0"
 }
