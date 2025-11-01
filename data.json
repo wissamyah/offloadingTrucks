@@ -12288,7 +12288,7 @@
       "bags": 51,
       "moistureLevel": 17,
       "truckNumber": "DKA 792 YE",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -12300,11 +12300,19 @@
           "details": {
             "waybillNumber": "6890"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-11-01T11:19:03.560Z",
+          "details": {
+            "netWeight": 3640
+          }
         }
       ],
       "createdAt": "2025-11-01T07:43:13.149Z",
-      "updatedAt": "2025-11-01T09:51:32.795Z",
-      "waybillNumber": "6890"
+      "updatedAt": "2025-11-01T11:19:03.560Z",
+      "waybillNumber": "6890",
+      "netWeight": 3640
     },
     {
       "id": "truck_1761983066085_0_9zy9uxjw2",
@@ -12435,6 +12443,6 @@
       "updatedAt": "2025-11-01T07:44:26.086Z"
     }
   ],
-  "lastModified": "2025-11-01T11:16:38.580Z",
+  "lastModified": "2025-11-01T11:19:03.725Z",
   "version": "2.0.0"
 }
