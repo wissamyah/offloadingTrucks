@@ -12128,7 +12128,7 @@
       "bags": 200,
       "moistureLevel": 17,
       "truckNumber": "AA 835 PKM",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -12140,11 +12140,19 @@
           "details": {
             "waybillNumber": "6893"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-11-01T12:33:59.940Z",
+          "details": {
+            "netWeight": 19200
+          }
         }
       ],
       "createdAt": "2025-11-01T07:43:13.149Z",
-      "updatedAt": "2025-11-01T10:43:54.361Z",
-      "waybillNumber": "6893"
+      "updatedAt": "2025-11-01T12:33:59.940Z",
+      "waybillNumber": "6893",
+      "netWeight": 19200
     },
     {
       "id": "truck_1761982993149_1_wme3t1xvc",
@@ -12469,6 +12477,6 @@
       "updatedAt": "2025-11-01T07:44:26.086Z"
     }
   ],
-  "lastModified": "2025-11-01T12:31:03.526Z",
+  "lastModified": "2025-11-01T12:34:00.110Z",
   "version": "2.0.0"
 }
