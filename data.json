@@ -12121,8 +12121,120 @@
       "updatedAt": "2025-10-31T16:37:03.478Z",
       "waybillNumber": "6884",
       "netWeight": 52830
+    },
+    {
+      "id": "truck_1761982993149_0_fnglz6j2n",
+      "supplierName": "Idris Haruna",
+      "bags": 200,
+      "moistureLevel": 17,
+      "truckNumber": "AA 835 PKM",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-01T07:43:13.149Z"
+        }
+      ],
+      "createdAt": "2025-11-01T07:43:13.149Z",
+      "updatedAt": "2025-11-01T07:43:13.149Z"
+    },
+    {
+      "id": "truck_1761982993149_1_wme3t1xvc",
+      "supplierName": "Jamilu Yahaya",
+      "bags": 520,
+      "moistureLevel": 16,
+      "truckNumber": "DKD 606 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-01T07:43:13.149Z"
+        }
+      ],
+      "createdAt": "2025-11-01T07:43:13.149Z",
+      "updatedAt": "2025-11-01T07:43:13.149Z"
+    },
+    {
+      "id": "truck_1761982993149_2_prboqvf1j",
+      "supplierName": "Umar Adamu",
+      "bags": 506,
+      "moistureLevel": 19,
+      "truckNumber": "FKY 80 XB",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-01T07:43:13.149Z"
+        }
+      ],
+      "createdAt": "2025-11-01T07:43:13.149Z",
+      "updatedAt": "2025-11-01T07:43:13.149Z"
+    },
+    {
+      "id": "truck_1761982993149_3_zmgx5pbci",
+      "supplierName": "Idris Haruna",
+      "bags": 419,
+      "moistureLevel": 15,
+      "truckNumber": "KSF 301 XL",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-01T07:43:13.149Z"
+        }
+      ],
+      "createdAt": "2025-11-01T07:43:13.149Z",
+      "updatedAt": "2025-11-01T07:43:13.149Z"
+    },
+    {
+      "id": "truck_1761982993149_4_tkudfiris",
+      "supplierName": "S M Maigoro",
+      "bags": 500,
+      "moistureLevel": 19,
+      "truckNumber": "XE 894 GME",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-01T07:43:13.149Z"
+        }
+      ],
+      "createdAt": "2025-11-01T07:43:13.149Z",
+      "updatedAt": "2025-11-01T07:43:13.149Z"
+    },
+    {
+      "id": "truck_1761982993149_5_2haxl4cnj",
+      "supplierName": "Real Grains",
+      "bags": 508,
+      "moistureLevel": 13,
+      "truckNumber": "KMC 939 ZB",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-01T07:43:13.149Z"
+        }
+      ],
+      "createdAt": "2025-11-01T07:43:13.149Z",
+      "updatedAt": "2025-11-01T07:43:13.149Z"
+    },
+    {
+      "id": "truck_1761982993149_6_vgc66y1jz",
+      "supplierName": "Mukhtari Sale",
+      "bags": 51,
+      "moistureLevel": 17,
+      "truckNumber": "DKA 792 YE",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-01T07:43:13.149Z"
+        }
+      ],
+      "createdAt": "2025-11-01T07:43:13.149Z",
+      "updatedAt": "2025-11-01T07:43:13.149Z"
     }
   ],
-  "lastModified": "2025-10-31T16:55:41.248Z",
+  "lastModified": "2025-11-01T07:43:13.308Z",
   "version": "2.0.0"
 }
