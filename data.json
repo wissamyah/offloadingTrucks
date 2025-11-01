@@ -12610,17 +12610,25 @@
       "bags": 148,
       "moistureLevel": 14,
       "truckNumber": "LFA 400 XB",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-11-01T13:09:09.169Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-11-01T15:52:12.626Z",
+          "details": {
+            "waybillNumber": "6907"
+          }
         }
       ],
       "createdAt": "2025-11-01T13:09:09.169Z",
-      "updatedAt": "2025-11-01T13:09:09.169Z"
+      "updatedAt": "2025-11-01T15:52:12.626Z",
+      "waybillNumber": "6907"
     }
   ],
-  "lastModified": "2025-11-01T15:44:44.142Z",
+  "lastModified": "2025-11-01T15:52:12.838Z",
   "version": "2.0.0"
 }
