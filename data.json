@@ -12176,15 +12176,23 @@
       "bags": 419,
       "moistureLevel": 15,
       "truckNumber": "KSF 301 XL",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-11-01T07:43:13.149Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-11-01T08:00:55.545Z",
+          "details": {
+            "waybillNumber": "6885"
+          }
         }
       ],
       "createdAt": "2025-11-01T07:43:13.149Z",
-      "updatedAt": "2025-11-01T07:43:13.149Z"
+      "updatedAt": "2025-11-01T08:00:55.545Z",
+      "waybillNumber": "6885"
     },
     {
       "id": "truck_1761982993149_4_tkudfiris",
@@ -12331,6 +12339,6 @@
       "updatedAt": "2025-11-01T07:44:26.086Z"
     }
   ],
-  "lastModified": "2025-11-01T07:44:26.223Z",
+  "lastModified": "2025-11-01T08:00:55.733Z",
   "version": "2.0.0"
 }
