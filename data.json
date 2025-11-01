@@ -12410,7 +12410,7 @@
       "bags": 460,
       "moistureLevel": 16,
       "truckNumber": "MLF 442 XA",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -12422,11 +12422,19 @@
           "details": {
             "waybillNumber": "6894"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-11-01T15:44:43.984Z",
+          "details": {
+            "netWeight": 41220
+          }
         }
       ],
       "createdAt": "2025-11-01T07:44:26.085Z",
-      "updatedAt": "2025-11-01T10:47:27.988Z",
-      "waybillNumber": "6894"
+      "updatedAt": "2025-11-01T15:44:43.984Z",
+      "waybillNumber": "6894",
+      "netWeight": 41220
     },
     {
       "id": "truck_1761983066085_3_25s1kbls3",
@@ -12613,6 +12621,6 @@
       "updatedAt": "2025-11-01T13:09:09.169Z"
     }
   ],
-  "lastModified": "2025-11-01T15:11:46.805Z",
+  "lastModified": "2025-11-01T15:44:44.142Z",
   "version": "2.0.0"
 }
