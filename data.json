@@ -12272,15 +12272,23 @@
       "bags": 36,
       "moistureLevel": 14,
       "truckNumber": "DRZ 53 LG",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-11-01T07:44:26.085Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-11-01T09:48:18.606Z",
+          "details": {
+            "waybillNumber": "6889"
+          }
         }
       ],
       "createdAt": "2025-11-01T07:44:26.085Z",
-      "updatedAt": "2025-11-01T07:44:26.085Z"
+      "updatedAt": "2025-11-01T09:48:18.606Z",
+      "waybillNumber": "6889"
     },
     {
       "id": "truck_1761983066085_1_hzrbfeus8",
@@ -12363,6 +12371,6 @@
       "updatedAt": "2025-11-01T07:44:26.086Z"
     }
   ],
-  "lastModified": "2025-11-01T08:10:58.387Z",
+  "lastModified": "2025-11-01T09:48:18.857Z",
   "version": "2.0.0"
 }
