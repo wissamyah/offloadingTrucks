@@ -12824,7 +12824,7 @@
       "bags": 379,
       "moistureLevel": 18,
       "truckNumber": "BAU 876 YP",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -12836,11 +12836,19 @@
           "details": {
             "waybillNumber": "6918"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-11-02T12:06:04.400Z",
+          "details": {
+            "netWeight": 38600
+          }
         }
       ],
       "createdAt": "2025-11-02T07:13:10.257Z",
-      "updatedAt": "2025-11-02T12:05:51.555Z",
-      "waybillNumber": "6918"
+      "updatedAt": "2025-11-02T12:06:04.400Z",
+      "waybillNumber": "6918",
+      "netWeight": 38600
     },
     {
       "id": "truck_1762067590257_1_z0rx54m62",
@@ -13035,6 +13043,6 @@
       "updatedAt": "2025-11-02T07:15:19.173Z"
     }
   ],
-  "lastModified": "2025-11-02T12:05:51.634Z",
+  "lastModified": "2025-11-02T12:06:05.177Z",
   "version": "2.0.0"
 }
