@@ -12730,15 +12730,23 @@
       "bags": 159,
       "moistureLevel": 15,
       "truckNumber": "BSA 730 XA",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-11-02T07:12:01.065Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-11-02T08:45:14.422Z",
+          "details": {
+            "waybillNumber": "6913"
+          }
         }
       ],
       "createdAt": "2025-11-02T07:12:01.065Z",
-      "updatedAt": "2025-11-02T07:12:01.065Z"
+      "updatedAt": "2025-11-02T08:45:14.422Z",
+      "waybillNumber": "6913"
     },
     {
       "id": "truck_1762067521064_4_8od56yrca",
@@ -12941,6 +12949,6 @@
       "updatedAt": "2025-11-02T07:15:19.173Z"
     }
   ],
-  "lastModified": "2025-11-02T07:59:25.170Z",
+  "lastModified": "2025-11-02T08:45:14.605Z",
   "version": "2.0.0"
 }
