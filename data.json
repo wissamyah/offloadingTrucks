@@ -13083,22 +13083,6 @@
       "updatedAt": "2025-11-02T12:08:09.488Z"
     },
     {
-      "id": "truck_1762085289487_2_evoqi1vv8",
-      "supplierName": "Mansur Mansur",
-      "bags": 400,
-      "moistureLevel": 14,
-      "truckNumber": "AG 666 KTN",
-      "status": "pending",
-      "statusHistory": [
-        {
-          "status": "pending",
-          "timestamp": "2025-11-02T12:08:09.488Z"
-        }
-      ],
-      "createdAt": "2025-11-02T12:08:09.488Z",
-      "updatedAt": "2025-11-02T12:08:09.488Z"
-    },
-    {
       "id": "truck_1762085289487_3_pqdeewv3y",
       "supplierName": "Mukhtari Sale",
       "bags": 190,
@@ -13139,6 +13123,6 @@
       "waybillNumber": "6924"
     }
   ],
-  "lastModified": "2025-11-02T12:13:45.687Z",
+  "lastModified": "2025-11-02T12:21:41.557Z",
   "version": "2.0.0"
 }
