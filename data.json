@@ -12706,7 +12706,7 @@
       "bags": 600,
       "moistureLevel": 14,
       "truckNumber": "DAL 39 XC",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -12718,11 +12718,21 @@
           "details": {
             "waybillNumber": "6910"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-11-02T10:44:49.254Z",
+          "details": {
+            "netWeight": 52210,
+            "deduction": 170
+          }
         }
       ],
       "createdAt": "2025-11-02T07:12:01.065Z",
-      "updatedAt": "2025-11-02T07:27:08.125Z",
-      "waybillNumber": "6910"
+      "updatedAt": "2025-11-02T10:44:49.255Z",
+      "waybillNumber": "6910",
+      "netWeight": 52210,
+      "deduction": 170
     },
     {
       "id": "truck_1762067521064_3_dz14z4011",
@@ -12959,6 +12969,6 @@
       "updatedAt": "2025-11-02T07:15:19.173Z"
     }
   ],
-  "lastModified": "2025-11-02T10:21:19.910Z",
+  "lastModified": "2025-11-02T10:44:49.309Z",
   "version": "2.0.0"
 }
