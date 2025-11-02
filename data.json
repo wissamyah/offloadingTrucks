@@ -12651,8 +12651,88 @@
       "createdAt": "2025-11-01T13:09:09.169Z",
       "updatedAt": "2025-11-01T15:52:12.626Z",
       "waybillNumber": "6907"
+    },
+    {
+      "id": "truck_1762067521064_0_m66wxxu01",
+      "supplierName": "Mansur Mansur",
+      "bags": 380,
+      "moistureLevel": 15,
+      "truckNumber": "MLF 648 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-02T07:12:01.064Z"
+        }
+      ],
+      "createdAt": "2025-11-02T07:12:01.065Z",
+      "updatedAt": "2025-11-02T07:12:01.065Z"
+    },
+    {
+      "id": "truck_1762067521064_1_ctbf2e596",
+      "supplierName": "Idris Haruna",
+      "bags": 250,
+      "moistureLevel": 20,
+      "truckNumber": "WAS 737 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-02T07:12:01.065Z"
+        }
+      ],
+      "createdAt": "2025-11-02T07:12:01.065Z",
+      "updatedAt": "2025-11-02T07:12:01.065Z"
+    },
+    {
+      "id": "truck_1762067521064_2_d98u4f243",
+      "supplierName": "Idris Haruna",
+      "bags": 600,
+      "moistureLevel": 14,
+      "truckNumber": "DAL 39 XC",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-02T07:12:01.065Z"
+        }
+      ],
+      "createdAt": "2025-11-02T07:12:01.065Z",
+      "updatedAt": "2025-11-02T07:12:01.065Z"
+    },
+    {
+      "id": "truck_1762067521064_3_dz14z4011",
+      "supplierName": "Abubakar Muhd Tukur",
+      "bags": 159,
+      "moistureLevel": 15,
+      "truckNumber": "BSA 730 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-02T07:12:01.065Z"
+        }
+      ],
+      "createdAt": "2025-11-02T07:12:01.065Z",
+      "updatedAt": "2025-11-02T07:12:01.065Z"
+    },
+    {
+      "id": "truck_1762067521064_4_8od56yrca",
+      "supplierName": "Jamilu jangale",
+      "bags": 500,
+      "moistureLevel": 19,
+      "truckNumber": "DKA 479 ZP",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-02T07:12:01.065Z"
+        }
+      ],
+      "createdAt": "2025-11-02T07:12:01.065Z",
+      "updatedAt": "2025-11-02T07:12:01.065Z"
     }
   ],
-  "lastModified": "2025-11-01T16:19:59.433Z",
+  "lastModified": "2025-11-02T07:12:01.285Z",
   "version": "2.0.0"
 }
