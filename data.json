@@ -13048,15 +13048,23 @@
       "bags": 160,
       "moistureLevel": 15,
       "truckNumber": "MAG 462 ZR",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-11-02T12:08:09.488Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-11-02T12:10:46.860Z",
+          "details": {
+            "waybillNumber": "6923"
+          }
         }
       ],
       "createdAt": "2025-11-02T12:08:09.488Z",
-      "updatedAt": "2025-11-02T12:08:09.488Z"
+      "updatedAt": "2025-11-02T12:10:46.860Z",
+      "waybillNumber": "6923"
     },
     {
       "id": "truck_1762085289487_1_bqinhlzzh",
@@ -13123,6 +13131,6 @@
       "updatedAt": "2025-11-02T12:08:09.488Z"
     }
   ],
-  "lastModified": "2025-11-02T12:08:10.389Z",
+  "lastModified": "2025-11-02T12:10:47.704Z",
   "version": "2.0.0"
 }
