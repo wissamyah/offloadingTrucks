@@ -12754,7 +12754,7 @@
       "bags": 500,
       "moistureLevel": 19,
       "truckNumber": "DKA 479 ZP",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -12766,11 +12766,21 @@
           "details": {
             "waybillNumber": "6909"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-11-02T10:21:19.835Z",
+          "details": {
+            "netWeight": 37220,
+            "deduction": 120
+          }
         }
       ],
       "createdAt": "2025-11-02T07:12:01.065Z",
-      "updatedAt": "2025-11-02T07:17:48.887Z",
-      "waybillNumber": "6909"
+      "updatedAt": "2025-11-02T10:21:19.835Z",
+      "waybillNumber": "6909",
+      "netWeight": 37220,
+      "deduction": 120
     },
     {
       "id": "truck_1762067590257_0_vxm86d74x",
@@ -12949,6 +12959,6 @@
       "updatedAt": "2025-11-02T07:15:19.173Z"
     }
   ],
-  "lastModified": "2025-11-02T08:45:14.605Z",
+  "lastModified": "2025-11-02T10:21:19.910Z",
   "version": "2.0.0"
 }
