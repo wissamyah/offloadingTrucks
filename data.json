@@ -12731,8 +12731,40 @@
       ],
       "createdAt": "2025-11-02T07:12:01.065Z",
       "updatedAt": "2025-11-02T07:12:01.065Z"
+    },
+    {
+      "id": "truck_1762067590257_0_vxm86d74x",
+      "supplierName": "B L Barka",
+      "bags": 379,
+      "moistureLevel": 18,
+      "truckNumber": "BAU 876 YP",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-02T07:13:10.257Z"
+        }
+      ],
+      "createdAt": "2025-11-02T07:13:10.257Z",
+      "updatedAt": "2025-11-02T07:13:10.257Z"
+    },
+    {
+      "id": "truck_1762067590257_1_z0rx54m62",
+      "supplierName": "Idris Haruna",
+      "bags": 496,
+      "moistureLevel": 18,
+      "truckNumber": "BAU 241 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-02T07:13:10.257Z"
+        }
+      ],
+      "createdAt": "2025-11-02T07:13:10.257Z",
+      "updatedAt": "2025-11-02T07:13:10.257Z"
     }
   ],
-  "lastModified": "2025-11-02T07:12:01.285Z",
+  "lastModified": "2025-11-02T07:13:10.428Z",
   "version": "2.0.0"
 }
