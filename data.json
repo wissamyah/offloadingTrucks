@@ -12862,15 +12862,23 @@
       "bags": 400,
       "moistureLevel": 14,
       "truckNumber": "AG 666 KTN",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-11-02T07:14:58.491Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-11-02T11:20:53.190Z",
+          "details": {
+            "waybillNumber": "6920"
+          }
         }
       ],
       "createdAt": "2025-11-02T07:14:58.491Z",
-      "updatedAt": "2025-11-02T07:14:58.491Z"
+      "updatedAt": "2025-11-02T11:20:53.190Z",
+      "waybillNumber": "6920"
     },
     {
       "id": "truck_1762067698491_2_w32ppt559",
@@ -12985,6 +12993,6 @@
       "updatedAt": "2025-11-02T07:15:19.173Z"
     }
   ],
-  "lastModified": "2025-11-02T11:18:59.578Z",
+  "lastModified": "2025-11-02T11:20:53.289Z",
   "version": "2.0.0"
 }
