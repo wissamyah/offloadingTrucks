@@ -12827,8 +12827,88 @@
       ],
       "createdAt": "2025-11-02T07:14:58.492Z",
       "updatedAt": "2025-11-02T07:14:58.492Z"
+    },
+    {
+      "id": "truck_1762067719173_0_bvjgbxkkh",
+      "supplierName": "Damakasu Agro Allied",
+      "bags": 520,
+      "moistureLevel": 18,
+      "truckNumber": "AKK 193 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-02T07:15:19.173Z"
+        }
+      ],
+      "createdAt": "2025-11-02T07:15:19.173Z",
+      "updatedAt": "2025-11-02T07:15:19.173Z"
+    },
+    {
+      "id": "truck_1762067719173_1_vphrc96dl",
+      "supplierName": "Idris Haruna",
+      "bags": 432,
+      "moistureLevel": 15,
+      "truckNumber": "MSA 314 XB",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-02T07:15:19.173Z"
+        }
+      ],
+      "createdAt": "2025-11-02T07:15:19.173Z",
+      "updatedAt": "2025-11-02T07:15:19.173Z"
+    },
+    {
+      "id": "truck_1762067719173_2_xnx7de2ds",
+      "supplierName": "Idris Haruna",
+      "bags": 550,
+      "moistureLevel": 14,
+      "truckNumber": "KMC 984 ZQ",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-02T07:15:19.173Z"
+        }
+      ],
+      "createdAt": "2025-11-02T07:15:19.173Z",
+      "updatedAt": "2025-11-02T07:15:19.173Z"
+    },
+    {
+      "id": "truck_1762067719173_3_ugczy6uov",
+      "supplierName": "Idris Haruna",
+      "bags": 430,
+      "moistureLevel": 15,
+      "truckNumber": "KTN 268 YZ",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-02T07:15:19.173Z"
+        }
+      ],
+      "createdAt": "2025-11-02T07:15:19.173Z",
+      "updatedAt": "2025-11-02T07:15:19.173Z"
+    },
+    {
+      "id": "truck_1762067719173_4_svv1sitdp",
+      "supplierName": "Abubakar Muhd Tukur",
+      "bags": 55,
+      "moistureLevel": 14,
+      "truckNumber": "XA 462 GWW",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-02T07:15:19.173Z"
+        }
+      ],
+      "createdAt": "2025-11-02T07:15:19.173Z",
+      "updatedAt": "2025-11-02T07:15:19.173Z"
     }
   ],
-  "lastModified": "2025-11-02T07:14:58.620Z",
+  "lastModified": "2025-11-02T07:15:20.631Z",
   "version": "2.0.0"
 }
