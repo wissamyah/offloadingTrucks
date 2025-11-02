@@ -13016,15 +13016,23 @@
       "bags": 55,
       "moistureLevel": 14,
       "truckNumber": "XA 462 GWW",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-11-02T07:15:19.173Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-11-02T12:23:42.000Z",
+          "details": {
+            "waybillNumber": "6916"
+          }
         }
       ],
       "createdAt": "2025-11-02T07:15:19.173Z",
-      "updatedAt": "2025-11-02T07:15:19.173Z"
+      "updatedAt": "2025-11-02T12:23:42.000Z",
+      "waybillNumber": "6916"
     },
     {
       "id": "truck_1762085289487_0_ecfbf1vw6",
@@ -13075,6 +13083,6 @@
       "waybillNumber": "6924"
     }
   ],
-  "lastModified": "2025-11-02T12:22:58.709Z",
+  "lastModified": "2025-11-02T12:23:42.056Z",
   "version": "2.0.0"
 }
