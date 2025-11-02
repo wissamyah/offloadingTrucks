@@ -12722,15 +12722,23 @@
       "bags": 500,
       "moistureLevel": 19,
       "truckNumber": "DKA 479 ZP",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-11-02T07:12:01.065Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-11-02T07:17:48.887Z",
+          "details": {
+            "waybillNumber": "6909"
+          }
         }
       ],
       "createdAt": "2025-11-02T07:12:01.065Z",
-      "updatedAt": "2025-11-02T07:12:01.065Z"
+      "updatedAt": "2025-11-02T07:17:48.887Z",
+      "waybillNumber": "6909"
     },
     {
       "id": "truck_1762067590257_0_vxm86d74x",
@@ -12909,6 +12917,6 @@
       "updatedAt": "2025-11-02T07:15:19.173Z"
     }
   ],
-  "lastModified": "2025-11-02T07:15:20.631Z",
+  "lastModified": "2025-11-02T07:17:49.038Z",
   "version": "2.0.0"
 }
