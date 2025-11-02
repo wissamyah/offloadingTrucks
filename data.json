@@ -12928,7 +12928,7 @@
       "bags": 190,
       "moistureLevel": 15,
       "truckNumber": "XA 368 KTG",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -12940,11 +12940,19 @@
           "details": {
             "waybillNumber": "6922"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-11-02T13:11:11.204Z",
+          "details": {
+            "netWeight": 16940
+          }
         }
       ],
       "createdAt": "2025-11-02T07:14:58.492Z",
-      "updatedAt": "2025-11-02T12:00:04.598Z",
-      "waybillNumber": "6922"
+      "updatedAt": "2025-11-02T13:11:11.204Z",
+      "waybillNumber": "6922",
+      "netWeight": 16940
     },
     {
       "id": "truck_1762067719173_0_bvjgbxkkh",
@@ -13091,6 +13099,6 @@
       "waybillNumber": "6924"
     }
   ],
-  "lastModified": "2025-11-02T12:23:47.263Z",
+  "lastModified": "2025-11-02T13:11:11.312Z",
   "version": "2.0.0"
 }
