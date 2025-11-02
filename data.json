@@ -12682,15 +12682,23 @@
       "bags": 250,
       "moistureLevel": 20,
       "truckNumber": "WAS 737 XA",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-11-02T07:12:01.065Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-11-02T07:59:24.938Z",
+          "details": {
+            "waybillNumber": "6912"
+          }
         }
       ],
       "createdAt": "2025-11-02T07:12:01.065Z",
-      "updatedAt": "2025-11-02T07:12:01.065Z"
+      "updatedAt": "2025-11-02T07:59:24.938Z",
+      "waybillNumber": "6912"
     },
     {
       "id": "truck_1762067521064_2_d98u4f243",
@@ -12933,6 +12941,6 @@
       "updatedAt": "2025-11-02T07:15:19.173Z"
     }
   ],
-  "lastModified": "2025-11-02T07:55:43.663Z",
+  "lastModified": "2025-11-02T07:59:25.170Z",
   "version": "2.0.0"
 }
