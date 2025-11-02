@@ -12763,8 +12763,72 @@
       ],
       "createdAt": "2025-11-02T07:13:10.257Z",
       "updatedAt": "2025-11-02T07:13:10.257Z"
+    },
+    {
+      "id": "truck_1762067698491_0_mc4hwz4hi",
+      "supplierName": "Idris Haruna",
+      "bags": 560,
+      "moistureLevel": 16,
+      "truckNumber": "TRR 884 YX",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-02T07:14:58.491Z"
+        }
+      ],
+      "createdAt": "2025-11-02T07:14:58.491Z",
+      "updatedAt": "2025-11-02T07:14:58.491Z"
+    },
+    {
+      "id": "truck_1762067698491_1_ytrkkt50w",
+      "supplierName": "Mansur Mansur",
+      "bags": 400,
+      "moistureLevel": 14,
+      "truckNumber": "AG 666 KTN",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-02T07:14:58.491Z"
+        }
+      ],
+      "createdAt": "2025-11-02T07:14:58.491Z",
+      "updatedAt": "2025-11-02T07:14:58.491Z"
+    },
+    {
+      "id": "truck_1762067698491_2_w32ppt559",
+      "supplierName": "Mukhtari Sale",
+      "bags": 190,
+      "moistureLevel": 15,
+      "truckNumber": "XA 368 KTG",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-02T07:14:58.492Z"
+        }
+      ],
+      "createdAt": "2025-11-02T07:14:58.492Z",
+      "updatedAt": "2025-11-02T07:14:58.492Z"
+    },
+    {
+      "id": "truck_1762067698491_3_cqzvsaboe",
+      "supplierName": "Damakasu Agro Allied",
+      "bags": 542,
+      "moistureLevel": 16,
+      "truckNumber": "KNN 524 YL",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-02T07:14:58.492Z"
+        }
+      ],
+      "createdAt": "2025-11-02T07:14:58.492Z",
+      "updatedAt": "2025-11-02T07:14:58.492Z"
     }
   ],
-  "lastModified": "2025-11-02T07:13:10.428Z",
+  "lastModified": "2025-11-02T07:14:58.620Z",
   "version": "2.0.0"
 }
