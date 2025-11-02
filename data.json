@@ -12658,7 +12658,7 @@
       "bags": 380,
       "moistureLevel": 15,
       "truckNumber": "MLF 648 XA",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -12670,11 +12670,19 @@
           "details": {
             "waybillNumber": "6911"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-11-02T11:50:23.337Z",
+          "details": {
+            "netWeight": 42410
+          }
         }
       ],
       "createdAt": "2025-11-02T07:12:01.065Z",
-      "updatedAt": "2025-11-02T07:55:43.501Z",
-      "waybillNumber": "6911"
+      "updatedAt": "2025-11-02T11:50:23.338Z",
+      "waybillNumber": "6911",
+      "netWeight": 42410
     },
     {
       "id": "truck_1762067521064_1_ctbf2e596",
@@ -13011,6 +13019,6 @@
       "updatedAt": "2025-11-02T07:15:19.173Z"
     }
   ],
-  "lastModified": "2025-11-02T11:39:38.237Z",
+  "lastModified": "2025-11-02T11:50:23.388Z",
   "version": "2.0.0"
 }
