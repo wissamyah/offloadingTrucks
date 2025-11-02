@@ -12947,22 +12947,6 @@
       "waybillNumber": "6922"
     },
     {
-      "id": "truck_1762067698491_3_cqzvsaboe",
-      "supplierName": "Damakasu Agro Allied",
-      "bags": 542,
-      "moistureLevel": 16,
-      "truckNumber": "KNN 524 YL",
-      "status": "pending",
-      "statusHistory": [
-        {
-          "status": "pending",
-          "timestamp": "2025-11-02T07:14:58.492Z"
-        }
-      ],
-      "createdAt": "2025-11-02T07:14:58.492Z",
-      "updatedAt": "2025-11-02T07:14:58.492Z"
-    },
-    {
       "id": "truck_1762067719173_0_bvjgbxkkh",
       "supplierName": "Damakasu Agro Allied",
       "bags": 520,
@@ -13107,6 +13091,6 @@
       "waybillNumber": "6924"
     }
   ],
-  "lastModified": "2025-11-02T12:21:55.286Z",
+  "lastModified": "2025-11-02T12:22:44.446Z",
   "version": "2.0.0"
 }
