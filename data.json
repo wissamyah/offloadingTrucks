@@ -13344,15 +13344,23 @@
       "bags": 520,
       "moistureLevel": 18,
       "truckNumber": "AKK 193 XA",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-11-03T07:53:23.209Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-11-03T07:54:49.272Z",
+          "details": {
+            "waybillNumber": "6927"
+          }
         }
       ],
       "createdAt": "2025-11-03T07:53:23.209Z",
-      "updatedAt": "2025-11-03T07:53:23.209Z"
+      "updatedAt": "2025-11-03T07:54:49.272Z",
+      "waybillNumber": "6927"
     },
     {
       "id": "truck_1762156403209_3_mnqq740zn",
@@ -13403,6 +13411,6 @@
       "updatedAt": "2025-11-03T07:53:23.209Z"
     }
   ],
-  "lastModified": "2025-11-03T07:53:23.342Z",
+  "lastModified": "2025-11-03T07:54:49.403Z",
   "version": "2.0.0"
 }
