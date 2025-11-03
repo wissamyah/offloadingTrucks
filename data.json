@@ -13115,22 +13115,6 @@
       "waybillNumber": "6924"
     },
     {
-      "id": "truck_1762155342867_3_7lzm6zl50",
-      "supplierName": "Mukhtari Sale",
-      "bags": 190,
-      "moistureLevel": 15,
-      "truckNumber": "XA 368 KTG",
-      "status": "pending",
-      "statusHistory": [
-        {
-          "status": "pending",
-          "timestamp": "2025-11-03T07:35:42.870Z"
-        }
-      ],
-      "createdAt": "2025-11-03T07:35:42.870Z",
-      "updatedAt": "2025-11-03T07:35:42.870Z"
-    },
-    {
       "id": "truck_1762155342867_4_dnkfvfio9",
       "supplierName": "Damakasu Agro Allied",
       "bags": 542,
@@ -13725,6 +13709,6 @@
       "waybillNumber": "6949"
     }
   ],
-  "lastModified": "2025-11-03T14:11:54.210Z",
+  "lastModified": "2025-11-03T14:13:10.817Z",
   "version": "2.0.0"
 }
