@@ -13755,8 +13755,104 @@
       "createdAt": "2025-11-03T14:50:40.708Z",
       "updatedAt": "2025-11-03T14:51:55.190Z",
       "waybillNumber": "6950"
+    },
+    {
+      "id": "truck_1762183660872_0_5urt8jq0i",
+      "supplierName": "Henry Ibe",
+      "bags": 520,
+      "moistureLevel": 17,
+      "truckNumber": "JAL 167 ZY",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-03T15:27:40.872Z"
+        }
+      ],
+      "createdAt": "2025-11-03T15:27:40.872Z",
+      "updatedAt": "2025-11-03T15:27:40.872Z"
+    },
+    {
+      "id": "truck_1762183660872_1_81gse30k6",
+      "supplierName": "Bashir Muhd",
+      "bags": 482,
+      "moistureLevel": 16,
+      "truckNumber": "JEG 355 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-03T15:27:40.872Z"
+        }
+      ],
+      "createdAt": "2025-11-03T15:27:40.872Z",
+      "updatedAt": "2025-11-03T15:27:40.872Z"
+    },
+    {
+      "id": "truck_1762183660872_2_l44b6z76s",
+      "supplierName": "Bashir Muhd",
+      "bags": 500,
+      "moistureLevel": 16,
+      "truckNumber": "TRN 222 YR",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-03T15:27:40.872Z"
+        }
+      ],
+      "createdAt": "2025-11-03T15:27:40.872Z",
+      "updatedAt": "2025-11-03T15:27:40.872Z"
+    },
+    {
+      "id": "truck_1762183660872_3_5f5eyptih",
+      "supplierName": "Idris Haruna",
+      "bags": 400,
+      "moistureLevel": 15,
+      "truckNumber": "ABJ 192 XF",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-03T15:27:40.872Z"
+        }
+      ],
+      "createdAt": "2025-11-03T15:27:40.872Z",
+      "updatedAt": "2025-11-03T15:27:40.872Z"
+    },
+    {
+      "id": "truck_1762183660872_4_mo066vlbn",
+      "supplierName": "Idris Haruna",
+      "bags": 255,
+      "moistureLevel": 14,
+      "truckNumber": "BAU 142 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-03T15:27:40.872Z"
+        }
+      ],
+      "createdAt": "2025-11-03T15:27:40.872Z",
+      "updatedAt": "2025-11-03T15:27:40.872Z"
+    },
+    {
+      "id": "truck_1762183660872_5_0q1vkzqvj",
+      "supplierName": "Idris Haruna",
+      "bags": 512,
+      "moistureLevel": 15,
+      "truckNumber": "AT 777 MKA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-03T15:27:40.872Z"
+        }
+      ],
+      "createdAt": "2025-11-03T15:27:40.872Z",
+      "updatedAt": "2025-11-03T15:27:40.872Z"
     }
   ],
-  "lastModified": "2025-11-03T14:51:55.380Z",
+  "lastModified": "2025-11-03T15:27:41.095Z",
   "version": "2.0.0"
 }
