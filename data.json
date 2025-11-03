@@ -13408,7 +13408,7 @@
       "bags": 432,
       "moistureLevel": 15,
       "truckNumber": "MSA 314 XB",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -13420,11 +13420,21 @@
           "details": {
             "waybillNumber": "6929"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-11-03T11:21:33.544Z",
+          "details": {
+            "netWeight": 39890,
+            "deduction": 230
+          }
         }
       ],
       "createdAt": "2025-11-03T07:53:23.209Z",
-      "updatedAt": "2025-11-03T08:14:37.618Z",
-      "waybillNumber": "6929"
+      "updatedAt": "2025-11-03T11:21:33.544Z",
+      "waybillNumber": "6929",
+      "netWeight": 39890,
+      "deduction": 230
     },
     {
       "id": "truck_1762156403209_4_3tjm1dxsh",
@@ -13651,6 +13661,6 @@
       "updatedAt": "2025-11-03T08:07:17.762Z"
     }
   ],
-  "lastModified": "2025-11-03T11:01:08.122Z",
+  "lastModified": "2025-11-03T11:21:34.606Z",
   "version": "2.0.0"
 }
