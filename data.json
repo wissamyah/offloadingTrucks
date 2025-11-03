@@ -13661,22 +13661,6 @@
       "waybillNumber": "6946"
     },
     {
-      "id": "truck_1762157237762_1_df4rsaii5",
-      "supplierName": "B L Barka",
-      "bags": 210,
-      "moistureLevel": 21,
-      "truckNumber": "MDG 64 XA",
-      "status": "pending",
-      "statusHistory": [
-        {
-          "status": "pending",
-          "timestamp": "2025-11-03T08:07:17.762Z"
-        }
-      ],
-      "createdAt": "2025-11-03T08:07:17.762Z",
-      "updatedAt": "2025-11-03T08:07:17.762Z"
-    },
-    {
       "id": "truck_1762157237762_2_i1j1mtnpi",
       "supplierName": "Henry Ibe",
       "bags": 533,
@@ -13749,6 +13733,6 @@
       "waybillNumber": "6949"
     }
   ],
-  "lastModified": "2025-11-03T14:04:33.731Z",
+  "lastModified": "2025-11-03T14:05:16.998Z",
   "version": "2.0.0"
 }
