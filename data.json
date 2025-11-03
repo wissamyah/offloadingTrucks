@@ -13320,15 +13320,23 @@
       "bags": 450,
       "moistureLevel": 15,
       "truckNumber": "KFR 227 XA",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-11-03T07:52:02.974Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-11-03T10:22:17.921Z",
+          "details": {
+            "waybillNumber": "6937"
+          }
         }
       ],
       "createdAt": "2025-11-03T07:52:02.974Z",
-      "updatedAt": "2025-11-03T07:52:02.974Z"
+      "updatedAt": "2025-11-03T10:22:17.921Z",
+      "waybillNumber": "6937"
     },
     {
       "id": "truck_1762156322974_5_go7m1xebw",
@@ -13651,6 +13659,6 @@
       "updatedAt": "2025-11-03T08:07:17.762Z"
     }
   ],
-  "lastModified": "2025-11-03T10:02:34.350Z",
+  "lastModified": "2025-11-03T10:22:18.151Z",
   "version": "2.0.0"
 }
