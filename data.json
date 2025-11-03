@@ -13743,7 +13743,7 @@
     {
       "id": "truck_1762181440707_0_3bozs1hlu",
       "supplierName": "Mukhtari Sale",
-      "bags": 300,
+      "bags": 53,
       "moistureLevel": 17,
       "truckNumber": "KEN 185 XA",
       "status": "scaled_in",
@@ -13885,6 +13885,6 @@
       "updatedAt": "2025-11-03T15:27:40.872Z"
     }
   ],
-  "lastModified": "2025-11-03T15:36:17.705Z",
+  "lastModified": "2025-11-03T16:08:12.996Z",
   "version": "2.0.0"
 }
