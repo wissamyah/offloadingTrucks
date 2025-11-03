@@ -13520,15 +13520,23 @@
       "bags": 250,
       "moistureLevel": 15,
       "truckNumber": "BAU 67 YP",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-11-03T08:00:49.470Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-11-03T10:25:48.575Z",
+          "details": {
+            "waybillNumber": "6938"
+          }
         }
       ],
       "createdAt": "2025-11-03T08:00:49.470Z",
-      "updatedAt": "2025-11-03T08:00:49.470Z"
+      "updatedAt": "2025-11-03T10:25:48.575Z",
+      "waybillNumber": "6938"
     },
     {
       "id": "truck_1762156849468_1_w648dddo7",
@@ -13659,6 +13667,6 @@
       "updatedAt": "2025-11-03T08:07:17.762Z"
     }
   ],
-  "lastModified": "2025-11-03T10:22:18.151Z",
+  "lastModified": "2025-11-03T10:25:49.542Z",
   "version": "2.0.0"
 }
