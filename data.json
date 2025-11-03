@@ -13131,22 +13131,6 @@
       "updatedAt": "2025-11-03T07:35:42.870Z"
     },
     {
-      "id": "truck_1762155342867_1_pldztkdv9",
-      "supplierName": "Idris Haruna",
-      "bags": 560,
-      "moistureLevel": 16,
-      "truckNumber": "TRR 884 YX",
-      "status": "pending",
-      "statusHistory": [
-        {
-          "status": "pending",
-          "timestamp": "2025-11-03T07:35:42.870Z"
-        }
-      ],
-      "createdAt": "2025-11-03T07:35:42.870Z",
-      "updatedAt": "2025-11-03T07:35:42.870Z"
-    },
-    {
       "id": "truck_1762155342867_3_7lzm6zl50",
       "supplierName": "Mukhtari Sale",
       "bags": 190,
@@ -13765,6 +13749,6 @@
       "waybillNumber": "6949"
     }
   ],
-  "lastModified": "2025-11-03T13:55:35.525Z",
+  "lastModified": "2025-11-03T14:04:33.731Z",
   "version": "2.0.0"
 }
