@@ -13184,17 +13184,25 @@
       "bags": 542,
       "moistureLevel": 16,
       "truckNumber": "KNN 524 YL",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-11-03T07:35:42.870Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-11-03T07:36:01.295Z",
+          "details": {
+            "waybillNumber": "6925"
+          }
         }
       ],
       "createdAt": "2025-11-03T07:35:42.870Z",
-      "updatedAt": "2025-11-03T07:35:42.870Z"
+      "updatedAt": "2025-11-03T07:36:01.295Z",
+      "waybillNumber": "6925"
     }
   ],
-  "lastModified": "2025-11-03T07:35:43.257Z",
+  "lastModified": "2025-11-03T07:36:01.652Z",
   "version": "2.0.0"
 }
