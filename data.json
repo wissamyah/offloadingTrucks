@@ -13371,22 +13371,6 @@
       "netWeight": 34980
     },
     {
-      "id": "truck_1762156403209_1_y55uf5wuo",
-      "supplierName": "Damakasu Agro Allied",
-      "bags": 542,
-      "moistureLevel": 16,
-      "truckNumber": "KNN 524 YL",
-      "status": "pending",
-      "statusHistory": [
-        {
-          "status": "pending",
-          "timestamp": "2025-11-03T07:53:23.209Z"
-        }
-      ],
-      "createdAt": "2025-11-03T07:53:23.209Z",
-      "updatedAt": "2025-11-03T07:53:23.209Z"
-    },
-    {
       "id": "truck_1762156403209_2_ca9of63m3",
       "supplierName": "Damakasu Agro Allied",
       "bags": 520,
@@ -13651,6 +13635,6 @@
       "updatedAt": "2025-11-03T08:07:17.762Z"
     }
   ],
-  "lastModified": "2025-11-03T10:35:27.103Z",
+  "lastModified": "2025-11-03T10:45:51.789Z",
   "version": "2.0.0"
 }
