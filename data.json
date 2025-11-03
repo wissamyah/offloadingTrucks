@@ -13192,7 +13192,7 @@
       "bags": 542,
       "moistureLevel": 16,
       "truckNumber": "KNN 524 YL",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -13204,11 +13204,19 @@
           "details": {
             "waybillNumber": "6925"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-11-03T09:58:22.397Z",
+          "details": {
+            "netWeight": 40270
+          }
         }
       ],
       "createdAt": "2025-11-03T07:35:42.870Z",
-      "updatedAt": "2025-11-03T07:36:01.295Z",
-      "waybillNumber": "6925"
+      "updatedAt": "2025-11-03T09:58:22.397Z",
+      "waybillNumber": "6925",
+      "netWeight": 40270
     },
     {
       "id": "truck_1762156322974_0_fze85lrfi",
@@ -13619,6 +13627,6 @@
       "updatedAt": "2025-11-03T08:07:17.762Z"
     }
   ],
-  "lastModified": "2025-11-03T09:57:49.061Z",
+  "lastModified": "2025-11-03T09:58:22.521Z",
   "version": "2.0.0"
 }
