@@ -13746,7 +13746,7 @@
       "bags": 53,
       "moistureLevel": 17,
       "truckNumber": "KEN 185 XA",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -13758,11 +13758,19 @@
           "details": {
             "waybillNumber": "6950"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-11-03T16:08:19.664Z",
+          "details": {
+            "netWeight": 8980
+          }
         }
       ],
       "createdAt": "2025-11-03T14:50:40.708Z",
-      "updatedAt": "2025-11-03T14:51:55.190Z",
-      "waybillNumber": "6950"
+      "updatedAt": "2025-11-03T16:08:19.664Z",
+      "waybillNumber": "6950",
+      "netWeight": 8980
     },
     {
       "id": "truck_1762183660872_0_5urt8jq0i",
@@ -13885,6 +13893,6 @@
       "updatedAt": "2025-11-03T15:27:40.872Z"
     }
   ],
-  "lastModified": "2025-11-03T16:08:12.996Z",
+  "lastModified": "2025-11-03T16:08:20.323Z",
   "version": "2.0.0"
 }
