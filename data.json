@@ -13731,8 +13731,24 @@
       "createdAt": "2025-11-03T08:07:17.762Z",
       "updatedAt": "2025-11-03T13:52:59.840Z",
       "waybillNumber": "6949"
+    },
+    {
+      "id": "truck_1762181440707_0_3bozs1hlu",
+      "supplierName": "Mukhtari Sale",
+      "bags": 300,
+      "moistureLevel": 17,
+      "truckNumber": "KEN 185 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-03T14:50:40.708Z"
+        }
+      ],
+      "createdAt": "2025-11-03T14:50:40.708Z",
+      "updatedAt": "2025-11-03T14:50:40.708Z"
     }
   ],
-  "lastModified": "2025-11-03T14:49:42.864Z",
+  "lastModified": "2025-11-03T14:50:40.866Z",
   "version": "2.0.0"
 }
