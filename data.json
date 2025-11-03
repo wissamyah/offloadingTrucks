@@ -13261,7 +13261,7 @@
     {
       "id": "truck_1762156322974_3_02wl86f49",
       "supplierName": "Mansur Mansur",
-      "bags": 370,
+      "bags": 350,
       "moistureLevel": 15,
       "truckNumber": "KTN 203 YZ",
       "status": "scaled_in",
@@ -13725,6 +13725,6 @@
       "waybillNumber": "6949"
     }
   ],
-  "lastModified": "2025-11-03T14:11:42.080Z",
+  "lastModified": "2025-11-03T14:11:54.210Z",
   "version": "2.0.0"
 }
