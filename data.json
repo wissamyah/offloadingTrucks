@@ -13113,8 +13113,88 @@
       "createdAt": "2025-11-02T12:08:09.488Z",
       "updatedAt": "2025-11-02T12:13:44.440Z",
       "waybillNumber": "6924"
+    },
+    {
+      "id": "truck_1762155342867_0_fxx1za6sv",
+      "supplierName": "Abubakar Muhd Tukur",
+      "bags": 160,
+      "moistureLevel": 15,
+      "truckNumber": "MAG 462 ZR",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-03T07:35:42.869Z"
+        }
+      ],
+      "createdAt": "2025-11-03T07:35:42.870Z",
+      "updatedAt": "2025-11-03T07:35:42.870Z"
+    },
+    {
+      "id": "truck_1762155342867_1_pldztkdv9",
+      "supplierName": "Idris Haruna",
+      "bags": 560,
+      "moistureLevel": 16,
+      "truckNumber": "TRR 884 YX",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-03T07:35:42.870Z"
+        }
+      ],
+      "createdAt": "2025-11-03T07:35:42.870Z",
+      "updatedAt": "2025-11-03T07:35:42.870Z"
+    },
+    {
+      "id": "truck_1762155342867_2_zb5wqrzw6",
+      "supplierName": "Mansur Mansur",
+      "bags": 400,
+      "moistureLevel": 14,
+      "truckNumber": "AG 666 KTN",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-03T07:35:42.870Z"
+        }
+      ],
+      "createdAt": "2025-11-03T07:35:42.870Z",
+      "updatedAt": "2025-11-03T07:35:42.870Z"
+    },
+    {
+      "id": "truck_1762155342867_3_7lzm6zl50",
+      "supplierName": "Mukhtari Sale",
+      "bags": 190,
+      "moistureLevel": 15,
+      "truckNumber": "XA 368 KTG",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-03T07:35:42.870Z"
+        }
+      ],
+      "createdAt": "2025-11-03T07:35:42.870Z",
+      "updatedAt": "2025-11-03T07:35:42.870Z"
+    },
+    {
+      "id": "truck_1762155342867_4_dnkfvfio9",
+      "supplierName": "Damakasu Agro Allied",
+      "bags": 542,
+      "moistureLevel": 16,
+      "truckNumber": "KNN 524 YL",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-03T07:35:42.870Z"
+        }
+      ],
+      "createdAt": "2025-11-03T07:35:42.870Z",
+      "updatedAt": "2025-11-03T07:35:42.870Z"
     }
   ],
-  "lastModified": "2025-11-02T15:09:02.391Z",
+  "lastModified": "2025-11-03T07:35:43.257Z",
   "version": "2.0.0"
 }
