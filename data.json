@@ -13762,15 +13762,23 @@
       "bags": 520,
       "moistureLevel": 17,
       "truckNumber": "JAL 167 ZY",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-11-03T15:27:40.872Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-11-03T15:32:07.192Z",
+          "details": {
+            "waybillNumber": "6954"
+          }
         }
       ],
       "createdAt": "2025-11-03T15:27:40.872Z",
-      "updatedAt": "2025-11-03T15:27:40.872Z"
+      "updatedAt": "2025-11-03T15:32:07.192Z",
+      "waybillNumber": "6954"
     },
     {
       "id": "truck_1762183660872_1_81gse30k6",
@@ -13861,6 +13869,6 @@
       "updatedAt": "2025-11-03T15:27:40.872Z"
     }
   ],
-  "lastModified": "2025-11-03T15:29:16.835Z",
+  "lastModified": "2025-11-03T15:32:07.342Z",
   "version": "2.0.0"
 }
