@@ -13216,15 +13216,23 @@
       "bags": 150,
       "moistureLevel": 15,
       "truckNumber": "KEN 13 XA",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-11-03T07:52:02.974Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-11-03T09:27:03.284Z",
+          "details": {
+            "waybillNumber": "6931"
+          }
         }
       ],
       "createdAt": "2025-11-03T07:52:02.974Z",
-      "updatedAt": "2025-11-03T07:52:02.974Z"
+      "updatedAt": "2025-11-03T09:27:03.284Z",
+      "waybillNumber": "6931"
     },
     {
       "id": "truck_1762156322974_1_okq0plqm8",
@@ -13579,6 +13587,6 @@
       "updatedAt": "2025-11-03T08:07:17.762Z"
     }
   ],
-  "lastModified": "2025-11-03T08:18:00.829Z",
+  "lastModified": "2025-11-03T09:27:03.440Z",
   "version": "2.0.0"
 }
