@@ -13248,7 +13248,7 @@
       "bags": 350,
       "moistureLevel": 15,
       "truckNumber": "KTN 203 YZ",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -13260,11 +13260,19 @@
           "details": {
             "waybillNumber": "6934"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-11-03T14:14:30.367Z",
+          "details": {
+            "netWeight": 29770
+          }
         }
       ],
       "createdAt": "2025-11-03T07:52:02.974Z",
-      "updatedAt": "2025-11-03T09:35:19.937Z",
-      "waybillNumber": "6934"
+      "updatedAt": "2025-11-03T14:14:30.367Z",
+      "waybillNumber": "6934",
+      "netWeight": 29770
     },
     {
       "id": "truck_1762156322974_4_zwuxjvrpc",
@@ -13709,6 +13717,6 @@
       "waybillNumber": "6949"
     }
   ],
-  "lastModified": "2025-11-03T14:13:10.817Z",
+  "lastModified": "2025-11-03T14:14:30.510Z",
   "version": "2.0.0"
 }
