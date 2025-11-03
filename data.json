@@ -13810,7 +13810,7 @@
       "bags": 482,
       "moistureLevel": 16,
       "truckNumber": "JEG 355 XA",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -13822,11 +13822,19 @@
           "details": {
             "waybillNumber": "6955"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-11-03T17:41:37.569Z",
+          "details": {
+            "netWeight": 38060
+          }
         }
       ],
       "createdAt": "2025-11-03T15:27:40.872Z",
-      "updatedAt": "2025-11-03T15:36:17.495Z",
-      "waybillNumber": "6955"
+      "updatedAt": "2025-11-03T17:41:37.569Z",
+      "waybillNumber": "6955",
+      "netWeight": 38060
     },
     {
       "id": "truck_1762183660872_2_l44b6z76s",
@@ -13901,6 +13909,6 @@
       "updatedAt": "2025-11-03T15:27:40.872Z"
     }
   ],
-  "lastModified": "2025-11-03T16:11:58.853Z",
+  "lastModified": "2025-11-03T17:41:37.610Z",
   "version": "2.0.0"
 }
