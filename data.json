@@ -13634,15 +13634,23 @@
       "bags": 250,
       "moistureLevel": 14,
       "truckNumber": "BAU 752 XP",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-11-03T08:07:17.762Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-11-03T13:28:44.687Z",
+          "details": {
+            "waybillNumber": "6946"
+          }
         }
       ],
       "createdAt": "2025-11-03T08:07:17.762Z",
-      "updatedAt": "2025-11-03T08:07:17.762Z"
+      "updatedAt": "2025-11-03T13:28:44.687Z",
+      "waybillNumber": "6946"
     },
     {
       "id": "truck_1762157237762_1_df4rsaii5",
@@ -13709,6 +13717,6 @@
       "updatedAt": "2025-11-03T08:07:17.762Z"
     }
   ],
-  "lastModified": "2025-11-03T13:12:44.858Z",
+  "lastModified": "2025-11-03T13:28:44.842Z",
   "version": "2.0.0"
 }
