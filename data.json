@@ -13674,15 +13674,23 @@
       "bags": 533,
       "moistureLevel": 20,
       "truckNumber": "DUT 532 XB",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-11-03T08:07:17.762Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-11-03T13:42:51.547Z",
+          "details": {
+            "waybillNumber": "6948"
+          }
         }
       ],
       "createdAt": "2025-11-03T08:07:17.762Z",
-      "updatedAt": "2025-11-03T08:07:17.762Z"
+      "updatedAt": "2025-11-03T13:42:51.547Z",
+      "waybillNumber": "6948"
     },
     {
       "id": "truck_1762157237762_3_tb4kpynfw",
@@ -13725,6 +13733,6 @@
       "updatedAt": "2025-11-03T08:07:17.762Z"
     }
   ],
-  "lastModified": "2025-11-03T13:31:59.621Z",
+  "lastModified": "2025-11-03T13:42:51.691Z",
   "version": "2.0.0"
 }
