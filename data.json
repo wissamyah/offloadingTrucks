@@ -13424,7 +13424,7 @@
       "bags": 550,
       "moistureLevel": 14,
       "truckNumber": "KMC 984 ZQ",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -13436,11 +13436,19 @@
           "details": {
             "waybillNumber": "6928"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-11-03T09:57:48.796Z",
+          "details": {
+            "netWeight": 39280
+          }
         }
       ],
       "createdAt": "2025-11-03T07:53:23.209Z",
-      "updatedAt": "2025-11-03T08:10:52.705Z",
-      "waybillNumber": "6928"
+      "updatedAt": "2025-11-03T09:57:48.796Z",
+      "waybillNumber": "6928",
+      "netWeight": 39280
     },
     {
       "id": "truck_1762156403209_5_wpww95xt7",
@@ -13611,6 +13619,6 @@
       "updatedAt": "2025-11-03T08:07:17.762Z"
     }
   ],
-  "lastModified": "2025-11-03T09:35:20.989Z",
+  "lastModified": "2025-11-03T09:57:49.061Z",
   "version": "2.0.0"
 }
