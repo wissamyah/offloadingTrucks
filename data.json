@@ -13328,7 +13328,7 @@
       "bags": 500,
       "moistureLevel": 14,
       "truckNumber": "TRR 258 YX",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -13340,11 +13340,19 @@
           "details": {
             "waybillNumber": "6939"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-11-03T13:03:03.407Z",
+          "details": {
+            "netWeight": 37530
+          }
         }
       ],
       "createdAt": "2025-11-03T07:52:02.974Z",
-      "updatedAt": "2025-11-03T10:29:05.891Z",
-      "waybillNumber": "6939"
+      "updatedAt": "2025-11-03T13:03:03.407Z",
+      "waybillNumber": "6939",
+      "netWeight": 37530
     },
     {
       "id": "truck_1762156403209_0_4547vuvj1",
@@ -13669,6 +13677,6 @@
       "updatedAt": "2025-11-03T08:07:17.762Z"
     }
   ],
-  "lastModified": "2025-11-03T11:40:33.743Z",
+  "lastModified": "2025-11-03T13:03:03.600Z",
   "version": "2.0.0"
 }
