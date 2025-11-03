@@ -13826,15 +13826,23 @@
       "bags": 255,
       "moistureLevel": 14,
       "truckNumber": "BAU 142 XA",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-11-03T15:27:40.872Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-11-03T15:29:16.682Z",
+          "details": {
+            "waybillNumber": "6953"
+          }
         }
       ],
       "createdAt": "2025-11-03T15:27:40.872Z",
-      "updatedAt": "2025-11-03T15:27:40.872Z"
+      "updatedAt": "2025-11-03T15:29:16.682Z",
+      "waybillNumber": "6953"
     },
     {
       "id": "truck_1762183660872_5_0q1vkzqvj",
@@ -13853,6 +13861,6 @@
       "updatedAt": "2025-11-03T15:27:40.872Z"
     }
   ],
-  "lastModified": "2025-11-03T15:27:41.095Z",
+  "lastModified": "2025-11-03T15:29:16.835Z",
   "version": "2.0.0"
 }
