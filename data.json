@@ -13305,8 +13305,104 @@
       ],
       "createdAt": "2025-11-03T07:52:02.974Z",
       "updatedAt": "2025-11-03T07:52:02.974Z"
+    },
+    {
+      "id": "truck_1762156403209_0_4547vuvj1",
+      "supplierName": "Mansur Mansur",
+      "bags": 400,
+      "moistureLevel": 14,
+      "truckNumber": "AG 666 KTN",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-03T07:53:23.209Z"
+        }
+      ],
+      "createdAt": "2025-11-03T07:53:23.209Z",
+      "updatedAt": "2025-11-03T07:53:23.209Z"
+    },
+    {
+      "id": "truck_1762156403209_1_y55uf5wuo",
+      "supplierName": "Damakasu Agro Allied",
+      "bags": 542,
+      "moistureLevel": 16,
+      "truckNumber": "KNN 524 YL",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-03T07:53:23.209Z"
+        }
+      ],
+      "createdAt": "2025-11-03T07:53:23.209Z",
+      "updatedAt": "2025-11-03T07:53:23.209Z"
+    },
+    {
+      "id": "truck_1762156403209_2_ca9of63m3",
+      "supplierName": "Damakasu Agro Allied",
+      "bags": 520,
+      "moistureLevel": 18,
+      "truckNumber": "AKK 193 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-03T07:53:23.209Z"
+        }
+      ],
+      "createdAt": "2025-11-03T07:53:23.209Z",
+      "updatedAt": "2025-11-03T07:53:23.209Z"
+    },
+    {
+      "id": "truck_1762156403209_3_mnqq740zn",
+      "supplierName": "Idris Haruna",
+      "bags": 432,
+      "moistureLevel": 15,
+      "truckNumber": "MSA 314 XB",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-03T07:53:23.209Z"
+        }
+      ],
+      "createdAt": "2025-11-03T07:53:23.209Z",
+      "updatedAt": "2025-11-03T07:53:23.209Z"
+    },
+    {
+      "id": "truck_1762156403209_4_3tjm1dxsh",
+      "supplierName": "Idris Haruna",
+      "bags": 550,
+      "moistureLevel": 14,
+      "truckNumber": "KMC 984 ZQ",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-03T07:53:23.209Z"
+        }
+      ],
+      "createdAt": "2025-11-03T07:53:23.209Z",
+      "updatedAt": "2025-11-03T07:53:23.209Z"
+    },
+    {
+      "id": "truck_1762156403209_5_wpww95xt7",
+      "supplierName": "Idris Haruna",
+      "bags": 430,
+      "moistureLevel": 15,
+      "truckNumber": "KTN 268 YZ",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-03T07:53:23.209Z"
+        }
+      ],
+      "createdAt": "2025-11-03T07:53:23.209Z",
+      "updatedAt": "2025-11-03T07:53:23.209Z"
     }
   ],
-  "lastModified": "2025-11-03T07:52:03.146Z",
+  "lastModified": "2025-11-03T07:53:23.342Z",
   "version": "2.0.0"
 }
