@@ -13209,8 +13209,104 @@
       "createdAt": "2025-11-03T07:35:42.870Z",
       "updatedAt": "2025-11-03T07:36:01.295Z",
       "waybillNumber": "6925"
+    },
+    {
+      "id": "truck_1762156322974_0_fze85lrfi",
+      "supplierName": "Idris Haruna",
+      "bags": 150,
+      "moistureLevel": 15,
+      "truckNumber": "KEN 13 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-03T07:52:02.974Z"
+        }
+      ],
+      "createdAt": "2025-11-03T07:52:02.974Z",
+      "updatedAt": "2025-11-03T07:52:02.974Z"
+    },
+    {
+      "id": "truck_1762156322974_1_okq0plqm8",
+      "supplierName": "Mansur Mansur",
+      "bags": 460,
+      "moistureLevel": 15,
+      "truckNumber": "KFR 207 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-03T07:52:02.974Z"
+        }
+      ],
+      "createdAt": "2025-11-03T07:52:02.974Z",
+      "updatedAt": "2025-11-03T07:52:02.974Z"
+    },
+    {
+      "id": "truck_1762156322974_2_a7y0cqjbe",
+      "supplierName": "Lawan Ibrahim",
+      "bags": 510,
+      "moistureLevel": 15,
+      "truckNumber": "TRR 628 YX",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-03T07:52:02.974Z"
+        }
+      ],
+      "createdAt": "2025-11-03T07:52:02.974Z",
+      "updatedAt": "2025-11-03T07:52:02.974Z"
+    },
+    {
+      "id": "truck_1762156322974_3_02wl86f49",
+      "supplierName": "Mansur Mansur",
+      "bags": 450,
+      "moistureLevel": 15,
+      "truckNumber": "KTN 203 YZ",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-03T07:52:02.974Z"
+        }
+      ],
+      "createdAt": "2025-11-03T07:52:02.974Z",
+      "updatedAt": "2025-11-03T07:52:02.974Z"
+    },
+    {
+      "id": "truck_1762156322974_4_zwuxjvrpc",
+      "supplierName": "Mansur Mansur",
+      "bags": 450,
+      "moistureLevel": 15,
+      "truckNumber": "KFR 227 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-03T07:52:02.974Z"
+        }
+      ],
+      "createdAt": "2025-11-03T07:52:02.974Z",
+      "updatedAt": "2025-11-03T07:52:02.974Z"
+    },
+    {
+      "id": "truck_1762156322974_5_go7m1xebw",
+      "supplierName": "Idris Haruna",
+      "bags": 500,
+      "moistureLevel": 14,
+      "truckNumber": "TRR 258 YX",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-03T07:52:02.974Z"
+        }
+      ],
+      "createdAt": "2025-11-03T07:52:02.974Z",
+      "updatedAt": "2025-11-03T07:52:02.974Z"
     }
   ],
-  "lastModified": "2025-11-03T07:38:23.760Z",
+  "lastModified": "2025-11-03T07:52:03.146Z",
   "version": "2.0.0"
 }
