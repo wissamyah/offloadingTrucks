@@ -13538,7 +13538,7 @@
       "bags": 600,
       "moistureLevel": 17,
       "truckNumber": "MKA 322 XK",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -13550,11 +13550,19 @@
           "details": {
             "waybillNumber": "6944"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-11-03T15:32:38.111Z",
+          "details": {
+            "netWeight": 6944
+          }
         }
       ],
       "createdAt": "2025-11-03T08:00:49.470Z",
-      "updatedAt": "2025-11-03T13:55:35.374Z",
-      "waybillNumber": "6944"
+      "updatedAt": "2025-11-03T15:32:38.111Z",
+      "waybillNumber": "6944",
+      "netWeight": 6944
     },
     {
       "id": "truck_1762156849468_2_kukox56pe",
@@ -13869,6 +13877,6 @@
       "updatedAt": "2025-11-03T15:27:40.872Z"
     }
   ],
-  "lastModified": "2025-11-03T15:32:07.342Z",
+  "lastModified": "2025-11-03T15:32:38.275Z",
   "version": "2.0.0"
 }
