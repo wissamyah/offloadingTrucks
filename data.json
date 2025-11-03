@@ -13115,22 +13115,6 @@
       "waybillNumber": "6924"
     },
     {
-      "id": "truck_1762155342867_0_fxx1za6sv",
-      "supplierName": "Abubakar Muhd Tukur",
-      "bags": 160,
-      "moistureLevel": 15,
-      "truckNumber": "MAG 462 ZR",
-      "status": "pending",
-      "statusHistory": [
-        {
-          "status": "pending",
-          "timestamp": "2025-11-03T07:35:42.869Z"
-        }
-      ],
-      "createdAt": "2025-11-03T07:35:42.870Z",
-      "updatedAt": "2025-11-03T07:35:42.870Z"
-    },
-    {
       "id": "truck_1762155342867_3_7lzm6zl50",
       "supplierName": "Mukhtari Sale",
       "bags": 190,
@@ -13733,6 +13717,6 @@
       "waybillNumber": "6949"
     }
   ],
-  "lastModified": "2025-11-03T14:05:16.998Z",
+  "lastModified": "2025-11-03T14:07:49.508Z",
   "version": "2.0.0"
 }
