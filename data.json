@@ -13682,7 +13682,7 @@
       "bags": 190,
       "moistureLevel": 15,
       "truckNumber": "BAM 34 XA",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -13694,11 +13694,19 @@
           "details": {
             "waybillNumber": "6947"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-11-03T14:49:42.652Z",
+          "details": {
+            "netWeight": 15770
+          }
         }
       ],
       "createdAt": "2025-11-03T08:07:17.762Z",
-      "updatedAt": "2025-11-03T13:31:59.499Z",
-      "waybillNumber": "6947"
+      "updatedAt": "2025-11-03T14:49:42.652Z",
+      "waybillNumber": "6947",
+      "netWeight": 15770
     },
     {
       "id": "truck_1762157237762_4_1p1r3wrhl",
@@ -13725,6 +13733,6 @@
       "waybillNumber": "6949"
     }
   ],
-  "lastModified": "2025-11-03T14:38:35.318Z",
+  "lastModified": "2025-11-03T14:49:42.864Z",
   "version": "2.0.0"
 }
