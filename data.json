@@ -13965,8 +13965,168 @@
       ],
       "createdAt": "2025-11-04T07:43:20.316Z",
       "updatedAt": "2025-11-04T07:43:20.316Z"
+    },
+    {
+      "id": "truck_1762242260074_0_zjad2pjjh",
+      "supplierName": "Jamilu Yahaya",
+      "bags": 500,
+      "moistureLevel": 17,
+      "truckNumber": "DKD 606 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-04T07:44:20.075Z"
+        }
+      ],
+      "createdAt": "2025-11-04T07:44:20.075Z",
+      "updatedAt": "2025-11-04T07:44:20.075Z"
+    },
+    {
+      "id": "truck_1762242260074_1_ack27bs0l",
+      "supplierName": "Bashir Muhammad",
+      "bags": 55,
+      "moistureLevel": 14,
+      "truckNumber": "MSA 819 SY",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-04T07:44:20.075Z"
+        }
+      ],
+      "createdAt": "2025-11-04T07:44:20.075Z",
+      "updatedAt": "2025-11-04T07:44:20.075Z"
+    },
+    {
+      "id": "truck_1762242260074_2_f54zf1zin",
+      "supplierName": "B L Barka",
+      "bags": 210,
+      "moistureLevel": 14,
+      "truckNumber": "BAU 498 ZY",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-04T07:44:20.075Z"
+        }
+      ],
+      "createdAt": "2025-11-04T07:44:20.075Z",
+      "updatedAt": "2025-11-04T07:44:20.075Z"
+    },
+    {
+      "id": "truck_1762242260074_3_s00itlx64",
+      "supplierName": "Umar Adamu",
+      "bags": 300,
+      "moistureLevel": 20,
+      "truckNumber": "FKY 36 XB",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-04T07:44:20.075Z"
+        }
+      ],
+      "createdAt": "2025-11-04T07:44:20.075Z",
+      "updatedAt": "2025-11-04T07:44:20.075Z"
+    },
+    {
+      "id": "truck_1762242260074_4_6z26az60c",
+      "supplierName": "Abubakar Muhd Tukur",
+      "bags": 160,
+      "moistureLevel": 15,
+      "truckNumber": "YDB 822 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-04T07:44:20.075Z"
+        }
+      ],
+      "createdAt": "2025-11-04T07:44:20.075Z",
+      "updatedAt": "2025-11-04T07:44:20.075Z"
+    },
+    {
+      "id": "truck_1762242260074_5_kmuoq5vkc",
+      "supplierName": "Abubakar Muhd Tukur",
+      "bags": 51,
+      "moistureLevel": 14,
+      "truckNumber": "XA 462 BWW",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-04T07:44:20.075Z"
+        }
+      ],
+      "createdAt": "2025-11-04T07:44:20.075Z",
+      "updatedAt": "2025-11-04T07:44:20.075Z"
+    },
+    {
+      "id": "truck_1762242260074_6_1zytj5757",
+      "supplierName": "Abubakar Muhd Tukur",
+      "bags": 52,
+      "moistureLevel": 16,
+      "truckNumber": "BDG 387 YE",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-04T07:44:20.075Z"
+        }
+      ],
+      "createdAt": "2025-11-04T07:44:20.075Z",
+      "updatedAt": "2025-11-04T07:44:20.075Z"
+    },
+    {
+      "id": "truck_1762242260074_7_hj75te7eo",
+      "supplierName": "Abubakar Muhd Tukur",
+      "bags": 110,
+      "moistureLevel": 16,
+      "truckNumber": "NSW 678 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-04T07:44:20.075Z"
+        }
+      ],
+      "createdAt": "2025-11-04T07:44:20.075Z",
+      "updatedAt": "2025-11-04T07:44:20.075Z"
+    },
+    {
+      "id": "truck_1762242260074_8_bglpqomor",
+      "supplierName": "Mukhtari Sale",
+      "bags": 235,
+      "moistureLevel": 15,
+      "truckNumber": "GME 313 XB",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-04T07:44:20.075Z"
+        }
+      ],
+      "createdAt": "2025-11-04T07:44:20.075Z",
+      "updatedAt": "2025-11-04T07:44:20.075Z"
+    },
+    {
+      "id": "truck_1762242260074_9_ea2vwhflv",
+      "supplierName": "Mukhtari Sale",
+      "bags": 30,
+      "moistureLevel": 13,
+      "truckNumber": "DRZ 360 ZY",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-04T07:44:20.075Z"
+        }
+      ],
+      "createdAt": "2025-11-04T07:44:20.075Z",
+      "updatedAt": "2025-11-04T07:44:20.075Z"
     }
   ],
-  "lastModified": "2025-11-04T07:43:20.489Z",
+  "lastModified": "2025-11-04T07:44:20.270Z",
   "version": "2.0.0"
 }
