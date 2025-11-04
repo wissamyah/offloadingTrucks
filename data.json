@@ -14060,15 +14060,23 @@
       "bags": 160,
       "moistureLevel": 15,
       "truckNumber": "YDB 822 XA",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-11-04T07:44:20.075Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-11-04T10:24:00.511Z",
+          "details": {
+            "waybillNumber": "6965"
+          }
         }
       ],
       "createdAt": "2025-11-04T07:44:20.075Z",
-      "updatedAt": "2025-11-04T07:44:20.075Z"
+      "updatedAt": "2025-11-04T10:24:00.511Z",
+      "waybillNumber": "6965"
     },
     {
       "id": "truck_1762242260074_5_kmuoq5vkc",
@@ -14151,6 +14159,6 @@
       "updatedAt": "2025-11-04T07:44:20.075Z"
     }
   ],
-  "lastModified": "2025-11-04T07:53:40.949Z",
+  "lastModified": "2025-11-04T10:24:00.771Z",
   "version": "2.0.0"
 }
