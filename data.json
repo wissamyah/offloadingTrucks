@@ -14198,7 +14198,7 @@
       "bags": 110,
       "moistureLevel": 16,
       "truckNumber": "NSW 678 XA",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -14210,11 +14210,19 @@
           "details": {
             "waybillNumber": "6968"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-11-04T13:03:41.703Z",
+          "details": {
+            "netWeight": 18350
+          }
         }
       ],
       "createdAt": "2025-11-04T07:44:20.075Z",
-      "updatedAt": "2025-11-04T13:03:05.642Z",
-      "waybillNumber": "6968"
+      "updatedAt": "2025-11-04T13:03:41.703Z",
+      "waybillNumber": "6968",
+      "netWeight": 18350
     },
     {
       "id": "truck_1762242260074_8_bglpqomor",
@@ -14283,6 +14291,6 @@
       "netWeight": 2430
     }
   ],
-  "lastModified": "2025-11-04T13:03:05.754Z",
+  "lastModified": "2025-11-04T13:03:41.859Z",
   "version": "2.0.0"
 }
