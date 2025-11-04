@@ -14445,7 +14445,7 @@
     {
       "id": "truck_1762264898341_4_hco0f58ru",
       "supplierName": "Mansur Mansur",
-      "bags": 480,
+      "bags": 292,
       "moistureLevel": 17,
       "truckNumber": "MLF 648 XA",
       "status": "scaled_in",
@@ -14491,6 +14491,6 @@
       "waybillNumber": "6978"
     }
   ],
-  "lastModified": "2025-11-04T15:33:40.328Z",
+  "lastModified": "2025-11-04T16:43:28.956Z",
   "version": "2.0.0"
 }
