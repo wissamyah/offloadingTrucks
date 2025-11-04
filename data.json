@@ -14328,15 +14328,23 @@
       "bags": 230,
       "moistureLevel": 14,
       "truckNumber": "KTG 384 XA",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-11-04T14:01:38.342Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-11-04T14:11:31.392Z",
+          "details": {
+            "waybillNumber": "6975"
+          }
         }
       ],
       "createdAt": "2025-11-04T14:01:38.342Z",
-      "updatedAt": "2025-11-04T14:01:38.342Z"
+      "updatedAt": "2025-11-04T14:11:31.392Z",
+      "waybillNumber": "6975"
     },
     {
       "id": "truck_1762264898341_1_ge8pz2b23",
@@ -14435,6 +14443,6 @@
       "updatedAt": "2025-11-04T14:01:38.342Z"
     }
   ],
-  "lastModified": "2025-11-04T14:06:44.776Z",
+  "lastModified": "2025-11-04T14:11:32.603Z",
   "version": "2.0.0"
 }
