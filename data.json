@@ -13924,7 +13924,7 @@
       "bags": 500,
       "moistureLevel": 16,
       "truckNumber": "TRN 222 YR",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -13936,11 +13936,19 @@
           "details": {
             "waybillNumber": "6958"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-11-04T10:40:48.955Z",
+          "details": {
+            "netWeight": 42620
+          }
         }
       ],
       "createdAt": "2025-11-04T07:43:20.316Z",
-      "updatedAt": "2025-11-04T07:53:40.819Z",
-      "waybillNumber": "6958"
+      "updatedAt": "2025-11-04T10:40:48.955Z",
+      "waybillNumber": "6958",
+      "netWeight": 42620
     },
     {
       "id": "truck_1762242200316_1_x7o7t1ay5",
@@ -14191,6 +14199,6 @@
       "updatedAt": "2025-11-04T07:44:20.075Z"
     }
   ],
-  "lastModified": "2025-11-04T10:33:27.523Z",
+  "lastModified": "2025-11-04T10:40:49.202Z",
   "version": "2.0.0"
 }
