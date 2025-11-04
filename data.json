@@ -14012,15 +14012,23 @@
       "bags": 55,
       "moistureLevel": 14,
       "truckNumber": "MSA 819 SY",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-11-04T07:44:20.075Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-11-04T10:27:23.534Z",
+          "details": {
+            "waybillNumber": "6966"
+          }
         }
       ],
       "createdAt": "2025-11-04T07:44:20.075Z",
-      "updatedAt": "2025-11-04T07:44:20.075Z"
+      "updatedAt": "2025-11-04T10:27:23.534Z",
+      "waybillNumber": "6966"
     },
     {
       "id": "truck_1762242260074_2_f54zf1zin",
@@ -14159,6 +14167,6 @@
       "updatedAt": "2025-11-04T07:44:20.075Z"
     }
   ],
-  "lastModified": "2025-11-04T10:24:00.771Z",
+  "lastModified": "2025-11-04T10:27:23.691Z",
   "version": "2.0.0"
 }
