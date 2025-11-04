@@ -14060,15 +14060,23 @@
       "bags": 210,
       "moistureLevel": 14,
       "truckNumber": "BAU 498 ZY",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-11-04T07:44:20.075Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-11-04T10:49:08.508Z",
+          "details": {
+            "waybillNumber": "6962"
+          }
         }
       ],
       "createdAt": "2025-11-04T07:44:20.075Z",
-      "updatedAt": "2025-11-04T07:44:20.075Z"
+      "updatedAt": "2025-11-04T10:49:08.508Z",
+      "waybillNumber": "6962"
     },
     {
       "id": "truck_1762242260074_3_s00itlx64",
@@ -14199,6 +14207,6 @@
       "updatedAt": "2025-11-04T07:44:20.075Z"
     }
   ],
-  "lastModified": "2025-11-04T10:40:49.202Z",
+  "lastModified": "2025-11-04T10:49:08.683Z",
   "version": "2.0.0"
 }
