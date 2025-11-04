@@ -14118,7 +14118,7 @@
       "bags": 300,
       "moistureLevel": 20,
       "truckNumber": "FKY 36 XB",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -14130,11 +14130,19 @@
           "details": {
             "waybillNumber": "6963"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-11-04T15:33:40.202Z",
+          "details": {
+            "netWeight": 16910
+          }
         }
       ],
       "createdAt": "2025-11-04T07:44:20.075Z",
-      "updatedAt": "2025-11-04T15:33:29.023Z",
-      "waybillNumber": "6963"
+      "updatedAt": "2025-11-04T15:33:40.202Z",
+      "waybillNumber": "6963",
+      "netWeight": 16910
     },
     {
       "id": "truck_1762242260074_4_6z26az60c",
@@ -14483,6 +14491,6 @@
       "waybillNumber": "6978"
     }
   ],
-  "lastModified": "2025-11-04T15:33:29.187Z",
+  "lastModified": "2025-11-04T15:33:40.328Z",
   "version": "2.0.0"
 }
