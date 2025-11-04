@@ -14238,17 +14238,25 @@
       "bags": 30,
       "moistureLevel": 13,
       "truckNumber": "DRZ 360 ZY",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-11-04T07:44:20.075Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-11-04T13:01:41.849Z",
+          "details": {
+            "waybillNumber": "6971"
+          }
         }
       ],
       "createdAt": "2025-11-04T07:44:20.075Z",
-      "updatedAt": "2025-11-04T07:44:20.075Z"
+      "updatedAt": "2025-11-04T13:01:41.850Z",
+      "waybillNumber": "6971"
     }
   ],
-  "lastModified": "2025-11-04T11:47:48.312Z",
+  "lastModified": "2025-11-04T13:01:42.062Z",
   "version": "2.0.0"
 }
