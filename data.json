@@ -14480,7 +14480,7 @@
       "bags": 500,
       "moistureLevel": 17,
       "truckNumber": "JJN 999 XC",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -14492,13 +14492,21 @@
           "details": {
             "waybillNumber": "6978"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-11-04T18:04:59.432Z",
+          "details": {
+            "netWeight": 37580
+          }
         }
       ],
       "createdAt": "2025-11-04T14:01:38.342Z",
-      "updatedAt": "2025-11-04T14:19:01.058Z",
-      "waybillNumber": "6978"
+      "updatedAt": "2025-11-04T18:04:59.432Z",
+      "waybillNumber": "6978",
+      "netWeight": 37580
     }
   ],
-  "lastModified": "2025-11-04T16:43:43.133Z",
+  "lastModified": "2025-11-04T18:04:59.472Z",
   "version": "2.0.0"
 }
