@@ -14166,7 +14166,7 @@
       "bags": 51,
       "moistureLevel": 14,
       "truckNumber": "XA 462 BWW",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -14178,11 +14178,19 @@
           "details": {
             "waybillNumber": "6970"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-11-04T13:04:35.805Z",
+          "details": {
+            "netWeight": 4450
+          }
         }
       ],
       "createdAt": "2025-11-04T07:44:20.075Z",
-      "updatedAt": "2025-11-04T13:04:26.332Z",
-      "waybillNumber": "6970"
+      "updatedAt": "2025-11-04T13:04:35.805Z",
+      "waybillNumber": "6970",
+      "netWeight": 4450
     },
     {
       "id": "truck_1762242260074_6_1zytj5757",
@@ -14299,6 +14307,6 @@
       "netWeight": 2430
     }
   ],
-  "lastModified": "2025-11-04T13:04:26.461Z",
+  "lastModified": "2025-11-04T13:04:36.702Z",
   "version": "2.0.0"
 }
