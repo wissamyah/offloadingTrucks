@@ -14321,8 +14321,104 @@
       "updatedAt": "2025-11-04T13:01:52.530Z",
       "waybillNumber": "6971",
       "netWeight": 2430
+    },
+    {
+      "id": "truck_1762264898341_0_rjnqi2pzr",
+      "supplierName": "Alh Danasabe",
+      "bags": 230,
+      "moistureLevel": 14,
+      "truckNumber": "KTG 384 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-04T14:01:38.342Z"
+        }
+      ],
+      "createdAt": "2025-11-04T14:01:38.342Z",
+      "updatedAt": "2025-11-04T14:01:38.342Z"
+    },
+    {
+      "id": "truck_1762264898341_1_ge8pz2b23",
+      "supplierName": "Alh Danasabe",
+      "bags": 181,
+      "moistureLevel": 15,
+      "truckNumber": "NGU 488 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-04T14:01:38.342Z"
+        }
+      ],
+      "createdAt": "2025-11-04T14:01:38.342Z",
+      "updatedAt": "2025-11-04T14:01:38.342Z"
+    },
+    {
+      "id": "truck_1762264898341_2_cbc9tic5y",
+      "supplierName": "Idris Haruna",
+      "bags": 500,
+      "moistureLevel": 14,
+      "truckNumber": "BAU 241 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-04T14:01:38.342Z"
+        }
+      ],
+      "createdAt": "2025-11-04T14:01:38.342Z",
+      "updatedAt": "2025-11-04T14:01:38.342Z"
+    },
+    {
+      "id": "truck_1762264898341_3_jzpwrq073",
+      "supplierName": "M B Flour",
+      "bags": 450,
+      "moistureLevel": 16,
+      "truckNumber": "TRR 446 YX",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-04T14:01:38.342Z"
+        }
+      ],
+      "createdAt": "2025-11-04T14:01:38.342Z",
+      "updatedAt": "2025-11-04T14:01:38.342Z"
+    },
+    {
+      "id": "truck_1762264898341_4_hco0f58ru",
+      "supplierName": "Mansur Mansur",
+      "bags": 480,
+      "moistureLevel": 17,
+      "truckNumber": "MLF 648 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-04T14:01:38.342Z"
+        }
+      ],
+      "createdAt": "2025-11-04T14:01:38.342Z",
+      "updatedAt": "2025-11-04T14:01:38.342Z"
+    },
+    {
+      "id": "truck_1762264898341_5_xi2rz8bwb",
+      "supplierName": "Idris Haruna",
+      "bags": 500,
+      "moistureLevel": 17,
+      "truckNumber": "JJN 999 XC",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-04T14:01:38.342Z"
+        }
+      ],
+      "createdAt": "2025-11-04T14:01:38.342Z",
+      "updatedAt": "2025-11-04T14:01:38.342Z"
     }
   ],
-  "lastModified": "2025-11-04T13:05:20.990Z",
+  "lastModified": "2025-11-04T14:01:38.530Z",
   "version": "2.0.0"
 }
