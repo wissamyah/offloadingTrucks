@@ -13917,8 +13917,56 @@
       ],
       "createdAt": "2025-11-03T15:27:40.872Z",
       "updatedAt": "2025-11-03T15:27:40.872Z"
+    },
+    {
+      "id": "truck_1762242200316_0_hwj10b88w",
+      "supplierName": "Bashir Muhd",
+      "bags": 500,
+      "moistureLevel": 16,
+      "truckNumber": "TRN 222 YR",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-04T07:43:20.316Z"
+        }
+      ],
+      "createdAt": "2025-11-04T07:43:20.316Z",
+      "updatedAt": "2025-11-04T07:43:20.316Z"
+    },
+    {
+      "id": "truck_1762242200316_1_x7o7t1ay5",
+      "supplierName": "Idris Haruna",
+      "bags": 400,
+      "moistureLevel": 15,
+      "truckNumber": "ABJ 192 XF",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-04T07:43:20.316Z"
+        }
+      ],
+      "createdAt": "2025-11-04T07:43:20.316Z",
+      "updatedAt": "2025-11-04T07:43:20.316Z"
+    },
+    {
+      "id": "truck_1762242200316_2_kvfiskrbj",
+      "supplierName": "Idris Haruna",
+      "bags": 512,
+      "moistureLevel": 15,
+      "truckNumber": "AT 777 MKA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-04T07:43:20.316Z"
+        }
+      ],
+      "createdAt": "2025-11-04T07:43:20.316Z",
+      "updatedAt": "2025-11-04T07:43:20.316Z"
     }
   ],
-  "lastModified": "2025-11-03T17:42:47.782Z",
+  "lastModified": "2025-11-04T07:43:20.489Z",
   "version": "2.0.0"
 }
