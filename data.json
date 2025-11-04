@@ -13956,7 +13956,7 @@
       "bags": 400,
       "moistureLevel": 15,
       "truckNumber": "ABJ 192 XF",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -13968,11 +13968,21 @@
           "details": {
             "waybillNumber": "6956"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-11-04T11:47:15.547Z",
+          "details": {
+            "netWeight": 49020,
+            "deduction": 1000
+          }
         }
       ],
       "createdAt": "2025-11-04T07:43:20.316Z",
-      "updatedAt": "2025-11-04T07:46:47.246Z",
-      "waybillNumber": "6956"
+      "updatedAt": "2025-11-04T11:47:15.547Z",
+      "waybillNumber": "6956",
+      "netWeight": 49020,
+      "deduction": 1000
     },
     {
       "id": "truck_1762242200316_2_kvfiskrbj",
@@ -14231,6 +14241,6 @@
       "updatedAt": "2025-11-04T07:44:20.075Z"
     }
   ],
-  "lastModified": "2025-11-04T10:54:12.155Z",
+  "lastModified": "2025-11-04T11:47:15.737Z",
   "version": "2.0.0"
 }
