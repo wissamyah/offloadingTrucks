@@ -14674,15 +14674,23 @@
       "bags": 500,
       "moistureLevel": 20,
       "truckNumber": "BLG 508 XA",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-11-05T07:36:53.956Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-11-05T08:14:31.950Z",
+          "details": {
+            "waybillNumber": "6985"
+          }
         }
       ],
       "createdAt": "2025-11-05T07:36:53.956Z",
-      "updatedAt": "2025-11-05T07:36:53.956Z"
+      "updatedAt": "2025-11-05T08:14:31.950Z",
+      "waybillNumber": "6985"
     },
     {
       "id": "truck_1762328213956_1_c0m37bcbm",
@@ -14781,6 +14789,6 @@
       "updatedAt": "2025-11-05T07:36:53.956Z"
     }
   ],
-  "lastModified": "2025-11-05T07:55:26.171Z",
+  "lastModified": "2025-11-05T08:14:33.308Z",
   "version": "2.0.0"
 }
