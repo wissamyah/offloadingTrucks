@@ -14538,7 +14538,7 @@
       "bags": 42,
       "moistureLevel": 13,
       "truckNumber": "XA 565 YLA",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -14550,11 +14550,19 @@
           "details": {
             "waybillNumber": "6983"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-11-05T08:38:43.642Z",
+          "details": {
+            "netWeight": 4330
+          }
         }
       ],
       "createdAt": "2025-11-05T07:36:34.308Z",
-      "updatedAt": "2025-11-05T07:52:11.481Z",
-      "waybillNumber": "6983"
+      "updatedAt": "2025-11-05T08:38:43.642Z",
+      "waybillNumber": "6983",
+      "netWeight": 4330
     },
     {
       "id": "truck_1762328194308_1_zjut0in82",
@@ -14797,6 +14805,6 @@
       "updatedAt": "2025-11-05T07:36:53.956Z"
     }
   ],
-  "lastModified": "2025-11-05T08:16:48.479Z",
+  "lastModified": "2025-11-05T08:38:43.891Z",
   "version": "2.0.0"
 }
