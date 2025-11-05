@@ -14786,7 +14786,7 @@
       "bags": 35,
       "moistureLevel": 12,
       "truckNumber": "MSA 247 XB",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -14798,11 +14798,19 @@
           "details": {
             "waybillNumber": "6992"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-11-05T12:00:06.478Z",
+          "details": {
+            "netWeight": 2800
+          }
         }
       ],
       "createdAt": "2025-11-05T07:36:53.956Z",
-      "updatedAt": "2025-11-05T10:13:56.708Z",
-      "waybillNumber": "6992"
+      "updatedAt": "2025-11-05T12:00:06.478Z",
+      "waybillNumber": "6992",
+      "netWeight": 2800
     },
     {
       "id": "truck_1762328213956_3_7dtn0u9w9",
@@ -14877,6 +14885,6 @@
       "waybillNumber": "6993"
     }
   ],
-  "lastModified": "2025-11-05T10:42:28.804Z",
+  "lastModified": "2025-11-05T12:00:06.542Z",
   "version": "2.0.0"
 }
