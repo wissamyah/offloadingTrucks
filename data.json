@@ -15042,15 +15042,23 @@
       "bags": 34,
       "moistureLevel": 12,
       "truckNumber": "MSA 153 XB",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-11-05T13:42:46.558Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-11-05T13:50:42.642Z",
+          "details": {
+            "waybillNumber": "6999"
+          }
         }
       ],
       "createdAt": "2025-11-05T13:42:46.558Z",
-      "updatedAt": "2025-11-05T13:42:46.558Z"
+      "updatedAt": "2025-11-05T13:50:42.642Z",
+      "waybillNumber": "6999"
     },
     {
       "id": "truck_1762350166558_6_q4avwsdu5",
@@ -15069,6 +15077,6 @@
       "updatedAt": "2025-11-05T13:42:46.558Z"
     }
   ],
-  "lastModified": "2025-11-05T13:49:24.343Z",
+  "lastModified": "2025-11-05T13:50:42.759Z",
   "version": "2.0.0"
 }
