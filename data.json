@@ -14531,8 +14531,104 @@
       "updatedAt": "2025-11-04T18:04:59.432Z",
       "waybillNumber": "6978",
       "netWeight": 37580
+    },
+    {
+      "id": "truck_1762328194308_0_vs1yessj4",
+      "supplierName": "Idris Haruna",
+      "bags": 42,
+      "moistureLevel": 13,
+      "truckNumber": "XA 565 YLA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-05T07:36:34.308Z"
+        }
+      ],
+      "createdAt": "2025-11-05T07:36:34.308Z",
+      "updatedAt": "2025-11-05T07:36:34.308Z"
+    },
+    {
+      "id": "truck_1762328194308_1_zjut0in82",
+      "supplierName": "Addau Isyaku",
+      "bags": 131,
+      "moistureLevel": 20,
+      "truckNumber": "GGE 978 XY",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-05T07:36:34.308Z"
+        }
+      ],
+      "createdAt": "2025-11-05T07:36:34.308Z",
+      "updatedAt": "2025-11-05T07:36:34.308Z"
+    },
+    {
+      "id": "truck_1762328194308_2_i1cbvvg1r",
+      "supplierName": "Abubakar Muhd Tukur",
+      "bags": 50,
+      "moistureLevel": 12,
+      "truckNumber": "XA 462 GWW",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-05T07:36:34.308Z"
+        }
+      ],
+      "createdAt": "2025-11-05T07:36:34.308Z",
+      "updatedAt": "2025-11-05T07:36:34.308Z"
+    },
+    {
+      "id": "truck_1762328194308_3_c92ecqche",
+      "supplierName": "Addau Isyaku",
+      "bags": 154,
+      "moistureLevel": 20,
+      "truckNumber": "GWA 346 XD",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-05T07:36:34.308Z"
+        }
+      ],
+      "createdAt": "2025-11-05T07:36:34.308Z",
+      "updatedAt": "2025-11-05T07:36:34.308Z"
+    },
+    {
+      "id": "truck_1762328194308_4_n8dl8uzjh",
+      "supplierName": "Idris Haruna",
+      "bags": 560,
+      "moistureLevel": 15,
+      "truckNumber": "TRR 884 YX",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-05T07:36:34.308Z"
+        }
+      ],
+      "createdAt": "2025-11-05T07:36:34.308Z",
+      "updatedAt": "2025-11-05T07:36:34.308Z"
+    },
+    {
+      "id": "truck_1762328194308_5_wl7pjcc10",
+      "supplierName": "Idris Haruna",
+      "bags": 500,
+      "moistureLevel": 13,
+      "truckNumber": "TRR 393 YX",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-05T07:36:34.308Z"
+        }
+      ],
+      "createdAt": "2025-11-05T07:36:34.308Z",
+      "updatedAt": "2025-11-05T07:36:34.308Z"
     }
   ],
-  "lastModified": "2025-11-05T07:34:22.983Z",
+  "lastModified": "2025-11-05T07:36:35.565Z",
   "version": "2.0.0"
 }
