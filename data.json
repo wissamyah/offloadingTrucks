@@ -14627,8 +14627,120 @@
       ],
       "createdAt": "2025-11-05T07:36:34.308Z",
       "updatedAt": "2025-11-05T07:36:34.308Z"
+    },
+    {
+      "id": "truck_1762328213956_0_i2c5ywthv",
+      "supplierName": "Habibu Isa",
+      "bags": 500,
+      "moistureLevel": 20,
+      "truckNumber": "BLG 508 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-05T07:36:53.956Z"
+        }
+      ],
+      "createdAt": "2025-11-05T07:36:53.956Z",
+      "updatedAt": "2025-11-05T07:36:53.956Z"
+    },
+    {
+      "id": "truck_1762328213956_1_c0m37bcbm",
+      "supplierName": "Mansur Mansur",
+      "bags": 450,
+      "moistureLevel": 14,
+      "truckNumber": "MLF 442 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-05T07:36:53.956Z"
+        }
+      ],
+      "createdAt": "2025-11-05T07:36:53.956Z",
+      "updatedAt": "2025-11-05T07:36:53.956Z"
+    },
+    {
+      "id": "truck_1762328213956_2_6l6doocd2",
+      "supplierName": "Alh Danasabe",
+      "bags": 35,
+      "moistureLevel": 12,
+      "truckNumber": "MSA 247 XB",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-05T07:36:53.956Z"
+        }
+      ],
+      "createdAt": "2025-11-05T07:36:53.956Z",
+      "updatedAt": "2025-11-05T07:36:53.956Z"
+    },
+    {
+      "id": "truck_1762328213956_3_7dtn0u9w9",
+      "supplierName": "Mukhtari Sale",
+      "bags": 240,
+      "moistureLevel": 13,
+      "truckNumber": "HJA 729 XB",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-05T07:36:53.956Z"
+        }
+      ],
+      "createdAt": "2025-11-05T07:36:53.956Z",
+      "updatedAt": "2025-11-05T07:36:53.956Z"
+    },
+    {
+      "id": "truck_1762328213956_4_8my45gi3m",
+      "supplierName": "B L Barka",
+      "bags": 220,
+      "moistureLevel": 17,
+      "truckNumber": "NNG 737 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-05T07:36:53.956Z"
+        }
+      ],
+      "createdAt": "2025-11-05T07:36:53.956Z",
+      "updatedAt": "2025-11-05T07:36:53.956Z"
+    },
+    {
+      "id": "truck_1762328213956_5_ieoxzhepd",
+      "supplierName": "B L Barka",
+      "bags": 210,
+      "moistureLevel": 16,
+      "truckNumber": "NNG 402 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-05T07:36:53.956Z"
+        }
+      ],
+      "createdAt": "2025-11-05T07:36:53.956Z",
+      "updatedAt": "2025-11-05T07:36:53.956Z"
+    },
+    {
+      "id": "truck_1762328213956_6_drr7fmf5y",
+      "supplierName": "Abubakar Muhd Tukur",
+      "bags": 188,
+      "moistureLevel": 16,
+      "truckNumber": "GME 287 XX",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-05T07:36:53.956Z"
+        }
+      ],
+      "createdAt": "2025-11-05T07:36:53.956Z",
+      "updatedAt": "2025-11-05T07:36:53.956Z"
     }
   ],
-  "lastModified": "2025-11-05T07:36:35.565Z",
+  "lastModified": "2025-11-05T07:36:55.741Z",
   "version": "2.0.0"
 }
