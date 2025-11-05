@@ -14634,7 +14634,7 @@
       "bags": 154,
       "moistureLevel": 20,
       "truckNumber": "GWA 346 XD",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -14646,11 +14646,19 @@
           "details": {
             "waybillNumber": "6990"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-11-05T10:42:27.951Z",
+          "details": {
+            "netWeight": 11280
+          }
         }
       ],
       "createdAt": "2025-11-05T07:36:34.308Z",
-      "updatedAt": "2025-11-05T10:42:16.291Z",
-      "waybillNumber": "6990"
+      "updatedAt": "2025-11-05T10:42:27.951Z",
+      "waybillNumber": "6990",
+      "netWeight": 11280
     },
     {
       "id": "truck_1762328194308_4_n8dl8uzjh",
@@ -14869,6 +14877,6 @@
       "waybillNumber": "6993"
     }
   ],
-  "lastModified": "2025-11-05T10:42:17.356Z",
+  "lastModified": "2025-11-05T10:42:28.804Z",
   "version": "2.0.0"
 }
