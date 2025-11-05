@@ -14570,7 +14570,7 @@
       "bags": 131,
       "moistureLevel": 20,
       "truckNumber": "GGE 978 XY",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -14582,11 +14582,19 @@
           "details": {
             "waybillNumber": "6984"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-11-05T09:12:07.582Z",
+          "details": {
+            "netWeight": 9770
+          }
         }
       ],
       "createdAt": "2025-11-05T07:36:34.308Z",
-      "updatedAt": "2025-11-05T07:55:24.956Z",
-      "waybillNumber": "6984"
+      "updatedAt": "2025-11-05T09:12:07.582Z",
+      "waybillNumber": "6984",
+      "netWeight": 9770
     },
     {
       "id": "truck_1762328194308_2_i1cbvvg1r",
@@ -14813,6 +14821,6 @@
       "updatedAt": "2025-11-05T07:36:53.956Z"
     }
   ],
-  "lastModified": "2025-11-05T09:01:16.183Z",
+  "lastModified": "2025-11-05T09:12:07.877Z",
   "version": "2.0.0"
 }
