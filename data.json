@@ -14882,7 +14882,7 @@
       "bags": 188,
       "moistureLevel": 16,
       "truckNumber": "GME 287 XX",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -14894,13 +14894,21 @@
           "details": {
             "waybillNumber": "6993"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-11-05T12:53:56.683Z",
+          "details": {
+            "netWeight": 16600
+          }
         }
       ],
       "createdAt": "2025-11-05T07:36:53.956Z",
-      "updatedAt": "2025-11-05T10:16:38.595Z",
-      "waybillNumber": "6993"
+      "updatedAt": "2025-11-05T12:53:56.683Z",
+      "waybillNumber": "6993",
+      "netWeight": 16600
     }
   ],
-  "lastModified": "2025-11-05T12:50:51.648Z",
+  "lastModified": "2025-11-05T12:53:56.822Z",
   "version": "2.0.0"
 }
