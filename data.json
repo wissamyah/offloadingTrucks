@@ -14938,15 +14938,23 @@
       "bags": 225,
       "moistureLevel": 12,
       "truckNumber": "PKM 744 ZY",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-11-05T13:42:46.558Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-11-05T13:43:44.349Z",
+          "details": {
+            "waybillNumber": "7001"
+          }
         }
       ],
       "createdAt": "2025-11-05T13:42:46.558Z",
-      "updatedAt": "2025-11-05T13:42:46.558Z"
+      "updatedAt": "2025-11-05T13:43:44.349Z",
+      "waybillNumber": "7001"
     },
     {
       "id": "truck_1762350166558_2_xemurkx9e",
@@ -15029,6 +15037,6 @@
       "updatedAt": "2025-11-05T13:42:46.558Z"
     }
   ],
-  "lastModified": "2025-11-05T13:42:46.780Z",
+  "lastModified": "2025-11-05T13:43:44.565Z",
   "version": "2.0.0"
 }
