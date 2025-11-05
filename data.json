@@ -15018,15 +15018,23 @@
       "bags": 750,
       "moistureLevel": 14,
       "truckNumber": "BKD 381 XA",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-11-05T13:42:46.558Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-11-05T13:49:22.972Z",
+          "details": {
+            "waybillNumber": "7000"
+          }
         }
       ],
       "createdAt": "2025-11-05T13:42:46.558Z",
-      "updatedAt": "2025-11-05T13:42:46.558Z"
+      "updatedAt": "2025-11-05T13:49:22.972Z",
+      "waybillNumber": "7000"
     },
     {
       "id": "truck_1762350166558_5_twlo9m4fc",
@@ -15061,6 +15069,6 @@
       "updatedAt": "2025-11-05T13:42:46.558Z"
     }
   ],
-  "lastModified": "2025-11-05T13:48:11.824Z",
+  "lastModified": "2025-11-05T13:49:24.343Z",
   "version": "2.0.0"
 }
