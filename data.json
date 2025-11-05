@@ -14962,15 +14962,23 @@
       "bags": 350,
       "moistureLevel": 18,
       "truckNumber": "NSR 697 ZY",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-11-05T13:42:46.558Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-11-05T13:46:22.769Z",
+          "details": {
+            "waybillNumber": "7002"
+          }
         }
       ],
       "createdAt": "2025-11-05T13:42:46.558Z",
-      "updatedAt": "2025-11-05T13:42:46.558Z"
+      "updatedAt": "2025-11-05T13:46:22.769Z",
+      "waybillNumber": "7002"
     },
     {
       "id": "truck_1762350166558_3_ccji6gtps",
@@ -15037,6 +15045,6 @@
       "updatedAt": "2025-11-05T13:42:46.558Z"
     }
   ],
-  "lastModified": "2025-11-05T13:43:44.565Z",
+  "lastModified": "2025-11-05T13:46:22.920Z",
   "version": "2.0.0"
 }
