@@ -15074,17 +15074,25 @@
       "bags": 155,
       "moistureLevel": 13,
       "truckNumber": "KRF 200 XA",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-11-05T13:42:46.558Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-11-05T13:57:02.763Z",
+          "details": {
+            "waybillNumber": "7004"
+          }
         }
       ],
       "createdAt": "2025-11-05T13:42:46.558Z",
-      "updatedAt": "2025-11-05T13:42:46.558Z"
+      "updatedAt": "2025-11-05T13:57:02.763Z",
+      "waybillNumber": "7004"
     }
   ],
-  "lastModified": "2025-11-05T13:53:46.702Z",
+  "lastModified": "2025-11-05T13:57:04.086Z",
   "version": "2.0.0"
 }
