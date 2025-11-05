@@ -14674,7 +14674,7 @@
       "bags": 500,
       "moistureLevel": 13,
       "truckNumber": "TRR 393 YX",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -14686,11 +14686,19 @@
           "details": {
             "waybillNumber": "6980"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-11-05T09:37:24.017Z",
+          "details": {
+            "netWeight": 36600
+          }
         }
       ],
       "createdAt": "2025-11-05T07:36:34.308Z",
-      "updatedAt": "2025-11-05T07:42:05.042Z",
-      "waybillNumber": "6980"
+      "updatedAt": "2025-11-05T09:37:24.017Z",
+      "waybillNumber": "6980",
+      "netWeight": 36600
     },
     {
       "id": "truck_1762328213956_0_i2c5ywthv",
@@ -14821,6 +14829,6 @@
       "updatedAt": "2025-11-05T07:36:53.956Z"
     }
   ],
-  "lastModified": "2025-11-05T09:12:07.877Z",
+  "lastModified": "2025-11-05T09:37:24.208Z",
   "version": "2.0.0"
 }
