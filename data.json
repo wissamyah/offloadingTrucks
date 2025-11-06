@@ -15671,7 +15671,7 @@
       "bags": 240,
       "moistureLevel": 14,
       "truckNumber": "DKD 15 XB",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -15683,13 +15683,21 @@
           "details": {
             "waybillNumber": "7037"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-11-06T16:04:44.208Z",
+          "details": {
+            "netWeight": 20480
+          }
         }
       ],
       "createdAt": "2025-11-06T13:37:54.202Z",
-      "updatedAt": "2025-11-06T14:00:07.179Z",
-      "waybillNumber": "7037"
+      "updatedAt": "2025-11-06T16:04:44.209Z",
+      "waybillNumber": "7037",
+      "netWeight": 20480
     }
   ],
-  "lastModified": "2025-11-06T14:37:43.696Z",
+  "lastModified": "2025-11-06T16:04:44.556Z",
   "version": "2.0.0"
 }
