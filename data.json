@@ -15115,8 +15115,88 @@
       "createdAt": "2025-11-05T13:42:46.558Z",
       "updatedAt": "2025-11-05T13:57:02.763Z",
       "waybillNumber": "7004"
+    },
+    {
+      "id": "truck_1762414419337_0_nj9wlljvu",
+      "supplierName": "M B Flour",
+      "bags": 520,
+      "moistureLevel": 14,
+      "truckNumber": "BSA 822 ZY",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-06T07:33:39.337Z"
+        }
+      ],
+      "createdAt": "2025-11-06T07:33:39.337Z",
+      "updatedAt": "2025-11-06T07:33:39.337Z"
+    },
+    {
+      "id": "truck_1762414419337_1_3e2xaucr0",
+      "supplierName": "Idris Haruna",
+      "bags": 500,
+      "moistureLevel": 13,
+      "truckNumber": "TRR 457 YX",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-06T07:33:39.337Z"
+        }
+      ],
+      "createdAt": "2025-11-06T07:33:39.337Z",
+      "updatedAt": "2025-11-06T07:33:39.337Z"
+    },
+    {
+      "id": "truck_1762414419337_2_os1xyap7v",
+      "supplierName": "Idris Haruna",
+      "bags": 220,
+      "moistureLevel": 17,
+      "truckNumber": "TRR 781 YX",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-06T07:33:39.337Z"
+        }
+      ],
+      "createdAt": "2025-11-06T07:33:39.337Z",
+      "updatedAt": "2025-11-06T07:33:39.337Z"
+    },
+    {
+      "id": "truck_1762414419337_3_eku7xnkrg",
+      "supplierName": "Idris Haruna",
+      "bags": 220,
+      "moistureLevel": 16,
+      "truckNumber": "JJN 135 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-06T07:33:39.337Z"
+        }
+      ],
+      "createdAt": "2025-11-06T07:33:39.337Z",
+      "updatedAt": "2025-11-06T07:33:39.337Z"
+    },
+    {
+      "id": "truck_1762414419337_4_ivmxwpxds",
+      "supplierName": "Idris Haruna",
+      "bags": 38,
+      "moistureLevel": 13,
+      "truckNumber": "MMR 101 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-06T07:33:39.337Z"
+        }
+      ],
+      "createdAt": "2025-11-06T07:33:39.337Z",
+      "updatedAt": "2025-11-06T07:33:39.337Z"
     }
   ],
-  "lastModified": "2025-11-05T15:27:21.894Z",
+  "lastModified": "2025-11-06T07:33:39.625Z",
   "version": "2.0.0"
 }
