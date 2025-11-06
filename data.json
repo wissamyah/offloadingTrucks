@@ -15510,7 +15510,7 @@
       "bags": 500,
       "moistureLevel": 14,
       "truckNumber": "ZAR 868 ZW",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -15522,11 +15522,19 @@
           "details": {
             "waybillNumber": "7027"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-11-06T14:08:11.679Z",
+          "details": {
+            "netWeight": 37350
+          }
         }
       ],
       "createdAt": "2025-11-06T07:35:16.436Z",
-      "updatedAt": "2025-11-06T11:39:33.142Z",
-      "waybillNumber": "7027"
+      "updatedAt": "2025-11-06T14:08:11.679Z",
+      "waybillNumber": "7027",
+      "netWeight": 37350
     },
     {
       "id": "truck_1762414516436_4_ifgf9ahu5",
@@ -15665,6 +15673,6 @@
       "waybillNumber": "7037"
     }
   ],
-  "lastModified": "2025-11-06T14:00:07.386Z",
+  "lastModified": "2025-11-06T14:08:11.837Z",
   "version": "2.0.0"
 }
