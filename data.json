@@ -15322,7 +15322,7 @@
       "createdAt": "2025-11-06T07:34:10.734Z",
       "updatedAt": "2025-11-06T10:24:46.724Z",
       "waybillNumber": "7018",
-      "netWeight": 3030
+      "netWeight": 3060
     },
     {
       "id": "truck_1762414450734_2_nkwzw3251",
@@ -15461,6 +15461,6 @@
       "updatedAt": "2025-11-06T07:35:16.436Z"
     }
   ],
-  "lastModified": "2025-11-06T10:24:46.848Z",
+  "lastModified": "2025-11-06T10:34:16.234Z",
   "version": "2.0.0"
 }
