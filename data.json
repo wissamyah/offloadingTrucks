@@ -15506,7 +15506,7 @@
     },
     {
       "id": "truck_1762414516436_3_memgao3nd",
-      "supplierName": "Al Hassanal",
+      "supplierName": "Al Hasanaan Enterprises",
       "bags": 500,
       "moistureLevel": 14,
       "truckNumber": "ZAR 868 ZW",
@@ -15553,6 +15553,6 @@
       "waybillNumber": "7028"
     }
   ],
-  "lastModified": "2025-11-06T12:58:18.694Z",
+  "lastModified": "2025-11-06T13:00:18.211Z",
   "version": "2.0.0"
 }
