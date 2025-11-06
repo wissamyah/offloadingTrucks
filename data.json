@@ -15551,8 +15551,88 @@
       "createdAt": "2025-11-06T07:35:16.436Z",
       "updatedAt": "2025-11-06T12:01:34.001Z",
       "waybillNumber": "7028"
+    },
+    {
+      "id": "truck_1762436274202_0_dt6guk8vq",
+      "supplierName": "Idris Haruna",
+      "bags": 80,
+      "moistureLevel": 16,
+      "truckNumber": "GGJ 20 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-06T13:37:54.202Z"
+        }
+      ],
+      "createdAt": "2025-11-06T13:37:54.202Z",
+      "updatedAt": "2025-11-06T13:37:54.202Z"
+    },
+    {
+      "id": "truck_1762436274202_1_p6ix0qfbj",
+      "supplierName": "Abubakar Muhd Tukur",
+      "bags": 180,
+      "moistureLevel": 15,
+      "truckNumber": "AGB 14 AA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-06T13:37:54.202Z"
+        }
+      ],
+      "createdAt": "2025-11-06T13:37:54.202Z",
+      "updatedAt": "2025-11-06T13:37:54.202Z"
+    },
+    {
+      "id": "truck_1762436274202_2_3gndk76r0",
+      "supplierName": "Abubakar Muhd Tukur",
+      "bags": 170,
+      "moistureLevel": 14,
+      "truckNumber": "MAG 462 ZR",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-06T13:37:54.202Z"
+        }
+      ],
+      "createdAt": "2025-11-06T13:37:54.202Z",
+      "updatedAt": "2025-11-06T13:37:54.202Z"
+    },
+    {
+      "id": "truck_1762436274202_3_gv66w4xz9",
+      "supplierName": "Umar Adamu",
+      "bags": 525,
+      "moistureLevel": 20,
+      "truckNumber": "FKY 607 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-06T13:37:54.202Z"
+        }
+      ],
+      "createdAt": "2025-11-06T13:37:54.202Z",
+      "updatedAt": "2025-11-06T13:37:54.202Z"
+    },
+    {
+      "id": "truck_1762436274202_4_2elioirsc",
+      "supplierName": "Jamilu Yahaya",
+      "bags": 240,
+      "moistureLevel": 14,
+      "truckNumber": "DKD 15 XB",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-06T13:37:54.202Z"
+        }
+      ],
+      "createdAt": "2025-11-06T13:37:54.202Z",
+      "updatedAt": "2025-11-06T13:37:54.202Z"
     }
   ],
-  "lastModified": "2025-11-06T13:00:18.211Z",
+  "lastModified": "2025-11-06T13:37:54.400Z",
   "version": "2.0.0"
 }
