@@ -15378,7 +15378,7 @@
       "bags": 550,
       "moistureLevel": 14,
       "truckNumber": "DJB 379 XA",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -15390,11 +15390,19 @@
           "details": {
             "waybillNumber": "7021"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-11-06T11:03:50.265Z",
+          "details": {
+            "netWeight": 39070
+          }
         }
       ],
       "createdAt": "2025-11-06T07:35:16.436Z",
-      "updatedAt": "2025-11-06T08:41:57.365Z",
-      "waybillNumber": "7021"
+      "updatedAt": "2025-11-06T11:03:50.265Z",
+      "waybillNumber": "7021",
+      "netWeight": 39070
     },
     {
       "id": "truck_1762414516436_1_z021icgzc",
@@ -15461,6 +15469,6 @@
       "updatedAt": "2025-11-06T07:35:16.436Z"
     }
   ],
-  "lastModified": "2025-11-06T10:34:16.234Z",
+  "lastModified": "2025-11-06T11:03:50.334Z",
   "version": "2.0.0"
 }
