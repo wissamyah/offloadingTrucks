@@ -15218,15 +15218,23 @@
       "bags": 38,
       "moistureLevel": 13,
       "truckNumber": "MMR 101 XA",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-11-06T07:33:39.337Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-11-06T08:23:57.036Z",
+          "details": {
+            "waybillNumber": "7017"
+          }
         }
       ],
       "createdAt": "2025-11-06T07:33:39.337Z",
-      "updatedAt": "2025-11-06T07:33:39.337Z"
+      "updatedAt": "2025-11-06T08:23:57.036Z",
+      "waybillNumber": "7017"
     },
     {
       "id": "truck_1762414450734_0_5lfh6vakh",
@@ -15381,6 +15389,6 @@
       "updatedAt": "2025-11-06T07:35:16.436Z"
     }
   ],
-  "lastModified": "2025-11-06T08:21:56.001Z",
+  "lastModified": "2025-11-06T08:23:57.211Z",
   "version": "2.0.0"
 }
