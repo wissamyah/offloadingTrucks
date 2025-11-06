@@ -15314,15 +15314,23 @@
       "bags": 500,
       "moistureLevel": 19,
       "truckNumber": "BAU 232 ZY",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-11-06T07:34:10.734Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-11-06T08:41:34.604Z",
+          "details": {
+            "waybillNumber": "7020"
+          }
         }
       ],
       "createdAt": "2025-11-06T07:34:10.734Z",
-      "updatedAt": "2025-11-06T07:34:10.734Z"
+      "updatedAt": "2025-11-06T08:41:34.604Z",
+      "waybillNumber": "7020"
     },
     {
       "id": "truck_1762414516436_0_mb3fzfkl1",
@@ -15405,6 +15413,6 @@
       "updatedAt": "2025-11-06T07:35:16.436Z"
     }
   ],
-  "lastModified": "2025-11-06T08:29:05.747Z",
+  "lastModified": "2025-11-06T08:41:34.876Z",
   "version": "2.0.0"
 }
