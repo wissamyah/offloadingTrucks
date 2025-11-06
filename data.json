@@ -15266,15 +15266,23 @@
       "bags": 35,
       "moistureLevel": 15,
       "truckNumber": "GJW 343 XA",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-11-06T07:34:10.734Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-11-06T08:26:30.008Z",
+          "details": {
+            "waybillNumber": "7018"
+          }
         }
       ],
       "createdAt": "2025-11-06T07:34:10.734Z",
-      "updatedAt": "2025-11-06T07:34:10.734Z"
+      "updatedAt": "2025-11-06T08:26:30.008Z",
+      "waybillNumber": "7018"
     },
     {
       "id": "truck_1762414450734_2_nkwzw3251",
@@ -15389,6 +15397,6 @@
       "updatedAt": "2025-11-06T07:35:16.436Z"
     }
   ],
-  "lastModified": "2025-11-06T08:23:57.211Z",
+  "lastModified": "2025-11-06T08:26:30.137Z",
   "version": "2.0.0"
 }
