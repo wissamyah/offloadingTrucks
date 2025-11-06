@@ -15574,15 +15574,23 @@
       "bags": 180,
       "moistureLevel": 15,
       "truckNumber": "AGB 14 AA",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-11-06T13:37:54.202Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-11-06T13:39:03.878Z",
+          "details": {
+            "waybillNumber": "7034"
+          }
         }
       ],
       "createdAt": "2025-11-06T13:37:54.202Z",
-      "updatedAt": "2025-11-06T13:37:54.202Z"
+      "updatedAt": "2025-11-06T13:39:03.878Z",
+      "waybillNumber": "7034"
     },
     {
       "id": "truck_1762436274202_2_3gndk76r0",
@@ -15633,6 +15641,6 @@
       "updatedAt": "2025-11-06T13:37:54.202Z"
     }
   ],
-  "lastModified": "2025-11-06T13:37:54.400Z",
+  "lastModified": "2025-11-06T13:39:04.027Z",
   "version": "2.0.0"
 }
