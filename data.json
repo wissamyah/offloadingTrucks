@@ -15162,14 +15162,14 @@
         },
         {
           "status": "scaled_in",
-          "timestamp": "2025-11-06T07:39:27.953Z",
+          "timestamp": "2025-11-06T07:39:53.133Z",
           "details": {
             "waybillNumber": "7012"
           }
         }
       ],
       "createdAt": "2025-11-06T07:33:39.337Z",
-      "updatedAt": "2025-11-06T07:39:27.953Z",
+      "updatedAt": "2025-11-06T07:39:53.133Z",
       "waybillNumber": "7012"
     },
     {
@@ -15349,6 +15349,6 @@
       "updatedAt": "2025-11-06T07:35:16.436Z"
     }
   ],
-  "lastModified": "2025-11-06T07:39:28.142Z",
+  "lastModified": "2025-11-06T07:39:54.103Z",
   "version": "2.0.0"
 }
