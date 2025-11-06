@@ -15428,7 +15428,7 @@
       "bags": 500,
       "moistureLevel": 16,
       "truckNumber": "XC 581 MAG",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -15440,11 +15440,19 @@
           "details": {
             "waybillNumber": "7026"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-11-06T12:57:49.501Z",
+          "details": {
+            "netWeight": 34730
+          }
         }
       ],
       "createdAt": "2025-11-06T07:35:16.436Z",
-      "updatedAt": "2025-11-06T11:40:31.177Z",
-      "waybillNumber": "7026"
+      "updatedAt": "2025-11-06T12:57:49.501Z",
+      "waybillNumber": "7026",
+      "netWeight": 34730
     },
     {
       "id": "truck_1762414516436_2_b819tluf8",
@@ -15527,6 +15535,6 @@
       "waybillNumber": "7028"
     }
   ],
-  "lastModified": "2025-11-06T12:57:29.732Z",
+  "lastModified": "2025-11-06T12:57:49.573Z",
   "version": "2.0.0"
 }
