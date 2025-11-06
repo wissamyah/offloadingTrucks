@@ -15543,7 +15543,7 @@
       "bags": 450,
       "moistureLevel": 13,
       "truckNumber": "SDA 168 XA",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -15555,11 +15555,19 @@
           "details": {
             "waybillNumber": "7028"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-11-06T14:37:43.523Z",
+          "details": {
+            "netWeight": 33100
+          }
         }
       ],
       "createdAt": "2025-11-06T07:35:16.436Z",
-      "updatedAt": "2025-11-06T12:01:34.001Z",
-      "waybillNumber": "7028"
+      "updatedAt": "2025-11-06T14:37:43.523Z",
+      "waybillNumber": "7028",
+      "netWeight": 33100
     },
     {
       "id": "truck_1762436274202_0_dt6guk8vq",
@@ -15682,6 +15690,6 @@
       "waybillNumber": "7037"
     }
   ],
-  "lastModified": "2025-11-06T14:29:57.644Z",
+  "lastModified": "2025-11-06T14:37:43.696Z",
   "version": "2.0.0"
 }
