@@ -15234,15 +15234,23 @@
       "bags": 30,
       "moistureLevel": 12,
       "truckNumber": "MSA 50 LG",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-11-06T07:34:10.734Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-11-06T08:21:42.081Z",
+          "details": {
+            "waybillNumber": "7016"
+          }
         }
       ],
       "createdAt": "2025-11-06T07:34:10.734Z",
-      "updatedAt": "2025-11-06T07:34:10.734Z"
+      "updatedAt": "2025-11-06T08:21:42.081Z",
+      "waybillNumber": "7016"
     },
     {
       "id": "truck_1762414450734_1_izhrwutko",
@@ -15373,6 +15381,6 @@
       "updatedAt": "2025-11-06T07:35:16.436Z"
     }
   ],
-  "lastModified": "2025-11-06T07:50:00.131Z",
+  "lastModified": "2025-11-06T08:21:42.288Z",
   "version": "2.0.0"
 }
