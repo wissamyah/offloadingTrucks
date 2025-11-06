@@ -15558,15 +15558,23 @@
       "bags": 80,
       "moistureLevel": 16,
       "truckNumber": "GGJ 20 XA",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-11-06T13:37:54.202Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-11-06T13:57:40.487Z",
+          "details": {
+            "waybillNumber": "7036"
+          }
         }
       ],
       "createdAt": "2025-11-06T13:37:54.202Z",
-      "updatedAt": "2025-11-06T13:37:54.202Z"
+      "updatedAt": "2025-11-06T13:57:40.487Z",
+      "waybillNumber": "7036"
     },
     {
       "id": "truck_1762436274202_1_p6ix0qfbj",
@@ -15649,6 +15657,6 @@
       "updatedAt": "2025-11-06T13:37:54.202Z"
     }
   ],
-  "lastModified": "2025-11-06T13:39:53.951Z",
+  "lastModified": "2025-11-06T13:57:41.599Z",
   "version": "2.0.0"
 }
