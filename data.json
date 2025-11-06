@@ -15259,8 +15259,88 @@
       ],
       "createdAt": "2025-11-06T07:34:10.734Z",
       "updatedAt": "2025-11-06T07:34:10.734Z"
+    },
+    {
+      "id": "truck_1762414516436_0_mb3fzfkl1",
+      "supplierName": "Damakasu Agro Allied",
+      "bags": 550,
+      "moistureLevel": 14,
+      "truckNumber": "DJB 379 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-06T07:35:16.436Z"
+        }
+      ],
+      "createdAt": "2025-11-06T07:35:16.436Z",
+      "updatedAt": "2025-11-06T07:35:16.436Z"
+    },
+    {
+      "id": "truck_1762414516436_1_z021icgzc",
+      "supplierName": "Damakasu Agro Allied",
+      "bags": 500,
+      "moistureLevel": 16,
+      "truckNumber": "XC 581 MAG",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-06T07:35:16.436Z"
+        }
+      ],
+      "createdAt": "2025-11-06T07:35:16.436Z",
+      "updatedAt": "2025-11-06T07:35:16.436Z"
+    },
+    {
+      "id": "truck_1762414516436_2_b819tluf8",
+      "supplierName": "Idris Haruna",
+      "bags": 544,
+      "moistureLevel": 14,
+      "truckNumber": "KTN 268 YZ",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-06T07:35:16.436Z"
+        }
+      ],
+      "createdAt": "2025-11-06T07:35:16.436Z",
+      "updatedAt": "2025-11-06T07:35:16.436Z"
+    },
+    {
+      "id": "truck_1762414516436_3_memgao3nd",
+      "supplierName": "Al Hassanal",
+      "bags": 500,
+      "moistureLevel": 14,
+      "truckNumber": "ZAR 868 ZW",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-06T07:35:16.436Z"
+        }
+      ],
+      "createdAt": "2025-11-06T07:35:16.436Z",
+      "updatedAt": "2025-11-06T07:35:16.436Z"
+    },
+    {
+      "id": "truck_1762414516436_4_ifgf9ahu5",
+      "supplierName": "Idris Haruna",
+      "bags": 450,
+      "moistureLevel": 13,
+      "truckNumber": "SDA 168 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-06T07:35:16.436Z"
+        }
+      ],
+      "createdAt": "2025-11-06T07:35:16.436Z",
+      "updatedAt": "2025-11-06T07:35:16.436Z"
     }
   ],
-  "lastModified": "2025-11-06T07:34:10.868Z",
+  "lastModified": "2025-11-06T07:35:16.622Z",
   "version": "2.0.0"
 }
