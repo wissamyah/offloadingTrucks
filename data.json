@@ -16038,22 +16038,6 @@
       "netWeight": 52420
     },
     {
-      "id": "truck_1762513870867_1_jjlucxk6m",
-      "supplierName": "Jamilu Yahaya",
-      "bags": 500,
-      "moistureLevel": 13,
-      "truckNumber": "DKD 606 XA",
-      "status": "pending",
-      "statusHistory": [
-        {
-          "status": "pending",
-          "timestamp": "2025-11-07T11:11:10.867Z"
-        }
-      ],
-      "createdAt": "2025-11-07T11:11:10.867Z",
-      "updatedAt": "2025-11-07T11:11:10.867Z"
-    },
-    {
       "id": "truck_1762513870867_2_lsqunh4y0",
       "supplierName": "Mansur Mansur",
       "bags": 500,
@@ -16214,6 +16198,6 @@
       "updatedAt": "2025-11-07T11:12:26.941Z"
     }
   ],
-  "lastModified": "2025-11-07T11:26:15.878Z",
+  "lastModified": "2025-11-07T11:26:32.458Z",
   "version": "2.0.0"
 }
