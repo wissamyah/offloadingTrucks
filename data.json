@@ -16138,7 +16138,7 @@
       "bags": 470,
       "moistureLevel": 15,
       "truckNumber": "NNR 495 XA",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -16150,11 +16150,21 @@
           "details": {
             "waybillNumber": "7056"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-11-07T14:03:29.300Z",
+          "details": {
+            "netWeight": 40950,
+            "deduction": 170
+          }
         }
       ],
       "createdAt": "2025-11-07T11:12:26.940Z",
-      "updatedAt": "2025-11-07T11:24:58.843Z",
-      "waybillNumber": "7056"
+      "updatedAt": "2025-11-07T14:03:29.300Z",
+      "waybillNumber": "7056",
+      "netWeight": 40950,
+      "deduction": 170
     },
     {
       "id": "truck_1762513946940_1_r3egrrrtq",
@@ -16205,6 +16215,6 @@
       "waybillNumber": "7057"
     }
   ],
-  "lastModified": "2025-11-07T12:58:38.788Z",
+  "lastModified": "2025-11-07T14:03:29.465Z",
   "version": "2.0.0"
 }
