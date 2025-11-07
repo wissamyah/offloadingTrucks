@@ -16179,15 +16179,23 @@
       "bags": 160,
       "moistureLevel": 15,
       "truckNumber": "KFR 200 XA",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-11-07T11:12:26.940Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-11-07T11:21:05.554Z",
+          "details": {
+            "waybillNumber": "7058"
+          }
         }
       ],
       "createdAt": "2025-11-07T11:12:26.940Z",
-      "updatedAt": "2025-11-07T11:12:26.941Z"
+      "updatedAt": "2025-11-07T11:21:05.554Z",
+      "waybillNumber": "7058"
     },
     {
       "id": "truck_1762513946940_4_46z7jgwhe",
@@ -16206,6 +16214,6 @@
       "updatedAt": "2025-11-07T11:12:26.941Z"
     }
   ],
-  "lastModified": "2025-11-07T11:18:15.711Z",
+  "lastModified": "2025-11-07T11:21:06.591Z",
   "version": "2.0.0"
 }
