@@ -15918,22 +15918,6 @@
       "waybillNumber": "7039"
     },
     {
-      "id": "truck_1762501209308_4_jhcjlu1u7",
-      "supplierName": "Idris Haruna",
-      "bags": 520,
-      "moistureLevel": 13,
-      "truckNumber": "AGG 982 XA",
-      "status": "pending",
-      "statusHistory": [
-        {
-          "status": "pending",
-          "timestamp": "2025-11-07T07:40:09.308Z"
-        }
-      ],
-      "createdAt": "2025-11-07T07:40:09.308Z",
-      "updatedAt": "2025-11-07T07:40:09.308Z"
-    },
-    {
       "id": "truck_1762501209308_5_c4yjv98kv",
       "supplierName": "Idris Haruna",
       "bags": 506,
@@ -15974,6 +15958,6 @@
       "waybillNumber": "7043"
     }
   ],
-  "lastModified": "2025-11-07T08:46:27.751Z",
+  "lastModified": "2025-11-07T08:55:39.100Z",
   "version": "2.0.0"
 }
