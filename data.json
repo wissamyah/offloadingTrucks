@@ -16209,7 +16209,7 @@
     {
       "id": "truck_1762513946940_2_udrwi1vet",
       "supplierName": "Mansur Mansur",
-      "bags": 500,
+      "bags": 337,
       "moistureLevel": 14,
       "truckNumber": "MLF 648 XA",
       "status": "offloaded",
@@ -16239,6 +16239,6 @@
       "netWeight": 29300
     }
   ],
-  "lastModified": "2025-11-07T15:52:49.231Z",
+  "lastModified": "2025-11-07T15:53:11.108Z",
   "version": "2.0.0"
 }
