@@ -15923,7 +15923,7 @@
       "bags": 500,
       "moistureLevel": 13,
       "truckNumber": "TRR 446 YX",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -15935,11 +15935,19 @@
           "details": {
             "waybillNumber": "7039"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-11-07T09:46:22.258Z",
+          "details": {
+            "netWeight": 36320
+          }
         }
       ],
       "createdAt": "2025-11-07T07:40:09.308Z",
-      "updatedAt": "2025-11-07T07:41:52.962Z",
-      "waybillNumber": "7039"
+      "updatedAt": "2025-11-07T09:46:22.258Z",
+      "waybillNumber": "7039",
+      "netWeight": 36320
     },
     {
       "id": "truck_1762501209308_5_c4yjv98kv",
@@ -15990,6 +15998,6 @@
       "waybillNumber": "7043"
     }
   ],
-  "lastModified": "2025-11-07T09:41:48.742Z",
+  "lastModified": "2025-11-07T09:46:22.442Z",
   "version": "2.0.0"
 }
