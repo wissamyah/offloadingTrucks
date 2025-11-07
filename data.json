@@ -16028,8 +16028,88 @@
       "updatedAt": "2025-11-07T10:12:00.938Z",
       "waybillNumber": "7043",
       "netWeight": 52420
+    },
+    {
+      "id": "truck_1762513870867_0_rmvxhq8e2",
+      "supplierName": "Idris Haruna",
+      "bags": 470,
+      "moistureLevel": 15,
+      "truckNumber": "NNR 495 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-07T11:11:10.867Z"
+        }
+      ],
+      "createdAt": "2025-11-07T11:11:10.867Z",
+      "updatedAt": "2025-11-07T11:11:10.867Z"
+    },
+    {
+      "id": "truck_1762513870867_1_jjlucxk6m",
+      "supplierName": "Jamilu Yahaya",
+      "bags": 500,
+      "moistureLevel": 13,
+      "truckNumber": "DKD 606 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-07T11:11:10.867Z"
+        }
+      ],
+      "createdAt": "2025-11-07T11:11:10.867Z",
+      "updatedAt": "2025-11-07T11:11:10.867Z"
+    },
+    {
+      "id": "truck_1762513870867_2_lsqunh4y0",
+      "supplierName": "Mansur Mansur",
+      "bags": 500,
+      "moistureLevel": 14,
+      "truckNumber": "MLF 648 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-07T11:11:10.867Z"
+        }
+      ],
+      "createdAt": "2025-11-07T11:11:10.867Z",
+      "updatedAt": "2025-11-07T11:11:10.867Z"
+    },
+    {
+      "id": "truck_1762513870867_3_zmpgjykah",
+      "supplierName": "Idris Haruna",
+      "bags": 160,
+      "moistureLevel": 15,
+      "truckNumber": "KFR 200 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-07T11:11:10.867Z"
+        }
+      ],
+      "createdAt": "2025-11-07T11:11:10.867Z",
+      "updatedAt": "2025-11-07T11:11:10.867Z"
+    },
+    {
+      "id": "truck_1762513870867_4_cm2odst55",
+      "supplierName": "Mansur Mansur",
+      "bags": 82,
+      "moistureLevel": 14,
+      "truckNumber": "MLF 399 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-07T11:11:10.867Z"
+        }
+      ],
+      "createdAt": "2025-11-07T11:11:10.867Z",
+      "updatedAt": "2025-11-07T11:11:10.867Z"
     }
   ],
-  "lastModified": "2025-11-07T10:28:04.437Z",
+  "lastModified": "2025-11-07T11:11:11.105Z",
   "version": "2.0.0"
 }
