@@ -16038,22 +16038,6 @@
       "netWeight": 52420
     },
     {
-      "id": "truck_1762513870867_2_lsqunh4y0",
-      "supplierName": "Mansur Mansur",
-      "bags": 500,
-      "moistureLevel": 14,
-      "truckNumber": "MLF 648 XA",
-      "status": "pending",
-      "statusHistory": [
-        {
-          "status": "pending",
-          "timestamp": "2025-11-07T11:11:10.867Z"
-        }
-      ],
-      "createdAt": "2025-11-07T11:11:10.867Z",
-      "updatedAt": "2025-11-07T11:11:10.867Z"
-    },
-    {
       "id": "truck_1762513870867_3_zmpgjykah",
       "supplierName": "Idris Haruna",
       "bags": 160,
@@ -16206,6 +16190,6 @@
       "updatedAt": "2025-11-07T11:12:26.941Z"
     }
   ],
-  "lastModified": "2025-11-07T11:27:55.999Z",
+  "lastModified": "2025-11-07T11:28:12.137Z",
   "version": "2.0.0"
 }
