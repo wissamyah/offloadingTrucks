@@ -15995,7 +15995,7 @@
       "bags": 620,
       "moistureLevel": 13,
       "truckNumber": "AGG 982 XA",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -16007,13 +16007,21 @@
           "details": {
             "waybillNumber": "7043"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-11-07T10:12:00.938Z",
+          "details": {
+            "netWeight": 52420
+          }
         }
       ],
       "createdAt": "2025-11-07T08:07:36.207Z",
-      "updatedAt": "2025-11-07T08:08:06.694Z",
-      "waybillNumber": "7043"
+      "updatedAt": "2025-11-07T10:12:00.938Z",
+      "waybillNumber": "7043",
+      "netWeight": 52420
     }
   ],
-  "lastModified": "2025-11-07T10:02:59.721Z",
+  "lastModified": "2025-11-07T10:12:01.205Z",
   "version": "2.0.0"
 }
