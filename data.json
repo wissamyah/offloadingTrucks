@@ -15796,8 +15796,104 @@
       ],
       "createdAt": "2025-11-07T07:39:41.983Z",
       "updatedAt": "2025-11-07T07:39:41.983Z"
+    },
+    {
+      "id": "truck_1762501209308_0_4jvs4bifw",
+      "supplierName": "Mukhtari Sale",
+      "bags": 190,
+      "moistureLevel": 14,
+      "truckNumber": "ALK 214 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-07T07:40:09.308Z"
+        }
+      ],
+      "createdAt": "2025-11-07T07:40:09.308Z",
+      "updatedAt": "2025-11-07T07:40:09.308Z"
+    },
+    {
+      "id": "truck_1762501209308_1_hagyti8ij",
+      "supplierName": "Alh Danasabe",
+      "bags": 200,
+      "moistureLevel": 15,
+      "truckNumber": "AAA 897 YE",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-07T07:40:09.308Z"
+        }
+      ],
+      "createdAt": "2025-11-07T07:40:09.308Z",
+      "updatedAt": "2025-11-07T07:40:09.308Z"
+    },
+    {
+      "id": "truck_1762501209308_2_pfef94h0i",
+      "supplierName": "Jamilu Yahaya",
+      "bags": 210,
+      "moistureLevel": 14,
+      "truckNumber": "KTG 620 XB",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-07T07:40:09.308Z"
+        }
+      ],
+      "createdAt": "2025-11-07T07:40:09.308Z",
+      "updatedAt": "2025-11-07T07:40:09.308Z"
+    },
+    {
+      "id": "truck_1762501209308_3_4cltvnciz",
+      "supplierName": "M B Flour",
+      "bags": 500,
+      "moistureLevel": 13,
+      "truckNumber": "TRR 446 YX",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-07T07:40:09.308Z"
+        }
+      ],
+      "createdAt": "2025-11-07T07:40:09.308Z",
+      "updatedAt": "2025-11-07T07:40:09.308Z"
+    },
+    {
+      "id": "truck_1762501209308_4_jhcjlu1u7",
+      "supplierName": "Idris Haruna",
+      "bags": 520,
+      "moistureLevel": 13,
+      "truckNumber": "AGG 982 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-07T07:40:09.308Z"
+        }
+      ],
+      "createdAt": "2025-11-07T07:40:09.308Z",
+      "updatedAt": "2025-11-07T07:40:09.308Z"
+    },
+    {
+      "id": "truck_1762501209308_5_c4yjv98kv",
+      "supplierName": "Idris Haruna",
+      "bags": 506,
+      "moistureLevel": 13,
+      "truckNumber": "AT 777 MKM",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-07T07:40:09.308Z"
+        }
+      ],
+      "createdAt": "2025-11-07T07:40:09.308Z",
+      "updatedAt": "2025-11-07T07:40:09.308Z"
     }
   ],
-  "lastModified": "2025-11-07T07:39:42.173Z",
+  "lastModified": "2025-11-07T07:40:10.783Z",
   "version": "2.0.0"
 }
