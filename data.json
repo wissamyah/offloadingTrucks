@@ -15723,7 +15723,7 @@
       "bags": 450,
       "moistureLevel": 14,
       "truckNumber": "QAP 785 XA",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -15735,11 +15735,19 @@
           "details": {
             "waybillNumber": "7041"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-11-07T09:56:18.802Z",
+          "details": {
+            "netWeight": 32630
+          }
         }
       ],
       "createdAt": "2025-11-07T07:39:41.983Z",
-      "updatedAt": "2025-11-07T07:47:34.371Z",
-      "waybillNumber": "7041"
+      "updatedAt": "2025-11-07T09:56:18.802Z",
+      "waybillNumber": "7041",
+      "netWeight": 32630
     },
     {
       "id": "truck_1762501181983_1_1fs8mmfe2",
@@ -15998,6 +16006,6 @@
       "waybillNumber": "7043"
     }
   ],
-  "lastModified": "2025-11-07T09:46:22.442Z",
+  "lastModified": "2025-11-07T09:56:19.087Z",
   "version": "2.0.0"
 }
