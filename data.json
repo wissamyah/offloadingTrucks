@@ -16131,15 +16131,23 @@
       "bags": 500,
       "moistureLevel": 13,
       "truckNumber": "DKD 606 XA",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-11-07T11:12:26.940Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-11-07T11:15:51.738Z",
+          "details": {
+            "waybillNumber": "7055"
+          }
         }
       ],
       "createdAt": "2025-11-07T11:12:26.940Z",
-      "updatedAt": "2025-11-07T11:12:26.940Z"
+      "updatedAt": "2025-11-07T11:15:51.738Z",
+      "waybillNumber": "7055"
     },
     {
       "id": "truck_1762513946940_2_udrwi1vet",
@@ -16190,6 +16198,6 @@
       "updatedAt": "2025-11-07T11:12:26.941Z"
     }
   ],
-  "lastModified": "2025-11-07T11:12:28.774Z",
+  "lastModified": "2025-11-07T11:15:52.522Z",
   "version": "2.0.0"
 }
