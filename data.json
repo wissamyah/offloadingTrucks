@@ -15720,7 +15720,7 @@
     {
       "id": "truck_1762501181983_0_k9hvabzwt",
       "supplierName": "Idris Haruna",
-      "bags": 350,
+      "bags": 450,
       "moistureLevel": 14,
       "truckNumber": "QAP 785 XA",
       "status": "scaled_in",
@@ -15950,6 +15950,6 @@
       "waybillNumber": "7043"
     }
   ],
-  "lastModified": "2025-11-07T08:23:45.165Z",
+  "lastModified": "2025-11-07T08:24:24.181Z",
   "version": "2.0.0"
 }
