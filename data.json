@@ -15795,7 +15795,7 @@
       "bags": 180,
       "moistureLevel": 12,
       "truckNumber": "TRR 109 YX",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -15807,11 +15807,19 @@
           "details": {
             "waybillNumber": "7044"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-11-07T09:18:35.545Z",
+          "details": {
+            "netWeight": 13420
+          }
         }
       ],
       "createdAt": "2025-11-07T07:39:41.983Z",
-      "updatedAt": "2025-11-07T08:17:34.906Z",
-      "waybillNumber": "7044"
+      "updatedAt": "2025-11-07T09:18:35.545Z",
+      "waybillNumber": "7044",
+      "netWeight": 13420
     },
     {
       "id": "truck_1762501181983_4_yrj6jgmfr",
@@ -15958,6 +15966,6 @@
       "waybillNumber": "7043"
     }
   ],
-  "lastModified": "2025-11-07T08:55:39.100Z",
+  "lastModified": "2025-11-07T09:18:35.841Z",
   "version": "2.0.0"
 }
