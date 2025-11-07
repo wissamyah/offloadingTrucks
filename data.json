@@ -15716,8 +15716,88 @@
       "updatedAt": "2025-11-06T16:04:44.209Z",
       "waybillNumber": "7037",
       "netWeight": 20480
+    },
+    {
+      "id": "truck_1762501181983_0_k9hvabzwt",
+      "supplierName": "Idris Haruna",
+      "bags": 350,
+      "moistureLevel": 14,
+      "truckNumber": "QAP 785 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-07T07:39:41.983Z"
+        }
+      ],
+      "createdAt": "2025-11-07T07:39:41.983Z",
+      "updatedAt": "2025-11-07T07:39:41.983Z"
+    },
+    {
+      "id": "truck_1762501181983_1_1fs8mmfe2",
+      "supplierName": "Mansur Mansur",
+      "bags": 450,
+      "moistureLevel": 13,
+      "truckNumber": "KFR 227 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-07T07:39:41.983Z"
+        }
+      ],
+      "createdAt": "2025-11-07T07:39:41.983Z",
+      "updatedAt": "2025-11-07T07:39:41.983Z"
+    },
+    {
+      "id": "truck_1762501181983_2_9klg2uceq",
+      "supplierName": "Mansur Mansur",
+      "bags": 450,
+      "moistureLevel": 17,
+      "truckNumber": "KFR 207 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-07T07:39:41.983Z"
+        }
+      ],
+      "createdAt": "2025-11-07T07:39:41.983Z",
+      "updatedAt": "2025-11-07T07:39:41.983Z"
+    },
+    {
+      "id": "truck_1762501181983_3_08t9jldlk",
+      "supplierName": "M B Flour",
+      "bags": 180,
+      "moistureLevel": 12,
+      "truckNumber": "TRR 109 YX",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-07T07:39:41.983Z"
+        }
+      ],
+      "createdAt": "2025-11-07T07:39:41.983Z",
+      "updatedAt": "2025-11-07T07:39:41.983Z"
+    },
+    {
+      "id": "truck_1762501181983_4_yrj6jgmfr",
+      "supplierName": "B L Barka",
+      "bags": 220,
+      "moistureLevel": 15,
+      "truckNumber": "NNG 398 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-07T07:39:41.983Z"
+        }
+      ],
+      "createdAt": "2025-11-07T07:39:41.983Z",
+      "updatedAt": "2025-11-07T07:39:41.983Z"
     }
   ],
-  "lastModified": "2025-11-06T16:37:23.206Z",
+  "lastModified": "2025-11-07T07:39:42.173Z",
   "version": "2.0.0"
 }
