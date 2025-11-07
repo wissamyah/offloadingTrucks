@@ -16038,22 +16038,6 @@
       "netWeight": 52420
     },
     {
-      "id": "truck_1762513870867_0_rmvxhq8e2",
-      "supplierName": "Idris Haruna",
-      "bags": 470,
-      "moistureLevel": 15,
-      "truckNumber": "NNR 495 XA",
-      "status": "pending",
-      "statusHistory": [
-        {
-          "status": "pending",
-          "timestamp": "2025-11-07T11:11:10.867Z"
-        }
-      ],
-      "createdAt": "2025-11-07T11:11:10.867Z",
-      "updatedAt": "2025-11-07T11:11:10.867Z"
-    },
-    {
       "id": "truck_1762513870867_1_jjlucxk6m",
       "supplierName": "Jamilu Yahaya",
       "bags": 500,
@@ -16222,6 +16206,6 @@
       "updatedAt": "2025-11-07T11:12:26.941Z"
     }
   ],
-  "lastModified": "2025-11-07T11:24:59.077Z",
+  "lastModified": "2025-11-07T11:25:21.553Z",
   "version": "2.0.0"
 }
