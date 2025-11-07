@@ -16172,24 +16172,8 @@
       "createdAt": "2025-11-07T11:12:26.940Z",
       "updatedAt": "2025-11-07T11:21:05.554Z",
       "waybillNumber": "7058"
-    },
-    {
-      "id": "truck_1762513946940_4_46z7jgwhe",
-      "supplierName": "Mansur Mansur",
-      "bags": 82,
-      "moistureLevel": 14,
-      "truckNumber": "MLF 399 XA",
-      "status": "pending",
-      "statusHistory": [
-        {
-          "status": "pending",
-          "timestamp": "2025-11-07T11:12:26.941Z"
-        }
-      ],
-      "createdAt": "2025-11-07T11:12:26.941Z",
-      "updatedAt": "2025-11-07T11:12:26.941Z"
     }
   ],
-  "lastModified": "2025-11-07T11:28:12.137Z",
+  "lastModified": "2025-11-07T11:29:33.251Z",
   "version": "2.0.0"
 }
