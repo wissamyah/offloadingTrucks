@@ -16106,7 +16106,7 @@
       "bags": 80,
       "moistureLevel": 14,
       "truckNumber": "MLF 399 XA",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -16118,11 +16118,19 @@
           "details": {
             "waybillNumber": "7059"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-11-07T12:58:38.717Z",
+          "details": {
+            "netWeight": 5850
+          }
         }
       ],
       "createdAt": "2025-11-07T11:11:10.867Z",
-      "updatedAt": "2025-11-07T11:37:25.528Z",
-      "waybillNumber": "7059"
+      "updatedAt": "2025-11-07T12:58:38.717Z",
+      "waybillNumber": "7059",
+      "netWeight": 5850
     },
     {
       "id": "truck_1762513946940_0_ek868abal",
@@ -16197,6 +16205,6 @@
       "waybillNumber": "7057"
     }
   ],
-  "lastModified": "2025-11-07T12:33:30.640Z",
+  "lastModified": "2025-11-07T12:58:38.788Z",
   "version": "2.0.0"
 }
