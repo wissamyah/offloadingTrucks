@@ -15843,15 +15843,23 @@
       "bags": 190,
       "moistureLevel": 14,
       "truckNumber": "ALK 214 XA",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-11-07T07:40:09.308Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-11-07T08:46:26.642Z",
+          "details": {
+            "waybillNumber": "7047"
+          }
         }
       ],
       "createdAt": "2025-11-07T07:40:09.308Z",
-      "updatedAt": "2025-11-07T07:40:09.308Z"
+      "updatedAt": "2025-11-07T08:46:26.642Z",
+      "waybillNumber": "7047"
     },
     {
       "id": "truck_1762501209308_1_hagyti8ij",
@@ -15966,6 +15974,6 @@
       "waybillNumber": "7043"
     }
   ],
-  "lastModified": "2025-11-07T08:43:33.785Z",
+  "lastModified": "2025-11-07T08:46:27.751Z",
   "version": "2.0.0"
 }
