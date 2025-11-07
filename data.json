@@ -15752,7 +15752,7 @@
     {
       "id": "truck_1762501181983_1_1fs8mmfe2",
       "supplierName": "Mansur Mansur",
-      "bags": 450,
+      "bags": 230,
       "moistureLevel": 13,
       "truckNumber": "KFR 227 XA",
       "status": "scaled_in",
@@ -16201,6 +16201,6 @@
       "waybillNumber": "7058"
     }
   ],
-  "lastModified": "2025-11-07T12:03:27.584Z",
+  "lastModified": "2025-11-07T12:05:01.042Z",
   "version": "2.0.0"
 }
