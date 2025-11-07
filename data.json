@@ -15891,15 +15891,23 @@
       "bags": 210,
       "moistureLevel": 14,
       "truckNumber": "KTG 620 XB",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-11-07T07:40:09.308Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-11-07T09:31:49.560Z",
+          "details": {
+            "waybillNumber": "7050"
+          }
         }
       ],
       "createdAt": "2025-11-07T07:40:09.308Z",
-      "updatedAt": "2025-11-07T07:40:09.308Z"
+      "updatedAt": "2025-11-07T09:31:49.561Z",
+      "waybillNumber": "7050"
     },
     {
       "id": "truck_1762501209308_3_4cltvnciz",
@@ -15966,6 +15974,6 @@
       "waybillNumber": "7043"
     }
   ],
-  "lastModified": "2025-11-07T09:18:35.841Z",
+  "lastModified": "2025-11-07T09:31:49.777Z",
   "version": "2.0.0"
 }
