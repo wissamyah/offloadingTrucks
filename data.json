@@ -16704,17 +16704,25 @@
       "bags": 349,
       "moistureLevel": 16,
       "truckNumber": "XC 414 MKA",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-11-08T14:23:59.285Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-11-08T14:33:10.656Z",
+          "details": {
+            "waybillNumber": "7087"
+          }
         }
       ],
       "createdAt": "2025-11-08T14:23:59.285Z",
-      "updatedAt": "2025-11-08T14:23:59.285Z"
+      "updatedAt": "2025-11-08T14:33:10.656Z",
+      "waybillNumber": "7087"
     }
   ],
-  "lastModified": "2025-11-08T14:30:29.577Z",
+  "lastModified": "2025-11-08T14:33:11.669Z",
   "version": "2.0.0"
 }
