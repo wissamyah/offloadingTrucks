@@ -16237,8 +16237,104 @@
       "updatedAt": "2025-11-07T15:52:49.092Z",
       "waybillNumber": "7057",
       "netWeight": 29300
+    },
+    {
+      "id": "truck_1762586661235_0_2tb015ony",
+      "supplierName": "Idris Haruna",
+      "bags": 460,
+      "moistureLevel": 13,
+      "truckNumber": "BAU 241 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-08T07:24:21.235Z"
+        }
+      ],
+      "createdAt": "2025-11-08T07:24:21.235Z",
+      "updatedAt": "2025-11-08T07:24:21.235Z"
+    },
+    {
+      "id": "truck_1762586661235_1_iahecqruk",
+      "supplierName": "Alh Danasabe",
+      "bags": 35,
+      "moistureLevel": 17,
+      "truckNumber": "MSA 324 XB",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-08T07:24:21.235Z"
+        }
+      ],
+      "createdAt": "2025-11-08T07:24:21.235Z",
+      "updatedAt": "2025-11-08T07:24:21.235Z"
+    },
+    {
+      "id": "truck_1762586661235_2_yzmo4fhhn",
+      "supplierName": "Damakasu Agro Allied",
+      "bags": 530,
+      "moistureLevel": 13,
+      "truckNumber": "FKY 943 YF",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-08T07:24:21.235Z"
+        }
+      ],
+      "createdAt": "2025-11-08T07:24:21.235Z",
+      "updatedAt": "2025-11-08T07:24:21.235Z"
+    },
+    {
+      "id": "truck_1762586661235_3_1gh7lhb8b",
+      "supplierName": "A A Koli",
+      "bags": 210,
+      "moistureLevel": 13,
+      "truckNumber": "YLA 877 ZY",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-08T07:24:21.235Z"
+        }
+      ],
+      "createdAt": "2025-11-08T07:24:21.235Z",
+      "updatedAt": "2025-11-08T07:24:21.235Z"
+    },
+    {
+      "id": "truck_1762586661235_4_m7z1tuch8",
+      "supplierName": "B L Barka",
+      "bags": 229,
+      "moistureLevel": 12,
+      "truckNumber": "GWA 993 YM",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-08T07:24:21.235Z"
+        }
+      ],
+      "createdAt": "2025-11-08T07:24:21.235Z",
+      "updatedAt": "2025-11-08T07:24:21.235Z"
+    },
+    {
+      "id": "truck_1762586661235_5_du8nhfsas",
+      "supplierName": "H Dankoli Gen Enterprises",
+      "bags": 65,
+      "moistureLevel": 14,
+      "truckNumber": "BAU 849 ZE",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-08T07:24:21.235Z"
+        }
+      ],
+      "createdAt": "2025-11-08T07:24:21.235Z",
+      "updatedAt": "2025-11-08T07:24:21.235Z"
     }
   ],
-  "lastModified": "2025-11-07T15:53:11.108Z",
+  "lastModified": "2025-11-08T07:24:21.407Z",
   "version": "2.0.0"
 }
