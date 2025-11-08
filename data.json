@@ -16332,15 +16332,23 @@
       "bags": 229,
       "moistureLevel": 12,
       "truckNumber": "GWA 993 YM",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-11-08T07:24:21.235Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-11-08T08:53:56.504Z",
+          "details": {
+            "waybillNumber": "7068"
+          }
         }
       ],
       "createdAt": "2025-11-08T07:24:21.235Z",
-      "updatedAt": "2025-11-08T07:24:21.235Z"
+      "updatedAt": "2025-11-08T08:53:56.504Z",
+      "waybillNumber": "7068"
     },
     {
       "id": "truck_1762586661235_5_du8nhfsas",
@@ -16447,6 +16455,6 @@
       "updatedAt": "2025-11-08T07:25:06.271Z"
     }
   ],
-  "lastModified": "2025-11-08T08:53:18.396Z",
+  "lastModified": "2025-11-08T08:53:56.649Z",
   "version": "2.0.0"
 }
