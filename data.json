@@ -16663,8 +16663,40 @@
       "updatedAt": "2025-11-08T12:39:50.644Z",
       "waybillNumber": "7079",
       "netWeight": 14720
+    },
+    {
+      "id": "truck_1762611839285_0_vmy5pic4e",
+      "supplierName": "Idris Aliyu",
+      "bags": 100,
+      "moistureLevel": 19,
+      "truckNumber": "DKA 890 ZP",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-08T14:23:59.285Z"
+        }
+      ],
+      "createdAt": "2025-11-08T14:23:59.285Z",
+      "updatedAt": "2025-11-08T14:23:59.285Z"
+    },
+    {
+      "id": "truck_1762611839285_1_yn8543f46",
+      "supplierName": "Idris Haruna",
+      "bags": 349,
+      "moistureLevel": 16,
+      "truckNumber": "XC 414 MKA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-08T14:23:59.285Z"
+        }
+      ],
+      "createdAt": "2025-11-08T14:23:59.285Z",
+      "updatedAt": "2025-11-08T14:23:59.285Z"
     }
   ],
-  "lastModified": "2025-11-08T13:36:10.998Z",
+  "lastModified": "2025-11-08T14:23:59.439Z",
   "version": "2.0.0"
 }
