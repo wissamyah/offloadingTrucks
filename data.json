@@ -16268,15 +16268,23 @@
       "bags": 35,
       "moistureLevel": 17,
       "truckNumber": "MSA 324 XB",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-11-08T07:24:21.235Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-11-08T08:34:48.717Z",
+          "details": {
+            "waybillNumber": "7069"
+          }
         }
       ],
       "createdAt": "2025-11-08T07:24:21.235Z",
-      "updatedAt": "2025-11-08T07:24:21.235Z"
+      "updatedAt": "2025-11-08T08:34:48.717Z",
+      "waybillNumber": "7069"
     },
     {
       "id": "truck_1762586661235_2_yzmo4fhhn",
@@ -16423,6 +16431,6 @@
       "updatedAt": "2025-11-08T07:25:06.271Z"
     }
   ],
-  "lastModified": "2025-11-08T07:36:42.830Z",
+  "lastModified": "2025-11-08T08:34:49.858Z",
   "version": "2.0.0"
 }
