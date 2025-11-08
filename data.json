@@ -16502,7 +16502,7 @@
       "bags": 277,
       "moistureLevel": 17,
       "truckNumber": "NGU 551 XA",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -16514,11 +16514,19 @@
           "details": {
             "waybillNumber": "7075"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-11-08T11:33:38.660Z",
+          "details": {
+            "netWeight": 21720
+          }
         }
       ],
       "createdAt": "2025-11-08T07:25:06.271Z",
-      "updatedAt": "2025-11-08T10:02:06.821Z",
-      "waybillNumber": "7075"
+      "updatedAt": "2025-11-08T11:33:38.660Z",
+      "waybillNumber": "7075",
+      "netWeight": 21720
     },
     {
       "id": "truck_1762586706271_3_usuhlhvy0",
@@ -16633,6 +16641,6 @@
       "waybillNumber": "7079"
     }
   ],
-  "lastModified": "2025-11-08T11:32:59.710Z",
+  "lastModified": "2025-11-08T11:33:38.830Z",
   "version": "2.0.0"
 }
