@@ -16600,7 +16600,7 @@
       "bags": 500,
       "moistureLevel": 18,
       "truckNumber": "FKY 865 YF",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -16612,11 +16612,19 @@
           "details": {
             "waybillNumber": "7082"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-11-08T16:11:32.153Z",
+          "details": {
+            "netWeight": 40760
+          }
         }
       ],
       "createdAt": "2025-11-08T11:21:07.691Z",
-      "updatedAt": "2025-11-08T13:36:10.782Z",
-      "waybillNumber": "7082"
+      "updatedAt": "2025-11-08T16:11:32.153Z",
+      "waybillNumber": "7082",
+      "netWeight": 40760
     },
     {
       "id": "truck_1762600867691_2_q9jl25sby",
@@ -16731,6 +16739,6 @@
       "waybillNumber": "7087"
     }
   ],
-  "lastModified": "2025-11-08T14:56:42.354Z",
+  "lastModified": "2025-11-08T16:11:32.292Z",
   "version": "2.0.0"
 }
