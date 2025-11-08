@@ -16284,15 +16284,23 @@
       "bags": 530,
       "moistureLevel": 13,
       "truckNumber": "FKY 943 YF",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-11-08T07:24:21.235Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-11-08T07:32:14.418Z",
+          "details": {
+            "waybillNumber": "7065"
+          }
         }
       ],
       "createdAt": "2025-11-08T07:24:21.235Z",
-      "updatedAt": "2025-11-08T07:24:21.235Z"
+      "updatedAt": "2025-11-08T07:32:14.418Z",
+      "waybillNumber": "7065"
     },
     {
       "id": "truck_1762586661235_3_1gh7lhb8b",
@@ -16407,6 +16415,6 @@
       "updatedAt": "2025-11-08T07:25:06.271Z"
     }
   ],
-  "lastModified": "2025-11-08T07:26:16.613Z",
+  "lastModified": "2025-11-08T07:32:14.559Z",
   "version": "2.0.0"
 }
