@@ -16356,15 +16356,23 @@
       "bags": 500,
       "moistureLevel": 15,
       "truckNumber": "MKA 553 ZE",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-11-08T07:25:06.271Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-11-08T07:36:42.676Z",
+          "details": {
+            "waybillNumber": "7066"
+          }
         }
       ],
       "createdAt": "2025-11-08T07:25:06.271Z",
-      "updatedAt": "2025-11-08T07:25:06.271Z"
+      "updatedAt": "2025-11-08T07:36:42.676Z",
+      "waybillNumber": "7066"
     },
     {
       "id": "truck_1762586706271_1_un3e1kdoi",
@@ -16415,6 +16423,6 @@
       "updatedAt": "2025-11-08T07:25:06.271Z"
     }
   ],
-  "lastModified": "2025-11-08T07:32:14.559Z",
+  "lastModified": "2025-11-08T07:36:42.830Z",
   "version": "2.0.0"
 }
