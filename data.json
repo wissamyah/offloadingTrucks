@@ -16333,8 +16333,72 @@
       ],
       "createdAt": "2025-11-08T07:24:21.235Z",
       "updatedAt": "2025-11-08T07:24:21.235Z"
+    },
+    {
+      "id": "truck_1762586706271_0_1t5ucoke2",
+      "supplierName": "Al Hassanan Enterprises",
+      "bags": 500,
+      "moistureLevel": 15,
+      "truckNumber": "MKA 553 ZE",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-08T07:25:06.271Z"
+        }
+      ],
+      "createdAt": "2025-11-08T07:25:06.271Z",
+      "updatedAt": "2025-11-08T07:25:06.271Z"
+    },
+    {
+      "id": "truck_1762586706271_1_un3e1kdoi",
+      "supplierName": "Shehu Muhammad",
+      "bags": 400,
+      "moistureLevel": 18,
+      "truckNumber": "KKR 139 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-08T07:25:06.271Z"
+        }
+      ],
+      "createdAt": "2025-11-08T07:25:06.271Z",
+      "updatedAt": "2025-11-08T07:25:06.271Z"
+    },
+    {
+      "id": "truck_1762586706271_2_te20zu57r",
+      "supplierName": "Idris Haruna",
+      "bags": 277,
+      "moistureLevel": 17,
+      "truckNumber": "NGU 551 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-08T07:25:06.271Z"
+        }
+      ],
+      "createdAt": "2025-11-08T07:25:06.271Z",
+      "updatedAt": "2025-11-08T07:25:06.271Z"
+    },
+    {
+      "id": "truck_1762586706271_3_usuhlhvy0",
+      "supplierName": "Mansur Mansur",
+      "bags": 400,
+      "moistureLevel": 14,
+      "truckNumber": "AG 666 KTN",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-08T07:25:06.271Z"
+        }
+      ],
+      "createdAt": "2025-11-08T07:25:06.271Z",
+      "updatedAt": "2025-11-08T07:25:06.271Z"
     }
   ],
-  "lastModified": "2025-11-08T07:24:21.407Z",
+  "lastModified": "2025-11-08T07:25:06.399Z",
   "version": "2.0.0"
 }
