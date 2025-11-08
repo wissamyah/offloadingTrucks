@@ -16543,8 +16543,72 @@
       "createdAt": "2025-11-08T07:25:06.271Z",
       "updatedAt": "2025-11-08T10:03:58.076Z",
       "waybillNumber": "7076"
+    },
+    {
+      "id": "truck_1762600867691_0_bp792wdsl",
+      "supplierName": "Idris Haruna",
+      "bags": 250,
+      "moistureLevel": 15,
+      "truckNumber": "XA 954 TRR",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-08T11:21:07.691Z"
+        }
+      ],
+      "createdAt": "2025-11-08T11:21:07.691Z",
+      "updatedAt": "2025-11-08T11:21:07.691Z"
+    },
+    {
+      "id": "truck_1762600867691_1_98m4dlgsu",
+      "supplierName": "Idris Garba",
+      "bags": 500,
+      "moistureLevel": 18,
+      "truckNumber": "FKY 865 YF",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-08T11:21:07.691Z"
+        }
+      ],
+      "createdAt": "2025-11-08T11:21:07.691Z",
+      "updatedAt": "2025-11-08T11:21:07.691Z"
+    },
+    {
+      "id": "truck_1762600867691_2_q9jl25sby",
+      "supplierName": "Idris Haruna",
+      "bags": 400,
+      "moistureLevel": 12,
+      "truckNumber": "KMC 984 ZQ",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-08T11:21:07.691Z"
+        }
+      ],
+      "createdAt": "2025-11-08T11:21:07.691Z",
+      "updatedAt": "2025-11-08T11:21:07.691Z"
+    },
+    {
+      "id": "truck_1762600867691_3_l2tbgt6c0",
+      "supplierName": "Alh Danasabe",
+      "bags": 180,
+      "moistureLevel": 13,
+      "truckNumber": "NGU 488 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-08T11:21:07.691Z"
+        }
+      ],
+      "createdAt": "2025-11-08T11:21:07.691Z",
+      "updatedAt": "2025-11-08T11:21:07.691Z"
     }
   ],
-  "lastModified": "2025-11-08T11:11:33.513Z",
+  "lastModified": "2025-11-08T11:21:08.684Z",
   "version": "2.0.0"
 }
