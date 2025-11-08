@@ -16316,15 +16316,23 @@
       "bags": 210,
       "moistureLevel": 13,
       "truckNumber": "YLA 877 ZY",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-11-08T07:24:21.235Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-11-08T08:54:33.048Z",
+          "details": {
+            "waybillNumber": "7071"
+          }
         }
       ],
       "createdAt": "2025-11-08T07:24:21.235Z",
-      "updatedAt": "2025-11-08T07:24:21.235Z"
+      "updatedAt": "2025-11-08T08:54:33.048Z",
+      "waybillNumber": "7071"
     },
     {
       "id": "truck_1762586661235_4_m7z1tuch8",
@@ -16455,6 +16463,6 @@
       "updatedAt": "2025-11-08T07:25:06.271Z"
     }
   ],
-  "lastModified": "2025-11-08T08:53:56.649Z",
+  "lastModified": "2025-11-08T08:54:33.191Z",
   "version": "2.0.0"
 }
