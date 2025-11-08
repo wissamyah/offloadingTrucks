@@ -16412,7 +16412,7 @@
       "bags": 400,
       "moistureLevel": 18,
       "truckNumber": "KKR 139 XA",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -16424,11 +16424,19 @@
           "details": {
             "waybillNumber": "7067"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-11-08T09:51:12.164Z",
+          "details": {
+            "netWeight": 28410
+          }
         }
       ],
       "createdAt": "2025-11-08T07:25:06.271Z",
-      "updatedAt": "2025-11-08T08:53:18.188Z",
-      "waybillNumber": "7067"
+      "updatedAt": "2025-11-08T09:51:12.164Z",
+      "waybillNumber": "7067",
+      "netWeight": 28410
     },
     {
       "id": "truck_1762586706271_2_te20zu57r",
@@ -16463,6 +16471,6 @@
       "updatedAt": "2025-11-08T07:25:06.271Z"
     }
   ],
-  "lastModified": "2025-11-08T08:54:33.191Z",
+  "lastModified": "2025-11-08T09:51:12.244Z",
   "version": "2.0.0"
 }
