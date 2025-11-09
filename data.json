@@ -16753,8 +16753,104 @@
       "updatedAt": "2025-11-08T17:12:33.549Z",
       "waybillNumber": "7087",
       "netWeight": 32100
+    },
+    {
+      "id": "truck_1762674441399_0_wx7vmfz0e",
+      "supplierName": "Idris Haruna",
+      "bags": 450,
+      "moistureLevel": 12,
+      "truckNumber": "KTN 268 YZ",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-09T07:47:21.399Z"
+        }
+      ],
+      "createdAt": "2025-11-09T07:47:21.399Z",
+      "updatedAt": "2025-11-09T07:47:21.399Z"
+    },
+    {
+      "id": "truck_1762674441399_1_52pr8bl0t",
+      "supplierName": "Idris Haruna",
+      "bags": 450,
+      "moistureLevel": 12,
+      "truckNumber": "NNG 32 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-09T07:47:21.399Z"
+        }
+      ],
+      "createdAt": "2025-11-09T07:47:21.399Z",
+      "updatedAt": "2025-11-09T07:47:21.399Z"
+    },
+    {
+      "id": "truck_1762674441399_2_n0rcwodmx",
+      "supplierName": "Idris Haruna",
+      "bags": 517,
+      "moistureLevel": 13,
+      "truckNumber": "ALK 747 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-09T07:47:21.399Z"
+        }
+      ],
+      "createdAt": "2025-11-09T07:47:21.399Z",
+      "updatedAt": "2025-11-09T07:47:21.399Z"
+    },
+    {
+      "id": "truck_1762674441399_3_8kqrg17n8",
+      "supplierName": "Abubakar Muhd Tukur",
+      "bags": 220,
+      "moistureLevel": 12,
+      "truckNumber": "FKA 805 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-09T07:47:21.399Z"
+        }
+      ],
+      "createdAt": "2025-11-09T07:47:21.399Z",
+      "updatedAt": "2025-11-09T07:47:21.399Z"
+    },
+    {
+      "id": "truck_1762674441399_4_c0beorf1i",
+      "supplierName": "Damakasu Agro Allied",
+      "bags": 650,
+      "moistureLevel": 13,
+      "truckNumber": "ADM 620",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-09T07:47:21.399Z"
+        }
+      ],
+      "createdAt": "2025-11-09T07:47:21.399Z",
+      "updatedAt": "2025-11-09T07:47:21.399Z"
+    },
+    {
+      "id": "truck_1762674441399_5_iudx05br4",
+      "supplierName": "Idris Haruna",
+      "bags": 40,
+      "moistureLevel": 12,
+      "truckNumber": "XA 565 YLA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-09T07:47:21.399Z"
+        }
+      ],
+      "createdAt": "2025-11-09T07:47:21.399Z",
+      "updatedAt": "2025-11-09T07:47:21.399Z"
     }
   ],
-  "lastModified": "2025-11-08T17:12:33.786Z",
+  "lastModified": "2025-11-09T07:47:25.181Z",
   "version": "2.0.0"
 }
