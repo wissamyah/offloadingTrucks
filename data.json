@@ -16896,17 +16896,25 @@
       "bags": 200,
       "moistureLevel": 15,
       "truckNumber": "FGE 833 XA",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-11-09T08:39:15.013Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-11-09T08:40:37.140Z",
+          "details": {
+            "waybillNumber": "7093"
+          }
         }
       ],
       "createdAt": "2025-11-09T08:39:15.013Z",
-      "updatedAt": "2025-11-09T08:39:15.013Z"
+      "updatedAt": "2025-11-09T08:40:37.140Z",
+      "waybillNumber": "7093"
     }
   ],
-  "lastModified": "2025-11-09T08:39:15.359Z",
+  "lastModified": "2025-11-09T08:40:37.273Z",
   "version": "2.0.0"
 }
