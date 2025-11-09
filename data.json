@@ -16848,15 +16848,23 @@
       "bags": 650,
       "moistureLevel": 13,
       "truckNumber": "ADM 620",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-11-09T07:47:21.399Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-11-09T08:00:42.392Z",
+          "details": {
+            "waybillNumber": "7092"
+          }
         }
       ],
       "createdAt": "2025-11-09T07:47:21.399Z",
-      "updatedAt": "2025-11-09T07:47:21.399Z"
+      "updatedAt": "2025-11-09T08:00:42.392Z",
+      "waybillNumber": "7092"
     },
     {
       "id": "truck_1762674441399_5_iudx05br4",
@@ -16883,6 +16891,6 @@
       "waybillNumber": "7091"
     }
   ],
-  "lastModified": "2025-11-09T07:58:00.905Z",
+  "lastModified": "2025-11-09T08:00:42.530Z",
   "version": "2.0.0"
 }
