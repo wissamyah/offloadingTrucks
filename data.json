@@ -16824,15 +16824,23 @@
       "bags": 220,
       "moistureLevel": 12,
       "truckNumber": "FKA 805 XA",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-11-09T07:47:21.399Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-11-09T07:55:28.931Z",
+          "details": {
+            "waybillNumber": "7090"
+          }
         }
       ],
       "createdAt": "2025-11-09T07:47:21.399Z",
-      "updatedAt": "2025-11-09T07:47:21.399Z"
+      "updatedAt": "2025-11-09T07:55:28.931Z",
+      "waybillNumber": "7090"
     },
     {
       "id": "truck_1762674441399_4_c0beorf1i",
@@ -16867,6 +16875,6 @@
       "updatedAt": "2025-11-09T07:47:21.399Z"
     }
   ],
-  "lastModified": "2025-11-09T07:52:46.966Z",
+  "lastModified": "2025-11-09T07:55:29.082Z",
   "version": "2.0.0"
 }
