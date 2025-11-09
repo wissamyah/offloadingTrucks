@@ -16984,7 +16984,7 @@
       "bags": 520,
       "moistureLevel": 15,
       "truckNumber": "BSA 822 ZY",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -16996,13 +16996,21 @@
           "details": {
             "waybillNumber": "7097"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-11-09T13:32:50.706Z",
+          "details": {
+            "netWeight": 37150
+          }
         }
       ],
       "createdAt": "2025-11-09T11:04:16.852Z",
-      "updatedAt": "2025-11-09T11:09:47.141Z",
-      "waybillNumber": "7097"
+      "updatedAt": "2025-11-09T13:32:50.706Z",
+      "waybillNumber": "7097",
+      "netWeight": 37150
     }
   ],
-  "lastModified": "2025-11-09T12:37:38.648Z",
+  "lastModified": "2025-11-09T13:32:50.949Z",
   "version": "2.0.0"
 }
