@@ -16816,7 +16816,7 @@
       "bags": 517,
       "moistureLevel": 13,
       "truckNumber": "ALK 747 XA",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -16828,11 +16828,19 @@
           "details": {
             "waybillNumber": "7089"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-11-09T10:48:27.156Z",
+          "details": {
+            "netWeight": 37980
+          }
         }
       ],
       "createdAt": "2025-11-09T07:47:21.399Z",
-      "updatedAt": "2025-11-09T07:52:45.408Z",
-      "waybillNumber": "7089"
+      "updatedAt": "2025-11-09T10:48:27.156Z",
+      "waybillNumber": "7089",
+      "netWeight": 37980
     },
     {
       "id": "truck_1762674441399_3_8kqrg17n8",
@@ -16939,6 +16947,6 @@
       "waybillNumber": "7093"
     }
   ],
-  "lastModified": "2025-11-09T10:09:39.961Z",
+  "lastModified": "2025-11-09T10:48:27.353Z",
   "version": "2.0.0"
 }
