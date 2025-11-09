@@ -16792,15 +16792,23 @@
       "bags": 450,
       "moistureLevel": 12,
       "truckNumber": "NNG 32 XA",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-11-09T07:47:21.399Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-11-09T10:09:39.777Z",
+          "details": {
+            "waybillNumber": "7095"
+          }
         }
       ],
       "createdAt": "2025-11-09T07:47:21.399Z",
-      "updatedAt": "2025-11-09T07:47:21.399Z"
+      "updatedAt": "2025-11-09T10:09:39.778Z",
+      "waybillNumber": "7095"
     },
     {
       "id": "truck_1762674441399_2_n0rcwodmx",
@@ -16931,6 +16939,6 @@
       "waybillNumber": "7093"
     }
   ],
-  "lastModified": "2025-11-09T10:03:28.464Z",
+  "lastModified": "2025-11-09T10:09:39.961Z",
   "version": "2.0.0"
 }
