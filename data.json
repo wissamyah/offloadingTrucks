@@ -16953,8 +16953,24 @@
       "updatedAt": "2025-11-09T11:03:12.922Z",
       "waybillNumber": "7093",
       "netWeight": 17040
+    },
+    {
+      "id": "truck_1762686256852_0_dxzfaa7u9",
+      "supplierName": "M B Flour",
+      "bags": 520,
+      "moistureLevel": 15,
+      "truckNumber": "BSA 822 ZY",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-09T11:04:16.852Z"
+        }
+      ],
+      "createdAt": "2025-11-09T11:04:16.852Z",
+      "updatedAt": "2025-11-09T11:04:16.852Z"
     }
   ],
-  "lastModified": "2025-11-09T11:03:13.115Z",
+  "lastModified": "2025-11-09T11:04:16.971Z",
   "version": "2.0.0"
 }
