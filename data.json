@@ -16889,8 +16889,24 @@
       "createdAt": "2025-11-09T07:47:21.399Z",
       "updatedAt": "2025-11-09T07:58:00.716Z",
       "waybillNumber": "7091"
+    },
+    {
+      "id": "truck_1762677555011_0_dauo9g980",
+      "supplierName": "Mukhtari Sale",
+      "bags": 200,
+      "moistureLevel": 15,
+      "truckNumber": "FGE 833 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-09T08:39:15.013Z"
+        }
+      ],
+      "createdAt": "2025-11-09T08:39:15.013Z",
+      "updatedAt": "2025-11-09T08:39:15.013Z"
     }
   ],
-  "lastModified": "2025-11-09T08:00:42.530Z",
+  "lastModified": "2025-11-09T08:39:15.359Z",
   "version": "2.0.0"
 }
