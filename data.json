@@ -17089,8 +17089,104 @@
       ],
       "createdAt": "2025-11-10T07:29:00.422Z",
       "updatedAt": "2025-11-10T07:29:00.422Z"
+    },
+    {
+      "id": "truck_1762759775630_0_zq4lso9xd",
+      "supplierName": "Habibu Isa",
+      "bags": 543,
+      "moistureLevel": 12,
+      "truckNumber": "FKY 571 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-10T07:29:35.630Z"
+        }
+      ],
+      "createdAt": "2025-11-10T07:29:35.630Z",
+      "updatedAt": "2025-11-10T07:29:35.630Z"
+    },
+    {
+      "id": "truck_1762759775630_1_vagkdfofs",
+      "supplierName": "Idris Haruna",
+      "bags": 570,
+      "moistureLevel": 12,
+      "truckNumber": "AT 777 MKA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-10T07:29:35.630Z"
+        }
+      ],
+      "createdAt": "2025-11-10T07:29:35.630Z",
+      "updatedAt": "2025-11-10T07:29:35.630Z"
+    },
+    {
+      "id": "truck_1762759775630_2_g0qvb5y46",
+      "supplierName": "M B Flour",
+      "bags": 500,
+      "moistureLevel": 13,
+      "truckNumber": "TRR 446 YX",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-10T07:29:35.631Z"
+        }
+      ],
+      "createdAt": "2025-11-10T07:29:35.631Z",
+      "updatedAt": "2025-11-10T07:29:35.631Z"
+    },
+    {
+      "id": "truck_1762759775630_3_wq9oyrltd",
+      "supplierName": "Idris Haruna",
+      "bags": 500,
+      "moistureLevel": 14,
+      "truckNumber": "BAL 511 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-10T07:29:35.631Z"
+        }
+      ],
+      "createdAt": "2025-11-10T07:29:35.631Z",
+      "updatedAt": "2025-11-10T07:29:35.631Z"
+    },
+    {
+      "id": "truck_1762759775630_4_6nj62ndvx",
+      "supplierName": "Idris Haruna",
+      "bags": 500,
+      "moistureLevel": 14,
+      "truckNumber": "ARD 436 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-10T07:29:35.631Z"
+        }
+      ],
+      "createdAt": "2025-11-10T07:29:35.631Z",
+      "updatedAt": "2025-11-10T07:29:35.631Z"
+    },
+    {
+      "id": "truck_1762759775630_5_j2ft1d25c",
+      "supplierName": "Damakasu Agro Allied",
+      "bags": 530,
+      "moistureLevel": 13,
+      "truckNumber": "FKY 146 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-10T07:29:35.631Z"
+        }
+      ],
+      "createdAt": "2025-11-10T07:29:35.631Z",
+      "updatedAt": "2025-11-10T07:29:35.631Z"
     }
   ],
-  "lastModified": "2025-11-10T07:29:00.580Z",
+  "lastModified": "2025-11-10T07:29:35.817Z",
   "version": "2.0.0"
 }
