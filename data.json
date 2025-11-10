@@ -17160,14 +17160,14 @@
         },
         {
           "status": "scaled_in",
-          "timestamp": "2025-11-10T08:01:20.968Z",
+          "timestamp": "2025-11-10T08:01:40.723Z",
           "details": {
             "waybillNumber": "7102"
           }
         }
       ],
       "createdAt": "2025-11-10T07:29:35.631Z",
-      "updatedAt": "2025-11-10T08:01:20.969Z",
+      "updatedAt": "2025-11-10T08:01:40.723Z",
       "waybillNumber": "7102"
     },
     {
@@ -17219,6 +17219,6 @@
       "updatedAt": "2025-11-10T07:29:35.631Z"
     }
   ],
-  "lastModified": "2025-11-10T08:01:22.438Z",
+  "lastModified": "2025-11-10T08:01:45.289Z",
   "version": "2.0.0"
 }
