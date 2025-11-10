@@ -17240,15 +17240,23 @@
       "bags": 500,
       "moistureLevel": 14,
       "truckNumber": "BAL 511 XA",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-11-10T07:29:35.631Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-11-10T12:43:11.888Z",
+          "details": {
+            "waybillNumber": "7105"
+          }
         }
       ],
       "createdAt": "2025-11-10T07:29:35.631Z",
-      "updatedAt": "2025-11-10T07:29:35.631Z"
+      "updatedAt": "2025-11-10T12:43:11.888Z",
+      "waybillNumber": "7105"
     },
     {
       "id": "truck_1762759775630_4_6nj62ndvx",
@@ -17283,6 +17291,6 @@
       "updatedAt": "2025-11-10T07:29:35.631Z"
     }
   ],
-  "lastModified": "2025-11-10T12:36:53.835Z",
+  "lastModified": "2025-11-10T12:43:12.046Z",
   "version": "2.0.0"
 }
