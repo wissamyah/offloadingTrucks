@@ -17080,7 +17080,7 @@
       "bags": 500,
       "moistureLevel": 13,
       "truckNumber": "ZUR 868 ZW",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -17092,11 +17092,19 @@
           "details": {
             "waybillNumber": "7098"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-11-10T11:02:32.651Z",
+          "details": {
+            "netWeight": 37390
+          }
         }
       ],
       "createdAt": "2025-11-10T07:29:00.422Z",
-      "updatedAt": "2025-11-10T07:44:33.620Z",
-      "waybillNumber": "7098"
+      "updatedAt": "2025-11-10T11:02:32.651Z",
+      "waybillNumber": "7098",
+      "netWeight": 37390
     },
     {
       "id": "truck_1762759775630_0_zq4lso9xd",
@@ -17235,6 +17243,6 @@
       "updatedAt": "2025-11-10T07:29:35.631Z"
     }
   ],
-  "lastModified": "2025-11-10T10:55:27.308Z",
+  "lastModified": "2025-11-10T11:02:32.916Z",
   "version": "2.0.0"
 }
