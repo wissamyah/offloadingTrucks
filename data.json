@@ -17384,17 +17384,25 @@
       "bags": 220,
       "moistureLevel": 12,
       "truckNumber": "NNG 736 XA",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-11-10T12:57:26.564Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-11-10T14:56:40.629Z",
+          "details": {
+            "waybillNumber": "7120"
+          }
         }
       ],
       "createdAt": "2025-11-10T12:57:26.564Z",
-      "updatedAt": "2025-11-10T12:57:26.564Z"
+      "updatedAt": "2025-11-10T14:56:40.629Z",
+      "waybillNumber": "7120"
     }
   ],
-  "lastModified": "2025-11-10T14:56:08.490Z",
+  "lastModified": "2025-11-10T14:56:40.818Z",
   "version": "2.0.0"
 }
