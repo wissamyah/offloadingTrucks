@@ -17016,7 +17016,7 @@
       "bags": 200,
       "moistureLevel": 13,
       "truckNumber": "TRR 947 XA",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -17028,11 +17028,19 @@
           "details": {
             "waybillNumber": "7107"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-11-10T12:57:09.652Z",
+          "details": {
+            "netWeight": 13920
+          }
         }
       ],
       "createdAt": "2025-11-10T07:29:00.422Z",
-      "updatedAt": "2025-11-10T12:57:03.278Z",
-      "waybillNumber": "7107"
+      "updatedAt": "2025-11-10T12:57:09.652Z",
+      "waybillNumber": "7107",
+      "netWeight": 13920
     },
     {
       "id": "truck_1762759740422_1_agjwnlqsk",
@@ -17315,6 +17323,6 @@
       "updatedAt": "2025-11-10T07:29:35.631Z"
     }
   ],
-  "lastModified": "2025-11-10T12:57:03.344Z",
+  "lastModified": "2025-11-10T12:57:11.018Z",
   "version": "2.0.0"
 }
