@@ -17009,8 +17009,88 @@
       "updatedAt": "2025-11-09T13:32:50.706Z",
       "waybillNumber": "7097",
       "netWeight": 37150
+    },
+    {
+      "id": "truck_1762759740422_0_9v9ut1uoe",
+      "supplierName": "M B Flour",
+      "bags": 200,
+      "moistureLevel": 13,
+      "truckNumber": "TRR 947 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-10T07:29:00.422Z"
+        }
+      ],
+      "createdAt": "2025-11-10T07:29:00.422Z",
+      "updatedAt": "2025-11-10T07:29:00.422Z"
+    },
+    {
+      "id": "truck_1762759740422_1_agjwnlqsk",
+      "supplierName": "B L Barka",
+      "bags": 244,
+      "moistureLevel": 17,
+      "truckNumber": "NNG 398 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-10T07:29:00.422Z"
+        }
+      ],
+      "createdAt": "2025-11-10T07:29:00.422Z",
+      "updatedAt": "2025-11-10T07:29:00.422Z"
+    },
+    {
+      "id": "truck_1762759740422_2_oockuplkm",
+      "supplierName": "Mukhtari Sale",
+      "bags": 240,
+      "moistureLevel": 15,
+      "truckNumber": "KTG 22 XB",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-10T07:29:00.422Z"
+        }
+      ],
+      "createdAt": "2025-11-10T07:29:00.422Z",
+      "updatedAt": "2025-11-10T07:29:00.422Z"
+    },
+    {
+      "id": "truck_1762759740422_3_0kstzbgyr",
+      "supplierName": "Aminu Muhd Kabo",
+      "bags": 55,
+      "moistureLevel": 13,
+      "truckNumber": "KYW 374 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-10T07:29:00.422Z"
+        }
+      ],
+      "createdAt": "2025-11-10T07:29:00.422Z",
+      "updatedAt": "2025-11-10T07:29:00.422Z"
+    },
+    {
+      "id": "truck_1762759740422_4_ufb0j2okl",
+      "supplierName": "Al Hassanan Enterprises",
+      "bags": 500,
+      "moistureLevel": 13,
+      "truckNumber": "ZUR 868 ZW",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-10T07:29:00.422Z"
+        }
+      ],
+      "createdAt": "2025-11-10T07:29:00.422Z",
+      "updatedAt": "2025-11-10T07:29:00.422Z"
     }
   ],
-  "lastModified": "2025-11-09T13:32:50.949Z",
+  "lastModified": "2025-11-10T07:29:00.580Z",
   "version": "2.0.0"
 }
