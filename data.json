@@ -17321,8 +17321,40 @@
       ],
       "createdAt": "2025-11-10T07:29:35.631Z",
       "updatedAt": "2025-11-10T07:29:35.631Z"
+    },
+    {
+      "id": "truck_1762779446564_0_vrb9t0ioy",
+      "supplierName": "Idris Haruna",
+      "bags": 604,
+      "moistureLevel": 13,
+      "truckNumber": "XF 941 UWN",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-10T12:57:26.564Z"
+        }
+      ],
+      "createdAt": "2025-11-10T12:57:26.564Z",
+      "updatedAt": "2025-11-10T12:57:26.564Z"
+    },
+    {
+      "id": "truck_1762779446564_1_solzu45kd",
+      "supplierName": "B L Barka",
+      "bags": 220,
+      "moistureLevel": 12,
+      "truckNumber": "NNG 736 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-10T12:57:26.564Z"
+        }
+      ],
+      "createdAt": "2025-11-10T12:57:26.564Z",
+      "updatedAt": "2025-11-10T12:57:26.564Z"
     }
   ],
-  "lastModified": "2025-11-10T12:57:11.018Z",
+  "lastModified": "2025-11-10T12:57:26.637Z",
   "version": "2.0.0"
 }
