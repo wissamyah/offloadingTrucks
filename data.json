@@ -17104,7 +17104,7 @@
       "bags": 543,
       "moistureLevel": 12,
       "truckNumber": "FKY 571 XA",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -17116,11 +17116,19 @@
           "details": {
             "waybillNumber": "7099"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-11-10T10:55:10.889Z",
+          "details": {
+            "netWeight": 38620
+          }
         }
       ],
       "createdAt": "2025-11-10T07:29:35.630Z",
-      "updatedAt": "2025-11-10T07:51:15.775Z",
-      "waybillNumber": "7099"
+      "updatedAt": "2025-11-10T10:55:10.889Z",
+      "waybillNumber": "7099",
+      "netWeight": 38620
     },
     {
       "id": "truck_1762759775630_1_vagkdfofs",
@@ -17227,6 +17235,6 @@
       "updatedAt": "2025-11-10T07:29:35.631Z"
     }
   ],
-  "lastModified": "2025-11-10T10:54:15.993Z",
+  "lastModified": "2025-11-10T10:55:27.308Z",
   "version": "2.0.0"
 }
