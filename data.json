@@ -17264,15 +17264,23 @@
       "bags": 500,
       "moistureLevel": 14,
       "truckNumber": "ARD 436 XA",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-11-10T07:29:35.631Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-11-10T12:43:29.156Z",
+          "details": {
+            "waybillNumber": "7106"
+          }
         }
       ],
       "createdAt": "2025-11-10T07:29:35.631Z",
-      "updatedAt": "2025-11-10T07:29:35.631Z"
+      "updatedAt": "2025-11-10T12:43:29.156Z",
+      "waybillNumber": "7106"
     },
     {
       "id": "truck_1762759775630_5_j2ft1d25c",
@@ -17291,6 +17299,6 @@
       "updatedAt": "2025-11-10T07:29:35.631Z"
     }
   ],
-  "lastModified": "2025-11-10T12:43:12.046Z",
+  "lastModified": "2025-11-10T12:43:29.307Z",
   "version": "2.0.0"
 }
