@@ -17077,7 +17077,7 @@
     {
       "id": "truck_1762759740422_4_ufb0j2okl",
       "supplierName": "Al Hassanan Enterprises",
-      "bags": 500,
+      "bags": 495,
       "moistureLevel": 13,
       "truckNumber": "ZUR 868 ZW",
       "status": "offloaded",
@@ -17243,6 +17243,6 @@
       "updatedAt": "2025-11-10T07:29:35.631Z"
     }
   ],
-  "lastModified": "2025-11-10T11:02:32.916Z",
+  "lastModified": "2025-11-10T11:02:56.173Z",
   "version": "2.0.0"
 }
