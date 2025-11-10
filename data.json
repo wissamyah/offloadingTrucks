@@ -17029,7 +17029,7 @@
     {
       "id": "truck_1762759740422_1_agjwnlqsk",
       "supplierName": "B L Barka",
-      "bags": 244,
+      "bags": 254,
       "moistureLevel": 17,
       "truckNumber": "NNG 398 XA",
       "status": "offloaded",
@@ -17056,7 +17056,7 @@
       "createdAt": "2025-11-10T07:29:00.422Z",
       "updatedAt": "2025-11-10T12:36:22.747Z",
       "waybillNumber": "7101",
-      "netWeight": 254
+      "netWeight": 27630
     },
     {
       "id": "truck_1762759740422_2_oockuplkm",
@@ -17283,6 +17283,6 @@
       "updatedAt": "2025-11-10T07:29:35.631Z"
     }
   ],
-  "lastModified": "2025-11-10T12:36:22.896Z",
+  "lastModified": "2025-11-10T12:36:53.835Z",
   "version": "2.0.0"
 }
