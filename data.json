@@ -17080,7 +17080,7 @@
       ],
       "createdAt": "2025-11-10T07:29:00.422Z",
       "updatedAt": "2025-11-10T11:18:32.025Z",
-      "waybillNumber": "4950"
+      "waybillNumber": "7109"
     },
     {
       "id": "truck_1762759740422_4_ufb0j2okl",
@@ -17251,6 +17251,6 @@
       "updatedAt": "2025-11-10T07:29:35.631Z"
     }
   ],
-  "lastModified": "2025-11-10T11:18:32.102Z",
+  "lastModified": "2025-11-10T11:22:08.182Z",
   "version": "2.0.0"
 }
