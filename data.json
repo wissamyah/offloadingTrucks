@@ -17080,7 +17080,7 @@
       "bags": 240,
       "moistureLevel": 15,
       "truckNumber": "KTG 22 XB",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -17092,11 +17092,19 @@
           "details": {
             "waybillNumber": "7108"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-11-10T14:56:08.338Z",
+          "details": {
+            "netWeight": 20100
+          }
         }
       ],
       "createdAt": "2025-11-10T07:29:00.422Z",
-      "updatedAt": "2025-11-10T12:44:11.158Z",
-      "waybillNumber": "7108"
+      "updatedAt": "2025-11-10T14:56:08.338Z",
+      "waybillNumber": "7108",
+      "netWeight": 20100
     },
     {
       "id": "truck_1762759740422_3_0kstzbgyr",
@@ -17387,6 +17395,6 @@
       "updatedAt": "2025-11-10T12:57:26.564Z"
     }
   ],
-  "lastModified": "2025-11-10T13:46:19.035Z",
+  "lastModified": "2025-11-10T14:56:08.490Z",
   "version": "2.0.0"
 }
