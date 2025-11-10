@@ -17064,15 +17064,23 @@
       "bags": 240,
       "moistureLevel": 15,
       "truckNumber": "KTG 22 XB",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-11-10T07:29:00.422Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-11-10T12:43:55.642Z",
+          "details": {
+            "waybillNumber": "7108"
+          }
         }
       ],
       "createdAt": "2025-11-10T07:29:00.422Z",
-      "updatedAt": "2025-11-10T07:29:00.422Z"
+      "updatedAt": "2025-11-10T12:43:55.642Z",
+      "waybillNumber": "7108"
     },
     {
       "id": "truck_1762759740422_3_0kstzbgyr",
@@ -17299,6 +17307,6 @@
       "updatedAt": "2025-11-10T07:29:35.631Z"
     }
   ],
-  "lastModified": "2025-11-10T12:43:29.307Z",
+  "lastModified": "2025-11-10T12:43:56.335Z",
   "version": "2.0.0"
 }
