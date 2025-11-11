@@ -17514,7 +17514,7 @@
       "bags": 400,
       "moistureLevel": 15,
       "truckNumber": "AG 666 KTN",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -17526,11 +17526,21 @@
           "details": {
             "waybillNumber": "7125"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-11-11T09:49:03.100Z",
+          "details": {
+            "netWeight": 34870,
+            "deduction": 150
+          }
         }
       ],
       "createdAt": "2025-11-11T07:29:51.882Z",
-      "updatedAt": "2025-11-11T07:39:53.697Z",
-      "waybillNumber": "7125"
+      "updatedAt": "2025-11-11T09:49:03.100Z",
+      "waybillNumber": "7125",
+      "netWeight": 34870,
+      "deduction": 150
     },
     {
       "id": "truck_1762846191882_5_pexta6353",
@@ -17597,6 +17607,6 @@
       "updatedAt": "2025-11-11T07:29:51.882Z"
     }
   ],
-  "lastModified": "2025-11-11T09:10:15.969Z",
+  "lastModified": "2025-11-11T09:49:03.249Z",
   "version": "2.0.0"
 }
