@@ -17704,15 +17704,19 @@
       "bags": 110,
       "moistureLevel": 21,
       "truckNumber": "RNG 03 XB",
-      "status": "pending",
+      "status": "rejected",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-11-11T11:35:28.776Z"
+        },
+        {
+          "status": "rejected",
+          "timestamp": "2025-11-11T12:07:35.570Z"
         }
       ],
       "createdAt": "2025-11-11T11:35:28.776Z",
-      "updatedAt": "2025-11-11T11:35:28.776Z"
+      "updatedAt": "2025-11-11T12:07:35.570Z"
     },
     {
       "id": "truck_1762860928776_4_krhwi7qzo",
@@ -17731,6 +17735,6 @@
       "updatedAt": "2025-11-11T11:35:28.776Z"
     }
   ],
-  "lastModified": "2025-11-11T12:03:51.114Z",
+  "lastModified": "2025-11-11T12:07:35.656Z",
   "version": "2.0.0"
 }
