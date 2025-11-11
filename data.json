@@ -17777,7 +17777,7 @@
     {
       "id": "truck_1762860928776_4_krhwi7qzo",
       "supplierName": "B L Barka",
-      "bags": 270,
+      "bags": 285,
       "moistureLevel": 20,
       "truckNumber": "SUL 978 XA",
       "status": "pending",
@@ -17788,7 +17788,9 @@
         }
       ],
       "createdAt": "2025-11-11T11:35:28.776Z",
-      "updatedAt": "2025-11-11T11:35:28.776Z"
+      "updatedAt": "2025-11-11T11:35:28.776Z",
+      "waybillNumber": "7142",
+      "netWeight": 28110
     },
     {
       "id": "truck_1762866467275_0_dosafzxh5",
@@ -17859,6 +17861,6 @@
       "updatedAt": "2025-11-11T13:07:47.276Z"
     }
   ],
-  "lastModified": "2025-11-11T14:24:30.735Z",
+  "lastModified": "2025-11-11T14:39:31.238Z",
   "version": "2.0.0"
 }
