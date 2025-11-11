@@ -17872,15 +17872,23 @@
       "bags": 400,
       "moistureLevel": 12,
       "truckNumber": "BAU 794 YP",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-11-11T13:07:47.276Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-11-11T15:36:16.578Z",
+          "details": {
+            "waybillNumber": "7143"
+          }
         }
       ],
       "createdAt": "2025-11-11T13:07:47.276Z",
-      "updatedAt": "2025-11-11T13:07:47.276Z"
+      "updatedAt": "2025-11-11T15:36:16.578Z",
+      "waybillNumber": "7143"
     },
     {
       "id": "truck_1762875215070_0_uobt773f0",
@@ -17899,6 +17907,6 @@
       "updatedAt": "2025-11-11T15:33:35.070Z"
     }
   ],
-  "lastModified": "2025-11-11T15:34:16.731Z",
+  "lastModified": "2025-11-11T15:36:16.714Z",
   "version": "2.0.0"
 }
