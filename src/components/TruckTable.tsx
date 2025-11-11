@@ -10,6 +10,7 @@ import {
   Clock,
   Droplets,
   Copy,
+  Check,
   ArrowUpDown,
   ArrowUp,
   ArrowDown,
@@ -189,6 +190,7 @@ export const TruckTable: React.FC<TruckTableProps> = ({
     null
   );
   const [copiedTruck, setCopiedTruck] = useState<string | null>(null);
+  const [copiedDetailsBtn, setCopiedDetailsBtn] = useState<string | null>(null);
   const [isMobile, setIsMobile] = useState(false);
   const [sortModalOpen, setSortModalOpen] = useState(false);
 
@@ -200,6 +202,26 @@ export const TruckTable: React.FC<TruckTableProps> = ({
     window.addEventListener("resize", checkMobile);
     return () => window.removeEventListener("resize", checkMobile);
   }, []);
+
+  const formatNumber = (num: number): string => {
+    return num.toLocaleString('en-US');
+  };
+
+  const handleCopyTruckDetails = async (truck: Truck) => {
+    const netWeight = truck.netWeight || 0;
+    const deduction = truck.deduction || 0;
+    const weightInTons = ((netWeight - deduction) / 1000).toFixed(2);
+    
+    const formattedText = `${truck.supplierName}-${truck.truckNumber}-${truck.bags} Bags-${weightInTons} tons PADDY`;
+    
+    try {
+      await navigator.clipboard.writeText(formattedText);
+      setCopiedDetailsBtn(truck.id);
+      setTimeout(() => setCopiedDetailsBtn(null), 2000);
+    } catch (error) {
+      console.error("Failed to copy:", error);
+    }
+  };
 
   const formatDateDisplay = (dateKey: string, isMobile: boolean = false) => {
     if (!dateKey) return "No date";
@@ -536,7 +558,7 @@ export const TruckTable: React.FC<TruckTableProps> = ({
                   <div>
                     <span className="text-gray-500">Net: </span>
                     <span className="text-gray-200 font-medium">
-                      {truck.netWeight}kg
+                      {formatNumber(truck.netWeight)} kg
                     </span>
                   </div>
                 )}
@@ -544,7 +566,7 @@ export const TruckTable: React.FC<TruckTableProps> = ({
                   <div>
                     <span className="text-gray-500">Deduction: </span>
                     <span className="text-gray-200 font-medium">
-                      {truck.deduction}kg
+                      {formatNumber(truck.deduction)} kg
                     </span>
                   </div>
                 )}
@@ -593,6 +615,25 @@ export const TruckTable: React.FC<TruckTableProps> = ({
                       Reject
                     </LoadingButton>
                   </>
+                )}
+
+                {truck.status === "offloaded" && (
+                  <button
+                    onClick={() => handleCopyTruckDetails(truck)}
+                    className="inline-flex items-center gap-1.5 px-3 py-1.5 text-sm font-medium text-blue-400 bg-blue-900/30 border border-blue-700 rounded-lg hover:bg-blue-900/50 transition-all duration-200"
+                  >
+                    {copiedDetailsBtn === truck.id ? (
+                      <>
+                        <Check className="h-3.5 w-3.5 transition-transform duration-200 scale-110" />
+                        <span>Copied!</span>
+                      </>
+                    ) : (
+                      <>
+                        <Copy className="h-3.5 w-3.5" />
+                        <span>Copy</span>
+                      </>
+                    )}
+                  </button>
                 )}
 
                 {truck.status === "rejected" && (
@@ -829,10 +870,10 @@ export const TruckTable: React.FC<TruckTableProps> = ({
                       {truck.waybillNumber || "-"}
                     </td>
                     <td className="px-2 py-3 whitespace-nowrap text-xs text-gray-200">
-                      {truck.netWeight ? `${truck.netWeight} kg` : "-"}
+                      {truck.netWeight ? `${formatNumber(truck.netWeight)} kg` : "-"}
                     </td>
                     <td className="px-2 py-3 whitespace-nowrap text-xs text-gray-200">
-                      {truck.deduction ? `${truck.deduction} kg` : "-"}
+                      {truck.deduction ? `${formatNumber(truck.deduction)} kg` : "-"}
                     </td>
                     <td className="px-2 py-3 whitespace-nowrap text-right text-xs font-medium">
                       <div className="flex justify-end gap-1">
