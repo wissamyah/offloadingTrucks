@@ -17656,7 +17656,7 @@
       "bags": 571,
       "moistureLevel": 12,
       "truckNumber": "T 25121 LA",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -17668,11 +17668,19 @@
           "details": {
             "waybillNumber": "7135"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-11-11T13:34:26.749Z",
+          "details": {
+            "netWeight": 39030
+          }
         }
       ],
       "createdAt": "2025-11-11T11:35:28.776Z",
-      "updatedAt": "2025-11-11T13:32:27.973Z",
-      "waybillNumber": "7135"
+      "updatedAt": "2025-11-11T13:34:26.749Z",
+      "waybillNumber": "7135",
+      "netWeight": 39030
     },
     {
       "id": "truck_1762860928776_1_3vkzlfqtn",
@@ -17799,6 +17807,6 @@
       "updatedAt": "2025-11-11T13:07:47.276Z"
     }
   ],
-  "lastModified": "2025-11-11T13:32:28.197Z",
+  "lastModified": "2025-11-11T13:34:28.001Z",
   "version": "2.0.0"
 }
