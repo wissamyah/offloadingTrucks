@@ -17418,15 +17418,23 @@
       "bags": 530,
       "moistureLevel": 13,
       "truckNumber": "FKY 146 XA",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-11-11T07:29:51.882Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-11-11T13:41:34.416Z",
+          "details": {
+            "waybillNumber": "7114"
+          }
         }
       ],
       "createdAt": "2025-11-11T07:29:51.882Z",
-      "updatedAt": "2025-11-11T07:29:51.882Z"
+      "updatedAt": "2025-11-11T13:41:34.417Z",
+      "waybillNumber": "7114"
     },
     {
       "id": "truck_1762846191882_1_ignce7bbo",
@@ -17819,6 +17827,6 @@
       "updatedAt": "2025-11-11T13:07:47.276Z"
     }
   ],
-  "lastModified": "2025-11-11T13:40:06.969Z",
+  "lastModified": "2025-11-11T13:41:34.595Z",
   "version": "2.0.0"
 }
