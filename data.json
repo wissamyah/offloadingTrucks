@@ -17482,7 +17482,7 @@
       ],
       "createdAt": "2025-11-11T07:29:51.882Z",
       "updatedAt": "2025-11-11T08:26:44.581Z",
-      "waybillNumber": "7127"
+      "waybillNumber": "7134"
     },
     {
       "id": "truck_1762846191882_3_ug2puezo9",
@@ -17731,6 +17731,6 @@
       "updatedAt": "2025-11-11T11:35:28.776Z"
     }
   ],
-  "lastModified": "2025-11-11T11:35:28.954Z",
+  "lastModified": "2025-11-11T12:03:51.114Z",
   "version": "2.0.0"
 }
