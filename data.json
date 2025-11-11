@@ -17474,7 +17474,7 @@
       "bags": 551,
       "moistureLevel": 15,
       "truckNumber": "FKY 235 YF",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -17486,11 +17486,19 @@
           "details": {
             "waybillNumber": "7127"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-11-11T15:34:16.497Z",
+          "details": {
+            "netWeight": 41950
+          }
         }
       ],
       "createdAt": "2025-11-11T07:29:51.882Z",
-      "updatedAt": "2025-11-11T08:26:44.581Z",
-      "waybillNumber": "7134"
+      "updatedAt": "2025-11-11T15:34:16.497Z",
+      "waybillNumber": "7134",
+      "netWeight": 41950
     },
     {
       "id": "truck_1762846191882_3_ug2puezo9",
@@ -17891,6 +17899,6 @@
       "updatedAt": "2025-11-11T15:33:35.070Z"
     }
   ],
-  "lastModified": "2025-11-11T15:33:35.292Z",
+  "lastModified": "2025-11-11T15:34:16.731Z",
   "version": "2.0.0"
 }
