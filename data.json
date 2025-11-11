@@ -17411,8 +17411,136 @@
       "createdAt": "2025-11-10T12:57:26.564Z",
       "updatedAt": "2025-11-10T14:56:40.629Z",
       "waybillNumber": "7120"
+    },
+    {
+      "id": "truck_1762846191882_0_v76k6f79c",
+      "supplierName": "Damakasu Agro Allied",
+      "bags": 530,
+      "moistureLevel": 13,
+      "truckNumber": "FKY 146 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-11T07:29:51.882Z"
+        }
+      ],
+      "createdAt": "2025-11-11T07:29:51.882Z",
+      "updatedAt": "2025-11-11T07:29:51.882Z"
+    },
+    {
+      "id": "truck_1762846191882_1_ignce7bbo",
+      "supplierName": "Idris Haruna",
+      "bags": 500,
+      "moistureLevel": 13,
+      "truckNumber": "KEF 531 ZF",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-11T07:29:51.882Z"
+        }
+      ],
+      "createdAt": "2025-11-11T07:29:51.882Z",
+      "updatedAt": "2025-11-11T07:29:51.882Z"
+    },
+    {
+      "id": "truck_1762846191882_2_8mt06wbhc",
+      "supplierName": "Chadin B Global",
+      "bags": 551,
+      "moistureLevel": 15,
+      "truckNumber": "FKY 235 YF",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-11T07:29:51.882Z"
+        }
+      ],
+      "createdAt": "2025-11-11T07:29:51.882Z",
+      "updatedAt": "2025-11-11T07:29:51.882Z"
+    },
+    {
+      "id": "truck_1762846191882_3_ug2puezo9",
+      "supplierName": "Alh Danasabe",
+      "bags": 35,
+      "moistureLevel": 15,
+      "truckNumber": "MSA 999 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-11T07:29:51.882Z"
+        }
+      ],
+      "createdAt": "2025-11-11T07:29:51.882Z",
+      "updatedAt": "2025-11-11T07:29:51.882Z"
+    },
+    {
+      "id": "truck_1762846191882_4_4c1khmilt",
+      "supplierName": "Mansur Mansur",
+      "bags": 400,
+      "moistureLevel": 15,
+      "truckNumber": "AG 666 KTN",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-11T07:29:51.882Z"
+        }
+      ],
+      "createdAt": "2025-11-11T07:29:51.882Z",
+      "updatedAt": "2025-11-11T07:29:51.882Z"
+    },
+    {
+      "id": "truck_1762846191882_5_pexta6353",
+      "supplierName": "Mansur Mansur",
+      "bags": 450,
+      "moistureLevel": 13,
+      "truckNumber": "KFR 183 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-11T07:29:51.882Z"
+        }
+      ],
+      "createdAt": "2025-11-11T07:29:51.882Z",
+      "updatedAt": "2025-11-11T07:29:51.882Z"
+    },
+    {
+      "id": "truck_1762846191882_6_ynig72fuy",
+      "supplierName": "Al Hassanan Enterprises",
+      "bags": 470,
+      "moistureLevel": 14,
+      "truckNumber": "MKA 553 ZE",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-11T07:29:51.882Z"
+        }
+      ],
+      "createdAt": "2025-11-11T07:29:51.882Z",
+      "updatedAt": "2025-11-11T07:29:51.882Z"
+    },
+    {
+      "id": "truck_1762846191882_7_xj04uh6kb",
+      "supplierName": "B L Barka",
+      "bags": 280,
+      "moistureLevel": 20,
+      "truckNumber": "ZUR 878 ZY",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-11T07:29:51.882Z"
+        }
+      ],
+      "createdAt": "2025-11-11T07:29:51.882Z",
+      "updatedAt": "2025-11-11T07:29:51.882Z"
     }
   ],
-  "lastModified": "2025-11-10T16:57:39.467Z",
+  "lastModified": "2025-11-11T07:29:52.082Z",
   "version": "2.0.0"
 }
