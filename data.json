@@ -17649,8 +17649,88 @@
       "waybillNumber": "7129",
       "netWeight": 27640,
       "deduction": 100
+    },
+    {
+      "id": "truck_1762860928776_0_1u0dnwbe9",
+      "supplierName": "Damakasu Agro Allied",
+      "bags": 571,
+      "moistureLevel": 12,
+      "truckNumber": "T 25121 LA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-11T11:35:28.776Z"
+        }
+      ],
+      "createdAt": "2025-11-11T11:35:28.776Z",
+      "updatedAt": "2025-11-11T11:35:28.776Z"
+    },
+    {
+      "id": "truck_1762860928776_1_3vkzlfqtn",
+      "supplierName": "Idris Haruna",
+      "bags": 503,
+      "moistureLevel": 12,
+      "truckNumber": "BAU 241 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-11T11:35:28.776Z"
+        }
+      ],
+      "createdAt": "2025-11-11T11:35:28.776Z",
+      "updatedAt": "2025-11-11T11:35:28.776Z"
+    },
+    {
+      "id": "truck_1762860928776_2_suu1gr84l",
+      "supplierName": "B L Barka",
+      "bags": 283,
+      "moistureLevel": 20,
+      "truckNumber": "KZR 993 ZT",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-11T11:35:28.776Z"
+        }
+      ],
+      "createdAt": "2025-11-11T11:35:28.776Z",
+      "updatedAt": "2025-11-11T11:35:28.776Z"
+    },
+    {
+      "id": "truck_1762860928776_3_16nibka1y",
+      "supplierName": "Abubakar Ibrahim",
+      "bags": 110,
+      "moistureLevel": 21,
+      "truckNumber": "RNG 03 XB",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-11T11:35:28.776Z"
+        }
+      ],
+      "createdAt": "2025-11-11T11:35:28.776Z",
+      "updatedAt": "2025-11-11T11:35:28.776Z"
+    },
+    {
+      "id": "truck_1762860928776_4_krhwi7qzo",
+      "supplierName": "B L Barka",
+      "bags": 270,
+      "moistureLevel": 20,
+      "truckNumber": "SUL 978 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-11T11:35:28.776Z"
+        }
+      ],
+      "createdAt": "2025-11-11T11:35:28.776Z",
+      "updatedAt": "2025-11-11T11:35:28.776Z"
     }
   ],
-  "lastModified": "2025-11-11T10:46:44.455Z",
+  "lastModified": "2025-11-11T11:35:28.954Z",
   "version": "2.0.0"
 }
