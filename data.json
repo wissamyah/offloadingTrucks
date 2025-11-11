@@ -17912,17 +17912,25 @@
       "bags": 23,
       "moistureLevel": 16,
       "truckNumber": "GWW 990 XA",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-11-11T15:33:35.070Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-11-11T15:50:12.724Z",
+          "details": {
+            "waybillNumber": "7146"
+          }
         }
       ],
       "createdAt": "2025-11-11T15:33:35.070Z",
-      "updatedAt": "2025-11-11T15:33:35.070Z"
+      "updatedAt": "2025-11-11T15:50:12.724Z",
+      "waybillNumber": "7146"
     }
   ],
-  "lastModified": "2025-11-11T15:49:08.732Z",
+  "lastModified": "2025-11-11T15:50:12.920Z",
   "version": "2.0.0"
 }
