@@ -17656,15 +17656,23 @@
       "bags": 571,
       "moistureLevel": 12,
       "truckNumber": "T 25121 LA",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-11-11T11:35:28.776Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-11-11T13:32:27.973Z",
+          "details": {
+            "waybillNumber": "7135"
+          }
         }
       ],
       "createdAt": "2025-11-11T11:35:28.776Z",
-      "updatedAt": "2025-11-11T11:35:28.776Z"
+      "updatedAt": "2025-11-11T13:32:27.973Z",
+      "waybillNumber": "7135"
     },
     {
       "id": "truck_1762860928776_1_3vkzlfqtn",
@@ -17791,6 +17799,6 @@
       "updatedAt": "2025-11-11T13:07:47.276Z"
     }
   ],
-  "lastModified": "2025-11-11T13:09:17.848Z",
+  "lastModified": "2025-11-11T13:32:28.197Z",
   "version": "2.0.0"
 }
