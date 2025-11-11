@@ -17466,15 +17466,23 @@
       "bags": 35,
       "moistureLevel": 15,
       "truckNumber": "MSA 999 XA",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-11-11T07:29:51.882Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-11-11T07:35:45.126Z",
+          "details": {
+            "waybillNumber": "7123"
+          }
         }
       ],
       "createdAt": "2025-11-11T07:29:51.882Z",
-      "updatedAt": "2025-11-11T07:29:51.882Z"
+      "updatedAt": "2025-11-11T07:35:45.126Z",
+      "waybillNumber": "7123"
     },
     {
       "id": "truck_1762846191882_4_4c1khmilt",
@@ -17541,6 +17549,6 @@
       "updatedAt": "2025-11-11T07:29:51.882Z"
     }
   ],
-  "lastModified": "2025-11-11T07:29:52.082Z",
+  "lastModified": "2025-11-11T07:35:45.282Z",
   "version": "2.0.0"
 }
