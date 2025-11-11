@@ -17780,15 +17780,22 @@
       "bags": 285,
       "moistureLevel": 20,
       "truckNumber": "SUL 978 XA",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-11-11T11:35:28.776Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-11-11T14:39:52.995Z",
+          "details": {
+            "waybillNumber": "7142"
+          }
         }
       ],
       "createdAt": "2025-11-11T11:35:28.776Z",
-      "updatedAt": "2025-11-11T11:35:28.776Z",
+      "updatedAt": "2025-11-11T14:39:52.995Z",
       "waybillNumber": "7142",
       "netWeight": 28110
     },
@@ -17861,6 +17868,6 @@
       "updatedAt": "2025-11-11T13:07:47.276Z"
     }
   ],
-  "lastModified": "2025-11-11T14:39:31.238Z",
+  "lastModified": "2025-11-11T14:39:53.863Z",
   "version": "2.0.0"
 }
