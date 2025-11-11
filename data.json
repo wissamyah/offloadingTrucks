@@ -17720,15 +17720,23 @@
       "bags": 283,
       "moistureLevel": 20,
       "truckNumber": "KZR 993 ZT",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-11-11T11:35:28.776Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-11-11T14:03:34.987Z",
+          "details": {
+            "waybillNumber": "7136"
+          }
         }
       ],
       "createdAt": "2025-11-11T11:35:28.776Z",
-      "updatedAt": "2025-11-11T11:35:28.776Z"
+      "updatedAt": "2025-11-11T14:03:34.987Z",
+      "waybillNumber": "7136"
     },
     {
       "id": "truck_1762860928776_3_16nibka1y",
@@ -17827,6 +17835,6 @@
       "updatedAt": "2025-11-11T13:07:47.276Z"
     }
   ],
-  "lastModified": "2025-11-11T13:41:34.595Z",
+  "lastModified": "2025-11-11T14:03:35.204Z",
   "version": "2.0.0"
 }
