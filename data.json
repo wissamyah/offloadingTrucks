@@ -17733,8 +17733,56 @@
       ],
       "createdAt": "2025-11-11T11:35:28.776Z",
       "updatedAt": "2025-11-11T11:35:28.776Z"
+    },
+    {
+      "id": "truck_1762866467275_0_dosafzxh5",
+      "supplierName": "Idris Haruna",
+      "bags": 220,
+      "moistureLevel": 14,
+      "truckNumber": "JJN 135 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-11T13:07:47.276Z"
+        }
+      ],
+      "createdAt": "2025-11-11T13:07:47.276Z",
+      "updatedAt": "2025-11-11T13:07:47.276Z"
+    },
+    {
+      "id": "truck_1762866467275_1_jpvpj4s39",
+      "supplierName": "Idris Garba",
+      "bags": 125,
+      "moistureLevel": 22,
+      "truckNumber": "MTZ 67 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-11T13:07:47.276Z"
+        }
+      ],
+      "createdAt": "2025-11-11T13:07:47.276Z",
+      "updatedAt": "2025-11-11T13:07:47.276Z"
+    },
+    {
+      "id": "truck_1762866467275_2_4dqkk54ra",
+      "supplierName": "Idris Haruna",
+      "bags": 400,
+      "moistureLevel": 12,
+      "truckNumber": "BAU 794 YP",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-11T13:07:47.276Z"
+        }
+      ],
+      "createdAt": "2025-11-11T13:07:47.276Z",
+      "updatedAt": "2025-11-11T13:07:47.276Z"
     }
   ],
-  "lastModified": "2025-11-11T12:07:35.656Z",
+  "lastModified": "2025-11-11T13:07:47.475Z",
   "version": "2.0.0"
 }
