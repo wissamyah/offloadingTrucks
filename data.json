@@ -18208,7 +18208,7 @@
       "bags": 519,
       "moistureLevel": 15,
       "truckNumber": "LAU 418 XA",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -18220,11 +18220,21 @@
           "details": {
             "waybillNumber": "7163"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-11-12T15:49:50.994Z",
+          "details": {
+            "netWeight": 41930,
+            "deduction": 100
+          }
         }
       ],
       "createdAt": "2025-11-12T13:59:03.345Z",
-      "updatedAt": "2025-11-12T14:12:24.766Z",
-      "waybillNumber": "7163"
+      "updatedAt": "2025-11-12T15:49:50.994Z",
+      "waybillNumber": "7163",
+      "netWeight": 41930,
+      "deduction": 100
     },
     {
       "id": "truck_1762955943345_1_zfjy1e4gl",
@@ -18243,6 +18253,6 @@
       "updatedAt": "2025-11-12T13:59:03.345Z"
     }
   ],
-  "lastModified": "2025-11-12T14:12:25.029Z",
+  "lastModified": "2025-11-12T15:49:51.200Z",
   "version": "2.0.0"
 }
