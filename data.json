@@ -18160,17 +18160,25 @@
       "bags": 550,
       "moistureLevel": 15,
       "truckNumber": "FKY 118 XB",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-11-12T11:27:54.941Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-11-12T11:29:34.102Z",
+          "details": {
+            "waybillNumber": "7159"
+          }
         }
       ],
       "createdAt": "2025-11-12T11:27:54.941Z",
-      "updatedAt": "2025-11-12T11:27:54.941Z"
+      "updatedAt": "2025-11-12T11:29:34.102Z",
+      "waybillNumber": "7159"
     }
   ],
-  "lastModified": "2025-11-12T11:27:55.140Z",
+  "lastModified": "2025-11-12T11:29:34.281Z",
   "version": "2.0.0"
 }
