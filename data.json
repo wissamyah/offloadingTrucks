@@ -18144,7 +18144,7 @@
       "bags": 540,
       "moistureLevel": 14,
       "truckNumber": "FKY 910 XA",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -18156,11 +18156,19 @@
           "details": {
             "waybillNumber": "7157"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-11-12T13:36:55.525Z",
+          "details": {
+            "netWeight": 38270
+          }
         }
       ],
       "createdAt": "2025-11-12T10:37:56.459Z",
-      "updatedAt": "2025-11-12T10:42:40.068Z",
-      "waybillNumber": "7157"
+      "updatedAt": "2025-11-12T13:36:55.525Z",
+      "waybillNumber": "7157",
+      "netWeight": 38270
     },
     {
       "id": "truck_1762946874940_0_ikbrlu9s4",
@@ -18195,6 +18203,6 @@
       "netWeight": 39530
     }
   ],
-  "lastModified": "2025-11-12T13:10:09.013Z",
+  "lastModified": "2025-11-12T13:36:55.710Z",
   "version": "2.0.0"
 }
