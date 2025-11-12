@@ -17968,7 +17968,7 @@
       "bags": 250,
       "moistureLevel": 20,
       "truckNumber": "KMC 335 XC",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -17980,11 +17980,21 @@
           "details": {
             "waybillNumber": "7152"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-11-12T09:33:54.664Z",
+          "details": {
+            "netWeight": 20270,
+            "deduction": 140
+          }
         }
       ],
       "createdAt": "2025-11-12T07:29:09.801Z",
-      "updatedAt": "2025-11-12T07:55:21.476Z",
-      "waybillNumber": "7152"
+      "updatedAt": "2025-11-12T09:33:54.664Z",
+      "waybillNumber": "7152",
+      "netWeight": 20270,
+      "deduction": 140
     },
     {
       "id": "truck_1762932549801_2_07o4dxdin",
@@ -18075,6 +18085,6 @@
       "waybillNumber": "7153"
     }
   ],
-  "lastModified": "2025-11-12T08:15:47.139Z",
+  "lastModified": "2025-11-12T09:33:55.634Z",
   "version": "2.0.0"
 }
