@@ -18093,14 +18093,14 @@
         },
         {
           "status": "offloaded",
-          "timestamp": "2025-11-12T13:09:58.407Z",
+          "timestamp": "2025-11-12T13:10:07.693Z",
           "details": {
             "netWeight": 39380
           }
         }
       ],
       "createdAt": "2025-11-12T07:35:34.749Z",
-      "updatedAt": "2025-11-12T13:09:58.407Z",
+      "updatedAt": "2025-11-12T13:10:07.693Z",
       "waybillNumber": "7156",
       "netWeight": 39380
     },
@@ -18195,6 +18195,6 @@
       "netWeight": 39530
     }
   ],
-  "lastModified": "2025-11-12T13:09:58.507Z",
+  "lastModified": "2025-11-12T13:10:09.013Z",
   "version": "2.0.0"
 }
