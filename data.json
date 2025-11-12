@@ -18066,7 +18066,7 @@
       "bags": 36,
       "moistureLevel": 13,
       "truckNumber": "HKW 285 ZY",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -18078,13 +18078,23 @@
           "details": {
             "waybillNumber": "7153"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-11-12T10:00:37.246Z",
+          "details": {
+            "netWeight": 2930,
+            "deduction": 150
+          }
         }
       ],
       "createdAt": "2025-11-12T07:35:34.749Z",
-      "updatedAt": "2025-11-12T08:15:46.905Z",
-      "waybillNumber": "7153"
+      "updatedAt": "2025-11-12T10:00:37.246Z",
+      "waybillNumber": "7153",
+      "netWeight": 2930,
+      "deduction": 150
     }
   ],
-  "lastModified": "2025-11-12T09:33:55.634Z",
+  "lastModified": "2025-11-12T10:00:38.201Z",
   "version": "2.0.0"
 }
