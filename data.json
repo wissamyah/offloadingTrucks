@@ -17985,8 +17985,56 @@
       ],
       "createdAt": "2025-11-12T07:29:09.801Z",
       "updatedAt": "2025-11-12T07:29:09.801Z"
+    },
+    {
+      "id": "truck_1762932934749_0_ar6xmqfrl",
+      "supplierName": "Idris Haruna",
+      "bags": 508,
+      "moistureLevel": 19,
+      "truckNumber": "RYM 561 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-12T07:35:34.749Z"
+        }
+      ],
+      "createdAt": "2025-11-12T07:35:34.749Z",
+      "updatedAt": "2025-11-12T07:35:34.749Z"
+    },
+    {
+      "id": "truck_1762932934749_1_r26ootbxd",
+      "supplierName": "Idris Haruna",
+      "bags": 550,
+      "moistureLevel": 12,
+      "truckNumber": "KMC 984 ZQ",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-12T07:35:34.749Z"
+        }
+      ],
+      "createdAt": "2025-11-12T07:35:34.749Z",
+      "updatedAt": "2025-11-12T07:35:34.749Z"
+    },
+    {
+      "id": "truck_1762932934749_2_2htf0ete2",
+      "supplierName": "Alh Danasabe",
+      "bags": 36,
+      "moistureLevel": 13,
+      "truckNumber": "HKW 285 ZY",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-12T07:35:34.749Z"
+        }
+      ],
+      "createdAt": "2025-11-12T07:35:34.749Z",
+      "updatedAt": "2025-11-12T07:35:34.749Z"
     }
   ],
-  "lastModified": "2025-11-12T07:29:10.027Z",
+  "lastModified": "2025-11-12T07:35:34.906Z",
   "version": "2.0.0"
 }
