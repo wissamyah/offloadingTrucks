@@ -18111,8 +18111,24 @@
       "waybillNumber": "7153",
       "netWeight": 2930,
       "deduction": 150
+    },
+    {
+      "id": "truck_1762943876458_0_yge9qb0kx",
+      "supplierName": "Damakasu Agro Allied",
+      "bags": 540,
+      "moistureLevel": 14,
+      "truckNumber": "FKY 910 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-12T10:37:56.459Z"
+        }
+      ],
+      "createdAt": "2025-11-12T10:37:56.459Z",
+      "updatedAt": "2025-11-12T10:37:56.459Z"
     }
   ],
-  "lastModified": "2025-11-12T10:34:09.769Z",
+  "lastModified": "2025-11-12T10:37:57.548Z",
   "version": "2.0.0"
 }
