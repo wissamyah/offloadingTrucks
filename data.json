@@ -18201,8 +18201,40 @@
       "updatedAt": "2025-11-12T13:03:58.170Z",
       "waybillNumber": "7159",
       "netWeight": 39530
+    },
+    {
+      "id": "truck_1762955943345_0_66ttnxcke",
+      "supplierName": "Ibrahim Gwarzo",
+      "bags": 519,
+      "moistureLevel": 15,
+      "truckNumber": "LAU 418 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-12T13:59:03.345Z"
+        }
+      ],
+      "createdAt": "2025-11-12T13:59:03.345Z",
+      "updatedAt": "2025-11-12T13:59:03.345Z"
+    },
+    {
+      "id": "truck_1762955943345_1_zfjy1e4gl",
+      "supplierName": "Idris Haruna",
+      "bags": 520,
+      "moistureLevel": 15,
+      "truckNumber": "TRR 457 YX",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-12T13:59:03.345Z"
+        }
+      ],
+      "createdAt": "2025-11-12T13:59:03.345Z",
+      "updatedAt": "2025-11-12T13:59:03.345Z"
     }
   ],
-  "lastModified": "2025-11-12T13:36:55.710Z",
+  "lastModified": "2025-11-12T13:59:03.505Z",
   "version": "2.0.0"
 }
