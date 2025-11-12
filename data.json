@@ -17937,8 +17937,56 @@
       "updatedAt": "2025-11-11T15:50:22.070Z",
       "waybillNumber": "7146",
       "netWeight": 1670
+    },
+    {
+      "id": "truck_1762932549801_0_vjef1wdsl",
+      "supplierName": "B L Barka",
+      "bags": 240,
+      "moistureLevel": 13,
+      "truckNumber": "NNG 398 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-12T07:29:09.801Z"
+        }
+      ],
+      "createdAt": "2025-11-12T07:29:09.801Z",
+      "updatedAt": "2025-11-12T07:29:09.801Z"
+    },
+    {
+      "id": "truck_1762932549801_1_08f55uw35",
+      "supplierName": "Idris Haruna",
+      "bags": 250,
+      "moistureLevel": 20,
+      "truckNumber": "KMC 335 XC",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-12T07:29:09.801Z"
+        }
+      ],
+      "createdAt": "2025-11-12T07:29:09.801Z",
+      "updatedAt": "2025-11-12T07:29:09.801Z"
+    },
+    {
+      "id": "truck_1762932549801_2_07o4dxdin",
+      "supplierName": "Idris Haruna",
+      "bags": 500,
+      "moistureLevel": 15,
+      "truckNumber": "TRR 394 YX",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-12T07:29:09.801Z"
+        }
+      ],
+      "createdAt": "2025-11-12T07:29:09.801Z",
+      "updatedAt": "2025-11-12T07:29:09.801Z"
     }
   ],
-  "lastModified": "2025-11-11T15:50:23.676Z",
+  "lastModified": "2025-11-12T07:29:10.027Z",
   "version": "2.0.0"
 }
