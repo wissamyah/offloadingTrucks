@@ -18002,7 +18002,7 @@
       "bags": 500,
       "moistureLevel": 15,
       "truckNumber": "TRR 394 YX",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -18014,11 +18014,21 @@
           "details": {
             "waybillNumber": "7149"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-11-12T10:29:40.572Z",
+          "details": {
+            "netWeight": 36580,
+            "deduction": 180
+          }
         }
       ],
       "createdAt": "2025-11-12T07:29:09.801Z",
-      "updatedAt": "2025-11-12T07:46:12.031Z",
-      "waybillNumber": "7149"
+      "updatedAt": "2025-11-12T10:29:40.572Z",
+      "waybillNumber": "7149",
+      "netWeight": 36580,
+      "deduction": 180
     },
     {
       "id": "truck_1762932934749_0_ar6xmqfrl",
@@ -18095,6 +18105,6 @@
       "deduction": 150
     }
   ],
-  "lastModified": "2025-11-12T10:01:06.949Z",
+  "lastModified": "2025-11-12T10:29:41.485Z",
   "version": "2.0.0"
 }
