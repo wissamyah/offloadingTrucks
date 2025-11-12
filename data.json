@@ -18044,7 +18044,7 @@
       "bags": 508,
       "moistureLevel": 19,
       "truckNumber": "RYM 561 XA",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -18056,11 +18056,21 @@
           "details": {
             "waybillNumber": "7151"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-11-12T11:03:32.283Z",
+          "details": {
+            "netWeight": 36440,
+            "deduction": 120
+          }
         }
       ],
       "createdAt": "2025-11-12T07:35:34.749Z",
-      "updatedAt": "2025-11-12T07:51:34.126Z",
-      "waybillNumber": "7151"
+      "updatedAt": "2025-11-12T11:03:32.283Z",
+      "waybillNumber": "7151",
+      "netWeight": 36440,
+      "deduction": 120
     },
     {
       "id": "truck_1762932934749_1_r26ootbxd",
@@ -18145,6 +18155,6 @@
       "waybillNumber": "7157"
     }
   ],
-  "lastModified": "2025-11-12T10:42:40.223Z",
+  "lastModified": "2025-11-12T11:03:32.431Z",
   "version": "2.0.0"
 }
