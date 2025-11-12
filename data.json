@@ -17941,7 +17941,7 @@
     {
       "id": "truck_1762932549801_0_vjef1wdsl",
       "supplierName": "B L Barka",
-      "bags": 240,
+      "bags": 250,
       "moistureLevel": 13,
       "truckNumber": "NNG 398 XA",
       "status": "scaled_in",
@@ -18051,6 +18051,6 @@
       "updatedAt": "2025-11-12T07:35:34.749Z"
     }
   ],
-  "lastModified": "2025-11-12T07:49:55.148Z",
+  "lastModified": "2025-11-12T07:50:07.700Z",
   "version": "2.0.0"
 }
