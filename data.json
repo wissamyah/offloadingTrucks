@@ -18076,14 +18076,14 @@
         },
         {
           "status": "scaled_in",
-          "timestamp": "2025-11-12T10:39:50.234Z",
+          "timestamp": "2025-11-12T10:40:07.387Z",
           "details": {
             "waybillNumber": "7156"
           }
         }
       ],
       "createdAt": "2025-11-12T07:35:34.749Z",
-      "updatedAt": "2025-11-12T10:39:50.234Z",
+      "updatedAt": "2025-11-12T10:40:07.387Z",
       "waybillNumber": "7156"
     },
     {
@@ -18137,6 +18137,6 @@
       "updatedAt": "2025-11-12T10:37:56.459Z"
     }
   ],
-  "lastModified": "2025-11-12T10:39:50.388Z",
+  "lastModified": "2025-11-12T10:40:08.304Z",
   "version": "2.0.0"
 }
