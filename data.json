@@ -18153,8 +18153,24 @@
       "createdAt": "2025-11-12T10:37:56.459Z",
       "updatedAt": "2025-11-12T10:42:40.068Z",
       "waybillNumber": "7157"
+    },
+    {
+      "id": "truck_1762946874940_0_ikbrlu9s4",
+      "supplierName": "Idris Garba",
+      "bags": 550,
+      "moistureLevel": 15,
+      "truckNumber": "FKY 118 XB",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-12T11:27:54.941Z"
+        }
+      ],
+      "createdAt": "2025-11-12T11:27:54.941Z",
+      "updatedAt": "2025-11-12T11:27:54.941Z"
     }
   ],
-  "lastModified": "2025-11-12T11:03:32.431Z",
+  "lastModified": "2025-11-12T11:27:55.140Z",
   "version": "2.0.0"
 }
