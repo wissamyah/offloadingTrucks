@@ -18126,17 +18126,25 @@
       "bags": 540,
       "moistureLevel": 14,
       "truckNumber": "FKY 910 XA",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-11-12T10:37:56.459Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-11-12T10:42:40.068Z",
+          "details": {
+            "waybillNumber": "7157"
+          }
         }
       ],
       "createdAt": "2025-11-12T10:37:56.459Z",
-      "updatedAt": "2025-11-12T10:37:56.459Z"
+      "updatedAt": "2025-11-12T10:42:40.068Z",
+      "waybillNumber": "7157"
     }
   ],
-  "lastModified": "2025-11-12T10:40:08.304Z",
+  "lastModified": "2025-11-12T10:42:40.223Z",
   "version": "2.0.0"
 }
