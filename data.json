@@ -18741,22 +18741,6 @@
       "updatedAt": "2025-11-13T14:15:51.311Z"
     },
     {
-      "id": "truck_1763043351311_2_vip7nnmyz",
-      "supplierName": "B L Barka",
-      "bags": 350,
-      "moistureLevel": 15,
-      "truckNumber": "KTN 268 YZ",
-      "status": "pending",
-      "statusHistory": [
-        {
-          "status": "pending",
-          "timestamp": "2025-11-13T14:15:51.311Z"
-        }
-      ],
-      "createdAt": "2025-11-13T14:15:51.311Z",
-      "updatedAt": "2025-11-13T14:15:51.311Z"
-    },
-    {
       "id": "truck_1763043351311_3_ld243z0r9",
       "supplierName": "Jamilu jangale",
       "bags": 500,
@@ -18781,6 +18765,6 @@
       "waybillNumber": "7184"
     }
   ],
-  "lastModified": "2025-11-13T14:18:08.731Z",
+  "lastModified": "2025-11-13T14:18:40.474Z",
   "version": "2.0.0"
 }
