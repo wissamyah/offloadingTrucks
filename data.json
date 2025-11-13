@@ -18562,7 +18562,7 @@
       "bags": 500,
       "moistureLevel": 15,
       "truckNumber": "SUL 55 XP",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -18574,11 +18574,19 @@
           "details": {
             "waybillNumber": "7178"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-11-13T12:58:52.299Z",
+          "details": {
+            "netWeight": 37250
+          }
         }
       ],
       "createdAt": "2025-11-13T07:24:45.188Z",
-      "updatedAt": "2025-11-13T09:59:35.559Z",
-      "waybillNumber": "7178"
+      "updatedAt": "2025-11-13T12:58:52.299Z",
+      "waybillNumber": "7178",
+      "netWeight": 37250
     },
     {
       "id": "truck_1763018685188_3_ru8ig915m",
@@ -18693,6 +18701,6 @@
       "waybillNumber": "7182"
     }
   ],
-  "lastModified": "2025-11-13T12:56:07.235Z",
+  "lastModified": "2025-11-13T12:58:52.377Z",
   "version": "2.0.0"
 }
