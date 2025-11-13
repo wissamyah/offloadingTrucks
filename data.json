@@ -18274,15 +18274,23 @@
       "bags": 520,
       "moistureLevel": 13,
       "truckNumber": "PKM 631 XA",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-11-13T07:23:46.705Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-11-13T08:16:05.183Z",
+          "details": {
+            "waybillNumber": "7171"
+          }
         }
       ],
       "createdAt": "2025-11-13T07:23:46.705Z",
-      "updatedAt": "2025-11-13T07:23:46.705Z"
+      "updatedAt": "2025-11-13T08:16:05.183Z",
+      "waybillNumber": "7171"
     },
     {
       "id": "truck_1763018626705_1_a5641lht2",
@@ -18485,6 +18493,6 @@
       "updatedAt": "2025-11-13T07:24:45.188Z"
     }
   ],
-  "lastModified": "2025-11-13T07:38:53.209Z",
+  "lastModified": "2025-11-13T08:16:06.581Z",
   "version": "2.0.0"
 }
