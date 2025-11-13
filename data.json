@@ -18466,15 +18466,23 @@
       "bags": 35,
       "moistureLevel": 15,
       "truckNumber": "MSA 624 XA",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-11-13T07:24:45.188Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-11-13T09:08:00.339Z",
+          "details": {
+            "waybillNumber": "7176"
+          }
         }
       ],
       "createdAt": "2025-11-13T07:24:45.188Z",
-      "updatedAt": "2025-11-13T07:24:45.188Z"
+      "updatedAt": "2025-11-13T09:08:00.339Z",
+      "waybillNumber": "7176"
     },
     {
       "id": "truck_1763018685188_2_84egsgnqq",
@@ -18525,6 +18533,6 @@
       "updatedAt": "2025-11-13T07:24:45.188Z"
     }
   ],
-  "lastModified": "2025-11-13T09:05:11.115Z",
+  "lastModified": "2025-11-13T09:08:00.497Z",
   "version": "2.0.0"
 }
