@@ -18707,8 +18707,72 @@
       "createdAt": "2025-11-13T11:44:06.937Z",
       "updatedAt": "2025-11-13T12:00:14.683Z",
       "waybillNumber": "7182"
+    },
+    {
+      "id": "truck_1763043351311_0_heo4hdnan",
+      "supplierName": "Umar Adamu",
+      "bags": 490,
+      "moistureLevel": 17,
+      "truckNumber": "FKY 693 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-13T14:15:51.311Z"
+        }
+      ],
+      "createdAt": "2025-11-13T14:15:51.311Z",
+      "updatedAt": "2025-11-13T14:15:51.311Z"
+    },
+    {
+      "id": "truck_1763043351311_1_owwwfoci6",
+      "supplierName": "Idris Garba",
+      "bags": 490,
+      "moistureLevel": 19,
+      "truckNumber": "KTG 120 ZY",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-13T14:15:51.311Z"
+        }
+      ],
+      "createdAt": "2025-11-13T14:15:51.311Z",
+      "updatedAt": "2025-11-13T14:15:51.311Z"
+    },
+    {
+      "id": "truck_1763043351311_2_vip7nnmyz",
+      "supplierName": "B L Barka",
+      "bags": 350,
+      "moistureLevel": 15,
+      "truckNumber": "KTN 268 YZ",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-13T14:15:51.311Z"
+        }
+      ],
+      "createdAt": "2025-11-13T14:15:51.311Z",
+      "updatedAt": "2025-11-13T14:15:51.311Z"
+    },
+    {
+      "id": "truck_1763043351311_3_ld243z0r9",
+      "supplierName": "Jamilu jangale",
+      "bags": 500,
+      "moistureLevel": 15,
+      "truckNumber": "LND 766 YA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-13T14:15:51.311Z"
+        }
+      ],
+      "createdAt": "2025-11-13T14:15:51.311Z",
+      "updatedAt": "2025-11-13T14:15:51.311Z"
     }
   ],
-  "lastModified": "2025-11-13T13:18:28.610Z",
+  "lastModified": "2025-11-13T14:15:51.488Z",
   "version": "2.0.0"
 }
