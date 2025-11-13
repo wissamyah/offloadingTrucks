@@ -18609,8 +18609,40 @@
       "createdAt": "2025-11-13T07:24:45.188Z",
       "updatedAt": "2025-11-13T11:38:25.889Z",
       "waybillNumber": "7180"
+    },
+    {
+      "id": "truck_1763034246936_0_fwohuutt9",
+      "supplierName": "Mukhtari Sale",
+      "bags": 204,
+      "moistureLevel": 13,
+      "truckNumber": "MGM 603 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-13T11:44:06.937Z"
+        }
+      ],
+      "createdAt": "2025-11-13T11:44:06.937Z",
+      "updatedAt": "2025-11-13T11:44:06.937Z"
+    },
+    {
+      "id": "truck_1763034246936_1_i5yfwp730",
+      "supplierName": "Idris Haruna",
+      "bags": 285,
+      "moistureLevel": 12,
+      "truckNumber": "EPE 851 XJ",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-13T11:44:06.937Z"
+        }
+      ],
+      "createdAt": "2025-11-13T11:44:06.937Z",
+      "updatedAt": "2025-11-13T11:44:06.937Z"
     }
   ],
-  "lastModified": "2025-11-13T11:38:27.258Z",
+  "lastModified": "2025-11-13T11:44:07.186Z",
   "version": "2.0.0"
 }
