@@ -18418,15 +18418,23 @@
       "bags": 35,
       "moistureLevel": 14,
       "truckNumber": "GYD 146 XA",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-11-13T07:23:46.705Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-11-13T09:05:10.063Z",
+          "details": {
+            "waybillNumber": "7175"
+          }
         }
       ],
       "createdAt": "2025-11-13T07:23:46.705Z",
-      "updatedAt": "2025-11-13T07:23:46.705Z"
+      "updatedAt": "2025-11-13T09:05:10.063Z",
+      "waybillNumber": "7175"
     },
     {
       "id": "truck_1763018685188_0_e4i0tysw0",
@@ -18517,6 +18525,6 @@
       "updatedAt": "2025-11-13T07:24:45.188Z"
     }
   ],
-  "lastModified": "2025-11-13T09:03:33.914Z",
+  "lastModified": "2025-11-13T09:05:11.115Z",
   "version": "2.0.0"
 }
