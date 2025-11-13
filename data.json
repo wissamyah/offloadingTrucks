@@ -18408,7 +18408,7 @@
       "bags": 100,
       "moistureLevel": 20,
       "truckNumber": "YUN 70 XA",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -18420,11 +18420,19 @@
           "details": {
             "waybillNumber": "7172"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-11-13T13:18:28.411Z",
+          "details": {
+            "netWeight": 8010
+          }
         }
       ],
       "createdAt": "2025-11-13T07:23:46.705Z",
-      "updatedAt": "2025-11-13T08:21:03.622Z",
-      "waybillNumber": "7172"
+      "updatedAt": "2025-11-13T13:18:28.411Z",
+      "waybillNumber": "7172",
+      "netWeight": 8010
     },
     {
       "id": "truck_1763018626705_5_pfhhnwpnv",
@@ -18701,6 +18709,6 @@
       "waybillNumber": "7182"
     }
   ],
-  "lastModified": "2025-11-13T12:58:52.377Z",
+  "lastModified": "2025-11-13T13:18:28.610Z",
   "version": "2.0.0"
 }
