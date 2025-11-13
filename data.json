@@ -18488,7 +18488,7 @@
       "bags": 40,
       "moistureLevel": 12,
       "truckNumber": "MSA 27 LG",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -18500,11 +18500,21 @@
           "details": {
             "waybillNumber": "7174"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-11-13T11:48:01.407Z",
+          "details": {
+            "netWeight": 3180,
+            "deduction": 100
+          }
         }
       ],
       "createdAt": "2025-11-13T07:24:45.188Z",
-      "updatedAt": "2025-11-13T09:03:03.752Z",
-      "waybillNumber": "7174"
+      "updatedAt": "2025-11-13T11:48:01.407Z",
+      "waybillNumber": "7174",
+      "netWeight": 3180,
+      "deduction": 100
     },
     {
       "id": "truck_1763018685188_1_q1toshmtu",
@@ -18651,6 +18661,6 @@
       "updatedAt": "2025-11-13T11:44:06.937Z"
     }
   ],
-  "lastModified": "2025-11-13T11:44:37.431Z",
+  "lastModified": "2025-11-13T11:48:01.683Z",
   "version": "2.0.0"
 }
