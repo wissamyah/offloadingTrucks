@@ -18426,15 +18426,23 @@
       "bags": 40,
       "moistureLevel": 12,
       "truckNumber": "MSA 27 LG",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-11-13T07:24:45.188Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-11-13T09:03:03.752Z",
+          "details": {
+            "waybillNumber": "7174"
+          }
         }
       ],
       "createdAt": "2025-11-13T07:24:45.188Z",
-      "updatedAt": "2025-11-13T07:24:45.188Z"
+      "updatedAt": "2025-11-13T09:03:03.752Z",
+      "waybillNumber": "7174"
     },
     {
       "id": "truck_1763018685188_1_q1toshmtu",
@@ -18501,6 +18509,6 @@
       "updatedAt": "2025-11-13T07:24:45.188Z"
     }
   ],
-  "lastModified": "2025-11-13T08:21:03.817Z",
+  "lastModified": "2025-11-13T09:03:03.968Z",
   "version": "2.0.0"
 }
