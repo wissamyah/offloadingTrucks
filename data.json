@@ -18592,17 +18592,25 @@
       "bags": 190,
       "moistureLevel": 13,
       "truckNumber": "BAM 34 XA",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-11-13T07:24:45.188Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-11-13T11:38:25.889Z",
+          "details": {
+            "waybillNumber": "7180"
+          }
         }
       ],
       "createdAt": "2025-11-13T07:24:45.188Z",
-      "updatedAt": "2025-11-13T07:24:45.188Z"
+      "updatedAt": "2025-11-13T11:38:25.889Z",
+      "waybillNumber": "7180"
     }
   ],
-  "lastModified": "2025-11-13T11:31:06.241Z",
+  "lastModified": "2025-11-13T11:38:27.258Z",
   "version": "2.0.0"
 }
