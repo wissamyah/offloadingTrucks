@@ -18298,7 +18298,7 @@
       "bags": 539,
       "moistureLevel": 15,
       "truckNumber": "FKY 279 XB",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -18310,11 +18310,19 @@
           "details": {
             "waybillNumber": "7168"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-11-13T10:58:08.809Z",
+          "details": {
+            "netWeight": 40130
+          }
         }
       ],
       "createdAt": "2025-11-13T07:23:46.705Z",
-      "updatedAt": "2025-11-13T07:34:31.639Z",
-      "waybillNumber": "7168"
+      "updatedAt": "2025-11-13T10:58:08.809Z",
+      "waybillNumber": "7168",
+      "netWeight": 40130
     },
     {
       "id": "truck_1763018626705_2_aq1hv3w9o",
@@ -18569,6 +18577,6 @@
       "updatedAt": "2025-11-13T07:24:45.188Z"
     }
   ],
-  "lastModified": "2025-11-13T10:35:09.894Z",
+  "lastModified": "2025-11-13T10:58:09.312Z",
   "version": "2.0.0"
 }
