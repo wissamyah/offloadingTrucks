@@ -18306,15 +18306,23 @@
       "bags": 500,
       "moistureLevel": 12,
       "truckNumber": "SMK 817 BX",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-11-13T07:23:46.705Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-11-13T07:30:04.142Z",
+          "details": {
+            "waybillNumber": "7167"
+          }
         }
       ],
       "createdAt": "2025-11-13T07:23:46.705Z",
-      "updatedAt": "2025-11-13T07:23:46.705Z"
+      "updatedAt": "2025-11-13T07:30:04.142Z",
+      "waybillNumber": "7167"
     },
     {
       "id": "truck_1763018626705_3_kindmdmbp",
@@ -18461,6 +18469,6 @@
       "updatedAt": "2025-11-13T07:24:45.188Z"
     }
   ],
-  "lastModified": "2025-11-13T07:24:45.390Z",
+  "lastModified": "2025-11-13T07:30:05.177Z",
   "version": "2.0.0"
 }
