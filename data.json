@@ -18379,8 +18379,88 @@
       ],
       "createdAt": "2025-11-13T07:23:46.705Z",
       "updatedAt": "2025-11-13T07:23:46.705Z"
+    },
+    {
+      "id": "truck_1763018685188_0_e4i0tysw0",
+      "supplierName": "Alh Danasabe",
+      "bags": 40,
+      "moistureLevel": 12,
+      "truckNumber": "MSA 27 LG",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-13T07:24:45.188Z"
+        }
+      ],
+      "createdAt": "2025-11-13T07:24:45.188Z",
+      "updatedAt": "2025-11-13T07:24:45.188Z"
+    },
+    {
+      "id": "truck_1763018685188_1_q1toshmtu",
+      "supplierName": "Alh Danasabe",
+      "bags": 35,
+      "moistureLevel": 15,
+      "truckNumber": "MSA 624 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-13T07:24:45.188Z"
+        }
+      ],
+      "createdAt": "2025-11-13T07:24:45.188Z",
+      "updatedAt": "2025-11-13T07:24:45.188Z"
+    },
+    {
+      "id": "truck_1763018685188_2_84egsgnqq",
+      "supplierName": "Idris Haruna",
+      "bags": 500,
+      "moistureLevel": 15,
+      "truckNumber": "SUL 55 XP",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-13T07:24:45.188Z"
+        }
+      ],
+      "createdAt": "2025-11-13T07:24:45.188Z",
+      "updatedAt": "2025-11-13T07:24:45.188Z"
+    },
+    {
+      "id": "truck_1763018685188_3_ru8ig915m",
+      "supplierName": "Damakasu Agro Allied",
+      "bags": 550,
+      "moistureLevel": 14,
+      "truckNumber": "FKY 941 YF",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-13T07:24:45.188Z"
+        }
+      ],
+      "createdAt": "2025-11-13T07:24:45.188Z",
+      "updatedAt": "2025-11-13T07:24:45.188Z"
+    },
+    {
+      "id": "truck_1763018685188_4_snct06vg3",
+      "supplierName": "Mukhtari Sale",
+      "bags": 190,
+      "moistureLevel": 13,
+      "truckNumber": "BAM 34 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-13T07:24:45.188Z"
+        }
+      ],
+      "createdAt": "2025-11-13T07:24:45.188Z",
+      "updatedAt": "2025-11-13T07:24:45.188Z"
     }
   ],
-  "lastModified": "2025-11-13T07:23:46.866Z",
+  "lastModified": "2025-11-13T07:24:45.390Z",
   "version": "2.0.0"
 }
