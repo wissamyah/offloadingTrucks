@@ -18732,7 +18732,7 @@
       "bags": 490,
       "moistureLevel": 17,
       "truckNumber": "FKY 693 XA",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -18744,11 +18744,19 @@
           "details": {
             "waybillNumber": "7185"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-11-13T17:00:57.697Z",
+          "details": {
+            "netWeight": 40950
+          }
         }
       ],
       "createdAt": "2025-11-13T14:15:51.311Z",
-      "updatedAt": "2025-11-13T14:23:01.477Z",
-      "waybillNumber": "7185"
+      "updatedAt": "2025-11-13T17:00:57.698Z",
+      "waybillNumber": "7185",
+      "netWeight": 40950
     },
     {
       "id": "truck_1763043351311_1_owwwfoci6",
@@ -18819,6 +18827,6 @@
       "deduction": 90
     }
   ],
-  "lastModified": "2025-11-13T16:38:55.759Z",
+  "lastModified": "2025-11-13T17:00:57.868Z",
   "version": "2.0.0"
 }
