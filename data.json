@@ -18322,7 +18322,7 @@
       "bags": 500,
       "moistureLevel": 12,
       "truckNumber": "SMK 817 BX",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -18334,11 +18334,21 @@
           "details": {
             "waybillNumber": "7167"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-11-13T09:54:14.398Z",
+          "details": {
+            "netWeight": 42490,
+            "deduction": 80
+          }
         }
       ],
       "createdAt": "2025-11-13T07:23:46.705Z",
-      "updatedAt": "2025-11-13T07:30:04.142Z",
-      "waybillNumber": "7167"
+      "updatedAt": "2025-11-13T09:54:14.398Z",
+      "waybillNumber": "7167",
+      "netWeight": 42490,
+      "deduction": 80
     },
     {
       "id": "truck_1763018626705_3_kindmdmbp",
@@ -18533,6 +18543,6 @@
       "updatedAt": "2025-11-13T07:24:45.188Z"
     }
   ],
-  "lastModified": "2025-11-13T09:08:00.497Z",
+  "lastModified": "2025-11-13T09:54:14.764Z",
   "version": "2.0.0"
 }
