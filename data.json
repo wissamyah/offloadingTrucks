@@ -18666,7 +18666,7 @@
       "bags": 204,
       "moistureLevel": 13,
       "truckNumber": "MGM 603 XA",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -18678,11 +18678,21 @@
           "details": {
             "waybillNumber": "7181"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-11-13T15:01:18.433Z",
+          "details": {
+            "netWeight": 17380,
+            "deduction": 90
+          }
         }
       ],
       "createdAt": "2025-11-13T11:44:06.937Z",
-      "updatedAt": "2025-11-13T11:44:37.233Z",
-      "waybillNumber": "7181"
+      "updatedAt": "2025-11-13T15:01:18.433Z",
+      "waybillNumber": "7181",
+      "netWeight": 17380,
+      "deduction": 90
     },
     {
       "id": "truck_1763034246936_1_i5yfwp730",
@@ -18789,6 +18799,6 @@
       "waybillNumber": "7184"
     }
   ],
-  "lastModified": "2025-11-13T14:35:05.696Z",
+  "lastModified": "2025-11-13T15:01:18.654Z",
   "version": "2.0.0"
 }
