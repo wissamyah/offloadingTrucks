@@ -18738,15 +18738,23 @@
       "bags": 490,
       "moistureLevel": 19,
       "truckNumber": "KTG 120 ZY",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-11-13T14:15:51.311Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-11-13T14:27:16.788Z",
+          "details": {
+            "waybillNumber": "8186"
+          }
         }
       ],
       "createdAt": "2025-11-13T14:15:51.311Z",
-      "updatedAt": "2025-11-13T14:15:51.311Z"
+      "updatedAt": "2025-11-13T14:27:16.788Z",
+      "waybillNumber": "8186"
     },
     {
       "id": "truck_1763043351311_3_ld243z0r9",
@@ -18773,6 +18781,6 @@
       "waybillNumber": "7184"
     }
   ],
-  "lastModified": "2025-11-13T14:23:01.677Z",
+  "lastModified": "2025-11-13T14:27:16.945Z",
   "version": "2.0.0"
 }
