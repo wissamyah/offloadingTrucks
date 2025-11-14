@@ -18936,7 +18936,7 @@
       "bags": 96,
       "moistureLevel": 14,
       "truckNumber": "MKA 704 XB",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -18948,11 +18948,19 @@
           "details": {
             "waybillNumber": "7197"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-11-14T09:26:42.548Z",
+          "details": {
+            "netWeight": 9710
+          }
         }
       ],
       "createdAt": "2025-11-14T07:24:50.003Z",
-      "updatedAt": "2025-11-14T08:35:57.388Z",
-      "waybillNumber": "7197"
+      "updatedAt": "2025-11-14T09:26:42.548Z",
+      "waybillNumber": "7197",
+      "netWeight": 9710
     },
     {
       "id": "truck_1763105090002_5_wtp2lq327",
@@ -19131,6 +19139,6 @@
       "updatedAt": "2025-11-14T07:25:11.642Z"
     }
   ],
-  "lastModified": "2025-11-14T09:08:37.194Z",
+  "lastModified": "2025-11-14T09:26:44.141Z",
   "version": "2.0.0"
 }
