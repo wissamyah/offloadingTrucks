@@ -19132,15 +19132,23 @@
       "bags": 240,
       "moistureLevel": 17,
       "truckNumber": "YAB 500 YR",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-11-14T07:25:11.642Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-11-14T10:24:48.151Z",
+          "details": {
+            "waybillNumber": "7203"
+          }
         }
       ],
       "createdAt": "2025-11-14T07:25:11.642Z",
-      "updatedAt": "2025-11-14T07:25:11.642Z"
+      "updatedAt": "2025-11-14T10:24:48.151Z",
+      "waybillNumber": "7203"
     },
     {
       "id": "truck_1763105111641_6_9yyidl3ek",
@@ -19159,6 +19167,6 @@
       "updatedAt": "2025-11-14T07:25:11.642Z"
     }
   ],
-  "lastModified": "2025-11-14T10:10:46.484Z",
+  "lastModified": "2025-11-14T10:24:49.864Z",
   "version": "2.0.0"
 }
