@@ -19064,7 +19064,7 @@
       "bags": 500,
       "moistureLevel": 14,
       "truckNumber": "AKK 161 XA",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -19076,11 +19076,19 @@
           "details": {
             "waybillNumber": "7199"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-11-14T12:08:38.403Z",
+          "details": {
+            "netWeight": 41950
+          }
         }
       ],
       "createdAt": "2025-11-14T07:25:11.641Z",
-      "updatedAt": "2025-11-14T09:03:31.989Z",
-      "waybillNumber": "7199"
+      "updatedAt": "2025-11-14T12:08:38.403Z",
+      "waybillNumber": "7199",
+      "netWeight": 41950
     },
     {
       "id": "truck_1763105111641_2_pgfeeu8dl",
@@ -19205,6 +19213,6 @@
       "updatedAt": "2025-11-14T07:25:11.642Z"
     }
   ],
-  "lastModified": "2025-11-14T12:02:29.022Z",
+  "lastModified": "2025-11-14T12:08:39.832Z",
   "version": "2.0.0"
 }
