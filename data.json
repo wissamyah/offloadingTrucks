@@ -18900,7 +18900,7 @@
       "bags": 56,
       "moistureLevel": 18,
       "truckNumber": "KNT 860 XP",
-      "status": "scaled_in",
+      "status": "rejected",
       "statusHistory": [
         {
           "status": "pending",
@@ -18912,10 +18912,14 @@
           "details": {
             "waybillNumber": "7195"
           }
+        },
+        {
+          "status": "rejected",
+          "timestamp": "2025-11-14T10:42:55.833Z"
         }
       ],
       "createdAt": "2025-11-14T07:24:50.003Z",
-      "updatedAt": "2025-11-14T08:30:56.178Z",
+      "updatedAt": "2025-11-14T10:42:55.833Z",
       "waybillNumber": "7195"
     },
     {
@@ -19175,6 +19179,6 @@
       "updatedAt": "2025-11-14T07:25:11.642Z"
     }
   ],
-  "lastModified": "2025-11-14T10:37:32.016Z",
+  "lastModified": "2025-11-14T10:42:55.913Z",
   "version": "2.0.0"
 }
