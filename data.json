@@ -18832,7 +18832,7 @@
       "bags": 210,
       "moistureLevel": 13,
       "truckNumber": "AAA 879 YE",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -18844,11 +18844,21 @@
           "details": {
             "waybillNumber": "7189"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-11-14T09:27:33.528Z",
+          "details": {
+            "netWeight": 17530,
+            "deduction": 170
+          }
         }
       ],
       "createdAt": "2025-11-14T07:24:50.003Z",
-      "updatedAt": "2025-11-14T07:31:28.757Z",
-      "waybillNumber": "7189"
+      "updatedAt": "2025-11-14T09:27:33.528Z",
+      "waybillNumber": "7189",
+      "netWeight": 17530,
+      "deduction": 170
     },
     {
       "id": "truck_1763105090002_1_vcbravyjt",
@@ -19139,6 +19149,6 @@
       "updatedAt": "2025-11-14T07:25:11.642Z"
     }
   ],
-  "lastModified": "2025-11-14T09:26:44.141Z",
+  "lastModified": "2025-11-14T09:27:35.049Z",
   "version": "2.0.0"
 }
