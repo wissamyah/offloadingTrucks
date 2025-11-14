@@ -18937,8 +18937,120 @@
       ],
       "createdAt": "2025-11-14T07:24:50.003Z",
       "updatedAt": "2025-11-14T07:24:50.003Z"
+    },
+    {
+      "id": "truck_1763105111641_0_ggje1ktnf",
+      "supplierName": "Idris Garba",
+      "bags": 517,
+      "moistureLevel": 14,
+      "truckNumber": "ZAR 97 XR",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-14T07:25:11.641Z"
+        }
+      ],
+      "createdAt": "2025-11-14T07:25:11.641Z",
+      "updatedAt": "2025-11-14T07:25:11.641Z"
+    },
+    {
+      "id": "truck_1763105111641_1_yuv96sflv",
+      "supplierName": "Idris Garba",
+      "bags": 500,
+      "moistureLevel": 14,
+      "truckNumber": "AKK 161 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-14T07:25:11.641Z"
+        }
+      ],
+      "createdAt": "2025-11-14T07:25:11.641Z",
+      "updatedAt": "2025-11-14T07:25:11.641Z"
+    },
+    {
+      "id": "truck_1763105111641_2_pgfeeu8dl",
+      "supplierName": "Idris Haruna",
+      "bags": 494,
+      "moistureLevel": 14,
+      "truckNumber": "TRR 393 YX",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-14T07:25:11.641Z"
+        }
+      ],
+      "createdAt": "2025-11-14T07:25:11.642Z",
+      "updatedAt": "2025-11-14T07:25:11.642Z"
+    },
+    {
+      "id": "truck_1763105111641_3_chiw3q8hb",
+      "supplierName": "Idris Garba",
+      "bags": 500,
+      "moistureLevel": 13,
+      "truckNumber": "XD 494 KTN",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-14T07:25:11.642Z"
+        }
+      ],
+      "createdAt": "2025-11-14T07:25:11.642Z",
+      "updatedAt": "2025-11-14T07:25:11.642Z"
+    },
+    {
+      "id": "truck_1763105111641_4_24nw1e3g0",
+      "supplierName": "B L Barka",
+      "bags": 270,
+      "moistureLevel": 22,
+      "truckNumber": "HJA 134 XR",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-14T07:25:11.642Z"
+        }
+      ],
+      "createdAt": "2025-11-14T07:25:11.642Z",
+      "updatedAt": "2025-11-14T07:25:11.642Z"
+    },
+    {
+      "id": "truck_1763105111641_5_60mr5kw6g",
+      "supplierName": "Yushau Maishanu",
+      "bags": 240,
+      "moistureLevel": 17,
+      "truckNumber": "YAB 500 YR",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-14T07:25:11.642Z"
+        }
+      ],
+      "createdAt": "2025-11-14T07:25:11.642Z",
+      "updatedAt": "2025-11-14T07:25:11.642Z"
+    },
+    {
+      "id": "truck_1763105111641_6_9yyidl3ek",
+      "supplierName": "Kabiru Danladi",
+      "bags": 286,
+      "moistureLevel": 15,
+      "truckNumber": "LFA 569 ZY",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-14T07:25:11.642Z"
+        }
+      ],
+      "createdAt": "2025-11-14T07:25:11.642Z",
+      "updatedAt": "2025-11-14T07:25:11.642Z"
     }
   ],
-  "lastModified": "2025-11-14T07:24:52.737Z",
+  "lastModified": "2025-11-14T07:25:13.142Z",
   "version": "2.0.0"
 }
