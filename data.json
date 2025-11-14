@@ -18825,8 +18825,120 @@
       "waybillNumber": "7184",
       "netWeight": 35650,
       "deduction": 90
+    },
+    {
+      "id": "truck_1763105090002_0_ndhz8jyg6",
+      "supplierName": "Abubakar Muhd Tukur",
+      "bags": 210,
+      "moistureLevel": 13,
+      "truckNumber": "AAA 879 YE",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-14T07:24:50.003Z"
+        }
+      ],
+      "createdAt": "2025-11-14T07:24:50.003Z",
+      "updatedAt": "2025-11-14T07:24:50.003Z"
+    },
+    {
+      "id": "truck_1763105090002_1_vcbravyjt",
+      "supplierName": "Mukhtari Sale",
+      "bags": 221,
+      "moistureLevel": 12,
+      "truckNumber": "FKA 166 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-14T07:24:50.003Z"
+        }
+      ],
+      "createdAt": "2025-11-14T07:24:50.003Z",
+      "updatedAt": "2025-11-14T07:24:50.003Z"
+    },
+    {
+      "id": "truck_1763105090002_2_5nag0nn33",
+      "supplierName": "Jamilu Yahaya",
+      "bags": 56,
+      "moistureLevel": 18,
+      "truckNumber": "KNT 860 XP",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-14T07:24:50.003Z"
+        }
+      ],
+      "createdAt": "2025-11-14T07:24:50.003Z",
+      "updatedAt": "2025-11-14T07:24:50.003Z"
+    },
+    {
+      "id": "truck_1763105090002_3_9nkdzj3k3",
+      "supplierName": "Alh Danasabe",
+      "bags": 35,
+      "moistureLevel": 13,
+      "truckNumber": "MSA 246 XB",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-14T07:24:50.003Z"
+        }
+      ],
+      "createdAt": "2025-11-14T07:24:50.003Z",
+      "updatedAt": "2025-11-14T07:24:50.003Z"
+    },
+    {
+      "id": "truck_1763105090002_4_rul6ufqvm",
+      "supplierName": "Idris Haruna",
+      "bags": 96,
+      "moistureLevel": 14,
+      "truckNumber": "MKA 704 XB",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-14T07:24:50.003Z"
+        }
+      ],
+      "createdAt": "2025-11-14T07:24:50.003Z",
+      "updatedAt": "2025-11-14T07:24:50.003Z"
+    },
+    {
+      "id": "truck_1763105090002_5_wtp2lq327",
+      "supplierName": "Idris Garba",
+      "bags": 500,
+      "moistureLevel": 13,
+      "truckNumber": "MAG 43 XB",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-14T07:24:50.003Z"
+        }
+      ],
+      "createdAt": "2025-11-14T07:24:50.003Z",
+      "updatedAt": "2025-11-14T07:24:50.003Z"
+    },
+    {
+      "id": "truck_1763105090002_6_1w0qgccn5",
+      "supplierName": "Mukhtari Sale",
+      "bags": 436,
+      "moistureLevel": 15,
+      "truckNumber": "TRR 238 YX",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-14T07:24:50.003Z"
+        }
+      ],
+      "createdAt": "2025-11-14T07:24:50.003Z",
+      "updatedAt": "2025-11-14T07:24:50.003Z"
     }
   ],
-  "lastModified": "2025-11-13T17:00:57.868Z",
+  "lastModified": "2025-11-14T07:24:52.737Z",
   "version": "2.0.0"
 }
