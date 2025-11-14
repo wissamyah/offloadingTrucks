@@ -19100,15 +19100,23 @@
       "bags": 500,
       "moistureLevel": 13,
       "truckNumber": "XD 494 KTN",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-11-14T07:25:11.642Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-11-14T10:37:30.427Z",
+          "details": {
+            "waybillNumber": "7204"
+          }
         }
       ],
       "createdAt": "2025-11-14T07:25:11.642Z",
-      "updatedAt": "2025-11-14T07:25:11.642Z"
+      "updatedAt": "2025-11-14T10:37:30.427Z",
+      "waybillNumber": "7204"
     },
     {
       "id": "truck_1763105111641_4_24nw1e3g0",
@@ -19167,6 +19175,6 @@
       "updatedAt": "2025-11-14T07:25:11.642Z"
     }
   ],
-  "lastModified": "2025-11-14T10:24:49.864Z",
+  "lastModified": "2025-11-14T10:37:32.016Z",
   "version": "2.0.0"
 }
