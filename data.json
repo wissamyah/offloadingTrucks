@@ -19058,15 +19058,19 @@
       "bags": 517,
       "moistureLevel": 14,
       "truckNumber": "ZAR 97 XR",
-      "status": "pending",
+      "status": "rejected",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-11-14T07:25:11.641Z"
+        },
+        {
+          "status": "rejected",
+          "timestamp": "2025-11-14T19:58:34.551Z"
         }
       ],
       "createdAt": "2025-11-14T07:25:11.641Z",
-      "updatedAt": "2025-11-14T07:25:11.641Z"
+      "updatedAt": "2025-11-14T19:58:34.551Z"
     },
     {
       "id": "truck_1763105111641_1_yuv96sflv",
@@ -19365,6 +19369,6 @@
       "netWeight": 35570
     }
   ],
-  "lastModified": "2025-11-14T16:41:48.167Z",
+  "lastModified": "2025-11-14T19:58:34.584Z",
   "version": "2.0.0"
 }
