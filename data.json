@@ -19024,7 +19024,7 @@
       "bags": 436,
       "moistureLevel": 15,
       "truckNumber": "TRR 238 YX",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -19036,11 +19036,21 @@
           "details": {
             "waybillNumber": "7192"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-11-14T12:14:06.763Z",
+          "details": {
+            "netWeight": 41770,
+            "deduction": 90
+          }
         }
       ],
       "createdAt": "2025-11-14T07:24:50.003Z",
-      "updatedAt": "2025-11-14T07:41:34.468Z",
-      "waybillNumber": "7192"
+      "updatedAt": "2025-11-14T12:14:06.763Z",
+      "waybillNumber": "7192",
+      "netWeight": 41770,
+      "deduction": 90
     },
     {
       "id": "truck_1763105111641_0_ggje1ktnf",
@@ -19213,6 +19223,6 @@
       "updatedAt": "2025-11-14T07:25:11.642Z"
     }
   ],
-  "lastModified": "2025-11-14T12:08:39.832Z",
+  "lastModified": "2025-11-14T12:14:08.411Z",
   "version": "2.0.0"
 }
