@@ -19252,15 +19252,23 @@
       "bags": 144,
       "moistureLevel": 16,
       "truckNumber": "KMC 325 XW",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-11-14T13:30:07.256Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-11-14T13:39:16.979Z",
+          "details": {
+            "waybillNumber": "7209"
+          }
         }
       ],
       "createdAt": "2025-11-14T13:30:07.256Z",
-      "updatedAt": "2025-11-14T13:30:07.256Z"
+      "updatedAt": "2025-11-14T13:39:16.979Z",
+      "waybillNumber": "7209"
     },
     {
       "id": "truck_1763127007255_2_9xkpsquxd",
@@ -19287,6 +19295,6 @@
       "waybillNumber": "7208"
     }
   ],
-  "lastModified": "2025-11-14T13:36:12.606Z",
+  "lastModified": "2025-11-14T13:39:17.072Z",
   "version": "2.0.0"
 }
