@@ -18928,15 +18928,23 @@
       "bags": 500,
       "moistureLevel": 13,
       "truckNumber": "MAG 43 XB",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-11-14T07:24:50.003Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-11-14T07:37:06.258Z",
+          "details": {
+            "waybillNumber": "7191"
+          }
         }
       ],
       "createdAt": "2025-11-14T07:24:50.003Z",
-      "updatedAt": "2025-11-14T07:24:50.003Z"
+      "updatedAt": "2025-11-14T07:37:06.258Z",
+      "waybillNumber": "7191"
     },
     {
       "id": "truck_1763105090002_6_1w0qgccn5",
@@ -19067,6 +19075,6 @@
       "updatedAt": "2025-11-14T07:25:11.642Z"
     }
   ],
-  "lastModified": "2025-11-14T07:33:56.015Z",
+  "lastModified": "2025-11-14T07:37:07.908Z",
   "version": "2.0.0"
 }
