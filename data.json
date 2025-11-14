@@ -18856,15 +18856,23 @@
       "bags": 221,
       "moistureLevel": 12,
       "truckNumber": "FKA 166 XA",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-11-14T07:24:50.003Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-11-14T07:33:54.471Z",
+          "details": {
+            "waybillNumber": "7190"
+          }
         }
       ],
       "createdAt": "2025-11-14T07:24:50.003Z",
-      "updatedAt": "2025-11-14T07:24:50.003Z"
+      "updatedAt": "2025-11-14T07:33:54.471Z",
+      "waybillNumber": "7190"
     },
     {
       "id": "truck_1763105090002_2_5nag0nn33",
@@ -19059,6 +19067,6 @@
       "updatedAt": "2025-11-14T07:25:11.642Z"
     }
   ],
-  "lastModified": "2025-11-14T07:31:28.830Z",
+  "lastModified": "2025-11-14T07:33:56.015Z",
   "version": "2.0.0"
 }
