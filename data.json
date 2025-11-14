@@ -18904,15 +18904,23 @@
       "bags": 35,
       "moistureLevel": 13,
       "truckNumber": "MSA 246 XB",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-11-14T07:24:50.003Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-11-14T08:33:39.120Z",
+          "details": {
+            "waybillNumber": "7196"
+          }
         }
       ],
       "createdAt": "2025-11-14T07:24:50.003Z",
-      "updatedAt": "2025-11-14T07:24:50.003Z"
+      "updatedAt": "2025-11-14T08:33:39.120Z",
+      "waybillNumber": "7196"
     },
     {
       "id": "truck_1763105090002_4_rul6ufqvm",
@@ -19091,6 +19099,6 @@
       "updatedAt": "2025-11-14T07:25:11.642Z"
     }
   ],
-  "lastModified": "2025-11-14T08:30:57.668Z",
+  "lastModified": "2025-11-14T08:33:40.633Z",
   "version": "2.0.0"
 }
