@@ -19221,8 +19221,56 @@
       ],
       "createdAt": "2025-11-14T07:25:11.642Z",
       "updatedAt": "2025-11-14T07:25:11.642Z"
+    },
+    {
+      "id": "truck_1763127007255_0_x8ri1jx3s",
+      "supplierName": "Idris Haruna",
+      "bags": 591,
+      "moistureLevel": 15,
+      "truckNumber": "XF 941 UWN",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-14T13:30:07.256Z"
+        }
+      ],
+      "createdAt": "2025-11-14T13:30:07.256Z",
+      "updatedAt": "2025-11-14T13:30:07.256Z"
+    },
+    {
+      "id": "truck_1763127007255_1_77fgzsdr4",
+      "supplierName": "Jamilu Yahaya",
+      "bags": 144,
+      "moistureLevel": 16,
+      "truckNumber": "KMC 325 XW",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-14T13:30:07.256Z"
+        }
+      ],
+      "createdAt": "2025-11-14T13:30:07.256Z",
+      "updatedAt": "2025-11-14T13:30:07.256Z"
+    },
+    {
+      "id": "truck_1763127007255_2_9xkpsquxd",
+      "supplierName": "Idris Haruna",
+      "bags": 550,
+      "moistureLevel": 12,
+      "truckNumber": "KMC 984 ZQ",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-14T13:30:07.256Z"
+        }
+      ],
+      "createdAt": "2025-11-14T13:30:07.256Z",
+      "updatedAt": "2025-11-14T13:30:07.256Z"
     }
   ],
-  "lastModified": "2025-11-14T12:14:08.411Z",
+  "lastModified": "2025-11-14T13:30:07.362Z",
   "version": "2.0.0"
 }
