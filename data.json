@@ -18866,7 +18866,7 @@
       "bags": 221,
       "moistureLevel": 12,
       "truckNumber": "FKA 166 XA",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -18878,11 +18878,21 @@
           "details": {
             "waybillNumber": "7190"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-11-14T10:09:56.925Z",
+          "details": {
+            "netWeight": 192000,
+            "deduction": 200
+          }
         }
       ],
       "createdAt": "2025-11-14T07:24:50.003Z",
-      "updatedAt": "2025-11-14T07:33:54.471Z",
-      "waybillNumber": "7190"
+      "updatedAt": "2025-11-14T10:09:56.925Z",
+      "waybillNumber": "7190",
+      "netWeight": 192000,
+      "deduction": 200
     },
     {
       "id": "truck_1763105090002_2_5nag0nn33",
@@ -19149,6 +19159,6 @@
       "updatedAt": "2025-11-14T07:25:11.642Z"
     }
   ],
-  "lastModified": "2025-11-14T09:27:35.049Z",
+  "lastModified": "2025-11-14T10:09:58.407Z",
   "version": "2.0.0"
 }
