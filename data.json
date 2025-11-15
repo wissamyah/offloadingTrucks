@@ -19643,15 +19643,23 @@
       "bags": 224,
       "moistureLevel": 12,
       "truckNumber": "GME 205 XA",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-11-15T12:38:51.891Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-11-15T13:52:55.440Z",
+          "details": {
+            "waybillNumber": "7232"
+          }
         }
       ],
       "createdAt": "2025-11-15T12:38:51.892Z",
-      "updatedAt": "2025-11-15T12:38:51.892Z"
+      "updatedAt": "2025-11-15T13:52:55.440Z",
+      "waybillNumber": "7232"
     },
     {
       "id": "truck_1763210331891_1_t082gy8vm",
@@ -19750,6 +19758,6 @@
       "waybillNumber": "7233"
     }
   ],
-  "lastModified": "2025-11-15T13:52:38.284Z",
+  "lastModified": "2025-11-15T13:52:55.584Z",
   "version": "2.0.0"
 }
