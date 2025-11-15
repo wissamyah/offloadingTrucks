@@ -19546,7 +19546,7 @@
       "bags": 230,
       "moistureLevel": 20,
       "truckNumber": "EKY 63 XH",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -19558,11 +19558,19 @@
           "details": {
             "waybillNumber": "7220"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-11-15T11:07:03.456Z",
+          "details": {
+            "netWeight": 18690
+          }
         }
       ],
       "createdAt": "2025-11-15T07:58:16.695Z",
-      "updatedAt": "2025-11-15T08:44:16.408Z",
-      "waybillNumber": "7220"
+      "updatedAt": "2025-11-15T11:07:03.456Z",
+      "waybillNumber": "7220",
+      "netWeight": 18690
     },
     {
       "id": "truck_1763193496692_2_phqmnhsmv",
@@ -19589,6 +19597,6 @@
       "waybillNumber": "7224"
     }
   ],
-  "lastModified": "2025-11-15T10:36:46.340Z",
+  "lastModified": "2025-11-15T11:07:03.621Z",
   "version": "2.0.0"
 }
