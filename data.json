@@ -19613,8 +19613,88 @@
       "updatedAt": "2025-11-15T12:00:25.861Z",
       "waybillNumber": "7224",
       "netWeight": 12970
+    },
+    {
+      "id": "truck_1763210331891_0_0rn15kizo",
+      "supplierName": "B L Barka",
+      "bags": 224,
+      "moistureLevel": 12,
+      "truckNumber": "GME 205 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-15T12:38:51.891Z"
+        }
+      ],
+      "createdAt": "2025-11-15T12:38:51.892Z",
+      "updatedAt": "2025-11-15T12:38:51.892Z"
+    },
+    {
+      "id": "truck_1763210331891_1_t082gy8vm",
+      "supplierName": "Abubakar Muhd Tukur",
+      "bags": 50,
+      "moistureLevel": 15,
+      "truckNumber": "YKS 493 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-15T12:38:51.892Z"
+        }
+      ],
+      "createdAt": "2025-11-15T12:38:51.892Z",
+      "updatedAt": "2025-11-15T12:38:51.892Z"
+    },
+    {
+      "id": "truck_1763210331891_2_x8g3ieyzp",
+      "supplierName": "Idris Haruna",
+      "bags": 500,
+      "moistureLevel": 12,
+      "truckNumber": "BWR 935 YL",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-15T12:38:51.892Z"
+        }
+      ],
+      "createdAt": "2025-11-15T12:38:51.892Z",
+      "updatedAt": "2025-11-15T12:38:51.892Z"
+    },
+    {
+      "id": "truck_1763210331891_3_tvgu8fm11",
+      "supplierName": "Idris Haruna",
+      "bags": 482,
+      "moistureLevel": 12,
+      "truckNumber": "BAU 172 XR",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-15T12:38:51.892Z"
+        }
+      ],
+      "createdAt": "2025-11-15T12:38:51.892Z",
+      "updatedAt": "2025-11-15T12:38:51.892Z"
+    },
+    {
+      "id": "truck_1763210331891_4_dr76bf2jc",
+      "supplierName": "Idris Haruna",
+      "bags": 481,
+      "moistureLevel": 12,
+      "truckNumber": "ABC 638 XB",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-15T12:38:51.892Z"
+        }
+      ],
+      "createdAt": "2025-11-15T12:38:51.892Z",
+      "updatedAt": "2025-11-15T12:38:51.892Z"
     }
   ],
-  "lastModified": "2025-11-15T12:00:26.050Z",
+  "lastModified": "2025-11-15T12:38:52.052Z",
   "version": "2.0.0"
 }
