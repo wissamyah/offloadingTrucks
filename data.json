@@ -19471,8 +19471,56 @@
       ],
       "createdAt": "2025-11-15T07:44:56.782Z",
       "updatedAt": "2025-11-15T07:44:56.782Z"
+    },
+    {
+      "id": "truck_1763193496692_0_2sbzlv3m7",
+      "supplierName": "H A Tahir",
+      "bags": 250,
+      "moistureLevel": 18,
+      "truckNumber": "SHD 840 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-15T07:58:16.695Z"
+        }
+      ],
+      "createdAt": "2025-11-15T07:58:16.695Z",
+      "updatedAt": "2025-11-15T07:58:16.695Z"
+    },
+    {
+      "id": "truck_1763193496692_1_g93mgrwfk",
+      "supplierName": "Murtala Musa",
+      "bags": 230,
+      "moistureLevel": 20,
+      "truckNumber": "EKY 63 XH",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-15T07:58:16.695Z"
+        }
+      ],
+      "createdAt": "2025-11-15T07:58:16.695Z",
+      "updatedAt": "2025-11-15T07:58:16.695Z"
+    },
+    {
+      "id": "truck_1763193496692_2_phqmnhsmv",
+      "supplierName": "Alh Danasabe",
+      "bags": 158,
+      "moistureLevel": 12,
+      "truckNumber": "NGU 488 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-15T07:58:16.695Z"
+        }
+      ],
+      "createdAt": "2025-11-15T07:58:16.695Z",
+      "updatedAt": "2025-11-15T07:58:16.695Z"
     }
   ],
-  "lastModified": "2025-11-15T07:54:14.422Z",
+  "lastModified": "2025-11-15T07:58:16.871Z",
   "version": "2.0.0"
 }
