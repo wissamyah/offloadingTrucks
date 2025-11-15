@@ -19398,15 +19398,23 @@
       "bags": 530,
       "moistureLevel": 15,
       "truckNumber": "FGE 48 XA",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-11-15T07:44:56.782Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-11-15T07:54:14.283Z",
+          "details": {
+            "waybillNumber": "7218"
+          }
         }
       ],
       "createdAt": "2025-11-15T07:44:56.782Z",
-      "updatedAt": "2025-11-15T07:44:56.782Z"
+      "updatedAt": "2025-11-15T07:54:14.283Z",
+      "waybillNumber": "7218"
     },
     {
       "id": "truck_1763192696782_2_1qmijff6k",
@@ -19465,6 +19473,6 @@
       "updatedAt": "2025-11-15T07:44:56.782Z"
     }
   ],
-  "lastModified": "2025-11-15T07:50:36.042Z",
+  "lastModified": "2025-11-15T07:54:14.422Z",
   "version": "2.0.0"
 }
