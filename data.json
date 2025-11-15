@@ -19367,8 +19367,88 @@
       "updatedAt": "2025-11-14T16:09:33.671Z",
       "waybillNumber": "7212",
       "netWeight": 35570
+    },
+    {
+      "id": "truck_1763192696782_0_etlyb5keq",
+      "supplierName": "Jamilu Yahaya",
+      "bags": 200,
+      "moistureLevel": 14,
+      "truckNumber": "TFB 269 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-15T07:44:56.782Z"
+        }
+      ],
+      "createdAt": "2025-11-15T07:44:56.782Z",
+      "updatedAt": "2025-11-15T07:44:56.782Z"
+    },
+    {
+      "id": "truck_1763192696782_1_li16vdl96",
+      "supplierName": "Al Hassanan Enterprises",
+      "bags": 530,
+      "moistureLevel": 15,
+      "truckNumber": "FGE 48 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-15T07:44:56.782Z"
+        }
+      ],
+      "createdAt": "2025-11-15T07:44:56.782Z",
+      "updatedAt": "2025-11-15T07:44:56.782Z"
+    },
+    {
+      "id": "truck_1763192696782_2_1qmijff6k",
+      "supplierName": "Shehu Yunusa",
+      "bags": 540,
+      "moistureLevel": 12,
+      "truckNumber": "FKY 943 YF",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-15T07:44:56.782Z"
+        }
+      ],
+      "createdAt": "2025-11-15T07:44:56.782Z",
+      "updatedAt": "2025-11-15T07:44:56.782Z"
+    },
+    {
+      "id": "truck_1763192696782_3_9ibu5r5yr",
+      "supplierName": "Idris Haruna",
+      "bags": 460,
+      "moistureLevel": 12,
+      "truckNumber": "BSA 205 ZY",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-15T07:44:56.782Z"
+        }
+      ],
+      "createdAt": "2025-11-15T07:44:56.782Z",
+      "updatedAt": "2025-11-15T07:44:56.782Z"
+    },
+    {
+      "id": "truck_1763192696782_4_q74kscoup",
+      "supplierName": "Alh Dayyabu",
+      "bags": 450,
+      "moistureLevel": 12,
+      "truckNumber": "QAP 332 ZA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-15T07:44:56.782Z"
+        }
+      ],
+      "createdAt": "2025-11-15T07:44:56.782Z",
+      "updatedAt": "2025-11-15T07:44:56.782Z"
     }
   ],
-  "lastModified": "2025-11-14T19:58:34.584Z",
+  "lastModified": "2025-11-15T07:44:58.527Z",
   "version": "2.0.0"
 }
