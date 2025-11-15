@@ -19707,15 +19707,23 @@
       "bags": 482,
       "moistureLevel": 12,
       "truckNumber": "BAU 172 XR",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-11-15T12:38:51.892Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-11-15T13:46:25.913Z",
+          "details": {
+            "waybillNumber": "7231"
+          }
         }
       ],
       "createdAt": "2025-11-15T12:38:51.892Z",
-      "updatedAt": "2025-11-15T12:38:51.892Z"
+      "updatedAt": "2025-11-15T13:46:25.913Z",
+      "waybillNumber": "7231"
     },
     {
       "id": "truck_1763210331891_4_dr76bf2jc",
@@ -19734,6 +19742,6 @@
       "updatedAt": "2025-11-15T12:38:51.892Z"
     }
   ],
-  "lastModified": "2025-11-15T12:57:15.983Z",
+  "lastModified": "2025-11-15T13:46:26.106Z",
   "version": "2.0.0"
 }
