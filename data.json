@@ -19474,7 +19474,7 @@
       "bags": 460,
       "moistureLevel": 12,
       "truckNumber": "BSA 205 ZY",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -19486,11 +19486,19 @@
           "details": {
             "waybillNumber": "7222"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-11-15T12:43:18.566Z",
+          "details": {
+            "netWeight": 33680
+          }
         }
       ],
       "createdAt": "2025-11-15T07:44:56.782Z",
-      "updatedAt": "2025-11-15T09:27:05.047Z",
-      "waybillNumber": "7222"
+      "updatedAt": "2025-11-15T12:43:18.566Z",
+      "waybillNumber": "7222",
+      "netWeight": 33680
     },
     {
       "id": "truck_1763192696782_4_q74kscoup",
@@ -19703,6 +19711,6 @@
       "updatedAt": "2025-11-15T12:38:51.892Z"
     }
   ],
-  "lastModified": "2025-11-15T12:40:19.847Z",
+  "lastModified": "2025-11-15T12:43:18.708Z",
   "version": "2.0.0"
 }
