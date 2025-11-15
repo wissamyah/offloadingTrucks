@@ -19506,7 +19506,7 @@
       "bags": 450,
       "moistureLevel": 12,
       "truckNumber": "QAP 332 ZA",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -19518,11 +19518,19 @@
           "details": {
             "waybillNumber": "7223"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-11-15T12:56:40.966Z",
+          "details": {
+            "netWeight": 32880
+          }
         }
       ],
       "createdAt": "2025-11-15T07:44:56.782Z",
-      "updatedAt": "2025-11-15T09:36:28.674Z",
-      "waybillNumber": "7223"
+      "updatedAt": "2025-11-15T12:56:40.966Z",
+      "waybillNumber": "7223",
+      "netWeight": 32880
     },
     {
       "id": "truck_1763193496692_0_2sbzlv3m7",
@@ -19719,6 +19727,6 @@
       "updatedAt": "2025-11-15T12:38:51.892Z"
     }
   ],
-  "lastModified": "2025-11-15T12:50:26.655Z",
+  "lastModified": "2025-11-15T12:56:41.119Z",
   "version": "2.0.0"
 }
