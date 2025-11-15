@@ -19504,7 +19504,7 @@
       "bags": 250,
       "moistureLevel": 18,
       "truckNumber": "SHD 840 XA",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -19516,11 +19516,21 @@
           "details": {
             "waybillNumber": "7219"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-11-15T10:11:26.272Z",
+          "details": {
+            "netWeight": 19800,
+            "deduction": 200
+          }
         }
       ],
       "createdAt": "2025-11-15T07:58:16.695Z",
-      "updatedAt": "2025-11-15T08:40:54.819Z",
-      "waybillNumber": "7219"
+      "updatedAt": "2025-11-15T10:11:26.272Z",
+      "waybillNumber": "7219",
+      "netWeight": 19800,
+      "deduction": 200
     },
     {
       "id": "truck_1763193496692_1_g93mgrwfk",
@@ -19563,6 +19573,6 @@
       "updatedAt": "2025-11-15T07:58:16.695Z"
     }
   ],
-  "lastModified": "2025-11-15T09:39:10.122Z",
+  "lastModified": "2025-11-15T10:11:26.429Z",
   "version": "2.0.0"
 }
