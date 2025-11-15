@@ -19643,7 +19643,7 @@
       "bags": 224,
       "moistureLevel": 12,
       "truckNumber": "GME 205 XA",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -19655,11 +19655,21 @@
           "details": {
             "waybillNumber": "7232"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-11-15T15:33:21.589Z",
+          "details": {
+            "netWeight": 24760,
+            "deduction": 120
+          }
         }
       ],
       "createdAt": "2025-11-15T12:38:51.892Z",
-      "updatedAt": "2025-11-15T13:52:55.440Z",
-      "waybillNumber": "7232"
+      "updatedAt": "2025-11-15T15:33:21.589Z",
+      "waybillNumber": "7232",
+      "netWeight": 24760,
+      "deduction": 120
     },
     {
       "id": "truck_1763210331891_1_t082gy8vm",
@@ -19766,6 +19776,6 @@
       "waybillNumber": "7233"
     }
   ],
-  "lastModified": "2025-11-15T13:56:37.018Z",
+  "lastModified": "2025-11-15T15:33:21.703Z",
   "version": "2.0.0"
 }
