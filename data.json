@@ -19374,15 +19374,23 @@
       "bags": 200,
       "moistureLevel": 14,
       "truckNumber": "TFB 269 XA",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-11-15T07:44:56.782Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-11-15T07:47:32.391Z",
+          "details": {
+            "waybillNumber": "7216"
+          }
         }
       ],
       "createdAt": "2025-11-15T07:44:56.782Z",
-      "updatedAt": "2025-11-15T07:44:56.782Z"
+      "updatedAt": "2025-11-15T07:47:32.391Z",
+      "waybillNumber": "7216"
     },
     {
       "id": "truck_1763192696782_1_li16vdl96",
@@ -19449,6 +19457,6 @@
       "updatedAt": "2025-11-15T07:44:56.782Z"
     }
   ],
-  "lastModified": "2025-11-15T07:44:58.527Z",
+  "lastModified": "2025-11-15T07:47:32.543Z",
   "version": "2.0.0"
 }
