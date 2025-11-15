@@ -19709,7 +19709,7 @@
       "bags": 500,
       "moistureLevel": 12,
       "truckNumber": "BWR 935 YL",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -19721,11 +19721,19 @@
           "details": {
             "waybillNumber": "7228"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-11-15T16:07:17.518Z",
+          "details": {
+            "netWeight": 36290
+          }
         }
       ],
       "createdAt": "2025-11-15T12:38:51.892Z",
-      "updatedAt": "2025-11-15T12:50:26.504Z",
-      "waybillNumber": "7228"
+      "updatedAt": "2025-11-15T16:07:17.518Z",
+      "waybillNumber": "7228",
+      "netWeight": 36290
     },
     {
       "id": "truck_1763210331891_3_tvgu8fm11",
@@ -19776,6 +19784,6 @@
       "waybillNumber": "7233"
     }
   ],
-  "lastModified": "2025-11-15T15:33:21.703Z",
+  "lastModified": "2025-11-15T16:07:17.588Z",
   "version": "2.0.0"
 }
