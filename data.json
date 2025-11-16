@@ -20087,7 +20087,7 @@
       "bags": 500,
       "moistureLevel": 15,
       "truckNumber": "DKU 52 XB",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -20099,11 +20099,19 @@
           "details": {
             "waybillNumber": "7247"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-11-16T12:16:20.948Z",
+          "details": {
+            "netWeight": 33930
+          }
         }
       ],
       "createdAt": "2025-11-16T09:07:09.860Z",
-      "updatedAt": "2025-11-16T09:08:59.786Z",
-      "waybillNumber": "7247"
+      "updatedAt": "2025-11-16T12:16:20.948Z",
+      "waybillNumber": "7247",
+      "netWeight": 33930
     },
     {
       "id": "truck_1763284029859_1_eouadbrkv",
@@ -20138,6 +20146,6 @@
       "netWeight": 20100
     }
   ],
-  "lastModified": "2025-11-16T11:31:41.231Z",
+  "lastModified": "2025-11-16T12:16:21.150Z",
   "version": "2.0.0"
 }
