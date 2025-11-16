@@ -20074,7 +20074,7 @@
     {
       "id": "truck_1763284029859_1_eouadbrkv",
       "supplierName": "B L Barka",
-      "bags": 200,
+      "bags": 210,
       "moistureLevel": 20,
       "truckNumber": "MDG 64 XA",
       "status": "scaled_in",
@@ -20096,6 +20096,6 @@
       "waybillNumber": "7249"
     }
   ],
-  "lastModified": "2025-11-16T10:28:17.325Z",
+  "lastModified": "2025-11-16T10:28:38.115Z",
   "version": "2.0.0"
 }
