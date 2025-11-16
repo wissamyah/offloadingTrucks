@@ -20108,7 +20108,7 @@
     {
       "id": "truck_1763284029859_1_eouadbrkv",
       "supplierName": "B L Barka",
-      "bags": 210,
+      "bags": 200,
       "moistureLevel": 20,
       "truckNumber": "MDG 64 XA",
       "status": "offloaded",
@@ -20138,6 +20138,6 @@
       "netWeight": 20100
     }
   ],
-  "lastModified": "2025-11-16T11:31:12.727Z",
+  "lastModified": "2025-11-16T11:31:41.231Z",
   "version": "2.0.0"
 }
