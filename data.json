@@ -20005,7 +20005,7 @@
       "bags": 400,
       "moistureLevel": 12,
       "truckNumber": "KTG 583 YG",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -20017,11 +20017,19 @@
           "details": {
             "waybillNumber": "7240"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-11-16T09:39:52.354Z",
+          "details": {
+            "netWeight": 42180
+          }
         }
       ],
       "createdAt": "2025-11-16T07:03:07.150Z",
-      "updatedAt": "2025-11-16T07:48:58.386Z",
-      "waybillNumber": "7240"
+      "updatedAt": "2025-11-16T09:39:52.354Z",
+      "waybillNumber": "7240",
+      "netWeight": 42180
     },
     {
       "id": "truck_1763284029859_0_p46q9smx1",
@@ -20072,6 +20080,6 @@
       "waybillNumber": "7246"
     }
   ],
-  "lastModified": "2025-11-16T09:16:26.737Z",
+  "lastModified": "2025-11-16T09:39:52.597Z",
   "version": "2.0.0"
 }
