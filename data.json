@@ -20021,7 +20021,7 @@
       "bags": 500,
       "moistureLevel": 15,
       "truckNumber": "XF 365 GME",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -20033,11 +20033,21 @@
           "details": {
             "waybillNumber": "7239"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-11-16T10:45:20.403Z",
+          "details": {
+            "netWeight": 35410,
+            "deduction": 100
+          }
         }
       ],
       "createdAt": "2025-11-16T07:03:07.150Z",
-      "updatedAt": "2025-11-16T07:45:48.386Z",
-      "waybillNumber": "7239"
+      "updatedAt": "2025-11-16T10:45:20.404Z",
+      "waybillNumber": "7239",
+      "netWeight": 35410,
+      "deduction": 100
     },
     {
       "id": "truck_1763276587150_3_djwhgb7t8",
@@ -20120,6 +20130,6 @@
       "waybillNumber": "7249"
     }
   ],
-  "lastModified": "2025-11-16T10:41:30.284Z",
+  "lastModified": "2025-11-16T10:45:20.588Z",
   "version": "2.0.0"
 }
