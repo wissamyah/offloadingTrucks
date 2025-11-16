@@ -19906,7 +19906,7 @@
     {
       "id": "truck_1763276587150_0_t1jh9p8qr",
       "supplierName": "B L Barka",
-      "bags": 200,
+      "bags": 216,
       "moistureLevel": 20,
       "truckNumber": "BBR 822 XB",
       "status": "pending",
@@ -19992,6 +19992,6 @@
       "waybillNumber": "7240"
     }
   ],
-  "lastModified": "2025-11-16T08:21:53.963Z",
+  "lastModified": "2025-11-16T08:27:47.544Z",
   "version": "2.0.0"
 }
