@@ -19853,15 +19853,23 @@
       "bags": 550,
       "moistureLevel": 13,
       "truckNumber": "ZAK 253 XA",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-11-16T07:02:43.002Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-11-16T07:36:55.484Z",
+          "details": {
+            "waybillNumber": "7235"
+          }
         }
       ],
       "createdAt": "2025-11-16T07:02:43.002Z",
-      "updatedAt": "2025-11-16T07:02:43.002Z"
+      "updatedAt": "2025-11-16T07:36:55.485Z",
+      "waybillNumber": "7235"
     },
     {
       "id": "truck_1763276563001_4_32g1t25ih",
@@ -19944,6 +19952,6 @@
       "updatedAt": "2025-11-16T07:03:07.150Z"
     }
   ],
-  "lastModified": "2025-11-16T07:03:07.330Z",
+  "lastModified": "2025-11-16T07:36:55.657Z",
   "version": "2.0.0"
 }
