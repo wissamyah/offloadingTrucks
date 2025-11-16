@@ -19845,15 +19845,23 @@
       "bags": 105,
       "moistureLevel": 20,
       "truckNumber": "DDM 384 XA",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-11-16T07:02:43.002Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-11-16T08:21:53.777Z",
+          "details": {
+            "waybillNumber": "7242"
+          }
         }
       ],
       "createdAt": "2025-11-16T07:02:43.002Z",
-      "updatedAt": "2025-11-16T07:02:43.002Z"
+      "updatedAt": "2025-11-16T08:21:53.777Z",
+      "waybillNumber": "7242"
     },
     {
       "id": "truck_1763276563001_3_13f6qg5dj",
@@ -19984,6 +19992,6 @@
       "waybillNumber": "7240"
     }
   ],
-  "lastModified": "2025-11-16T07:48:59.477Z",
+  "lastModified": "2025-11-16T08:21:53.963Z",
   "version": "2.0.0"
 }
