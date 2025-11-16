@@ -19805,7 +19805,7 @@
       "bags": 28,
       "moistureLevel": 13,
       "truckNumber": "BAU 799 XR",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -19817,11 +19817,19 @@
           "details": {
             "waybillNumber": "7237"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-11-16T09:16:26.514Z",
+          "details": {
+            "netWeight": 3360
+          }
         }
       ],
       "createdAt": "2025-11-16T07:02:43.002Z",
-      "updatedAt": "2025-11-16T07:40:46.326Z",
-      "waybillNumber": "7237"
+      "updatedAt": "2025-11-16T09:16:26.514Z",
+      "waybillNumber": "7237",
+      "netWeight": 3360
     },
     {
       "id": "truck_1763276563001_1_aopyfd649",
@@ -20064,6 +20072,6 @@
       "waybillNumber": "7246"
     }
   ],
-  "lastModified": "2025-11-16T09:12:45.842Z",
+  "lastModified": "2025-11-16T09:16:26.737Z",
   "version": "2.0.0"
 }
