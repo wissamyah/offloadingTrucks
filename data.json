@@ -19901,15 +19901,23 @@
       "bags": 271,
       "moistureLevel": 20,
       "truckNumber": "KGM 591 XA",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-11-16T07:02:43.002Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-11-16T08:35:42.395Z",
+          "details": {
+            "waybillNumber": "7244"
+          }
         }
       ],
       "createdAt": "2025-11-16T07:02:43.002Z",
-      "updatedAt": "2025-11-16T07:02:43.002Z"
+      "updatedAt": "2025-11-16T08:35:42.395Z",
+      "waybillNumber": "7244"
     },
     {
       "id": "truck_1763276587150_0_t1jh9p8qr",
@@ -20008,6 +20016,6 @@
       "waybillNumber": "7240"
     }
   ],
-  "lastModified": "2025-11-16T08:29:41.328Z",
+  "lastModified": "2025-11-16T08:35:42.533Z",
   "version": "2.0.0"
 }
