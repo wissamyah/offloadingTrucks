@@ -20014,8 +20014,40 @@
       "createdAt": "2025-11-16T07:03:07.150Z",
       "updatedAt": "2025-11-16T07:48:58.386Z",
       "waybillNumber": "7240"
+    },
+    {
+      "id": "truck_1763284029859_0_p46q9smx1",
+      "supplierName": "Damakasu Agro Allied",
+      "bags": 500,
+      "moistureLevel": 15,
+      "truckNumber": "DKU 52 XB",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-16T09:07:09.860Z"
+        }
+      ],
+      "createdAt": "2025-11-16T09:07:09.860Z",
+      "updatedAt": "2025-11-16T09:07:09.860Z"
+    },
+    {
+      "id": "truck_1763284029859_1_eouadbrkv",
+      "supplierName": "B L Barka",
+      "bags": 200,
+      "moistureLevel": 20,
+      "truckNumber": "MDG 64 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-16T09:07:09.860Z"
+        }
+      ],
+      "createdAt": "2025-11-16T09:07:09.860Z",
+      "updatedAt": "2025-11-16T09:07:09.860Z"
     }
   ],
-  "lastModified": "2025-11-16T08:35:42.533Z",
+  "lastModified": "2025-11-16T09:07:11.214Z",
   "version": "2.0.0"
 }
