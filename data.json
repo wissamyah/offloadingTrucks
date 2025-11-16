@@ -19957,7 +19957,7 @@
       "bags": 65,
       "moistureLevel": 12,
       "truckNumber": "DAL 573 ZY",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -19969,11 +19969,19 @@
           "details": {
             "waybillNumber": "7236"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-11-16T10:06:02.782Z",
+          "details": {
+            "netWeight": 4720
+          }
         }
       ],
       "createdAt": "2025-11-16T07:03:07.150Z",
-      "updatedAt": "2025-11-16T07:39:04.178Z",
-      "waybillNumber": "7236"
+      "updatedAt": "2025-11-16T10:06:02.782Z",
+      "waybillNumber": "7236",
+      "netWeight": 4720
     },
     {
       "id": "truck_1763276587150_2_2nqlbzuue",
@@ -20080,6 +20088,6 @@
       "waybillNumber": "7246"
     }
   ],
-  "lastModified": "2025-11-16T09:39:52.597Z",
+  "lastModified": "2025-11-16T10:06:02.987Z",
   "version": "2.0.0"
 }
