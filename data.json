@@ -20434,14 +20434,14 @@
         },
         {
           "status": "offloaded",
-          "timestamp": "2025-11-17T12:36:41.920Z",
+          "timestamp": "2025-11-17T12:37:39.264Z",
           "details": {
             "netWeight": 22320
           }
         }
       ],
       "createdAt": "2025-11-17T07:11:43.535Z",
-      "updatedAt": "2025-11-17T12:36:41.920Z",
+      "updatedAt": "2025-11-17T12:37:39.265Z",
       "waybillNumber": "7262",
       "netWeight": 22320
     },
@@ -20534,6 +20534,6 @@
       "waybillNumber": "7266"
     }
   ],
-  "lastModified": "2025-11-17T12:36:42.114Z",
+  "lastModified": "2025-11-17T12:37:40.940Z",
   "version": "2.0.0"
 }
