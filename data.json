@@ -20296,8 +20296,72 @@
       ],
       "createdAt": "2025-11-17T07:11:43.535Z",
       "updatedAt": "2025-11-17T07:11:43.535Z"
+    },
+    {
+      "id": "truck_1763364094432_0_1ac9n0p19",
+      "supplierName": "Idris Haruna",
+      "bags": 493,
+      "moistureLevel": 12,
+      "truckNumber": "AT 777 MKA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-17T07:21:34.432Z"
+        }
+      ],
+      "createdAt": "2025-11-17T07:21:34.432Z",
+      "updatedAt": "2025-11-17T07:21:34.432Z"
+    },
+    {
+      "id": "truck_1763364094432_1_7iabopcby",
+      "supplierName": "Idris Haruna",
+      "bags": 480,
+      "moistureLevel": 13,
+      "truckNumber": "SDA 168 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-17T07:21:34.432Z"
+        }
+      ],
+      "createdAt": "2025-11-17T07:21:34.432Z",
+      "updatedAt": "2025-11-17T07:21:34.432Z"
+    },
+    {
+      "id": "truck_1763364094432_2_vk9mvx7vd",
+      "supplierName": "Idris Garba",
+      "bags": 201,
+      "moistureLevel": 21,
+      "truckNumber": "SUL 388 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-17T07:21:34.432Z"
+        }
+      ],
+      "createdAt": "2025-11-17T07:21:34.432Z",
+      "updatedAt": "2025-11-17T07:21:34.432Z"
+    },
+    {
+      "id": "truck_1763364094432_3_vhxhb0w6w",
+      "supplierName": "Idris Haruna",
+      "bags": 480,
+      "moistureLevel": 12,
+      "truckNumber": "KTN 268 YZ",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-17T07:21:34.432Z"
+        }
+      ],
+      "createdAt": "2025-11-17T07:21:34.432Z",
+      "updatedAt": "2025-11-17T07:21:34.432Z"
     }
   ],
-  "lastModified": "2025-11-17T07:11:43.723Z",
+  "lastModified": "2025-11-17T07:21:34.599Z",
   "version": "2.0.0"
 }
