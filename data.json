@@ -20232,8 +20232,72 @@
       ],
       "createdAt": "2025-11-17T07:10:58.085Z",
       "updatedAt": "2025-11-17T07:10:58.085Z"
+    },
+    {
+      "id": "truck_1763363503535_0_mmhb57lax",
+      "supplierName": "B L Barka",
+      "bags": 280,
+      "moistureLevel": 20,
+      "truckNumber": "SUL 978 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-17T07:11:43.535Z"
+        }
+      ],
+      "createdAt": "2025-11-17T07:11:43.535Z",
+      "updatedAt": "2025-11-17T07:11:43.535Z"
+    },
+    {
+      "id": "truck_1763363503535_1_0ur187n8z",
+      "supplierName": "B L Barka",
+      "bags": 270,
+      "moistureLevel": 20,
+      "truckNumber": "MNA 15 XB",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-17T07:11:43.535Z"
+        }
+      ],
+      "createdAt": "2025-11-17T07:11:43.535Z",
+      "updatedAt": "2025-11-17T07:11:43.535Z"
+    },
+    {
+      "id": "truck_1763363503535_2_i21elzg82",
+      "supplierName": "B L Barka",
+      "bags": 270,
+      "moistureLevel": 20,
+      "truckNumber": "MMR 258 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-17T07:11:43.535Z"
+        }
+      ],
+      "createdAt": "2025-11-17T07:11:43.535Z",
+      "updatedAt": "2025-11-17T07:11:43.535Z"
+    },
+    {
+      "id": "truck_1763363503535_3_qta10p9n0",
+      "supplierName": "Murtala Musa",
+      "bags": 270,
+      "moistureLevel": 20,
+      "truckNumber": "HJA 980 YD",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-17T07:11:43.535Z"
+        }
+      ],
+      "createdAt": "2025-11-17T07:11:43.535Z",
+      "updatedAt": "2025-11-17T07:11:43.535Z"
     }
   ],
-  "lastModified": "2025-11-17T07:10:58.259Z",
+  "lastModified": "2025-11-17T07:11:43.723Z",
   "version": "2.0.0"
 }
