@@ -20547,15 +20547,23 @@
       "bags": 250,
       "moistureLevel": 13,
       "truckNumber": "XA 954 TRR",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-11-17T12:41:08.669Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-11-17T12:49:39.089Z",
+          "details": {
+            "waybillNumber": "7269"
+          }
         }
       ],
       "createdAt": "2025-11-17T12:41:08.669Z",
-      "updatedAt": "2025-11-17T12:41:08.669Z"
+      "updatedAt": "2025-11-17T12:49:39.089Z",
+      "waybillNumber": "7269"
     },
     {
       "id": "truck_1763383268668_1_7szrj680k",
@@ -20614,6 +20622,6 @@
       "updatedAt": "2025-11-17T12:41:08.669Z"
     }
   ],
-  "lastModified": "2025-11-17T12:46:14.929Z",
+  "lastModified": "2025-11-17T12:49:39.243Z",
   "version": "2.0.0"
 }
