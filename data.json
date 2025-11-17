@@ -20540,8 +20540,72 @@
       "updatedAt": "2025-11-17T12:39:18.598Z",
       "waybillNumber": "7266",
       "netWeight": 44960
+    },
+    {
+      "id": "truck_1763383268668_0_j6614cedc",
+      "supplierName": "Idris Haruna",
+      "bags": 250,
+      "moistureLevel": 13,
+      "truckNumber": "XA 954 TRR",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-17T12:41:08.669Z"
+        }
+      ],
+      "createdAt": "2025-11-17T12:41:08.669Z",
+      "updatedAt": "2025-11-17T12:41:08.669Z"
+    },
+    {
+      "id": "truck_1763383268668_1_7szrj680k",
+      "supplierName": "Jamilu Yahaya",
+      "bags": 60,
+      "moistureLevel": 15,
+      "truckNumber": "BAU 799 XR",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-17T12:41:08.669Z"
+        }
+      ],
+      "createdAt": "2025-11-17T12:41:08.669Z",
+      "updatedAt": "2025-11-17T12:41:08.669Z"
+    },
+    {
+      "id": "truck_1763383268668_2_jvk06r3np",
+      "supplierName": "Abubakar Muhd Tukur",
+      "bags": 205,
+      "moistureLevel": 13,
+      "truckNumber": "YLA 877 ZY",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-17T12:41:08.669Z"
+        }
+      ],
+      "createdAt": "2025-11-17T12:41:08.669Z",
+      "updatedAt": "2025-11-17T12:41:08.669Z"
+    },
+    {
+      "id": "truck_1763383268668_3_d6gewmtfw",
+      "supplierName": "Lawan Ibrahim",
+      "bags": 85,
+      "moistureLevel": 16,
+      "truckNumber": "GRU 07 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-17T12:41:08.669Z"
+        }
+      ],
+      "createdAt": "2025-11-17T12:41:08.669Z",
+      "updatedAt": "2025-11-17T12:41:08.669Z"
     }
   ],
-  "lastModified": "2025-11-17T12:39:20.286Z",
+  "lastModified": "2025-11-17T12:41:08.863Z",
   "version": "2.0.0"
 }
