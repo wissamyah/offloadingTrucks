@@ -20216,8 +20216,24 @@
       ],
       "createdAt": "2025-11-17T07:08:45.906Z",
       "updatedAt": "2025-11-17T07:08:45.906Z"
+    },
+    {
+      "id": "truck_1763363458085_0_5oyftp00l",
+      "supplierName": "Murtala Musa",
+      "bags": 270,
+      "moistureLevel": 20,
+      "truckNumber": "ZUR 878 ZY",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-17T07:10:58.085Z"
+        }
+      ],
+      "createdAt": "2025-11-17T07:10:58.085Z",
+      "updatedAt": "2025-11-17T07:10:58.085Z"
     }
   ],
-  "lastModified": "2025-11-17T07:08:46.088Z",
+  "lastModified": "2025-11-17T07:10:58.259Z",
   "version": "2.0.0"
 }
