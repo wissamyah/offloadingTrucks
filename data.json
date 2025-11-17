@@ -20152,8 +20152,72 @@
       "updatedAt": "2025-11-16T11:31:12.501Z",
       "waybillNumber": "7249",
       "netWeight": 20100
+    },
+    {
+      "id": "truck_1763363325906_0_dr39wzpji",
+      "supplierName": "Idris Haruna",
+      "bags": 480,
+      "moistureLevel": 13,
+      "truckNumber": "KMC 984 ZQ",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-17T07:08:45.906Z"
+        }
+      ],
+      "createdAt": "2025-11-17T07:08:45.906Z",
+      "updatedAt": "2025-11-17T07:08:45.906Z"
+    },
+    {
+      "id": "truck_1763363325906_1_ru0wpw315",
+      "supplierName": "Jamilu Yahaya",
+      "bags": 149,
+      "moistureLevel": 12,
+      "truckNumber": "LSR 321 XW",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-17T07:08:45.906Z"
+        }
+      ],
+      "createdAt": "2025-11-17T07:08:45.906Z",
+      "updatedAt": "2025-11-17T07:08:45.906Z"
+    },
+    {
+      "id": "truck_1763363325906_2_5wfz8uuo7",
+      "supplierName": "Idris Garba",
+      "bags": 550,
+      "moistureLevel": 16,
+      "truckNumber": "FKY 118 XB",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-17T07:08:45.906Z"
+        }
+      ],
+      "createdAt": "2025-11-17T07:08:45.906Z",
+      "updatedAt": "2025-11-17T07:08:45.906Z"
+    },
+    {
+      "id": "truck_1763363325906_3_60usxtgcz",
+      "supplierName": "Idris Haruna",
+      "bags": 434,
+      "moistureLevel": 13,
+      "truckNumber": "MKA 742 YY",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-17T07:08:45.906Z"
+        }
+      ],
+      "createdAt": "2025-11-17T07:08:45.906Z",
+      "updatedAt": "2025-11-17T07:08:45.906Z"
     }
   ],
-  "lastModified": "2025-11-16T12:23:25.792Z",
+  "lastModified": "2025-11-17T07:08:46.088Z",
   "version": "2.0.0"
 }
