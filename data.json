@@ -20660,8 +20660,40 @@
       "updatedAt": "2025-11-17T13:46:18.216Z",
       "waybillNumber": "7270",
       "netWeight": 7350
+    },
+    {
+      "id": "truck_1763388501425_0_intagc3k3",
+      "supplierName": "B L Barka",
+      "bags": 200,
+      "moistureLevel": 18,
+      "truckNumber": "BBR 822 XB",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-17T14:08:21.425Z"
+        }
+      ],
+      "createdAt": "2025-11-17T14:08:21.425Z",
+      "updatedAt": "2025-11-17T14:08:21.425Z"
+    },
+    {
+      "id": "truck_1763388501425_1_fjlx91fj3",
+      "supplierName": "Idris Haruna",
+      "bags": 600,
+      "moistureLevel": 13,
+      "truckNumber": "ABC 638 XB",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-17T14:08:21.425Z"
+        }
+      ],
+      "createdAt": "2025-11-17T14:08:21.425Z",
+      "updatedAt": "2025-11-17T14:08:21.425Z"
     }
   ],
-  "lastModified": "2025-11-17T14:07:10.598Z",
+  "lastModified": "2025-11-17T14:08:21.532Z",
   "version": "2.0.0"
 }
