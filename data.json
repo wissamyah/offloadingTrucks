@@ -20249,7 +20249,7 @@
       "bags": 434,
       "moistureLevel": 13,
       "truckNumber": "MKA 742 YY",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -20261,11 +20261,19 @@
           "details": {
             "waybillNumber": "7255"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-11-17T10:40:55.467Z",
+          "details": {
+            "netWeight": 32770
+          }
         }
       ],
       "createdAt": "2025-11-17T07:08:45.906Z",
-      "updatedAt": "2025-11-17T08:54:39.665Z",
-      "waybillNumber": "7255"
+      "updatedAt": "2025-11-17T10:40:55.467Z",
+      "waybillNumber": "7255",
+      "netWeight": 32770
     },
     {
       "id": "truck_1763363458085_0_5oyftp00l",
@@ -20476,6 +20484,6 @@
       "waybillNumber": "7266"
     }
   ],
-  "lastModified": "2025-11-17T10:40:13.621Z",
+  "lastModified": "2025-11-17T10:40:55.613Z",
   "version": "2.0.0"
 }
