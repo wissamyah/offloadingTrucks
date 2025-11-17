@@ -20263,15 +20263,23 @@
       "bags": 270,
       "moistureLevel": 20,
       "truckNumber": "ZUR 878 ZY",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-11-17T07:10:58.085Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-11-17T08:55:21.289Z",
+          "details": {
+            "waybillNumber": "7260"
+          }
         }
       ],
       "createdAt": "2025-11-17T07:10:58.085Z",
-      "updatedAt": "2025-11-17T07:10:58.085Z"
+      "updatedAt": "2025-11-17T08:55:21.289Z",
+      "waybillNumber": "7260"
     },
     {
       "id": "truck_1763363503535_0_mmhb57lax",
@@ -20394,6 +20402,6 @@
       "updatedAt": "2025-11-17T07:21:34.432Z"
     }
   ],
-  "lastModified": "2025-11-17T08:55:00.790Z",
+  "lastModified": "2025-11-17T08:55:21.431Z",
   "version": "2.0.0"
 }
