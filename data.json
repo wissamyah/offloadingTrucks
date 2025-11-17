@@ -20183,7 +20183,7 @@
       "bags": 149,
       "moistureLevel": 12,
       "truckNumber": "LSR 321 XW",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -20195,11 +20195,19 @@
           "details": {
             "waybillNumber": "7251"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-11-17T08:52:40.257Z",
+          "details": {
+            "netWeight": 15150
+          }
         }
       ],
       "createdAt": "2025-11-17T07:08:45.906Z",
-      "updatedAt": "2025-11-17T07:32:36.029Z",
-      "waybillNumber": "7251"
+      "updatedAt": "2025-11-17T08:52:40.257Z",
+      "waybillNumber": "7251",
+      "netWeight": 15150
     },
     {
       "id": "truck_1763363325906_2_5wfz8uuo7",
@@ -20370,6 +20378,6 @@
       "updatedAt": "2025-11-17T07:21:34.432Z"
     }
   ],
-  "lastModified": "2025-11-17T07:38:30.297Z",
+  "lastModified": "2025-11-17T08:52:40.332Z",
   "version": "2.0.0"
 }
