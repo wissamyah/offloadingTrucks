@@ -20419,7 +20419,7 @@
       "bags": 270,
       "moistureLevel": 20,
       "truckNumber": "HJA 980 YD",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -20431,11 +20431,19 @@
           "details": {
             "waybillNumber": "7262"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-11-17T12:36:41.920Z",
+          "details": {
+            "netWeight": 22320
+          }
         }
       ],
       "createdAt": "2025-11-17T07:11:43.535Z",
-      "updatedAt": "2025-11-17T08:56:19.051Z",
-      "waybillNumber": "7262"
+      "updatedAt": "2025-11-17T12:36:41.920Z",
+      "waybillNumber": "7262",
+      "netWeight": 22320
     },
     {
       "id": "truck_1763364094432_0_1ac9n0p19",
@@ -20526,6 +20534,6 @@
       "waybillNumber": "7266"
     }
   ],
-  "lastModified": "2025-11-17T12:09:46.672Z",
+  "lastModified": "2025-11-17T12:36:42.114Z",
   "version": "2.0.0"
 }
