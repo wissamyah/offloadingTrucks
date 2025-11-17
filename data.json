@@ -20347,7 +20347,7 @@
       "bags": 270,
       "moistureLevel": 20,
       "truckNumber": "MNA 15 XB",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -20359,11 +20359,19 @@
           "details": {
             "waybillNumber": "7263"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-11-17T11:13:01.875Z",
+          "details": {
+            "netWeight": 26460
+          }
         }
       ],
       "createdAt": "2025-11-17T07:11:43.535Z",
-      "updatedAt": "2025-11-17T08:57:00.329Z",
-      "waybillNumber": "7263"
+      "updatedAt": "2025-11-17T11:13:01.875Z",
+      "waybillNumber": "7263",
+      "netWeight": 26460
     },
     {
       "id": "truck_1763363503535_2_i21elzg82",
@@ -20494,6 +20502,6 @@
       "waybillNumber": "7266"
     }
   ],
-  "lastModified": "2025-11-17T11:11:48.588Z",
+  "lastModified": "2025-11-17T11:13:02.029Z",
   "version": "2.0.0"
 }
