@@ -20353,7 +20353,7 @@
       "bags": 270,
       "moistureLevel": 20,
       "truckNumber": "MMR 258 XA",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -20365,11 +20365,19 @@
           "details": {
             "waybillNumber": "7261"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-11-17T10:40:13.424Z",
+          "details": {
+            "netWeight": 26480
+          }
         }
       ],
       "createdAt": "2025-11-17T07:11:43.535Z",
-      "updatedAt": "2025-11-17T08:55:53.720Z",
-      "waybillNumber": "7261"
+      "updatedAt": "2025-11-17T10:40:13.424Z",
+      "waybillNumber": "7261",
+      "netWeight": 26480
     },
     {
       "id": "truck_1763363503535_3_qta10p9n0",
@@ -20468,6 +20476,6 @@
       "waybillNumber": "7266"
     }
   ],
-  "lastModified": "2025-11-17T10:08:44.582Z",
+  "lastModified": "2025-11-17T10:40:13.621Z",
   "version": "2.0.0"
 }
