@@ -20723,13 +20723,20 @@
           "details": {
             "waybillNumber": "7272"
           }
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-11-17T16:34:55.262Z",
+          "details": {
+            "waybillNumber": "7272"
+          }
         }
       ],
       "createdAt": "2025-11-17T14:08:21.425Z",
-      "updatedAt": "2025-11-17T16:33:39.209Z",
+      "updatedAt": "2025-11-17T16:34:55.262Z",
       "waybillNumber": "7272"
     }
   ],
-  "lastModified": "2025-11-17T16:33:39.315Z",
+  "lastModified": "2025-11-17T16:34:55.343Z",
   "version": "2.0.0"
 }
