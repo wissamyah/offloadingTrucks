@@ -21134,7 +21134,7 @@
       "bags": 362,
       "moistureLevel": 13,
       "truckNumber": "JJN 255 ZU",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -21146,11 +21146,21 @@
           "details": {
             "waybillNumber": "7301"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-11-18T14:46:26.407Z",
+          "details": {
+            "netWeight": 32770,
+            "deduction": 90
+          }
         }
       ],
       "createdAt": "2025-11-18T12:53:43.512Z",
-      "updatedAt": "2025-11-18T14:45:53.084Z",
-      "waybillNumber": "7301"
+      "updatedAt": "2025-11-18T14:46:26.407Z",
+      "waybillNumber": "7301",
+      "netWeight": 32770,
+      "deduction": 90
     },
     {
       "id": "truck_1763470423512_1_gmn8zjpjx",
@@ -21225,6 +21235,6 @@
       "waybillNumber": "7303"
     }
   ],
-  "lastModified": "2025-11-18T14:45:54.081Z",
+  "lastModified": "2025-11-18T14:46:26.485Z",
   "version": "2.0.0"
 }
