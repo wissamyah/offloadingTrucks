@@ -20998,15 +20998,23 @@
       "bags": 320,
       "moistureLevel": 20,
       "truckNumber": "DJA 254 XA",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-11-18T07:53:35.555Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-11-18T10:23:28.254Z",
+          "details": {
+            "waybillNumber": "7291"
+          }
         }
       ],
       "createdAt": "2025-11-18T07:53:35.555Z",
-      "updatedAt": "2025-11-18T07:53:35.555Z"
+      "updatedAt": "2025-11-18T10:23:28.254Z",
+      "waybillNumber": "7291"
     },
     {
       "id": "truck_1763452415555_5_psad38umo",
@@ -21025,6 +21033,6 @@
       "updatedAt": "2025-11-18T07:53:35.555Z"
     }
   ],
-  "lastModified": "2025-11-18T10:23:04.966Z",
+  "lastModified": "2025-11-18T10:23:28.413Z",
   "version": "2.0.0"
 }
