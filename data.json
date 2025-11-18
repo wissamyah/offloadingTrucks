@@ -20839,8 +20839,104 @@
       ],
       "createdAt": "2025-11-18T07:53:17.227Z",
       "updatedAt": "2025-11-18T07:53:17.227Z"
+    },
+    {
+      "id": "truck_1763452415555_0_3e1nkgu69",
+      "supplierName": "Mansur Mansur",
+      "bags": 450,
+      "moistureLevel": 13,
+      "truckNumber": "KTN 203 YZ",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-18T07:53:35.555Z"
+        }
+      ],
+      "createdAt": "2025-11-18T07:53:35.555Z",
+      "updatedAt": "2025-11-18T07:53:35.555Z"
+    },
+    {
+      "id": "truck_1763452415555_1_ehfap2hu7",
+      "supplierName": "Kurum Agro Allied",
+      "bags": 450,
+      "moistureLevel": 12,
+      "truckNumber": "MGU 504 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-18T07:53:35.555Z"
+        }
+      ],
+      "createdAt": "2025-11-18T07:53:35.555Z",
+      "updatedAt": "2025-11-18T07:53:35.555Z"
+    },
+    {
+      "id": "truck_1763452415555_2_urjo25z8m",
+      "supplierName": "Mubarak Abba",
+      "bags": 500,
+      "moistureLevel": 12,
+      "truckNumber": "KWL 179 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-18T07:53:35.555Z"
+        }
+      ],
+      "createdAt": "2025-11-18T07:53:35.555Z",
+      "updatedAt": "2025-11-18T07:53:35.555Z"
+    },
+    {
+      "id": "truck_1763452415555_3_xtlxo9ksg",
+      "supplierName": "Mubarak Abba",
+      "bags": 500,
+      "moistureLevel": 12,
+      "truckNumber": "XA 992 HJA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-18T07:53:35.555Z"
+        }
+      ],
+      "createdAt": "2025-11-18T07:53:35.555Z",
+      "updatedAt": "2025-11-18T07:53:35.555Z"
+    },
+    {
+      "id": "truck_1763452415555_4_nzfclfqhc",
+      "supplierName": "Jamilu jangale",
+      "bags": 320,
+      "moistureLevel": 20,
+      "truckNumber": "DJA 254 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-18T07:53:35.555Z"
+        }
+      ],
+      "createdAt": "2025-11-18T07:53:35.555Z",
+      "updatedAt": "2025-11-18T07:53:35.555Z"
+    },
+    {
+      "id": "truck_1763452415555_5_psad38umo",
+      "supplierName": "Mukhtari Sale",
+      "bags": 198,
+      "moistureLevel": 14,
+      "truckNumber": "XA 768 KTG",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-18T07:53:35.555Z"
+        }
+      ],
+      "createdAt": "2025-11-18T07:53:35.555Z",
+      "updatedAt": "2025-11-18T07:53:35.555Z"
     }
   ],
-  "lastModified": "2025-11-18T07:53:17.436Z",
+  "lastModified": "2025-11-18T07:53:37.294Z",
   "version": "2.0.0"
 }
