@@ -21166,15 +21166,23 @@
       "bags": 510,
       "moistureLevel": 15,
       "truckNumber": "JMT 470 XB",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-11-18T12:53:43.512Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-11-18T13:26:34.149Z",
+          "details": {
+            "waybillNumber": "7302"
+          }
         }
       ],
       "createdAt": "2025-11-18T12:53:43.512Z",
-      "updatedAt": "2025-11-18T12:53:43.512Z"
+      "updatedAt": "2025-11-18T13:26:34.149Z",
+      "waybillNumber": "7302"
     },
     {
       "id": "truck_1763470423512_3_9zmfo22fk",
@@ -21201,6 +21209,6 @@
       "waybillNumber": "7303"
     }
   ],
-  "lastModified": "2025-11-18T13:26:14.160Z",
+  "lastModified": "2025-11-18T13:26:34.217Z",
   "version": "2.0.0"
 }
