@@ -21072,7 +21072,7 @@
       "bags": 198,
       "moistureLevel": 14,
       "truckNumber": "XA 768 KTG",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -21084,13 +21084,23 @@
           "details": {
             "waybillNumber": "7297"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-11-18T12:09:21.316Z",
+          "details": {
+            "netWeight": 17070,
+            "deduction": 110
+          }
         }
       ],
       "createdAt": "2025-11-18T07:53:35.555Z",
-      "updatedAt": "2025-11-18T12:09:10.502Z",
-      "waybillNumber": "7297"
+      "updatedAt": "2025-11-18T12:09:21.316Z",
+      "waybillNumber": "7297",
+      "netWeight": 17070,
+      "deduction": 110
     }
   ],
-  "lastModified": "2025-11-18T12:09:10.778Z",
+  "lastModified": "2025-11-18T12:09:22.275Z",
   "version": "2.0.0"
 }
