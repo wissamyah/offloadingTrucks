@@ -20998,7 +20998,7 @@
       "bags": 500,
       "moistureLevel": 12,
       "truckNumber": "XA 992 HJA",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -21010,11 +21010,19 @@
           "details": {
             "waybillNumber": "7283"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-11-18T11:38:44.314Z",
+          "details": {
+            "netWeight": 36440
+          }
         }
       ],
       "createdAt": "2025-11-18T07:53:35.555Z",
-      "updatedAt": "2025-11-18T08:22:12.611Z",
-      "waybillNumber": "7283"
+      "updatedAt": "2025-11-18T11:38:44.314Z",
+      "waybillNumber": "7283",
+      "netWeight": 36440
     },
     {
       "id": "truck_1763452415555_4_nzfclfqhc",
@@ -21057,6 +21065,6 @@
       "updatedAt": "2025-11-18T07:53:35.555Z"
     }
   ],
-  "lastModified": "2025-11-18T11:37:49.581Z",
+  "lastModified": "2025-11-18T11:38:44.477Z",
   "version": "2.0.0"
 }
