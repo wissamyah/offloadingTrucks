@@ -21178,7 +21178,7 @@
       "bags": 350,
       "moistureLevel": 12,
       "truckNumber": "NSR 697 ZX",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -21190,11 +21190,21 @@
           "details": {
             "waybillNumber": "7304"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-11-18T16:09:21.113Z",
+          "details": {
+            "netWeight": 30600,
+            "deduction": 80
+          }
         }
       ],
       "createdAt": "2025-11-18T12:53:43.512Z",
-      "updatedAt": "2025-11-18T13:59:10.807Z",
-      "waybillNumber": "7304"
+      "updatedAt": "2025-11-18T16:09:21.113Z",
+      "waybillNumber": "7304",
+      "netWeight": 30600,
+      "deduction": 80
     },
     {
       "id": "truck_1763470423512_2_shvf1v4yk",
@@ -21261,6 +21271,6 @@
       "netWeight": 42130
     }
   ],
-  "lastModified": "2025-11-18T15:52:44.874Z",
+  "lastModified": "2025-11-18T16:09:21.308Z",
   "version": "2.0.0"
 }
