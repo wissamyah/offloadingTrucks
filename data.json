@@ -20862,15 +20862,23 @@
       "bags": 450,
       "moistureLevel": 13,
       "truckNumber": "KTN 203 YZ",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-11-18T07:53:35.555Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-11-18T08:07:31.979Z",
+          "details": {
+            "waybillNumber": "7281"
+          }
         }
       ],
       "createdAt": "2025-11-18T07:53:35.555Z",
-      "updatedAt": "2025-11-18T07:53:35.555Z"
+      "updatedAt": "2025-11-18T08:07:31.980Z",
+      "waybillNumber": "7281"
     },
     {
       "id": "truck_1763452415555_1_ehfap2hu7",
@@ -20953,6 +20961,6 @@
       "updatedAt": "2025-11-18T07:53:35.555Z"
     }
   ],
-  "lastModified": "2025-11-18T08:03:50.156Z",
+  "lastModified": "2025-11-18T08:07:32.182Z",
   "version": "2.0.0"
 }
