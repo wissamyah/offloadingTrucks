@@ -20743,8 +20743,104 @@
       "updatedAt": "2025-11-17T16:35:07.392Z",
       "waybillNumber": "7272",
       "netWeight": 42890
+    },
+    {
+      "id": "truck_1763452397226_0_ag05rwj54",
+      "supplierName": "Mubarak Abba",
+      "bags": 420,
+      "moistureLevel": 14,
+      "truckNumber": "JJN 835 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-18T07:53:17.226Z"
+        }
+      ],
+      "createdAt": "2025-11-18T07:53:17.227Z",
+      "updatedAt": "2025-11-18T07:53:17.227Z"
+    },
+    {
+      "id": "truck_1763452397226_1_kktxuu8j",
+      "supplierName": "Mukhtari Sale",
+      "bags": 450,
+      "moistureLevel": 14,
+      "truckNumber": "SHR 547 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-18T07:53:17.227Z"
+        }
+      ],
+      "createdAt": "2025-11-18T07:53:17.227Z",
+      "updatedAt": "2025-11-18T07:53:17.227Z"
+    },
+    {
+      "id": "truck_1763452397226_2_364k6lyyi",
+      "supplierName": "B L Barka",
+      "bags": 250,
+      "moistureLevel": 20,
+      "truckNumber": "HJA 841 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-18T07:53:17.227Z"
+        }
+      ],
+      "createdAt": "2025-11-18T07:53:17.227Z",
+      "updatedAt": "2025-11-18T07:53:17.227Z"
+    },
+    {
+      "id": "truck_1763452397226_3_zu59xt6no",
+      "supplierName": "B L Barka",
+      "bags": 250,
+      "moistureLevel": 20,
+      "truckNumber": "TRK 472 XH",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-18T07:53:17.227Z"
+        }
+      ],
+      "createdAt": "2025-11-18T07:53:17.227Z",
+      "updatedAt": "2025-11-18T07:53:17.227Z"
+    },
+    {
+      "id": "truck_1763452397226_4_6hnw3vs3n",
+      "supplierName": "B L Barka",
+      "bags": 256,
+      "moistureLevel": 20,
+      "truckNumber": "SUL 978 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-18T07:53:17.227Z"
+        }
+      ],
+      "createdAt": "2025-11-18T07:53:17.227Z",
+      "updatedAt": "2025-11-18T07:53:17.227Z"
+    },
+    {
+      "id": "truck_1763452397226_5_x6rh9m75v",
+      "supplierName": "B L Barka",
+      "bags": 210,
+      "moistureLevel": 19,
+      "truckNumber": "MDG 64 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-18T07:53:17.227Z"
+        }
+      ],
+      "createdAt": "2025-11-18T07:53:17.227Z",
+      "updatedAt": "2025-11-18T07:53:17.227Z"
     }
   ],
-  "lastModified": "2025-11-17T16:35:08.155Z",
+  "lastModified": "2025-11-18T07:53:17.436Z",
   "version": "2.0.0"
 }
