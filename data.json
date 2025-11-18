@@ -20875,7 +20875,7 @@
     {
       "id": "truck_1763452397226_4_6hnw3vs3n",
       "supplierName": "B L Barka",
-      "bags": 256,
+      "bags": 270,
       "moistureLevel": 20,
       "truckNumber": "SUL 978 XA",
       "status": "scaled_in",
@@ -21165,6 +21165,6 @@
       "updatedAt": "2025-11-18T12:53:43.512Z"
     }
   ],
-  "lastModified": "2025-11-18T12:53:43.612Z",
+  "lastModified": "2025-11-18T13:00:32.610Z",
   "version": "2.0.0"
 }
