@@ -20894,7 +20894,7 @@
       "bags": 450,
       "moistureLevel": 12,
       "truckNumber": "MGU 504 XA",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -20906,11 +20906,19 @@
           "details": {
             "waybillNumber": "7282"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-11-18T09:52:07.371Z",
+          "details": {
+            "netWeight": 31510
+          }
         }
       ],
       "createdAt": "2025-11-18T07:53:35.555Z",
-      "updatedAt": "2025-11-18T08:11:08.029Z",
-      "waybillNumber": "7282"
+      "updatedAt": "2025-11-18T09:52:07.371Z",
+      "waybillNumber": "7282",
+      "netWeight": 31510
     },
     {
       "id": "truck_1763452415555_2_urjo25z8m",
@@ -20993,6 +21001,6 @@
       "updatedAt": "2025-11-18T07:53:35.555Z"
     }
   ],
-  "lastModified": "2025-11-18T09:49:18.470Z",
+  "lastModified": "2025-11-18T09:52:08.402Z",
   "version": "2.0.0"
 }
