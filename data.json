@@ -20910,15 +20910,23 @@
       "bags": 500,
       "moistureLevel": 12,
       "truckNumber": "KWL 179 XA",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-11-18T07:53:35.555Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-11-18T08:24:45.085Z",
+          "details": {
+            "waybillNumber": "7284"
+          }
         }
       ],
       "createdAt": "2025-11-18T07:53:35.555Z",
-      "updatedAt": "2025-11-18T07:53:35.555Z"
+      "updatedAt": "2025-11-18T08:24:45.085Z",
+      "waybillNumber": "7284"
     },
     {
       "id": "truck_1763452415555_3_xtlxo9ksg",
@@ -20977,6 +20985,6 @@
       "updatedAt": "2025-11-18T07:53:35.555Z"
     }
   ],
-  "lastModified": "2025-11-18T08:22:12.773Z",
+  "lastModified": "2025-11-18T08:24:46.239Z",
   "version": "2.0.0"
 }
