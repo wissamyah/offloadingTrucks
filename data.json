@@ -21099,8 +21099,72 @@
       "waybillNumber": "7297",
       "netWeight": 17070,
       "deduction": 110
+    },
+    {
+      "id": "truck_1763470423512_0_818lqmdff",
+      "supplierName": "B L Barka",
+      "bags": 362,
+      "moistureLevel": 13,
+      "truckNumber": "JJN 255 ZU",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-18T12:53:43.512Z"
+        }
+      ],
+      "createdAt": "2025-11-18T12:53:43.512Z",
+      "updatedAt": "2025-11-18T12:53:43.512Z"
+    },
+    {
+      "id": "truck_1763470423512_1_gmn8zjpjx",
+      "supplierName": "Mukhtari Sale",
+      "bags": 350,
+      "moistureLevel": 12,
+      "truckNumber": "NSR 697 ZX",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-18T12:53:43.512Z"
+        }
+      ],
+      "createdAt": "2025-11-18T12:53:43.512Z",
+      "updatedAt": "2025-11-18T12:53:43.512Z"
+    },
+    {
+      "id": "truck_1763470423512_2_shvf1v4yk",
+      "supplierName": "Idris Haruna",
+      "bags": 510,
+      "moistureLevel": 15,
+      "truckNumber": "JMT 470 XB",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-18T12:53:43.512Z"
+        }
+      ],
+      "createdAt": "2025-11-18T12:53:43.512Z",
+      "updatedAt": "2025-11-18T12:53:43.512Z"
+    },
+    {
+      "id": "truck_1763470423512_3_9zmfo22fk",
+      "supplierName": "Idris Garba",
+      "bags": 510,
+      "moistureLevel": 17,
+      "truckNumber": "FKY 865 YF",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-18T12:53:43.512Z"
+        }
+      ],
+      "createdAt": "2025-11-18T12:53:43.512Z",
+      "updatedAt": "2025-11-18T12:53:43.512Z"
     }
   ],
-  "lastModified": "2025-11-18T12:09:22.275Z",
+  "lastModified": "2025-11-18T12:53:43.612Z",
   "version": "2.0.0"
 }
