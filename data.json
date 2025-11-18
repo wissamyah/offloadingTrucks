@@ -20806,15 +20806,23 @@
       "bags": 250,
       "moistureLevel": 20,
       "truckNumber": "HJA 841 XA",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-11-18T07:53:17.227Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-11-18T10:22:39.444Z",
+          "details": {
+            "waybillNumber": "7292"
+          }
         }
       ],
       "createdAt": "2025-11-18T07:53:17.227Z",
-      "updatedAt": "2025-11-18T07:53:17.227Z"
+      "updatedAt": "2025-11-18T10:22:39.444Z",
+      "waybillNumber": "7292"
     },
     {
       "id": "truck_1763452397226_3_zu59xt6no",
@@ -21009,6 +21017,6 @@
       "updatedAt": "2025-11-18T07:53:35.555Z"
     }
   ],
-  "lastModified": "2025-11-18T10:00:30.499Z",
+  "lastModified": "2025-11-18T10:22:39.834Z",
   "version": "2.0.0"
 }
