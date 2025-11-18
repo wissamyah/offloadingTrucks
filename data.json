@@ -21072,17 +21072,25 @@
       "bags": 198,
       "moistureLevel": 14,
       "truckNumber": "XA 768 KTG",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-11-18T07:53:35.555Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-11-18T12:09:10.502Z",
+          "details": {
+            "waybillNumber": "7297"
+          }
         }
       ],
       "createdAt": "2025-11-18T07:53:35.555Z",
-      "updatedAt": "2025-11-18T07:53:35.555Z"
+      "updatedAt": "2025-11-18T12:09:10.502Z",
+      "waybillNumber": "7297"
     }
   ],
-  "lastModified": "2025-11-18T11:56:54.862Z",
+  "lastModified": "2025-11-18T12:09:10.778Z",
   "version": "2.0.0"
 }
