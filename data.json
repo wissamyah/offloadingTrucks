@@ -20782,7 +20782,7 @@
       "bags": 450,
       "moistureLevel": 14,
       "truckNumber": "SHR 547 XA",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -20794,11 +20794,19 @@
           "details": {
             "waybillNumber": "7279"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-11-18T11:37:49.366Z",
+          "details": {
+            "netWeight": 37930
+          }
         }
       ],
       "createdAt": "2025-11-18T07:53:17.227Z",
-      "updatedAt": "2025-11-18T08:03:49.144Z",
-      "waybillNumber": "7279"
+      "updatedAt": "2025-11-18T11:37:49.366Z",
+      "waybillNumber": "7279",
+      "netWeight": 37930
     },
     {
       "id": "truck_1763452397226_2_364k6lyyi",
@@ -21049,6 +21057,6 @@
       "updatedAt": "2025-11-18T07:53:35.555Z"
     }
   ],
-  "lastModified": "2025-11-18T11:14:45.071Z",
+  "lastModified": "2025-11-18T11:37:49.581Z",
   "version": "2.0.0"
 }
