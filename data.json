@@ -21330,7 +21330,7 @@
       "id": "truck_1763538992775_2_9ix69thc2",
       "supplierName": "Idris Haruna",
       "bags": 95,
-      "moistureLevel": 0,
+      "moistureLevel": 15,
       "truckNumber": "KTU 605 YF",
       "status": "offloaded",
       "statusHistory": [
@@ -21631,6 +21631,6 @@
       "updatedAt": "2025-11-19T08:00:22.171Z"
     }
   ],
-  "lastModified": "2025-11-19T10:06:14.577Z",
+  "lastModified": "2025-11-19T10:06:56.453Z",
   "version": "2.0.0"
 }
