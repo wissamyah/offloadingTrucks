@@ -21997,7 +21997,7 @@
       "bags": 136,
       "moistureLevel": 13,
       "truckNumber": "KSF 550 XF",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -22009,13 +22009,21 @@
           "details": {
             "waybillNumber": "7334"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-11-19T16:07:24.200Z",
+          "details": {
+            "netWeight": 11770
+          }
         }
       ],
       "createdAt": "2025-11-19T16:06:40.601Z",
-      "updatedAt": "2025-11-19T16:07:07.480Z",
-      "waybillNumber": "7334"
+      "updatedAt": "2025-11-19T16:07:24.200Z",
+      "waybillNumber": "7334",
+      "netWeight": 11770
     }
   ],
-  "lastModified": "2025-11-19T16:07:07.569Z",
+  "lastModified": "2025-11-19T16:07:25.130Z",
   "version": "2.0.0"
 }
