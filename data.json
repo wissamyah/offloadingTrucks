@@ -21688,7 +21688,7 @@
       "bags": 550,
       "moistureLevel": 15,
       "truckNumber": "FKY 340 XA",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -21700,11 +21700,19 @@
           "details": {
             "waybillNumber": "7330"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-11-19T13:20:49.271Z",
+          "details": {
+            "netWeight": 39000
+          }
         }
       ],
       "createdAt": "2025-11-19T08:00:22.171Z",
-      "updatedAt": "2025-11-19T10:26:25.583Z",
-      "waybillNumber": "7330"
+      "updatedAt": "2025-11-19T13:20:49.271Z",
+      "waybillNumber": "7330",
+      "netWeight": 39000
     },
     {
       "id": "truck_1763539222171_3_wignzuoga",
@@ -21791,6 +21799,6 @@
       "waybillNumber": "36769"
     }
   ],
-  "lastModified": "2025-11-19T13:08:28.322Z",
+  "lastModified": "2025-11-19T13:20:49.425Z",
   "version": "2.0.0"
 }
