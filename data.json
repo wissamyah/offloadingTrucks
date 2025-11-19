@@ -21933,15 +21933,23 @@
       "bags": 499,
       "moistureLevel": 12,
       "truckNumber": "ABC 638 XB",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-11-19T13:25:31.315Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-11-19T14:15:06.933Z",
+          "details": {
+            "waybillNumber": "7340"
+          }
         }
       ],
       "createdAt": "2025-11-19T13:25:31.315Z",
-      "updatedAt": "2025-11-19T13:25:31.315Z"
+      "updatedAt": "2025-11-19T14:15:06.933Z",
+      "waybillNumber": "7340"
     },
     {
       "id": "truck_1763558731315_7_r9bp7mke8",
@@ -21960,6 +21968,6 @@
       "updatedAt": "2025-11-19T13:25:31.315Z"
     }
   ],
-  "lastModified": "2025-11-19T14:09:26.302Z",
+  "lastModified": "2025-11-19T14:15:07.018Z",
   "version": "2.0.0"
 }
