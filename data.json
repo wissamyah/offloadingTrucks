@@ -21990,8 +21990,24 @@
       "createdAt": "2025-11-19T13:25:31.315Z",
       "updatedAt": "2025-11-19T14:17:56.545Z",
       "waybillNumber": "7341"
+    },
+    {
+      "id": "truck_1763568400600_0_hb0d0mt30",
+      "supplierName": "Mukhtari Sale",
+      "bags": 136,
+      "moistureLevel": 13,
+      "truckNumber": "KSF 550 XF",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-19T16:06:40.600Z"
+        }
+      ],
+      "createdAt": "2025-11-19T16:06:40.601Z",
+      "updatedAt": "2025-11-19T16:06:40.601Z"
     }
   ],
-  "lastModified": "2025-11-19T15:56:14.328Z",
+  "lastModified": "2025-11-19T16:06:40.702Z",
   "version": "2.0.0"
 }
