@@ -21613,7 +21613,7 @@
     {
       "id": "truck_1763539222171_0_zgqycv983",
       "supplierName": "B L Barka",
-      "bags": 260,
+      "bags": 270,
       "moistureLevel": 20,
       "truckNumber": "HJA 134 XR",
       "status": "offloaded",
@@ -21751,6 +21751,6 @@
       "netWeight": 4370
     }
   ],
-  "lastModified": "2025-11-19T11:16:03.548Z",
+  "lastModified": "2025-11-19T11:16:47.868Z",
   "version": "2.0.0"
 }
