@@ -21316,15 +21316,23 @@
       "bags": 95,
       "moistureLevel": 0,
       "truckNumber": "KTU 605 YF",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-11-19T07:56:32.776Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-11-19T08:20:26.719Z",
+          "details": {
+            "waybillNumber": "7309"
+          }
         }
       ],
       "createdAt": "2025-11-19T07:56:32.776Z",
-      "updatedAt": "2025-11-19T07:56:32.776Z"
+      "updatedAt": "2025-11-19T08:20:26.719Z",
+      "waybillNumber": "7309"
     },
     {
       "id": "truck_1763538992775_3_asmyuq5gp",
@@ -21535,6 +21543,6 @@
       "updatedAt": "2025-11-19T08:00:22.171Z"
     }
   ],
-  "lastModified": "2025-11-19T08:18:02.571Z",
+  "lastModified": "2025-11-19T08:20:26.874Z",
   "version": "2.0.0"
 }
