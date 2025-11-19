@@ -21790,7 +21790,7 @@
       "bags": 500,
       "moistureLevel": 12,
       "truckNumber": "FKY 314 YF",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -21802,11 +21802,19 @@
           "details": {
             "waybillNumber": "7336"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-11-19T15:56:14.235Z",
+          "details": {
+            "netWeight": 47630
+          }
         }
       ],
       "createdAt": "2025-11-19T13:25:31.315Z",
-      "updatedAt": "2025-11-19T13:33:56.224Z",
-      "waybillNumber": "7339"
+      "updatedAt": "2025-11-19T15:56:14.235Z",
+      "waybillNumber": "7339",
+      "netWeight": 47630
     },
     {
       "id": "truck_1763558731315_1_wazfekvcg",
@@ -21984,6 +21992,6 @@
       "waybillNumber": "7341"
     }
   ],
-  "lastModified": "2025-11-19T15:55:03.736Z",
+  "lastModified": "2025-11-19T15:56:14.328Z",
   "version": "2.0.0"
 }
