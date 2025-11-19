@@ -21388,7 +21388,7 @@
       "bags": 210,
       "moistureLevel": 20,
       "truckNumber": "BBR 822 XB",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -21400,11 +21400,21 @@
           "details": {
             "waybillNumber": "7321"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-11-19T10:45:58.397Z",
+          "details": {
+            "netWeight": 18970,
+            "deduction": 160
+          }
         }
       ],
       "createdAt": "2025-11-19T07:56:32.776Z",
-      "updatedAt": "2025-11-19T10:45:40.103Z",
-      "waybillNumber": "7321"
+      "updatedAt": "2025-11-19T10:45:58.397Z",
+      "waybillNumber": "7321",
+      "netWeight": 18970,
+      "deduction": 160
     },
     {
       "id": "truck_1763538992775_5_rq0rb292r",
@@ -21697,6 +21707,6 @@
       "waybillNumber": "7328"
     }
   ],
-  "lastModified": "2025-11-19T10:45:40.261Z",
+  "lastModified": "2025-11-19T10:45:59.362Z",
   "version": "2.0.0"
 }
