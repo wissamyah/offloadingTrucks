@@ -21973,7 +21973,7 @@
       "bags": 407,
       "moistureLevel": 13,
       "truckNumber": "YLA 41 XM",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -21985,11 +21985,19 @@
           "details": {
             "waybillNumber": "7341"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-11-19T16:55:25.833Z",
+          "details": {
+            "netWeight": 34340
+          }
         }
       ],
       "createdAt": "2025-11-19T13:25:31.315Z",
-      "updatedAt": "2025-11-19T14:17:56.545Z",
-      "waybillNumber": "7341"
+      "updatedAt": "2025-11-19T16:55:25.833Z",
+      "waybillNumber": "7341",
+      "netWeight": 34340
     },
     {
       "id": "truck_1763568400600_0_hb0d0mt30",
@@ -22024,6 +22032,6 @@
       "netWeight": 11770
     }
   ],
-  "lastModified": "2025-11-19T16:07:42.340Z",
+  "lastModified": "2025-11-19T16:55:25.949Z",
   "version": "2.0.0"
 }
