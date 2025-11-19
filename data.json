@@ -21445,8 +21445,88 @@
       ],
       "createdAt": "2025-11-19T07:58:55.090Z",
       "updatedAt": "2025-11-19T07:58:55.090Z"
+    },
+    {
+      "id": "truck_1763539222171_0_zgqycv983",
+      "supplierName": "B L Barka",
+      "bags": 260,
+      "moistureLevel": 20,
+      "truckNumber": "HJA 134 XR",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-19T08:00:22.171Z"
+        }
+      ],
+      "createdAt": "2025-11-19T08:00:22.171Z",
+      "updatedAt": "2025-11-19T08:00:22.171Z"
+    },
+    {
+      "id": "truck_1763539222171_1_hz7oulk21",
+      "supplierName": "Idris Haruna",
+      "bags": 500,
+      "moistureLevel": 12,
+      "truckNumber": "SUL 55 XR",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-19T08:00:22.171Z"
+        }
+      ],
+      "createdAt": "2025-11-19T08:00:22.171Z",
+      "updatedAt": "2025-11-19T08:00:22.171Z"
+    },
+    {
+      "id": "truck_1763539222171_2_w72bx295k",
+      "supplierName": "Damakasu Agro Allied",
+      "bags": 550,
+      "moistureLevel": 15,
+      "truckNumber": "FKY 340 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-19T08:00:22.171Z"
+        }
+      ],
+      "createdAt": "2025-11-19T08:00:22.171Z",
+      "updatedAt": "2025-11-19T08:00:22.171Z"
+    },
+    {
+      "id": "truck_1763539222171_3_wignzuoga",
+      "supplierName": "Jamilu Yahaya",
+      "bags": 102,
+      "moistureLevel": 15,
+      "truckNumber": "AGL 447 XR",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-19T08:00:22.171Z"
+        }
+      ],
+      "createdAt": "2025-11-19T08:00:22.171Z",
+      "updatedAt": "2025-11-19T08:00:22.171Z"
+    },
+    {
+      "id": "truck_1763539222171_4_jmryf6s51",
+      "supplierName": "Abubakar Muhd Tukur",
+      "bags": 50,
+      "moistureLevel": 12,
+      "truckNumber": "KYW 374 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-19T08:00:22.171Z"
+        }
+      ],
+      "createdAt": "2025-11-19T08:00:22.171Z",
+      "updatedAt": "2025-11-19T08:00:22.171Z"
     }
   ],
-  "lastModified": "2025-11-19T07:58:55.290Z",
+  "lastModified": "2025-11-19T08:00:22.379Z",
   "version": "2.0.0"
 }
