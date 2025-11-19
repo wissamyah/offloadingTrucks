@@ -21300,15 +21300,23 @@
       "bags": 86,
       "moistureLevel": 18,
       "truckNumber": "MSA 91 XA",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-11-19T07:56:32.776Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-11-19T08:35:21.314Z",
+          "details": {
+            "waybillNumber": "7314"
+          }
         }
       ],
       "createdAt": "2025-11-19T07:56:32.776Z",
-      "updatedAt": "2025-11-19T07:56:32.776Z"
+      "updatedAt": "2025-11-19T08:35:21.314Z",
+      "waybillNumber": "7314"
     },
     {
       "id": "truck_1763538992775_2_9ix69thc2",
@@ -21567,6 +21575,6 @@
       "updatedAt": "2025-11-19T08:00:22.171Z"
     }
   ],
-  "lastModified": "2025-11-19T08:32:43.547Z",
+  "lastModified": "2025-11-19T08:35:21.536Z",
   "version": "2.0.0"
 }
