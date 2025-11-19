@@ -21806,7 +21806,7 @@
       ],
       "createdAt": "2025-11-19T13:25:31.315Z",
       "updatedAt": "2025-11-19T13:33:56.224Z",
-      "waybillNumber": "7336"
+      "waybillNumber": "7339"
     },
     {
       "id": "truck_1763558731315_1_wazfekvcg",
@@ -21960,6 +21960,6 @@
       "updatedAt": "2025-11-19T13:25:31.315Z"
     }
   ],
-  "lastModified": "2025-11-19T14:06:55.999Z",
+  "lastModified": "2025-11-19T14:09:26.302Z",
   "version": "2.0.0"
 }
