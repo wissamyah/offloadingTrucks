@@ -21749,8 +21749,24 @@
       "updatedAt": "2025-11-19T10:49:38.487Z",
       "waybillNumber": "7328",
       "netWeight": 4370
+    },
+    {
+      "id": "truck_1763556092059_0_pp5iqjman",
+      "supplierName": "Isa Abubakar",
+      "bags": 520,
+      "moistureLevel": 15,
+      "truckNumber": "FKA 550 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-19T12:41:32.059Z"
+        }
+      ],
+      "createdAt": "2025-11-19T12:41:32.059Z",
+      "updatedAt": "2025-11-19T12:41:32.059Z"
     }
   ],
-  "lastModified": "2025-11-19T11:16:47.868Z",
+  "lastModified": "2025-11-19T12:41:33.042Z",
   "version": "2.0.0"
 }
