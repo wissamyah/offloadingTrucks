@@ -21592,7 +21592,7 @@
       "bags": 520,
       "moistureLevel": 15,
       "truckNumber": "FKA 550 XA",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -21604,11 +21604,19 @@
           "details": {
             "waybillNumber": "7325"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-11-19T12:50:53.277Z",
+          "details": {
+            "netWeight": 36760
+          }
         }
       ],
       "createdAt": "2025-11-19T07:58:55.090Z",
-      "updatedAt": "2025-11-19T09:59:15.520Z",
-      "waybillNumber": "7325"
+      "updatedAt": "2025-11-19T12:50:53.277Z",
+      "waybillNumber": "7325",
+      "netWeight": 36760
     },
     {
       "id": "truck_1763539222171_0_zgqycv983",
@@ -21799,6 +21807,6 @@
       "waybillNumber": "36769"
     }
   ],
-  "lastModified": "2025-11-19T12:44:20.277Z",
+  "lastModified": "2025-11-19T12:50:53.371Z",
   "version": "2.0.0"
 }
