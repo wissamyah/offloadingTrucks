@@ -21868,15 +21868,19 @@
       "bags": 500,
       "moistureLevel": 12,
       "truckNumber": "HKY 285 XA",
-      "status": "pending",
+      "status": "rejected",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-11-19T13:25:31.315Z"
+        },
+        {
+          "status": "rejected",
+          "timestamp": "2025-11-19T14:03:28.047Z"
         }
       ],
       "createdAt": "2025-11-19T13:25:31.315Z",
-      "updatedAt": "2025-11-19T13:25:31.315Z"
+      "updatedAt": "2025-11-19T14:03:28.047Z"
     },
     {
       "id": "truck_1763558731315_4_gw387hgnv",
@@ -21955,6 +21959,6 @@
       "updatedAt": "2025-11-19T13:25:31.315Z"
     }
   ],
-  "lastModified": "2025-11-19T14:03:23.344Z",
+  "lastModified": "2025-11-19T14:03:29.018Z",
   "version": "2.0.0"
 }
