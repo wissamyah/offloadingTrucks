@@ -21765,8 +21765,24 @@
       ],
       "createdAt": "2025-11-19T12:41:32.059Z",
       "updatedAt": "2025-11-19T12:41:32.059Z"
+    },
+    {
+      "id": "truck_1763556165489_0_1ci1v4wm4",
+      "supplierName": "Isa Abubakar",
+      "bags": 520,
+      "moistureLevel": 15,
+      "truckNumber": "FKA 550 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-19T12:42:45.489Z"
+        }
+      ],
+      "createdAt": "2025-11-19T12:42:45.489Z",
+      "updatedAt": "2025-11-19T12:42:45.489Z"
     }
   ],
-  "lastModified": "2025-11-19T12:41:33.042Z",
+  "lastModified": "2025-11-19T12:42:45.591Z",
   "version": "2.0.0"
 }
