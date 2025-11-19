@@ -21854,15 +21854,23 @@
       "bags": 550,
       "moistureLevel": 15,
       "truckNumber": "KEF 74 XB",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-11-19T13:25:31.315Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-11-19T16:56:20.183Z",
+          "details": {
+            "waybillNumber": "7337"
+          }
         }
       ],
       "createdAt": "2025-11-19T13:25:31.315Z",
-      "updatedAt": "2025-11-19T13:25:31.315Z"
+      "updatedAt": "2025-11-19T16:56:20.183Z",
+      "waybillNumber": "7337"
     },
     {
       "id": "truck_1763558731315_3_e27y6rw86",
@@ -22032,6 +22040,6 @@
       "netWeight": 11770
     }
   ],
-  "lastModified": "2025-11-19T16:55:25.949Z",
+  "lastModified": "2025-11-19T16:56:20.537Z",
   "version": "2.0.0"
 }
