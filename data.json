@@ -21616,15 +21616,23 @@
       "bags": 260,
       "moistureLevel": 20,
       "truckNumber": "HJA 134 XR",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-11-19T08:00:22.171Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-11-19T11:15:51.348Z",
+          "details": {
+            "waybillNumber": "7323"
+          }
         }
       ],
       "createdAt": "2025-11-19T08:00:22.171Z",
-      "updatedAt": "2025-11-19T08:00:22.171Z"
+      "updatedAt": "2025-11-19T11:15:51.348Z",
+      "waybillNumber": "7323"
     },
     {
       "id": "truck_1763539222171_1_hz7oulk21",
@@ -21735,6 +21743,6 @@
       "netWeight": 4370
     }
   ],
-  "lastModified": "2025-11-19T11:03:56.985Z",
+  "lastModified": "2025-11-19T11:15:51.582Z",
   "version": "2.0.0"
 }
