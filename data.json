@@ -21380,14 +21380,14 @@
         },
         {
           "status": "scaled_in",
-          "timestamp": "2025-11-19T08:32:28.001Z",
+          "timestamp": "2025-11-19T08:32:39.815Z",
           "details": {
             "waybillNumber": "7312"
           }
         }
       ],
       "createdAt": "2025-11-19T07:56:32.776Z",
-      "updatedAt": "2025-11-19T08:32:28.001Z",
+      "updatedAt": "2025-11-19T08:32:39.815Z",
       "waybillNumber": "7312"
     },
     {
@@ -21567,6 +21567,6 @@
       "updatedAt": "2025-11-19T08:00:22.171Z"
     }
   ],
-  "lastModified": "2025-11-19T08:32:28.168Z",
+  "lastModified": "2025-11-19T08:32:43.547Z",
   "version": "2.0.0"
 }
