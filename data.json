@@ -21797,8 +21797,136 @@
       "createdAt": "2025-11-19T12:42:45.489Z",
       "updatedAt": "2025-11-19T12:43:46.398Z",
       "waybillNumber": "36769"
+    },
+    {
+      "id": "truck_1763558731315_0_zxgc5xedc",
+      "supplierName": "B L Barka",
+      "bags": 500,
+      "moistureLevel": 12,
+      "truckNumber": "FKY 314 YF",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-19T13:25:31.315Z"
+        }
+      ],
+      "createdAt": "2025-11-19T13:25:31.315Z",
+      "updatedAt": "2025-11-19T13:25:31.315Z"
+    },
+    {
+      "id": "truck_1763558731315_1_wazfekvcg",
+      "supplierName": "Mukhtari Sale",
+      "bags": 136,
+      "moistureLevel": 13,
+      "truckNumber": "KSF 550 XF",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-19T13:25:31.315Z"
+        }
+      ],
+      "createdAt": "2025-11-19T13:25:31.315Z",
+      "updatedAt": "2025-11-19T13:25:31.315Z"
+    },
+    {
+      "id": "truck_1763558731315_2_mobq6ynmi",
+      "supplierName": "Idris Garba",
+      "bags": 550,
+      "moistureLevel": 15,
+      "truckNumber": "KEF 74 XB",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-19T13:25:31.315Z"
+        }
+      ],
+      "createdAt": "2025-11-19T13:25:31.315Z",
+      "updatedAt": "2025-11-19T13:25:31.315Z"
+    },
+    {
+      "id": "truck_1763558731315_3_e27y6rw86",
+      "supplierName": "Sani Sani Muhd",
+      "bags": 500,
+      "moistureLevel": 12,
+      "truckNumber": "HKY 285 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-19T13:25:31.315Z"
+        }
+      ],
+      "createdAt": "2025-11-19T13:25:31.315Z",
+      "updatedAt": "2025-11-19T13:25:31.315Z"
+    },
+    {
+      "id": "truck_1763558731315_4_gw387hgnv",
+      "supplierName": "Idris Haruna",
+      "bags": 570,
+      "moistureLevel": 14,
+      "truckNumber": "FKY 245 XB",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-19T13:25:31.315Z"
+        }
+      ],
+      "createdAt": "2025-11-19T13:25:31.315Z",
+      "updatedAt": "2025-11-19T13:25:31.315Z"
+    },
+    {
+      "id": "truck_1763558731315_5_z11zwbpro",
+      "supplierName": "Habibu Isa",
+      "bags": 39,
+      "moistureLevel": 12,
+      "truckNumber": "KMC 710 AE",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-19T13:25:31.315Z"
+        }
+      ],
+      "createdAt": "2025-11-19T13:25:31.315Z",
+      "updatedAt": "2025-11-19T13:25:31.315Z"
+    },
+    {
+      "id": "truck_1763558731315_6_ve139r6do",
+      "supplierName": "Idris Haruna",
+      "bags": 499,
+      "moistureLevel": 12,
+      "truckNumber": "ABC 638 XB",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-19T13:25:31.315Z"
+        }
+      ],
+      "createdAt": "2025-11-19T13:25:31.315Z",
+      "updatedAt": "2025-11-19T13:25:31.315Z"
+    },
+    {
+      "id": "truck_1763558731315_7_r9bp7mke8",
+      "supplierName": "Mukhtari Sale",
+      "bags": 407,
+      "moistureLevel": 13,
+      "truckNumber": "YLA 41 XM",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-19T13:25:31.315Z"
+        }
+      ],
+      "createdAt": "2025-11-19T13:25:31.315Z",
+      "updatedAt": "2025-11-19T13:25:31.315Z"
     }
   ],
-  "lastModified": "2025-11-19T13:20:49.425Z",
+  "lastModified": "2025-11-19T13:25:31.404Z",
   "version": "2.0.0"
 }
