@@ -21540,15 +21540,23 @@
       "bags": 500,
       "moistureLevel": 12,
       "truckNumber": "SUL 55 XR",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-11-19T08:00:22.171Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-11-19T09:42:51.710Z",
+          "details": {
+            "waybillNumber": "7322"
+          }
         }
       ],
       "createdAt": "2025-11-19T08:00:22.171Z",
-      "updatedAt": "2025-11-19T08:00:22.171Z"
+      "updatedAt": "2025-11-19T09:42:51.711Z",
+      "waybillNumber": "7322"
     },
     {
       "id": "truck_1763539222171_2_w72bx295k",
@@ -21599,6 +21607,6 @@
       "updatedAt": "2025-11-19T08:00:22.171Z"
     }
   ],
-  "lastModified": "2025-11-19T09:34:42.398Z",
+  "lastModified": "2025-11-19T09:42:51.997Z",
   "version": "2.0.0"
 }
