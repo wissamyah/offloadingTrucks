@@ -21913,10 +21913,17 @@
           "details": {
             "netWeight": 2760
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-11-19T14:06:55.887Z",
+          "details": {
+            "netWeight": 2760
+          }
         }
       ],
       "createdAt": "2025-11-19T13:25:31.315Z",
-      "updatedAt": "2025-11-19T14:04:10.493Z",
+      "updatedAt": "2025-11-19T14:06:55.887Z",
       "waybillNumber": "7335",
       "netWeight": 2760
     },
@@ -21953,6 +21960,6 @@
       "updatedAt": "2025-11-19T13:25:31.315Z"
     }
   ],
-  "lastModified": "2025-11-19T14:06:12.247Z",
+  "lastModified": "2025-11-19T14:06:55.999Z",
   "version": "2.0.0"
 }
