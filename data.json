@@ -21381,8 +21381,72 @@
       ],
       "createdAt": "2025-11-19T07:56:32.776Z",
       "updatedAt": "2025-11-19T07:56:32.776Z"
+    },
+    {
+      "id": "truck_1763539135090_0_0agdcbtbi",
+      "supplierName": "Idris Haruna",
+      "bags": 230,
+      "moistureLevel": 12,
+      "truckNumber": "TRR 781 YX",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-19T07:58:55.090Z"
+        }
+      ],
+      "createdAt": "2025-11-19T07:58:55.090Z",
+      "updatedAt": "2025-11-19T07:58:55.090Z"
+    },
+    {
+      "id": "truck_1763539135090_1_2xti79nx2",
+      "supplierName": "Idris Haruna",
+      "bags": 500,
+      "moistureLevel": 12,
+      "truckNumber": "ALK 747 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-19T07:58:55.090Z"
+        }
+      ],
+      "createdAt": "2025-11-19T07:58:55.090Z",
+      "updatedAt": "2025-11-19T07:58:55.090Z"
+    },
+    {
+      "id": "truck_1763539135090_2_zi1ljby6b",
+      "supplierName": "Jamilu jangale",
+      "bags": 498,
+      "moistureLevel": 15,
+      "truckNumber": "MNR 542 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-19T07:58:55.090Z"
+        }
+      ],
+      "createdAt": "2025-11-19T07:58:55.090Z",
+      "updatedAt": "2025-11-19T07:58:55.090Z"
+    },
+    {
+      "id": "truck_1763539135090_3_hizi1nsru",
+      "supplierName": "Isa Abubakar",
+      "bags": 520,
+      "moistureLevel": 15,
+      "truckNumber": "FKA 550 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-19T07:58:55.090Z"
+        }
+      ],
+      "createdAt": "2025-11-19T07:58:55.090Z",
+      "updatedAt": "2025-11-19T07:58:55.090Z"
     }
   ],
-  "lastModified": "2025-11-19T07:56:32.971Z",
+  "lastModified": "2025-11-19T07:58:55.290Z",
   "version": "2.0.0"
 }
