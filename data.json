@@ -21372,15 +21372,23 @@
       "bags": 210,
       "moistureLevel": 19,
       "truckNumber": "MDG 64 XA",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-11-19T07:56:32.776Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-11-19T08:32:28.001Z",
+          "details": {
+            "waybillNumber": "7312"
+          }
         }
       ],
       "createdAt": "2025-11-19T07:56:32.776Z",
-      "updatedAt": "2025-11-19T07:56:32.776Z"
+      "updatedAt": "2025-11-19T08:32:28.001Z",
+      "waybillNumber": "7312"
     },
     {
       "id": "truck_1763538992775_6_jg7kn1i30",
@@ -21559,6 +21567,6 @@
       "updatedAt": "2025-11-19T08:00:22.171Z"
     }
   ],
-  "lastModified": "2025-11-19T08:31:56.830Z",
+  "lastModified": "2025-11-19T08:32:28.168Z",
   "version": "2.0.0"
 }
