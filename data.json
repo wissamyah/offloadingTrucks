@@ -21568,7 +21568,7 @@
       "bags": 498,
       "moistureLevel": 15,
       "truckNumber": "MNR 542 XA",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -21580,11 +21580,21 @@
           "details": {
             "waybillNumber": "7324"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-11-19T14:06:12.144Z",
+          "details": {
+            "netWeight": 36350,
+            "deduction": 500
+          }
         }
       ],
       "createdAt": "2025-11-19T07:58:55.090Z",
-      "updatedAt": "2025-11-19T09:51:00.260Z",
-      "waybillNumber": "7324"
+      "updatedAt": "2025-11-19T14:06:12.144Z",
+      "waybillNumber": "7324",
+      "netWeight": 36350,
+      "deduction": 500
     },
     {
       "id": "truck_1763539135090_3_hizi1nsru",
@@ -21943,6 +21953,6 @@
       "updatedAt": "2025-11-19T13:25:31.315Z"
     }
   ],
-  "lastModified": "2025-11-19T14:06:00.886Z",
+  "lastModified": "2025-11-19T14:06:12.247Z",
   "version": "2.0.0"
 }
