@@ -21372,7 +21372,7 @@
       "bags": 394,
       "moistureLevel": 20,
       "truckNumber": "GRM 530 XB",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -21384,11 +21384,19 @@
           "details": {
             "waybillNumber": "7316"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-11-19T10:52:10.754Z",
+          "details": {
+            "netWeight": 31400
+          }
         }
       ],
       "createdAt": "2025-11-19T07:56:32.776Z",
-      "updatedAt": "2025-11-19T10:51:43.082Z",
-      "waybillNumber": "7316"
+      "updatedAt": "2025-11-19T10:52:10.754Z",
+      "waybillNumber": "7316",
+      "netWeight": 31400
     },
     {
       "id": "truck_1763538992775_4_tlcimdoiy",
@@ -21723,6 +21731,6 @@
       "netWeight": 4370
     }
   ],
-  "lastModified": "2025-11-19T10:51:43.267Z",
+  "lastModified": "2025-11-19T10:52:12.837Z",
   "version": "2.0.0"
 }
