@@ -21269,8 +21269,120 @@
       "updatedAt": "2025-11-18T15:52:44.598Z",
       "waybillNumber": "7303",
       "netWeight": 42130
+    },
+    {
+      "id": "truck_1763538992775_0_j24988sa3",
+      "supplierName": "B L Barka",
+      "bags": 111,
+      "moistureLevel": 13,
+      "truckNumber": "BAU 67 YP",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-19T07:56:32.775Z"
+        }
+      ],
+      "createdAt": "2025-11-19T07:56:32.776Z",
+      "updatedAt": "2025-11-19T07:56:32.776Z"
+    },
+    {
+      "id": "truck_1763538992775_1_u60saft6u",
+      "supplierName": "Mujaheed Rogo",
+      "bags": 86,
+      "moistureLevel": 18,
+      "truckNumber": "MSA 91 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-19T07:56:32.776Z"
+        }
+      ],
+      "createdAt": "2025-11-19T07:56:32.776Z",
+      "updatedAt": "2025-11-19T07:56:32.776Z"
+    },
+    {
+      "id": "truck_1763538992775_2_9ix69thc2",
+      "supplierName": "Idris Haruna",
+      "bags": 95,
+      "moistureLevel": 0,
+      "truckNumber": "KTU 605 YF",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-19T07:56:32.776Z"
+        }
+      ],
+      "createdAt": "2025-11-19T07:56:32.776Z",
+      "updatedAt": "2025-11-19T07:56:32.776Z"
+    },
+    {
+      "id": "truck_1763538992775_3_asmyuq5gp",
+      "supplierName": "Idris Haruna",
+      "bags": 394,
+      "moistureLevel": 20,
+      "truckNumber": "GRM 530 XB",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-19T07:56:32.776Z"
+        }
+      ],
+      "createdAt": "2025-11-19T07:56:32.776Z",
+      "updatedAt": "2025-11-19T07:56:32.776Z"
+    },
+    {
+      "id": "truck_1763538992775_4_tlcimdoiy",
+      "supplierName": "B L Barka",
+      "bags": 210,
+      "moistureLevel": 20,
+      "truckNumber": "BBR 822 XB",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-19T07:56:32.776Z"
+        }
+      ],
+      "createdAt": "2025-11-19T07:56:32.776Z",
+      "updatedAt": "2025-11-19T07:56:32.776Z"
+    },
+    {
+      "id": "truck_1763538992775_5_rq0rb292r",
+      "supplierName": "B L Barka",
+      "bags": 210,
+      "moistureLevel": 19,
+      "truckNumber": "MDG 64 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-19T07:56:32.776Z"
+        }
+      ],
+      "createdAt": "2025-11-19T07:56:32.776Z",
+      "updatedAt": "2025-11-19T07:56:32.776Z"
+    },
+    {
+      "id": "truck_1763538992775_6_jg7kn1i30",
+      "supplierName": "Idris Haruna",
+      "bags": 220,
+      "moistureLevel": 14,
+      "truckNumber": "JJN 135 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-19T07:56:32.776Z"
+        }
+      ],
+      "createdAt": "2025-11-19T07:56:32.776Z",
+      "updatedAt": "2025-11-19T07:56:32.776Z"
     }
   ],
-  "lastModified": "2025-11-18T16:09:21.308Z",
+  "lastModified": "2025-11-19T07:56:32.971Z",
   "version": "2.0.0"
 }
