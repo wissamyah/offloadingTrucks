@@ -21908,7 +21908,7 @@
       "bags": 39,
       "moistureLevel": 12,
       "truckNumber": "KMC 710 AE",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -21920,11 +21920,19 @@
           "details": {
             "waybillNumber": "7335"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-11-19T14:04:10.493Z",
+          "details": {
+            "netWeight": 2760
+          }
         }
       ],
       "createdAt": "2025-11-19T13:25:31.315Z",
-      "updatedAt": "2025-11-19T13:30:28.115Z",
-      "waybillNumber": "7335"
+      "updatedAt": "2025-11-19T14:04:10.493Z",
+      "waybillNumber": "7335",
+      "netWeight": 2760
     },
     {
       "id": "truck_1763558731315_6_ve139r6do",
@@ -21959,6 +21967,6 @@
       "updatedAt": "2025-11-19T13:25:31.315Z"
     }
   ],
-  "lastModified": "2025-11-19T14:03:29.018Z",
+  "lastModified": "2025-11-19T14:04:10.590Z",
   "version": "2.0.0"
 }
