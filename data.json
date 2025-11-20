@@ -22288,15 +22288,19 @@
       "bags": 550,
       "moistureLevel": 15,
       "truckNumber": "AKK 435 ZA",
-      "status": "pending",
+      "status": "rejected",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-11-20T08:10:39.098Z"
+        },
+        {
+          "status": "rejected",
+          "timestamp": "2025-11-20T14:38:36.174Z"
         }
       ],
       "createdAt": "2025-11-20T08:10:39.098Z",
-      "updatedAt": "2025-11-20T08:10:39.098Z"
+      "updatedAt": "2025-11-20T14:38:36.174Z"
     },
     {
       "id": "truck_1763626239097_10_iuk697ep9",
@@ -22717,6 +22721,6 @@
       "waybillNumber": "7358"
     }
   ],
-  "lastModified": "2025-11-20T14:38:20.634Z",
+  "lastModified": "2025-11-20T14:38:36.286Z",
   "version": "2.0.0"
 }
