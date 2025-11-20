@@ -22217,15 +22217,23 @@
       "bags": 220,
       "moistureLevel": 15,
       "truckNumber": "TRR 887 YX",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-11-20T08:10:39.098Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-11-20T09:10:49.656Z",
+          "details": {
+            "waybillNumber": "7351"
+          }
         }
       ],
       "createdAt": "2025-11-20T08:10:39.098Z",
-      "updatedAt": "2025-11-20T08:10:39.098Z"
+      "updatedAt": "2025-11-20T09:10:49.656Z",
+      "waybillNumber": "7351"
     },
     {
       "id": "truck_1763626239097_9_i49pf66yc",
@@ -22388,6 +22396,6 @@
       "updatedAt": "2025-11-20T08:10:39.098Z"
     }
   ],
-  "lastModified": "2025-11-20T09:10:11.841Z",
+  "lastModified": "2025-11-20T09:10:49.752Z",
   "version": "2.0.0"
 }
