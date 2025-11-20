@@ -21993,7 +21993,8 @@
       "createdAt": "2025-11-19T13:25:31.315Z",
       "updatedAt": "2025-11-19T16:55:25.833Z",
       "waybillNumber": "7341",
-      "netWeight": 34340
+      "netWeight": 34340,
+      "deduction": 200
     },
     {
       "id": "truck_1763568400600_0_hb0d0mt30",
@@ -22414,6 +22415,6 @@
       "updatedAt": "2025-11-20T08:10:39.098Z"
     }
   ],
-  "lastModified": "2025-11-20T10:00:47.494Z",
+  "lastModified": "2025-11-20T10:04:44.310Z",
   "version": "2.0.0"
 }
