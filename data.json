@@ -22121,15 +22121,23 @@
       "bags": 65,
       "moistureLevel": 12,
       "truckNumber": "BAU 849 ZE",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-11-20T08:10:39.097Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-11-20T09:10:11.720Z",
+          "details": {
+            "waybillNumber": "7350"
+          }
         }
       ],
       "createdAt": "2025-11-20T08:10:39.097Z",
-      "updatedAt": "2025-11-20T08:10:39.097Z"
+      "updatedAt": "2025-11-20T09:10:11.720Z",
+      "waybillNumber": "7350"
     },
     {
       "id": "truck_1763626239097_4_e9sl5xi6f",
@@ -22380,6 +22388,6 @@
       "updatedAt": "2025-11-20T08:10:39.098Z"
     }
   ],
-  "lastModified": "2025-11-20T09:09:24.694Z",
+  "lastModified": "2025-11-20T09:10:11.841Z",
   "version": "2.0.0"
 }
