@@ -22442,7 +22442,7 @@
       "bags": 600,
       "moistureLevel": 12,
       "truckNumber": "T 0068 YB",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -22454,11 +22454,19 @@
           "details": {
             "waybillNumber": "7354"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-11-20T13:32:12.535Z",
+          "details": {
+            "netWeight": 39800
+          }
         }
       ],
       "createdAt": "2025-11-20T08:10:39.098Z",
-      "updatedAt": "2025-11-20T09:15:34.398Z",
-      "waybillNumber": "7354"
+      "updatedAt": "2025-11-20T13:32:12.535Z",
+      "waybillNumber": "7354",
+      "netWeight": 39800
     },
     {
       "id": "truck_1763626239097_17_zqi3q7f3b",
@@ -22637,6 +22645,6 @@
       "waybillNumber": "7358"
     }
   ],
-  "lastModified": "2025-11-20T13:09:13.351Z",
+  "lastModified": "2025-11-20T13:32:12.644Z",
   "version": "2.0.0"
 }
