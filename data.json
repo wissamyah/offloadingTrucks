@@ -22186,15 +22186,19 @@
       "bags": 300,
       "moistureLevel": 19,
       "truckNumber": "KJA 834 XP",
-      "status": "pending",
+      "status": "rejected",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-11-20T08:10:39.097Z"
+        },
+        {
+          "status": "rejected",
+          "timestamp": "2025-11-20T14:38:47.049Z"
         }
       ],
       "createdAt": "2025-11-20T08:10:39.097Z",
-      "updatedAt": "2025-11-20T08:10:39.097Z"
+      "updatedAt": "2025-11-20T14:38:47.049Z"
     },
     {
       "id": "truck_1763626239097_6_3xbgs3oyf",
@@ -22721,6 +22725,6 @@
       "waybillNumber": "7358"
     }
   ],
-  "lastModified": "2025-11-20T14:38:36.286Z",
+  "lastModified": "2025-11-20T14:38:47.956Z",
   "version": "2.0.0"
 }
