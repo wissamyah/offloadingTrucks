@@ -22058,8 +22058,296 @@
       "updatedAt": "2025-11-19T16:07:41.430Z",
       "waybillNumber": "7334",
       "netWeight": 11770
+    },
+    {
+      "id": "truck_1763626239097_0_3p1e42d9o",
+      "supplierName": "Idris Haruna",
+      "bags": 400,
+      "moistureLevel": 15,
+      "truckNumber": "BAU 197 YP",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-20T08:10:39.097Z"
+        }
+      ],
+      "createdAt": "2025-11-20T08:10:39.097Z",
+      "updatedAt": "2025-11-20T08:10:39.097Z"
+    },
+    {
+      "id": "truck_1763626239097_1_ymsz229vi",
+      "supplierName": "Idris Haruna",
+      "bags": 441,
+      "moistureLevel": 13,
+      "truckNumber": "BLG 122 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-20T08:10:39.097Z"
+        }
+      ],
+      "createdAt": "2025-11-20T08:10:39.097Z",
+      "updatedAt": "2025-11-20T08:10:39.097Z"
+    },
+    {
+      "id": "truck_1763626239097_2_g1v4sz95k",
+      "supplierName": "Alh Danasabe",
+      "bags": 34,
+      "moistureLevel": 14,
+      "truckNumber": "GWA 726 XC",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-20T08:10:39.097Z"
+        }
+      ],
+      "createdAt": "2025-11-20T08:10:39.097Z",
+      "updatedAt": "2025-11-20T08:10:39.097Z"
+    },
+    {
+      "id": "truck_1763626239097_3_q032jshq4",
+      "supplierName": "H Dankarami",
+      "bags": 65,
+      "moistureLevel": 12,
+      "truckNumber": "BAU 849 ZE",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-20T08:10:39.097Z"
+        }
+      ],
+      "createdAt": "2025-11-20T08:10:39.097Z",
+      "updatedAt": "2025-11-20T08:10:39.097Z"
+    },
+    {
+      "id": "truck_1763626239097_4_e9sl5xi6f",
+      "supplierName": "B L Barka",
+      "bags": 250,
+      "moistureLevel": 14,
+      "truckNumber": "GSH 29 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-20T08:10:39.097Z"
+        }
+      ],
+      "createdAt": "2025-11-20T08:10:39.097Z",
+      "updatedAt": "2025-11-20T08:10:39.097Z"
+    },
+    {
+      "id": "truck_1763626239097_5_frlqm99e7",
+      "supplierName": "H A Tahir",
+      "bags": 300,
+      "moistureLevel": 19,
+      "truckNumber": "KJA 834 XP",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-20T08:10:39.097Z"
+        }
+      ],
+      "createdAt": "2025-11-20T08:10:39.097Z",
+      "updatedAt": "2025-11-20T08:10:39.097Z"
+    },
+    {
+      "id": "truck_1763626239097_6_3xbgs3oyf",
+      "supplierName": "Jamilu jangale",
+      "bags": 500,
+      "moistureLevel": 20,
+      "truckNumber": "LND 766 YA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-20T08:10:39.098Z"
+        }
+      ],
+      "createdAt": "2025-11-20T08:10:39.098Z",
+      "updatedAt": "2025-11-20T08:10:39.098Z"
+    },
+    {
+      "id": "truck_1763626239097_7_jrk1hekwv",
+      "supplierName": "Aminu Muhd Kabo",
+      "bags": 500,
+      "moistureLevel": 15,
+      "truckNumber": "PKM 740 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-20T08:10:39.098Z"
+        }
+      ],
+      "createdAt": "2025-11-20T08:10:39.098Z",
+      "updatedAt": "2025-11-20T08:10:39.098Z"
+    },
+    {
+      "id": "truck_1763626239097_8_wzyb5v994",
+      "supplierName": "Damakasu Agro Allied",
+      "bags": 220,
+      "moistureLevel": 15,
+      "truckNumber": "TRR 887 YX",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-20T08:10:39.098Z"
+        }
+      ],
+      "createdAt": "2025-11-20T08:10:39.098Z",
+      "updatedAt": "2025-11-20T08:10:39.098Z"
+    },
+    {
+      "id": "truck_1763626239097_9_i49pf66yc",
+      "supplierName": "Idris Haruna",
+      "bags": 550,
+      "moistureLevel": 15,
+      "truckNumber": "AKK 435 ZA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-20T08:10:39.098Z"
+        }
+      ],
+      "createdAt": "2025-11-20T08:10:39.098Z",
+      "updatedAt": "2025-11-20T08:10:39.098Z"
+    },
+    {
+      "id": "truck_1763626239097_10_iuk697ep9",
+      "supplierName": "Idris Haruna",
+      "bags": 250,
+      "moistureLevel": 13,
+      "truckNumber": "XA 954 TRR",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-20T08:10:39.098Z"
+        }
+      ],
+      "createdAt": "2025-11-20T08:10:39.098Z",
+      "updatedAt": "2025-11-20T08:10:39.098Z"
+    },
+    {
+      "id": "truck_1763626239097_11_8j45yr708",
+      "supplierName": "Idris Haruna",
+      "bags": 550,
+      "moistureLevel": 12,
+      "truckNumber": "ATT 777 MKA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-20T08:10:39.098Z"
+        }
+      ],
+      "createdAt": "2025-11-20T08:10:39.098Z",
+      "updatedAt": "2025-11-20T08:10:39.098Z"
+    },
+    {
+      "id": "truck_1763626239097_12_v4gvwhtug",
+      "supplierName": "Alh Dayyabu",
+      "bags": 523,
+      "moistureLevel": 15,
+      "truckNumber": "NNR 405 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-20T08:10:39.098Z"
+        }
+      ],
+      "createdAt": "2025-11-20T08:10:39.098Z",
+      "updatedAt": "2025-11-20T08:10:39.098Z"
+    },
+    {
+      "id": "truck_1763626239097_13_26zng5f8h",
+      "supplierName": "Addau Isyaku",
+      "bags": 148,
+      "moistureLevel": 20,
+      "truckNumber": "RBH 61 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-20T08:10:39.098Z"
+        }
+      ],
+      "createdAt": "2025-11-20T08:10:39.098Z",
+      "updatedAt": "2025-11-20T08:10:39.098Z"
+    },
+    {
+      "id": "truck_1763626239097_14_cqsfj68ul",
+      "supplierName": "Mansur Mansur",
+      "bags": 420,
+      "moistureLevel": 12,
+      "truckNumber": "KTN 203 YZ",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-20T08:10:39.098Z"
+        }
+      ],
+      "createdAt": "2025-11-20T08:10:39.098Z",
+      "updatedAt": "2025-11-20T08:10:39.098Z"
+    },
+    {
+      "id": "truck_1763626239097_15_gaor0ajrc",
+      "supplierName": "Idris Haruna",
+      "bags": 270,
+      "moistureLevel": 13,
+      "truckNumber": "EPE 851 XJ",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-20T08:10:39.098Z"
+        }
+      ],
+      "createdAt": "2025-11-20T08:10:39.098Z",
+      "updatedAt": "2025-11-20T08:10:39.098Z"
+    },
+    {
+      "id": "truck_1763626239097_16_i50p9plot",
+      "supplierName": "Damakasu Agro Allied",
+      "bags": 600,
+      "moistureLevel": 12,
+      "truckNumber": "T 0068 YB",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-20T08:10:39.098Z"
+        }
+      ],
+      "createdAt": "2025-11-20T08:10:39.098Z",
+      "updatedAt": "2025-11-20T08:10:39.098Z"
+    },
+    {
+      "id": "truck_1763626239097_17_zqi3q7f3b",
+      "supplierName": "Jamilu Yahaya",
+      "bags": 350,
+      "moistureLevel": 16,
+      "truckNumber": "BGM 430 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-20T08:10:39.098Z"
+        }
+      ],
+      "createdAt": "2025-11-20T08:10:39.098Z",
+      "updatedAt": "2025-11-20T08:10:39.098Z"
     }
   ],
-  "lastModified": "2025-11-19T17:34:15.113Z",
+  "lastModified": "2025-11-20T08:10:39.219Z",
   "version": "2.0.0"
 }
