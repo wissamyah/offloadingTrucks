@@ -22034,15 +22034,19 @@
       "bags": 400,
       "moistureLevel": 15,
       "truckNumber": "BAU 197 YP",
-      "status": "pending",
+      "status": "rejected",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-11-20T08:10:39.097Z"
+        },
+        {
+          "status": "rejected",
+          "timestamp": "2025-11-20T14:35:07.751Z"
         }
       ],
       "createdAt": "2025-11-20T08:10:39.097Z",
-      "updatedAt": "2025-11-20T08:10:39.097Z"
+      "updatedAt": "2025-11-20T14:35:07.751Z"
     },
     {
       "id": "truck_1763626239097_1_ymsz229vi",
@@ -22689,6 +22693,6 @@
       "waybillNumber": "7358"
     }
   ],
-  "lastModified": "2025-11-20T14:34:38.857Z",
+  "lastModified": "2025-11-20T14:35:07.828Z",
   "version": "2.0.0"
 }
