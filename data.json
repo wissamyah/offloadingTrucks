@@ -22198,15 +22198,19 @@
       "bags": 500,
       "moistureLevel": 20,
       "truckNumber": "LND 766 YA",
-      "status": "pending",
+      "status": "rejected",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-11-20T08:10:39.098Z"
+        },
+        {
+          "status": "rejected",
+          "timestamp": "2025-11-20T14:34:26.835Z"
         }
       ],
       "createdAt": "2025-11-20T08:10:39.098Z",
-      "updatedAt": "2025-11-20T08:10:39.098Z"
+      "updatedAt": "2025-11-20T14:34:26.835Z"
     },
     {
       "id": "truck_1763626239097_7_jrk1hekwv",
@@ -22681,6 +22685,6 @@
       "waybillNumber": "7358"
     }
   ],
-  "lastModified": "2025-11-20T14:34:19.670Z",
+  "lastModified": "2025-11-20T14:34:27.882Z",
   "version": "2.0.0"
 }
