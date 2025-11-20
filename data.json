@@ -22821,10 +22821,10 @@
       "createdAt": "2025-11-20T15:14:45.726Z",
       "updatedAt": "2025-11-20T16:51:15.063Z",
       "waybillNumber": "7364",
-      "netWeight": 39720,
+      "netWeight": 39850,
       "deduction": 130
     }
   ],
-  "lastModified": "2025-11-20T16:51:15.180Z",
+  "lastModified": "2025-11-20T17:11:39.799Z",
   "version": "2.0.0"
 }
