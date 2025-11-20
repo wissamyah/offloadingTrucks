@@ -22741,8 +22741,40 @@
       "waybillNumber": "7358",
       "netWeight": 21450,
       "deduction": 150
+    },
+    {
+      "id": "truck_1763651685726_0_79ztulyyh",
+      "supplierName": "Sabiu Yusif",
+      "bags": 250,
+      "moistureLevel": 16,
+      "truckNumber": "DAL 394 YY",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-20T15:14:45.726Z"
+        }
+      ],
+      "createdAt": "2025-11-20T15:14:45.726Z",
+      "updatedAt": "2025-11-20T15:14:45.726Z"
+    },
+    {
+      "id": "truck_1763651685726_1_r0o6ufs2s",
+      "supplierName": "Mukhtari Sale",
+      "bags": 459,
+      "moistureLevel": 14,
+      "truckNumber": "BGW 139 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-20T15:14:45.726Z"
+        }
+      ],
+      "createdAt": "2025-11-20T15:14:45.726Z",
+      "updatedAt": "2025-11-20T15:14:45.726Z"
     }
   ],
-  "lastModified": "2025-11-20T14:44:53.328Z",
+  "lastModified": "2025-11-20T15:14:45.809Z",
   "version": "2.0.0"
 }
