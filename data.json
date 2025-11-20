@@ -22574,7 +22574,7 @@
       "bags": 540,
       "moistureLevel": 12,
       "truckNumber": "FKY 941 YF",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -22586,11 +22586,19 @@
           "details": {
             "waybillNumber": "7359"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-11-20T15:33:25.678Z",
+          "details": {
+            "netWeight": 37700
+          }
         }
       ],
       "createdAt": "2025-11-20T13:03:02.173Z",
-      "updatedAt": "2025-11-20T13:38:10.213Z",
-      "waybillNumber": "7359"
+      "updatedAt": "2025-11-20T15:33:25.678Z",
+      "waybillNumber": "7359",
+      "netWeight": 37700
     },
     {
       "id": "truck_1763643782173_2_m99q8nicn",
@@ -22791,6 +22799,6 @@
       "waybillNumber": "7364"
     }
   ],
-  "lastModified": "2025-11-20T15:19:30.213Z",
+  "lastModified": "2025-11-20T15:33:26.741Z",
   "version": "2.0.0"
 }
