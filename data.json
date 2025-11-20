@@ -22177,15 +22177,23 @@
       "bags": 500,
       "moistureLevel": 15,
       "truckNumber": "PKM 740 XA",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-11-20T08:10:39.098Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-11-20T09:08:21.666Z",
+          "details": {
+            "waybillNumber": "7347"
+          }
         }
       ],
       "createdAt": "2025-11-20T08:10:39.098Z",
-      "updatedAt": "2025-11-20T08:10:39.098Z"
+      "updatedAt": "2025-11-20T09:08:21.666Z",
+      "waybillNumber": "7347"
     },
     {
       "id": "truck_1763626239097_8_wzyb5v994",
@@ -22364,6 +22372,6 @@
       "updatedAt": "2025-11-20T08:10:39.098Z"
     }
   ],
-  "lastModified": "2025-11-20T09:07:12.832Z",
+  "lastModified": "2025-11-20T09:08:21.793Z",
   "version": "2.0.0"
 }
