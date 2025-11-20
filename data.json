@@ -22598,15 +22598,19 @@
       "bags": 546,
       "moistureLevel": 14,
       "truckNumber": "GME 722 XB",
-      "status": "pending",
+      "status": "rejected",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-11-20T13:03:02.173Z"
+        },
+        {
+          "status": "rejected",
+          "timestamp": "2025-11-20T14:37:18.635Z"
         }
       ],
       "createdAt": "2025-11-20T13:03:02.173Z",
-      "updatedAt": "2025-11-20T13:03:02.173Z"
+      "updatedAt": "2025-11-20T14:37:18.635Z"
     },
     {
       "id": "truck_1763643782173_4_a828sq8hi",
@@ -22705,6 +22709,6 @@
       "waybillNumber": "7358"
     }
   ],
-  "lastModified": "2025-11-20T14:36:54.331Z",
+  "lastModified": "2025-11-20T14:37:18.766Z",
   "version": "2.0.0"
 }
