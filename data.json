@@ -22382,15 +22382,19 @@
       "bags": 148,
       "moistureLevel": 20,
       "truckNumber": "RBH 61 XA",
-      "status": "pending",
+      "status": "rejected",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-11-20T08:10:39.098Z"
+        },
+        {
+          "status": "rejected",
+          "timestamp": "2025-11-20T14:34:38.757Z"
         }
       ],
       "createdAt": "2025-11-20T08:10:39.098Z",
-      "updatedAt": "2025-11-20T08:10:39.098Z"
+      "updatedAt": "2025-11-20T14:34:38.757Z"
     },
     {
       "id": "truck_1763626239097_14_cqsfj68ul",
@@ -22685,6 +22689,6 @@
       "waybillNumber": "7358"
     }
   ],
-  "lastModified": "2025-11-20T14:34:27.882Z",
+  "lastModified": "2025-11-20T14:34:38.857Z",
   "version": "2.0.0"
 }
