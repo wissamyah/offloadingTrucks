@@ -22050,7 +22050,7 @@
       "bags": 441,
       "moistureLevel": 13,
       "truckNumber": "BLG 122 XA",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -22062,11 +22062,19 @@
           "details": {
             "waybillNumber": "7345"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-11-20T10:06:16.572Z",
+          "details": {
+            "netWeight": 40070
+          }
         }
       ],
       "createdAt": "2025-11-20T08:10:39.097Z",
-      "updatedAt": "2025-11-20T09:12:51.075Z",
-      "waybillNumber": "7345"
+      "updatedAt": "2025-11-20T10:06:16.572Z",
+      "waybillNumber": "7345",
+      "netWeight": 40070
     },
     {
       "id": "truck_1763626239097_2_g1v4sz95k",
@@ -22415,6 +22423,6 @@
       "updatedAt": "2025-11-20T08:10:39.098Z"
     }
   ],
-  "lastModified": "2025-11-20T10:04:44.310Z",
+  "lastModified": "2025-11-20T10:06:16.704Z",
   "version": "2.0.0"
 }
