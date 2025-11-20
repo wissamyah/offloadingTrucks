@@ -21817,38 +21817,6 @@
       "netWeight": 47630
     },
     {
-      "id": "truck_1763558731315_1_wazfekvcg",
-      "supplierName": "Mukhtari Sale",
-      "bags": 136,
-      "moistureLevel": 13,
-      "truckNumber": "KSF 550 XF",
-      "status": "offloaded",
-      "statusHistory": [
-        {
-          "status": "pending",
-          "timestamp": "2025-11-19T13:25:31.315Z"
-        },
-        {
-          "status": "scaled_in",
-          "timestamp": "2025-11-19T13:27:01.471Z",
-          "details": {
-            "waybillNumber": "7334"
-          }
-        },
-        {
-          "status": "offloaded",
-          "timestamp": "2025-11-19T15:55:03.482Z",
-          "details": {
-            "netWeight": 11770
-          }
-        }
-      ],
-      "createdAt": "2025-11-19T13:25:31.315Z",
-      "updatedAt": "2025-11-19T15:55:03.483Z",
-      "waybillNumber": "7334",
-      "netWeight": 11770
-    },
-    {
       "id": "truck_1763558731315_2_mobq6ynmi",
       "supplierName": "Idris Garba",
       "bags": 550,
@@ -22438,6 +22406,6 @@
       "updatedAt": "2025-11-20T08:10:39.098Z"
     }
   ],
-  "lastModified": "2025-11-20T09:27:55.978Z",
+  "lastModified": "2025-11-20T09:41:27.557Z",
   "version": "2.0.0"
 }
