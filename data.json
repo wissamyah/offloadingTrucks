@@ -22491,8 +22491,136 @@
       ],
       "createdAt": "2025-11-20T13:02:40.944Z",
       "updatedAt": "2025-11-20T13:02:40.944Z"
+    },
+    {
+      "id": "truck_1763643782173_0_y4g54ebtk",
+      "supplierName": "B L Barka",
+      "bags": 210,
+      "moistureLevel": 20,
+      "truckNumber": "MDG 64 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-20T13:03:02.173Z"
+        }
+      ],
+      "createdAt": "2025-11-20T13:03:02.173Z",
+      "updatedAt": "2025-11-20T13:03:02.173Z"
+    },
+    {
+      "id": "truck_1763643782173_1_ffvhkphi1",
+      "supplierName": "Damakasu Agro Allied",
+      "bags": 540,
+      "moistureLevel": 12,
+      "truckNumber": "FKY 941 YF",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-20T13:03:02.173Z"
+        }
+      ],
+      "createdAt": "2025-11-20T13:03:02.173Z",
+      "updatedAt": "2025-11-20T13:03:02.173Z"
+    },
+    {
+      "id": "truck_1763643782173_2_m99q8nicn",
+      "supplierName": "Mukhtari Sale",
+      "bags": 554,
+      "moistureLevel": 14,
+      "truckNumber": "NFD 134 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-20T13:03:02.173Z"
+        }
+      ],
+      "createdAt": "2025-11-20T13:03:02.173Z",
+      "updatedAt": "2025-11-20T13:03:02.173Z"
+    },
+    {
+      "id": "truck_1763643782173_3_4vq1tni3l",
+      "supplierName": "Jamilu Yahaya",
+      "bags": 546,
+      "moistureLevel": 14,
+      "truckNumber": "GME 722 XB",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-20T13:03:02.173Z"
+        }
+      ],
+      "createdAt": "2025-11-20T13:03:02.173Z",
+      "updatedAt": "2025-11-20T13:03:02.173Z"
+    },
+    {
+      "id": "truck_1763643782173_4_a828sq8hi",
+      "supplierName": "Idris Haruna",
+      "bags": 99,
+      "moistureLevel": 16,
+      "truckNumber": "HJA 289 YD",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-20T13:03:02.173Z"
+        }
+      ],
+      "createdAt": "2025-11-20T13:03:02.173Z",
+      "updatedAt": "2025-11-20T13:03:02.173Z"
+    },
+    {
+      "id": "truck_1763643782173_5_xoqw7loz3",
+      "supplierName": "Idris Haruna",
+      "bags": 553,
+      "moistureLevel": 12,
+      "truckNumber": "FKY 118 XB",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-20T13:03:02.173Z"
+        }
+      ],
+      "createdAt": "2025-11-20T13:03:02.173Z",
+      "updatedAt": "2025-11-20T13:03:02.173Z"
+    },
+    {
+      "id": "truck_1763643782173_6_nmsin029n",
+      "supplierName": "Abubakar Muhd Tukur",
+      "bags": 55,
+      "moistureLevel": 15,
+      "truckNumber": "WRJ 69 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-20T13:03:02.173Z"
+        }
+      ],
+      "createdAt": "2025-11-20T13:03:02.173Z",
+      "updatedAt": "2025-11-20T13:03:02.173Z"
+    },
+    {
+      "id": "truck_1763643782173_7_8gdzfh1tz",
+      "supplierName": "Abubakar Muhd Tukur",
+      "bags": 243,
+      "moistureLevel": 16,
+      "truckNumber": "GME 205 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-20T13:03:02.173Z"
+        }
+      ],
+      "createdAt": "2025-11-20T13:03:02.173Z",
+      "updatedAt": "2025-11-20T13:03:02.173Z"
     }
   ],
-  "lastModified": "2025-11-20T13:02:41.027Z",
+  "lastModified": "2025-11-20T13:03:02.318Z",
   "version": "2.0.0"
 }
