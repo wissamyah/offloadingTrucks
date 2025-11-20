@@ -22145,15 +22145,23 @@
       "bags": 250,
       "moistureLevel": 14,
       "truckNumber": "GSH 29 XA",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-11-20T08:10:39.097Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-11-20T09:11:21.065Z",
+          "details": {
+            "waybillNumber": "7352"
+          }
         }
       ],
       "createdAt": "2025-11-20T08:10:39.097Z",
-      "updatedAt": "2025-11-20T08:10:39.097Z"
+      "updatedAt": "2025-11-20T09:11:21.065Z",
+      "waybillNumber": "7352"
     },
     {
       "id": "truck_1763626239097_5_frlqm99e7",
@@ -22396,6 +22404,6 @@
       "updatedAt": "2025-11-20T08:10:39.098Z"
     }
   ],
-  "lastModified": "2025-11-20T09:10:49.752Z",
+  "lastModified": "2025-11-20T09:11:21.162Z",
   "version": "2.0.0"
 }
