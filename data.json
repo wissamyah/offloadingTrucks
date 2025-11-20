@@ -22265,15 +22265,23 @@
       "bags": 523,
       "moistureLevel": 15,
       "truckNumber": "NNR 405 XA",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-11-20T08:10:39.098Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-11-20T09:07:12.745Z",
+          "details": {
+            "waybillNumber": "7346"
+          }
         }
       ],
       "createdAt": "2025-11-20T08:10:39.098Z",
-      "updatedAt": "2025-11-20T08:10:39.098Z"
+      "updatedAt": "2025-11-20T09:07:12.745Z",
+      "waybillNumber": "7346"
     },
     {
       "id": "truck_1763626239097_13_26zng5f8h",
@@ -22356,6 +22364,6 @@
       "updatedAt": "2025-11-20T08:10:39.098Z"
     }
   ],
-  "lastModified": "2025-11-20T08:35:22.787Z",
+  "lastModified": "2025-11-20T09:07:12.832Z",
   "version": "2.0.0"
 }
