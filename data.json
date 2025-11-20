@@ -22578,15 +22578,19 @@
       "bags": 554,
       "moistureLevel": 14,
       "truckNumber": "NFD 134 XA",
-      "status": "pending",
+      "status": "rejected",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-11-20T13:03:02.173Z"
+        },
+        {
+          "status": "rejected",
+          "timestamp": "2025-11-20T14:36:53.461Z"
         }
       ],
       "createdAt": "2025-11-20T13:03:02.173Z",
-      "updatedAt": "2025-11-20T13:03:02.173Z"
+      "updatedAt": "2025-11-20T14:36:53.461Z"
     },
     {
       "id": "truck_1763643782173_3_4vq1tni3l",
@@ -22701,6 +22705,6 @@
       "waybillNumber": "7358"
     }
   ],
-  "lastModified": "2025-11-20T14:36:33.666Z",
+  "lastModified": "2025-11-20T14:36:54.331Z",
   "version": "2.0.0"
 }
