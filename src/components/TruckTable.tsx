@@ -212,7 +212,11 @@ export const TruckTable: React.FC<TruckTableProps> = ({
     const deduction = truck.deduction || 0;
     const weightInTons = ((netWeight - deduction) / 1000).toFixed(2);
     
-    const formattedText = `${truck.supplierName}-${truck.truckNumber}-${truck.bags} Bags-${weightInTons} tons PADDY`;
+    let formattedText = `${truck.supplierName}-${truck.truckNumber}-${truck.bags} Bags-${weightInTons} tons PADDY`;
+    
+    if (deduction > 0) {
+      formattedText += `\n\n(After Deduction)`;
+    }
     
     try {
       await navigator.clipboard.writeText(formattedText);
