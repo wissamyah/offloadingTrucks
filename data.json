@@ -22578,7 +22578,7 @@
       "bags": 99,
       "moistureLevel": 16,
       "truckNumber": "HJA 289 YD",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -22590,11 +22590,19 @@
           "details": {
             "waybillNumber": "7357"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-11-20T14:04:14.954Z",
+          "details": {
+            "netWeight": 6940
+          }
         }
       ],
       "createdAt": "2025-11-20T13:03:02.173Z",
-      "updatedAt": "2025-11-20T13:05:09.521Z",
-      "waybillNumber": "7357"
+      "updatedAt": "2025-11-20T14:04:14.954Z",
+      "waybillNumber": "7357",
+      "netWeight": 6940
     },
     {
       "id": "truck_1763643782173_5_xoqw7loz3",
@@ -22661,6 +22669,6 @@
       "waybillNumber": "7358"
     }
   ],
-  "lastModified": "2025-11-20T13:41:40.290Z",
+  "lastModified": "2025-11-20T14:04:15.047Z",
   "version": "2.0.0"
 }
