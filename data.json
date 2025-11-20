@@ -22249,14 +22249,14 @@
         },
         {
           "status": "scaled_in",
-          "timestamp": "2025-11-20T08:34:50.949Z",
+          "timestamp": "2025-11-20T08:35:21.777Z",
           "details": {
             "waybillNumber": "7348"
           }
         }
       ],
       "createdAt": "2025-11-20T08:10:39.098Z",
-      "updatedAt": "2025-11-20T08:34:50.949Z",
+      "updatedAt": "2025-11-20T08:35:21.777Z",
       "waybillNumber": "7348"
     },
     {
@@ -22356,6 +22356,6 @@
       "updatedAt": "2025-11-20T08:10:39.098Z"
     }
   ],
-  "lastModified": "2025-11-20T08:34:51.035Z",
+  "lastModified": "2025-11-20T08:35:22.787Z",
   "version": "2.0.0"
 }
