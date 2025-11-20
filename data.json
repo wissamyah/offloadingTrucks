@@ -22490,15 +22490,19 @@
       "bags": 350,
       "moistureLevel": 16,
       "truckNumber": "BGM 430 XA",
-      "status": "pending",
+      "status": "rejected",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-11-20T08:10:39.098Z"
+        },
+        {
+          "status": "rejected",
+          "timestamp": "2025-11-20T14:36:32.798Z"
         }
       ],
       "createdAt": "2025-11-20T08:10:39.098Z",
-      "updatedAt": "2025-11-20T08:10:39.098Z"
+      "updatedAt": "2025-11-20T14:36:32.798Z"
     },
     {
       "id": "truck_1763643760944_0_ynwb40qxv",
@@ -22697,6 +22701,6 @@
       "waybillNumber": "7358"
     }
   ],
-  "lastModified": "2025-11-20T14:36:14.443Z",
+  "lastModified": "2025-11-20T14:36:33.666Z",
   "version": "2.0.0"
 }
