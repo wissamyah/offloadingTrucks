@@ -23170,15 +23170,23 @@
       "bags": 170,
       "moistureLevel": 12,
       "truckNumber": "KTG 259 YG",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-11-21T13:42:52.976Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-11-21T13:45:43.016Z",
+          "details": {
+            "waybillNumber": "7378"
+          }
         }
       ],
       "createdAt": "2025-11-21T13:42:52.976Z",
-      "updatedAt": "2025-11-21T13:42:52.976Z"
+      "updatedAt": "2025-11-21T13:45:43.016Z",
+      "waybillNumber": "7378"
     },
     {
       "id": "truck_1763732572975_1_y8obylpvv",
@@ -23205,6 +23213,6 @@
       "waybillNumber": "7379"
     }
   ],
-  "lastModified": "2025-11-21T13:45:24.927Z",
+  "lastModified": "2025-11-21T13:45:43.670Z",
   "version": "2.0.0"
 }
