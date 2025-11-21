@@ -245,153 +245,288 @@ export const LoadingsTable: React.FC<LoadingsTableProps> = ({
         </div>
       </div>
 
-      {/* Table */}
-      {paginatedLoadings.length === 0 ? (
-        <div className="flex flex-col items-center justify-center py-12 px-4">
-          <Package className="h-16 w-16 text-gray-600 mb-4" />
-          <p className="text-gray-400 text-lg font-medium mb-2">No loadings found</p>
-          <p className="text-gray-500 text-sm">
-            {statusFilter === 'all'
-              ? 'Paste a message to get started'
-              : `No ${statusFilter} loadings`}
-          </p>
-        </div>
-      ) : (
-        <>
-          <div className="overflow-x-auto">
-            <table className="w-full">
-              <thead className="bg-gray-900">
-                <tr>
-                  <th className="px-4 py-3 text-left text-xs font-medium text-gray-400 uppercase tracking-wider">
-                    Customer
-                  </th>
-                  <th className="px-4 py-3 text-left text-xs font-medium text-gray-400 uppercase tracking-wider">
-                    Products
-                  </th>
-                  <th className="px-4 py-3 text-left text-xs font-medium text-gray-400 uppercase tracking-wider">
-                    Truck
-                  </th>
-                  <th className="px-4 py-3 text-left text-xs font-medium text-gray-400 uppercase tracking-wider">
-                    Driver
-                  </th>
-                  <th className="px-4 py-3 text-left text-xs font-medium text-gray-400 uppercase tracking-wider">
-                    Phone
-                  </th>
-                  <th className="px-4 py-3 text-left text-xs font-medium text-gray-400 uppercase tracking-wider">
-                    Status
-                  </th>
-                  <th className="px-4 py-3 text-left text-xs font-medium text-gray-400 uppercase tracking-wider">
-                    Actions
-                  </th>
-                </tr>
-              </thead>
-              <tbody className="divide-y divide-gray-700">
-                {paginatedLoadings.map((loading) => (
-                  <tr
-                    key={loading.id}
-                    className="hover:bg-gray-700/50 transition-colors"
-                  >
-                    <td className="px-4 py-3 text-sm text-gray-300 font-medium">
-                      {loading.customerName}
-                    </td>
-                    <td className="px-4 py-3 text-sm text-gray-400">
-                      <div className="whitespace-pre-line max-w-xs">
-                        {loading.products}
-                      </div>
-                    </td>
-                    <td className="px-4 py-3 text-sm text-gray-300 font-mono">
-                      {loading.truckNumber}
-                    </td>
-                    <td className="px-4 py-3 text-sm text-gray-400">
-                      {loading.driverName || <span className="text-gray-600">N/A</span>}
-                    </td>
-                    <td className="px-4 py-3 text-sm text-gray-400 font-mono">
-                      {loading.driverPhone || <span className="text-gray-600">N/A</span>}
-                    </td>
-                    <td className="px-4 py-3">
-                      <StatusBadge status={loading.status} loading={loading} />
-                    </td>
-                    <td className="px-4 py-3">
-                      <div className="flex items-center gap-2">
-                        {loading.status === "pending" && (
-                          <LoadingButton
-                            onClick={() => onScaleIn(loading.id)}
-                            loading={loadingStates[`scale-${loading.id}`]}
-                            variant="primary"
-                            size="sm"
-                            icon={<Scale className="h-4 w-4" />}
-                          >
-                            Scale In
-                          </LoadingButton>
-                        )}
-                        {loading.status === "scaled_in" && (
-                          <LoadingButton
-                            onClick={() => onMarkLoaded(loading.id)}
-                            loading={loadingStates[`loaded-${loading.id}`]}
-                            variant="success"
-                            size="sm"
-                            icon={<Package className="h-4 w-4" />}
-                          >
-                            Mark Loaded
-                          </LoadingButton>
-                        )}
-                        <button
-                          onClick={() => onEdit(loading)}
-                          className="p-2 text-gray-400 hover:text-blue-400 transition-colors"
-                          title="Edit"
-                        >
-                          <Edit className="h-4 w-4" />
-                        </button>
-                        <button
-                          onClick={() => handleDeleteClick(loading.id)}
-                          disabled={loadingStates[`delete-${loading.id}`]}
-                          className="p-2 text-gray-400 hover:text-red-400 transition-colors disabled:opacity-50"
-                          title="Delete"
-                        >
-                          {loadingStates[`delete-${loading.id}`] ? (
-                            <Loader2 className="h-4 w-4 animate-spin" />
-                          ) : (
-                            <Trash2 className="h-4 w-4" />
-                          )}
-                        </button>
-                      </div>
-                    </td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
+      {/* Mobile Card View */}
+      <div className="block md:hidden space-y-3 p-3">
+        {paginatedLoadings.length === 0 ? (
+          <div className="bg-gray-750 rounded-lg border border-gray-700 p-8 text-center">
+            <Package className="h-12 w-12 text-gray-500 mx-auto mb-4" />
+            <p className="text-gray-400 text-lg font-medium mb-2">No loadings found</p>
+            <p className="text-gray-500 text-sm">
+              {statusFilter === 'all'
+                ? 'Paste a message to get started'
+                : `No ${statusFilter} loadings`}
+            </p>
           </div>
+        ) : (
+          paginatedLoadings.map((loading) => {
+            const statusBg = {
+              pending: "bg-yellow-900/20",
+              scaled_in: "bg-blue-900/20",
+              loaded: "bg-green-900/20",
+            }[loading.status];
+            
+            return (
+              <div
+                key={loading.id}
+                className={`rounded-lg border border-gray-700 p-3 relative ${statusBg}`}
+              >
+                <div className="flex justify-between items-center mb-2">
+                  <div className="flex-1 min-w-0">
+                    <div className="flex items-center gap-2 flex-wrap">
+                      <div className="text-base font-semibold text-gray-100 truncate">
+                        {loading.customerName}
+                      </div>
+                      <div
+                        className="text-sm font-mono text-gray-200 bg-gray-700/50 border border-gray-600/50 px-2 py-0.5 rounded"
+                      >
+                        {loading.truckNumber}
+                      </div>
+                    </div>
+                  </div>
+                  <div className="flex items-center gap-2 ml-2 flex-shrink-0">
+                    <button
+                      onClick={() => handleDeleteClick(loading.id)}
+                      disabled={loadingStates[`delete-${loading.id}`]}
+                      className="text-red-400 hover:text-red-300 transition-colors p-1"
+                      title="Delete"
+                      aria-label="Delete loading"
+                    >
+                      {loadingStates[`delete-${loading.id}`] ? (
+                        <Loader2 className="h-4 w-4 animate-spin" />
+                      ) : (
+                        <Trash2 className="h-4 w-4" />
+                      )}
+                    </button>
+                  </div>
+                </div>
 
-          {/* Pagination */}
-          {totalPages > 1 && (
-            <div className="px-4 py-3 border-t border-gray-700 flex items-center justify-between">
-              <div className="text-sm text-gray-400">
-                Showing {startIndex + 1} to {Math.min(endIndex, filteredLoadings.length)} of{" "}
-                {filteredLoadings.length} loadings
+                <div className="mb-2 text-xs">
+                  <span className="text-gray-500">Products: </span>
+                  <div className="text-gray-300 whitespace-pre-line mt-1 bg-gray-700/30 rounded px-2 py-1 border border-gray-600/30">
+                    {loading.products}
+                  </div>
+                </div>
+
+                <div className="flex items-center gap-4 mb-2 flex-wrap text-xs">
+                  {loading.driverName && (
+                    <div>
+                      <span className="text-gray-500">Driver: </span>
+                      <span className="text-gray-200 font-medium">
+                        {loading.driverName}
+                      </span>
+                    </div>
+                  )}
+                  {loading.driverPhone && (
+                    <div>
+                      <span className="text-gray-500">Phone: </span>
+                      <span className="text-gray-200 font-medium font-mono">
+                        {loading.driverPhone}
+                      </span>
+                    </div>
+                  )}
+                  {loading.waybillNumber && (
+                    <div>
+                      <span className="text-gray-500">Waybill: </span>
+                      <span className="text-gray-200 font-medium">
+                        {loading.waybillNumber}
+                      </span>
+                    </div>
+                  )}
+                </div>
+
+                <div className="flex flex-nowrap items-center gap-1.5 mt-2 pr-20">
+                  {loading.status === "pending" && (
+                    <LoadingButton
+                      onClick={() => onScaleIn(loading.id)}
+                      loading={loadingStates[`scale-${loading.id}`]}
+                      variant="primary"
+                      size="sm"
+                      icon={<Scale className="h-3.5 w-3.5" />}
+                    >
+                      Scale In
+                    </LoadingButton>
+                  )}
+
+                  {loading.status === "scaled_in" && (
+                    <LoadingButton
+                      onClick={() => onMarkLoaded(loading.id)}
+                      loading={loadingStates[`loaded-${loading.id}`]}
+                      variant="success"
+                      size="sm"
+                      icon={<Package className="h-3.5 w-3.5" />}
+                    >
+                      Mark Loaded
+                    </LoadingButton>
+                  )}
+
+                  <button
+                    onClick={() => onEdit(loading)}
+                    className="text-blue-400 hover:text-blue-300 transition-colors p-1.5 flex items-center gap-1"
+                    title="Edit"
+                  >
+                    <Edit className="h-3.5 w-3.5" />
+                    <span className="text-xs">Edit</span>
+                  </button>
+                </div>
+
+                <div className="absolute bottom-3 right-3">
+                  <StatusBadge status={loading.status} loading={loading} />
+                </div>
               </div>
-              <div className="flex items-center gap-2">
-                <button
-                  onClick={() => setCurrentPage((p) => Math.max(1, p - 1))}
-                  disabled={currentPage === 1}
-                  className="px-3 py-1 text-sm text-gray-400 hover:text-gray-200 disabled:opacity-30 disabled:cursor-not-allowed transition-colors"
-                >
-                  Previous
-                </button>
-                <span className="text-sm text-gray-400">
-                  Page {currentPage} of {totalPages}
-                </span>
-                <button
-                  onClick={() => setCurrentPage((p) => Math.min(totalPages, p + 1))}
-                  disabled={currentPage === totalPages}
-                  className="px-3 py-1 text-sm text-gray-400 hover:text-gray-200 disabled:opacity-30 disabled:cursor-not-allowed transition-colors"
-                >
-                  Next
-                </button>
-              </div>
+            );
+          })
+        )}
+      </div>
+
+      {/* Desktop Table View */}
+      <div className="hidden md:block">
+        {paginatedLoadings.length === 0 ? (
+          <div className="flex flex-col items-center justify-center py-12 px-4">
+            <Package className="h-16 w-16 text-gray-600 mb-4" />
+            <p className="text-gray-400 text-lg font-medium mb-2">No loadings found</p>
+            <p className="text-gray-500 text-sm">
+              {statusFilter === 'all'
+                ? 'Paste a message to get started'
+                : `No ${statusFilter} loadings`}
+            </p>
+          </div>
+        ) : (
+          <>
+            <div className="overflow-x-auto">
+              <table className="w-full">
+                <thead className="bg-gray-900">
+                  <tr>
+                    <th className="px-4 py-3 text-left text-xs font-medium text-gray-400 uppercase tracking-wider">
+                      Customer
+                    </th>
+                    <th className="px-4 py-3 text-left text-xs font-medium text-gray-400 uppercase tracking-wider">
+                      Products
+                    </th>
+                    <th className="px-4 py-3 text-left text-xs font-medium text-gray-400 uppercase tracking-wider">
+                      Truck
+                    </th>
+                    <th className="px-4 py-3 text-left text-xs font-medium text-gray-400 uppercase tracking-wider">
+                      Driver
+                    </th>
+                    <th className="px-4 py-3 text-left text-xs font-medium text-gray-400 uppercase tracking-wider">
+                      Phone
+                    </th>
+                    <th className="px-4 py-3 text-left text-xs font-medium text-gray-400 uppercase tracking-wider">
+                      Status
+                    </th>
+                    <th className="px-4 py-3 text-left text-xs font-medium text-gray-400 uppercase tracking-wider">
+                      Actions
+                    </th>
+                  </tr>
+                </thead>
+                <tbody className="divide-y divide-gray-700">
+                  {paginatedLoadings.map((loading) => (
+                    <tr
+                      key={loading.id}
+                      className="hover:bg-gray-700/50 transition-colors"
+                    >
+                      <td className="px-4 py-3 text-sm text-gray-300 font-medium">
+                        {loading.customerName}
+                      </td>
+                      <td className="px-4 py-3 text-sm text-gray-400">
+                        <div className="whitespace-pre-line max-w-xs">
+                          {loading.products}
+                        </div>
+                      </td>
+                      <td className="px-4 py-3 text-sm text-gray-300 font-mono">
+                        {loading.truckNumber}
+                      </td>
+                      <td className="px-4 py-3 text-sm text-gray-400">
+                        {loading.driverName || <span className="text-gray-600">N/A</span>}
+                      </td>
+                      <td className="px-4 py-3 text-sm text-gray-400 font-mono">
+                        {loading.driverPhone || <span className="text-gray-600">N/A</span>}
+                      </td>
+                      <td className="px-4 py-3">
+                        <StatusBadge status={loading.status} loading={loading} />
+                      </td>
+                      <td className="px-4 py-3">
+                        <div className="flex items-center gap-2">
+                          {loading.status === "pending" && (
+                            <LoadingButton
+                              onClick={() => onScaleIn(loading.id)}
+                              loading={loadingStates[`scale-${loading.id}`]}
+                              variant="primary"
+                              size="sm"
+                              icon={<Scale className="h-4 w-4" />}
+                            >
+                              Scale In
+                            </LoadingButton>
+                          )}
+                          {loading.status === "scaled_in" && (
+                            <LoadingButton
+                              onClick={() => onMarkLoaded(loading.id)}
+                              loading={loadingStates[`loaded-${loading.id}`]}
+                              variant="success"
+                              size="sm"
+                              icon={<Package className="h-4 w-4" />}
+                            >
+                              Mark Loaded
+                            </LoadingButton>
+                          )}
+                          <button
+                            onClick={() => onEdit(loading)}
+                            className="p-2 text-gray-400 hover:text-blue-400 transition-colors"
+                            title="Edit"
+                          >
+                            <Edit className="h-4 w-4" />
+                          </button>
+                          <button
+                            onClick={() => handleDeleteClick(loading.id)}
+                            disabled={loadingStates[`delete-${loading.id}`]}
+                            className="p-2 text-gray-400 hover:text-red-400 transition-colors disabled:opacity-50"
+                            title="Delete"
+                          >
+                            {loadingStates[`delete-${loading.id}`] ? (
+                              <Loader2 className="h-4 w-4 animate-spin" />
+                            ) : (
+                              <Trash2 className="h-4 w-4" />
+                            )}
+                          </button>
+                        </div>
+                      </td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
             </div>
-          )}
-        </>
-      )}
+
+            {/* Pagination */}
+            {totalPages > 1 && (
+              <div className="px-4 py-3 border-t border-gray-700 flex items-center justify-between">
+                <div className="text-sm text-gray-400">
+                  Showing {startIndex + 1} to {Math.min(endIndex, filteredLoadings.length)} of{" "}
+                  {filteredLoadings.length} loadings
+                </div>
+                <div className="flex items-center gap-2">
+                  <button
+                    onClick={() => setCurrentPage((p) => Math.max(1, p - 1))}
+                    disabled={currentPage === 1}
+                    className="px-3 py-1 text-sm text-gray-400 hover:text-gray-200 disabled:opacity-30 disabled:cursor-not-allowed transition-colors"
+                  >
+                    Previous
+                  </button>
+                  <span className="text-sm text-gray-400">
+                    Page {currentPage} of {totalPages}
+                  </span>
+                  <button
+                    onClick={() => setCurrentPage((p) => Math.min(totalPages, p + 1))}
+                    disabled={currentPage === totalPages}
+                    className="px-3 py-1 text-sm text-gray-400 hover:text-gray-200 disabled:opacity-30 disabled:cursor-not-allowed transition-colors"
+                  >
+                    Next
+                  </button>
+                </div>
+              </div>
+            )}
+          </>
+        )}
+      </div>
 
       {/* Delete Confirmation Modal */}
       <ConfirmationModal
