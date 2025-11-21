@@ -22982,15 +22982,23 @@
       "bags": 189,
       "moistureLevel": 15,
       "truckNumber": "RBC 117 ZN",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-11-21T07:25:22.599Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-11-21T09:02:30.296Z",
+          "details": {
+            "waybillNumber": "7373"
+          }
         }
       ],
       "createdAt": "2025-11-21T07:25:22.599Z",
-      "updatedAt": "2025-11-21T07:25:22.599Z"
+      "updatedAt": "2025-11-21T09:02:30.296Z",
+      "waybillNumber": "7373"
     },
     {
       "id": "truck_1763709945180_0_ncsl7n9li",
@@ -23049,6 +23057,6 @@
       "updatedAt": "2025-11-21T07:25:45.181Z"
     }
   ],
-  "lastModified": "2025-11-21T08:57:48.297Z",
+  "lastModified": "2025-11-21T09:02:30.681Z",
   "version": "2.0.0"
 }
