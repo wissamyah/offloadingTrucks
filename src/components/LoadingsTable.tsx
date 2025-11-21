@@ -394,7 +394,7 @@ export const LoadingsTable: React.FC<LoadingsTableProps> = ({
           <>
             <div className="overflow-x-auto">
               <table className="w-full">
-                <thead className="bg-gray-900">
+                <thead className="bg-gray-750">
                   <tr>
                     <th className="px-4 py-3 text-left text-xs font-medium text-gray-400 uppercase tracking-wider">
                       Customer
