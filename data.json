@@ -23283,8 +23283,24 @@
       ],
       "createdAt": "2025-11-21T21:52:04.025Z",
       "updatedAt": "2025-11-21T21:52:04.025Z"
+    },
+    {
+      "id": "loading_1763761935083_0_bvq4cu9yc",
+      "customerName": "Gezeora commercial enterprise",
+      "products": "800 Oga rice 50kg",
+      "truckNumber": "FKA 873 XA",
+      "driverPhone": "07019707004",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-21T21:52:15.083Z"
+        }
+      ],
+      "createdAt": "2025-11-21T21:52:15.083Z",
+      "updatedAt": "2025-11-21T21:52:15.083Z"
     }
   ],
-  "lastModified": "2025-11-21T21:52:04.082Z",
+  "lastModified": "2025-11-21T21:52:15.910Z",
   "version": "2.0.0"
 }
