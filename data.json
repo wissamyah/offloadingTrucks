@@ -22854,7 +22854,7 @@
       "bags": 500,
       "moistureLevel": 13,
       "truckNumber": "KTN 430 YZ",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -22866,11 +22866,21 @@
           "details": {
             "waybillNumber": "7365"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-11-21T09:49:02.737Z",
+          "details": {
+            "netWeight": 35950,
+            "deduction": 200
+          }
         }
       ],
       "createdAt": "2025-11-21T07:24:48.612Z",
-      "updatedAt": "2025-11-21T07:31:29.907Z",
-      "waybillNumber": "7365"
+      "updatedAt": "2025-11-21T09:49:02.737Z",
+      "waybillNumber": "7365",
+      "netWeight": 35950,
+      "deduction": 200
     },
     {
       "id": "truck_1763709888611_2_jmnq5pzx1",
@@ -23089,6 +23099,6 @@
       "updatedAt": "2025-11-21T07:25:45.181Z"
     }
   ],
-  "lastModified": "2025-11-21T09:48:07.238Z",
+  "lastModified": "2025-11-21T09:49:11.151Z",
   "version": "2.0.0"
 }
