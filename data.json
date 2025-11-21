@@ -23024,7 +23024,7 @@
       "bags": 482,
       "moistureLevel": 12,
       "truckNumber": "NNR 523 XA",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -23036,11 +23036,21 @@
           "details": {
             "waybillNumber": "7376"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-11-21T16:12:51.399Z",
+          "details": {
+            "netWeight": 41430,
+            "deduction": 230
+          }
         }
       ],
       "createdAt": "2025-11-21T07:25:22.599Z",
-      "updatedAt": "2025-11-21T10:25:50.450Z",
-      "waybillNumber": "7376"
+      "updatedAt": "2025-11-21T16:12:51.399Z",
+      "waybillNumber": "7376",
+      "netWeight": 41430,
+      "deduction": 230
     },
     {
       "id": "truck_1763709922599_4_s43fdp8ag",
@@ -23223,6 +23233,6 @@
       "waybillNumber": "7379"
     }
   ],
-  "lastModified": "2025-11-21T15:57:48.298Z",
+  "lastModified": "2025-11-21T16:12:51.623Z",
   "version": "2.0.0"
 }
