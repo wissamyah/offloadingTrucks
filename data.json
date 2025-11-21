@@ -23347,8 +23347,25 @@
       ],
       "createdAt": "2025-11-21T21:53:00.820Z",
       "updatedAt": "2025-11-21T21:53:00.820Z"
+    },
+    {
+      "id": "loading_1763762139466_0_4ts02xei3",
+      "customerName": "Best Mirian Chinedu",
+      "products": "250 Kwik rice 50kg\n100 Oga rice 50kg\n150 Bold Yellow 50kg",
+      "truckNumber": "BUU 271 XB",
+      "driverName": "Haruna",
+      "driverPhone": "08032885432",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-21T21:55:39.466Z"
+        }
+      ],
+      "createdAt": "2025-11-21T21:55:39.466Z",
+      "updatedAt": "2025-11-21T21:55:39.466Z"
     }
   ],
-  "lastModified": "2025-11-21T21:53:00.887Z",
+  "lastModified": "2025-11-21T21:55:39.545Z",
   "version": "2.0.0"
 }
