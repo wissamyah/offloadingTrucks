@@ -22823,8 +22823,56 @@
       "waybillNumber": "7364",
       "netWeight": 39850,
       "deduction": 130
+    },
+    {
+      "id": "truck_1763709888611_0_qg32oggml",
+      "supplierName": "Mukhtari Sale",
+      "bags": 486,
+      "moistureLevel": 15,
+      "truckNumber": "DUT 457 XC",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-21T07:24:48.612Z"
+        }
+      ],
+      "createdAt": "2025-11-21T07:24:48.612Z",
+      "updatedAt": "2025-11-21T07:24:48.612Z"
+    },
+    {
+      "id": "truck_1763709888611_1_52t59e2sr",
+      "supplierName": "Mubarak Abba",
+      "bags": 500,
+      "moistureLevel": 13,
+      "truckNumber": "KTN 430 YZ",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-21T07:24:48.612Z"
+        }
+      ],
+      "createdAt": "2025-11-21T07:24:48.612Z",
+      "updatedAt": "2025-11-21T07:24:48.612Z"
+    },
+    {
+      "id": "truck_1763709888611_2_jmnq5pzx1",
+      "supplierName": "Idris Garba",
+      "bags": 130,
+      "moistureLevel": 18,
+      "truckNumber": "ZAR 771 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-21T07:24:48.612Z"
+        }
+      ],
+      "createdAt": "2025-11-21T07:24:48.612Z",
+      "updatedAt": "2025-11-21T07:24:48.612Z"
     }
   ],
-  "lastModified": "2025-11-20T17:11:39.799Z",
+  "lastModified": "2025-11-21T07:24:48.852Z",
   "version": "2.0.0"
 }
