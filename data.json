@@ -23186,17 +23186,25 @@
       "bags": 522,
       "moistureLevel": 12,
       "truckNumber": "FKY 836 XA",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-11-21T13:42:52.976Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-11-21T13:45:24.705Z",
+          "details": {
+            "waybillNumber": "7379"
+          }
         }
       ],
       "createdAt": "2025-11-21T13:42:52.976Z",
-      "updatedAt": "2025-11-21T13:42:52.976Z"
+      "updatedAt": "2025-11-21T13:45:24.705Z",
+      "waybillNumber": "7379"
     }
   ],
-  "lastModified": "2025-11-21T13:42:54.051Z",
+  "lastModified": "2025-11-21T13:45:24.927Z",
   "version": "2.0.0"
 }
