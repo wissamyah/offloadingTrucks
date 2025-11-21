@@ -23299,8 +23299,24 @@
       ],
       "createdAt": "2025-11-21T21:52:15.083Z",
       "updatedAt": "2025-11-21T21:52:15.083Z"
+    },
+    {
+      "id": "loading_1763761959672_0_rm4t5m84a",
+      "customerName": "Amaka Rice",
+      "products": "545 Kwik rice 50kg",
+      "truckNumber": "DJA 209 XA",
+      "driverPhone": "08025634159",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-21T21:52:39.672Z"
+        }
+      ],
+      "createdAt": "2025-11-21T21:52:39.672Z",
+      "updatedAt": "2025-11-21T21:52:39.672Z"
     }
   ],
-  "lastModified": "2025-11-21T21:52:15.910Z",
+  "lastModified": "2025-11-21T21:52:39.754Z",
   "version": "2.0.0"
 }
