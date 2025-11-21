@@ -23040,7 +23040,7 @@
       "bags": 189,
       "moistureLevel": 15,
       "truckNumber": "RBC 117 ZN",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -23052,11 +23052,19 @@
           "details": {
             "waybillNumber": "7373"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-11-21T11:20:47.146Z",
+          "details": {
+            "netWeight": 13200
+          }
         }
       ],
       "createdAt": "2025-11-21T07:25:22.599Z",
-      "updatedAt": "2025-11-21T09:02:30.296Z",
-      "waybillNumber": "7373"
+      "updatedAt": "2025-11-21T11:20:47.146Z",
+      "waybillNumber": "7373",
+      "netWeight": 13200
     },
     {
       "id": "truck_1763709945180_0_ncsl7n9li",
@@ -23115,6 +23123,6 @@
       "updatedAt": "2025-11-21T07:25:45.181Z"
     }
   ],
-  "lastModified": "2025-11-21T10:25:51.967Z",
+  "lastModified": "2025-11-21T11:20:47.368Z",
   "version": "2.0.0"
 }
