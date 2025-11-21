@@ -23381,8 +23381,25 @@
       ],
       "createdAt": "2025-11-21T21:55:49.001Z",
       "updatedAt": "2025-11-21T21:55:49.001Z"
+    },
+    {
+      "id": "loading_1763762174929_0_jdmvpe8t8",
+      "customerName": "Gezeora commercial enterprises",
+      "products": "700 Kwik rice 50kg\n200 Oga rice 50kg",
+      "truckNumber": "GWA 653 XB",
+      "driverName": "Jamilu",
+      "driverPhone": "09157965694",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-21T21:56:14.929Z"
+        }
+      ],
+      "createdAt": "2025-11-21T21:56:14.929Z",
+      "updatedAt": "2025-11-21T21:56:14.929Z"
     }
   ],
-  "lastModified": "2025-11-21T21:55:49.931Z",
+  "lastModified": "2025-11-21T21:56:15.016Z",
   "version": "2.0.0"
 }
