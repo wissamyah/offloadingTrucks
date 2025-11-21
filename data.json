@@ -23253,6 +23253,23 @@
       "deduction": 150
     }
   ],
-  "lastModified": "2025-11-21T17:29:59.530Z",
+  "loadings": [
+    {
+      "id": "loading_1763761539376_0_utgu12jtf",
+      "customerName": "Rosemary",
+      "products": "100 Kwik rice 50kg\n40 Bold yellow 50kg",
+      "truckNumber": "JJN 830 XC",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-21T21:45:39.376Z"
+        }
+      ],
+      "createdAt": "2025-11-21T21:45:39.376Z",
+      "updatedAt": "2025-11-21T21:45:39.376Z"
+    }
+  ],
+  "lastModified": "2025-11-21T21:45:40.660Z",
   "version": "2.0.0"
 }
