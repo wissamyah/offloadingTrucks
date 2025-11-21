@@ -23270,8 +23270,24 @@
       ],
       "createdAt": "2025-11-21T22:01:47.668Z",
       "updatedAt": "2025-11-21T22:01:47.668Z"
+    },
+    {
+      "id": "loading_1763762761228_0_yel3xo2qc",
+      "customerName": "Pat-Ani Integrated Services",
+      "products": "500 Kwik rice 50kg\n200 Oga rice 50kg",
+      "truckNumber": "WDL 706 ZY",
+      "driverPhone": "07039872388",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-21T22:06:01.228Z"
+        }
+      ],
+      "createdAt": "2025-11-21T22:06:01.228Z",
+      "updatedAt": "2025-11-21T22:06:01.228Z"
     }
   ],
-  "lastModified": "2025-11-21T22:01:47.700Z",
+  "lastModified": "2025-11-21T22:06:01.288Z",
   "version": "2.0.0"
 }
