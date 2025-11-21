@@ -22871,8 +22871,88 @@
       ],
       "createdAt": "2025-11-21T07:24:48.612Z",
       "updatedAt": "2025-11-21T07:24:48.612Z"
+    },
+    {
+      "id": "truck_1763709922599_0_360fesng3",
+      "supplierName": "Alh Danasabe",
+      "bags": 36,
+      "moistureLevel": 12,
+      "truckNumber": "MSA 219 XB",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-21T07:25:22.599Z"
+        }
+      ],
+      "createdAt": "2025-11-21T07:25:22.599Z",
+      "updatedAt": "2025-11-21T07:25:22.599Z"
+    },
+    {
+      "id": "truck_1763709922599_1_15u8hljtx",
+      "supplierName": "Mansur Mansur",
+      "bags": 400,
+      "moistureLevel": 13,
+      "truckNumber": "AG 666 KTN",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-21T07:25:22.599Z"
+        }
+      ],
+      "createdAt": "2025-11-21T07:25:22.599Z",
+      "updatedAt": "2025-11-21T07:25:22.599Z"
+    },
+    {
+      "id": "truck_1763709922599_2_iqeiwzusl",
+      "supplierName": "Idris Haruna",
+      "bags": 520,
+      "moistureLevel": 13,
+      "truckNumber": "TRR 457 YX",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-21T07:25:22.599Z"
+        }
+      ],
+      "createdAt": "2025-11-21T07:25:22.599Z",
+      "updatedAt": "2025-11-21T07:25:22.599Z"
+    },
+    {
+      "id": "truck_1763709922599_3_m9o9n7nh7",
+      "supplierName": "Idris Haruna",
+      "bags": 482,
+      "moistureLevel": 12,
+      "truckNumber": "NNR 523 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-21T07:25:22.599Z"
+        }
+      ],
+      "createdAt": "2025-11-21T07:25:22.599Z",
+      "updatedAt": "2025-11-21T07:25:22.599Z"
+    },
+    {
+      "id": "truck_1763709922599_4_s43fdp8ag",
+      "supplierName": "Jamilu Yahaya",
+      "bags": 189,
+      "moistureLevel": 15,
+      "truckNumber": "RBC 117 ZN",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-21T07:25:22.599Z"
+        }
+      ],
+      "createdAt": "2025-11-21T07:25:22.599Z",
+      "updatedAt": "2025-11-21T07:25:22.599Z"
     }
   ],
-  "lastModified": "2025-11-21T07:24:48.852Z",
+  "lastModified": "2025-11-21T07:25:22.809Z",
   "version": "2.0.0"
 }
