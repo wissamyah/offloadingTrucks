@@ -23315,8 +23315,24 @@
       ],
       "createdAt": "2025-11-21T21:52:39.672Z",
       "updatedAt": "2025-11-21T21:52:39.672Z"
+    },
+    {
+      "id": "loading_1763761965127_0_o4mv9qlx4",
+      "customerName": "Frank Global",
+      "products": "500 Bold Yellow 50kg\n200 Kwik rice 50kg",
+      "truckNumber": "GME 931 XB",
+      "driverPhone": "08062468912",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-21T21:52:45.127Z"
+        }
+      ],
+      "createdAt": "2025-11-21T21:52:45.127Z",
+      "updatedAt": "2025-11-21T21:52:45.127Z"
     }
   ],
-  "lastModified": "2025-11-21T21:52:39.754Z",
+  "lastModified": "2025-11-21T21:52:45.928Z",
   "version": "2.0.0"
 }
