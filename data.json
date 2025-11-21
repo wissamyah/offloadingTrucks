@@ -22894,15 +22894,23 @@
       "bags": 36,
       "moistureLevel": 12,
       "truckNumber": "MSA 219 XB",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-11-21T07:25:22.599Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-11-21T08:55:38.531Z",
+          "details": {
+            "waybillNumber": "7371"
+          }
         }
       ],
       "createdAt": "2025-11-21T07:25:22.599Z",
-      "updatedAt": "2025-11-21T07:25:22.599Z"
+      "updatedAt": "2025-11-21T08:55:38.531Z",
+      "waybillNumber": "7371"
     },
     {
       "id": "truck_1763709922599_1_15u8hljtx",
@@ -23033,6 +23041,6 @@
       "updatedAt": "2025-11-21T07:25:45.181Z"
     }
   ],
-  "lastModified": "2025-11-21T07:41:51.283Z",
+  "lastModified": "2025-11-21T08:55:38.737Z",
   "version": "2.0.0"
 }
