@@ -200,10 +200,10 @@ export const LoadingsTable: React.FC<LoadingsTableProps> = ({
           )}
 
           {/* Status Filter */}
-          <div className="flex gap-2 flex-wrap">
+          <div className="flex gap-2 overflow-x-auto pb-1">
             <button
               onClick={() => onStatusFilterChange?.('all')}
-              className={`px-3 py-1.5 rounded-md text-sm font-medium transition-colors ${
+              className={`px-2 sm:px-3 py-1.5 rounded-md text-xs sm:text-sm font-medium transition-colors whitespace-nowrap flex-shrink-0 ${
                 statusFilter === 'all'
                   ? 'bg-gray-700 text-gray-100'
                   : 'bg-gray-900 text-gray-400 hover:text-gray-200'
@@ -213,7 +213,7 @@ export const LoadingsTable: React.FC<LoadingsTableProps> = ({
             </button>
             <button
               onClick={() => onStatusFilterChange?.('pending')}
-              className={`px-3 py-1.5 rounded-md text-sm font-medium transition-colors ${
+              className={`px-2 sm:px-3 py-1.5 rounded-md text-xs sm:text-sm font-medium transition-colors whitespace-nowrap flex-shrink-0 ${
                 statusFilter === 'pending'
                   ? 'bg-yellow-900/30 text-yellow-400 border border-yellow-700'
                   : 'bg-gray-900 text-gray-400 hover:text-gray-200'
@@ -223,7 +223,7 @@ export const LoadingsTable: React.FC<LoadingsTableProps> = ({
             </button>
             <button
               onClick={() => onStatusFilterChange?.('scaled_in')}
-              className={`px-3 py-1.5 rounded-md text-sm font-medium transition-colors ${
+              className={`px-2 sm:px-3 py-1.5 rounded-md text-xs sm:text-sm font-medium transition-colors whitespace-nowrap flex-shrink-0 ${
                 statusFilter === 'scaled_in'
                   ? 'bg-blue-900/30 text-blue-400 border border-blue-700'
                   : 'bg-gray-900 text-gray-400 hover:text-gray-200'
@@ -233,7 +233,7 @@ export const LoadingsTable: React.FC<LoadingsTableProps> = ({
             </button>
             <button
               onClick={() => onStatusFilterChange?.('loaded')}
-              className={`px-3 py-1.5 rounded-md text-sm font-medium transition-colors ${
+              className={`px-2 sm:px-3 py-1.5 rounded-md text-xs sm:text-sm font-medium transition-colors whitespace-nowrap flex-shrink-0 ${
                 statusFilter === 'loaded'
                   ? 'bg-green-900/30 text-green-400 border border-green-700'
                   : 'bg-gray-900 text-gray-400 hover:text-gray-200'
