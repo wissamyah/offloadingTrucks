@@ -23253,7 +23253,25 @@
       "deduction": 150
     }
   ],
-  "loadings": [],
-  "lastModified": "2025-11-21T21:57:05.220Z",
+  "loadings": [
+    {
+      "id": "loading_1763762507668_0_j5c39ozbk",
+      "customerName": "Vera Okodaso",
+      "products": "200 Kwik rice 50kg",
+      "truckNumber": "TTD 09 YL",
+      "driverName": "Tove",
+      "driverPhone": "07062869862",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-21T22:01:47.668Z"
+        }
+      ],
+      "createdAt": "2025-11-21T22:01:47.668Z",
+      "updatedAt": "2025-11-21T22:01:47.668Z"
+    }
+  ],
+  "lastModified": "2025-11-21T22:01:47.700Z",
   "version": "2.0.0"
 }
