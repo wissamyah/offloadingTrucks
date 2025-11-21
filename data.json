@@ -23268,8 +23268,23 @@
       ],
       "createdAt": "2025-11-21T21:45:39.376Z",
       "updatedAt": "2025-11-21T21:45:39.376Z"
+    },
+    {
+      "id": "loading_1763761924024_0_7gi0g1jy3",
+      "customerName": "Cash Sales",
+      "products": "150 Sorted Broken 50kg",
+      "truckNumber": "KMC 759 XW",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-21T21:52:04.025Z"
+        }
+      ],
+      "createdAt": "2025-11-21T21:52:04.025Z",
+      "updatedAt": "2025-11-21T21:52:04.025Z"
     }
   ],
-  "lastModified": "2025-11-21T21:45:40.660Z",
+  "lastModified": "2025-11-21T21:52:04.082Z",
   "version": "2.0.0"
 }
