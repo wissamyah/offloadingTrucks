@@ -22951,8 +22951,56 @@
       ],
       "createdAt": "2025-11-21T07:25:22.599Z",
       "updatedAt": "2025-11-21T07:25:22.599Z"
+    },
+    {
+      "id": "truck_1763709945180_0_ncsl7n9li",
+      "supplierName": "Idris Haruna",
+      "bags": 560,
+      "moistureLevel": 14,
+      "truckNumber": "TRR 884 YX",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-21T07:25:45.181Z"
+        }
+      ],
+      "createdAt": "2025-11-21T07:25:45.181Z",
+      "updatedAt": "2025-11-21T07:25:45.181Z"
+    },
+    {
+      "id": "truck_1763709945180_1_zr9by4skx",
+      "supplierName": "Idris Haruna",
+      "bags": 197,
+      "moistureLevel": 15,
+      "truckNumber": "JJN 135 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-21T07:25:45.181Z"
+        }
+      ],
+      "createdAt": "2025-11-21T07:25:45.181Z",
+      "updatedAt": "2025-11-21T07:25:45.181Z"
+    },
+    {
+      "id": "truck_1763709945180_2_nqoj3lkm8",
+      "supplierName": "Idris Garba",
+      "bags": 500,
+      "moistureLevel": 15,
+      "truckNumber": "FKY 806 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-21T07:25:45.181Z"
+        }
+      ],
+      "createdAt": "2025-11-21T07:25:45.181Z",
+      "updatedAt": "2025-11-21T07:25:45.181Z"
     }
   ],
-  "lastModified": "2025-11-21T07:25:22.809Z",
+  "lastModified": "2025-11-21T07:25:46.675Z",
   "version": "2.0.0"
 }
