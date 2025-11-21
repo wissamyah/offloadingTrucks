@@ -23405,7 +23405,7 @@
       "products": "500 Kwik rice 50kg\n200 Oga rice 50kg",
       "truckNumber": "WDL 706 ZY",
       "driverPhone": "07039872388",
-      "status": "scaled_in",
+      "status": "loaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -23417,13 +23417,17 @@
           "details": {
             "waybillNumber": "85858"
           }
+        },
+        {
+          "status": "loaded",
+          "timestamp": "2025-11-21T21:56:45.996Z"
         }
       ],
       "createdAt": "2025-11-21T21:56:29.063Z",
-      "updatedAt": "2025-11-21T21:56:36.697Z",
+      "updatedAt": "2025-11-21T21:56:45.996Z",
       "waybillNumber": "85858"
     }
   ],
-  "lastModified": "2025-11-21T21:56:37.864Z",
+  "lastModified": "2025-11-21T21:56:47.086Z",
   "version": "2.0.0"
 }
