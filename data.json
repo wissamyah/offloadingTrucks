@@ -22926,15 +22926,23 @@
       "bags": 520,
       "moistureLevel": 13,
       "truckNumber": "TRR 457 YX",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-11-21T07:25:22.599Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-11-21T07:41:16.719Z",
+          "details": {
+            "waybillNumber": "7368"
+          }
         }
       ],
       "createdAt": "2025-11-21T07:25:22.599Z",
-      "updatedAt": "2025-11-21T07:25:22.599Z"
+      "updatedAt": "2025-11-21T07:41:16.719Z",
+      "waybillNumber": "7368"
     },
     {
       "id": "truck_1763709922599_3_m9o9n7nh7",
@@ -23017,6 +23025,6 @@
       "updatedAt": "2025-11-21T07:25:45.181Z"
     }
   ],
-  "lastModified": "2025-11-21T07:34:58.319Z",
+  "lastModified": "2025-11-21T07:41:16.924Z",
   "version": "2.0.0"
 }
