@@ -22886,14 +22886,14 @@
         },
         {
           "status": "scaled_in",
-          "timestamp": "2025-11-21T09:43:15.818Z",
+          "timestamp": "2025-11-21T09:43:41.712Z",
           "details": {
             "waybillNumber": "7370"
           }
         }
       ],
       "createdAt": "2025-11-21T07:24:48.612Z",
-      "updatedAt": "2025-11-21T09:43:15.818Z",
+      "updatedAt": "2025-11-21T09:43:41.712Z",
       "waybillNumber": "7370"
     },
     {
@@ -23073,6 +23073,6 @@
       "updatedAt": "2025-11-21T07:25:45.181Z"
     }
   ],
-  "lastModified": "2025-11-21T09:43:16.055Z",
+  "lastModified": "2025-11-21T09:43:42.789Z",
   "version": "2.0.0"
 }
