@@ -23364,8 +23364,25 @@
       ],
       "createdAt": "2025-11-21T21:55:39.466Z",
       "updatedAt": "2025-11-21T21:55:39.466Z"
+    },
+    {
+      "id": "loading_1763762149001_0_c7diaqr2j",
+      "customerName": "Kayudubre Peter Oghenero",
+      "products": "200 Kwik rice 50kg\n100 Oga rice 50kg",
+      "truckNumber": "AKK 842 ZA",
+      "driverName": "Usman Mohd",
+      "driverPhone": "07019906910",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-21T21:55:49.001Z"
+        }
+      ],
+      "createdAt": "2025-11-21T21:55:49.001Z",
+      "updatedAt": "2025-11-21T21:55:49.001Z"
     }
   ],
-  "lastModified": "2025-11-21T21:55:39.545Z",
+  "lastModified": "2025-11-21T21:55:49.931Z",
   "version": "2.0.0"
 }
