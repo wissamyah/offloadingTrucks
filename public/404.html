@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <script>
+      // Store the path before redirect
+      sessionStorage.setItem(
+        "redirect",
+        location.pathname + location.search + location.hash
+      );
+      // Redirect to index.html
+      location.replace(location.origin + "/offloadingTrucks/");
+    </script>
+  </head>
+  <body></body>
+</html>
