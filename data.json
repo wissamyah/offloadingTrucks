@@ -23114,7 +23114,7 @@
       "bags": 197,
       "moistureLevel": 15,
       "truckNumber": "JJN 135 XA",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -23126,11 +23126,19 @@
           "details": {
             "waybillNumber": "7374"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-11-21T12:01:11.430Z",
+          "details": {
+            "netWeight": 15400
+          }
         }
       ],
       "createdAt": "2025-11-21T07:25:45.181Z",
-      "updatedAt": "2025-11-21T12:00:53.075Z",
-      "waybillNumber": "7374"
+      "updatedAt": "2025-11-21T12:01:11.430Z",
+      "waybillNumber": "7374",
+      "netWeight": 15400
     },
     {
       "id": "truck_1763709945180_2_nqoj3lkm8",
@@ -23149,6 +23157,6 @@
       "updatedAt": "2025-11-21T07:25:45.181Z"
     }
   ],
-  "lastModified": "2025-11-21T12:00:53.186Z",
+  "lastModified": "2025-11-21T12:01:11.508Z",
   "version": "2.0.0"
 }
