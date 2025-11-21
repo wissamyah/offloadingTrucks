@@ -23146,17 +23146,25 @@
       "bags": 500,
       "moistureLevel": 15,
       "truckNumber": "FKY 806 XA",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-11-21T07:25:45.181Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-11-21T12:07:52.944Z",
+          "details": {
+            "waybillNumber": "7375"
+          }
         }
       ],
       "createdAt": "2025-11-21T07:25:45.181Z",
-      "updatedAt": "2025-11-21T07:25:45.181Z"
+      "updatedAt": "2025-11-21T12:07:52.944Z",
+      "waybillNumber": "7375"
     }
   ],
-  "lastModified": "2025-11-21T12:01:11.508Z",
+  "lastModified": "2025-11-21T12:07:53.054Z",
   "version": "2.0.0"
 }
