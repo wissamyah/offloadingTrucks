@@ -1,10 +1,11 @@
 import { useState, useEffect, useCallback, useRef } from 'react';
 import { TruckData, Truck } from '../types/truck';
-import { githubSync } from '../services/githubSync';
+import { Loading } from '../types/loading';
+import { githubSync, AppData } from '../services/githubSync';
 import toast from 'react-hot-toast';
 
 interface UseGitHubSyncReturn {
-  data: TruckData;
+  data: AppData;
   loading: boolean;
   error: string | null;
   isOnline: boolean;
@@ -14,13 +15,19 @@ interface UseGitHubSyncReturn {
   updateTruck: (id: string, updates: Partial<Truck>) => Promise<void>;
   deleteTruck: (id: string) => Promise<void>;
   deleteAllTrucks: () => Promise<void>;
-  resetData: (data: TruckData) => Promise<void>;
+  addLoading: (loading: Loading) => Promise<void>;
+  addMultipleLoadings: (loadings: Loading[]) => Promise<void>;
+  updateLoading: (id: string, updates: Partial<Loading>) => Promise<void>;
+  deleteLoading: (id: string) => Promise<void>;
+  deleteAllLoadings: () => Promise<void>;
+  resetData: (data: AppData) => Promise<void>;
   refresh: () => Promise<void>;
 }
 
 export function useGitHubSync(): UseGitHubSyncReturn {
-  const [data, setData] = useState<TruckData>({
+  const [data, setData] = useState<AppData>({
     trucks: [],
+    loadings: [],
     lastModified: new Date().toISOString(),
     version: '2.0.0'
   });
@@ -300,7 +307,171 @@ export function useGitHubSync(): UseGitHubSyncReturn {
     }
   }, [data, isOnline]);
 
-  const resetData = useCallback(async (newData: TruckData) => {
+  const addLoading = useCallback(async (loading: Loading) => {
+    if (!githubSync.isInitialized()) {
+      toast.error('Please configure GitHub to add loadings');
+      return;
+    }
+
+    if (!isOnline) {
+      toast.error('Cannot add loading while offline');
+      return;
+    }
+
+    // Optimistic update
+    const optimisticData = {
+      ...data,
+      loadings: [...(data.loadings || []), loading]
+    };
+    setData(optimisticData);
+
+    try {
+      const updatedData = await githubSync.addLoading(loading);
+      setData(updatedData);
+      setLastSync(new Date());
+      toast.success('Loading added successfully');
+    } catch (err) {
+      // Rollback on error
+      setData(data);
+      const message = err instanceof Error ? err.message : 'Failed to add loading';
+      toast.error(message);
+      throw err;
+    }
+  }, [data, isOnline]);
+
+  const addMultipleLoadings = useCallback(async (loadings: Loading[]) => {
+    if (!githubSync.isInitialized()) {
+      toast.error('Please configure GitHub to add loadings');
+      return;
+    }
+
+    if (!isOnline) {
+      toast.error('Cannot add loadings while offline');
+      return;
+    }
+
+    if (loadings.length === 0) {
+      return;
+    }
+
+    // Optimistic update
+    const optimisticData = {
+      ...data,
+      loadings: [...(data.loadings || []), ...loadings]
+    };
+    setData(optimisticData);
+
+    try {
+      const updatedData = await githubSync.addMultipleLoadings(loadings);
+      setData(updatedData);
+      setLastSync(new Date());
+      toast.success(`${loadings.length} loadings added successfully`);
+    } catch (err) {
+      // Rollback on error
+      setData(data);
+      const message = err instanceof Error ? err.message : 'Failed to add loadings';
+      toast.error(message);
+      throw err;
+    }
+  }, [data, isOnline]);
+
+  const updateLoading = useCallback(async (id: string, updates: Partial<Loading>) => {
+    if (!githubSync.isInitialized()) {
+      toast.error('Please configure GitHub to update loadings');
+      return;
+    }
+
+    if (!isOnline) {
+      toast.error('Cannot update loading while offline');
+      return;
+    }
+
+    // Optimistic update
+    const optimisticData = {
+      ...data,
+      loadings: (data.loadings || []).map(l => l.id === id ? { ...l, ...updates } : l)
+    };
+    setData(optimisticData);
+
+    try {
+      const updatedData = await githubSync.updateLoading(id, updates);
+      setData(updatedData);
+      setLastSync(new Date());
+      toast.success('Loading updated successfully');
+    } catch (err) {
+      // Rollback on error
+      setData(data);
+      const message = err instanceof Error ? err.message : 'Failed to update loading';
+      toast.error(message);
+      throw err;
+    }
+  }, [data, isOnline]);
+
+  const deleteLoading = useCallback(async (id: string) => {
+    if (!githubSync.isInitialized()) {
+      toast.error('Please configure GitHub to delete loadings');
+      return;
+    }
+
+    if (!isOnline) {
+      toast.error('Cannot delete loading while offline');
+      return;
+    }
+
+    // Optimistic update
+    const optimisticData = {
+      ...data,
+      loadings: (data.loadings || []).filter(l => l.id !== id)
+    };
+    setData(optimisticData);
+
+    try {
+      const updatedData = await githubSync.deleteLoading(id);
+      setData(updatedData);
+      setLastSync(new Date());
+      toast.success('Loading deleted successfully');
+    } catch (err) {
+      // Rollback on error
+      setData(data);
+      const message = err instanceof Error ? err.message : 'Failed to delete loading';
+      toast.error(message);
+      throw err;
+    }
+  }, [data, isOnline]);
+
+  const deleteAllLoadings = useCallback(async () => {
+    if (!githubSync.isInitialized()) {
+      toast.error('Please configure GitHub to delete loadings');
+      return;
+    }
+
+    if (!isOnline) {
+      toast.error('Cannot delete loadings while offline');
+      return;
+    }
+
+    // Optimistic update
+    const optimisticData = {
+      ...data,
+      loadings: []
+    };
+    setData(optimisticData);
+
+    try {
+      const updatedData = await githubSync.deleteAllLoadings();
+      setData(updatedData);
+      setLastSync(new Date());
+      toast.success('All loadings deleted successfully');
+    } catch (err) {
+      // Rollback on error
+      setData(data);
+      const message = err instanceof Error ? err.message : 'Failed to delete loadings';
+      toast.error(message);
+      throw err;
+    }
+  }, [data, isOnline]);
+
+  const resetData = useCallback(async (newData: AppData) => {
     if (!githubSync.isInitialized()) {
       toast.error('Please configure GitHub to reset data');
       return;
@@ -334,6 +505,11 @@ export function useGitHubSync(): UseGitHubSyncReturn {
     updateTruck,
     deleteTruck,
     deleteAllTrucks,
+    addLoading,
+    addMultipleLoadings,
+    updateLoading,
+    deleteLoading,
+    deleteAllLoadings,
     resetData,
     refresh
   };
