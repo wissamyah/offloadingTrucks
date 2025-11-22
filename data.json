@@ -23282,15 +23282,23 @@
       "bags": 381,
       "moistureLevel": 12,
       "truckNumber": "NNG 413 XA",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-11-22T07:40:25.701Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-11-22T07:52:30.152Z",
+          "details": {
+            "waybillNumber": "7383"
+          }
         }
       ],
       "createdAt": "2025-11-22T07:40:25.701Z",
-      "updatedAt": "2025-11-22T07:40:25.701Z"
+      "updatedAt": "2025-11-22T07:52:30.152Z",
+      "waybillNumber": "7383"
     },
     {
       "id": "truck_1763797225700_2_6ts50evji",
@@ -23392,6 +23400,6 @@
       "updatedAt": "2025-11-21T23:29:16.744Z"
     }
   ],
-  "lastModified": "2025-11-22T07:49:39.485Z",
+  "lastModified": "2025-11-22T07:52:30.330Z",
   "version": "2.0.0"
 }
