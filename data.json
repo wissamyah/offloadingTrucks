@@ -23490,7 +23490,7 @@
       "bags": 505,
       "moistureLevel": 12,
       "truckNumber": "KRS 69 XA",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -23502,11 +23502,21 @@
           "details": {
             "waybillNumber": "7388"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-11-22T15:22:27.284Z",
+          "details": {
+            "netWeight": 38920,
+            "deduction": 130
+          }
         }
       ],
       "createdAt": "2025-11-22T10:24:41.788Z",
-      "updatedAt": "2025-11-22T10:29:21.421Z",
-      "waybillNumber": "7388"
+      "updatedAt": "2025-11-22T15:22:27.284Z",
+      "waybillNumber": "7388",
+      "netWeight": 38920,
+      "deduction": 130
     },
     {
       "id": "truck_1763819517259_0_7fznp84ui",
@@ -23672,6 +23682,6 @@
       "updatedAt": "2025-11-22T14:46:25.349Z"
     }
   ],
-  "lastModified": "2025-11-22T14:46:25.399Z",
+  "lastModified": "2025-11-22T15:22:27.478Z",
   "version": "2.0.0"
 }
