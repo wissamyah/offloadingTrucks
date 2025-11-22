@@ -23430,15 +23430,23 @@
       "bags": 550,
       "moistureLevel": 12,
       "truckNumber": "PKM 425 XA",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-11-22T10:24:41.788Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-11-22T10:25:58.736Z",
+          "details": {
+            "waybillNumber": "7387"
+          }
         }
       ],
       "createdAt": "2025-11-22T10:24:41.788Z",
-      "updatedAt": "2025-11-22T10:24:41.788Z"
+      "updatedAt": "2025-11-22T10:25:58.736Z",
+      "waybillNumber": "7387"
     },
     {
       "id": "truck_1763807081788_1_81ueuwi3q",
@@ -23488,6 +23496,6 @@
       "waybillNumber": "7387"
     }
   ],
-  "lastModified": "2025-11-22T10:24:41.972Z",
+  "lastModified": "2025-11-22T10:25:58.913Z",
   "version": "2.0.0"
 }
