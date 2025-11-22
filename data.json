@@ -23251,6 +23251,102 @@
       "waybillNumber": "7379",
       "netWeight": 35870,
       "deduction": 150
+    },
+    {
+      "id": "truck_1763797225700_0_nmpw0zxlv",
+      "supplierName": "Idris Garba",
+      "bags": 550,
+      "moistureLevel": 13,
+      "truckNumber": "GME 197 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-22T07:40:25.701Z"
+        }
+      ],
+      "createdAt": "2025-11-22T07:40:25.701Z",
+      "updatedAt": "2025-11-22T07:40:25.701Z"
+    },
+    {
+      "id": "truck_1763797225700_1_4vp1810p7",
+      "supplierName": "Idris Haruna",
+      "bags": 381,
+      "moistureLevel": 12,
+      "truckNumber": "NNG 413 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-22T07:40:25.701Z"
+        }
+      ],
+      "createdAt": "2025-11-22T07:40:25.701Z",
+      "updatedAt": "2025-11-22T07:40:25.701Z"
+    },
+    {
+      "id": "truck_1763797225700_2_6ts50evji",
+      "supplierName": "Idris Haruna",
+      "bags": 220,
+      "moistureLevel": 14,
+      "truckNumber": "TRR 887 YX",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-22T07:40:25.701Z"
+        }
+      ],
+      "createdAt": "2025-11-22T07:40:25.701Z",
+      "updatedAt": "2025-11-22T07:40:25.701Z"
+    },
+    {
+      "id": "truck_1763797225700_3_22ydl3xu9",
+      "supplierName": "Abubakar Muhd Tukur",
+      "bags": 170,
+      "moistureLevel": 12,
+      "truckNumber": "XH 192 JJN",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-22T07:40:25.701Z"
+        }
+      ],
+      "createdAt": "2025-11-22T07:40:25.701Z",
+      "updatedAt": "2025-11-22T07:40:25.701Z"
+    },
+    {
+      "id": "truck_1763797225700_4_bypb1yrum",
+      "supplierName": "Idris Haruna",
+      "bags": 230,
+      "moistureLevel": 14,
+      "truckNumber": "TRR 781 YX",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-22T07:40:25.701Z"
+        }
+      ],
+      "createdAt": "2025-11-22T07:40:25.701Z",
+      "updatedAt": "2025-11-22T07:40:25.701Z"
+    },
+    {
+      "id": "truck_1763797225700_5_u725hvng0",
+      "supplierName": "Mubarak Abba",
+      "bags": 499,
+      "moistureLevel": 14,
+      "truckNumber": "FKY 345 ZA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-22T07:40:25.701Z"
+        }
+      ],
+      "createdAt": "2025-11-22T07:40:25.701Z",
+      "updatedAt": "2025-11-22T07:40:25.701Z"
     }
   ],
   "loadings": [
@@ -23272,6 +23368,6 @@
       "updatedAt": "2025-11-21T23:29:16.744Z"
     }
   ],
-  "lastModified": "2025-11-21T23:29:16.824Z",
+  "lastModified": "2025-11-22T07:40:25.935Z",
   "version": "2.0.0"
 }
