@@ -23258,15 +23258,23 @@
       "bags": 550,
       "moistureLevel": 13,
       "truckNumber": "GME 197 XA",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-11-22T07:40:25.701Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-11-22T07:45:03.607Z",
+          "details": {
+            "waybillNumber": "7380"
+          }
         }
       ],
       "createdAt": "2025-11-22T07:40:25.701Z",
-      "updatedAt": "2025-11-22T07:40:25.701Z"
+      "updatedAt": "2025-11-22T07:45:03.608Z",
+      "waybillNumber": "7380"
     },
     {
       "id": "truck_1763797225700_1_4vp1810p7",
@@ -23368,6 +23376,6 @@
       "updatedAt": "2025-11-21T23:29:16.744Z"
     }
   ],
-  "lastModified": "2025-11-22T07:40:25.935Z",
+  "lastModified": "2025-11-22T07:45:03.828Z",
   "version": "2.0.0"
 }
