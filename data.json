@@ -23547,8 +23547,24 @@
       ],
       "createdAt": "2025-11-22T11:39:42.964Z",
       "updatedAt": "2025-11-22T11:39:42.964Z"
+    },
+    {
+      "id": "loading_1763815047792_0_5qqhmohh6",
+      "customerName": "KAC HUB",
+      "products": "200 Kwik rice 50kg\n200 Kwik rice 25kg",
+      "truckNumber": "JJN 637 XC",
+      "driverPhone": "08069124400",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-22T12:37:27.792Z"
+        }
+      ],
+      "createdAt": "2025-11-22T12:37:27.792Z",
+      "updatedAt": "2025-11-22T12:37:27.792Z"
     }
   ],
-  "lastModified": "2025-11-22T12:22:08.424Z",
+  "lastModified": "2025-11-22T12:37:27.846Z",
   "version": "2.0.0"
 }
