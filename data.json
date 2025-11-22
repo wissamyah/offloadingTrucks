@@ -23668,24 +23668,8 @@
       "createdAt": "2025-11-22T13:09:25.549Z",
       "updatedAt": "2025-11-22T15:37:40.052Z",
       "waybillNumber": "7391"
-    },
-    {
-      "id": "loading_1763822785349_0_fphjgwset",
-      "customerName": "Cacon Integrated",
-      "products": "500 Kwik rice 5kg\n250 Kwik rice 10kg",
-      "truckNumber": "JJN 637 XC",
-      "driverPhone": "08069124400",
-      "status": "pending",
-      "statusHistory": [
-        {
-          "status": "pending",
-          "timestamp": "2025-11-22T14:46:25.349Z"
-        }
-      ],
-      "createdAt": "2025-11-22T14:46:25.349Z",
-      "updatedAt": "2025-11-22T14:46:25.349Z"
     }
   ],
-  "lastModified": "2025-11-22T15:37:40.134Z",
+  "lastModified": "2025-11-22T16:35:59.518Z",
   "version": "2.0.0"
 }
