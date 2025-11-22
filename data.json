@@ -23401,7 +23401,7 @@
     {
       "id": "loading_1763767756744_0_mtq8y4ex6",
       "customerName": "Vera Okodaso",
-      "products": "200 Kwik rice 50kg\n10 Oga rice 50kg",
+      "products": "200 Kwik rice 50kg",
       "truckNumber": "TTD 09 YL",
       "driverName": "Tove",
       "driverPhone": "07062869862",
@@ -23413,9 +23413,9 @@
         }
       ],
       "createdAt": "2025-11-21T23:29:16.744Z",
-      "updatedAt": "2025-11-22T09:05:53.696Z"
+      "updatedAt": "2025-11-22T09:06:19.497Z"
     }
   ],
-  "lastModified": "2025-11-22T09:05:53.721Z",
+  "lastModified": "2025-11-22T09:06:19.516Z",
   "version": "2.0.0"
 }
