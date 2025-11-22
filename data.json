@@ -23540,23 +23540,6 @@
       "waybillNumber": "7387"
     },
     {
-      "id": "loading_1763811582964_0_mzbjzfji5",
-      "customerName": "Okafor Chijioke - Chibest",
-      "products": "110 Oga Rice 50kg\n320 Kwik rice 50kg\n200 Kwik rice 5kg\n500 Kwik rice 10kg\n300 Kwik  rice 25kg",
-      "truckNumber": "DTF 953 XA",
-      "driverName": "ADO",
-      "driverPhone": "08161525966",
-      "status": "pending",
-      "statusHistory": [
-        {
-          "status": "pending",
-          "timestamp": "2025-11-22T11:39:42.964Z"
-        }
-      ],
-      "createdAt": "2025-11-22T11:39:42.964Z",
-      "updatedAt": "2025-11-22T11:39:42.964Z"
-    },
-    {
       "id": "loading_1763815047792_0_5qqhmohh6",
       "customerName": "KAC HUB",
       "products": "200 Kwik rice 50kg\n200 Kwik rice 25kg",
@@ -23606,6 +23589,6 @@
       "updatedAt": "2025-11-22T12:56:19.835Z"
     }
   ],
-  "lastModified": "2025-11-22T12:56:22.406Z",
+  "lastModified": "2025-11-22T12:56:38.801Z",
   "version": "2.0.0"
 }
