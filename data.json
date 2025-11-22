@@ -23586,7 +23586,7 @@
       "truckNumber": "DTF 953 XA",
       "driverName": "ADO",
       "driverPhone": "08161525966",
-      "status": "scaled_in",
+      "status": "loaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -23598,10 +23598,14 @@
           "details": {
             "waybillNumber": "7389"
           }
+        },
+        {
+          "status": "loaded",
+          "timestamp": "2025-11-22T13:48:40.854Z"
         }
       ],
       "createdAt": "2025-11-22T12:56:19.835Z",
-      "updatedAt": "2025-11-22T12:57:08.813Z",
+      "updatedAt": "2025-11-22T13:48:40.855Z",
       "waybillNumber": "7389"
     },
     {
@@ -23620,6 +23624,6 @@
       "updatedAt": "2025-11-22T13:09:25.549Z"
     }
   ],
-  "lastModified": "2025-11-22T13:32:15.420Z",
+  "lastModified": "2025-11-22T13:48:40.964Z",
   "version": "2.0.0"
 }
