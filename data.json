@@ -23354,15 +23354,23 @@
       "bags": 230,
       "moistureLevel": 14,
       "truckNumber": "TRR 781 YX",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-11-22T07:40:25.701Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-11-22T08:12:16.951Z",
+          "details": {
+            "waybillNumber": "7384"
+          }
         }
       ],
       "createdAt": "2025-11-22T07:40:25.701Z",
-      "updatedAt": "2025-11-22T07:40:25.701Z"
+      "updatedAt": "2025-11-22T08:12:16.952Z",
+      "waybillNumber": "7384"
     },
     {
       "id": "truck_1763797225700_5_u725hvng0",
@@ -23400,6 +23408,6 @@
       "updatedAt": "2025-11-21T23:29:16.744Z"
     }
   ],
-  "lastModified": "2025-11-22T07:52:30.330Z",
+  "lastModified": "2025-11-22T08:12:18.082Z",
   "version": "2.0.0"
 }
