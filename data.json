@@ -23424,7 +23424,7 @@
       "bags": 499,
       "moistureLevel": 14,
       "truckNumber": "FKY 345 ZA",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -23436,11 +23436,21 @@
           "details": {
             "waybillNumber": "7385"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-11-22T12:22:08.245Z",
+          "details": {
+            "netWeight": 35770,
+            "deduction": 180
+          }
         }
       ],
       "createdAt": "2025-11-22T07:40:25.701Z",
-      "updatedAt": "2025-11-22T08:15:39.005Z",
-      "waybillNumber": "7385"
+      "updatedAt": "2025-11-22T12:22:08.245Z",
+      "waybillNumber": "7385",
+      "netWeight": 35770,
+      "deduction": 180
     },
     {
       "id": "truck_1763807081788_0_02f1jrvd9",
@@ -23539,6 +23549,6 @@
       "updatedAt": "2025-11-22T11:39:42.964Z"
     }
   ],
-  "lastModified": "2025-11-22T11:43:17.670Z",
+  "lastModified": "2025-11-22T12:22:08.424Z",
   "version": "2.0.0"
 }
