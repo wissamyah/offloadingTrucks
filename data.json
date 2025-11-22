@@ -23433,7 +23433,7 @@
       "truckNumber": "TTD 09 YL",
       "driverName": "Tove",
       "driverPhone": "07062869862",
-      "status": "scaled_in",
+      "status": "loaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -23445,13 +23445,17 @@
           "details": {
             "waybillNumber": "7387"
           }
+        },
+        {
+          "status": "loaded",
+          "timestamp": "2025-11-22T10:19:32.885Z"
         }
       ],
       "createdAt": "2025-11-21T23:29:16.744Z",
-      "updatedAt": "2025-11-22T09:48:30.828Z",
+      "updatedAt": "2025-11-22T10:19:32.885Z",
       "waybillNumber": "7387"
     }
   ],
-  "lastModified": "2025-11-22T10:12:31.911Z",
+  "lastModified": "2025-11-22T10:19:32.979Z",
   "version": "2.0.0"
 }
