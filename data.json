@@ -23322,15 +23322,23 @@
       "bags": 170,
       "moistureLevel": 12,
       "truckNumber": "XH 192 JJN",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-11-22T07:40:25.701Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-11-22T07:49:39.313Z",
+          "details": {
+            "waybillNumber": "7382"
+          }
         }
       ],
       "createdAt": "2025-11-22T07:40:25.701Z",
-      "updatedAt": "2025-11-22T07:40:25.701Z"
+      "updatedAt": "2025-11-22T07:49:39.313Z",
+      "waybillNumber": "7382"
     },
     {
       "id": "truck_1763797225700_4_bypb1yrum",
@@ -23384,6 +23392,6 @@
       "updatedAt": "2025-11-21T23:29:16.744Z"
     }
   ],
-  "lastModified": "2025-11-22T07:47:34.321Z",
+  "lastModified": "2025-11-22T07:49:39.485Z",
   "version": "2.0.0"
 }
