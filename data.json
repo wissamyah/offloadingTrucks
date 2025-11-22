@@ -23605,7 +23605,7 @@
       "products": "600 Kwik rice 50kg",
       "truckNumber": "ABM 100 XB",
       "driverPhone": "08038598521",
-      "status": "scaled_in",
+      "status": "loaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -23617,10 +23617,14 @@
           "details": {
             "waybillNumber": "7390"
           }
+        },
+        {
+          "status": "loaded",
+          "timestamp": "2025-11-22T16:44:41.840Z"
         }
       ],
       "createdAt": "2025-11-22T12:42:58.723Z",
-      "updatedAt": "2025-11-22T13:32:13.911Z",
+      "updatedAt": "2025-11-22T16:44:41.840Z",
       "waybillNumber": "7390"
     },
     {
@@ -23680,6 +23684,6 @@
       "waybillNumber": "7391"
     }
   ],
-  "lastModified": "2025-11-22T16:44:12.222Z",
+  "lastModified": "2025-11-22T16:44:41.938Z",
   "version": "2.0.0"
 }
