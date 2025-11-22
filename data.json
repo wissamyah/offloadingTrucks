@@ -23423,6 +23423,38 @@
       "createdAt": "2025-11-22T07:40:25.701Z",
       "updatedAt": "2025-11-22T08:15:39.005Z",
       "waybillNumber": "7385"
+    },
+    {
+      "id": "truck_1763807081788_0_02f1jrvd9",
+      "supplierName": "Mukhtari Sale",
+      "bags": 550,
+      "moistureLevel": 12,
+      "truckNumber": "PKM 425 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-22T10:24:41.788Z"
+        }
+      ],
+      "createdAt": "2025-11-22T10:24:41.788Z",
+      "updatedAt": "2025-11-22T10:24:41.788Z"
+    },
+    {
+      "id": "truck_1763807081788_1_81ueuwi3q",
+      "supplierName": "Damakasu Agro Allied",
+      "bags": 505,
+      "moistureLevel": 12,
+      "truckNumber": "KRS 69 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-22T10:24:41.788Z"
+        }
+      ],
+      "createdAt": "2025-11-22T10:24:41.788Z",
+      "updatedAt": "2025-11-22T10:24:41.788Z"
     }
   ],
   "loadings": [
@@ -23456,6 +23488,6 @@
       "waybillNumber": "7387"
     }
   ],
-  "lastModified": "2025-11-22T10:19:32.979Z",
+  "lastModified": "2025-11-22T10:24:41.972Z",
   "version": "2.0.0"
 }
