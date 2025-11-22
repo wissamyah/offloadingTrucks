@@ -23595,8 +23595,23 @@
       "createdAt": "2025-11-22T12:56:19.835Z",
       "updatedAt": "2025-11-22T12:57:08.813Z",
       "waybillNumber": "7389"
+    },
+    {
+      "id": "loading_1763816965549_0_1uj57q3qm",
+      "customerName": "Cash Sales",
+      "products": "150 Sorted Broken 50kg",
+      "truckNumber": "RSH 79 XF",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-22T13:09:25.549Z"
+        }
+      ],
+      "createdAt": "2025-11-22T13:09:25.549Z",
+      "updatedAt": "2025-11-22T13:09:25.549Z"
     }
   ],
-  "lastModified": "2025-11-22T12:57:14.640Z",
+  "lastModified": "2025-11-22T13:09:25.603Z",
   "version": "2.0.0"
 }
