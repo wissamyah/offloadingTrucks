@@ -23558,7 +23558,7 @@
       "bags": 240,
       "moistureLevel": 13,
       "truckNumber": "GME 313 XB",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -23570,11 +23570,21 @@
           "details": {
             "waybillNumber": "7401"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-11-23T12:29:12.408Z",
+          "details": {
+            "netWeight": 21330,
+            "deduction": 200
+          }
         }
       ],
       "createdAt": "2025-11-23T06:55:52.838Z",
-      "updatedAt": "2025-11-23T08:25:46.613Z",
-      "waybillNumber": "7401"
+      "updatedAt": "2025-11-23T12:29:12.408Z",
+      "waybillNumber": "7401",
+      "netWeight": 21330,
+      "deduction": 200
     },
     {
       "id": "truck_1763880952838_1_c7jb5er61",
@@ -24028,6 +24038,6 @@
       "waybillNumber": "7400"
     }
   ],
-  "lastModified": "2025-11-23T11:36:31.150Z",
+  "lastModified": "2025-11-23T12:29:12.625Z",
   "version": "2.0.0"
 }
