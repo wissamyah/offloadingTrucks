@@ -23798,15 +23798,23 @@
       "bags": 375,
       "moistureLevel": 14,
       "truckNumber": "FUN 546 XA",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-11-23T06:56:45.189Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-11-23T09:33:32.023Z",
+          "details": {
+            "waybillNumber": "7403"
+          }
         }
       ],
       "createdAt": "2025-11-23T06:56:45.189Z",
-      "updatedAt": "2025-11-23T06:56:45.189Z"
+      "updatedAt": "2025-11-23T09:33:32.023Z",
+      "waybillNumber": "7403"
     }
   ],
   "loadings": [
@@ -23940,6 +23948,6 @@
       "waybillNumber": "7391"
     }
   ],
-  "lastModified": "2025-11-23T09:18:15.366Z",
+  "lastModified": "2025-11-23T09:33:32.224Z",
   "version": "2.0.0"
 }
