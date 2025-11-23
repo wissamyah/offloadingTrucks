@@ -23582,7 +23582,7 @@
       "bags": 500,
       "moistureLevel": 12,
       "truckNumber": "TRR 457 YX",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -23594,11 +23594,19 @@
           "details": {
             "waybillNumber": "7393"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-11-23T10:12:18.402Z",
+          "details": {
+            "netWeight": 35330
+          }
         }
       ],
       "createdAt": "2025-11-23T06:55:52.838Z",
-      "updatedAt": "2025-11-23T07:22:16.944Z",
-      "waybillNumber": "7393"
+      "updatedAt": "2025-11-23T10:12:18.402Z",
+      "waybillNumber": "7393",
+      "netWeight": 35330
     },
     {
       "id": "truck_1763880952838_2_vbokhpods",
@@ -23982,6 +23990,6 @@
       "waybillNumber": "7391"
     }
   ],
-  "lastModified": "2025-11-23T10:08:45.079Z",
+  "lastModified": "2025-11-23T10:12:18.597Z",
   "version": "2.0.0"
 }
