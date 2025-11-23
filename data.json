@@ -23901,6 +23901,22 @@
       "updatedAt": "2025-11-23T11:36:31.003Z",
       "waybillNumber": "7403",
       "netWeight": 32780
+    },
+    {
+      "id": "truck_1763901247384_0_3325ah06g",
+      "supplierName": "Al-Hasanaan Enterprises",
+      "bags": 260,
+      "moistureLevel": 15,
+      "truckNumber": "DTR 18 XB",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-23T12:34:07.384Z"
+        }
+      ],
+      "createdAt": "2025-11-23T12:34:07.384Z",
+      "updatedAt": "2025-11-23T12:34:07.384Z"
     }
   ],
   "loadings": [
@@ -24046,6 +24062,6 @@
       "waybillNumber": "7400"
     }
   ],
-  "lastModified": "2025-11-23T12:31:40.236Z",
+  "lastModified": "2025-11-23T12:34:07.472Z",
   "version": "2.0.0"
 }
