@@ -23662,7 +23662,7 @@
       ],
       "createdAt": "2025-11-23T06:55:52.838Z",
       "updatedAt": "2025-11-23T08:17:47.823Z",
-      "waybillNumber": "27700"
+      "waybillNumber": "7399"
     },
     {
       "id": "truck_1763880952838_4_vreffpw99",
@@ -23990,6 +23990,6 @@
       "updatedAt": "2025-11-23T10:30:59.474Z"
     }
   ],
-  "lastModified": "2025-11-23T10:31:48.714Z",
+  "lastModified": "2025-11-23T10:35:18.809Z",
   "version": "2.0.0"
 }
