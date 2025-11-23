@@ -23622,15 +23622,23 @@
       "bags": 240,
       "moistureLevel": 14,
       "truckNumber": "HJA 729 XB",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-11-23T06:55:52.838Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-11-23T08:17:47.823Z",
+          "details": {
+            "waybillNumber": "27700"
+          }
         }
       ],
       "createdAt": "2025-11-23T06:55:52.838Z",
-      "updatedAt": "2025-11-23T06:55:52.838Z"
+      "updatedAt": "2025-11-23T08:17:47.823Z",
+      "waybillNumber": "27700"
     },
     {
       "id": "truck_1763880952838_4_vreffpw99",
@@ -23908,6 +23916,6 @@
       "waybillNumber": "7391"
     }
   ],
-  "lastModified": "2025-11-23T08:15:43.838Z",
+  "lastModified": "2025-11-23T08:17:47.991Z",
   "version": "2.0.0"
 }
