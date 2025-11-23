@@ -23631,6 +23631,102 @@
       ],
       "createdAt": "2025-11-23T06:55:52.838Z",
       "updatedAt": "2025-11-23T06:55:52.838Z"
+    },
+    {
+      "id": "truck_1763881005188_0_ducpeset8",
+      "supplierName": "Idris Haruna",
+      "bags": 570,
+      "moistureLevel": 11,
+      "truckNumber": "AT 777 MKA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-23T06:56:45.188Z"
+        }
+      ],
+      "createdAt": "2025-11-23T06:56:45.188Z",
+      "updatedAt": "2025-11-23T06:56:45.188Z"
+    },
+    {
+      "id": "truck_1763881005188_1_fub40y0n0",
+      "supplierName": "Idris Haruna",
+      "bags": 550,
+      "moistureLevel": 13,
+      "truckNumber": "TRR 884 YX",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-23T06:56:45.188Z"
+        }
+      ],
+      "createdAt": "2025-11-23T06:56:45.188Z",
+      "updatedAt": "2025-11-23T06:56:45.188Z"
+    },
+    {
+      "id": "truck_1763881005188_2_0dfn90rjl",
+      "supplierName": "Idris Haruna",
+      "bags": 500,
+      "moistureLevel": 13,
+      "truckNumber": "TRR 270 YX",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-23T06:56:45.188Z"
+        }
+      ],
+      "createdAt": "2025-11-23T06:56:45.188Z",
+      "updatedAt": "2025-11-23T06:56:45.188Z"
+    },
+    {
+      "id": "truck_1763881005188_3_6o6kcraq9",
+      "supplierName": "Alh Danasabe",
+      "bags": 35,
+      "moistureLevel": 11,
+      "truckNumber": "DKU 870 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-23T06:56:45.188Z"
+        }
+      ],
+      "createdAt": "2025-11-23T06:56:45.188Z",
+      "updatedAt": "2025-11-23T06:56:45.188Z"
+    },
+    {
+      "id": "truck_1763881005188_4_op282gyli",
+      "supplierName": "Idris Garba",
+      "bags": 550,
+      "moistureLevel": 13,
+      "truckNumber": "FKY 883 ZA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-23T06:56:45.189Z"
+        }
+      ],
+      "createdAt": "2025-11-23T06:56:45.189Z",
+      "updatedAt": "2025-11-23T06:56:45.189Z"
+    },
+    {
+      "id": "truck_1763881005188_5_bitkbhvdd",
+      "supplierName": "Abubakar Muhd Tukur",
+      "bags": 375,
+      "moistureLevel": 14,
+      "truckNumber": "FUN 546 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-23T06:56:45.189Z"
+        }
+      ],
+      "createdAt": "2025-11-23T06:56:45.189Z",
+      "updatedAt": "2025-11-23T06:56:45.189Z"
     }
   ],
   "loadings": [
@@ -23764,6 +23860,6 @@
       "waybillNumber": "7391"
     }
   ],
-  "lastModified": "2025-11-23T06:55:53.052Z",
+  "lastModified": "2025-11-23T06:56:45.402Z",
   "version": "2.0.0"
 }
