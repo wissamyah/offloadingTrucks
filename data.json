@@ -23782,15 +23782,23 @@
       "bags": 550,
       "moistureLevel": 13,
       "truckNumber": "FKY 883 ZA",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-11-23T06:56:45.189Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-11-23T09:37:05.517Z",
+          "details": {
+            "waybillNumber": "7404"
+          }
         }
       ],
       "createdAt": "2025-11-23T06:56:45.189Z",
-      "updatedAt": "2025-11-23T06:56:45.189Z"
+      "updatedAt": "2025-11-23T09:37:05.517Z",
+      "waybillNumber": "7404"
     },
     {
       "id": "truck_1763881005188_5_bitkbhvdd",
@@ -23948,6 +23956,6 @@
       "waybillNumber": "7391"
     }
   ],
-  "lastModified": "2025-11-23T09:33:32.224Z",
+  "lastModified": "2025-11-23T09:37:05.695Z",
   "version": "2.0.0"
 }
