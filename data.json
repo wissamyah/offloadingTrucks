@@ -23715,7 +23715,7 @@
     {
       "id": "truck_1763881005188_1_fub40y0n0",
       "supplierName": "Idris Haruna",
-      "bags": 550,
+      "bags": 486,
       "moistureLevel": 13,
       "truckNumber": "TRR 884 YX",
       "status": "offloaded",
@@ -23982,6 +23982,6 @@
       "waybillNumber": "7391"
     }
   ],
-  "lastModified": "2025-11-23T10:08:29.211Z",
+  "lastModified": "2025-11-23T10:08:45.079Z",
   "version": "2.0.0"
 }
