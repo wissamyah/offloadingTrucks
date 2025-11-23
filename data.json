@@ -23643,7 +23643,7 @@
     {
       "id": "truck_1763880952838_3_9zebwjmeq",
       "supplierName": "Mukhtari Sale",
-      "bags": 240,
+      "bags": 152,
       "moistureLevel": 14,
       "truckNumber": "HJA 729 XB",
       "status": "scaled_in",
@@ -24002,6 +24002,6 @@
       "waybillNumber": "7400"
     }
   ],
-  "lastModified": "2025-11-23T10:36:15.000Z",
+  "lastModified": "2025-11-23T11:14:29.373Z",
   "version": "2.0.0"
 }
