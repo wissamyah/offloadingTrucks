@@ -23758,7 +23758,7 @@
       "bags": 35,
       "moistureLevel": 11,
       "truckNumber": "DKU 870 XA",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -23770,11 +23770,19 @@
           "details": {
             "waybillNumber": "7398"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-11-23T09:50:17.846Z",
+          "details": {
+            "netWeight": 2790
+          }
         }
       ],
       "createdAt": "2025-11-23T06:56:45.188Z",
-      "updatedAt": "2025-11-23T08:15:42.402Z",
-      "waybillNumber": "7398"
+      "updatedAt": "2025-11-23T09:50:17.846Z",
+      "waybillNumber": "7398",
+      "netWeight": 2790
     },
     {
       "id": "truck_1763881005188_4_op282gyli",
@@ -23956,6 +23964,6 @@
       "waybillNumber": "7391"
     }
   ],
-  "lastModified": "2025-11-23T09:37:05.695Z",
+  "lastModified": "2025-11-23T09:50:18.122Z",
   "version": "2.0.0"
 }
