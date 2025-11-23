@@ -23979,7 +23979,7 @@
       "products": "200 Kwik rice 50kg\n200 Kwik rice 25kg",
       "truckNumber": "JJN 637 XC",
       "driverPhone": "08069124400",
-      "status": "scaled_in",
+      "status": "loaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -23991,13 +23991,17 @@
           "details": {
             "waybillNumber": "7400"
           }
+        },
+        {
+          "status": "loaded",
+          "timestamp": "2025-11-23T10:36:14.053Z"
         }
       ],
       "createdAt": "2025-11-23T10:30:59.474Z",
-      "updatedAt": "2025-11-23T10:36:08.129Z",
+      "updatedAt": "2025-11-23T10:36:14.053Z",
       "waybillNumber": "7400"
     }
   ],
-  "lastModified": "2025-11-23T10:36:08.240Z",
+  "lastModified": "2025-11-23T10:36:15.000Z",
   "version": "2.0.0"
 }
