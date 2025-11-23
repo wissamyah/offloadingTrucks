@@ -23916,7 +23916,7 @@
       "bags": 260,
       "moistureLevel": 15,
       "truckNumber": "DTR 18 XB",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -23928,11 +23928,21 @@
           "details": {
             "waybillNumber": "7405"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-11-23T13:44:25.765Z",
+          "details": {
+            "netWeight": 22710,
+            "deduction": 180
+          }
         }
       ],
       "createdAt": "2025-11-23T12:34:07.384Z",
-      "updatedAt": "2025-11-23T12:59:55.356Z",
-      "waybillNumber": "7405"
+      "updatedAt": "2025-11-23T13:44:25.765Z",
+      "waybillNumber": "7405",
+      "netWeight": 22710,
+      "deduction": 180
     }
   ],
   "loadings": [
@@ -24078,6 +24088,6 @@
       "waybillNumber": "7400"
     }
   ],
-  "lastModified": "2025-11-23T13:00:13.303Z",
+  "lastModified": "2025-11-23T13:44:25.965Z",
   "version": "2.0.0"
 }
