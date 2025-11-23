@@ -23551,6 +23551,86 @@
       "waybillNumber": "7392",
       "netWeight": 40950,
       "deduction": 150
+    },
+    {
+      "id": "truck_1763880952838_0_5w3xg5qqu",
+      "supplierName": "Mukhtari Sale",
+      "bags": 240,
+      "moistureLevel": 13,
+      "truckNumber": "GME 313 XB",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-23T06:55:52.838Z"
+        }
+      ],
+      "createdAt": "2025-11-23T06:55:52.838Z",
+      "updatedAt": "2025-11-23T06:55:52.838Z"
+    },
+    {
+      "id": "truck_1763880952838_1_c7jb5er61",
+      "supplierName": "Idris Haruna",
+      "bags": 500,
+      "moistureLevel": 12,
+      "truckNumber": "TRR 457 YX",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-23T06:55:52.838Z"
+        }
+      ],
+      "createdAt": "2025-11-23T06:55:52.838Z",
+      "updatedAt": "2025-11-23T06:55:52.838Z"
+    },
+    {
+      "id": "truck_1763880952838_2_vbokhpods",
+      "supplierName": "Jamilu Yahaya",
+      "bags": 85,
+      "moistureLevel": 13,
+      "truckNumber": "GRU 07 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-23T06:55:52.838Z"
+        }
+      ],
+      "createdAt": "2025-11-23T06:55:52.838Z",
+      "updatedAt": "2025-11-23T06:55:52.838Z"
+    },
+    {
+      "id": "truck_1763880952838_3_9zebwjmeq",
+      "supplierName": "Mukhtari Sale",
+      "bags": 240,
+      "moistureLevel": 14,
+      "truckNumber": "HJA 729 XB",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-23T06:55:52.838Z"
+        }
+      ],
+      "createdAt": "2025-11-23T06:55:52.838Z",
+      "updatedAt": "2025-11-23T06:55:52.838Z"
+    },
+    {
+      "id": "truck_1763880952838_4_vreffpw99",
+      "supplierName": "Idris Garba",
+      "bags": 550,
+      "moistureLevel": 14,
+      "truckNumber": "FGE 504 XB",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-23T06:55:52.838Z"
+        }
+      ],
+      "createdAt": "2025-11-23T06:55:52.838Z",
+      "updatedAt": "2025-11-23T06:55:52.838Z"
     }
   ],
   "loadings": [
@@ -23684,6 +23764,6 @@
       "waybillNumber": "7391"
     }
   ],
-  "lastModified": "2025-11-22T16:44:41.938Z",
+  "lastModified": "2025-11-23T06:55:53.052Z",
   "version": "2.0.0"
 }
