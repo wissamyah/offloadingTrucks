@@ -23630,15 +23630,23 @@
       "bags": 550,
       "moistureLevel": 14,
       "truckNumber": "FGE 504 XB",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-11-23T06:55:52.838Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-11-23T07:27:57.206Z",
+          "details": {
+            "waybillNumber": "7395"
+          }
         }
       ],
       "createdAt": "2025-11-23T06:55:52.838Z",
-      "updatedAt": "2025-11-23T06:55:52.838Z"
+      "updatedAt": "2025-11-23T07:27:57.206Z",
+      "waybillNumber": "7395"
     },
     {
       "id": "truck_1763881005188_0_ducpeset8",
@@ -23876,6 +23884,6 @@
       "waybillNumber": "7391"
     }
   ],
-  "lastModified": "2025-11-23T07:24:53.567Z",
+  "lastModified": "2025-11-23T07:27:58.500Z",
   "version": "2.0.0"
 }
