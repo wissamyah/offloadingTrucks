@@ -23598,15 +23598,23 @@
       "bags": 85,
       "moistureLevel": 13,
       "truckNumber": "GRU 07 XA",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-11-23T06:55:52.838Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-11-23T08:13:21.936Z",
+          "details": {
+            "waybillNumber": "7397"
+          }
         }
       ],
       "createdAt": "2025-11-23T06:55:52.838Z",
-      "updatedAt": "2025-11-23T06:55:52.838Z"
+      "updatedAt": "2025-11-23T08:13:21.936Z",
+      "waybillNumber": "7397"
     },
     {
       "id": "truck_1763880952838_3_9zebwjmeq",
@@ -23892,6 +23900,6 @@
       "waybillNumber": "7391"
     }
   ],
-  "lastModified": "2025-11-23T07:32:16.406Z",
+  "lastModified": "2025-11-23T08:13:22.136Z",
   "version": "2.0.0"
 }
