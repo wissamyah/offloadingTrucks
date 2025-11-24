@@ -24158,7 +24158,7 @@
       "bags": 250,
       "moistureLevel": 15,
       "truckNumber": "DAL 394 YY",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -24170,11 +24170,21 @@
           "details": {
             "waybillNumber": "7410"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-11-24T11:02:17.162Z",
+          "details": {
+            "netWeight": 18710,
+            "deduction": 75
+          }
         }
       ],
       "createdAt": "2025-11-24T07:41:37.919Z",
-      "updatedAt": "2025-11-24T08:39:56.087Z",
-      "waybillNumber": "7410"
+      "updatedAt": "2025-11-24T11:02:17.162Z",
+      "waybillNumber": "7410",
+      "netWeight": 18710,
+      "deduction": 75
     }
   ],
   "loadings": [
@@ -24366,6 +24376,6 @@
       "waybillNumber": "7415"
     }
   ],
-  "lastModified": "2025-11-24T10:47:46.524Z",
+  "lastModified": "2025-11-24T11:02:17.361Z",
   "version": "2.0.0"
 }
