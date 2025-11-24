@@ -23950,7 +23950,7 @@
       "bags": 250,
       "moistureLevel": 12,
       "truckNumber": "FKA 823 XA",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -23962,11 +23962,19 @@
           "details": {
             "waybillNumber": "7411"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-11-24T10:14:29.273Z",
+          "details": {
+            "netWeight": 12560
+          }
         }
       ],
       "createdAt": "2025-11-24T07:40:28.611Z",
-      "updatedAt": "2025-11-24T08:54:56.144Z",
-      "waybillNumber": "7411"
+      "updatedAt": "2025-11-24T10:14:29.273Z",
+      "waybillNumber": "7411",
+      "netWeight": 12560
     },
     {
       "id": "truck_1763970028611_1_w7u34saj4",
@@ -24335,6 +24343,6 @@
       "waybillNumber": "7413"
     }
   ],
-  "lastModified": "2025-11-24T09:42:21.049Z",
+  "lastModified": "2025-11-24T10:14:29.468Z",
   "version": "2.0.0"
 }
