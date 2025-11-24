@@ -24480,8 +24480,24 @@
       "createdAt": "2025-11-24T10:47:34.835Z",
       "updatedAt": "2025-11-24T11:36:03.999Z",
       "waybillNumber": "7415"
+    },
+    {
+      "id": "loading_1763993265579_0_auapiemrk",
+      "customerName": "Cash sales",
+      "products": "150 Sorted Broken 50kg",
+      "truckNumber": "KMC 879 XA",
+      "driverPhone": "09166926444",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-24T14:07:45.579Z"
+        }
+      ],
+      "createdAt": "2025-11-24T14:07:45.579Z",
+      "updatedAt": "2025-11-24T14:07:45.579Z"
     }
   ],
-  "lastModified": "2025-11-24T14:05:19.673Z",
+  "lastModified": "2025-11-24T14:07:45.692Z",
   "version": "2.0.0"
 }
