@@ -24110,15 +24110,23 @@
       "bags": 509,
       "moistureLevel": 15,
       "truckNumber": "FKY 315 XB",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-11-24T07:40:28.611Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-11-24T12:35:49.985Z",
+          "details": {
+            "waybillNumber": "7416"
+          }
         }
       ],
       "createdAt": "2025-11-24T07:40:28.611Z",
-      "updatedAt": "2025-11-24T07:40:28.611Z"
+      "updatedAt": "2025-11-24T12:35:49.985Z",
+      "waybillNumber": "7416"
     },
     {
       "id": "truck_1763970097919_0_x0hei61jy",
@@ -24384,6 +24392,6 @@
       "waybillNumber": "7415"
     }
   ],
-  "lastModified": "2025-11-24T12:34:06.918Z",
+  "lastModified": "2025-11-24T12:35:50.165Z",
   "version": "2.0.0"
 }
