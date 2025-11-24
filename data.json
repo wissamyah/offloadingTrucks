@@ -24250,7 +24250,7 @@
       "bags": 450,
       "moistureLevel": 12,
       "truckNumber": "BKK 353 XA",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -24262,11 +24262,21 @@
           "details": {
             "waybillNumber": "7418"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-11-24T15:40:56.115Z",
+          "details": {
+            "netWeight": 35210,
+            "deduction": 300
+          }
         }
       ],
       "createdAt": "2025-11-24T13:57:31.082Z",
-      "updatedAt": "2025-11-24T14:05:19.490Z",
-      "waybillNumber": "7418"
+      "updatedAt": "2025-11-24T15:40:56.115Z",
+      "waybillNumber": "7418",
+      "netWeight": 35210,
+      "deduction": 300
     },
     {
       "id": "truck_1763992651081_2_m6b0f5097",
@@ -24514,6 +24524,6 @@
       "waybillNumber": "7419"
     }
   ],
-  "lastModified": "2025-11-24T15:40:12.691Z",
+  "lastModified": "2025-11-24T15:40:56.320Z",
   "version": "2.0.0"
 }
