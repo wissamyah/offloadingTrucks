@@ -210,7 +210,7 @@ export const TruckTable: React.FC<TruckTableProps> = ({
   const handleCopyTruckDetails = async (truck: Truck) => {
     const netWeight = truck.netWeight || 0;
     const deduction = truck.deduction || 0;
-    const weightInTons = ((netWeight - deduction) / 1000).toFixed(2);
+    const weightInTons = ((netWeight - deduction) / 1000).toFixed(3);
     
     let formattedText = `${truck.supplierName}-${truck.truckNumber}-${truck.bags} Bags-${weightInTons} tons PADDY`;
     
