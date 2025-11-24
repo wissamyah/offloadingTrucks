@@ -24487,17 +24487,25 @@
       "products": "150 Sorted Broken 50kg",
       "truckNumber": "KMC 879 XA",
       "driverPhone": "09166926444",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-11-24T14:07:45.579Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-11-24T14:07:57.243Z",
+          "details": {
+            "waybillNumber": "7419"
+          }
         }
       ],
       "createdAt": "2025-11-24T14:07:45.579Z",
-      "updatedAt": "2025-11-24T14:07:45.579Z"
+      "updatedAt": "2025-11-24T14:07:57.243Z",
+      "waybillNumber": "7419"
     }
   ],
-  "lastModified": "2025-11-24T14:07:45.692Z",
+  "lastModified": "2025-11-24T14:07:58.468Z",
   "version": "2.0.0"
 }
