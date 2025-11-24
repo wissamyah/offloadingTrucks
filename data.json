@@ -24226,15 +24226,23 @@
       "bags": 509,
       "moistureLevel": 12,
       "truckNumber": "RSH 577 XB",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-11-24T13:57:31.082Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-11-24T14:00:21.453Z",
+          "details": {
+            "waybillNumber": "7417"
+          }
         }
       ],
       "createdAt": "2025-11-24T13:57:31.082Z",
-      "updatedAt": "2025-11-24T13:57:31.082Z"
+      "updatedAt": "2025-11-24T14:00:21.454Z",
+      "waybillNumber": "7417"
     },
     {
       "id": "truck_1763992651081_1_y2qcna5u4",
@@ -24466,6 +24474,6 @@
       "waybillNumber": "7415"
     }
   ],
-  "lastModified": "2025-11-24T13:57:31.324Z",
+  "lastModified": "2025-11-24T14:00:21.696Z",
   "version": "2.0.0"
 }
