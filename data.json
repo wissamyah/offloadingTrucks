@@ -24086,15 +24086,23 @@
       "bags": 90,
       "moistureLevel": 13,
       "truckNumber": "KTU 65 YF",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-11-24T07:41:37.919Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-11-24T08:35:18.857Z",
+          "details": {
+            "waybillNumber": "7409"
+          }
         }
       ],
       "createdAt": "2025-11-24T07:41:37.919Z",
-      "updatedAt": "2025-11-24T07:41:37.919Z"
+      "updatedAt": "2025-11-24T08:35:18.858Z",
+      "waybillNumber": "7409"
     },
     {
       "id": "truck_1763970097919_1_wclhi27iw",
@@ -24256,6 +24264,6 @@
       "waybillNumber": "7400"
     }
   ],
-  "lastModified": "2025-11-24T08:02:01.688Z",
+  "lastModified": "2025-11-24T08:35:19.045Z",
   "version": "2.0.0"
 }
