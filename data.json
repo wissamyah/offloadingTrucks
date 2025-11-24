@@ -23947,7 +23947,7 @@
     {
       "id": "truck_1763970028611_0_3xp0vmxd1",
       "supplierName": "Habibu Isa",
-      "bags": 250,
+      "bags": 180,
       "moistureLevel": 12,
       "truckNumber": "FKA 823 XA",
       "status": "offloaded",
@@ -24343,6 +24343,6 @@
       "waybillNumber": "7413"
     }
   ],
-  "lastModified": "2025-11-24T10:14:29.468Z",
+  "lastModified": "2025-11-24T10:17:12.167Z",
   "version": "2.0.0"
 }
