@@ -24274,15 +24274,19 @@
       "bags": 250,
       "moistureLevel": 19,
       "truckNumber": "TRN 977 ZY",
-      "status": "pending",
+      "status": "rejected",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-11-24T13:57:31.082Z"
+        },
+        {
+          "status": "rejected",
+          "timestamp": "2025-11-24T15:30:54.657Z"
         }
       ],
       "createdAt": "2025-11-24T13:57:31.082Z",
-      "updatedAt": "2025-11-24T13:57:31.082Z"
+      "updatedAt": "2025-11-24T15:30:54.658Z"
     }
   ],
   "loadings": [
@@ -24506,6 +24510,6 @@
       "waybillNumber": "7419"
     }
   ],
-  "lastModified": "2025-11-24T14:07:58.468Z",
+  "lastModified": "2025-11-24T15:30:55.714Z",
   "version": "2.0.0"
 }
