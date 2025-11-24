@@ -24078,7 +24078,7 @@
       "bags": 500,
       "moistureLevel": 13,
       "truckNumber": "BLG 604 XA",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -24090,11 +24090,21 @@
           "details": {
             "waybillNumber": "7412"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-11-24T16:30:26.119Z",
+          "details": {
+            "netWeight": 37750,
+            "deduction": 130
+          }
         }
       ],
       "createdAt": "2025-11-24T07:40:28.611Z",
-      "updatedAt": "2025-11-24T09:31:46.228Z",
-      "waybillNumber": "7412"
+      "updatedAt": "2025-11-24T16:30:26.119Z",
+      "waybillNumber": "7412",
+      "netWeight": 37750,
+      "deduction": 130
     },
     {
       "id": "truck_1763970028611_5_cc9jbr9ux",
@@ -24524,6 +24534,6 @@
       "waybillNumber": "7419"
     }
   ],
-  "lastModified": "2025-11-24T15:40:56.320Z",
+  "lastModified": "2025-11-24T16:30:26.346Z",
   "version": "2.0.0"
 }
