@@ -23943,6 +23943,118 @@
       "waybillNumber": "7405",
       "netWeight": 22710,
       "deduction": 180
+    },
+    {
+      "id": "truck_1763970028611_0_3xp0vmxd1",
+      "supplierName": "Habibu Isa",
+      "bags": 250,
+      "moistureLevel": 12,
+      "truckNumber": "FKA 823 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-24T07:40:28.611Z"
+        }
+      ],
+      "createdAt": "2025-11-24T07:40:28.611Z",
+      "updatedAt": "2025-11-24T07:40:28.611Z"
+    },
+    {
+      "id": "truck_1763970028611_1_w7u34saj4",
+      "supplierName": "Hassan",
+      "bags": 158,
+      "moistureLevel": 13,
+      "truckNumber": "FKA 823 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-24T07:40:28.611Z"
+        }
+      ],
+      "createdAt": "2025-11-24T07:40:28.611Z",
+      "updatedAt": "2025-11-24T07:40:28.611Z"
+    },
+    {
+      "id": "truck_1763970028611_2_4850k8gk2",
+      "supplierName": "Idris Haruna",
+      "bags": 640,
+      "moistureLevel": 12,
+      "truckNumber": "BAU 241 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-24T07:40:28.611Z"
+        }
+      ],
+      "createdAt": "2025-11-24T07:40:28.611Z",
+      "updatedAt": "2025-11-24T07:40:28.611Z"
+    },
+    {
+      "id": "truck_1763970028611_3_k0v1zwbu7",
+      "supplierName": "Idris Haruna",
+      "bags": 591,
+      "moistureLevel": 12,
+      "truckNumber": "KTN 488 XQ",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-24T07:40:28.611Z"
+        }
+      ],
+      "createdAt": "2025-11-24T07:40:28.611Z",
+      "updatedAt": "2025-11-24T07:40:28.611Z"
+    },
+    {
+      "id": "truck_1763970028611_4_fxl100378",
+      "supplierName": "Idris Haruna",
+      "bags": 500,
+      "moistureLevel": 13,
+      "truckNumber": "BLG 604 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-24T07:40:28.611Z"
+        }
+      ],
+      "createdAt": "2025-11-24T07:40:28.611Z",
+      "updatedAt": "2025-11-24T07:40:28.611Z"
+    },
+    {
+      "id": "truck_1763970028611_5_cc9jbr9ux",
+      "supplierName": "Idris Haruna",
+      "bags": 240,
+      "moistureLevel": 12,
+      "truckNumber": "AT 777 MKA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-24T07:40:28.611Z"
+        }
+      ],
+      "createdAt": "2025-11-24T07:40:28.611Z",
+      "updatedAt": "2025-11-24T07:40:28.611Z"
+    },
+    {
+      "id": "truck_1763970028611_6_xq6nrkqwz",
+      "supplierName": "Idris Haruna",
+      "bags": 509,
+      "moistureLevel": 15,
+      "truckNumber": "FKY 315 XB",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-24T07:40:28.611Z"
+        }
+      ],
+      "createdAt": "2025-11-24T07:40:28.611Z",
+      "updatedAt": "2025-11-24T07:40:28.611Z"
     }
   ],
   "loadings": [
@@ -24088,6 +24200,6 @@
       "waybillNumber": "7400"
     }
   ],
-  "lastModified": "2025-11-23T13:44:25.965Z",
+  "lastModified": "2025-11-24T07:40:28.837Z",
   "version": "2.0.0"
 }
