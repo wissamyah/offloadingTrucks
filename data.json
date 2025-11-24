@@ -24219,6 +24219,54 @@
       "waybillNumber": "7410",
       "netWeight": 18710,
       "deduction": 75
+    },
+    {
+      "id": "truck_1763992651081_0_zpurauusq",
+      "supplierName": "Aminu Musa Bujawa",
+      "bags": 509,
+      "moistureLevel": 12,
+      "truckNumber": "RSH 577 XB",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-24T13:57:31.082Z"
+        }
+      ],
+      "createdAt": "2025-11-24T13:57:31.082Z",
+      "updatedAt": "2025-11-24T13:57:31.082Z"
+    },
+    {
+      "id": "truck_1763992651081_1_y2qcna5u4",
+      "supplierName": "Alh Dayyabu",
+      "bags": 450,
+      "moistureLevel": 12,
+      "truckNumber": "BKK 353 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-24T13:57:31.082Z"
+        }
+      ],
+      "createdAt": "2025-11-24T13:57:31.082Z",
+      "updatedAt": "2025-11-24T13:57:31.082Z"
+    },
+    {
+      "id": "truck_1763992651081_2_m6b0f5097",
+      "supplierName": "Jamilu Yahaya",
+      "bags": 250,
+      "moistureLevel": 19,
+      "truckNumber": "TRN 977 ZY",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-24T13:57:31.082Z"
+        }
+      ],
+      "createdAt": "2025-11-24T13:57:31.082Z",
+      "updatedAt": "2025-11-24T13:57:31.082Z"
     }
   ],
   "loadings": [
@@ -24418,6 +24466,6 @@
       "waybillNumber": "7415"
     }
   ],
-  "lastModified": "2025-11-24T12:52:11.730Z",
+  "lastModified": "2025-11-24T13:57:31.324Z",
   "version": "2.0.0"
 }
