@@ -24316,17 +24316,25 @@
       "customerName": "Cash sale",
       "products": "50 bags cuscus b 50kgs",
       "truckNumber": "BDG 315 XG",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-11-24T09:41:58.988Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-11-24T09:42:19.909Z",
+          "details": {
+            "waybillNumber": "7413"
+          }
         }
       ],
       "createdAt": "2025-11-24T09:41:58.988Z",
-      "updatedAt": "2025-11-24T09:41:58.988Z"
+      "updatedAt": "2025-11-24T09:42:19.909Z",
+      "waybillNumber": "7413"
     }
   ],
-  "lastModified": "2025-11-24T09:41:59.090Z",
+  "lastModified": "2025-11-24T09:42:21.049Z",
   "version": "2.0.0"
 }
