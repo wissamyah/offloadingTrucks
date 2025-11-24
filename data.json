@@ -24055,6 +24055,38 @@
       ],
       "createdAt": "2025-11-24T07:40:28.611Z",
       "updatedAt": "2025-11-24T07:40:28.611Z"
+    },
+    {
+      "id": "truck_1763970097919_0_x0hei61jy",
+      "supplierName": "Idris Haruna",
+      "bags": 90,
+      "moistureLevel": 13,
+      "truckNumber": "KTU 65 YF",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-24T07:41:37.919Z"
+        }
+      ],
+      "createdAt": "2025-11-24T07:41:37.919Z",
+      "updatedAt": "2025-11-24T07:41:37.919Z"
+    },
+    {
+      "id": "truck_1763970097919_1_wclhi27iw",
+      "supplierName": "Sabiu Yusif",
+      "bags": 250,
+      "moistureLevel": 15,
+      "truckNumber": "DAL 394 YY",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-24T07:41:37.919Z"
+        }
+      ],
+      "createdAt": "2025-11-24T07:41:37.919Z",
+      "updatedAt": "2025-11-24T07:41:37.919Z"
     }
   ],
   "loadings": [
@@ -24200,6 +24232,6 @@
       "waybillNumber": "7400"
     }
   ],
-  "lastModified": "2025-11-24T07:40:28.837Z",
+  "lastModified": "2025-11-24T07:41:38.119Z",
   "version": "2.0.0"
 }
