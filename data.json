@@ -24438,7 +24438,7 @@
       "bags": 500,
       "moistureLevel": 13,
       "truckNumber": "GWA 295 YE",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -24450,11 +24450,21 @@
           "details": {
             "waybillNumber": "7424"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-11-25T11:35:45.497Z",
+          "details": {
+            "netWeight": 37020,
+            "deduction": 180
+          }
         }
       ],
       "createdAt": "2025-11-25T07:42:56.411Z",
-      "updatedAt": "2025-11-25T08:17:22.467Z",
-      "waybillNumber": "7424"
+      "updatedAt": "2025-11-25T11:35:45.497Z",
+      "waybillNumber": "7424",
+      "netWeight": 37020,
+      "deduction": 180
     },
     {
       "id": "truck_1764056576411_2_44vabqt2e",
@@ -24751,6 +24761,6 @@
       "updatedAt": "2025-11-25T09:45:17.727Z"
     }
   ],
-  "lastModified": "2025-11-25T10:59:11.038Z",
+  "lastModified": "2025-11-25T11:35:45.697Z",
   "version": "2.0.0"
 }
