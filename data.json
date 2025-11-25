@@ -24710,8 +24710,25 @@
       ],
       "createdAt": "2025-11-25T09:44:58.051Z",
       "updatedAt": "2025-11-25T09:44:58.051Z"
+    },
+    {
+      "id": "loading_1764063917727_0_2359t1tmb",
+      "customerName": "Bletake global",
+      "products": "200 Kwik rice 50kg\n50 Kwik rice 25kg",
+      "truckNumber": "BCH 252 ZY",
+      "driverName": "BANNA",
+      "driverPhone": "08108733988",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-25T09:45:17.727Z"
+        }
+      ],
+      "createdAt": "2025-11-25T09:45:17.727Z",
+      "updatedAt": "2025-11-25T09:45:17.727Z"
     }
   ],
-  "lastModified": "2025-11-25T09:44:58.202Z",
+  "lastModified": "2025-11-25T09:45:17.840Z",
   "version": "2.0.0"
 }
