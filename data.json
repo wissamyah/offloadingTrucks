@@ -24514,15 +24514,23 @@
       "bags": 500,
       "moistureLevel": 15,
       "truckNumber": "MKA 885 XC",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-11-25T12:58:27.984Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-11-25T13:00:02.745Z",
+          "details": {
+            "waybillNumber": "7427"
+          }
         }
       ],
       "createdAt": "2025-11-25T12:58:27.985Z",
-      "updatedAt": "2025-11-25T12:58:27.985Z"
+      "updatedAt": "2025-11-25T13:00:02.745Z",
+      "waybillNumber": "7427"
     }
   ],
   "loadings": [
@@ -24795,6 +24803,6 @@
       "updatedAt": "2025-11-25T09:45:17.727Z"
     }
   ],
-  "lastModified": "2025-11-25T12:58:28.201Z",
+  "lastModified": "2025-11-25T13:00:02.943Z",
   "version": "2.0.0"
 }
