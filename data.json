@@ -24381,6 +24381,54 @@
       "createdAt": "2025-11-25T07:41:05.658Z",
       "updatedAt": "2025-11-25T07:42:24.120Z",
       "waybillNumber": "7420"
+    },
+    {
+      "id": "truck_1764056576411_0_nft0rye0v",
+      "supplierName": "Addau Isyaku",
+      "bags": 500,
+      "moistureLevel": 13,
+      "truckNumber": "KRS 43 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-25T07:42:56.411Z"
+        }
+      ],
+      "createdAt": "2025-11-25T07:42:56.411Z",
+      "updatedAt": "2025-11-25T07:42:56.411Z"
+    },
+    {
+      "id": "truck_1764056576411_1_4uj6cbrda",
+      "supplierName": "Al Hassanan",
+      "bags": 500,
+      "moistureLevel": 13,
+      "truckNumber": "GWA 295 YE",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-25T07:42:56.411Z"
+        }
+      ],
+      "createdAt": "2025-11-25T07:42:56.411Z",
+      "updatedAt": "2025-11-25T07:42:56.411Z"
+    },
+    {
+      "id": "truck_1764056576411_2_44vabqt2e",
+      "supplierName": "Abubakar Muhd Tukur",
+      "bags": 425,
+      "moistureLevel": 13,
+      "truckNumber": "PKM 425 ZY",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-25T07:42:56.411Z"
+        }
+      ],
+      "createdAt": "2025-11-25T07:42:56.411Z",
+      "updatedAt": "2025-11-25T07:42:56.411Z"
     }
   ],
   "loadings": [
@@ -24608,6 +24656,6 @@
       "waybillNumber": "7419"
     }
   ],
-  "lastModified": "2025-11-25T07:42:24.326Z",
+  "lastModified": "2025-11-25T07:42:56.632Z",
   "version": "2.0.0"
 }
