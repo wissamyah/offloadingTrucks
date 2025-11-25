@@ -24711,7 +24711,7 @@
       "products": "200 Kwik rice 50kg\n100 Oga rice 50kg",
       "truckNumber": "KMC 181 YK",
       "driverPhone": "07064316875",
-      "status": "scaled_in",
+      "status": "loaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -24723,10 +24723,14 @@
           "details": {
             "waybillNumber": "7426"
           }
+        },
+        {
+          "status": "loaded",
+          "timestamp": "2025-11-25T10:59:10.950Z"
         }
       ],
       "createdAt": "2025-11-25T09:44:58.051Z",
-      "updatedAt": "2025-11-25T09:47:14.015Z",
+      "updatedAt": "2025-11-25T10:59:10.950Z",
       "waybillNumber": "7426"
     },
     {
@@ -24747,6 +24751,6 @@
       "updatedAt": "2025-11-25T09:45:17.727Z"
     }
   ],
-  "lastModified": "2025-11-25T09:54:09.553Z",
+  "lastModified": "2025-11-25T10:59:11.038Z",
   "version": "2.0.0"
 }
