@@ -24500,7 +24500,7 @@
       "bags": 425,
       "moistureLevel": 13,
       "truckNumber": "PKM 425 ZY",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -24512,11 +24512,21 @@
           "details": {
             "waybillNumber": "7425"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-11-25T15:26:16.475Z",
+          "details": {
+            "netWeight": 36810,
+            "deduction": 240
+          }
         }
       ],
       "createdAt": "2025-11-25T07:42:56.411Z",
-      "updatedAt": "2025-11-25T08:21:54.676Z",
-      "waybillNumber": "7425"
+      "updatedAt": "2025-11-25T15:26:16.475Z",
+      "waybillNumber": "7425",
+      "netWeight": 36810,
+      "deduction": 240
     },
     {
       "id": "truck_1764075507983_0_kjoe31exj",
@@ -24813,6 +24823,6 @@
       "updatedAt": "2025-11-25T09:45:17.727Z"
     }
   ],
-  "lastModified": "2025-11-25T13:17:31.200Z",
+  "lastModified": "2025-11-25T15:26:16.704Z",
   "version": "2.0.0"
 }
