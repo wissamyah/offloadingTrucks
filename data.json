@@ -24404,15 +24404,23 @@
       "bags": 500,
       "moistureLevel": 13,
       "truckNumber": "KRS 43 XA",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-11-25T07:42:56.411Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-11-25T08:22:35.149Z",
+          "details": {
+            "waybillNumber": "7423"
+          }
         }
       ],
       "createdAt": "2025-11-25T07:42:56.411Z",
-      "updatedAt": "2025-11-25T07:42:56.411Z"
+      "updatedAt": "2025-11-25T08:22:35.149Z",
+      "waybillNumber": "7423"
     },
     {
       "id": "truck_1764056576411_1_4uj6cbrda",
@@ -24688,6 +24696,6 @@
       "waybillNumber": "7419"
     }
   ],
-  "lastModified": "2025-11-25T08:21:55.772Z",
+  "lastModified": "2025-11-25T08:22:35.327Z",
   "version": "2.0.0"
 }
