@@ -24380,7 +24380,7 @@
       "bags": 167,
       "moistureLevel": 15,
       "truckNumber": "KTG 188 XB",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -24392,11 +24392,21 @@
           "details": {
             "waybillNumber": "7420"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-11-25T09:54:09.330Z",
+          "details": {
+            "netWeight": 15140,
+            "deduction": 100
+          }
         }
       ],
       "createdAt": "2025-11-25T07:41:05.658Z",
-      "updatedAt": "2025-11-25T07:42:24.120Z",
-      "waybillNumber": "7420"
+      "updatedAt": "2025-11-25T09:54:09.330Z",
+      "waybillNumber": "7420",
+      "netWeight": 15140,
+      "deduction": 100
     },
     {
       "id": "truck_1764056576411_0_nft0rye0v",
@@ -24737,6 +24747,6 @@
       "updatedAt": "2025-11-25T09:45:17.727Z"
     }
   ],
-  "lastModified": "2025-11-25T09:47:14.160Z",
+  "lastModified": "2025-11-25T09:54:09.553Z",
   "version": "2.0.0"
 }
