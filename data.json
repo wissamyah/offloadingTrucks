@@ -24507,6 +24507,22 @@
       "createdAt": "2025-11-25T07:42:56.411Z",
       "updatedAt": "2025-11-25T08:21:54.676Z",
       "waybillNumber": "7425"
+    },
+    {
+      "id": "truck_1764075507983_0_kjoe31exj",
+      "supplierName": "Alh Bashir",
+      "bags": 500,
+      "moistureLevel": 15,
+      "truckNumber": "MKA 885 XC",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-25T12:58:27.984Z"
+        }
+      ],
+      "createdAt": "2025-11-25T12:58:27.985Z",
+      "updatedAt": "2025-11-25T12:58:27.985Z"
     }
   ],
   "loadings": [
@@ -24779,6 +24795,6 @@
       "updatedAt": "2025-11-25T09:45:17.727Z"
     }
   ],
-  "lastModified": "2025-11-25T12:52:16.305Z",
+  "lastModified": "2025-11-25T12:58:28.201Z",
   "version": "2.0.0"
 }
