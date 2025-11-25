@@ -24356,15 +24356,23 @@
       "bags": 462,
       "moistureLevel": 12,
       "truckNumber": "BAU 998 XR",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-11-25T07:41:05.658Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-11-25T07:49:31.047Z",
+          "details": {
+            "waybillNumber": "7422"
+          }
         }
       ],
       "createdAt": "2025-11-25T07:41:05.658Z",
-      "updatedAt": "2025-11-25T07:41:05.658Z"
+      "updatedAt": "2025-11-25T07:49:31.047Z",
+      "waybillNumber": "7422"
     },
     {
       "id": "truck_1764056465657_2_llyjigjlj",
@@ -24664,6 +24672,6 @@
       "waybillNumber": "7419"
     }
   ],
-  "lastModified": "2025-11-25T07:45:43.220Z",
+  "lastModified": "2025-11-25T07:49:31.224Z",
   "version": "2.0.0"
 }
