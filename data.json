@@ -24694,8 +24694,24 @@
       "createdAt": "2025-11-24T14:07:45.579Z",
       "updatedAt": "2025-11-24T15:40:12.596Z",
       "waybillNumber": "7419"
+    },
+    {
+      "id": "loading_1764063898049_0_qiwhn87x6",
+      "customerName": "Stanleyson integrated services",
+      "products": "200 Kwik rice 50kg\n100 Oga rice 50kg",
+      "truckNumber": "KMC 181 YK",
+      "driverPhone": "07064316875",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-25T09:44:58.051Z"
+        }
+      ],
+      "createdAt": "2025-11-25T09:44:58.051Z",
+      "updatedAt": "2025-11-25T09:44:58.051Z"
     }
   ],
-  "lastModified": "2025-11-25T08:22:51.209Z",
+  "lastModified": "2025-11-25T09:44:58.202Z",
   "version": "2.0.0"
 }
