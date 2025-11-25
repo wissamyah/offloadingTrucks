@@ -24444,15 +24444,23 @@
       "bags": 425,
       "moistureLevel": 13,
       "truckNumber": "PKM 425 ZY",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-11-25T07:42:56.411Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-11-25T08:21:54.676Z",
+          "details": {
+            "waybillNumber": "7425"
+          }
         }
       ],
       "createdAt": "2025-11-25T07:42:56.411Z",
-      "updatedAt": "2025-11-25T07:42:56.411Z"
+      "updatedAt": "2025-11-25T08:21:54.676Z",
+      "waybillNumber": "7425"
     }
   ],
   "loadings": [
@@ -24680,6 +24688,6 @@
       "waybillNumber": "7419"
     }
   ],
-  "lastModified": "2025-11-25T08:17:22.684Z",
+  "lastModified": "2025-11-25T08:21:55.772Z",
   "version": "2.0.0"
 }
