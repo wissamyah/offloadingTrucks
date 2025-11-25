@@ -24412,14 +24412,14 @@
         },
         {
           "status": "scaled_in",
-          "timestamp": "2025-11-25T08:22:35.149Z",
+          "timestamp": "2025-11-25T08:22:50.413Z",
           "details": {
             "waybillNumber": "7423"
           }
         }
       ],
       "createdAt": "2025-11-25T07:42:56.411Z",
-      "updatedAt": "2025-11-25T08:22:35.149Z",
+      "updatedAt": "2025-11-25T08:22:50.413Z",
       "waybillNumber": "7423"
     },
     {
@@ -24696,6 +24696,6 @@
       "waybillNumber": "7419"
     }
   ],
-  "lastModified": "2025-11-25T08:22:35.327Z",
+  "lastModified": "2025-11-25T08:22:51.209Z",
   "version": "2.0.0"
 }
