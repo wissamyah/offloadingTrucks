@@ -24432,7 +24432,7 @@
       "bags": 500,
       "moistureLevel": 13,
       "truckNumber": "KRS 43 XA",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -24444,11 +24444,21 @@
           "details": {
             "waybillNumber": "7423"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-11-25T13:17:30.990Z",
+          "details": {
+            "netWeight": 41500,
+            "deduction": 100
+          }
         }
       ],
       "createdAt": "2025-11-25T07:42:56.411Z",
-      "updatedAt": "2025-11-25T08:22:50.413Z",
-      "waybillNumber": "7423"
+      "updatedAt": "2025-11-25T13:17:30.990Z",
+      "waybillNumber": "7423",
+      "netWeight": 41500,
+      "deduction": 100
     },
     {
       "id": "truck_1764056576411_1_4uj6cbrda",
@@ -24803,6 +24813,6 @@
       "updatedAt": "2025-11-25T09:45:17.727Z"
     }
   ],
-  "lastModified": "2025-11-25T13:00:02.943Z",
+  "lastModified": "2025-11-25T13:17:31.200Z",
   "version": "2.0.0"
 }
