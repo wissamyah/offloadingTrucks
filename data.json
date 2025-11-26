@@ -24551,6 +24551,38 @@
       "createdAt": "2025-11-25T12:58:27.985Z",
       "updatedAt": "2025-11-25T13:00:02.745Z",
       "waybillNumber": "7427"
+    },
+    {
+      "id": "truck_1764142803795_0_392o74cb6",
+      "supplierName": "Addau Isyaku",
+      "bags": 450,
+      "moistureLevel": 12,
+      "truckNumber": "RBC 560 XD",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-26T07:40:03.795Z"
+        }
+      ],
+      "createdAt": "2025-11-26T07:40:03.795Z",
+      "updatedAt": "2025-11-26T07:40:03.795Z"
+    },
+    {
+      "id": "truck_1764142803795_1_ocn1l7mok",
+      "supplierName": "Idris Haruna",
+      "bags": 500,
+      "moistureLevel": 15,
+      "truckNumber": "SUL 55 XP",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-26T07:40:03.795Z"
+        }
+      ],
+      "createdAt": "2025-11-26T07:40:03.795Z",
+      "updatedAt": "2025-11-26T07:40:03.795Z"
     }
   ],
   "loadings": [
@@ -24823,6 +24855,6 @@
       "updatedAt": "2025-11-25T09:45:17.727Z"
     }
   ],
-  "lastModified": "2025-11-25T15:26:16.704Z",
+  "lastModified": "2025-11-26T07:40:03.992Z",
   "version": "2.0.0"
 }
