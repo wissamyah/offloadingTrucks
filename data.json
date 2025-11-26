@@ -24902,15 +24902,23 @@
       "products": "400 Oga rice 50kg\n600 Kwik rice 25kg",
       "truckNumber": "NNR 678 XA",
       "driverPhone": "08036933456",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-11-26T09:25:59.376Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-11-26T10:24:38.339Z",
+          "details": {
+            "waybillNumber": "7431"
+          }
         }
       ],
       "createdAt": "2025-11-26T09:25:59.376Z",
-      "updatedAt": "2025-11-26T09:25:59.376Z"
+      "updatedAt": "2025-11-26T10:24:38.339Z",
+      "waybillNumber": "7431"
     },
     {
       "id": "loading_1764149178659_0_jrui70saq",
@@ -24930,6 +24938,6 @@
       "updatedAt": "2025-11-26T09:26:18.659Z"
     }
   ],
-  "lastModified": "2025-11-26T10:19:31.267Z",
+  "lastModified": "2025-11-26T10:24:38.490Z",
   "version": "2.0.0"
 }
