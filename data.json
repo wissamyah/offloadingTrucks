@@ -24558,7 +24558,7 @@
       "bags": 450,
       "moistureLevel": 12,
       "truckNumber": "RBC 560 XD",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -24570,11 +24570,21 @@
           "details": {
             "waybillNumber": "7430"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-11-26T11:10:41.565Z",
+          "details": {
+            "netWeight": 43030,
+            "deduction": 120
+          }
         }
       ],
       "createdAt": "2025-11-26T07:40:03.795Z",
-      "updatedAt": "2025-11-26T10:29:14.177Z",
-      "waybillNumber": "7430"
+      "updatedAt": "2025-11-26T11:10:41.565Z",
+      "waybillNumber": "7430",
+      "netWeight": 43030,
+      "deduction": 120
     },
     {
       "id": "truck_1764142803795_1_ocn1l7mok",
@@ -24950,6 +24960,6 @@
       "updatedAt": "2025-11-26T09:26:18.659Z"
     }
   ],
-  "lastModified": "2025-11-26T10:33:34.267Z",
+  "lastModified": "2025-11-26T11:10:41.658Z",
   "version": "2.0.0"
 }
