@@ -24750,15 +24750,23 @@
       "bags": 224,
       "moistureLevel": 16,
       "truckNumber": "ZUR 521 YL",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-11-26T15:34:57.757Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-11-26T15:36:24.471Z",
+          "details": {
+            "waybillNumber": "7441"
+          }
         }
       ],
       "createdAt": "2025-11-26T15:34:57.757Z",
-      "updatedAt": "2025-11-26T15:34:57.757Z"
+      "updatedAt": "2025-11-26T15:36:24.471Z",
+      "waybillNumber": "7441"
     }
   ],
   "loadings": [
@@ -25146,6 +25154,6 @@
       "waybillNumber": "7437"
     }
   ],
-  "lastModified": "2025-11-26T15:35:15.239Z",
+  "lastModified": "2025-11-26T15:36:24.650Z",
   "version": "2.0.0"
 }
