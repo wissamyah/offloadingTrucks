@@ -24988,7 +24988,7 @@
       "truckNumber": "RSH 71 XF",
       "driverName": "YUSIFA",
       "driverPhone": "09135411544",
-      "status": "scaled_in",
+      "status": "loaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -25000,13 +25000,17 @@
           "details": {
             "waybillNumber": "7435"
           }
+        },
+        {
+          "status": "loaded",
+          "timestamp": "2025-11-26T12:19:52.405Z"
         }
       ],
       "createdAt": "2025-11-26T12:19:05.273Z",
-      "updatedAt": "2025-11-26T12:19:42.674Z",
+      "updatedAt": "2025-11-26T12:19:52.405Z",
       "waybillNumber": "7435"
     }
   ],
-  "lastModified": "2025-11-26T12:19:42.743Z",
+  "lastModified": "2025-11-26T12:19:53.445Z",
   "version": "2.0.0"
 }
