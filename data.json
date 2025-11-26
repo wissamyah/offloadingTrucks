@@ -24653,6 +24653,38 @@
       "waybillNumber": "7433",
       "netWeight": 28000,
       "deduction": 150
+    },
+    {
+      "id": "truck_1764161691622_0_wxbluo0vv",
+      "supplierName": "Idris Haruna",
+      "bags": 463,
+      "moistureLevel": 12,
+      "truckNumber": "BAU 241 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-26T12:54:51.623Z"
+        }
+      ],
+      "createdAt": "2025-11-26T12:54:51.623Z",
+      "updatedAt": "2025-11-26T12:54:51.623Z"
+    },
+    {
+      "id": "truck_1764161691622_1_cmp4gt6ua",
+      "supplierName": "Idris Haruna",
+      "bags": 501,
+      "moistureLevel": 12,
+      "truckNumber": "KTN 488 XQ",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-26T12:54:51.623Z"
+        }
+      ],
+      "createdAt": "2025-11-26T12:54:51.623Z",
+      "updatedAt": "2025-11-26T12:54:51.623Z"
     }
   ],
   "loadings": [
@@ -25011,6 +25043,6 @@
       "waybillNumber": "7435"
     }
   ],
-  "lastModified": "2025-11-26T12:19:53.445Z",
+  "lastModified": "2025-11-26T12:54:51.821Z",
   "version": "2.0.0"
 }
