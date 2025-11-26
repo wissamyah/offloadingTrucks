@@ -25158,17 +25158,25 @@
       "customerName": "Cash sales",
       "products": "40 bags cuscus b 50kg",
       "truckNumber": "TRN 322 YR",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-11-26T15:50:35.002Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-11-26T15:50:51.089Z",
+          "details": {
+            "waybillNumber": "7439"
+          }
         }
       ],
       "createdAt": "2025-11-26T15:50:35.002Z",
-      "updatedAt": "2025-11-26T15:50:35.002Z"
+      "updatedAt": "2025-11-26T15:50:51.089Z",
+      "waybillNumber": "7439"
     }
   ],
-  "lastModified": "2025-11-26T15:50:35.116Z",
+  "lastModified": "2025-11-26T15:50:51.940Z",
   "version": "2.0.0"
 }
