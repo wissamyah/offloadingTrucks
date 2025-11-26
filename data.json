@@ -24660,7 +24660,7 @@
       "bags": 463,
       "moistureLevel": 12,
       "truckNumber": "BAU 241 XA",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -24672,11 +24672,21 @@
           "details": {
             "waybillNumber": "7436"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-11-26T14:54:58.859Z",
+          "details": {
+            "netWeight": 48550,
+            "deduction": 90
+          }
         }
       ],
       "createdAt": "2025-11-26T12:54:51.623Z",
-      "updatedAt": "2025-11-26T13:14:01.467Z",
-      "waybillNumber": "7436"
+      "updatedAt": "2025-11-26T14:54:58.859Z",
+      "waybillNumber": "7436",
+      "netWeight": 48550,
+      "deduction": 90
     },
     {
       "id": "truck_1764161691622_1_cmp4gt6ua",
@@ -25088,6 +25098,6 @@
       "waybillNumber": "7437"
     }
   ],
-  "lastModified": "2025-11-26T14:54:18.738Z",
+  "lastModified": "2025-11-26T14:54:59.067Z",
   "version": "2.0.0"
 }
