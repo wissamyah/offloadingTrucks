@@ -24719,6 +24719,38 @@
       "updatedAt": "2025-11-26T15:24:18.248Z",
       "waybillNumber": "7438",
       "netWeight": 41830
+    },
+    {
+      "id": "truck_1764171297757_0_wov3szqwv",
+      "supplierName": "Idris Haruna",
+      "bags": 224,
+      "moistureLevel": 16,
+      "truckNumber": "KMC 428 ZF",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-26T15:34:57.757Z"
+        }
+      ],
+      "createdAt": "2025-11-26T15:34:57.757Z",
+      "updatedAt": "2025-11-26T15:34:57.757Z"
+    },
+    {
+      "id": "truck_1764171297757_1_pp821fqey",
+      "supplierName": "Idris Haruna",
+      "bags": 224,
+      "moistureLevel": 16,
+      "truckNumber": "ZUR 521 YL",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-26T15:34:57.757Z"
+        }
+      ],
+      "createdAt": "2025-11-26T15:34:57.757Z",
+      "updatedAt": "2025-11-26T15:34:57.757Z"
     }
   ],
   "loadings": [
@@ -25106,6 +25138,6 @@
       "waybillNumber": "7437"
     }
   ],
-  "lastModified": "2025-11-26T15:24:18.464Z",
+  "lastModified": "2025-11-26T15:34:57.955Z",
   "version": "2.0.0"
 }
