@@ -25065,17 +25065,25 @@
       "truckNumber": "BCH 252 ZY",
       "driverName": "BANNA",
       "driverPhone": "08108733988",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-11-26T13:27:27.242Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-11-26T13:27:48.608Z",
+          "details": {
+            "waybillNumber": "7437"
+          }
         }
       ],
       "createdAt": "2025-11-26T13:27:27.242Z",
-      "updatedAt": "2025-11-26T13:27:27.242Z"
+      "updatedAt": "2025-11-26T13:27:48.608Z",
+      "waybillNumber": "7437"
     }
   ],
-  "lastModified": "2025-11-26T13:27:27.355Z",
+  "lastModified": "2025-11-26T13:27:48.740Z",
   "version": "2.0.0"
 }
