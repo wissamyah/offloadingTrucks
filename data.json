@@ -24949,17 +24949,25 @@
       "truckNumber": "DKU 518 XA",
       "driverName": "Usman Adamu",
       "driverPhone": "08160005530",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-11-26T09:26:18.659Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-11-26T11:51:34.618Z",
+          "details": {
+            "waybillNumber": "7432"
+          }
         }
       ],
       "createdAt": "2025-11-26T09:26:18.659Z",
-      "updatedAt": "2025-11-26T09:26:18.659Z"
+      "updatedAt": "2025-11-26T11:51:34.618Z",
+      "waybillNumber": "7432"
     }
   ],
-  "lastModified": "2025-11-26T11:10:41.658Z",
+  "lastModified": "2025-11-26T11:51:34.798Z",
   "version": "2.0.0"
 }
