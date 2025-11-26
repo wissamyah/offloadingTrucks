@@ -24887,8 +24887,25 @@
       ],
       "createdAt": "2025-11-26T09:25:59.376Z",
       "updatedAt": "2025-11-26T09:25:59.376Z"
+    },
+    {
+      "id": "loading_1764149178659_0_jrui70saq",
+      "customerName": "Nell multi global services",
+      "products": "800 Kwik rice 50kg",
+      "truckNumber": "DKU 518 XA",
+      "driverName": "Usman Adamu",
+      "driverPhone": "08160005530",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-26T09:26:18.659Z"
+        }
+      ],
+      "createdAt": "2025-11-26T09:26:18.659Z",
+      "updatedAt": "2025-11-26T09:26:18.659Z"
     }
   ],
-  "lastModified": "2025-11-26T09:25:59.581Z",
+  "lastModified": "2025-11-26T09:26:20.421Z",
   "version": "2.0.0"
 }
