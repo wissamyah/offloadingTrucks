@@ -24726,7 +24726,7 @@
       "bags": 224,
       "moistureLevel": 16,
       "truckNumber": "KMC 428 ZF",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -24738,11 +24738,19 @@
           "details": {
             "waybillNumber": "7440"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-11-26T16:22:52.569Z",
+          "details": {
+            "netWeight": 17150
+          }
         }
       ],
       "createdAt": "2025-11-26T15:34:57.757Z",
-      "updatedAt": "2025-11-26T15:35:13.791Z",
-      "waybillNumber": "7440"
+      "updatedAt": "2025-11-26T16:22:52.569Z",
+      "waybillNumber": "7440",
+      "netWeight": 17150
     },
     {
       "id": "truck_1764171297757_1_pp821fqey",
@@ -25181,6 +25189,6 @@
       "waybillNumber": "7439"
     }
   ],
-  "lastModified": "2025-11-26T15:51:04.004Z",
+  "lastModified": "2025-11-26T16:22:52.809Z",
   "version": "2.0.0"
 }
