@@ -24980,8 +24980,25 @@
       "createdAt": "2025-11-26T09:26:18.659Z",
       "updatedAt": "2025-11-26T11:51:44.688Z",
       "waybillNumber": "7432"
+    },
+    {
+      "id": "loading_1764159545273_0_o76ykx0dg",
+      "customerName": "Cash sales",
+      "products": "250 Sorted broken 50kg",
+      "truckNumber": "RSH 71 XF",
+      "driverName": "YUSIFA",
+      "driverPhone": "09135411544",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-26T12:19:05.273Z"
+        }
+      ],
+      "createdAt": "2025-11-26T12:19:05.273Z",
+      "updatedAt": "2025-11-26T12:19:05.273Z"
     }
   ],
-  "lastModified": "2025-11-26T12:08:13.505Z",
+  "lastModified": "2025-11-26T12:19:05.329Z",
   "version": "2.0.0"
 }
