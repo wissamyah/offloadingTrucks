@@ -24626,7 +24626,7 @@
       "bags": 400,
       "moistureLevel": 16,
       "truckNumber": "DKA 235 ZU",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -24638,11 +24638,21 @@
           "details": {
             "waybillNumber": "7433"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-11-26T12:08:13.399Z",
+          "details": {
+            "netWeight": 28000,
+            "deduction": 150
+          }
         }
       ],
       "createdAt": "2025-11-26T10:13:02.228Z",
-      "updatedAt": "2025-11-26T10:19:31.055Z",
-      "waybillNumber": "7433"
+      "updatedAt": "2025-11-26T12:08:13.399Z",
+      "waybillNumber": "7433",
+      "netWeight": 28000,
+      "deduction": 150
     }
   ],
   "loadings": [
@@ -24972,6 +24982,6 @@
       "waybillNumber": "7432"
     }
   ],
-  "lastModified": "2025-11-26T11:51:45.687Z",
+  "lastModified": "2025-11-26T12:08:13.505Z",
   "version": "2.0.0"
 }
