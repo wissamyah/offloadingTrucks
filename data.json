@@ -24871,8 +24871,24 @@
       ],
       "createdAt": "2025-11-25T09:45:17.727Z",
       "updatedAt": "2025-11-25T09:45:17.727Z"
+    },
+    {
+      "id": "loading_1764149159375_0_3tyhmrsdf",
+      "customerName": "Sunny global",
+      "products": "400 Oga rice 50kg\n600 Kwik rice 25kg",
+      "truckNumber": "NNR 678 XA",
+      "driverPhone": "08036933456",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-26T09:25:59.376Z"
+        }
+      ],
+      "createdAt": "2025-11-26T09:25:59.376Z",
+      "updatedAt": "2025-11-26T09:25:59.376Z"
     }
   ],
-  "lastModified": "2025-11-26T09:24:35.490Z",
+  "lastModified": "2025-11-26T09:25:59.581Z",
   "version": "2.0.0"
 }
