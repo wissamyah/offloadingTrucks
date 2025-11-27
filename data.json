@@ -24863,6 +24863,54 @@
       ],
       "createdAt": "2025-11-27T07:38:40.199Z",
       "updatedAt": "2025-11-27T07:38:40.199Z"
+    },
+    {
+      "id": "truck_1764229228657_0_oqrrbv7oq",
+      "supplierName": "Alh Hassanan",
+      "bags": 421,
+      "moistureLevel": 14,
+      "truckNumber": "MGN 659 XF",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-27T07:40:28.659Z"
+        }
+      ],
+      "createdAt": "2025-11-27T07:40:28.659Z",
+      "updatedAt": "2025-11-27T07:40:28.659Z"
+    },
+    {
+      "id": "truck_1764229228657_1_lx485i8j2",
+      "supplierName": "Isa Abubakar",
+      "bags": 540,
+      "moistureLevel": 14,
+      "truckNumber": "GTB 353 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-27T07:40:28.659Z"
+        }
+      ],
+      "createdAt": "2025-11-27T07:40:28.659Z",
+      "updatedAt": "2025-11-27T07:40:28.659Z"
+    },
+    {
+      "id": "truck_1764229228657_2_di1dirx7k",
+      "supplierName": "Isa Abubakar",
+      "bags": 540,
+      "moistureLevel": 14,
+      "truckNumber": "GTB 353 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-27T07:40:28.659Z"
+        }
+      ],
+      "createdAt": "2025-11-27T07:40:28.659Z",
+      "updatedAt": "2025-11-27T07:40:28.659Z"
     }
   ],
   "loadings": [
@@ -25277,6 +25325,6 @@
       "waybillNumber": "7439"
     }
   ],
-  "lastModified": "2025-11-27T07:38:40.401Z",
+  "lastModified": "2025-11-27T07:40:28.952Z",
   "version": "2.0.0"
 }
