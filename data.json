@@ -24878,15 +24878,23 @@
       "bags": 240,
       "moistureLevel": 14,
       "truckNumber": "DAL 394 YY",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-11-27T07:38:40.199Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-11-27T08:24:28.397Z",
+          "details": {
+            "waybillNumber": "7445"
+          }
         }
       ],
       "createdAt": "2025-11-27T07:38:40.199Z",
-      "updatedAt": "2025-11-27T07:38:40.199Z"
+      "updatedAt": "2025-11-27T08:24:28.397Z",
+      "waybillNumber": "7445"
     },
     {
       "id": "truck_1764229228657_0_oqrrbv7oq",
@@ -25349,6 +25357,6 @@
       "waybillNumber": "7439"
     }
   ],
-  "lastModified": "2025-11-27T07:53:20.071Z",
+  "lastModified": "2025-11-27T08:24:28.578Z",
   "version": "2.0.0"
 }
