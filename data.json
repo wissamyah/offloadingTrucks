@@ -24790,7 +24790,7 @@
       "bags": 652,
       "moistureLevel": 12,
       "truckNumber": "NSR 775 ZU",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -24802,11 +24802,21 @@
           "details": {
             "waybillNumber": "7442"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-11-27T11:10:39.194Z",
+          "details": {
+            "netWeight": 45680,
+            "deduction": 160
+          }
         }
       ],
       "createdAt": "2025-11-27T07:38:40.199Z",
-      "updatedAt": "2025-11-27T07:42:07.163Z",
-      "waybillNumber": "7442"
+      "updatedAt": "2025-11-27T11:10:39.194Z",
+      "waybillNumber": "7442",
+      "netWeight": 45680,
+      "deduction": 160
     },
     {
       "id": "truck_1764229120199_1_jcnn1lpy9",
@@ -25385,6 +25395,6 @@
       "waybillNumber": "7439"
     }
   ],
-  "lastModified": "2025-11-27T10:15:41.842Z",
+  "lastModified": "2025-11-27T11:10:39.305Z",
   "version": "2.0.0"
 }
