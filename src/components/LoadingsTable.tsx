@@ -10,6 +10,8 @@ import {
   Calendar,
   Loader2,
   Package,
+  Copy,
+  Check,
 } from "lucide-react";
 import { Loading, LoadingStatus } from "../types/loading";
 import { formatDateTime, formatTime, formatTimeWAT } from "../utils/dateUtils";
@@ -90,8 +92,11 @@ const StatusBadge: React.FC<{ status: LoadingStatus; loading: Loading }> = ({
       >
         {statusIcons[status]}
         {statusLabels[status]}
+        {status === "loaded" && statusTime && (
+          <span className="text-green-500/70 font-normal ml-0.5">@ {statusTime}</span>
+        )}
       </span>
-      {statusTime && (
+      {status !== "loaded" && statusTime && (
         <span className="text-xs text-gray-500">{statusTime}</span>
       )}
     </div>
@@ -116,7 +121,30 @@ export const LoadingsTable: React.FC<LoadingsTableProps> = ({
     loadingId: string | null;
   }>({ open: false, loadingId: null });
   const [currentPage, setCurrentPage] = useState(1);
+  const [copiedLoadingId, setCopiedLoadingId] = useState<string | null>(null);
   const itemsPerPage = 10;
+
+  // Copy loaded truck info to clipboard
+  const handleCopyLoadedInfo = async (loading: Loading) => {
+    const products = loading.products.split('\n').filter(p => p.trim());
+    let textToCopy: string;
+
+    if (products.length === 1) {
+      // Single product: CustomerName-TruckNumber-Product
+      textToCopy = `${loading.customerName}-${loading.truckNumber}-${products[0]}`;
+    } else {
+      // Multiple products: CustomerName-TruckNumber on first line, then products below
+      textToCopy = `${loading.customerName}-${loading.truckNumber}\n${products.join('\n')}`;
+    }
+
+    try {
+      await navigator.clipboard.writeText(textToCopy);
+      setCopiedLoadingId(loading.id);
+      setTimeout(() => setCopiedLoadingId(null), 2000);
+    } catch (err) {
+      console.error('Failed to copy:', err);
+    }
+  };
 
   // Filter by status
   const filteredLoadings = React.useMemo(() => {
@@ -357,6 +385,30 @@ export const LoadingsTable: React.FC<LoadingsTableProps> = ({
                     >
                       Mark Loaded
                     </LoadingButton>
+                  )}
+
+                  {loading.status === "loaded" && (
+                    <button
+                      onClick={() => handleCopyLoadedInfo(loading)}
+                      className={`flex items-center gap-1 px-2 py-1.5 rounded text-xs font-medium transition-colors ${
+                        copiedLoadingId === loading.id
+                          ? 'bg-green-900/30 text-green-400 border border-green-700'
+                          : 'bg-gray-700/50 text-gray-300 hover:bg-gray-700 border border-gray-600'
+                      }`}
+                      title="Copy loading info"
+                    >
+                      {copiedLoadingId === loading.id ? (
+                        <>
+                          <Check className="h-3.5 w-3.5" />
+                          <span>Copied!</span>
+                        </>
+                      ) : (
+                        <>
+                          <Copy className="h-3.5 w-3.5" />
+                          <span>Copy</span>
+                        </>
+                      )}
+                    </button>
                   )}
 
                   <button
