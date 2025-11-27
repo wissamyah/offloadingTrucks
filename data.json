@@ -25539,17 +25539,25 @@
       "products": "300 Kwik rice 50kg\n50 Kwik rice 10kg\n30 bold yellow 50kg",
       "truckNumber": "DAL 470 YY",
       "driverPhone": "09043354767",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-11-27T14:12:24.448Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-11-27T14:33:08.969Z",
+          "details": {
+            "waybillNumber": "7452"
+          }
         }
       ],
       "createdAt": "2025-11-27T14:12:24.448Z",
-      "updatedAt": "2025-11-27T14:12:24.448Z"
+      "updatedAt": "2025-11-27T14:33:08.969Z",
+      "waybillNumber": "7452"
     }
   ],
-  "lastModified": "2025-11-27T14:19:58.499Z",
+  "lastModified": "2025-11-27T14:33:09.173Z",
   "version": "2.0.0"
 }
