@@ -25487,8 +25487,24 @@
       "createdAt": "2025-11-26T15:50:35.002Z",
       "updatedAt": "2025-11-26T15:51:03.908Z",
       "waybillNumber": "7439"
+    },
+    {
+      "id": "loading_1764251874669_0_8qw9itm4l",
+      "customerName": "Onyeka Mmuotolu",
+      "products": "800 Kwik rice 50kg",
+      "truckNumber": "GME 569 XB",
+      "driverPhone": "07045106566",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-27T13:57:54.669Z"
+        }
+      ],
+      "createdAt": "2025-11-27T13:57:54.669Z",
+      "updatedAt": "2025-11-27T13:57:54.669Z"
     }
   ],
-  "lastModified": "2025-11-27T12:57:44.075Z",
+  "lastModified": "2025-11-27T13:57:54.759Z",
   "version": "2.0.0"
 }
