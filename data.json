@@ -24994,7 +24994,7 @@
       "bags": 540,
       "moistureLevel": 14,
       "truckNumber": "GTB 353 XA",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -25006,11 +25006,19 @@
           "details": {
             "waybillNumber": "7448"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-11-27T12:57:42.480Z",
+          "details": {
+            "netWeight": 37840
+          }
         }
       ],
       "createdAt": "2025-11-27T07:40:28.659Z",
-      "updatedAt": "2025-11-27T08:37:49.487Z",
-      "waybillNumber": "7448"
+      "updatedAt": "2025-11-27T12:57:42.481Z",
+      "waybillNumber": "7448",
+      "netWeight": 37840
     },
     {
       "id": "truck_1764242431334_0_e6kbbtdi2",
@@ -25481,6 +25489,6 @@
       "waybillNumber": "7439"
     }
   ],
-  "lastModified": "2025-11-27T12:56:51.577Z",
+  "lastModified": "2025-11-27T12:57:44.075Z",
   "version": "2.0.0"
 }
