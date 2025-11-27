@@ -24960,7 +24960,7 @@
       "bags": 421,
       "moistureLevel": 14,
       "truckNumber": "MGN 659 XF",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -24972,11 +24972,21 @@
           "details": {
             "waybillNumber": "7447"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-11-27T12:56:51.344Z",
+          "details": {
+            "netWeight": 35530,
+            "deduction": 170
+          }
         }
       ],
       "createdAt": "2025-11-27T07:40:28.659Z",
-      "updatedAt": "2025-11-27T08:34:37.627Z",
-      "waybillNumber": "7447"
+      "updatedAt": "2025-11-27T12:56:51.344Z",
+      "waybillNumber": "7447",
+      "netWeight": 35530,
+      "deduction": 170
     },
     {
       "id": "truck_1764229228657_1_lx485i8j2",
@@ -25471,6 +25481,6 @@
       "waybillNumber": "7439"
     }
   ],
-  "lastModified": "2025-11-27T12:56:01.780Z",
+  "lastModified": "2025-11-27T12:56:51.577Z",
   "version": "2.0.0"
 }
