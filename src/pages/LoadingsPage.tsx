@@ -10,7 +10,7 @@ import {
 } from "../components/LoadingModals";
 import { useGitHubSync } from "../hooks/useGitHubSync";
 import { groupByDate, getTodayDateKey } from "../utils/dateUtils";
-import { PackageOpen } from "lucide-react";
+import { PackageOpen, ChevronDown } from "lucide-react";
 import { SyncDropdown } from "../components/SyncDropdown";
 import { ModuleNav } from "../components/ModuleNav";
 import toast from "react-hot-toast";
@@ -109,6 +109,9 @@ export const LoadingsPage = () => {
   const [loadingStates, setLoadingStates] = useState<{
     [key: string]: boolean;
   }>({});
+
+  // Stats visibility on mobile (collapsed by default)
+  const [showStats, setShowStats] = useState(false);
 
   // Group loadings by date
   const groupedLoadings = useMemo(() => {
@@ -285,36 +288,54 @@ export const LoadingsPage = () => {
 
             {/* Stats */}
             {currentLoadings.length > 0 && (
-              <div className="grid grid-cols-2 lg:grid-cols-2 gap-4 lg:w-auto">
-                <div className="bg-gray-800 p-4 rounded-lg shadow-xl border border-gray-700">
-                  <p className="text-sm text-gray-400 mb-1">Total Loadings</p>
-                  <p className="text-2xl font-bold text-gray-100">
-                    {currentLoadings.length}
-                  </p>
-                </div>
-                <div className="bg-gray-800 p-4 rounded-lg shadow-xl border border-gray-700">
-                  <p className="text-sm text-gray-400 mb-1">Total Products</p>
-                  <p className="text-2xl font-bold text-purple-500">
-                    {totalProducts}
-                  </p>
-                </div>
-                <div className="bg-gray-800 p-4 rounded-lg shadow-xl border border-gray-700">
-                  <p className="text-sm text-gray-400 mb-1">Pending</p>
-                  <p className="text-2xl font-bold text-yellow-500">
-                    {currentLoadings.filter((l) => l.status === "pending").length}
-                  </p>
-                </div>
-                <div className="bg-gray-800 p-4 rounded-lg shadow-xl border border-gray-700">
-                  <p className="text-sm text-gray-400 mb-1">Scaled In</p>
-                  <p className="text-2xl font-bold text-blue-500">
-                    {currentLoadings.filter((l) => l.status === "scaled_in").length}
-                  </p>
-                </div>
-                <div className="bg-gray-800 p-4 rounded-lg shadow-xl border border-gray-700 col-span-2">
-                  <p className="text-sm text-gray-400 mb-1">Loaded</p>
-                  <p className="text-2xl font-bold text-green-500">
-                    {currentLoadings.filter((l) => l.status === "loaded").length}
-                  </p>
+              <div className="lg:w-auto">
+                {/* Mobile toggle button */}
+                <button
+                  onClick={() => setShowStats(!showStats)}
+                  className="lg:hidden w-full flex items-center justify-center gap-2 py-2 px-3 mb-2 bg-gray-800/50 hover:bg-gray-800 rounded-lg border border-gray-700/50 text-gray-400 text-sm transition-colors"
+                >
+                  <span>Statistics</span>
+                  <ChevronDown
+                    className={`h-4 w-4 transition-transform duration-300 ${showStats ? 'rotate-180' : ''}`}
+                  />
+                </button>
+
+                {/* Stats grid - hidden on mobile by default, always visible on desktop */}
+                <div
+                  className={`grid grid-cols-2 lg:grid-cols-2 gap-4 overflow-hidden transition-all duration-300 ease-in-out lg:max-h-none lg:opacity-100 ${
+                    showStats ? 'max-h-[500px] opacity-100' : 'max-h-0 opacity-0 lg:max-h-none lg:opacity-100'
+                  }`}
+                >
+                  <div className="bg-gray-800 p-4 rounded-lg shadow-xl border border-gray-700">
+                    <p className="text-sm text-gray-400 mb-1">Total Loadings</p>
+                    <p className="text-2xl font-bold text-gray-100">
+                      {currentLoadings.length}
+                    </p>
+                  </div>
+                  <div className="bg-gray-800 p-4 rounded-lg shadow-xl border border-gray-700">
+                    <p className="text-sm text-gray-400 mb-1">Total Products</p>
+                    <p className="text-2xl font-bold text-purple-500">
+                      {totalProducts}
+                    </p>
+                  </div>
+                  <div className="bg-gray-800 p-4 rounded-lg shadow-xl border border-gray-700">
+                    <p className="text-sm text-gray-400 mb-1">Pending</p>
+                    <p className="text-2xl font-bold text-yellow-500">
+                      {currentLoadings.filter((l) => l.status === "pending").length}
+                    </p>
+                  </div>
+                  <div className="bg-gray-800 p-4 rounded-lg shadow-xl border border-gray-700">
+                    <p className="text-sm text-gray-400 mb-1">Scaled In</p>
+                    <p className="text-2xl font-bold text-blue-500">
+                      {currentLoadings.filter((l) => l.status === "scaled_in").length}
+                    </p>
+                  </div>
+                  <div className="bg-gray-800 p-4 rounded-lg shadow-xl border border-gray-700 col-span-2">
+                    <p className="text-sm text-gray-400 mb-1">Loaded</p>
+                    <p className="text-2xl font-bold text-green-500">
+                      {currentLoadings.filter((l) => l.status === "loaded").length}
+                    </p>
+                  </div>
                 </div>
               </div>
             )}

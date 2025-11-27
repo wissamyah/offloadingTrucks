@@ -193,83 +193,65 @@ export const LoadingsTable: React.FC<LoadingsTableProps> = ({
 
   return (
     <div className="bg-gray-800 rounded-lg shadow-xl border border-gray-700 overflow-hidden">
-      {/* Header with Date Selector and Status Filter */}
+      {/* Header with Status Filter and Date Selector */}
       <div className="p-4 border-b border-gray-700">
-        <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4">
-          {/* Date Selector */}
-          {availableDates && availableDates.length > 0 && (
-            <div className="flex items-center gap-2">
-              <button
-                onClick={handlePreviousDate}
-                disabled={!canGoPrevious}
-                className="p-2 text-gray-400 hover:text-gray-200 disabled:opacity-30 disabled:cursor-not-allowed transition-colors"
-              >
-                <ChevronLeft className="h-5 w-5" />
-              </button>
+        <div className="flex flex-row items-center gap-2 sm:gap-3">
+          {/* Status Filter Dropdown */}
+          {onStatusFilterChange && (
+            <div className="flex-1 min-w-0 max-w-[160px] sm:max-w-[200px]">
               <CustomDropdown
-                options={availableDates.map((date) => ({
-                  value: date,
-                  label: format(parseISO(date), "EEEE, MMM d, yyyy"),
-                }))}
-                value={selectedDate || ""}
+                options={[
+                  { value: 'all', label: `All (${loadings.length})` },
+                  { value: 'pending', label: `Pending (${loadings.filter(l => l.status === 'pending').length})` },
+                  { value: 'scaled_in', label: `Scaled In (${loadings.filter(l => l.status === 'scaled_in').length})` },
+                  { value: 'loaded', label: `Loaded (${loadings.filter(l => l.status === 'loaded').length})` },
+                ]}
+                value={statusFilter}
                 onChange={(value) => {
-                  onDateChange?.(value);
+                  onStatusFilterChange(value as LoadingStatus | 'all');
                   setCurrentPage(1);
                 }}
               />
-              <button
-                onClick={handleNextDate}
-                disabled={!canGoNext}
-                className="p-2 text-gray-400 hover:text-gray-200 disabled:opacity-30 disabled:cursor-not-allowed transition-colors"
-              >
-                <ChevronRight className="h-5 w-5" />
-              </button>
             </div>
           )}
 
-          {/* Status Filter */}
-          <div className="flex gap-2 overflow-x-auto pb-1">
-            <button
-              onClick={() => onStatusFilterChange?.('all')}
-              className={`px-2 sm:px-3 py-1.5 rounded-md text-xs sm:text-sm font-medium transition-colors whitespace-nowrap flex-shrink-0 ${
-                statusFilter === 'all'
-                  ? 'bg-gray-700 text-gray-100'
-                  : 'bg-gray-900 text-gray-400 hover:text-gray-200'
-              }`}
-            >
-              All ({loadings.length})
-            </button>
-            <button
-              onClick={() => onStatusFilterChange?.('pending')}
-              className={`px-2 sm:px-3 py-1.5 rounded-md text-xs sm:text-sm font-medium transition-colors whitespace-nowrap flex-shrink-0 ${
-                statusFilter === 'pending'
-                  ? 'bg-yellow-900/30 text-yellow-400 border border-yellow-700'
-                  : 'bg-gray-900 text-gray-400 hover:text-gray-200'
-              }`}
-            >
-              Pending ({loadings.filter(l => l.status === 'pending').length})
-            </button>
-            <button
-              onClick={() => onStatusFilterChange?.('scaled_in')}
-              className={`px-2 sm:px-3 py-1.5 rounded-md text-xs sm:text-sm font-medium transition-colors whitespace-nowrap flex-shrink-0 ${
-                statusFilter === 'scaled_in'
-                  ? 'bg-blue-900/30 text-blue-400 border border-blue-700'
-                  : 'bg-gray-900 text-gray-400 hover:text-gray-200'
-              }`}
-            >
-              Scaled In ({loadings.filter(l => l.status === 'scaled_in').length})
-            </button>
-            <button
-              onClick={() => onStatusFilterChange?.('loaded')}
-              className={`px-2 sm:px-3 py-1.5 rounded-md text-xs sm:text-sm font-medium transition-colors whitespace-nowrap flex-shrink-0 ${
-                statusFilter === 'loaded'
-                  ? 'bg-green-900/30 text-green-400 border border-green-700'
-                  : 'bg-gray-900 text-gray-400 hover:text-gray-200'
-              }`}
-            >
-              Loaded ({loadings.filter(l => l.status === 'loaded').length})
-            </button>
-          </div>
+          {/* Date Selector */}
+          {availableDates && availableDates.length > 0 && (
+            <div className="flex items-center gap-1 flex-shrink-0">
+              <button
+                onClick={handlePreviousDate}
+                disabled={!canGoPrevious}
+                className="p-1 text-gray-400 hover:text-gray-200 disabled:opacity-30 disabled:cursor-not-allowed transition-colors"
+              >
+                <ChevronLeft className="h-4 w-4" />
+              </button>
+              <div className="flex items-center gap-1 min-w-0">
+                <Calendar className="h-4 w-4 text-gray-400 hidden sm:block flex-shrink-0" />
+                <div className="min-w-0 max-w-[120px] sm:max-w-[220px]">
+                  <CustomDropdown
+                    options={availableDates.map((date) => ({
+                      value: date,
+                      label: format(parseISO(date), "EEE, MMM d"),
+                      shortLabel: format(parseISO(date), "MMM d"),
+                    }))}
+                    value={selectedDate || ""}
+                    onChange={(value) => {
+                      onDateChange?.(value);
+                      setCurrentPage(1);
+                    }}
+                    isMobile={true}
+                  />
+                </div>
+              </div>
+              <button
+                onClick={handleNextDate}
+                disabled={!canGoNext}
+                className="p-1 text-gray-400 hover:text-gray-200 disabled:opacity-30 disabled:cursor-not-allowed transition-colors"
+              >
+                <ChevronRight className="h-4 w-4" />
+              </button>
+            </div>
+          )}
         </div>
       </div>
 

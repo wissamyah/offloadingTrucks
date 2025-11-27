@@ -11,7 +11,7 @@ import {
 import { useGitHubSync } from "../hooks/useGitHubSync";
 import { groupByDate, formatDate, getTodayDateKey } from "../utils/dateUtils";
 import { githubSync } from "../services/githubSync";
-import { Truck as TruckIcon, Loader2 } from "lucide-react";
+import { Truck as TruckIcon, Loader2, ChevronDown } from "lucide-react";
 import { SyncDropdown } from "../components/SyncDropdown";
 import QuickSearch from "../components/QuickSearch";
 import { TruckDetailPanel } from "../components/TruckDetailPanel";
@@ -119,6 +119,9 @@ export const OffloadingsPage = () => {
   
   // Truck Detail Panel state
   const [selectedTruck, setSelectedTruck] = useState<Truck | null>(null);
+
+  // Stats visibility on mobile (collapsed by default)
+  const [showStats, setShowStats] = useState(false);
 
   useEffect(() => {
     const onKeyDown = (e: KeyboardEvent) => {
@@ -460,92 +463,110 @@ export const OffloadingsPage = () => {
 
             {/* Stats */}
             {currentTrucks.length > 0 && (
-              <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 lg:w-auto">
-                <div className="bg-gray-800 p-4 rounded-lg shadow-xl border border-gray-700">
-                  <p className="text-sm text-gray-400 mb-1">Total Trucks</p>
-                  <p className="text-2xl font-bold text-gray-100">
-                    {sortedTrucks.length}
-                  </p>
-                </div>
-                <div className="bg-gray-800 p-4 rounded-lg shadow-xl border border-gray-700">
-                  <p className="text-sm text-gray-400 mb-1">Total Bags</p>
-                  <p className="text-2xl font-bold text-purple-500">
-                    {sortedTrucks.reduce((sum, t) => sum + t.bags, 0)}
-                  </p>
-                </div>
-                <div className="bg-gray-800 p-4 rounded-lg shadow-xl border border-gray-700">
-                  <p className="text-sm text-gray-400 mb-1">Avg. Moisture</p>
-                  <p className="text-2xl font-bold text-cyan-500">
-                    {sortedTrucks.length > 0
-                      ? (
-                          sortedTrucks.reduce(
-                            (sum, t) => sum + t.moistureLevel,
-                            0
-                          ) / sortedTrucks.length
-                        ).toFixed(1)
-                      : 0}
-                    %
-                  </p>
-                </div>
-                <div className="bg-gray-800 p-4 rounded-lg shadow-xl border border-gray-700">
-                  <p className="text-sm text-gray-400 mb-1">Avg Bag Weight</p>
-                  <p className="text-2xl font-bold text-orange-500">
-                    {(() => {
-                      const trucksWithWeight = sortedTrucks.filter(
-                        (t) => t.netWeight && t.netWeight > 0
-                      );
-                      if (trucksWithWeight.length === 0) return "-";
-                      const avgBagWeight =
-                        trucksWithWeight.reduce((sum, t) => {
-                          return sum + t.netWeight! / t.bags;
-                        }, 0) / trucksWithWeight.length;
-                      return `${avgBagWeight.toFixed(1)} kg`;
-                    })()}
-                  </p>
-                </div>
-                <div className="bg-gray-800 p-4 rounded-lg shadow-xl border border-gray-700">
-                  <p className="text-sm text-gray-400 mb-1">Pending</p>
-                  <p className="text-2xl font-bold text-yellow-500">
-                    {sortedTrucks.filter((t) => t.status === "pending").length}
-                  </p>
-                </div>
-                <div className="bg-gray-800 p-4 rounded-lg shadow-xl border border-gray-700">
-                  <p className="text-sm text-gray-400 mb-1">Scaled In</p>
-                  <p className="text-2xl font-bold text-blue-500">
-                    {
-                      sortedTrucks.filter((t) => t.status === "scaled_in")
-                        .length
-                    }
-                  </p>
-                </div>
-                <div className="bg-gray-800 p-4 rounded-lg shadow-xl border border-gray-700">
-                  <p className="text-sm text-gray-400 mb-1">Offloaded</p>
-                  <div className="flex items-baseline gap-2">
-                    <p className="text-2xl font-bold text-green-500">
-                      {
-                        sortedTrucks.filter((t) => t.status === "offloaded")
-                          .length
-                      }
+              <div className="lg:w-auto">
+                {/* Mobile toggle button */}
+                <button
+                  onClick={() => setShowStats(!showStats)}
+                  className="lg:hidden w-full flex items-center justify-center gap-2 py-2 px-3 mb-2 bg-gray-800/50 hover:bg-gray-800 rounded-lg border border-gray-700/50 text-gray-400 text-sm transition-colors"
+                >
+                  <span>Statistics</span>
+                  <ChevronDown
+                    className={`h-4 w-4 transition-transform duration-300 ${showStats ? 'rotate-180' : ''}`}
+                  />
+                </button>
+
+                {/* Stats grid - hidden on mobile by default, always visible on desktop */}
+                <div
+                  className={`grid grid-cols-2 lg:grid-cols-4 gap-4 overflow-hidden transition-all duration-300 ease-in-out lg:max-h-none lg:opacity-100 ${
+                    showStats ? 'max-h-[800px] opacity-100' : 'max-h-0 opacity-0 lg:max-h-none lg:opacity-100'
+                  }`}
+                >
+                  <div className="bg-gray-800 p-4 rounded-lg shadow-xl border border-gray-700">
+                    <p className="text-sm text-gray-400 mb-1">Total Trucks</p>
+                    <p className="text-2xl font-bold text-gray-100">
+                      {sortedTrucks.length}
                     </p>
-                    <p className="text-sm text-gray-500">
+                  </div>
+                  <div className="bg-gray-800 p-4 rounded-lg shadow-xl border border-gray-700">
+                    <p className="text-sm text-gray-400 mb-1">Total Bags</p>
+                    <p className="text-2xl font-bold text-purple-500">
+                      {sortedTrucks.reduce((sum, t) => sum + t.bags, 0)}
+                    </p>
+                  </div>
+                  <div className="bg-gray-800 p-4 rounded-lg shadow-xl border border-gray-700">
+                    <p className="text-sm text-gray-400 mb-1">Avg. Moisture</p>
+                    <p className="text-2xl font-bold text-cyan-500">
+                      {sortedTrucks.length > 0
+                        ? (
+                            sortedTrucks.reduce(
+                              (sum, t) => sum + t.moistureLevel,
+                              0
+                            ) / sortedTrucks.length
+                          ).toFixed(1)
+                        : 0}
+                      %
+                    </p>
+                  </div>
+                  <div className="bg-gray-800 p-4 rounded-lg shadow-xl border border-gray-700">
+                    <p className="text-sm text-gray-400 mb-1">Avg Bag Weight</p>
+                    <p className="text-2xl font-bold text-orange-500">
                       {(() => {
-                        const totalWeight = sortedTrucks
-                          .filter(
-                            (t) => t.status === "offloaded" && t.netWeight
-                          )
-                          .reduce((sum, t) => sum + (t.netWeight || 0), 0);
-                        return totalWeight > 0
-                          ? `• ${totalWeight.toLocaleString()} kg`
-                          : "";
+                        const trucksWithWeight = sortedTrucks.filter(
+                          (t) => t.netWeight && t.netWeight > 0
+                        );
+                        if (trucksWithWeight.length === 0) return "-";
+                        const avgBagWeight =
+                          trucksWithWeight.reduce((sum, t) => {
+                            return sum + t.netWeight! / t.bags;
+                          }, 0) / trucksWithWeight.length;
+                        return `${avgBagWeight.toFixed(1)} kg`;
                       })()}
                     </p>
                   </div>
-                </div>
-                <div className="bg-gray-800 p-4 rounded-lg shadow-xl border border-gray-700">
-                  <p className="text-sm text-gray-400 mb-1">Rejected</p>
-                  <p className="text-2xl font-bold text-red-500">
-                    {sortedTrucks.filter((t) => t.status === "rejected").length}
-                  </p>
+                  <div className="bg-gray-800 p-4 rounded-lg shadow-xl border border-gray-700">
+                    <p className="text-sm text-gray-400 mb-1">Pending</p>
+                    <p className="text-2xl font-bold text-yellow-500">
+                      {sortedTrucks.filter((t) => t.status === "pending").length}
+                    </p>
+                  </div>
+                  <div className="bg-gray-800 p-4 rounded-lg shadow-xl border border-gray-700">
+                    <p className="text-sm text-gray-400 mb-1">Scaled In</p>
+                    <p className="text-2xl font-bold text-blue-500">
+                      {
+                        sortedTrucks.filter((t) => t.status === "scaled_in")
+                          .length
+                      }
+                    </p>
+                  </div>
+                  <div className="bg-gray-800 p-4 rounded-lg shadow-xl border border-gray-700">
+                    <p className="text-sm text-gray-400 mb-1">Offloaded</p>
+                    <div className="flex items-baseline gap-2">
+                      <p className="text-2xl font-bold text-green-500">
+                        {
+                          sortedTrucks.filter((t) => t.status === "offloaded")
+                            .length
+                        }
+                      </p>
+                      <p className="text-sm text-gray-500">
+                        {(() => {
+                          const totalWeight = sortedTrucks
+                            .filter(
+                              (t) => t.status === "offloaded" && t.netWeight
+                            )
+                            .reduce((sum, t) => sum + (t.netWeight || 0), 0);
+                          return totalWeight > 0
+                            ? `• ${totalWeight.toLocaleString()} kg`
+                            : "";
+                        })()}
+                      </p>
+                    </div>
+                  </div>
+                  <div className="bg-gray-800 p-4 rounded-lg shadow-xl border border-gray-700">
+                    <p className="text-sm text-gray-400 mb-1">Rejected</p>
+                    <p className="text-2xl font-bold text-red-500">
+                      {sortedTrucks.filter((t) => t.status === "rejected").length}
+                    </p>
+                  </div>
                 </div>
               </div>
             )}

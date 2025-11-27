@@ -380,35 +380,28 @@ export const TruckTable: React.FC<TruckTableProps> = ({
     <div className="bg-gray-800 rounded-lg shadow-xl border border-gray-700 relative">
       {/* Search Bar and Date Pagination */}
       <div className="p-4 border-b border-gray-700 relative">
-        <div className="flex flex-col lg:flex-row gap-3 items-start lg:items-center">
+        <div className="flex flex-row gap-2 sm:gap-3 items-center">
           {/* Search Bar */}
           {onSearchChange && (
-            <div className="flex-1 w-full">
-              <div className="flex gap-3 items-center">
-                <div className="relative flex-1 w-full">
-                  <Search className="absolute left-3 top-1/2 -translate-y-1/2 h-4 w-4 text-gray-400 pointer-events-none" />
-                  <input
-                    id="supplier-filter"
-                    type="text"
-                    value={searchFilter}
-                    onChange={(e) => onSearchChange(e.target.value)}
-                    placeholder="Search supplier or truck number..."
-                    className="w-full pl-10 pr-10 py-2 bg-gray-700 border border-gray-600 rounded-lg text-gray-100 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-                  />
-                  {searchFilter && (
-                    <button
-                      onClick={() => onSearchChange("")}
-                      className="absolute right-2 top-1/2 -translate-y-1/2 p-1 hover:bg-gray-600 rounded-md transition-colors"
-                      aria-label="Clear filter"
-                    >
-                      <X className="h-4 w-4 text-gray-400" />
-                    </button>
-                  )}
-                </div>
+            <div className="flex-1 min-w-0">
+              <div className="relative w-full">
+                <Search className="absolute left-3 top-1/2 -translate-y-1/2 h-4 w-4 text-gray-400 pointer-events-none" />
+                <input
+                  id="supplier-filter"
+                  type="text"
+                  value={searchFilter}
+                  onChange={(e) => onSearchChange(e.target.value)}
+                  placeholder="Search..."
+                  className="w-full pl-10 pr-8 py-2 bg-gray-700 border border-gray-600 rounded-lg text-gray-100 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent text-sm"
+                />
                 {searchFilter && (
-                  <span className="text-sm text-gray-400 whitespace-nowrap">
-                    Showing {trucks.length} of {totalTrucks}
-                  </span>
+                  <button
+                    onClick={() => onSearchChange("")}
+                    className="absolute right-2 top-1/2 -translate-y-1/2 p-1 hover:bg-gray-600 rounded-md transition-colors"
+                    aria-label="Clear filter"
+                  >
+                    <X className="h-4 w-4 text-gray-400" />
+                  </button>
                 )}
               </div>
             </div>
@@ -416,7 +409,7 @@ export const TruckTable: React.FC<TruckTableProps> = ({
 
           {/* Date Pagination Controls - Always show if onDateChange and selectedDate are provided */}
           {onDateChange && selectedDate && (
-            <div className="flex items-center gap-1 sm:gap-2 w-full lg:w-auto relative">
+            <div className="flex items-center gap-1 flex-shrink-0 relative">
               <button
                 onClick={handlePrevious}
                 disabled={
@@ -424,7 +417,7 @@ export const TruckTable: React.FC<TruckTableProps> = ({
                   availableDates.length === 0 ||
                   currentIndex === availableDates.length - 1
                 }
-                className={`p-1 sm:p-2 rounded-md transition-colors flex-shrink-0 ${
+                className={`p-1 rounded-md transition-colors flex-shrink-0 ${
                   !availableDates ||
                   availableDates.length === 0 ||
                   currentIndex === availableDates.length - 1
@@ -432,12 +425,12 @@ export const TruckTable: React.FC<TruckTableProps> = ({
                     : "text-gray-300 hover:bg-gray-700"
                 }`}
               >
-                <ChevronLeft className="h-4 w-4 sm:h-5 sm:w-5" />
+                <ChevronLeft className="h-4 w-4" />
               </button>
 
-              <div className="flex items-center justify-center gap-1 sm:gap-2 min-w-0 flex-1 lg:flex-initial">
-                <Calendar className="h-4 w-4 sm:h-5 sm:w-5 text-gray-400 hidden sm:block flex-shrink-0" />
-                <div className="min-w-0 max-w-[180px] sm:max-w-[280px] relative">
+              <div className="flex items-center justify-center gap-1 min-w-0">
+                <Calendar className="h-4 w-4 text-gray-400 hidden sm:block flex-shrink-0" />
+                <div className="min-w-0 max-w-[120px] sm:max-w-[280px] relative">
                   <CustomDropdown
                     value={selectedDate}
                     options={dropdownOptions}
@@ -454,7 +447,7 @@ export const TruckTable: React.FC<TruckTableProps> = ({
                   availableDates.length === 0 ||
                   currentIndex === 0
                 }
-                className={`p-1 sm:p-2 rounded-md transition-colors flex-shrink-0 ${
+                className={`p-1 rounded-md transition-colors flex-shrink-0 ${
                   !availableDates ||
                   availableDates.length === 0 ||
                   currentIndex === 0
@@ -462,7 +455,7 @@ export const TruckTable: React.FC<TruckTableProps> = ({
                     : "text-gray-300 hover:bg-gray-700"
                 }`}
               >
-                <ChevronRight className="h-4 w-4 sm:h-5 sm:w-5" />
+                <ChevronRight className="h-4 w-4" />
               </button>
             </div>
           )}
