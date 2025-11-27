@@ -24783,6 +24783,86 @@
       "updatedAt": "2025-11-26T16:50:12.928Z",
       "waybillNumber": "7441",
       "netWeight": 17570
+    },
+    {
+      "id": "truck_1764229120199_0_mbw34p05a",
+      "supplierName": "Idris Haruna",
+      "bags": 652,
+      "moistureLevel": 12,
+      "truckNumber": "NSR 775 ZU",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-27T07:38:40.199Z"
+        }
+      ],
+      "createdAt": "2025-11-27T07:38:40.199Z",
+      "updatedAt": "2025-11-27T07:38:40.199Z"
+    },
+    {
+      "id": "truck_1764229120199_1_jcnn1lpy9",
+      "supplierName": "Alh Dayyabu",
+      "bags": 544,
+      "moistureLevel": 13,
+      "truckNumber": "NNR 405 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-27T07:38:40.199Z"
+        }
+      ],
+      "createdAt": "2025-11-27T07:38:40.199Z",
+      "updatedAt": "2025-11-27T07:38:40.199Z"
+    },
+    {
+      "id": "truck_1764229120199_2_m494tboqo",
+      "supplierName": "Alh Dayyabu",
+      "bags": 523,
+      "moistureLevel": 13,
+      "truckNumber": "XT 937 AAA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-27T07:38:40.199Z"
+        }
+      ],
+      "createdAt": "2025-11-27T07:38:40.199Z",
+      "updatedAt": "2025-11-27T07:38:40.199Z"
+    },
+    {
+      "id": "truck_1764229120199_3_o0f1aj802",
+      "supplierName": "Idris Haruna",
+      "bags": 230,
+      "moistureLevel": 13,
+      "truckNumber": "TRR 887 YX",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-27T07:38:40.199Z"
+        }
+      ],
+      "createdAt": "2025-11-27T07:38:40.199Z",
+      "updatedAt": "2025-11-27T07:38:40.199Z"
+    },
+    {
+      "id": "truck_1764229120199_4_cassj0tw6",
+      "supplierName": "Sabiu Yusif",
+      "bags": 240,
+      "moistureLevel": 14,
+      "truckNumber": "DAL 394 YY",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-27T07:38:40.199Z"
+        }
+      ],
+      "createdAt": "2025-11-27T07:38:40.199Z",
+      "updatedAt": "2025-11-27T07:38:40.199Z"
     }
   ],
   "loadings": [
@@ -25197,6 +25277,6 @@
       "waybillNumber": "7439"
     }
   ],
-  "lastModified": "2025-11-26T16:50:13.333Z",
+  "lastModified": "2025-11-27T07:38:40.401Z",
   "version": "2.0.0"
 }
