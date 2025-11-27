@@ -25032,7 +25032,7 @@
       "bags": 450,
       "moistureLevel": 12,
       "truckNumber": "QAP 923 XA",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -25044,11 +25044,19 @@
           "details": {
             "waybillNumber": "7449"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-11-27T12:56:01.521Z",
+          "details": {
+            "netWeight": 32070
+          }
         }
       ],
       "createdAt": "2025-11-27T11:20:31.335Z",
-      "updatedAt": "2025-11-27T11:20:46.306Z",
-      "waybillNumber": "7449"
+      "updatedAt": "2025-11-27T12:56:01.522Z",
+      "waybillNumber": "7449",
+      "netWeight": 32070
     }
   ],
   "loadings": [
@@ -25463,6 +25471,6 @@
       "waybillNumber": "7439"
     }
   ],
-  "lastModified": "2025-11-27T11:28:30.457Z",
+  "lastModified": "2025-11-27T12:56:01.780Z",
   "version": "2.0.0"
 }
