@@ -25008,15 +25008,23 @@
       "bags": 160,
       "moistureLevel": 13,
       "truckNumber": "WRJ 69 XA",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-11-27T11:20:31.334Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-11-27T11:28:30.228Z",
+          "details": {
+            "waybillNumber": "7450"
+          }
         }
       ],
       "createdAt": "2025-11-27T11:20:31.335Z",
-      "updatedAt": "2025-11-27T11:20:31.335Z"
+      "updatedAt": "2025-11-27T11:28:30.228Z",
+      "waybillNumber": "7450"
     },
     {
       "id": "truck_1764242431334_1_43vpejmcf",
@@ -25455,6 +25463,6 @@
       "waybillNumber": "7439"
     }
   ],
-  "lastModified": "2025-11-27T11:20:46.501Z",
+  "lastModified": "2025-11-27T11:28:30.457Z",
   "version": "2.0.0"
 }
