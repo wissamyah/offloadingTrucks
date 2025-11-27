@@ -24824,7 +24824,7 @@
       "bags": 544,
       "moistureLevel": 13,
       "truckNumber": "NNR 405 XA",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -24836,11 +24836,21 @@
           "details": {
             "waybillNumber": "7443"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-11-27T11:11:22.552Z",
+          "details": {
+            "netWeight": 43230,
+            "deduction": 180
+          }
         }
       ],
       "createdAt": "2025-11-27T07:38:40.199Z",
-      "updatedAt": "2025-11-27T07:47:17.726Z",
-      "waybillNumber": "7443"
+      "updatedAt": "2025-11-27T11:11:22.552Z",
+      "waybillNumber": "7443",
+      "netWeight": 43230,
+      "deduction": 180
     },
     {
       "id": "truck_1764229120199_2_m494tboqo",
@@ -25395,6 +25405,6 @@
       "waybillNumber": "7439"
     }
   ],
-  "lastModified": "2025-11-27T11:10:39.305Z",
+  "lastModified": "2025-11-27T11:11:22.650Z",
   "version": "2.0.0"
 }
