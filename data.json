@@ -24858,7 +24858,7 @@
       "bags": 523,
       "moistureLevel": 13,
       "truckNumber": "XT 937 AAA",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -24870,11 +24870,21 @@
           "details": {
             "waybillNumber": "7444"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-11-27T11:11:59.383Z",
+          "details": {
+            "netWeight": 41770,
+            "deduction": 200
+          }
         }
       ],
       "createdAt": "2025-11-27T07:38:40.199Z",
-      "updatedAt": "2025-11-27T07:53:19.802Z",
-      "waybillNumber": "7444"
+      "updatedAt": "2025-11-27T11:11:59.383Z",
+      "waybillNumber": "7444",
+      "netWeight": 41770,
+      "deduction": 200
     },
     {
       "id": "truck_1764229120199_3_o0f1aj802",
@@ -25405,6 +25415,6 @@
       "waybillNumber": "7439"
     }
   ],
-  "lastModified": "2025-11-27T11:11:22.650Z",
+  "lastModified": "2025-11-27T11:11:59.475Z",
   "version": "2.0.0"
 }
