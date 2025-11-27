@@ -25494,15 +25494,23 @@
       "products": "800 Kwik rice 50kg",
       "truckNumber": "GME 569 XB",
       "driverPhone": "07045106566",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-11-27T13:57:54.669Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-11-27T14:33:25.502Z",
+          "details": {
+            "waybillNumber": "7451"
+          }
         }
       ],
       "createdAt": "2025-11-27T13:57:54.669Z",
-      "updatedAt": "2025-11-27T13:57:54.669Z"
+      "updatedAt": "2025-11-27T14:33:25.502Z",
+      "waybillNumber": "7451"
     },
     {
       "id": "loading_1764251966206_0_iwe58s3ku",
@@ -25558,6 +25566,6 @@
       "waybillNumber": "7452"
     }
   ],
-  "lastModified": "2025-11-27T14:33:09.173Z",
+  "lastModified": "2025-11-27T14:33:25.621Z",
   "version": "2.0.0"
 }
