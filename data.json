@@ -24910,15 +24910,23 @@
       "bags": 421,
       "moistureLevel": 14,
       "truckNumber": "MGN 659 XF",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-11-27T07:40:28.659Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-11-27T08:34:37.627Z",
+          "details": {
+            "waybillNumber": "7447"
+          }
         }
       ],
       "createdAt": "2025-11-27T07:40:28.659Z",
-      "updatedAt": "2025-11-27T07:40:28.659Z"
+      "updatedAt": "2025-11-27T08:34:37.627Z",
+      "waybillNumber": "7447"
     },
     {
       "id": "truck_1764229228657_1_lx485i8j2",
@@ -25365,6 +25373,6 @@
       "waybillNumber": "7439"
     }
   ],
-  "lastModified": "2025-11-27T08:31:11.246Z",
+  "lastModified": "2025-11-27T08:34:37.795Z",
   "version": "2.0.0"
 }
