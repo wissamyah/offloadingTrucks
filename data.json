@@ -24951,22 +24951,6 @@
       "createdAt": "2025-11-27T07:40:28.659Z",
       "updatedAt": "2025-11-27T08:37:49.487Z",
       "waybillNumber": "7448"
-    },
-    {
-      "id": "truck_1764229228657_2_di1dirx7k",
-      "supplierName": "Isa Abubakar",
-      "bags": 540,
-      "moistureLevel": 14,
-      "truckNumber": "GTB 353 XA",
-      "status": "pending",
-      "statusHistory": [
-        {
-          "status": "pending",
-          "timestamp": "2025-11-27T07:40:28.659Z"
-        }
-      ],
-      "createdAt": "2025-11-27T07:40:28.659Z",
-      "updatedAt": "2025-11-27T07:40:28.659Z"
     }
   ],
   "loadings": [
@@ -25381,6 +25365,6 @@
       "waybillNumber": "7439"
     }
   ],
-  "lastModified": "2025-11-27T08:37:49.664Z",
+  "lastModified": "2025-11-27T08:38:11.170Z",
   "version": "2.0.0"
 }
