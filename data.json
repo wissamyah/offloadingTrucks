@@ -25083,6 +25083,54 @@
       "updatedAt": "2025-11-27T12:56:01.522Z",
       "waybillNumber": "7449",
       "netWeight": 32070
+    },
+    {
+      "id": "truck_1764315215519_0_tnevp619q",
+      "supplierName": "Idris Haruna",
+      "bags": 200,
+      "moistureLevel": 12,
+      "truckNumber": "KTG 583 YG",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-28T07:33:35.520Z"
+        }
+      ],
+      "createdAt": "2025-11-28T07:33:35.520Z",
+      "updatedAt": "2025-11-28T07:33:35.520Z"
+    },
+    {
+      "id": "truck_1764315215519_1_zis0jbc7b",
+      "supplierName": "Idris Haruna",
+      "bags": 246,
+      "moistureLevel": 11,
+      "truckNumber": "BAU 752 YP",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-28T07:33:35.520Z"
+        }
+      ],
+      "createdAt": "2025-11-28T07:33:35.520Z",
+      "updatedAt": "2025-11-28T07:33:35.520Z"
+    },
+    {
+      "id": "truck_1764315215519_2_beviacmf9",
+      "supplierName": "Alh Danasabe",
+      "bags": 200,
+      "moistureLevel": 12,
+      "truckNumber": "AAA 897 YE",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-28T07:33:35.520Z"
+        }
+      ],
+      "createdAt": "2025-11-28T07:33:35.520Z",
+      "updatedAt": "2025-11-28T07:33:35.520Z"
     }
   ],
   "loadings": [
@@ -25582,6 +25630,6 @@
       "waybillNumber": "7452"
     }
   ],
-  "lastModified": "2025-11-27T17:12:39.213Z",
+  "lastModified": "2025-11-28T07:33:35.777Z",
   "version": "2.0.0"
 }
