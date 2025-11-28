@@ -25708,17 +25708,25 @@
       "customerName": "Wellcare Alliance",
       "products": "10 Kwik rice 50kg\n10 Kwik rice 25kg",
       "truckNumber": "LKJ 810 YE",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-11-28T09:46:35.491Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-11-28T09:46:54.325Z",
+          "details": {
+            "waybillNumber": "7458"
+          }
         }
       ],
       "createdAt": "2025-11-28T09:46:35.491Z",
-      "updatedAt": "2025-11-28T09:46:35.491Z"
+      "updatedAt": "2025-11-28T09:46:54.325Z",
+      "waybillNumber": "7458"
     }
   ],
-  "lastModified": "2025-11-28T09:46:35.611Z",
+  "lastModified": "2025-11-28T09:46:54.479Z",
   "version": "2.0.0"
 }
