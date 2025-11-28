@@ -25918,7 +25918,7 @@
       "products": "200 Oga rice 50kg\n200 Kwik rice 50kg",
       "truckNumber": "BNK 456 XA",
       "driverName": "+2349037873519‬ Aliyu",
-      "status": "scaled_in",
+      "status": "loaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -25930,13 +25930,17 @@
           "details": {
             "waybillNumber": "8460"
           }
+        },
+        {
+          "status": "loaded",
+          "timestamp": "2025-11-28T14:35:43.235Z"
         }
       ],
       "createdAt": "2025-11-28T14:35:10.605Z",
-      "updatedAt": "2025-11-28T14:35:22.793Z",
+      "updatedAt": "2025-11-28T14:35:43.235Z",
       "waybillNumber": "8460"
     }
   ],
-  "lastModified": "2025-11-28T14:35:22.939Z",
+  "lastModified": "2025-11-28T14:35:44.222Z",
   "version": "2.0.0"
 }
