@@ -25766,7 +25766,7 @@
       "products": "350 Kwik rice 50kg",
       "truckNumber": "DJA 217 XA",
       "driverPhone": "08033927149",
-      "status": "scaled_in",
+      "status": "loaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -25778,13 +25778,17 @@
           "details": {
             "waybillNumber": "7458"
           }
+        },
+        {
+          "status": "loaded",
+          "timestamp": "2025-11-28T12:52:35.566Z"
         }
       ],
       "createdAt": "2025-11-28T11:34:08.618Z",
-      "updatedAt": "2025-11-28T11:34:24.479Z",
+      "updatedAt": "2025-11-28T12:52:35.566Z",
       "waybillNumber": "7458"
     }
   ],
-  "lastModified": "2025-11-28T11:34:25.525Z",
+  "lastModified": "2025-11-28T12:52:35.669Z",
   "version": "2.0.0"
 }
