@@ -25258,15 +25258,23 @@
       "bags": 12,
       "moistureLevel": 15,
       "truckNumber": "MGR 333 XA",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-11-28T13:21:57.256Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-11-28T13:25:01.488Z",
+          "details": {
+            "waybillNumber": "7461"
+          }
         }
       ],
       "createdAt": "2025-11-28T13:21:57.256Z",
-      "updatedAt": "2025-11-28T13:21:57.256Z"
+      "updatedAt": "2025-11-28T13:25:01.488Z",
+      "waybillNumber": "7461"
     },
     {
       "id": "truck_1764336117256_3_skc3o8rto",
@@ -25885,6 +25893,6 @@
       "waybillNumber": "7458"
     }
   ],
-  "lastModified": "2025-11-28T13:22:35.130Z",
+  "lastModified": "2025-11-28T13:25:03.085Z",
   "version": "2.0.0"
 }
