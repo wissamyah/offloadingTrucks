@@ -25130,7 +25130,8 @@
       ],
       "createdAt": "2025-11-28T07:33:35.520Z",
       "updatedAt": "2025-11-28T07:37:07.885Z",
-      "waybillNumber": "7454"
+      "waybillNumber": "7454",
+      "netWeight": 25860
     },
     {
       "id": "truck_1764315215519_2_beviacmf9",
@@ -25731,6 +25732,6 @@
       "waybillNumber": "7458"
     }
   ],
-  "lastModified": "2025-11-28T09:47:00.269Z",
+  "lastModified": "2025-11-28T09:50:55.823Z",
   "version": "2.0.0"
 }
