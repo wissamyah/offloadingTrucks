@@ -25235,6 +25235,150 @@
       "waybillNumber": "7455",
       "netWeight": 15620,
       "deduction": 90
+    },
+    {
+      "id": "truck_1764336117256_0_apavtx0hf",
+      "supplierName": "Habibu Isa",
+      "bags": 570,
+      "moistureLevel": 12,
+      "truckNumber": "FKY 92 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-28T13:21:57.256Z"
+        }
+      ],
+      "createdAt": "2025-11-28T13:21:57.256Z",
+      "updatedAt": "2025-11-28T13:21:57.256Z"
+    },
+    {
+      "id": "truck_1764336117256_1_7reoo49sh",
+      "supplierName": "Yusif Danmutunchi",
+      "bags": 12,
+      "moistureLevel": 15,
+      "truckNumber": "MGR 333 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-28T13:21:57.256Z"
+        }
+      ],
+      "createdAt": "2025-11-28T13:21:57.256Z",
+      "updatedAt": "2025-11-28T13:21:57.256Z"
+    },
+    {
+      "id": "truck_1764336117256_2_cz3z0oz7k",
+      "supplierName": "Murtala Musa",
+      "bags": 260,
+      "moistureLevel": 20,
+      "truckNumber": "MNA 15 XB",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-28T13:21:57.256Z"
+        }
+      ],
+      "createdAt": "2025-11-28T13:21:57.256Z",
+      "updatedAt": "2025-11-28T13:21:57.256Z"
+    },
+    {
+      "id": "truck_1764336117256_3_skc3o8rto",
+      "supplierName": "Murtala Musa",
+      "bags": 200,
+      "moistureLevel": 17,
+      "truckNumber": "BBR 822 XB",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-28T13:21:57.256Z"
+        }
+      ],
+      "createdAt": "2025-11-28T13:21:57.256Z",
+      "updatedAt": "2025-11-28T13:21:57.256Z"
+    },
+    {
+      "id": "truck_1764336117256_4_g9bukk673",
+      "supplierName": "Murtala Musa",
+      "bags": 600,
+      "moistureLevel": 21,
+      "truckNumber": "GWL 391 XC",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-28T13:21:57.256Z"
+        }
+      ],
+      "createdAt": "2025-11-28T13:21:57.256Z",
+      "updatedAt": "2025-11-28T13:21:57.256Z"
+    },
+    {
+      "id": "truck_1764336117256_5_vntjdlvth",
+      "supplierName": "Idris Haruna",
+      "bags": 483,
+      "moistureLevel": 11,
+      "truckNumber": "BAU 241 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-28T13:21:57.256Z"
+        }
+      ],
+      "createdAt": "2025-11-28T13:21:57.256Z",
+      "updatedAt": "2025-11-28T13:21:57.256Z"
+    },
+    {
+      "id": "truck_1764336117256_6_ktifzld3t",
+      "supplierName": "Abubakar Muhd Tukur",
+      "bags": 220,
+      "moistureLevel": 10,
+      "truckNumber": "GME 205 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-28T13:21:57.256Z"
+        }
+      ],
+      "createdAt": "2025-11-28T13:21:57.256Z",
+      "updatedAt": "2025-11-28T13:21:57.257Z"
+    },
+    {
+      "id": "truck_1764336117256_7_v8jyq65pi",
+      "supplierName": "Alh Dayyabu",
+      "bags": 499,
+      "moistureLevel": 15,
+      "truckNumber": "WER 189 ZE",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-28T13:21:57.257Z"
+        }
+      ],
+      "createdAt": "2025-11-28T13:21:57.257Z",
+      "updatedAt": "2025-11-28T13:21:57.257Z"
+    },
+    {
+      "id": "truck_1764336117256_8_f0cev269i",
+      "supplierName": "B L Barka",
+      "bags": 600,
+      "moistureLevel": 14,
+      "truckNumber": "GME 652 XD",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-28T13:21:57.257Z"
+        }
+      ],
+      "createdAt": "2025-11-28T13:21:57.257Z",
+      "updatedAt": "2025-11-28T13:21:57.257Z"
     }
   ],
   "loadings": [
@@ -25789,6 +25933,6 @@
       "waybillNumber": "7458"
     }
   ],
-  "lastModified": "2025-11-28T12:52:35.669Z",
+  "lastModified": "2025-11-28T13:21:57.520Z",
   "version": "2.0.0"
 }
