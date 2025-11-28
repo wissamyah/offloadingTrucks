@@ -25911,8 +25911,24 @@
       "createdAt": "2025-11-28T11:34:08.618Z",
       "updatedAt": "2025-11-28T12:52:35.566Z",
       "waybillNumber": "7458"
+    },
+    {
+      "id": "loading_1764340510605_0_bv4e77jt7",
+      "customerName": "De Cooks enterprise",
+      "products": "200 Oga rice 50kg\n200 Kwik rice 50kg",
+      "truckNumber": "BNK 456 XA",
+      "driverName": "+2349037873519‬ Aliyu",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-28T14:35:10.605Z"
+        }
+      ],
+      "createdAt": "2025-11-28T14:35:10.605Z",
+      "updatedAt": "2025-11-28T14:35:10.605Z"
     }
   ],
-  "lastModified": "2025-11-28T14:24:17.297Z",
+  "lastModified": "2025-11-28T14:35:10.775Z",
   "version": "2.0.0"
 }
