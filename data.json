@@ -25196,7 +25196,7 @@
       "bags": 170,
       "moistureLevel": 12,
       "truckNumber": "TRR 256 Y",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -25208,10 +25208,18 @@
           "details": {
             "waybillNumber": "7455"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-11-28T09:51:50.732Z",
+          "details": {
+            "netWeight": 15620,
+            "deduction": 90
+          }
         }
       ],
       "createdAt": "2025-11-28T07:35:33.414Z",
-      "updatedAt": "2025-11-28T07:39:06.848Z",
+      "updatedAt": "2025-11-28T09:51:50.732Z",
       "waybillNumber": "7455",
       "netWeight": 15620,
       "deduction": 90
@@ -25741,6 +25749,6 @@
       "waybillNumber": "7458"
     }
   ],
-  "lastModified": "2025-11-28T09:51:40.156Z",
+  "lastModified": "2025-11-28T09:51:51.503Z",
   "version": "2.0.0"
 }
