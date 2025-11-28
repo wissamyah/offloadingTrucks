@@ -25346,15 +25346,19 @@
       "bags": 220,
       "moistureLevel": 10,
       "truckNumber": "GME 205 XA",
-      "status": "pending",
+      "status": "rejected",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-11-28T13:21:57.256Z"
+        },
+        {
+          "status": "rejected",
+          "timestamp": "2025-11-28T14:24:17.210Z"
         }
       ],
       "createdAt": "2025-11-28T13:21:57.256Z",
-      "updatedAt": "2025-11-28T13:21:57.257Z"
+      "updatedAt": "2025-11-28T14:24:17.210Z"
     }
   ],
   "loadings": [
@@ -25909,6 +25913,6 @@
       "waybillNumber": "7458"
     }
   ],
-  "lastModified": "2025-11-28T13:41:57.254Z",
+  "lastModified": "2025-11-28T14:24:17.297Z",
   "version": "2.0.0"
 }
