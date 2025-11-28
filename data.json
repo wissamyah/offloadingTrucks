@@ -25114,7 +25114,7 @@
       "bags": 246,
       "moistureLevel": 11,
       "truckNumber": "BAU 752 YP",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -25126,10 +25126,17 @@
           "details": {
             "waybillNumber": "7454"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-11-28T09:51:15.178Z",
+          "details": {
+            "netWeight": 25860
+          }
         }
       ],
       "createdAt": "2025-11-28T07:33:35.520Z",
-      "updatedAt": "2025-11-28T07:37:07.885Z",
+      "updatedAt": "2025-11-28T09:51:15.178Z",
       "waybillNumber": "7454",
       "netWeight": 25860
     },
@@ -25732,6 +25739,6 @@
       "waybillNumber": "7458"
     }
   ],
-  "lastModified": "2025-11-28T09:50:55.823Z",
+  "lastModified": "2025-11-28T09:51:15.274Z",
   "version": "2.0.0"
 }
