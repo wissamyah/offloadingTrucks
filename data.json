@@ -25349,22 +25349,6 @@
       "updatedAt": "2025-11-28T13:21:57.257Z"
     },
     {
-      "id": "truck_1764336117256_7_v8jyq65pi",
-      "supplierName": "Alh Dayyabu",
-      "bags": 499,
-      "moistureLevel": 15,
-      "truckNumber": "WER 189 ZE",
-      "status": "pending",
-      "statusHistory": [
-        {
-          "status": "pending",
-          "timestamp": "2025-11-28T13:21:57.257Z"
-        }
-      ],
-      "createdAt": "2025-11-28T13:21:57.257Z",
-      "updatedAt": "2025-11-28T13:21:57.257Z"
-    },
-    {
       "id": "truck_1764336117256_8_f0cev269i",
       "supplierName": "B L Barka",
       "bags": 600,
@@ -25933,6 +25917,6 @@
       "waybillNumber": "7458"
     }
   ],
-  "lastModified": "2025-11-28T13:21:57.520Z",
+  "lastModified": "2025-11-28T13:22:11.905Z",
   "version": "2.0.0"
 }
