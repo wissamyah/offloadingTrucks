@@ -25139,6 +25139,38 @@
       "createdAt": "2025-11-28T07:33:35.520Z",
       "updatedAt": "2025-11-28T07:34:52.517Z",
       "waybillNumber": "7453"
+    },
+    {
+      "id": "truck_1764315333413_0_t7pslm8x9",
+      "supplierName": "Murtala Yahaya",
+      "bags": 250,
+      "moistureLevel": 15,
+      "truckNumber": "GRK 245 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-28T07:35:33.413Z"
+        }
+      ],
+      "createdAt": "2025-11-28T07:35:33.413Z",
+      "updatedAt": "2025-11-28T07:35:33.413Z"
+    },
+    {
+      "id": "truck_1764315333413_1_dgdfz1hje",
+      "supplierName": "Kurum Agro Allied",
+      "bags": 170,
+      "moistureLevel": 12,
+      "truckNumber": "TRR 256 Y",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-28T07:35:33.414Z"
+        }
+      ],
+      "createdAt": "2025-11-28T07:35:33.414Z",
+      "updatedAt": "2025-11-28T07:35:33.414Z"
     }
   ],
   "loadings": [
@@ -25638,6 +25670,6 @@
       "waybillNumber": "7452"
     }
   ],
-  "lastModified": "2025-11-28T07:34:53.554Z",
+  "lastModified": "2025-11-28T07:35:33.628Z",
   "version": "2.0.0"
 }
