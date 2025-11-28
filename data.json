@@ -26000,7 +26000,7 @@
       "customerName": "Cash sales",
       "products": "80 bags-cuscus b 50kg",
       "truckNumber": "SML 699 XA",
-      "status": "scaled_in",
+      "status": "loaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -26012,13 +26012,17 @@
           "details": {
             "waybillNumber": "7466"
           }
+        },
+        {
+          "status": "loaded",
+          "timestamp": "2025-11-28T16:49:22.670Z"
         }
       ],
       "createdAt": "2025-11-28T16:49:08.447Z",
-      "updatedAt": "2025-11-28T16:49:17.798Z",
+      "updatedAt": "2025-11-28T16:49:22.670Z",
       "waybillNumber": "7466"
     }
   ],
-  "lastModified": "2025-11-28T16:49:18.769Z",
+  "lastModified": "2025-11-28T16:49:23.693Z",
   "version": "2.0.0"
 }
