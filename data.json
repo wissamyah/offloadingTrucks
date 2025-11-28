@@ -25759,8 +25759,24 @@
       "createdAt": "2025-11-28T09:46:35.491Z",
       "updatedAt": "2025-11-28T09:46:59.416Z",
       "waybillNumber": "7458"
+    },
+    {
+      "id": "loading_1764329648617_0_2er7cc34x",
+      "customerName": "Chris Nnaji and Co Ventures",
+      "products": "350 Kwik rice 50kg",
+      "truckNumber": "DJA 217 XA",
+      "driverPhone": "08033927149",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-28T11:34:08.618Z"
+        }
+      ],
+      "createdAt": "2025-11-28T11:34:08.618Z",
+      "updatedAt": "2025-11-28T11:34:08.618Z"
     }
   ],
-  "lastModified": "2025-11-28T10:49:10.417Z",
+  "lastModified": "2025-11-28T11:34:08.774Z",
   "version": "2.0.0"
 }
