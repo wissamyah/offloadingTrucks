@@ -25212,7 +25212,9 @@
       ],
       "createdAt": "2025-11-28T07:35:33.414Z",
       "updatedAt": "2025-11-28T07:39:06.848Z",
-      "waybillNumber": "7455"
+      "waybillNumber": "7455",
+      "netWeight": 15620,
+      "deduction": 90
     }
   ],
   "loadings": [
@@ -25739,6 +25741,6 @@
       "waybillNumber": "7458"
     }
   ],
-  "lastModified": "2025-11-28T09:51:15.274Z",
+  "lastModified": "2025-11-28T09:51:40.156Z",
   "version": "2.0.0"
 }
