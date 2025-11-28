@@ -25106,15 +25106,23 @@
       "bags": 246,
       "moistureLevel": 11,
       "truckNumber": "BAU 752 YP",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-11-28T07:33:35.520Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-11-28T07:37:07.885Z",
+          "details": {
+            "waybillNumber": "7454"
+          }
         }
       ],
       "createdAt": "2025-11-28T07:33:35.520Z",
-      "updatedAt": "2025-11-28T07:33:35.520Z"
+      "updatedAt": "2025-11-28T07:37:07.885Z",
+      "waybillNumber": "7454"
     },
     {
       "id": "truck_1764315215519_2_beviacmf9",
@@ -25670,6 +25678,6 @@
       "waybillNumber": "7452"
     }
   ],
-  "lastModified": "2025-11-28T07:35:33.628Z",
+  "lastModified": "2025-11-28T07:37:08.058Z",
   "version": "2.0.0"
 }
