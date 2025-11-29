@@ -25394,15 +25394,23 @@
       "bags": 230,
       "moistureLevel": 16,
       "truckNumber": "ZUR 711 XA",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-11-29T09:39:41.494Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-11-29T09:41:27.611Z",
+          "details": {
+            "waybillNumber": "7467"
+          }
         }
       ],
       "createdAt": "2025-11-29T09:39:41.500Z",
-      "updatedAt": "2025-11-29T09:39:41.500Z"
+      "updatedAt": "2025-11-29T09:41:27.612Z",
+      "waybillNumber": "7467"
     },
     {
       "id": "truck_1764409181488_1_7e9vu0ovc",
@@ -26087,6 +26095,6 @@
       "waybillNumber": "7466"
     }
   ],
-  "lastModified": "2025-11-29T09:39:42.022Z",
+  "lastModified": "2025-11-29T09:41:27.859Z",
   "version": "2.0.0"
 }
