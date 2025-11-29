@@ -25387,6 +25387,70 @@
       ],
       "createdAt": "2025-11-28T13:21:57.256Z",
       "updatedAt": "2025-11-28T14:24:17.210Z"
+    },
+    {
+      "id": "truck_1764409181488_0_fft1yj2j1",
+      "supplierName": "Abubakar Muhd Tukur",
+      "bags": 230,
+      "moistureLevel": 16,
+      "truckNumber": "ZUR 711 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-29T09:39:41.494Z"
+        }
+      ],
+      "createdAt": "2025-11-29T09:39:41.500Z",
+      "updatedAt": "2025-11-29T09:39:41.500Z"
+    },
+    {
+      "id": "truck_1764409181488_1_7e9vu0ovc",
+      "supplierName": "Idris Haruna",
+      "bags": 230,
+      "moistureLevel": 11,
+      "truckNumber": "JJN 135 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-29T09:39:41.500Z"
+        }
+      ],
+      "createdAt": "2025-11-29T09:39:41.500Z",
+      "updatedAt": "2025-11-29T09:39:41.500Z"
+    },
+    {
+      "id": "truck_1764409181488_2_w6m64o67q",
+      "supplierName": "Idris Garba",
+      "bags": 550,
+      "moistureLevel": 13,
+      "truckNumber": "FKY 118 XB",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-29T09:39:41.500Z"
+        }
+      ],
+      "createdAt": "2025-11-29T09:39:41.500Z",
+      "updatedAt": "2025-11-29T09:39:41.500Z"
+    },
+    {
+      "id": "truck_1764409181488_3_5u1q87av8",
+      "supplierName": "Idris Haruna",
+      "bags": 480,
+      "moistureLevel": 11,
+      "truckNumber": "KTN 488 XQ",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-29T09:39:41.500Z"
+        }
+      ],
+      "createdAt": "2025-11-29T09:39:41.500Z",
+      "updatedAt": "2025-11-29T09:39:41.500Z"
     }
   ],
   "loadings": [
@@ -26023,6 +26087,6 @@
       "waybillNumber": "7466"
     }
   ],
-  "lastModified": "2025-11-28T16:49:23.693Z",
+  "lastModified": "2025-11-29T09:39:42.022Z",
   "version": "2.0.0"
 }
