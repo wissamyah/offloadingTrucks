@@ -26213,8 +26213,23 @@
       "createdAt": "2025-11-28T16:49:08.447Z",
       "updatedAt": "2025-11-28T16:49:22.670Z",
       "waybillNumber": "7466"
+    },
+    {
+      "id": "loading_1764422312621_0_51eai82jc",
+      "customerName": "Cash sale",
+      "products": "50 Bags cuscus b 50kg",
+      "truckNumber": "AAA 570 XG",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-29T13:18:32.622Z"
+        }
+      ],
+      "createdAt": "2025-11-29T13:18:32.622Z",
+      "updatedAt": "2025-11-29T13:18:32.622Z"
     }
   ],
-  "lastModified": "2025-11-29T12:46:03.170Z",
+  "lastModified": "2025-11-29T13:18:32.737Z",
   "version": "2.0.0"
 }
