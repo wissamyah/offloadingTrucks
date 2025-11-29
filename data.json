@@ -25562,7 +25562,7 @@
       "bags": 450,
       "moistureLevel": 10,
       "truckNumber": "NNR 643 XA",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -25574,11 +25574,21 @@
           "details": {
             "waybillNumber": "7472"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-11-29T14:34:27.418Z",
+          "details": {
+            "netWeight": 38240,
+            "deduction": 100
+          }
         }
       ],
       "createdAt": "2025-11-29T09:42:18.270Z",
-      "updatedAt": "2025-11-29T09:59:59.938Z",
-      "waybillNumber": "7472"
+      "updatedAt": "2025-11-29T14:34:27.418Z",
+      "waybillNumber": "7472",
+      "netWeight": 38240,
+      "deduction": 100
     }
   ],
   "loadings": [
@@ -26238,6 +26248,6 @@
       "waybillNumber": "7473"
     }
   ],
-  "lastModified": "2025-11-29T13:18:45.322Z",
+  "lastModified": "2025-11-29T14:34:27.651Z",
   "version": "2.0.0"
 }
