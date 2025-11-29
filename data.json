@@ -25528,7 +25528,7 @@
       "bags": 381,
       "moistureLevel": 12,
       "truckNumber": "KDG 37 XA",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -25540,11 +25540,21 @@
           "details": {
             "waybillNumber": "7471"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-11-29T12:46:02.908Z",
+          "details": {
+            "netWeight": 34220,
+            "deduction": 80
+          }
         }
       ],
       "createdAt": "2025-11-29T09:42:18.270Z",
-      "updatedAt": "2025-11-29T09:56:06.850Z",
-      "waybillNumber": "7471"
+      "updatedAt": "2025-11-29T12:46:02.908Z",
+      "waybillNumber": "7471",
+      "netWeight": 34220,
+      "deduction": 80
     },
     {
       "id": "truck_1764409338270_1_vt6mv9e83",
@@ -26205,6 +26215,6 @@
       "waybillNumber": "7466"
     }
   ],
-  "lastModified": "2025-11-29T12:01:40.044Z",
+  "lastModified": "2025-11-29T12:46:03.170Z",
   "version": "2.0.0"
 }
