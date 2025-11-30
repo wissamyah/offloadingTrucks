@@ -26329,7 +26329,7 @@
       "products": "700 Kwik rice 50kg",
       "truckNumber": "PKM 556 XA",
       "driverPhone": "07035610702",
-      "status": "scaled_in",
+      "status": "loaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -26341,10 +26341,14 @@
           "details": {
             "waybillNumber": "7475"
           }
+        },
+        {
+          "status": "loaded",
+          "timestamp": "2025-11-30T10:04:45.959Z"
         }
       ],
       "createdAt": "2025-11-30T07:51:10.952Z",
-      "updatedAt": "2025-11-30T07:51:19.245Z",
+      "updatedAt": "2025-11-30T10:04:45.959Z",
       "waybillNumber": "7475"
     },
     {
@@ -26413,6 +26417,6 @@
       "waybillNumber": "7482"
     }
   ],
-  "lastModified": "2025-11-30T10:04:35.565Z",
+  "lastModified": "2025-11-30T10:04:46.180Z",
   "version": "2.0.0"
 }
