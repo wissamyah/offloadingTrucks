@@ -26458,17 +26458,25 @@
       "products": "250 Oga rice 50kg",
       "truckNumber": "DAL 31 YY",
       "driverPhone": "08080801083",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-11-30T12:35:14.231Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-11-30T12:51:16.460Z",
+          "details": {
+            "waybillNumber": "7483"
+          }
         }
       ],
       "createdAt": "2025-11-30T12:35:14.231Z",
-      "updatedAt": "2025-11-30T12:35:14.231Z"
+      "updatedAt": "2025-11-30T12:51:16.460Z",
+      "waybillNumber": "7483"
     }
   ],
-  "lastModified": "2025-11-30T12:35:15.207Z",
+  "lastModified": "2025-11-30T12:51:16.639Z",
   "version": "2.0.0"
 }
