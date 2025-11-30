@@ -25620,7 +25620,7 @@
       "bags": 550,
       "moistureLevel": 11,
       "truckNumber": "FKY 174 YF",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -25632,11 +25632,19 @@
           "details": {
             "waybillNumber": "7480"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-11-30T10:31:59.039Z",
+          "details": {
+            "netWeight": 43760
+          }
         }
       ],
       "createdAt": "2025-11-30T07:55:30.741Z",
-      "updatedAt": "2025-11-30T08:12:01.198Z",
-      "waybillNumber": "7480"
+      "updatedAt": "2025-11-30T10:31:59.039Z",
+      "waybillNumber": "7480",
+      "netWeight": 43760
     },
     {
       "id": "truck_1764489330740_2_3fl6vkcdu",
@@ -26421,6 +26429,6 @@
       "waybillNumber": "7482"
     }
   ],
-  "lastModified": "2025-11-30T10:26:35.036Z",
+  "lastModified": "2025-11-30T10:31:59.382Z",
   "version": "2.0.0"
 }
