@@ -25660,7 +25660,7 @@
       "bags": 650,
       "moistureLevel": 11,
       "truckNumber": "KTN 488 XQ",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -25672,11 +25672,19 @@
           "details": {
             "waybillNumber": "7481"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-11-30T13:08:57.053Z",
+          "details": {
+            "netWeight": 45590
+          }
         }
       ],
       "createdAt": "2025-11-30T07:55:30.741Z",
-      "updatedAt": "2025-11-30T08:10:56.784Z",
-      "waybillNumber": "7481"
+      "updatedAt": "2025-11-30T13:08:57.053Z",
+      "waybillNumber": "7481",
+      "netWeight": 45590
     }
   ],
   "loadings": [
@@ -26481,6 +26489,6 @@
       "waybillNumber": "7483"
     }
   ],
-  "lastModified": "2025-11-30T12:51:21.745Z",
+  "lastModified": "2025-11-30T13:08:57.282Z",
   "version": "2.0.0"
 }
