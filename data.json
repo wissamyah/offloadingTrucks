@@ -25596,7 +25596,7 @@
       "bags": 509,
       "moistureLevel": 12,
       "truckNumber": "AT 777 MKA",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -25608,11 +25608,19 @@
           "details": {
             "waybillNumber": "7477"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-11-30T10:59:19.217Z",
+          "details": {
+            "netWeight": 35180
+          }
         }
       ],
       "createdAt": "2025-11-30T07:55:30.741Z",
-      "updatedAt": "2025-11-30T07:57:07.293Z",
-      "waybillNumber": "7477"
+      "updatedAt": "2025-11-30T10:59:19.218Z",
+      "waybillNumber": "7477",
+      "netWeight": 35180
     },
     {
       "id": "truck_1764489330740_1_v4kx082rk",
@@ -26433,6 +26441,6 @@
       "waybillNumber": "7482"
     }
   ],
-  "lastModified": "2025-11-30T10:57:32.392Z",
+  "lastModified": "2025-11-30T10:59:19.408Z",
   "version": "2.0.0"
 }
