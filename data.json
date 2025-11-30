@@ -26402,15 +26402,23 @@
       "truckNumber": "KLD 500 XA",
       "driverName": "IDRIS",
       "driverPhone": "07066006234",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-11-30T08:01:57.560Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-11-30T12:34:44.424Z",
+          "details": {
+            "waybillNumber": "7479"
+          }
         }
       ],
       "createdAt": "2025-11-30T08:01:57.560Z",
-      "updatedAt": "2025-11-30T08:01:57.560Z"
+      "updatedAt": "2025-11-30T12:34:44.424Z",
+      "waybillNumber": "7479"
     },
     {
       "id": "loading_1764497056651_0_xesvzfjgb",
@@ -26441,6 +26449,6 @@
       "waybillNumber": "7482"
     }
   ],
-  "lastModified": "2025-11-30T10:59:19.408Z",
+  "lastModified": "2025-11-30T12:34:44.579Z",
   "version": "2.0.0"
 }
