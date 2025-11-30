@@ -26387,8 +26387,24 @@
       ],
       "createdAt": "2025-11-30T08:01:57.560Z",
       "updatedAt": "2025-11-30T08:01:57.560Z"
+    },
+    {
+      "id": "loading_1764497056651_0_xesvzfjgb",
+      "customerName": "Sunny global",
+      "products": "300 Kwik rice 50kg",
+      "truckNumber": "MGU 412 ZF",
+      "driverName": "lawan jos",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-30T10:04:16.651Z"
+        }
+      ],
+      "createdAt": "2025-11-30T10:04:16.651Z",
+      "updatedAt": "2025-11-30T10:04:16.651Z"
     }
   ],
-  "lastModified": "2025-11-30T08:12:01.368Z",
+  "lastModified": "2025-11-30T10:04:16.816Z",
   "version": "2.0.0"
 }
