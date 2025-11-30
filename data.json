@@ -26354,8 +26354,25 @@
       "createdAt": "2025-11-30T07:51:52.910Z",
       "updatedAt": "2025-11-30T07:54:41.586Z",
       "waybillNumber": "7476"
+    },
+    {
+      "id": "loading_1764489717559_0_g630p03d5",
+      "customerName": "KAC hub",
+      "products": "800 Kwik rice 50kg\n150 Oga rice 50kg\n100 Kwik rice 25kg",
+      "truckNumber": "KLD 500 XA",
+      "driverName": "IDRIS",
+      "driverPhone": "07066006234",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-30T08:01:57.560Z"
+        }
+      ],
+      "createdAt": "2025-11-30T08:01:57.560Z",
+      "updatedAt": "2025-11-30T08:01:57.560Z"
     }
   ],
-  "lastModified": "2025-11-30T07:57:07.494Z",
+  "lastModified": "2025-11-30T08:01:57.767Z",
   "version": "2.0.0"
 }
