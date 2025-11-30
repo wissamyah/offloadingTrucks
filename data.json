@@ -26274,8 +26274,24 @@
       "createdAt": "2025-11-30T07:51:10.952Z",
       "updatedAt": "2025-11-30T07:51:19.245Z",
       "waybillNumber": "7475"
+    },
+    {
+      "id": "loading_1764489112910_0_2ak8m8t1k",
+      "customerName": "Frank global",
+      "products": "300 Kwik rice 50kg\n100 Oga rice 50kg",
+      "truckNumber": "MGU 412 ZF",
+      "driverName": "lawan jos",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-30T07:51:52.910Z"
+        }
+      ],
+      "createdAt": "2025-11-30T07:51:52.910Z",
+      "updatedAt": "2025-11-30T07:51:52.910Z"
     }
   ],
-  "lastModified": "2025-11-30T07:51:20.455Z",
+  "lastModified": "2025-11-30T07:51:54.861Z",
   "version": "2.0.0"
 }
