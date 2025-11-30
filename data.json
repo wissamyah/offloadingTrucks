@@ -26250,8 +26250,24 @@
       "createdAt": "2025-11-29T13:18:32.622Z",
       "updatedAt": "2025-11-29T14:46:37.807Z",
       "waybillNumber": "7473"
+    },
+    {
+      "id": "loading_1764489070951_0_lf2mnx2go",
+      "customerName": "Sunny global",
+      "products": "700 Kwik rice 50kg",
+      "truckNumber": "PKM 556 XA",
+      "driverPhone": "07035610702",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-30T07:51:10.952Z"
+        }
+      ],
+      "createdAt": "2025-11-30T07:51:10.952Z",
+      "updatedAt": "2025-11-30T07:51:10.952Z"
     }
   ],
-  "lastModified": "2025-11-29T14:46:37.924Z",
+  "lastModified": "2025-11-30T07:51:11.086Z",
   "version": "2.0.0"
 }
