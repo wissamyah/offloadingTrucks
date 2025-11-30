@@ -25589,6 +25589,54 @@
       "waybillNumber": "7472",
       "netWeight": 38240,
       "deduction": 100
+    },
+    {
+      "id": "truck_1764489330740_0_utz4ytf1c",
+      "supplierName": "Idris Haruna",
+      "bags": 509,
+      "moistureLevel": 12,
+      "truckNumber": "AT 777 MKA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-30T07:55:30.741Z"
+        }
+      ],
+      "createdAt": "2025-11-30T07:55:30.741Z",
+      "updatedAt": "2025-11-30T07:55:30.741Z"
+    },
+    {
+      "id": "truck_1764489330740_1_v4kx082rk",
+      "supplierName": "B L Barka",
+      "bags": 530,
+      "moistureLevel": 11,
+      "truckNumber": "FKY 174 YF",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-30T07:55:30.741Z"
+        }
+      ],
+      "createdAt": "2025-11-30T07:55:30.741Z",
+      "updatedAt": "2025-11-30T07:55:30.741Z"
+    },
+    {
+      "id": "truck_1764489330740_2_3fl6vkcdu",
+      "supplierName": "Idris Haruna",
+      "bags": 650,
+      "moistureLevel": 11,
+      "truckNumber": "KTN 488 XQ",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-30T07:55:30.741Z"
+        }
+      ],
+      "createdAt": "2025-11-30T07:55:30.741Z",
+      "updatedAt": "2025-11-30T07:55:30.741Z"
     }
   ],
   "loadings": [
@@ -26300,6 +26348,6 @@
       "waybillNumber": "7476"
     }
   ],
-  "lastModified": "2025-11-30T07:54:41.738Z",
+  "lastModified": "2025-11-30T07:55:30.975Z",
   "version": "2.0.0"
 }
