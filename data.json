@@ -26451,8 +26451,24 @@
       "createdAt": "2025-11-30T10:04:16.651Z",
       "updatedAt": "2025-11-30T10:57:32.285Z",
       "waybillNumber": "7482"
+    },
+    {
+      "id": "loading_1764506114231_0_jvuutywyj",
+      "customerName": "Aminu Dogara",
+      "products": "250 Oga rice 50kg",
+      "truckNumber": "DAL 31 YY",
+      "driverPhone": "08080801083",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-11-30T12:35:14.231Z"
+        }
+      ],
+      "createdAt": "2025-11-30T12:35:14.231Z",
+      "updatedAt": "2025-11-30T12:35:14.231Z"
     }
   ],
-  "lastModified": "2025-11-30T12:34:50.052Z",
+  "lastModified": "2025-11-30T12:35:15.207Z",
   "version": "2.0.0"
 }
