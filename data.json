@@ -26281,17 +26281,25 @@
       "products": "300 Kwik rice 50kg\n100 Oga rice 50kg",
       "truckNumber": "MGU 412 ZF",
       "driverName": "lawan jos",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-11-30T07:51:52.910Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-11-30T07:54:41.586Z",
+          "details": {
+            "waybillNumber": "7476"
+          }
         }
       ],
       "createdAt": "2025-11-30T07:51:52.910Z",
-      "updatedAt": "2025-11-30T07:51:52.910Z"
+      "updatedAt": "2025-11-30T07:54:41.586Z",
+      "waybillNumber": "7476"
     }
   ],
-  "lastModified": "2025-11-30T07:51:54.861Z",
+  "lastModified": "2025-11-30T07:54:41.738Z",
   "version": "2.0.0"
 }
