@@ -25617,7 +25617,7 @@
     {
       "id": "truck_1764489330740_1_v4kx082rk",
       "supplierName": "B L Barka",
-      "bags": 530,
+      "bags": 550,
       "moistureLevel": 11,
       "truckNumber": "FKY 174 YF",
       "status": "scaled_in",
@@ -26421,6 +26421,6 @@
       "waybillNumber": "7482"
     }
   ],
-  "lastModified": "2025-11-30T10:05:09.762Z",
+  "lastModified": "2025-11-30T10:26:35.036Z",
   "version": "2.0.0"
 }
