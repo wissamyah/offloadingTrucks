@@ -25724,7 +25724,7 @@
       "bags": 41,
       "moistureLevel": 13,
       "truckNumber": "KTU 605 YF",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -25736,11 +25736,21 @@
           "details": {
             "waybillNumber": "7484"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-12-01T09:14:23.223Z",
+          "details": {
+            "netWeight": 4250,
+            "deduction": 40
+          }
         }
       ],
       "createdAt": "2025-12-01T08:22:19.556Z",
-      "updatedAt": "2025-12-01T08:24:11.661Z",
-      "waybillNumber": "7484"
+      "updatedAt": "2025-12-01T09:14:23.224Z",
+      "waybillNumber": "7484",
+      "netWeight": 4250,
+      "deduction": 40
     },
     {
       "id": "truck_1764577339556_3_tf8pyk2ge",
@@ -26641,6 +26651,6 @@
       "waybillNumber": "7483"
     }
   ],
-  "lastModified": "2025-12-01T08:34:57.917Z",
+  "lastModified": "2025-12-01T09:14:23.314Z",
   "version": "2.0.0"
 }
