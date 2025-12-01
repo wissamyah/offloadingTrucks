@@ -25847,6 +25847,38 @@
       ],
       "createdAt": "2025-12-01T08:22:19.556Z",
       "updatedAt": "2025-12-01T08:22:19.556Z"
+    },
+    {
+      "id": "truck_1764585706475_0_c65c7uref",
+      "supplierName": "Idris Haruna",
+      "bags": 600,
+      "moistureLevel": 12,
+      "truckNumber": "TRR 270 YX",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-12-01T10:41:46.475Z"
+        }
+      ],
+      "createdAt": "2025-12-01T10:41:46.475Z",
+      "updatedAt": "2025-12-01T10:41:46.475Z"
+    },
+    {
+      "id": "truck_1764585706475_1_kmaymxx6g",
+      "supplierName": "Yusif Danmutunchi",
+      "bags": 15,
+      "moistureLevel": 12,
+      "truckNumber": "MGR 322 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-12-01T10:41:46.475Z"
+        }
+      ],
+      "createdAt": "2025-12-01T10:41:46.475Z",
+      "updatedAt": "2025-12-01T10:41:46.475Z"
     }
   ],
   "loadings": [
@@ -26651,6 +26683,6 @@
       "waybillNumber": "7483"
     }
   ],
-  "lastModified": "2025-12-01T09:14:23.314Z",
+  "lastModified": "2025-12-01T10:41:46.591Z",
   "version": "2.0.0"
 }
