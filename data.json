@@ -25864,15 +25864,19 @@
       "bags": 547,
       "moistureLevel": 14,
       "truckNumber": "*Overall short & Immature paddy*",
-      "status": "pending",
+      "status": "rejected",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-12-01T08:22:19.556Z"
+        },
+        {
+          "status": "rejected",
+          "timestamp": "2025-12-01T11:11:45.203Z"
         }
       ],
       "createdAt": "2025-12-01T08:22:19.556Z",
-      "updatedAt": "2025-12-01T08:22:19.556Z"
+      "updatedAt": "2025-12-01T11:11:45.203Z"
     },
     {
       "id": "truck_1764585706475_0_c65c7uref",
@@ -26733,6 +26737,6 @@
       "waybillNumber": "7483"
     }
   ],
-  "lastModified": "2025-12-01T11:11:42.305Z",
+  "lastModified": "2025-12-01T11:11:46.986Z",
   "version": "2.0.0"
 }
