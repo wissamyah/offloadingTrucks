@@ -25764,15 +25764,23 @@
       "bags": 220,
       "moistureLevel": 14,
       "truckNumber": "JRE 349 XA",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-12-01T08:22:19.556Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-12-01T08:28:20.391Z",
+          "details": {
+            "waybillNumber": "7485"
+          }
         }
       ],
       "createdAt": "2025-12-01T08:22:19.556Z",
-      "updatedAt": "2025-12-01T08:22:19.556Z"
+      "updatedAt": "2025-12-01T08:28:20.391Z",
+      "waybillNumber": "7485"
     },
     {
       "id": "truck_1764577339556_5_dpph9fiv9",
@@ -26625,6 +26633,6 @@
       "waybillNumber": "7483"
     }
   ],
-  "lastModified": "2025-12-01T08:24:11.776Z",
+  "lastModified": "2025-12-01T08:28:20.503Z",
   "version": "2.0.0"
 }
