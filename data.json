@@ -25892,7 +25892,7 @@
       "bags": 600,
       "moistureLevel": 12,
       "truckNumber": "TRR 270 YX",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -25904,11 +25904,21 @@
           "details": {
             "waybillNumber": "7490"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-12-01T12:50:56.410Z",
+          "details": {
+            "netWeight": 43000,
+            "deduction": 120
+          }
         }
       ],
       "createdAt": "2025-12-01T10:41:46.475Z",
-      "updatedAt": "2025-12-01T10:47:59.107Z",
-      "waybillNumber": "7490"
+      "updatedAt": "2025-12-01T12:50:56.410Z",
+      "waybillNumber": "7490",
+      "netWeight": 43000,
+      "deduction": 120
     },
     {
       "id": "truck_1764585706475_1_kmaymxx6g",
@@ -26745,6 +26755,6 @@
       "waybillNumber": "7483"
     }
   ],
-  "lastModified": "2025-12-01T11:13:43.488Z",
+  "lastModified": "2025-12-01T12:50:56.491Z",
   "version": "2.0.0"
 }
