@@ -25692,15 +25692,19 @@
       "bags": 512,
       "moistureLevel": 12,
       "truckNumber": "FKY 427 XA",
-      "status": "pending",
+      "status": "rejected",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-12-01T08:22:19.556Z"
+        },
+        {
+          "status": "rejected",
+          "timestamp": "2025-12-01T11:11:23.280Z"
         }
       ],
       "createdAt": "2025-12-01T08:22:19.556Z",
-      "updatedAt": "2025-12-01T08:22:19.556Z"
+      "updatedAt": "2025-12-01T11:11:23.280Z"
     },
     {
       "id": "truck_1764577339556_1_9ascl00p2",
@@ -26717,6 +26721,6 @@
       "waybillNumber": "7483"
     }
   ],
-  "lastModified": "2025-12-01T11:08:41.944Z",
+  "lastModified": "2025-12-01T11:11:23.370Z",
   "version": "2.0.0"
 }
