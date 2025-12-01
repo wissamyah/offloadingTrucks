@@ -25870,15 +25870,23 @@
       "bags": 15,
       "moistureLevel": 12,
       "truckNumber": "MGR 322 XA",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-12-01T10:41:46.475Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-12-01T10:44:02.458Z",
+          "details": {
+            "waybillNumber": "7489"
+          }
         }
       ],
       "createdAt": "2025-12-01T10:41:46.475Z",
-      "updatedAt": "2025-12-01T10:41:46.475Z"
+      "updatedAt": "2025-12-01T10:44:02.458Z",
+      "waybillNumber": "7489"
     }
   ],
   "loadings": [
@@ -26683,6 +26691,6 @@
       "waybillNumber": "7483"
     }
   ],
-  "lastModified": "2025-12-01T10:41:46.591Z",
+  "lastModified": "2025-12-01T10:44:02.548Z",
   "version": "2.0.0"
 }
