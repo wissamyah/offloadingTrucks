@@ -25685,6 +25685,134 @@
       "updatedAt": "2025-11-30T13:08:57.053Z",
       "waybillNumber": "7481",
       "netWeight": 45590
+    },
+    {
+      "id": "truck_1764577339556_0_1ihv0cue9",
+      "supplierName": "Zanna Hassan",
+      "bags": 512,
+      "moistureLevel": 12,
+      "truckNumber": "FKY 427 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-12-01T08:22:19.556Z"
+        }
+      ],
+      "createdAt": "2025-12-01T08:22:19.556Z",
+      "updatedAt": "2025-12-01T08:22:19.556Z"
+    },
+    {
+      "id": "truck_1764577339556_1_9ascl00p2",
+      "supplierName": "Lawan Ibrahim",
+      "bags": 90,
+      "moistureLevel": 16,
+      "truckNumber": "DUT 726 ZB",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-12-01T08:22:19.556Z"
+        }
+      ],
+      "createdAt": "2025-12-01T08:22:19.556Z",
+      "updatedAt": "2025-12-01T08:22:19.556Z"
+    },
+    {
+      "id": "truck_1764577339556_2_qsahivwyu",
+      "supplierName": "Idris Haruna",
+      "bags": 41,
+      "moistureLevel": 13,
+      "truckNumber": "KTU 605 YF",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-12-01T08:22:19.556Z"
+        }
+      ],
+      "createdAt": "2025-12-01T08:22:19.556Z",
+      "updatedAt": "2025-12-01T08:22:19.556Z"
+    },
+    {
+      "id": "truck_1764577339556_3_tf8pyk2ge",
+      "supplierName": "Idris Garba",
+      "bags": 106,
+      "moistureLevel": 21,
+      "truckNumber": "ZUR 472 YL",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-12-01T08:22:19.556Z"
+        }
+      ],
+      "createdAt": "2025-12-01T08:22:19.556Z",
+      "updatedAt": "2025-12-01T08:22:19.556Z"
+    },
+    {
+      "id": "truck_1764577339556_4_aid1oxtsk",
+      "supplierName": "Alh Danasabe",
+      "bags": 220,
+      "moistureLevel": 14,
+      "truckNumber": "JRE 349 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-12-01T08:22:19.556Z"
+        }
+      ],
+      "createdAt": "2025-12-01T08:22:19.556Z",
+      "updatedAt": "2025-12-01T08:22:19.556Z"
+    },
+    {
+      "id": "truck_1764577339556_5_dpph9fiv9",
+      "supplierName": "Idris Haruna",
+      "bags": 495,
+      "moistureLevel": 12,
+      "truckNumber": "ABC 638 XB",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-12-01T08:22:19.556Z"
+        }
+      ],
+      "createdAt": "2025-12-01T08:22:19.556Z",
+      "updatedAt": "2025-12-01T08:22:19.556Z"
+    },
+    {
+      "id": "truck_1764577339556_6_9z7rk7tik",
+      "supplierName": "Zanna Hassan",
+      "bags": 551,
+      "moistureLevel": 15,
+      "truckNumber": "FKY 941 YF",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-12-01T08:22:19.556Z"
+        }
+      ],
+      "createdAt": "2025-12-01T08:22:19.556Z",
+      "updatedAt": "2025-12-01T08:22:19.556Z"
+    },
+    {
+      "id": "truck_1764577339556_7_c4ibqv2g4",
+      "supplierName": "Alh Hassanan",
+      "bags": 547,
+      "moistureLevel": 14,
+      "truckNumber": "*Overall short & Immature paddy*",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-12-01T08:22:19.556Z"
+        }
+      ],
+      "createdAt": "2025-12-01T08:22:19.556Z",
+      "updatedAt": "2025-12-01T08:22:19.556Z"
     }
   ],
   "loadings": [
@@ -26489,6 +26617,6 @@
       "waybillNumber": "7483"
     }
   ],
-  "lastModified": "2025-11-30T13:08:57.282Z",
+  "lastModified": "2025-12-01T08:22:19.663Z",
   "version": "2.0.0"
 }
