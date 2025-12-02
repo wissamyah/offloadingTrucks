@@ -27008,8 +27008,24 @@
       ],
       "createdAt": "2025-12-02T15:03:04.321Z",
       "updatedAt": "2025-12-02T15:03:04.321Z"
+    },
+    {
+      "id": "loading_1764687803612_0_tbekpprm1",
+      "customerName": "Best Jerry Mgbo",
+      "products": "200 Kwik rice 50kg",
+      "truckNumber": "JEG 871 XA",
+      "driverName": "‪+234 903 535 4106‬ ABBA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-12-02T15:03:23.612Z"
+        }
+      ],
+      "createdAt": "2025-12-02T15:03:23.612Z",
+      "updatedAt": "2025-12-02T15:03:23.612Z"
     }
   ],
-  "lastModified": "2025-12-02T15:03:05.203Z",
+  "lastModified": "2025-12-02T15:03:28.773Z",
   "version": "2.0.0"
 }
