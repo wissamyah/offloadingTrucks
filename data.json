@@ -25958,7 +25958,7 @@
       "bags": 530,
       "moistureLevel": 12,
       "truckNumber": "TRR 559 YX",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -25970,11 +25970,21 @@
           "details": {
             "waybillNumber": "7496"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-12-02T10:29:14.645Z",
+          "details": {
+            "netWeight": 37630,
+            "deduction": 150
+          }
         }
       ],
       "createdAt": "2025-12-02T07:39:44.167Z",
-      "updatedAt": "2025-12-02T07:43:30.064Z",
-      "waybillNumber": "7496"
+      "updatedAt": "2025-12-02T10:29:14.646Z",
+      "waybillNumber": "7496",
+      "netWeight": 37630,
+      "deduction": 150
     },
     {
       "id": "truck_1764661212401_0_3ysz800z4",
@@ -26813,6 +26823,6 @@
       "waybillNumber": "7483"
     }
   ],
-  "lastModified": "2025-12-02T10:17:34.884Z",
+  "lastModified": "2025-12-02T10:29:14.759Z",
   "version": "2.0.0"
 }
