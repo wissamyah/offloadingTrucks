@@ -27081,8 +27081,23 @@
       "createdAt": "2025-12-02T16:05:14.289Z",
       "updatedAt": "2025-12-02T16:07:54.847Z",
       "waybillNumber": "7505"
+    },
+    {
+      "id": "loading_1764691713137_0_zun0qzpt9",
+      "customerName": "Cash sales",
+      "products": "150 black reject 50kg",
+      "truckNumber": "MMR 814 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-12-02T16:08:33.137Z"
+        }
+      ],
+      "createdAt": "2025-12-02T16:08:33.137Z",
+      "updatedAt": "2025-12-02T16:08:33.137Z"
     }
   ],
-  "lastModified": "2025-12-02T16:07:54.896Z",
+  "lastModified": "2025-12-02T16:08:33.187Z",
   "version": "2.0.0"
 }
