@@ -26059,6 +26059,86 @@
       "createdAt": "2025-12-02T10:33:15.007Z",
       "updatedAt": "2025-12-02T10:34:45.697Z",
       "waybillNumber": "7498"
+    },
+    {
+      "id": "truck_1764679087517_0_4fh3q27si",
+      "supplierName": "Idris Haruna",
+      "bags": 105,
+      "moistureLevel": 15,
+      "truckNumber": "YKS 362 YY",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-12-02T12:38:07.518Z"
+        }
+      ],
+      "createdAt": "2025-12-02T12:38:07.518Z",
+      "updatedAt": "2025-12-02T12:38:07.518Z"
+    },
+    {
+      "id": "truck_1764679087517_1_o8z0feh1n",
+      "supplierName": "Jamilu Yahaya",
+      "bags": 214,
+      "moistureLevel": 12,
+      "truckNumber": "T 26073 ZA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-12-02T12:38:07.518Z"
+        }
+      ],
+      "createdAt": "2025-12-02T12:38:07.518Z",
+      "updatedAt": "2025-12-02T12:38:07.518Z"
+    },
+    {
+      "id": "truck_1764679087517_2_pg23fm5wu",
+      "supplierName": "Jamilu Yahaya",
+      "bags": 200,
+      "moistureLevel": 12,
+      "truckNumber": "DKD 15 XB",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-12-02T12:38:07.518Z"
+        }
+      ],
+      "createdAt": "2025-12-02T12:38:07.518Z",
+      "updatedAt": "2025-12-02T12:38:07.518Z"
+    },
+    {
+      "id": "truck_1764679087517_3_8zdl4cfza",
+      "supplierName": "Idris Haruna",
+      "bags": 500,
+      "moistureLevel": 12,
+      "truckNumber": "NSR 775 ZU",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-12-02T12:38:07.518Z"
+        }
+      ],
+      "createdAt": "2025-12-02T12:38:07.518Z",
+      "updatedAt": "2025-12-02T12:38:07.518Z"
+    },
+    {
+      "id": "truck_1764679087517_4_4g0alrhot",
+      "supplierName": "Isa Abubakar",
+      "bags": 596,
+      "moistureLevel": 13,
+      "truckNumber": "FKY 340 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-12-02T12:38:07.518Z"
+        }
+      ],
+      "createdAt": "2025-12-02T12:38:07.518Z",
+      "updatedAt": "2025-12-02T12:38:07.518Z"
     }
   ],
   "loadings": [
@@ -26863,6 +26943,6 @@
       "waybillNumber": "7483"
     }
   ],
-  "lastModified": "2025-12-02T10:34:48.313Z",
+  "lastModified": "2025-12-02T12:38:07.647Z",
   "version": "2.0.0"
 }
