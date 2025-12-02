@@ -26066,15 +26066,23 @@
       "bags": 105,
       "moistureLevel": 15,
       "truckNumber": "YKS 362 YY",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-12-02T12:38:07.518Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-12-02T12:39:52.962Z",
+          "details": {
+            "waybillNumber": "7500"
+          }
         }
       ],
       "createdAt": "2025-12-02T12:38:07.518Z",
-      "updatedAt": "2025-12-02T12:38:07.518Z"
+      "updatedAt": "2025-12-02T12:39:52.963Z",
+      "waybillNumber": "7500"
     },
     {
       "id": "truck_1764679087517_1_o8z0feh1n",
@@ -26943,6 +26951,6 @@
       "waybillNumber": "7483"
     }
   ],
-  "lastModified": "2025-12-02T12:38:07.647Z",
+  "lastModified": "2025-12-02T12:39:53.063Z",
   "version": "2.0.0"
 }
