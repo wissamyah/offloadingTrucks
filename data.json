@@ -26154,15 +26154,23 @@
       "bags": 596,
       "moistureLevel": 13,
       "truckNumber": "FKY 340 XA",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-12-02T12:38:07.518Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-12-02T13:07:42.710Z",
+          "details": {
+            "waybillNumber": "7502"
+          }
         }
       ],
       "createdAt": "2025-12-02T12:38:07.518Z",
-      "updatedAt": "2025-12-02T12:38:07.518Z"
+      "updatedAt": "2025-12-02T13:07:42.710Z",
+      "waybillNumber": "7502"
     }
   ],
   "loadings": [
@@ -26967,6 +26975,6 @@
       "waybillNumber": "7483"
     }
   ],
-  "lastModified": "2025-12-02T12:45:44.750Z",
+  "lastModified": "2025-12-02T13:07:42.795Z",
   "version": "2.0.0"
 }
