@@ -25967,6 +25967,22 @@
       ],
       "createdAt": "2025-12-02T07:39:44.167Z",
       "updatedAt": "2025-12-02T07:39:44.167Z"
+    },
+    {
+      "id": "truck_1764661212401_0_3ysz800z4",
+      "supplierName": "Idris Haruna",
+      "bags": 500,
+      "moistureLevel": 12,
+      "truckNumber": "SUL 55 XP",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-12-02T07:40:12.401Z"
+        }
+      ],
+      "createdAt": "2025-12-02T07:40:12.401Z",
+      "updatedAt": "2025-12-02T07:40:12.401Z"
     }
   ],
   "loadings": [
@@ -26771,6 +26787,6 @@
       "waybillNumber": "7483"
     }
   ],
-  "lastModified": "2025-12-02T07:39:44.281Z",
+  "lastModified": "2025-12-02T07:40:12.504Z",
   "version": "2.0.0"
 }
