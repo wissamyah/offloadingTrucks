@@ -25958,15 +25958,23 @@
       "bags": 530,
       "moistureLevel": 12,
       "truckNumber": "TRR 559 YX",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-12-02T07:39:44.167Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-12-02T07:43:30.064Z",
+          "details": {
+            "waybillNumber": "7496"
+          }
         }
       ],
       "createdAt": "2025-12-02T07:39:44.167Z",
-      "updatedAt": "2025-12-02T07:39:44.167Z"
+      "updatedAt": "2025-12-02T07:43:30.064Z",
+      "waybillNumber": "7496"
     },
     {
       "id": "truck_1764661212401_0_3ysz800z4",
@@ -26795,6 +26803,6 @@
       "waybillNumber": "7483"
     }
   ],
-  "lastModified": "2025-12-02T07:41:57.591Z",
+  "lastModified": "2025-12-02T07:43:30.154Z",
   "version": "2.0.0"
 }
