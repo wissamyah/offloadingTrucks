@@ -27023,17 +27023,25 @@
       "products": "200 Kwik rice 50kg",
       "truckNumber": "JEG 871 XA",
       "driverName": "‪+234 903 535 4106‬ ABBA",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-12-02T15:03:23.612Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-12-02T15:25:17.898Z",
+          "details": {
+            "waybillNumber": "7499"
+          }
         }
       ],
       "createdAt": "2025-12-02T15:03:23.612Z",
-      "updatedAt": "2025-12-02T15:03:23.612Z"
+      "updatedAt": "2025-12-02T15:25:17.898Z",
+      "waybillNumber": "7499"
     }
   ],
-  "lastModified": "2025-12-02T15:21:41.787Z",
+  "lastModified": "2025-12-02T15:25:17.981Z",
   "version": "2.0.0"
 }
