@@ -27060,17 +27060,25 @@
       "truckNumber": "GYA 384 XA",
       "driverName": "Umar",
       "driverPhone": "09033389921",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-12-02T16:05:14.289Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-12-02T16:05:37.893Z",
+          "details": {
+            "waybillNumber": "7505"
+          }
         }
       ],
       "createdAt": "2025-12-02T16:05:14.289Z",
-      "updatedAt": "2025-12-02T16:05:14.289Z"
+      "updatedAt": "2025-12-02T16:05:37.893Z",
+      "waybillNumber": "7505"
     }
   ],
-  "lastModified": "2025-12-02T16:05:14.347Z",
+  "lastModified": "2025-12-02T16:05:38.740Z",
   "version": "2.0.0"
 }
