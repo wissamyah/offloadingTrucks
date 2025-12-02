@@ -27052,8 +27052,25 @@
       "createdAt": "2025-12-02T15:03:23.612Z",
       "updatedAt": "2025-12-02T15:25:35.674Z",
       "waybillNumber": "7499"
+    },
+    {
+      "id": "loading_1764691514289_0_skopkcoth",
+      "customerName": "Anyi Foods",
+      "products": "400 Kwik rice 50kg",
+      "truckNumber": "GYA 384 XA",
+      "driverName": "Umar",
+      "driverPhone": "09033389921",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-12-02T16:05:14.289Z"
+        }
+      ],
+      "createdAt": "2025-12-02T16:05:14.289Z",
+      "updatedAt": "2025-12-02T16:05:14.289Z"
     }
   ],
-  "lastModified": "2025-12-02T15:52:30.762Z",
+  "lastModified": "2025-12-02T16:05:14.347Z",
   "version": "2.0.0"
 }
