@@ -25951,6 +25951,22 @@
       "updatedAt": "2025-12-01T11:08:41.859Z",
       "waybillNumber": "7489",
       "netWeight": 1080
+    },
+    {
+      "id": "truck_1764661184167_0_3af7rvv5c",
+      "supplierName": "Lawan Ibrahim",
+      "bags": 530,
+      "moistureLevel": 12,
+      "truckNumber": "TRR 559 YX",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-12-02T07:39:44.167Z"
+        }
+      ],
+      "createdAt": "2025-12-02T07:39:44.167Z",
+      "updatedAt": "2025-12-02T07:39:44.167Z"
     }
   ],
   "loadings": [
@@ -26755,6 +26771,6 @@
       "waybillNumber": "7483"
     }
   ],
-  "lastModified": "2025-12-01T12:50:56.491Z",
+  "lastModified": "2025-12-02T07:39:44.281Z",
   "version": "2.0.0"
 }
