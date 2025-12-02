@@ -25974,15 +25974,23 @@
       "bags": 500,
       "moistureLevel": 12,
       "truckNumber": "SUL 55 XP",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-12-02T07:40:12.401Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-12-02T07:41:56.352Z",
+          "details": {
+            "waybillNumber": "7495"
+          }
         }
       ],
       "createdAt": "2025-12-02T07:40:12.401Z",
-      "updatedAt": "2025-12-02T07:40:12.401Z"
+      "updatedAt": "2025-12-02T07:41:56.352Z",
+      "waybillNumber": "7495"
     }
   ],
   "loadings": [
@@ -26787,6 +26795,6 @@
       "waybillNumber": "7483"
     }
   ],
-  "lastModified": "2025-12-02T07:40:12.504Z",
+  "lastModified": "2025-12-02T07:41:57.591Z",
   "version": "2.0.0"
 }
