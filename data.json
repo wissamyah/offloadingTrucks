@@ -26274,15 +26274,19 @@
       "bags": 245,
       "moistureLevel": 12,
       "truckNumber": "BAU 752 YP",
-      "status": "pending",
+      "status": "rejected",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-12-03T07:55:20.744Z"
+        },
+        {
+          "status": "rejected",
+          "timestamp": "2025-12-03T08:04:16.437Z"
         }
       ],
       "createdAt": "2025-12-03T07:55:20.744Z",
-      "updatedAt": "2025-12-03T07:55:20.744Z"
+      "updatedAt": "2025-12-03T08:04:16.437Z"
     },
     {
       "id": "truck_1764748520743_4_gd1nkluzy",
@@ -27286,6 +27290,6 @@
       "waybillNumber": "7506"
     }
   ],
-  "lastModified": "2025-12-03T08:04:10.105Z",
+  "lastModified": "2025-12-03T08:04:17.284Z",
   "version": "2.0.0"
 }
