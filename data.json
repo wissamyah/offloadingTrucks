@@ -26286,15 +26286,19 @@
       "bags": 540,
       "moistureLevel": 10,
       "truckNumber": "GME 130 XA",
-      "status": "pending",
+      "status": "rejected",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-12-03T07:55:20.744Z"
+        },
+        {
+          "status": "rejected",
+          "timestamp": "2025-12-03T08:03:43.511Z"
         }
       ],
       "createdAt": "2025-12-03T07:55:20.744Z",
-      "updatedAt": "2025-12-03T07:55:20.744Z"
+      "updatedAt": "2025-12-03T08:03:43.511Z"
     },
     {
       "id": "truck_1764748578266_0_oyvfffg7l",
@@ -27274,6 +27278,6 @@
       "waybillNumber": "7506"
     }
   ],
-  "lastModified": "2025-12-03T08:03:21.646Z",
+  "lastModified": "2025-12-03T08:03:43.588Z",
   "version": "2.0.0"
 }
