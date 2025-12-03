@@ -26209,26 +26209,6 @@
       "netWeight": 41090
     },
     {
-      "id": "truck_1764748520743_0_tvsyknxjo",
-      "supplierName": "Habibu Isa",
-      "bags": 490,
-      "moistureLevel": 12,
-      "truckNumber": "FKY 946 YF",
-      "status": "rejected",
-      "statusHistory": [
-        {
-          "status": "pending",
-          "timestamp": "2025-12-03T07:55:20.744Z"
-        },
-        {
-          "status": "rejected",
-          "timestamp": "2025-12-03T08:03:50.916Z"
-        }
-      ],
-      "createdAt": "2025-12-03T07:55:20.744Z",
-      "updatedAt": "2025-12-03T08:03:50.916Z"
-    },
-    {
       "id": "truck_1764748520743_2_ldavyuzex",
       "supplierName": "Jamilu Yahaya",
       "bags": 530,
@@ -26295,6 +26275,26 @@
       "createdAt": "2025-12-03T07:56:18.266Z",
       "updatedAt": "2025-12-03T08:01:59.031Z",
       "waybillNumber": "7508"
+    },
+    {
+      "id": "truck_1764748578266_1_33ir6fsx2",
+      "supplierName": "Idris Haruna",
+      "bags": 250,
+      "moistureLevel": 13,
+      "truckNumber": "KTN 942 XA",
+      "status": "rejected",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-12-03T07:56:18.266Z"
+        },
+        {
+          "status": "rejected",
+          "timestamp": "2025-12-03T08:04:09.315Z"
+        }
+      ],
+      "createdAt": "2025-12-03T07:56:18.266Z",
+      "updatedAt": "2025-12-03T08:04:09.315Z"
     },
     {
       "id": "truck_1764748578266_2_v3xeixzqv",
@@ -27234,6 +27234,6 @@
       "waybillNumber": "7506"
     }
   ],
-  "lastModified": "2025-12-03T08:04:55.032Z",
+  "lastModified": "2025-12-03T08:05:53.121Z",
   "version": "2.0.0"
 }
