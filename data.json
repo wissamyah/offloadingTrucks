@@ -26291,26 +26291,6 @@
       ],
       "createdAt": "2025-12-03T07:56:18.266Z",
       "updatedAt": "2025-12-03T07:56:18.266Z"
-    },
-    {
-      "id": "truck_1764748578266_3_uuze626pp",
-      "supplierName": "Abubakar Muhd Tukur",
-      "bags": 90,
-      "moistureLevel": 12,
-      "truckNumber": "SML 929 XA",
-      "status": "rejected",
-      "statusHistory": [
-        {
-          "status": "pending",
-          "timestamp": "2025-12-03T07:56:18.266Z"
-        },
-        {
-          "status": "rejected",
-          "timestamp": "2025-12-03T08:03:04.398Z"
-        }
-      ],
-      "createdAt": "2025-12-03T07:56:18.266Z",
-      "updatedAt": "2025-12-03T08:03:04.398Z"
     }
   ],
   "loadings": [
@@ -27214,6 +27194,6 @@
       "waybillNumber": "7506"
     }
   ],
-  "lastModified": "2025-12-03T08:06:05.725Z",
+  "lastModified": "2025-12-03T08:06:13.311Z",
   "version": "2.0.0"
 }
