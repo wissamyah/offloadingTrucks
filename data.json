@@ -26287,6 +26287,70 @@
       ],
       "createdAt": "2025-12-03T07:55:20.744Z",
       "updatedAt": "2025-12-03T07:55:20.744Z"
+    },
+    {
+      "id": "truck_1764748578266_0_oyvfffg7l",
+      "supplierName": "H A Tahir",
+      "bags": 320,
+      "moistureLevel": 16,
+      "truckNumber": "ZAR 948 ZP",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-12-03T07:56:18.266Z"
+        }
+      ],
+      "createdAt": "2025-12-03T07:56:18.266Z",
+      "updatedAt": "2025-12-03T07:56:18.266Z"
+    },
+    {
+      "id": "truck_1764748578266_1_33ir6fsx2",
+      "supplierName": "Idris Haruna",
+      "bags": 250,
+      "moistureLevel": 13,
+      "truckNumber": "KTN 942 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-12-03T07:56:18.266Z"
+        }
+      ],
+      "createdAt": "2025-12-03T07:56:18.266Z",
+      "updatedAt": "2025-12-03T07:56:18.266Z"
+    },
+    {
+      "id": "truck_1764748578266_2_v3xeixzqv",
+      "supplierName": "Mujaheed Rogo",
+      "bags": 44,
+      "moistureLevel": 14,
+      "truckNumber": "XB 250 TSF",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-12-03T07:56:18.266Z"
+        }
+      ],
+      "createdAt": "2025-12-03T07:56:18.266Z",
+      "updatedAt": "2025-12-03T07:56:18.266Z"
+    },
+    {
+      "id": "truck_1764748578266_3_uuze626pp",
+      "supplierName": "Abubakar Muhd Tukur",
+      "bags": 90,
+      "moistureLevel": 12,
+      "truckNumber": "SML 929 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-12-03T07:56:18.266Z"
+        }
+      ],
+      "createdAt": "2025-12-03T07:56:18.266Z",
+      "updatedAt": "2025-12-03T07:56:18.266Z"
     }
   ],
   "loadings": [
@@ -27190,6 +27254,6 @@
       "waybillNumber": "7506"
     }
   ],
-  "lastModified": "2025-12-03T07:55:20.845Z",
+  "lastModified": "2025-12-03T07:56:44.408Z",
   "version": "2.0.0"
 }
