@@ -26255,22 +26255,6 @@
       "createdAt": "2025-12-03T07:56:18.266Z",
       "updatedAt": "2025-12-03T08:01:59.031Z",
       "waybillNumber": "7508"
-    },
-    {
-      "id": "truck_1764748578266_2_v3xeixzqv",
-      "supplierName": "Mujaheed Rogo",
-      "bags": 44,
-      "moistureLevel": 14,
-      "truckNumber": "XB 250 TSF",
-      "status": "pending",
-      "statusHistory": [
-        {
-          "status": "pending",
-          "timestamp": "2025-12-03T07:56:18.266Z"
-        }
-      ],
-      "createdAt": "2025-12-03T07:56:18.266Z",
-      "updatedAt": "2025-12-03T07:56:18.266Z"
     }
   ],
   "loadings": [
@@ -27174,6 +27158,6 @@
       "waybillNumber": "7506"
     }
   ],
-  "lastModified": "2025-12-03T08:06:22.461Z",
+  "lastModified": "2025-12-03T08:06:35.275Z",
   "version": "2.0.0"
 }
