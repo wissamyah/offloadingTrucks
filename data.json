@@ -26234,15 +26234,19 @@
       "bags": 91,
       "moistureLevel": 13,
       "truckNumber": "WRN 115 XA",
-      "status": "pending",
+      "status": "rejected",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-12-03T07:55:20.744Z"
+        },
+        {
+          "status": "rejected",
+          "timestamp": "2025-12-03T08:04:25.651Z"
         }
       ],
       "createdAt": "2025-12-03T07:55:20.744Z",
-      "updatedAt": "2025-12-03T07:55:20.744Z"
+      "updatedAt": "2025-12-03T08:04:25.651Z"
     },
     {
       "id": "truck_1764748520743_2_ldavyuzex",
@@ -27290,6 +27294,6 @@
       "waybillNumber": "7506"
     }
   ],
-  "lastModified": "2025-12-03T08:04:17.284Z",
+  "lastModified": "2025-12-03T08:04:26.548Z",
   "version": "2.0.0"
 }
