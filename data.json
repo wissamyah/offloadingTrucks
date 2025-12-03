@@ -26214,15 +26214,19 @@
       "bags": 490,
       "moistureLevel": 12,
       "truckNumber": "FKY 946 YF",
-      "status": "pending",
+      "status": "rejected",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-12-03T07:55:20.744Z"
+        },
+        {
+          "status": "rejected",
+          "timestamp": "2025-12-03T08:03:50.916Z"
         }
       ],
       "createdAt": "2025-12-03T07:55:20.744Z",
-      "updatedAt": "2025-12-03T07:55:20.744Z"
+      "updatedAt": "2025-12-03T08:03:50.916Z"
     },
     {
       "id": "truck_1764748520743_1_1gpb3e0q9",
@@ -27278,6 +27282,6 @@
       "waybillNumber": "7506"
     }
   ],
-  "lastModified": "2025-12-03T08:03:43.588Z",
+  "lastModified": "2025-12-03T08:03:52.007Z",
   "version": "2.0.0"
 }
