@@ -26334,15 +26334,19 @@
       "bags": 250,
       "moistureLevel": 13,
       "truckNumber": "KTN 942 XA",
-      "status": "pending",
+      "status": "rejected",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-12-03T07:56:18.266Z"
+        },
+        {
+          "status": "rejected",
+          "timestamp": "2025-12-03T08:03:58.693Z"
         }
       ],
       "createdAt": "2025-12-03T07:56:18.266Z",
-      "updatedAt": "2025-12-03T07:56:18.266Z"
+      "updatedAt": "2025-12-03T08:03:58.693Z"
     },
     {
       "id": "truck_1764748578266_2_v3xeixzqv",
@@ -27282,6 +27286,6 @@
       "waybillNumber": "7506"
     }
   ],
-  "lastModified": "2025-12-03T08:03:52.007Z",
+  "lastModified": "2025-12-03T08:03:59.604Z",
   "version": "2.0.0"
 }
