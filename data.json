@@ -26207,6 +26207,86 @@
       "updatedAt": "2025-12-02T15:52:30.674Z",
       "waybillNumber": "7502",
       "netWeight": 41090
+    },
+    {
+      "id": "truck_1764748520743_0_tvsyknxjo",
+      "supplierName": "Habibu Isa",
+      "bags": 490,
+      "moistureLevel": 12,
+      "truckNumber": "FKY 946 YF",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-12-03T07:55:20.744Z"
+        }
+      ],
+      "createdAt": "2025-12-03T07:55:20.744Z",
+      "updatedAt": "2025-12-03T07:55:20.744Z"
+    },
+    {
+      "id": "truck_1764748520743_1_1gpb3e0q9",
+      "supplierName": "Jamilu Yahaya",
+      "bags": 91,
+      "moistureLevel": 13,
+      "truckNumber": "WRN 115 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-12-03T07:55:20.744Z"
+        }
+      ],
+      "createdAt": "2025-12-03T07:55:20.744Z",
+      "updatedAt": "2025-12-03T07:55:20.744Z"
+    },
+    {
+      "id": "truck_1764748520743_2_ldavyuzex",
+      "supplierName": "Jamilu Yahaya",
+      "bags": 530,
+      "moistureLevel": 13,
+      "truckNumber": "LND 286 XZ",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-12-03T07:55:20.744Z"
+        }
+      ],
+      "createdAt": "2025-12-03T07:55:20.744Z",
+      "updatedAt": "2025-12-03T07:55:20.744Z"
+    },
+    {
+      "id": "truck_1764748520743_3_dgrscu8za",
+      "supplierName": "Idris Haruna",
+      "bags": 245,
+      "moistureLevel": 12,
+      "truckNumber": "BAU 752 YP",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-12-03T07:55:20.744Z"
+        }
+      ],
+      "createdAt": "2025-12-03T07:55:20.744Z",
+      "updatedAt": "2025-12-03T07:55:20.744Z"
+    },
+    {
+      "id": "truck_1764748520743_4_gd1nkluzy",
+      "supplierName": "B L Barka",
+      "bags": 540,
+      "moistureLevel": 10,
+      "truckNumber": "GME 130 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-12-03T07:55:20.744Z"
+        }
+      ],
+      "createdAt": "2025-12-03T07:55:20.744Z",
+      "updatedAt": "2025-12-03T07:55:20.744Z"
     }
   ],
   "loadings": [
@@ -27110,6 +27190,6 @@
       "waybillNumber": "7506"
     }
   ],
-  "lastModified": "2025-12-02T16:08:59.225Z",
+  "lastModified": "2025-12-03T07:55:20.845Z",
   "version": "2.0.0"
 }
