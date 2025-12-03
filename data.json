@@ -26302,15 +26302,23 @@
       "bags": 320,
       "moistureLevel": 16,
       "truckNumber": "ZAR 948 ZP",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-12-03T07:56:18.266Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-12-03T08:01:59.031Z",
+          "details": {
+            "waybillNumber": "7508"
+          }
         }
       ],
       "createdAt": "2025-12-03T07:56:18.266Z",
-      "updatedAt": "2025-12-03T07:56:18.266Z"
+      "updatedAt": "2025-12-03T08:01:59.031Z",
+      "waybillNumber": "7508"
     },
     {
       "id": "truck_1764748578266_1_33ir6fsx2",
@@ -27262,6 +27270,6 @@
       "waybillNumber": "7506"
     }
   ],
-  "lastModified": "2025-12-03T07:59:16.410Z",
+  "lastModified": "2025-12-03T08:02:01.251Z",
   "version": "2.0.0"
 }
