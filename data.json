@@ -26246,15 +26246,23 @@
       "bags": 530,
       "moistureLevel": 13,
       "truckNumber": "LND 286 XZ",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-12-03T07:55:20.744Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-12-03T07:59:16.322Z",
+          "details": {
+            "waybillNumber": "7507"
+          }
         }
       ],
       "createdAt": "2025-12-03T07:55:20.744Z",
-      "updatedAt": "2025-12-03T07:55:20.744Z"
+      "updatedAt": "2025-12-03T07:59:16.322Z",
+      "waybillNumber": "7507"
     },
     {
       "id": "truck_1764748520743_3_dgrscu8za",
@@ -27254,6 +27262,6 @@
       "waybillNumber": "7506"
     }
   ],
-  "lastModified": "2025-12-03T07:56:44.408Z",
+  "lastModified": "2025-12-03T07:59:16.410Z",
   "version": "2.0.0"
 }
