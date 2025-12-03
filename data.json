@@ -26342,11 +26342,11 @@
         },
         {
           "status": "rejected",
-          "timestamp": "2025-12-03T08:03:58.693Z"
+          "timestamp": "2025-12-03T08:04:09.315Z"
         }
       ],
       "createdAt": "2025-12-03T07:56:18.266Z",
-      "updatedAt": "2025-12-03T08:03:58.693Z"
+      "updatedAt": "2025-12-03T08:04:09.315Z"
     },
     {
       "id": "truck_1764748578266_2_v3xeixzqv",
@@ -27286,6 +27286,6 @@
       "waybillNumber": "7506"
     }
   ],
-  "lastModified": "2025-12-03T08:03:59.604Z",
+  "lastModified": "2025-12-03T08:04:10.105Z",
   "version": "2.0.0"
 }
