@@ -26358,15 +26358,19 @@
       "bags": 90,
       "moistureLevel": 12,
       "truckNumber": "SML 929 XA",
-      "status": "pending",
+      "status": "rejected",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-12-03T07:56:18.266Z"
+        },
+        {
+          "status": "rejected",
+          "timestamp": "2025-12-03T08:03:04.398Z"
         }
       ],
       "createdAt": "2025-12-03T07:56:18.266Z",
-      "updatedAt": "2025-12-03T07:56:18.266Z"
+      "updatedAt": "2025-12-03T08:03:04.398Z"
     }
   ],
   "loadings": [
@@ -27270,6 +27274,6 @@
       "waybillNumber": "7506"
     }
   ],
-  "lastModified": "2025-12-03T08:02:01.251Z",
+  "lastModified": "2025-12-03T08:03:21.646Z",
   "version": "2.0.0"
 }
