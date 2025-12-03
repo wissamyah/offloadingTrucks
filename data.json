@@ -26229,26 +26229,6 @@
       "updatedAt": "2025-12-03T08:03:50.916Z"
     },
     {
-      "id": "truck_1764748520743_1_1gpb3e0q9",
-      "supplierName": "Jamilu Yahaya",
-      "bags": 91,
-      "moistureLevel": 13,
-      "truckNumber": "WRN 115 XA",
-      "status": "rejected",
-      "statusHistory": [
-        {
-          "status": "pending",
-          "timestamp": "2025-12-03T07:55:20.744Z"
-        },
-        {
-          "status": "rejected",
-          "timestamp": "2025-12-03T08:04:25.651Z"
-        }
-      ],
-      "createdAt": "2025-12-03T07:55:20.744Z",
-      "updatedAt": "2025-12-03T08:04:25.651Z"
-    },
-    {
       "id": "truck_1764748520743_2_ldavyuzex",
       "supplierName": "Jamilu Yahaya",
       "bags": 530,
@@ -27294,6 +27274,6 @@
       "waybillNumber": "7506"
     }
   ],
-  "lastModified": "2025-12-03T08:04:26.548Z",
+  "lastModified": "2025-12-03T08:04:37.094Z",
   "version": "2.0.0"
 }
