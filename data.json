@@ -27215,17 +27215,25 @@
       "products": "150 Kwik rice 50kg",
       "truckNumber": "JEG 474 XA",
       "driverPhone": "07031085379",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-12-04T11:03:49.411Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-12-04T11:04:22.240Z",
+          "details": {
+            "waybillNumber": "7514"
+          }
         }
       ],
       "createdAt": "2025-12-04T11:03:49.411Z",
-      "updatedAt": "2025-12-04T11:03:49.411Z"
+      "updatedAt": "2025-12-04T11:04:22.240Z",
+      "waybillNumber": "7514"
     }
   ],
-  "lastModified": "2025-12-04T11:03:50.804Z",
+  "lastModified": "2025-12-04T11:04:22.347Z",
   "version": "2.0.0"
 }
