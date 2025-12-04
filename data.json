@@ -27334,17 +27334,25 @@
       "truckNumber": "NSW 292 Xa",
       "driverName": "Usman",
       "driverPhone": "09027877203",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-12-04T14:17:26.223Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-12-04T15:33:50.197Z",
+          "details": {
+            "waybillNumber": "7519"
+          }
         }
       ],
       "createdAt": "2025-12-04T14:17:26.224Z",
-      "updatedAt": "2025-12-04T14:17:26.224Z"
+      "updatedAt": "2025-12-04T15:33:50.197Z",
+      "waybillNumber": "7519"
     }
   ],
-  "lastModified": "2025-12-04T15:33:30.192Z",
+  "lastModified": "2025-12-04T15:33:50.285Z",
   "version": "2.0.0"
 }
