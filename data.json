@@ -27208,8 +27208,24 @@
       "createdAt": "2025-12-04T09:55:04.248Z",
       "updatedAt": "2025-12-04T11:03:02.483Z",
       "waybillNumber": "7512"
+    },
+    {
+      "id": "loading_1764846229411_0_g0bv9fczt",
+      "customerName": "Cash sales",
+      "products": "150 Kwik rice 50kg",
+      "truckNumber": "JEG 474 XA",
+      "driverPhone": "07031085379",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-12-04T11:03:49.411Z"
+        }
+      ],
+      "createdAt": "2025-12-04T11:03:49.411Z",
+      "updatedAt": "2025-12-04T11:03:49.411Z"
     }
   ],
-  "lastModified": "2025-12-04T11:03:02.543Z",
+  "lastModified": "2025-12-04T11:03:50.804Z",
   "version": "2.0.0"
 }
