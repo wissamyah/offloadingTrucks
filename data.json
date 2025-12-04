@@ -26296,7 +26296,7 @@
       "bags": 575,
       "moistureLevel": 13,
       "truckNumber": "AKK 463 ZA",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -26308,11 +26308,21 @@
           "details": {
             "waybillNumber": "7517"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-12-04T16:25:00.072Z",
+          "details": {
+            "netWeight": 45750,
+            "deduction": 110
+          }
         }
       ],
       "createdAt": "2025-12-04T16:24:24.705Z",
-      "updatedAt": "2025-12-04T16:24:37.802Z",
-      "waybillNumber": "7517"
+      "updatedAt": "2025-12-04T16:25:00.072Z",
+      "waybillNumber": "7517",
+      "netWeight": 45750,
+      "deduction": 110
     }
   ],
   "loadings": [
@@ -27414,6 +27424,6 @@
       "waybillNumber": "7520"
     }
   ],
-  "lastModified": "2025-12-04T16:24:37.890Z",
+  "lastModified": "2025-12-04T16:25:01.211Z",
   "version": "2.0.0"
 }
