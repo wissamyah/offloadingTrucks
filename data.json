@@ -26255,6 +26255,22 @@
       "createdAt": "2025-12-03T07:56:18.266Z",
       "updatedAt": "2025-12-03T08:01:59.031Z",
       "waybillNumber": "7508"
+    },
+    {
+      "id": "truck_1764840241869_0_10qn6m998",
+      "supplierName": "Idris Garba",
+      "bags": 550,
+      "moistureLevel": 11,
+      "truckNumber": "FKY 329 ZA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-12-04T09:24:01.869Z"
+        }
+      ],
+      "createdAt": "2025-12-04T09:24:01.869Z",
+      "updatedAt": "2025-12-04T09:24:01.869Z"
     }
   ],
   "loadings": [
@@ -27158,6 +27174,6 @@
       "waybillNumber": "7506"
     }
   ],
-  "lastModified": "2025-12-03T08:06:35.275Z",
+  "lastModified": "2025-12-04T09:24:01.990Z",
   "version": "2.0.0"
 }
