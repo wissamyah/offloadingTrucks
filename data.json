@@ -27367,17 +27367,25 @@
       "truckNumber": "GML 369 XB",
       "driverName": "NURA ABDULLAHI",
       "driverPhone": "08031918101",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-12-04T15:38:27.185Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-12-04T16:07:17.865Z",
+          "details": {
+            "waybillNumber": "7520"
+          }
         }
       ],
       "createdAt": "2025-12-04T15:38:27.185Z",
-      "updatedAt": "2025-12-04T15:38:27.185Z"
+      "updatedAt": "2025-12-04T16:07:17.865Z",
+      "waybillNumber": "7520"
     }
   ],
-  "lastModified": "2025-12-04T15:38:27.211Z",
+  "lastModified": "2025-12-04T16:07:17.956Z",
   "version": "2.0.0"
 }
