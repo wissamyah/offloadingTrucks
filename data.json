@@ -27239,7 +27239,7 @@
       "products": "800 Kwik rice 50kg\n100 Oga rice 50kg",
       "truckNumber": "DJA 167 XA",
       "driverPhone": "07081847343",
-      "status": "scaled_in",
+      "status": "loaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -27251,13 +27251,17 @@
           "details": {
             "waybillNumber": "7513"
           }
+        },
+        {
+          "status": "loaded",
+          "timestamp": "2025-12-04T12:24:40.091Z"
         }
       ],
       "createdAt": "2025-12-04T11:04:44.434Z",
-      "updatedAt": "2025-12-04T11:05:14.321Z",
+      "updatedAt": "2025-12-04T12:24:40.091Z",
       "waybillNumber": "7513"
     }
   ],
-  "lastModified": "2025-12-04T11:05:14.399Z",
+  "lastModified": "2025-12-04T12:24:40.148Z",
   "version": "2.0.0"
 }
