@@ -27291,8 +27291,23 @@
       ],
       "createdAt": "2025-12-04T14:15:38.039Z",
       "updatedAt": "2025-12-04T14:15:38.039Z"
+    },
+    {
+      "id": "loading_1764857766016_0_pk5or6rbh",
+      "customerName": "Emmanuel Kelechukwu",
+      "products": "300 Kwik rice 50kg",
+      "truckNumber": "MJB 852 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-12-04T14:16:06.016Z"
+        }
+      ],
+      "createdAt": "2025-12-04T14:16:06.016Z",
+      "updatedAt": "2025-12-04T14:16:06.016Z"
     }
   ],
-  "lastModified": "2025-12-04T14:15:38.096Z",
+  "lastModified": "2025-12-04T14:16:07.553Z",
   "version": "2.0.0"
 }
