@@ -27232,8 +27232,24 @@
       "createdAt": "2025-12-04T11:03:49.411Z",
       "updatedAt": "2025-12-04T11:04:22.240Z",
       "waybillNumber": "7514"
+    },
+    {
+      "id": "loading_1764846284434_0_fxyg1wt3s",
+      "customerName": "Amaka rice",
+      "products": "800 Kwik rice 50kg\n100 Oga rice 50kg",
+      "truckNumber": "DJA 167 XA",
+      "driverPhone": "07081847343",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-12-04T11:04:44.434Z"
+        }
+      ],
+      "createdAt": "2025-12-04T11:04:44.434Z",
+      "updatedAt": "2025-12-04T11:04:44.434Z"
     }
   ],
-  "lastModified": "2025-12-04T11:04:22.347Z",
+  "lastModified": "2025-12-04T11:04:44.502Z",
   "version": "2.0.0"
 }
