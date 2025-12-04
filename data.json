@@ -26289,6 +26289,22 @@
       "waybillNumber": "7511",
       "netWeight": 38760,
       "deduction": 90
+    },
+    {
+      "id": "truck_1764865464705_0_bzlbpsuci",
+      "supplierName": "Adam isah",
+      "bags": 575,
+      "moistureLevel": 13,
+      "truckNumber": "AKK 463 ZA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-12-04T16:24:24.705Z"
+        }
+      ],
+      "createdAt": "2025-12-04T16:24:24.705Z",
+      "updatedAt": "2025-12-04T16:24:24.705Z"
     }
   ],
   "loadings": [
@@ -27390,6 +27406,6 @@
       "waybillNumber": "7520"
     }
   ],
-  "lastModified": "2025-12-04T16:07:57.635Z",
+  "lastModified": "2025-12-04T16:24:24.819Z",
   "version": "2.0.0"
 }
