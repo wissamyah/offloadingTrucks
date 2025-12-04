@@ -27306,8 +27306,25 @@
       ],
       "createdAt": "2025-12-04T14:16:06.016Z",
       "updatedAt": "2025-12-04T14:16:06.016Z"
+    },
+    {
+      "id": "loading_1764857846223_0_wkt84v0te",
+      "customerName": "Onecall Agro Allied Products Ltd",
+      "products": "300 Kwik rice 50kg",
+      "truckNumber": "NSW 292 Xa",
+      "driverName": "Usman",
+      "driverPhone": "09027877203",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-12-04T14:17:26.223Z"
+        }
+      ],
+      "createdAt": "2025-12-04T14:17:26.224Z",
+      "updatedAt": "2025-12-04T14:17:26.224Z"
     }
   ],
-  "lastModified": "2025-12-04T14:16:07.553Z",
+  "lastModified": "2025-12-04T14:17:26.275Z",
   "version": "2.0.0"
 }
