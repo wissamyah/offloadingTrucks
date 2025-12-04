@@ -27282,7 +27282,7 @@
       "truckNumber": "DTM 784 XA",
       "driverName": "ISYAKU ABUBAKAR",
       "driverPhone": "08033136804",
-      "status": "scaled_in",
+      "status": "loaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -27294,10 +27294,14 @@
           "details": {
             "waybillNumber": "7515"
           }
+        },
+        {
+          "status": "loaded",
+          "timestamp": "2025-12-04T14:18:11.898Z"
         }
       ],
       "createdAt": "2025-12-04T14:15:38.039Z",
-      "updatedAt": "2025-12-04T14:17:56.100Z",
+      "updatedAt": "2025-12-04T14:18:11.898Z",
       "waybillNumber": "7515"
     },
     {
@@ -27333,6 +27337,6 @@
       "updatedAt": "2025-12-04T14:17:26.224Z"
     }
   ],
-  "lastModified": "2025-12-04T14:17:56.184Z",
+  "lastModified": "2025-12-04T14:18:13.446Z",
   "version": "2.0.0"
 }
