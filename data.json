@@ -27187,7 +27187,7 @@
       "products": "400 Kwik rice 50kg",
       "truckNumber": "BNW 203 XA",
       "driverPhone": "08025354375",
-      "status": "scaled_in",
+      "status": "loaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -27199,13 +27199,17 @@
           "details": {
             "waybillNumber": "7512"
           }
+        },
+        {
+          "status": "loaded",
+          "timestamp": "2025-12-04T11:03:02.483Z"
         }
       ],
       "createdAt": "2025-12-04T09:55:04.248Z",
-      "updatedAt": "2025-12-04T09:55:22.050Z",
+      "updatedAt": "2025-12-04T11:03:02.483Z",
       "waybillNumber": "7512"
     }
   ],
-  "lastModified": "2025-12-04T09:55:23.371Z",
+  "lastModified": "2025-12-04T11:03:02.543Z",
   "version": "2.0.0"
 }
