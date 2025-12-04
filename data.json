@@ -26262,15 +26262,23 @@
       "bags": 550,
       "moistureLevel": 11,
       "truckNumber": "FKY 329 ZA",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-12-04T09:24:01.869Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-12-04T09:25:26.921Z",
+          "details": {
+            "waybillNumber": "7511"
+          }
         }
       ],
       "createdAt": "2025-12-04T09:24:01.869Z",
-      "updatedAt": "2025-12-04T09:24:01.869Z"
+      "updatedAt": "2025-12-04T09:25:26.921Z",
+      "waybillNumber": "7511"
     }
   ],
   "loadings": [
@@ -27174,6 +27182,6 @@
       "waybillNumber": "7506"
     }
   ],
-  "lastModified": "2025-12-04T09:24:01.990Z",
+  "lastModified": "2025-12-04T09:25:27.030Z",
   "version": "2.0.0"
 }
