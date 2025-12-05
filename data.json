@@ -27461,7 +27461,7 @@
       "products": "500 Kwik rice 50kg\n150 Oga rice 50kg\n100 Kwik rice 25kg",
       "truckNumber": "PKM 693 ZY",
       "driverPhone": "07069021438",
-      "status": "scaled_in",
+      "status": "loaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -27473,13 +27473,17 @@
           "details": {
             "waybillNumber": "7522"
           }
+        },
+        {
+          "status": "loaded",
+          "timestamp": "2025-12-05T12:05:41.856Z"
         }
       ],
       "createdAt": "2025-12-05T12:05:15.275Z",
-      "updatedAt": "2025-12-05T12:05:34.907Z",
+      "updatedAt": "2025-12-05T12:05:41.856Z",
       "waybillNumber": "7522"
     }
   ],
-  "lastModified": "2025-12-05T12:05:35.696Z",
+  "lastModified": "2025-12-05T12:05:41.926Z",
   "version": "2.0.0"
 }
