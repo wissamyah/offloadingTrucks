@@ -26355,6 +26355,22 @@
       "updatedAt": "2025-12-05T09:51:50.290Z",
       "waybillNumber": "7521",
       "netWeight": 17220
+    },
+    {
+      "id": "truck_1764940980439_0_25z55s5g0",
+      "supplierName": "Umar Sheka",
+      "bags": 365,
+      "moistureLevel": 14,
+      "truckNumber": "KZR 703 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-12-05T13:23:00.439Z"
+        }
+      ],
+      "createdAt": "2025-12-05T13:23:00.439Z",
+      "updatedAt": "2025-12-05T13:23:00.439Z"
     }
   ],
   "loadings": [
@@ -27484,6 +27500,6 @@
       "waybillNumber": "7522"
     }
   ],
-  "lastModified": "2025-12-05T12:05:41.926Z",
+  "lastModified": "2025-12-05T13:23:00.528Z",
   "version": "2.0.0"
 }
