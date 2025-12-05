@@ -27454,8 +27454,24 @@
       "createdAt": "2025-12-04T15:38:27.185Z",
       "updatedAt": "2025-12-04T16:07:56.692Z",
       "waybillNumber": "7520"
+    },
+    {
+      "id": "loading_1764936315275_0_w3tvoqn29",
+      "customerName": "Pat Ani Integrated Services",
+      "products": "500 Kwik rice 50kg\n150 Oga rice 50kg\n100 Kwik rice 25kg",
+      "truckNumber": "PKM 693 ZY",
+      "driverPhone": "07069021438",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-12-05T12:05:15.275Z"
+        }
+      ],
+      "createdAt": "2025-12-05T12:05:15.275Z",
+      "updatedAt": "2025-12-05T12:05:15.275Z"
     }
   ],
-  "lastModified": "2025-12-05T09:51:50.415Z",
+  "lastModified": "2025-12-05T12:05:15.346Z",
   "version": "2.0.0"
 }
