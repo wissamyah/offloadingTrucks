@@ -26362,7 +26362,7 @@
       "bags": 365,
       "moistureLevel": 14,
       "truckNumber": "KZR 703 XA",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -26374,11 +26374,19 @@
           "details": {
             "waybillNumber": "7525"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-12-05T15:37:32.373Z",
+          "details": {
+            "netWeight": 31060
+          }
         }
       ],
       "createdAt": "2025-12-05T13:23:00.439Z",
-      "updatedAt": "2025-12-05T13:24:09.628Z",
-      "waybillNumber": "7525"
+      "updatedAt": "2025-12-05T15:37:32.373Z",
+      "waybillNumber": "7525",
+      "netWeight": 31060
     }
   ],
   "loadings": [
@@ -27508,6 +27516,6 @@
       "waybillNumber": "7522"
     }
   ],
-  "lastModified": "2025-12-05T13:24:09.724Z",
+  "lastModified": "2025-12-05T15:37:32.458Z",
   "version": "2.0.0"
 }
