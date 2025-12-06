@@ -26387,6 +26387,86 @@
       "updatedAt": "2025-12-05T15:37:32.373Z",
       "waybillNumber": "7525",
       "netWeight": 31060
+    },
+    {
+      "id": "truck_1765007579464_0_tznwob4ed",
+      "supplierName": "Alh Dayyabu",
+      "bags": 436,
+      "moistureLevel": 12,
+      "truckNumber": "XW 547 ABC",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-12-06T07:52:59.465Z"
+        }
+      ],
+      "createdAt": "2025-12-06T07:52:59.465Z",
+      "updatedAt": "2025-12-06T07:52:59.465Z"
+    },
+    {
+      "id": "truck_1765007579464_1_6ukkinuyy",
+      "supplierName": "Ahmad Baffare",
+      "bags": 420,
+      "moistureLevel": 13,
+      "truckNumber": "FKY 229 YF",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-12-06T07:52:59.465Z"
+        }
+      ],
+      "createdAt": "2025-12-06T07:52:59.465Z",
+      "updatedAt": "2025-12-06T07:52:59.465Z"
+    },
+    {
+      "id": "truck_1765007579464_2_r9u87liue",
+      "supplierName": "Ahmad Sheka",
+      "bags": 200,
+      "moistureLevel": 10,
+      "truckNumber": "AAA 897 YE",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-12-06T07:52:59.465Z"
+        }
+      ],
+      "createdAt": "2025-12-06T07:52:59.465Z",
+      "updatedAt": "2025-12-06T07:52:59.465Z"
+    },
+    {
+      "id": "truck_1765007579464_3_svc1o6p4t",
+      "supplierName": "Jamilu Yahaya",
+      "bags": 60,
+      "moistureLevel": 10,
+      "truckNumber": "FKY 48 XP",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-12-06T07:52:59.465Z"
+        }
+      ],
+      "createdAt": "2025-12-06T07:52:59.465Z",
+      "updatedAt": "2025-12-06T07:52:59.465Z"
+    },
+    {
+      "id": "truck_1765007579464_4_f3t56l5kv",
+      "supplierName": "Mujaheed Rogo",
+      "bags": 100,
+      "moistureLevel": 12,
+      "truckNumber": "AGL 447 XR",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-12-06T07:52:59.465Z"
+        }
+      ],
+      "createdAt": "2025-12-06T07:52:59.465Z",
+      "updatedAt": "2025-12-06T07:52:59.465Z"
     }
   ],
   "loadings": [
@@ -27516,6 +27596,6 @@
       "waybillNumber": "7522"
     }
   ],
-  "lastModified": "2025-12-05T15:37:32.458Z",
+  "lastModified": "2025-12-06T07:52:59.577Z",
   "version": "2.0.0"
 }
