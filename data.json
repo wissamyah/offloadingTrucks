@@ -27730,17 +27730,25 @@
       "truckNumber": "JEG 871 XA",
       "driverName": "ABBA",
       "driverPhone": "09035354106",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-12-06T11:28:55.945Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-12-06T11:29:07.081Z",
+          "details": {
+            "waybillNumber": "7533"
+          }
         }
       ],
       "createdAt": "2025-12-06T11:28:55.945Z",
-      "updatedAt": "2025-12-06T11:28:55.945Z"
+      "updatedAt": "2025-12-06T11:29:07.081Z",
+      "waybillNumber": "7533"
     }
   ],
-  "lastModified": "2025-12-06T11:28:56.006Z",
+  "lastModified": "2025-12-06T11:29:08.635Z",
   "version": "2.0.0"
 }
