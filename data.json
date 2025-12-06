@@ -26490,15 +26490,23 @@
       "bags": 244,
       "moistureLevel": 12,
       "truckNumber": "FKA 705 XA",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-12-06T07:53:22.375Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-12-06T08:15:52.147Z",
+          "details": {
+            "waybillNumber": "7532"
+          }
         }
       ],
       "createdAt": "2025-12-06T07:53:22.375Z",
-      "updatedAt": "2025-12-06T07:53:22.375Z"
+      "updatedAt": "2025-12-06T08:15:52.147Z",
+      "waybillNumber": "7532"
     }
   ],
   "loadings": [
@@ -27628,6 +27636,6 @@
       "waybillNumber": "7522"
     }
   ],
-  "lastModified": "2025-12-06T07:59:31.336Z",
+  "lastModified": "2025-12-06T08:15:52.265Z",
   "version": "2.0.0"
 }
