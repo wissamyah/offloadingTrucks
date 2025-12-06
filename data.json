@@ -26595,6 +26595,54 @@
       "createdAt": "2025-12-06T10:27:21.993Z",
       "updatedAt": "2025-12-06T10:31:04.561Z",
       "waybillNumber": "7534"
+    },
+    {
+      "id": "truck_1765029129114_0_dpreah2h7",
+      "supplierName": "Idris Garba",
+      "bags": 510,
+      "moistureLevel": 12,
+      "truckNumber": "FKA 839 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-12-06T13:52:09.114Z"
+        }
+      ],
+      "createdAt": "2025-12-06T13:52:09.114Z",
+      "updatedAt": "2025-12-06T13:52:09.114Z"
+    },
+    {
+      "id": "truck_1765029129114_1_eut6bzpsv",
+      "supplierName": "Kabiru Sani Bako",
+      "bags": 82,
+      "moistureLevel": 10,
+      "truckNumber": "DAL 408 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-12-06T13:52:09.114Z"
+        }
+      ],
+      "createdAt": "2025-12-06T13:52:09.114Z",
+      "updatedAt": "2025-12-06T13:52:09.114Z"
+    },
+    {
+      "id": "truck_1765029129114_2_1t763uxx3",
+      "supplierName": "Abujidda",
+      "bags": 43,
+      "moistureLevel": 19,
+      "truckNumber": "YAB 408 YJ",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-12-06T13:52:09.114Z"
+        }
+      ],
+      "createdAt": "2025-12-06T13:52:09.114Z",
+      "updatedAt": "2025-12-06T13:52:09.114Z"
     }
   ],
   "loadings": [
@@ -27753,6 +27801,6 @@
       "waybillNumber": "7533"
     }
   ],
-  "lastModified": "2025-12-06T11:29:14.242Z",
+  "lastModified": "2025-12-06T13:52:09.227Z",
   "version": "2.0.0"
 }
