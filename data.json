@@ -27722,8 +27722,25 @@
       "createdAt": "2025-12-05T12:05:15.275Z",
       "updatedAt": "2025-12-05T12:05:41.856Z",
       "waybillNumber": "7522"
+    },
+    {
+      "id": "loading_1765020535944_0_y93i9fufu",
+      "customerName": "Chusach Global Resources ltd",
+      "products": "150 Kwik rice 50kg",
+      "truckNumber": "JEG 871 XA",
+      "driverName": "ABBA",
+      "driverPhone": "09035354106",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-12-06T11:28:55.945Z"
+        }
+      ],
+      "createdAt": "2025-12-06T11:28:55.945Z",
+      "updatedAt": "2025-12-06T11:28:55.945Z"
     }
   ],
-  "lastModified": "2025-12-06T11:21:13.595Z",
+  "lastModified": "2025-12-06T11:28:56.006Z",
   "version": "2.0.0"
 }
