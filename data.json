@@ -26442,15 +26442,23 @@
       "bags": 60,
       "moistureLevel": 10,
       "truckNumber": "FKY 48 XP",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-12-06T07:52:59.465Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-12-06T07:55:54.636Z",
+          "details": {
+            "waybillNumber": "7527"
+          }
         }
       ],
       "createdAt": "2025-12-06T07:52:59.465Z",
-      "updatedAt": "2025-12-06T07:52:59.465Z"
+      "updatedAt": "2025-12-06T07:55:54.636Z",
+      "waybillNumber": "7527"
     },
     {
       "id": "truck_1765007579464_4_f3t56l5kv",
@@ -27612,6 +27620,6 @@
       "waybillNumber": "7522"
     }
   ],
-  "lastModified": "2025-12-06T07:53:24.039Z",
+  "lastModified": "2025-12-06T07:55:55.656Z",
   "version": "2.0.0"
 }
