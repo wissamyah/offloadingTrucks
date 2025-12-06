@@ -26555,6 +26555,22 @@
       "waybillNumber": "7532",
       "netWeight": 18660,
       "deduction": 90
+    },
+    {
+      "id": "truck_1765016841993_0_4wlq0yj30",
+      "supplierName": "Damakasu Agro Allied",
+      "bags": 725,
+      "moistureLevel": 12,
+      "truckNumber": "MNG 317 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-12-06T10:27:21.993Z"
+        }
+      ],
+      "createdAt": "2025-12-06T10:27:21.993Z",
+      "updatedAt": "2025-12-06T10:27:21.993Z"
     }
   ],
   "loadings": [
@@ -27684,6 +27700,6 @@
       "waybillNumber": "7522"
     }
   ],
-  "lastModified": "2025-12-06T09:57:33.793Z",
+  "lastModified": "2025-12-06T10:27:22.119Z",
   "version": "2.0.0"
 }
