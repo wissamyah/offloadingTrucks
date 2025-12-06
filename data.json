@@ -26508,15 +26508,19 @@
       "bags": 100,
       "moistureLevel": 12,
       "truckNumber": "AGL 447 XR",
-      "status": "pending",
+      "status": "rejected",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-12-06T07:52:59.465Z"
+        },
+        {
+          "status": "rejected",
+          "timestamp": "2025-12-06T09:50:47.932Z"
         }
       ],
       "createdAt": "2025-12-06T07:52:59.465Z",
-      "updatedAt": "2025-12-06T07:52:59.465Z"
+      "updatedAt": "2025-12-06T09:50:47.932Z"
     },
     {
       "id": "truck_1765007602375_0_4tp4lp59x",
@@ -27670,6 +27674,6 @@
       "waybillNumber": "7522"
     }
   ],
-  "lastModified": "2025-12-06T09:40:25.051Z",
+  "lastModified": "2025-12-06T09:50:47.969Z",
   "version": "2.0.0"
 }
