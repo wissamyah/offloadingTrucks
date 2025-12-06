@@ -26438,7 +26438,7 @@
     },
     {
       "id": "truck_1765007579464_2_r9u87liue",
-      "supplierName": "Ahmad Sheka",
+      "supplierName": "Umar Sheka",
       "bags": 200,
       "moistureLevel": 10,
       "truckNumber": "AAA 897 YE",
@@ -27670,6 +27670,6 @@
       "waybillNumber": "7522"
     }
   ],
-  "lastModified": "2025-12-06T09:15:44.920Z",
+  "lastModified": "2025-12-06T09:40:25.051Z",
   "version": "2.0.0"
 }
