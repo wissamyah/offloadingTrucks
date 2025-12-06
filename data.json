@@ -26612,15 +26612,23 @@
       "bags": 510,
       "moistureLevel": 12,
       "truckNumber": "FKA 839 XA",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-12-06T13:52:09.114Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-12-06T13:58:43.690Z",
+          "details": {
+            "waybillNumber": "7535"
+          }
         }
       ],
       "createdAt": "2025-12-06T13:52:09.114Z",
-      "updatedAt": "2025-12-06T13:52:09.114Z"
+      "updatedAt": "2025-12-06T13:58:43.690Z",
+      "waybillNumber": "7535"
     },
     {
       "id": "truck_1765029129114_1_eut6bzpsv",
@@ -27811,6 +27819,6 @@
       "waybillNumber": "7533"
     }
   ],
-  "lastModified": "2025-12-06T13:55:48.121Z",
+  "lastModified": "2025-12-06T13:58:43.806Z",
   "version": "2.0.0"
 }
