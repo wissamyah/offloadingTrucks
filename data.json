@@ -26394,7 +26394,7 @@
       "bags": 436,
       "moistureLevel": 12,
       "truckNumber": "XW 547 ABC",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -26406,11 +26406,19 @@
           "details": {
             "waybillNumber": "7530"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-12-06T11:21:13.474Z",
+          "details": {
+            "netWeight": 36550
+          }
         }
       ],
       "createdAt": "2025-12-06T07:52:59.465Z",
-      "updatedAt": "2025-12-06T08:16:59.976Z",
-      "waybillNumber": "7530"
+      "updatedAt": "2025-12-06T11:21:13.474Z",
+      "waybillNumber": "7530",
+      "netWeight": 36550
     },
     {
       "id": "truck_1765007579464_1_6ukkinuyy",
@@ -27716,6 +27724,6 @@
       "waybillNumber": "7522"
     }
   ],
-  "lastModified": "2025-12-06T10:38:36.403Z",
+  "lastModified": "2025-12-06T11:21:13.595Z",
   "version": "2.0.0"
 }
