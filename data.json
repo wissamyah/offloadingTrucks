@@ -26410,15 +26410,23 @@
       "bags": 420,
       "moistureLevel": 13,
       "truckNumber": "FKY 229 YF",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-12-06T07:52:59.465Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-12-06T08:16:19.293Z",
+          "details": {
+            "waybillNumber": "7531"
+          }
         }
       ],
       "createdAt": "2025-12-06T07:52:59.465Z",
-      "updatedAt": "2025-12-06T07:52:59.465Z"
+      "updatedAt": "2025-12-06T08:16:19.293Z",
+      "waybillNumber": "7531"
     },
     {
       "id": "truck_1765007579464_2_r9u87liue",
@@ -27636,6 +27644,6 @@
       "waybillNumber": "7522"
     }
   ],
-  "lastModified": "2025-12-06T08:15:52.265Z",
+  "lastModified": "2025-12-06T08:16:19.409Z",
   "version": "2.0.0"
 }
