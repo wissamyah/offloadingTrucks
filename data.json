@@ -26863,6 +26863,22 @@
       ],
       "createdAt": "2025-12-07T12:58:24.906Z",
       "updatedAt": "2025-12-07T12:58:24.906Z"
+    },
+    {
+      "id": "truck_1765114148215_0_8n3kze3de",
+      "supplierName": "Idris Haruna",
+      "bags": 220,
+      "moistureLevel": 12,
+      "truckNumber": "TRR 780 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-12-07T13:29:08.215Z"
+        }
+      ],
+      "createdAt": "2025-12-07T13:29:08.215Z",
+      "updatedAt": "2025-12-07T13:29:08.215Z"
     }
   ],
   "loadings": [
@@ -28050,6 +28066,6 @@
       "waybillNumber": "7542"
     }
   ],
-  "lastModified": "2025-12-07T12:58:24.934Z",
+  "lastModified": "2025-12-07T13:29:08.357Z",
   "version": "2.0.0"
 }
