@@ -28009,17 +28009,25 @@
       "truckNumber": "AAH 410 XB",
       "driverName": "ONYE ERNEST",
       "driverPhone": "09131458148",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-12-07T11:26:40.410Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-12-07T11:26:52.939Z",
+          "details": {
+            "waybillNumber": "7542"
+          }
         }
       ],
       "createdAt": "2025-12-07T11:26:40.410Z",
-      "updatedAt": "2025-12-07T11:26:40.410Z"
+      "updatedAt": "2025-12-07T11:26:52.939Z",
+      "waybillNumber": "7542"
     }
   ],
-  "lastModified": "2025-12-07T11:26:40.469Z",
+  "lastModified": "2025-12-07T11:26:53.661Z",
   "version": "2.0.0"
 }
