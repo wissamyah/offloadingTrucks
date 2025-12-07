@@ -28001,8 +28001,25 @@
       "createdAt": "2025-12-06T11:28:55.945Z",
       "updatedAt": "2025-12-06T11:29:12.969Z",
       "waybillNumber": "7533"
+    },
+    {
+      "id": "loading_1765106800410_0_oc11qfo9q",
+      "customerName": "Chris nnaji",
+      "products": "350 Kwik rice 50kg\n50 Oga rice 50kg",
+      "truckNumber": "AAH 410 XB",
+      "driverName": "ONYE ERNEST",
+      "driverPhone": "09131458148",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-12-07T11:26:40.410Z"
+        }
+      ],
+      "createdAt": "2025-12-07T11:26:40.410Z",
+      "updatedAt": "2025-12-07T11:26:40.410Z"
     }
   ],
-  "lastModified": "2025-12-07T11:26:04.121Z",
+  "lastModified": "2025-12-07T11:26:40.469Z",
   "version": "2.0.0"
 }
