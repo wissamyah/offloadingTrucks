@@ -26773,22 +26773,6 @@
       "waybillNumber": "7538"
     },
     {
-      "id": "truck_1765099470550_3_px4uvon2h",
-      "supplierName": "_______",
-      "bags": 321,
-      "moistureLevel": 12,
-      "truckNumber": "FKA 41 XA",
-      "status": "pending",
-      "statusHistory": [
-        {
-          "status": "pending",
-          "timestamp": "2025-12-07T09:24:30.550Z"
-        }
-      ],
-      "createdAt": "2025-12-07T09:24:30.550Z",
-      "updatedAt": "2025-12-07T09:24:30.550Z"
-    },
-    {
       "id": "truck_1765099470550_4_cl08r393y",
       "supplierName": "Jamilu Yahaya",
       "bags": 562,
@@ -28040,6 +28024,6 @@
       "waybillNumber": "7542"
     }
   ],
-  "lastModified": "2025-12-07T12:08:31.537Z",
+  "lastModified": "2025-12-07T12:28:25.338Z",
   "version": "2.0.0"
 }
