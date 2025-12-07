@@ -26828,7 +26828,7 @@
       "bags": 140,
       "moistureLevel": 15,
       "truckNumber": "LND 437 XE",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -26840,11 +26840,19 @@
           "details": {
             "waybillNumber": "7541"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-12-07T12:08:31.445Z",
+          "details": {
+            "netWeight": 13420
+          }
         }
       ],
       "createdAt": "2025-12-07T09:24:30.550Z",
-      "updatedAt": "2025-12-07T09:26:35.993Z",
-      "waybillNumber": "7541"
+      "updatedAt": "2025-12-07T12:08:31.445Z",
+      "waybillNumber": "7541",
+      "netWeight": 13420
     }
   ],
   "loadings": [
@@ -28032,6 +28040,6 @@
       "waybillNumber": "7542"
     }
   ],
-  "lastModified": "2025-12-07T11:26:59.116Z",
+  "lastModified": "2025-12-07T12:08:31.537Z",
   "version": "2.0.0"
 }
