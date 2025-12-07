@@ -26870,7 +26870,7 @@
       "bags": 220,
       "moistureLevel": 12,
       "truckNumber": "TRR 780 XA",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -26882,11 +26882,21 @@
           "details": {
             "waybillNumber": "7543"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-12-07T13:29:47.464Z",
+          "details": {
+            "netWeight": 15470,
+            "deduction": 100
+          }
         }
       ],
       "createdAt": "2025-12-07T13:29:08.215Z",
-      "updatedAt": "2025-12-07T13:29:26.825Z",
-      "waybillNumber": "7543"
+      "updatedAt": "2025-12-07T13:29:47.464Z",
+      "waybillNumber": "7543",
+      "netWeight": 15470,
+      "deduction": 100
     }
   ],
   "loadings": [
@@ -28074,6 +28084,6 @@
       "waybillNumber": "7542"
     }
   ],
-  "lastModified": "2025-12-07T13:29:27.811Z",
+  "lastModified": "2025-12-07T13:29:47.564Z",
   "version": "2.0.0"
 }
