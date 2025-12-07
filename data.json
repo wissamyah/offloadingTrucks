@@ -26679,6 +26679,102 @@
       ],
       "createdAt": "2025-12-06T13:52:09.114Z",
       "updatedAt": "2025-12-06T15:33:32.176Z"
+    },
+    {
+      "id": "truck_1765099470550_0_itp3klm5s",
+      "supplierName": "Shamsu Muhammad",
+      "bags": 550,
+      "moistureLevel": 13,
+      "truckNumber": "FKY 130 XB",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-12-07T09:24:30.550Z"
+        }
+      ],
+      "createdAt": "2025-12-07T09:24:30.550Z",
+      "updatedAt": "2025-12-07T09:24:30.550Z"
+    },
+    {
+      "id": "truck_1765099470550_1_t4dex839f",
+      "supplierName": "Isa Abubakar",
+      "bags": 546,
+      "moistureLevel": 12,
+      "truckNumber": "FKY 340 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-12-07T09:24:30.550Z"
+        }
+      ],
+      "createdAt": "2025-12-07T09:24:30.550Z",
+      "updatedAt": "2025-12-07T09:24:30.550Z"
+    },
+    {
+      "id": "truck_1765099470550_2_0ogy13lgw",
+      "supplierName": "Idris Garba",
+      "bags": 500,
+      "moistureLevel": 14,
+      "truckNumber": "RBC 620 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-12-07T09:24:30.550Z"
+        }
+      ],
+      "createdAt": "2025-12-07T09:24:30.550Z",
+      "updatedAt": "2025-12-07T09:24:30.550Z"
+    },
+    {
+      "id": "truck_1765099470550_3_px4uvon2h",
+      "supplierName": "_______",
+      "bags": 321,
+      "moistureLevel": 12,
+      "truckNumber": "FKA 41 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-12-07T09:24:30.550Z"
+        }
+      ],
+      "createdAt": "2025-12-07T09:24:30.550Z",
+      "updatedAt": "2025-12-07T09:24:30.550Z"
+    },
+    {
+      "id": "truck_1765099470550_4_cl08r393y",
+      "supplierName": "Jamilu Yahaya",
+      "bags": 562,
+      "moistureLevel": 11,
+      "truckNumber": "MCN 83 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-12-07T09:24:30.550Z"
+        }
+      ],
+      "createdAt": "2025-12-07T09:24:30.550Z",
+      "updatedAt": "2025-12-07T09:24:30.550Z"
+    },
+    {
+      "id": "truck_1765099470550_5_4sg2f75sm",
+      "supplierName": "Alh Danasabe",
+      "bags": 140,
+      "moistureLevel": 15,
+      "truckNumber": "LND 437 XE",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-12-07T09:24:30.550Z"
+        }
+      ],
+      "createdAt": "2025-12-07T09:24:30.550Z",
+      "updatedAt": "2025-12-07T09:24:30.550Z"
     }
   ],
   "loadings": [
@@ -27837,6 +27933,6 @@
       "waybillNumber": "7533"
     }
   ],
-  "lastModified": "2025-12-06T16:56:27.955Z",
+  "lastModified": "2025-12-07T09:24:30.645Z",
   "version": "2.0.0"
 }
