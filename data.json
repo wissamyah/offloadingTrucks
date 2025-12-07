@@ -26754,7 +26754,7 @@
       "bags": 500,
       "moistureLevel": 14,
       "truckNumber": "RBC 620 XA",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -26766,11 +26766,21 @@
           "details": {
             "waybillNumber": "7538"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-12-07T12:41:28.337Z",
+          "details": {
+            "netWeight": 36640,
+            "deduction": 120
+          }
         }
       ],
       "createdAt": "2025-12-07T09:24:30.550Z",
-      "updatedAt": "2025-12-07T10:02:00.592Z",
-      "waybillNumber": "7538"
+      "updatedAt": "2025-12-07T12:41:28.337Z",
+      "waybillNumber": "7538",
+      "netWeight": 36640,
+      "deduction": 120
     },
     {
       "id": "truck_1765099470550_4_cl08r393y",
@@ -28024,6 +28034,6 @@
       "waybillNumber": "7542"
     }
   ],
-  "lastModified": "2025-12-07T12:28:25.338Z",
+  "lastModified": "2025-12-07T12:41:28.447Z",
   "version": "2.0.0"
 }
