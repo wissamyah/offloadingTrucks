@@ -26774,15 +26774,23 @@
       "bags": 562,
       "moistureLevel": 11,
       "truckNumber": "MCN 83 XA",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-12-07T09:24:30.550Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-12-07T10:03:02.453Z",
+          "details": {
+            "waybillNumber": "7540"
+          }
         }
       ],
       "createdAt": "2025-12-07T09:24:30.550Z",
-      "updatedAt": "2025-12-07T09:24:30.550Z"
+      "updatedAt": "2025-12-07T10:03:02.453Z",
+      "waybillNumber": "7540"
     },
     {
       "id": "truck_1765099470550_5_4sg2f75sm",
@@ -27965,6 +27973,6 @@
       "waybillNumber": "7533"
     }
   ],
-  "lastModified": "2025-12-07T10:02:29.544Z",
+  "lastModified": "2025-12-07T10:03:02.558Z",
   "version": "2.0.0"
 }
