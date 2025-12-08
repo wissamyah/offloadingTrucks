@@ -27090,7 +27090,7 @@
       "bags": 380,
       "moistureLevel": 12,
       "truckNumber": "BAU 97 YP",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -27102,11 +27102,21 @@
           "details": {
             "waybillNumber": "7553"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-12-08T15:14:20.130Z",
+          "details": {
+            "netWeight": 38060,
+            "deduction": 80
+          }
         }
       ],
       "createdAt": "2025-12-08T14:57:50.000Z",
-      "updatedAt": "2025-12-08T14:58:30.786Z",
-      "waybillNumber": "7553"
+      "updatedAt": "2025-12-08T15:14:20.130Z",
+      "waybillNumber": "7553",
+      "netWeight": 38060,
+      "deduction": 80
     }
   ],
   "loadings": [
@@ -28417,6 +28427,6 @@
       "waybillNumber": "7549"
     }
   ],
-  "lastModified": "2025-12-08T14:58:30.899Z",
+  "lastModified": "2025-12-08T15:14:20.220Z",
   "version": "2.0.0"
 }
