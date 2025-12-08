@@ -28239,7 +28239,7 @@
       "products": "100 kwik rice 50kg",
       "truckNumber": "DUT 992 ZE",
       "driverPhone": "07072424236",
-      "status": "scaled_in",
+      "status": "loaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -28251,10 +28251,14 @@
           "details": {
             "waybillNumber": "7547"
           }
+        },
+        {
+          "status": "loaded",
+          "timestamp": "2025-12-08T11:57:55.112Z"
         }
       ],
       "createdAt": "2025-12-08T09:53:05.334Z",
-      "updatedAt": "2025-12-08T11:55:00.429Z",
+      "updatedAt": "2025-12-08T11:57:55.112Z",
       "waybillNumber": "7547"
     },
     {
@@ -28325,6 +28329,6 @@
       "updatedAt": "2025-12-08T11:54:34.166Z"
     }
   ],
-  "lastModified": "2025-12-08T11:55:23.411Z",
+  "lastModified": "2025-12-08T11:58:03.244Z",
   "version": "2.0.0"
 }
