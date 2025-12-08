@@ -28373,14 +28373,14 @@
         },
         {
           "status": "loaded",
-          "timestamp": "2025-12-08T14:23:53.178Z"
+          "timestamp": "2025-12-08T14:24:06.970Z"
         }
       ],
       "createdAt": "2025-12-08T14:23:20.375Z",
-      "updatedAt": "2025-12-08T14:23:53.178Z",
+      "updatedAt": "2025-12-08T14:24:06.970Z",
       "waybillNumber": "7549"
     }
   ],
-  "lastModified": "2025-12-08T14:23:58.233Z",
+  "lastModified": "2025-12-08T14:24:08.448Z",
   "version": "2.0.0"
 }
