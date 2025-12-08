@@ -27054,15 +27054,23 @@
       "bags": 230,
       "moistureLevel": 11,
       "truckNumber": "EPE 851 XJ",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-12-08T14:12:34.506Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-12-08T14:16:26.546Z",
+          "details": {
+            "waybillNumber": "7554"
+          }
         }
       ],
       "createdAt": "2025-12-08T14:12:34.506Z",
-      "updatedAt": "2025-12-08T14:12:34.506Z"
+      "updatedAt": "2025-12-08T14:16:26.546Z",
+      "waybillNumber": "7554"
     }
   ],
   "loadings": [
@@ -28345,6 +28353,6 @@
       "updatedAt": "2025-12-08T11:54:34.166Z"
     }
   ],
-  "lastModified": "2025-12-08T14:12:34.614Z",
+  "lastModified": "2025-12-08T14:16:26.673Z",
   "version": "2.0.0"
 }
