@@ -27083,6 +27083,22 @@
       "createdAt": "2025-12-08T14:12:34.506Z",
       "updatedAt": "2025-12-08T14:16:26.546Z",
       "waybillNumber": "7554"
+    },
+    {
+      "id": "truck_1765205870000_0_72gk2ebrd",
+      "supplierName": "Idris Haruna",
+      "bags": 380,
+      "moistureLevel": 12,
+      "truckNumber": "BAU 97 YP",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-12-08T14:57:50.000Z"
+        }
+      ],
+      "createdAt": "2025-12-08T14:57:50.000Z",
+      "updatedAt": "2025-12-08T14:57:50.000Z"
     }
   ],
   "loadings": [
@@ -28393,6 +28409,6 @@
       "waybillNumber": "7549"
     }
   ],
-  "lastModified": "2025-12-08T14:51:46.346Z",
+  "lastModified": "2025-12-08T14:57:50.091Z",
   "version": "2.0.0"
 }
