@@ -28358,7 +28358,7 @@
       "products": "600 Kwik rice 50kg\n200 Kwik rice 25kg",
       "truckNumber": "DAL 734 YL",
       "driverPhone": "09037658359",
-      "status": "scaled_in",
+      "status": "loaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -28370,13 +28370,17 @@
           "details": {
             "waybillNumber": "7549"
           }
+        },
+        {
+          "status": "loaded",
+          "timestamp": "2025-12-08T14:23:53.178Z"
         }
       ],
       "createdAt": "2025-12-08T14:23:20.375Z",
-      "updatedAt": "2025-12-08T14:23:44.828Z",
+      "updatedAt": "2025-12-08T14:23:53.178Z",
       "waybillNumber": "7549"
     }
   ],
-  "lastModified": "2025-12-08T14:23:44.913Z",
+  "lastModified": "2025-12-08T14:23:58.233Z",
   "version": "2.0.0"
 }
