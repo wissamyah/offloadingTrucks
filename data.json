@@ -27042,15 +27042,19 @@
       "bags": 175,
       "moistureLevel": 12,
       "truckNumber": "XB 387 BBR",
-      "status": "pending",
+      "status": "rejected",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-12-08T07:53:51.010Z"
+        },
+        {
+          "status": "rejected",
+          "timestamp": "2025-12-08T14:51:38.116Z"
         }
       ],
       "createdAt": "2025-12-08T07:53:51.010Z",
-      "updatedAt": "2025-12-08T07:53:51.010Z"
+      "updatedAt": "2025-12-08T14:51:38.116Z"
     },
     {
       "id": "truck_1765203154506_0_clk2q22gj",
@@ -28385,6 +28389,6 @@
       "waybillNumber": "7549"
     }
   ],
-  "lastModified": "2025-12-08T14:51:29.229Z",
+  "lastModified": "2025-12-08T14:51:38.406Z",
   "version": "2.0.0"
 }
