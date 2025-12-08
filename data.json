@@ -28366,15 +28366,23 @@
       "products": "250 kwik rice 50kg\n160 kwik rice 25kg\n150 bold yellow 50kg",
       "truckNumber": "TRN 861 ZY",
       "driverPhone": "08033890243",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-12-08T09:54:08.421Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-12-08T17:19:27.013Z",
+          "details": {
+            "waybillNumber": "7556"
+          }
         }
       ],
       "createdAt": "2025-12-08T09:54:08.421Z",
-      "updatedAt": "2025-12-08T10:48:32.854Z"
+      "updatedAt": "2025-12-08T17:19:27.013Z",
+      "waybillNumber": "7556"
     },
     {
       "id": "loading_1765187690373_0_jc67iflz6",
@@ -28439,6 +28447,6 @@
       "waybillNumber": "7549"
     }
   ],
-  "lastModified": "2025-12-08T16:09:33.639Z",
+  "lastModified": "2025-12-08T17:19:27.103Z",
   "version": "2.0.0"
 }
