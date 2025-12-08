@@ -26915,6 +26915,102 @@
       "waybillNumber": "7543",
       "netWeight": 15470,
       "deduction": 100
+    },
+    {
+      "id": "truck_1765180431010_0_uycwwnvjn",
+      "supplierName": "Idris Aliyu",
+      "bags": 500,
+      "moistureLevel": 14,
+      "truckNumber": "FKY 183 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-12-08T07:53:51.010Z"
+        }
+      ],
+      "createdAt": "2025-12-08T07:53:51.010Z",
+      "updatedAt": "2025-12-08T07:53:51.010Z"
+    },
+    {
+      "id": "truck_1765180431010_1_ojwsy0lqd",
+      "supplierName": "Alh Dayyabu",
+      "bags": 508,
+      "moistureLevel": 14,
+      "truckNumber": "JJN 454 YZ",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-12-08T07:53:51.010Z"
+        }
+      ],
+      "createdAt": "2025-12-08T07:53:51.010Z",
+      "updatedAt": "2025-12-08T07:53:51.010Z"
+    },
+    {
+      "id": "truck_1765180431010_2_idtb6hmr3",
+      "supplierName": "Aminu Muhd Kabo",
+      "bags": 300,
+      "moistureLevel": 12,
+      "truckNumber": "NBB 74 ZY",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-12-08T07:53:51.010Z"
+        }
+      ],
+      "createdAt": "2025-12-08T07:53:51.010Z",
+      "updatedAt": "2025-12-08T07:53:51.010Z"
+    },
+    {
+      "id": "truck_1765180431010_3_r588mmiw3",
+      "supplierName": "A Y Dawaki",
+      "bags": 232,
+      "moistureLevel": 13,
+      "truckNumber": "KWM 498 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-12-08T07:53:51.010Z"
+        }
+      ],
+      "createdAt": "2025-12-08T07:53:51.010Z",
+      "updatedAt": "2025-12-08T07:53:51.010Z"
+    },
+    {
+      "id": "truck_1765180431010_4_09w9x1igt",
+      "supplierName": "Idris Haruna",
+      "bags": 280,
+      "moistureLevel": 12,
+      "truckNumber": "NKR 192 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-12-08T07:53:51.010Z"
+        }
+      ],
+      "createdAt": "2025-12-08T07:53:51.010Z",
+      "updatedAt": "2025-12-08T07:53:51.010Z"
+    },
+    {
+      "id": "truck_1765180431010_5_aw2jm0fph",
+      "supplierName": "Sabiu Yusif",
+      "bags": 175,
+      "moistureLevel": 12,
+      "truckNumber": "XB 387 BBR",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-12-08T07:53:51.010Z"
+        }
+      ],
+      "createdAt": "2025-12-08T07:53:51.010Z",
+      "updatedAt": "2025-12-08T07:53:51.010Z"
     }
   ],
   "loadings": [
@@ -28102,6 +28198,6 @@
       "waybillNumber": "7542"
     }
   ],
-  "lastModified": "2025-12-07T13:30:26.400Z",
+  "lastModified": "2025-12-08T07:53:51.119Z",
   "version": "2.0.0"
 }
