@@ -28245,8 +28245,25 @@
       ],
       "createdAt": "2025-12-08T09:54:08.421Z",
       "updatedAt": "2025-12-08T09:54:08.421Z"
+    },
+    {
+      "id": "loading_1765187690373_0_jc67iflz6",
+      "customerName": "KAC hub",
+      "products": "800 kwik rice 50kg",
+      "truckNumber": "KBY 359 XA",
+      "driverName": "Dauda",
+      "driverPhone": "08036668475",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-12-08T09:54:50.373Z"
+        }
+      ],
+      "createdAt": "2025-12-08T09:54:50.373Z",
+      "updatedAt": "2025-12-08T09:54:50.373Z"
     }
   ],
-  "lastModified": "2025-12-08T09:54:08.471Z",
+  "lastModified": "2025-12-08T09:54:50.438Z",
   "version": "2.0.0"
 }
