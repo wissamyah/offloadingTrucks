@@ -26976,15 +26976,19 @@
       "bags": 300,
       "moistureLevel": 12,
       "truckNumber": "NBB 74 ZY",
-      "status": "pending",
+      "status": "rejected",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-12-08T07:53:51.010Z"
+        },
+        {
+          "status": "rejected",
+          "timestamp": "2025-12-08T14:51:43.257Z"
         }
       ],
       "createdAt": "2025-12-08T07:53:51.010Z",
-      "updatedAt": "2025-12-08T07:53:51.010Z"
+      "updatedAt": "2025-12-08T14:51:43.257Z"
     },
     {
       "id": "truck_1765180431010_3_r588mmiw3",
@@ -28389,6 +28393,6 @@
       "waybillNumber": "7549"
     }
   ],
-  "lastModified": "2025-12-08T14:51:38.406Z",
+  "lastModified": "2025-12-08T14:51:46.346Z",
   "version": "2.0.0"
 }
