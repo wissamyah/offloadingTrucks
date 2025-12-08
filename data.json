@@ -27047,6 +27047,22 @@
       ],
       "createdAt": "2025-12-08T07:53:51.010Z",
       "updatedAt": "2025-12-08T07:53:51.010Z"
+    },
+    {
+      "id": "truck_1765203154506_0_clk2q22gj",
+      "supplierName": "Aminu Dawaki",
+      "bags": 230,
+      "moistureLevel": 11,
+      "truckNumber": "EPE 851 XJ",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-12-08T14:12:34.506Z"
+        }
+      ],
+      "createdAt": "2025-12-08T14:12:34.506Z",
+      "updatedAt": "2025-12-08T14:12:34.506Z"
     }
   ],
   "loadings": [
@@ -28329,6 +28345,6 @@
       "updatedAt": "2025-12-08T11:54:34.166Z"
     }
   ],
-  "lastModified": "2025-12-08T11:58:03.244Z",
+  "lastModified": "2025-12-08T14:12:34.614Z",
   "version": "2.0.0"
 }
