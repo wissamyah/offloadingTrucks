@@ -26994,7 +26994,7 @@
       "bags": 280,
       "moistureLevel": 12,
       "truckNumber": "NKR 192 XA",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -27006,11 +27006,21 @@
           "details": {
             "waybillNumber": "7545"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-12-08T10:21:39.407Z",
+          "details": {
+            "netWeight": 26850,
+            "deduction": 110
+          }
         }
       ],
       "createdAt": "2025-12-08T07:53:51.010Z",
-      "updatedAt": "2025-12-08T09:55:49.000Z",
-      "waybillNumber": "7545"
+      "updatedAt": "2025-12-08T10:21:39.407Z",
+      "waybillNumber": "7545",
+      "netWeight": 26850,
+      "deduction": 110
     },
     {
       "id": "truck_1765180431010_5_aw2jm0fph",
@@ -28280,6 +28290,6 @@
       "updatedAt": "2025-12-08T09:54:50.373Z"
     }
   ],
-  "lastModified": "2025-12-08T10:20:14.520Z",
+  "lastModified": "2025-12-08T10:21:39.522Z",
   "version": "2.0.0"
 }
