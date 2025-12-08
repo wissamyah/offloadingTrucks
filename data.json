@@ -28298,8 +28298,25 @@
       ],
       "createdAt": "2025-12-08T09:54:50.373Z",
       "updatedAt": "2025-12-08T09:54:50.373Z"
+    },
+    {
+      "id": "loading_1765194874166_0_gk3fnuhwf",
+      "customerName": "Best Jerry mgbo",
+      "products": "200 kwik rice 50kg",
+      "truckNumber": "DUT 461 ZB",
+      "driverName": "ABBA",
+      "driverPhone": "09035354106",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-12-08T11:54:34.166Z"
+        }
+      ],
+      "createdAt": "2025-12-08T11:54:34.166Z",
+      "updatedAt": "2025-12-08T11:54:34.166Z"
     }
   ],
-  "lastModified": "2025-12-08T11:53:08.028Z",
+  "lastModified": "2025-12-08T11:54:40.382Z",
   "version": "2.0.0"
 }
