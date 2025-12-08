@@ -26938,15 +26938,23 @@
       "bags": 508,
       "moistureLevel": 14,
       "truckNumber": "JJN 454 YZ",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-12-08T07:53:51.010Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-12-08T10:20:13.601Z",
+          "details": {
+            "waybillNumber": "7544"
+          }
         }
       ],
       "createdAt": "2025-12-08T07:53:51.010Z",
-      "updatedAt": "2025-12-08T07:53:51.010Z"
+      "updatedAt": "2025-12-08T10:20:13.601Z",
+      "waybillNumber": "7544"
     },
     {
       "id": "truck_1765180431010_2_idtb6hmr3",
@@ -28272,6 +28280,6 @@
       "updatedAt": "2025-12-08T09:54:50.373Z"
     }
   ],
-  "lastModified": "2025-12-08T09:55:49.105Z",
+  "lastModified": "2025-12-08T10:20:14.520Z",
   "version": "2.0.0"
 }
