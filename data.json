@@ -27361,6 +27361,38 @@
       ],
       "createdAt": "2025-12-09T07:41:38.250Z",
       "updatedAt": "2025-12-09T07:41:38.250Z"
+    },
+    {
+      "id": "truck_1765268641905_0_duqlea6cm",
+      "supplierName": "Idris Haruna",
+      "bags": 380,
+      "moistureLevel": 12,
+      "truckNumber": "MDB 565 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-12-09T08:24:01.905Z"
+        }
+      ],
+      "createdAt": "2025-12-09T08:24:01.905Z",
+      "updatedAt": "2025-12-09T08:24:01.905Z"
+    },
+    {
+      "id": "truck_1765268641905_1_uzbueq9gi",
+      "supplierName": "Aminu Dawaki",
+      "bags": 550,
+      "moistureLevel": 12,
+      "truckNumber": "GME 43 XE",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-12-09T08:24:01.905Z"
+        }
+      ],
+      "createdAt": "2025-12-09T08:24:01.905Z",
+      "updatedAt": "2025-12-09T08:24:01.905Z"
     }
   ],
   "loadings": [
@@ -28683,6 +28715,6 @@
       "waybillNumber": "7549"
     }
   ],
-  "lastModified": "2025-12-09T07:49:56.574Z",
+  "lastModified": "2025-12-09T08:24:02.986Z",
   "version": "2.0.0"
 }
