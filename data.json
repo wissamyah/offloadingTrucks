@@ -27530,15 +27530,23 @@
       "bags": 500,
       "moistureLevel": 14,
       "truckNumber": "FKA 555 ZK",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-12-09T14:53:12.845Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-12-09T15:01:54.861Z",
+          "details": {
+            "waybillNumber": "7567"
+          }
         }
       ],
       "createdAt": "2025-12-09T14:53:12.845Z",
-      "updatedAt": "2025-12-09T14:53:12.845Z"
+      "updatedAt": "2025-12-09T15:01:54.861Z",
+      "waybillNumber": "7567"
     },
     {
       "id": "truck_1765292070063_0_gekx9ugj2",
@@ -28986,6 +28994,6 @@
       "waybillNumber": "7572"
     }
   ],
-  "lastModified": "2025-12-09T14:54:30.170Z",
+  "lastModified": "2025-12-09T15:01:54.975Z",
   "version": "2.0.0"
 }
