@@ -28778,17 +28778,25 @@
       "products": "300 Kwik rice 50kg",
       "truckNumber": "MKA 430 XC",
       "driverPhone": "07077838691",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-12-09T09:57:23.252Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-12-09T09:57:55.889Z",
+          "details": {
+            "waybillNumber": "7561"
+          }
         }
       ],
       "createdAt": "2025-12-09T09:57:23.252Z",
-      "updatedAt": "2025-12-09T09:57:23.252Z"
+      "updatedAt": "2025-12-09T09:57:55.889Z",
+      "waybillNumber": "7561"
     }
   ],
-  "lastModified": "2025-12-09T09:57:29.229Z",
+  "lastModified": "2025-12-09T09:58:00.356Z",
   "version": "2.0.0"
 }
