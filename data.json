@@ -28771,8 +28771,24 @@
       "createdAt": "2025-12-09T09:55:23.488Z",
       "updatedAt": "2025-12-09T09:57:04.531Z",
       "waybillNumber": "7557"
+    },
+    {
+      "id": "loading_1765274243252_0_j7m6rg26y",
+      "customerName": "Tammy George Geoffrey",
+      "products": "300 Kwik rice 50kg",
+      "truckNumber": "MKA 430 XC",
+      "driverPhone": "07077838691",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-12-09T09:57:23.252Z"
+        }
+      ],
+      "createdAt": "2025-12-09T09:57:23.252Z",
+      "updatedAt": "2025-12-09T09:57:23.252Z"
     }
   ],
-  "lastModified": "2025-12-09T09:57:04.701Z",
+  "lastModified": "2025-12-09T09:57:29.229Z",
   "version": "2.0.0"
 }
