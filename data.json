@@ -27291,22 +27291,6 @@
       "updatedAt": "2025-12-09T07:40:10.556Z"
     },
     {
-      "id": "truck_1765266098250_0_uxafspc6v",
-      "supplierName": "Idris Haruna",
-      "bags": 220,
-      "moistureLevel": 12,
-      "truckNumber": "XA 541 TRR",
-      "status": "pending",
-      "statusHistory": [
-        {
-          "status": "pending",
-          "timestamp": "2025-12-09T07:41:38.250Z"
-        }
-      ],
-      "createdAt": "2025-12-09T07:41:38.250Z",
-      "updatedAt": "2025-12-09T07:41:38.250Z"
-    },
-    {
       "id": "truck_1765266098250_1_9pknad2qm",
       "supplierName": "Idris Haruna",
       "bags": 543,
@@ -28691,6 +28675,6 @@
       "waybillNumber": "7549"
     }
   ],
-  "lastModified": "2025-12-09T07:41:38.348Z",
+  "lastModified": "2025-12-09T07:44:45.578Z",
   "version": "2.0.0"
 }
