@@ -27131,22 +27131,6 @@
       "deduction": 80
     },
     {
-      "id": "truck_1765265989494_0_px5uox2xk",
-      "supplierName": "Mansur Mansur",
-      "bags": 400,
-      "moistureLevel": 12,
-      "truckNumber": "MLF 483 XA",
-      "status": "pending",
-      "statusHistory": [
-        {
-          "status": "pending",
-          "timestamp": "2025-12-09T07:39:49.494Z"
-        }
-      ],
-      "createdAt": "2025-12-09T07:39:49.494Z",
-      "updatedAt": "2025-12-09T07:39:49.494Z"
-    },
-    {
       "id": "truck_1765265989494_1_b66cotkld",
       "supplierName": "I M A Black",
       "bags": 530,
@@ -28691,6 +28675,6 @@
       "waybillNumber": "7549"
     }
   ],
-  "lastModified": "2025-12-09T07:47:10.418Z",
+  "lastModified": "2025-12-09T07:47:50.974Z",
   "version": "2.0.0"
 }
