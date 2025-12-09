@@ -27473,6 +27473,38 @@
       "waybillNumber": "7564",
       "netWeight": 49100,
       "deduction": 130
+    },
+    {
+      "id": "truck_1765289023344_0_p5aah6piw",
+      "supplierName": "Ahmed Baffare",
+      "bags": 500,
+      "moistureLevel": 12,
+      "truckNumber": "SDA 69 XB",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-12-09T14:03:43.344Z"
+        }
+      ],
+      "createdAt": "2025-12-09T14:03:43.344Z",
+      "updatedAt": "2025-12-09T14:03:43.344Z"
+    },
+    {
+      "id": "truck_1765289023344_1_oqmszab36",
+      "supplierName": "Kabiru Sani Bako",
+      "bags": 296,
+      "moistureLevel": 12,
+      "truckNumber": "NBB 803 XG",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-12-09T14:03:43.344Z"
+        }
+      ],
+      "createdAt": "2025-12-09T14:03:43.344Z",
+      "updatedAt": "2025-12-09T14:03:43.344Z"
     }
   ],
   "loadings": [
@@ -28876,6 +28908,6 @@
       "waybillNumber": "7570"
     }
   ],
-  "lastModified": "2025-12-09T12:00:09.139Z",
+  "lastModified": "2025-12-09T14:03:43.438Z",
   "version": "2.0.0"
 }
