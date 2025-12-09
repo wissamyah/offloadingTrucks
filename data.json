@@ -27374,7 +27374,7 @@
       ],
       "createdAt": "2025-12-09T07:41:38.250Z",
       "updatedAt": "2025-12-09T16:28:39.718Z",
-      "waybillNumber": "7564",
+      "waybillNumber": "7563",
       "netWeight": 38130,
       "deduction": 150
     },
@@ -29047,6 +29047,6 @@
       "waybillNumber": "7573"
     }
   ],
-  "lastModified": "2025-12-09T16:28:40.802Z",
+  "lastModified": "2025-12-09T16:29:01.248Z",
   "version": "2.0.0"
 }
