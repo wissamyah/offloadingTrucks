@@ -27152,7 +27152,7 @@
       "bags": 375,
       "moistureLevel": 11,
       "truckNumber": "KTG 304 YG",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -27164,11 +27164,21 @@
           "details": {
             "waybillNumber": "7560"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-12-09T10:47:07.026Z",
+          "details": {
+            "netWeight": 36040,
+            "deduction": 90
+          }
         }
       ],
       "createdAt": "2025-12-09T07:39:49.494Z",
-      "updatedAt": "2025-12-09T07:49:56.475Z",
-      "waybillNumber": "7560"
+      "updatedAt": "2025-12-09T10:47:07.026Z",
+      "waybillNumber": "7560",
+      "netWeight": 36040,
+      "deduction": 90
     },
     {
       "id": "truck_1765265989494_3_2zbbjy6y6",
@@ -28815,6 +28825,6 @@
       "waybillNumber": "7561"
     }
   ],
-  "lastModified": "2025-12-09T10:42:06.188Z",
+  "lastModified": "2025-12-09T10:47:46.902Z",
   "version": "2.0.0"
 }
