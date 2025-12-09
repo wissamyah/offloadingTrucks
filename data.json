@@ -27209,6 +27209,86 @@
       ],
       "createdAt": "2025-12-09T07:39:49.494Z",
       "updatedAt": "2025-12-09T07:39:49.494Z"
+    },
+    {
+      "id": "truck_1765266010556_0_bzynsvipf",
+      "supplierName": "Idris Haruna",
+      "bags": 220,
+      "moistureLevel": 12,
+      "truckNumber": "XA 541 TRR",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-12-09T07:40:10.556Z"
+        }
+      ],
+      "createdAt": "2025-12-09T07:40:10.556Z",
+      "updatedAt": "2025-12-09T07:40:10.556Z"
+    },
+    {
+      "id": "truck_1765266010556_1_vxkr67ffs",
+      "supplierName": "Idris Haruna",
+      "bags": 543,
+      "moistureLevel": 13,
+      "truckNumber": "XF 941 UWN",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-12-09T07:40:10.556Z"
+        }
+      ],
+      "createdAt": "2025-12-09T07:40:10.556Z",
+      "updatedAt": "2025-12-09T07:40:10.556Z"
+    },
+    {
+      "id": "truck_1765266010556_2_wgebccg0i",
+      "supplierName": "Addau Isyaku",
+      "bags": 472,
+      "moistureLevel": 15,
+      "truckNumber": "FTA 177 XB",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-12-09T07:40:10.556Z"
+        }
+      ],
+      "createdAt": "2025-12-09T07:40:10.556Z",
+      "updatedAt": "2025-12-09T07:40:10.556Z"
+    },
+    {
+      "id": "truck_1765266010556_3_kuxkz1rix",
+      "supplierName": "Idris Haruna",
+      "bags": 340,
+      "moistureLevel": 13,
+      "truckNumber": "DNG 86 XB",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-12-09T07:40:10.556Z"
+        }
+      ],
+      "createdAt": "2025-12-09T07:40:10.556Z",
+      "updatedAt": "2025-12-09T07:40:10.556Z"
+    },
+    {
+      "id": "truck_1765266010556_4_386ep63kn",
+      "supplierName": "Ahmad Fusion",
+      "bags": 442,
+      "moistureLevel": 13,
+      "truckNumber": "TMW 294 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-12-09T07:40:10.556Z"
+        }
+      ],
+      "createdAt": "2025-12-09T07:40:10.556Z",
+      "updatedAt": "2025-12-09T07:40:10.556Z"
     }
   ],
   "loadings": [
@@ -28531,6 +28611,6 @@
       "waybillNumber": "7549"
     }
   ],
-  "lastModified": "2025-12-09T07:39:49.635Z",
+  "lastModified": "2025-12-09T07:40:10.638Z",
   "version": "2.0.0"
 }
