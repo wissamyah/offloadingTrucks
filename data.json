@@ -27523,6 +27523,22 @@
       ],
       "createdAt": "2025-12-09T14:03:43.344Z",
       "updatedAt": "2025-12-09T14:03:43.344Z"
+    },
+    {
+      "id": "truck_1765291992845_0_9y145ulfs",
+      "supplierName": "Aminu Muhd Kabo",
+      "bags": 500,
+      "moistureLevel": 14,
+      "truckNumber": "FKA 555 ZK",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-12-09T14:53:12.845Z"
+        }
+      ],
+      "createdAt": "2025-12-09T14:53:12.845Z",
+      "updatedAt": "2025-12-09T14:53:12.845Z"
     }
   ],
   "loadings": [
@@ -28954,6 +28970,6 @@
       "waybillNumber": "7572"
     }
   ],
-  "lastModified": "2025-12-09T14:31:54.679Z",
+  "lastModified": "2025-12-09T14:53:12.951Z",
   "version": "2.0.0"
 }
