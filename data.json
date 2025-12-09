@@ -29006,8 +29006,25 @@
       "createdAt": "2025-12-09T14:25:03.610Z",
       "updatedAt": "2025-12-09T15:33:14.138Z",
       "waybillNumber": "7572"
+    },
+    {
+      "id": "loading_1765295758217_0_armpkepxl",
+      "customerName": "Best Jerry Mgbo",
+      "products": "200 Kwik rice 50kg",
+      "truckNumber": "KMB 245 XA",
+      "driverName": "ABBA",
+      "driverPhone": "09035354106",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-12-09T15:55:58.217Z"
+        }
+      ],
+      "createdAt": "2025-12-09T15:55:58.217Z",
+      "updatedAt": "2025-12-09T15:55:58.217Z"
     }
   ],
-  "lastModified": "2025-12-09T15:33:14.191Z",
+  "lastModified": "2025-12-09T15:55:58.273Z",
   "version": "2.0.0"
 }
