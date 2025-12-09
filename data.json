@@ -27368,15 +27368,23 @@
       "bags": 380,
       "moistureLevel": 12,
       "truckNumber": "MDB 565 XA",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-12-09T08:24:01.905Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-12-09T08:25:48.671Z",
+          "details": {
+            "waybillNumber": "7562"
+          }
         }
       ],
       "createdAt": "2025-12-09T08:24:01.905Z",
-      "updatedAt": "2025-12-09T08:24:01.905Z"
+      "updatedAt": "2025-12-09T08:25:48.671Z",
+      "waybillNumber": "7562"
     },
     {
       "id": "truck_1765268641905_1_uzbueq9gi",
@@ -28715,6 +28723,6 @@
       "waybillNumber": "7549"
     }
   ],
-  "lastModified": "2025-12-09T08:24:02.986Z",
+  "lastModified": "2025-12-09T08:25:48.789Z",
   "version": "2.0.0"
 }
