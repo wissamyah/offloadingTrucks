@@ -27129,6 +27129,86 @@
       "waybillNumber": "7553",
       "netWeight": 38060,
       "deduction": 80
+    },
+    {
+      "id": "truck_1765265989494_0_px5uox2xk",
+      "supplierName": "Mansur Mansur",
+      "bags": 400,
+      "moistureLevel": 12,
+      "truckNumber": "MLF 483 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-12-09T07:39:49.494Z"
+        }
+      ],
+      "createdAt": "2025-12-09T07:39:49.494Z",
+      "updatedAt": "2025-12-09T07:39:49.494Z"
+    },
+    {
+      "id": "truck_1765265989494_1_b66cotkld",
+      "supplierName": "I M A Black",
+      "bags": 530,
+      "moistureLevel": 12,
+      "truckNumber": "GJB 323 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-12-09T07:39:49.494Z"
+        }
+      ],
+      "createdAt": "2025-12-09T07:39:49.494Z",
+      "updatedAt": "2025-12-09T07:39:49.494Z"
+    },
+    {
+      "id": "truck_1765265989494_2_5r06rd95g",
+      "supplierName": "I M A Black",
+      "bags": 375,
+      "moistureLevel": 11,
+      "truckNumber": "KTG 304 YG",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-12-09T07:39:49.494Z"
+        }
+      ],
+      "createdAt": "2025-12-09T07:39:49.494Z",
+      "updatedAt": "2025-12-09T07:39:49.494Z"
+    },
+    {
+      "id": "truck_1765265989494_3_2zbbjy6y6",
+      "supplierName": "Idris Haruna",
+      "bags": 76,
+      "moistureLevel": 10,
+      "truckNumber": "JEG 521 XB",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-12-09T07:39:49.494Z"
+        }
+      ],
+      "createdAt": "2025-12-09T07:39:49.494Z",
+      "updatedAt": "2025-12-09T07:39:49.494Z"
+    },
+    {
+      "id": "truck_1765265989494_4_p3y91kc8n",
+      "supplierName": "Idris Haruna",
+      "bags": 300,
+      "moistureLevel": 11,
+      "truckNumber": "BDG 490 XP",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-12-09T07:39:49.494Z"
+        }
+      ],
+      "createdAt": "2025-12-09T07:39:49.494Z",
+      "updatedAt": "2025-12-09T07:39:49.494Z"
     }
   ],
   "loadings": [
@@ -28451,6 +28531,6 @@
       "waybillNumber": "7549"
     }
   ],
-  "lastModified": "2025-12-08T17:19:43.781Z",
+  "lastModified": "2025-12-09T07:39:49.635Z",
   "version": "2.0.0"
 }
