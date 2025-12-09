@@ -29014,17 +29014,25 @@
       "truckNumber": "KMB 245 XA",
       "driverName": "ABBA",
       "driverPhone": "09035354106",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-12-09T15:55:58.217Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-12-09T15:56:15.174Z",
+          "details": {
+            "waybillNumber": "7573"
+          }
         }
       ],
       "createdAt": "2025-12-09T15:55:58.217Z",
-      "updatedAt": "2025-12-09T15:55:58.217Z"
+      "updatedAt": "2025-12-09T15:56:15.174Z",
+      "waybillNumber": "7573"
     }
   ],
-  "lastModified": "2025-12-09T15:55:58.273Z",
+  "lastModified": "2025-12-09T15:56:16.357Z",
   "version": "2.0.0"
 }
