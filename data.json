@@ -27136,15 +27136,23 @@
       "bags": 530,
       "moistureLevel": 12,
       "truckNumber": "GJB 323 XA",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-12-09T07:39:49.494Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-12-09T11:24:39.830Z",
+          "details": {
+            "waybillNumber": "7569"
+          }
         }
       ],
       "createdAt": "2025-12-09T07:39:49.494Z",
-      "updatedAt": "2025-12-09T07:39:49.494Z"
+      "updatedAt": "2025-12-09T11:24:39.830Z",
+      "waybillNumber": "7569"
     },
     {
       "id": "truck_1765265989494_2_5r06rd95g",
@@ -28829,6 +28837,6 @@
       "waybillNumber": "7561"
     }
   ],
-  "lastModified": "2025-12-09T11:13:28.690Z",
+  "lastModified": "2025-12-09T11:24:41.178Z",
   "version": "2.0.0"
 }
