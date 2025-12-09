@@ -27350,7 +27350,7 @@
       "bags": 543,
       "moistureLevel": 13,
       "truckNumber": "XF 941 UWN",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -27362,11 +27362,21 @@
           "details": {
             "waybillNumber": "7564"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-12-09T16:28:39.718Z",
+          "details": {
+            "netWeight": 38130,
+            "deduction": 150
+          }
         }
       ],
       "createdAt": "2025-12-09T07:41:38.250Z",
-      "updatedAt": "2025-12-09T08:32:47.466Z",
-      "waybillNumber": "7564"
+      "updatedAt": "2025-12-09T16:28:39.718Z",
+      "waybillNumber": "7564",
+      "netWeight": 38130,
+      "deduction": 150
     },
     {
       "id": "truck_1765266098250_2_0bqf2o2r0",
@@ -29037,6 +29047,6 @@
       "waybillNumber": "7573"
     }
   ],
-  "lastModified": "2025-12-09T15:56:22.426Z",
+  "lastModified": "2025-12-09T16:28:40.802Z",
   "version": "2.0.0"
 }
