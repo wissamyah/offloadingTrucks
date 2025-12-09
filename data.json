@@ -28849,8 +28849,25 @@
       "createdAt": "2025-12-09T09:57:23.252Z",
       "updatedAt": "2025-12-09T11:13:24.707Z",
       "waybillNumber": "7561"
+    },
+    {
+      "id": "loading_1765281309216_0_z4g12fyl0",
+      "customerName": "KAC HUB",
+      "products": "400 Kwik rice 50kg\n200 Kwik rice 25kg",
+      "truckNumber": "KBK 532 XA",
+      "driverName": "Auwalu Yau",
+      "driverPhone": "07031200328",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-12-09T11:55:09.216Z"
+        }
+      ],
+      "createdAt": "2025-12-09T11:55:09.216Z",
+      "updatedAt": "2025-12-09T11:55:09.216Z"
     }
   ],
-  "lastModified": "2025-12-09T11:45:35.213Z",
+  "lastModified": "2025-12-09T11:55:09.278Z",
   "version": "2.0.0"
 }
