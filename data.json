@@ -27446,7 +27446,7 @@
       "bags": 550,
       "moistureLevel": 12,
       "truckNumber": "GME 43 XE",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -27458,11 +27458,21 @@
           "details": {
             "waybillNumber": "7564"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-12-09T11:45:10.829Z",
+          "details": {
+            "netWeight": 49100,
+            "deduction": 130
+          }
         }
       ],
       "createdAt": "2025-12-09T08:24:01.905Z",
-      "updatedAt": "2025-12-09T08:37:51.038Z",
-      "waybillNumber": "7564"
+      "updatedAt": "2025-12-09T11:45:10.829Z",
+      "waybillNumber": "7564",
+      "netWeight": 49100,
+      "deduction": 130
     }
   ],
   "loadings": [
@@ -28841,6 +28851,6 @@
       "waybillNumber": "7561"
     }
   ],
-  "lastModified": "2025-12-09T11:30:25.930Z",
+  "lastModified": "2025-12-09T11:45:10.929Z",
   "version": "2.0.0"
 }
