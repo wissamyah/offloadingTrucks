@@ -28897,7 +28897,7 @@
       "truckNumber": "KBK 532 XA",
       "driverName": "Auwalu Yau",
       "driverPhone": "07031200328",
-      "status": "scaled_in",
+      "status": "loaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -28909,13 +28909,17 @@
           "details": {
             "waybillNumber": "7570"
           }
+        },
+        {
+          "status": "loaded",
+          "timestamp": "2025-12-09T14:18:31.123Z"
         }
       ],
       "createdAt": "2025-12-09T11:55:09.216Z",
-      "updatedAt": "2025-12-09T14:18:24.793Z",
+      "updatedAt": "2025-12-09T14:18:31.124Z",
       "waybillNumber": "7570"
     }
   ],
-  "lastModified": "2025-12-09T14:18:24.867Z",
+  "lastModified": "2025-12-09T14:18:31.922Z",
   "version": "2.0.0"
 }
