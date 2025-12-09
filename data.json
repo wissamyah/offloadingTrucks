@@ -27176,7 +27176,7 @@
       "bags": 76,
       "moistureLevel": 10,
       "truckNumber": "JEG 521 XB",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -27188,11 +27188,19 @@
           "details": {
             "waybillNumber": "7559"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-12-09T10:24:48.693Z",
+          "details": {
+            "netWeight": 7770
+          }
         }
       ],
       "createdAt": "2025-12-09T07:39:49.494Z",
-      "updatedAt": "2025-12-09T07:47:10.332Z",
-      "waybillNumber": "7559"
+      "updatedAt": "2025-12-09T10:24:48.693Z",
+      "waybillNumber": "7559",
+      "netWeight": 7770
     },
     {
       "id": "truck_1765265989494_4_p3y91kc8n",
@@ -28797,6 +28805,6 @@
       "waybillNumber": "7561"
     }
   ],
-  "lastModified": "2025-12-09T09:58:00.356Z",
+  "lastModified": "2025-12-09T10:24:48.817Z",
   "version": "2.0.0"
 }
