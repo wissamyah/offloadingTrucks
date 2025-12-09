@@ -28925,17 +28925,25 @@
       "products": "300 Kwik rice 50kg",
       "truckNumber": "KMC 39 XQ",
       "driverPhone": "07049497438",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-12-09T14:25:03.610Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-12-09T14:28:48.772Z",
+          "details": {
+            "waybillNumber": "7572"
+          }
         }
       ],
       "createdAt": "2025-12-09T14:25:03.610Z",
-      "updatedAt": "2025-12-09T14:25:03.610Z"
+      "updatedAt": "2025-12-09T14:28:48.772Z",
+      "waybillNumber": "7572"
     }
   ],
-  "lastModified": "2025-12-09T14:25:12.310Z",
+  "lastModified": "2025-12-09T14:28:48.865Z",
   "version": "2.0.0"
 }
