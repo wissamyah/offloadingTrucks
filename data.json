@@ -27500,7 +27500,7 @@
       "bags": 500,
       "moistureLevel": 12,
       "truckNumber": "SDA 69 XB",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -27512,11 +27512,21 @@
           "details": {
             "waybillNumber": "7571"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-12-09T17:07:14.493Z",
+          "details": {
+            "netWeight": 45290,
+            "deduction": 250
+          }
         }
       ],
       "createdAt": "2025-12-09T14:03:43.344Z",
-      "updatedAt": "2025-12-09T14:06:20.869Z",
-      "waybillNumber": "7571"
+      "updatedAt": "2025-12-09T17:07:14.493Z",
+      "waybillNumber": "7571",
+      "netWeight": 45290,
+      "deduction": 250
     },
     {
       "id": "truck_1765289023344_1_oqmszab36",
@@ -29047,6 +29057,6 @@
       "waybillNumber": "7573"
     }
   ],
-  "lastModified": "2025-12-09T16:29:01.248Z",
+  "lastModified": "2025-12-09T17:07:14.603Z",
   "version": "2.0.0"
 }
