@@ -27604,15 +27604,19 @@
       "bags": 381,
       "moistureLevel": 10,
       "truckNumber": "BAU 155 XW",
-      "status": "pending",
+      "status": "rejected",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-12-10T08:51:42.549Z"
+        },
+        {
+          "status": "rejected",
+          "timestamp": "2025-12-10T11:26:57.004Z"
         }
       ],
       "createdAt": "2025-12-10T08:51:42.549Z",
-      "updatedAt": "2025-12-10T08:51:42.549Z"
+      "updatedAt": "2025-12-10T11:26:57.004Z"
     },
     {
       "id": "truck_1765356702549_1_2vbjufwph",
@@ -29185,6 +29189,6 @@
       "waybillNumber": "7574"
     }
   ],
-  "lastModified": "2025-12-10T11:26:45.534Z",
+  "lastModified": "2025-12-10T11:27:12.213Z",
   "version": "2.0.0"
 }
