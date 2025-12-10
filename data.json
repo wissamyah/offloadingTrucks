@@ -27771,6 +27771,38 @@
       ],
       "createdAt": "2025-12-10T12:54:34.685Z",
       "updatedAt": "2025-12-10T12:54:34.685Z"
+    },
+    {
+      "id": "truck_1765371383658_0_txhuj6618",
+      "supplierName": "Ahmad Baffare",
+      "bags": 521,
+      "moistureLevel": 11,
+      "truckNumber": "NFD 860 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-12-10T12:56:23.658Z"
+        }
+      ],
+      "createdAt": "2025-12-10T12:56:23.658Z",
+      "updatedAt": "2025-12-10T12:56:23.658Z"
+    },
+    {
+      "id": "truck_1765371383658_1_s0iupycwe",
+      "supplierName": "Jamilu Yahaya",
+      "bags": 280,
+      "moistureLevel": 11,
+      "truckNumber": "RBC 766 XK",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-12-10T12:56:23.658Z"
+        }
+      ],
+      "createdAt": "2025-12-10T12:56:23.658Z",
+      "updatedAt": "2025-12-10T12:56:23.658Z"
     }
   ],
   "loadings": [
@@ -29263,6 +29295,6 @@
       "waybillNumber": "7574"
     }
   ],
-  "lastModified": "2025-12-10T12:55:55.736Z",
+  "lastModified": "2025-12-10T12:56:25.120Z",
   "version": "2.0.0"
 }
