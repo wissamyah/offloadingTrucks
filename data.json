@@ -29107,8 +29107,24 @@
       "createdAt": "2025-12-09T15:55:58.217Z",
       "updatedAt": "2025-12-09T15:56:21.291Z",
       "waybillNumber": "7573"
+    },
+    {
+      "id": "loading_1765361363194_0_pupf0lwz7",
+      "customerName": "De Cooks Enterprise",
+      "products": "300 Kwik rice 50kg",
+      "truckNumber": "KRV 68 ZV",
+      "driverPhone": "08033754140",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-12-10T10:09:23.194Z"
+        }
+      ],
+      "createdAt": "2025-12-10T10:09:23.194Z",
+      "updatedAt": "2025-12-10T10:09:23.194Z"
     }
   ],
-  "lastModified": "2025-12-10T08:51:42.669Z",
+  "lastModified": "2025-12-10T10:09:24.440Z",
   "version": "2.0.0"
 }
