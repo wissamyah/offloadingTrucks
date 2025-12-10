@@ -27709,22 +27709,6 @@
       "waybillNumber": "7579"
     },
     {
-      "id": "truck_1765371274685_2_q2k5jelpi",
-      "supplierName": "Alh Isa Abubakar",
-      "bags": 560,
-      "moistureLevel": 11,
-      "truckNumber": "FKY 92 XA",
-      "status": "pending",
-      "statusHistory": [
-        {
-          "status": "pending",
-          "timestamp": "2025-12-10T12:54:34.685Z"
-        }
-      ],
-      "createdAt": "2025-12-10T12:54:34.685Z",
-      "updatedAt": "2025-12-10T12:54:34.685Z"
-    },
-    {
       "id": "truck_1765371383658_1_s0iupycwe",
       "supplierName": "Jamilu Yahaya",
       "bags": 280,
@@ -29231,6 +29215,6 @@
       "waybillNumber": "7574"
     }
   ],
-  "lastModified": "2025-12-10T15:12:12.314Z",
+  "lastModified": "2025-12-10T15:12:17.133Z",
   "version": "2.0.0"
 }
