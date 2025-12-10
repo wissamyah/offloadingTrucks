@@ -29265,8 +29265,23 @@
       "createdAt": "2025-12-10T10:09:23.194Z",
       "updatedAt": "2025-12-10T10:11:11.289Z",
       "waybillNumber": "7574"
+    },
+    {
+      "id": "loading_1765383101150_0_rbkabgo5f",
+      "customerName": "Cash sales",
+      "products": "100 Kwik rice 50kg",
+      "truckNumber": "GZW 886 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-12-10T16:11:41.150Z"
+        }
+      ],
+      "createdAt": "2025-12-10T16:11:41.150Z",
+      "updatedAt": "2025-12-10T16:11:41.150Z"
     }
   ],
-  "lastModified": "2025-12-10T15:59:50.721Z",
+  "lastModified": "2025-12-10T16:11:41.207Z",
   "version": "2.0.0"
 }
