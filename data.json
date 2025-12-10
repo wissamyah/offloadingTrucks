@@ -27717,22 +27717,6 @@
       "updatedAt": "2025-12-10T11:26:14.268Z"
     },
     {
-      "id": "truck_1765371274685_0_feu68dbru",
-      "supplierName": "A A Suleiman",
-      "bags": 381,
-      "moistureLevel": 10,
-      "truckNumber": "BAU 155 XW",
-      "status": "pending",
-      "statusHistory": [
-        {
-          "status": "pending",
-          "timestamp": "2025-12-10T12:54:34.685Z"
-        }
-      ],
-      "createdAt": "2025-12-10T12:54:34.685Z",
-      "updatedAt": "2025-12-10T12:54:34.685Z"
-    },
-    {
       "id": "truck_1765371274685_1_sp1z66suf",
       "supplierName": "Mansur Mansur",
       "bags": 415,
@@ -29295,6 +29279,6 @@
       "waybillNumber": "7574"
     }
   ],
-  "lastModified": "2025-12-10T12:56:25.120Z",
+  "lastModified": "2025-12-10T15:11:56.912Z",
   "version": "2.0.0"
 }
