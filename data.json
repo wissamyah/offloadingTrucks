@@ -27640,7 +27640,7 @@
       "bags": 560,
       "moistureLevel": 11,
       "truckNumber": "FKY 92 XA",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -27652,11 +27652,21 @@
           "details": {
             "waybillNumber": "7575"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-12-10T11:43:20.365Z",
+          "details": {
+            "netWeight": 38560,
+            "deduction": 130
+          }
         }
       ],
       "createdAt": "2025-12-10T08:51:42.549Z",
-      "updatedAt": "2025-12-10T11:43:05.793Z",
-      "waybillNumber": "7575"
+      "updatedAt": "2025-12-10T11:43:20.365Z",
+      "waybillNumber": "7575",
+      "netWeight": 38560,
+      "deduction": 130
     },
     {
       "id": "truck_1765365974268_0_p45aww3hg",
@@ -29197,6 +29207,6 @@
       "waybillNumber": "7574"
     }
   ],
-  "lastModified": "2025-12-10T11:43:05.827Z",
+  "lastModified": "2025-12-10T11:43:22.176Z",
   "version": "2.0.0"
 }
