@@ -27714,15 +27714,23 @@
       "bags": 280,
       "moistureLevel": 11,
       "truckNumber": "RBC 766 XK",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-12-10T12:56:23.658Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-12-10T15:13:46.310Z",
+          "details": {
+            "waybillNumber": "7577"
+          }
         }
       ],
       "createdAt": "2025-12-10T12:56:23.658Z",
-      "updatedAt": "2025-12-10T12:56:23.658Z"
+      "updatedAt": "2025-12-10T15:13:46.310Z",
+      "waybillNumber": "7577"
     }
   ],
   "loadings": [
@@ -29215,6 +29223,6 @@
       "waybillNumber": "7574"
     }
   ],
-  "lastModified": "2025-12-10T15:12:17.133Z",
+  "lastModified": "2025-12-10T15:13:46.344Z",
   "version": "2.0.0"
 }
