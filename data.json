@@ -27652,7 +27652,7 @@
       "bags": 521,
       "moistureLevel": 11,
       "truckNumber": "NFD 860 XA",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -27664,11 +27664,19 @@
           "details": {
             "waybillNumber": "7576"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-12-10T11:26:33.080Z",
+          "details": {
+            "netWeight": 35350
+          }
         }
       ],
       "createdAt": "2025-12-10T11:26:14.268Z",
-      "updatedAt": "2025-12-10T11:26:26.372Z",
-      "waybillNumber": "7576"
+      "updatedAt": "2025-12-10T11:26:33.080Z",
+      "waybillNumber": "7576",
+      "netWeight": 35350
     },
     {
       "id": "truck_1765365974268_1_5edzdu9mk",
@@ -29177,6 +29185,6 @@
       "waybillNumber": "7574"
     }
   ],
-  "lastModified": "2025-12-10T11:26:27.687Z",
+  "lastModified": "2025-12-10T11:26:45.534Z",
   "version": "2.0.0"
 }
