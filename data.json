@@ -29114,7 +29114,7 @@
       "products": "300 Kwik rice 50kg",
       "truckNumber": "KRV 68 ZV",
       "driverPhone": "08033754140",
-      "status": "scaled_in",
+      "status": "loaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -29126,13 +29126,17 @@
           "details": {
             "waybillNumber": "7574"
           }
+        },
+        {
+          "status": "loaded",
+          "timestamp": "2025-12-10T10:11:11.289Z"
         }
       ],
       "createdAt": "2025-12-10T10:09:23.194Z",
-      "updatedAt": "2025-12-10T10:10:34.903Z",
+      "updatedAt": "2025-12-10T10:11:11.289Z",
       "waybillNumber": "7574"
     }
   ],
-  "lastModified": "2025-12-10T10:10:42.882Z",
+  "lastModified": "2025-12-10T10:11:11.346Z",
   "version": "2.0.0"
 }
