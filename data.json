@@ -27685,22 +27685,6 @@
       "netWeight": 35350
     },
     {
-      "id": "truck_1765365974268_1_5edzdu9mk",
-      "supplierName": "Jamilu Yahaya",
-      "bags": 280,
-      "moistureLevel": 11,
-      "truckNumber": "RBC 766 XK",
-      "status": "pending",
-      "statusHistory": [
-        {
-          "status": "pending",
-          "timestamp": "2025-12-10T11:26:14.268Z"
-        }
-      ],
-      "createdAt": "2025-12-10T11:26:14.268Z",
-      "updatedAt": "2025-12-10T11:26:14.268Z"
-    },
-    {
       "id": "truck_1765371274685_1_sp1z66suf",
       "supplierName": "Mansur Mansur",
       "bags": 415,
@@ -29263,6 +29247,6 @@
       "waybillNumber": "7574"
     }
   ],
-  "lastModified": "2025-12-10T15:12:01.945Z",
+  "lastModified": "2025-12-10T15:12:06.113Z",
   "version": "2.0.0"
 }
