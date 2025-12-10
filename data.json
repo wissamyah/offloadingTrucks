@@ -27619,22 +27619,6 @@
       "updatedAt": "2025-12-10T11:26:57.004Z"
     },
     {
-      "id": "truck_1765356702549_1_2vbjufwph",
-      "supplierName": "Mansur Mansur",
-      "bags": 415,
-      "moistureLevel": 11,
-      "truckNumber": "AG 666 KTN",
-      "status": "pending",
-      "statusHistory": [
-        {
-          "status": "pending",
-          "timestamp": "2025-12-10T08:51:42.549Z"
-        }
-      ],
-      "createdAt": "2025-12-10T08:51:42.549Z",
-      "updatedAt": "2025-12-10T08:51:42.549Z"
-    },
-    {
       "id": "truck_1765356702549_2_7czuvsssj",
       "supplierName": "Alh Isa Abubakar",
       "bags": 560,
@@ -29279,6 +29263,6 @@
       "waybillNumber": "7574"
     }
   ],
-  "lastModified": "2025-12-10T15:11:56.912Z",
+  "lastModified": "2025-12-10T15:12:01.945Z",
   "version": "2.0.0"
 }
