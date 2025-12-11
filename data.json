@@ -27869,7 +27869,7 @@
         },
         {
           "status": "offloaded",
-          "timestamp": "2025-12-11T10:17:15.559Z",
+          "timestamp": "2025-12-11T10:17:31.752Z",
           "details": {
             "netWeight": 16120,
             "deduction": 100
@@ -27877,7 +27877,7 @@
         }
       ],
       "createdAt": "2025-12-11T08:23:17.959Z",
-      "updatedAt": "2025-12-11T10:17:15.559Z",
+      "updatedAt": "2025-12-11T10:17:31.752Z",
       "waybillNumber": "7584",
       "netWeight": 16120,
       "deduction": 100
@@ -29472,6 +29472,6 @@
       "waybillNumber": "7581"
     }
   ],
-  "lastModified": "2025-12-11T10:17:15.648Z",
+  "lastModified": "2025-12-11T10:17:34.272Z",
   "version": "2.0.0"
 }
