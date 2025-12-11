@@ -27798,15 +27798,23 @@
       "bags": 52,
       "moistureLevel": 15,
       "truckNumber": "HJA 117 XR",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-12-11T08:23:17.959Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-12-11T08:25:04.358Z",
+          "details": {
+            "waybillNumber": "7583"
+          }
         }
       ],
       "createdAt": "2025-12-11T08:23:17.959Z",
-      "updatedAt": "2025-12-11T08:23:17.959Z"
+      "updatedAt": "2025-12-11T08:25:04.358Z",
+      "waybillNumber": "7583"
     },
     {
       "id": "truck_1765441397959_2_91c9w35le",
@@ -29406,6 +29414,6 @@
       "waybillNumber": "7581"
     }
   ],
-  "lastModified": "2025-12-11T08:23:18.057Z",
+  "lastModified": "2025-12-11T08:25:04.449Z",
   "version": "2.0.0"
 }
