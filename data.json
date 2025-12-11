@@ -27910,15 +27910,23 @@
       "bags": 500,
       "moistureLevel": 18,
       "truckNumber": "BLG 604 XA",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-12-11T08:30:49.929Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-12-11T08:31:15.508Z",
+          "details": {
+            "waybillNumber": "7582"
+          }
         }
       ],
       "createdAt": "2025-12-11T08:30:49.929Z",
-      "updatedAt": "2025-12-11T08:30:49.929Z"
+      "updatedAt": "2025-12-11T08:31:15.508Z",
+      "waybillNumber": "7582"
     }
   ],
   "loadings": [
@@ -29438,6 +29446,6 @@
       "waybillNumber": "7581"
     }
   ],
-  "lastModified": "2025-12-11T08:30:50.046Z",
+  "lastModified": "2025-12-11T08:31:17.715Z",
   "version": "2.0.0"
 }
