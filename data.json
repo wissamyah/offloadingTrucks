@@ -27903,6 +27903,22 @@
       ],
       "createdAt": "2025-12-11T08:23:17.959Z",
       "updatedAt": "2025-12-11T08:23:17.959Z"
+    },
+    {
+      "id": "truck_1765441849929_0_anlp82h73",
+      "supplierName": "Kabiru Sani Bako",
+      "bags": 500,
+      "moistureLevel": 18,
+      "truckNumber": "BLG 604 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-12-11T08:30:49.929Z"
+        }
+      ],
+      "createdAt": "2025-12-11T08:30:49.929Z",
+      "updatedAt": "2025-12-11T08:30:49.929Z"
     }
   ],
   "loadings": [
@@ -29422,6 +29438,6 @@
       "waybillNumber": "7581"
     }
   ],
-  "lastModified": "2025-12-11T08:29:53.859Z",
+  "lastModified": "2025-12-11T08:30:50.046Z",
   "version": "2.0.0"
 }
