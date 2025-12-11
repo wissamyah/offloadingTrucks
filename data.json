@@ -27986,7 +27986,7 @@
       "bags": 500,
       "moistureLevel": 12,
       "truckNumber": "SDA 860 XA",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -27998,11 +27998,21 @@
           "details": {
             "waybillNumber": "7591"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-12-11T15:37:46.152Z",
+          "details": {
+            "netWeight": 44950,
+            "deduction": 200
+          }
         }
       ],
       "createdAt": "2025-12-11T11:12:56.723Z",
-      "updatedAt": "2025-12-11T11:15:46.058Z",
-      "waybillNumber": "7591"
+      "updatedAt": "2025-12-11T15:37:46.152Z",
+      "waybillNumber": "7591",
+      "netWeight": 44950,
+      "deduction": 200
     },
     {
       "id": "truck_1765461743774_0_3s2olj336",
@@ -29562,6 +29572,6 @@
       "waybillNumber": "7581"
     }
   ],
-  "lastModified": "2025-12-11T14:05:22.299Z",
+  "lastModified": "2025-12-11T15:37:47.426Z",
   "version": "2.0.0"
 }
