@@ -27838,15 +27838,23 @@
       "bags": 200,
       "moistureLevel": 10,
       "truckNumber": "AAA 897 YE",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-12-11T08:23:17.959Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-12-11T08:28:49.875Z",
+          "details": {
+            "waybillNumber": "7584"
+          }
         }
       ],
       "createdAt": "2025-12-11T08:23:17.959Z",
-      "updatedAt": "2025-12-11T08:23:17.959Z"
+      "updatedAt": "2025-12-11T08:28:49.875Z",
+      "waybillNumber": "7584"
     },
     {
       "id": "truck_1765441397959_4_fzhxo2092",
@@ -29414,6 +29422,6 @@
       "waybillNumber": "7581"
     }
   ],
-  "lastModified": "2025-12-11T08:25:33.519Z",
+  "lastModified": "2025-12-11T08:29:18.176Z",
   "version": "2.0.0"
 }
