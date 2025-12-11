@@ -27806,14 +27806,14 @@
         },
         {
           "status": "scaled_in",
-          "timestamp": "2025-12-11T08:25:04.358Z",
+          "timestamp": "2025-12-11T08:25:29.743Z",
           "details": {
             "waybillNumber": "7583"
           }
         }
       ],
       "createdAt": "2025-12-11T08:23:17.959Z",
-      "updatedAt": "2025-12-11T08:25:04.358Z",
+      "updatedAt": "2025-12-11T08:25:29.744Z",
       "waybillNumber": "7583"
     },
     {
@@ -29414,6 +29414,6 @@
       "waybillNumber": "7581"
     }
   ],
-  "lastModified": "2025-12-11T08:25:04.449Z",
+  "lastModified": "2025-12-11T08:25:33.519Z",
   "version": "2.0.0"
 }
