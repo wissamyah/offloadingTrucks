@@ -28003,6 +28003,22 @@
       "createdAt": "2025-12-11T11:12:56.723Z",
       "updatedAt": "2025-12-11T11:15:46.058Z",
       "waybillNumber": "7591"
+    },
+    {
+      "id": "truck_1765461743774_0_3s2olj336",
+      "supplierName": "Idris Haruna",
+      "bags": 520,
+      "moistureLevel": 12,
+      "truckNumber": "XF 941 UWN",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-12-11T14:02:23.774Z"
+        }
+      ],
+      "createdAt": "2025-12-11T14:02:23.774Z",
+      "updatedAt": "2025-12-11T14:02:23.774Z"
     }
   ],
   "loadings": [
@@ -29522,6 +29538,6 @@
       "waybillNumber": "7581"
     }
   ],
-  "lastModified": "2025-12-11T13:46:41.642Z",
+  "lastModified": "2025-12-11T14:02:23.881Z",
   "version": "2.0.0"
 }
