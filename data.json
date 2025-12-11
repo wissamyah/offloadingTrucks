@@ -27777,22 +27777,6 @@
       "waybillNumber": "7580"
     },
     {
-      "id": "truck_1765441397959_0_eti34be3w",
-      "supplierName": "Kabiru Sani Bako",
-      "bags": 500,
-      "moistureLevel": 18,
-      "truckNumber": "BLG 604 XA",
-      "status": "pending",
-      "statusHistory": [
-        {
-          "status": "pending",
-          "timestamp": "2025-12-11T08:23:17.959Z"
-        }
-      ],
-      "createdAt": "2025-12-11T08:23:17.959Z",
-      "updatedAt": "2025-12-11T08:23:17.959Z"
-    },
-    {
       "id": "truck_1765441397959_1_k2zewneym",
       "supplierName": "Jamilu Yahaya",
       "bags": 52,
@@ -29472,6 +29456,6 @@
       "waybillNumber": "7581"
     }
   ],
-  "lastModified": "2025-12-11T10:17:34.272Z",
+  "lastModified": "2025-12-11T10:23:54.165Z",
   "version": "2.0.0"
 }
