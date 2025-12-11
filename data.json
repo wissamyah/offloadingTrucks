@@ -27814,7 +27814,7 @@
       "bags": 460,
       "moistureLevel": 15,
       "truckNumber": "BTR 71 XA",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -27826,11 +27826,21 @@
           "details": {
             "waybillNumber": "7585"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-12-11T13:39:48.827Z",
+          "details": {
+            "netWeight": 44490,
+            "deduction": 300
+          }
         }
       ],
       "createdAt": "2025-12-11T08:23:17.959Z",
-      "updatedAt": "2025-12-11T08:53:49.561Z",
-      "waybillNumber": "7585"
+      "updatedAt": "2025-12-11T13:39:48.827Z",
+      "waybillNumber": "7585",
+      "netWeight": 44490,
+      "deduction": 300
     },
     {
       "id": "truck_1765441397959_3_1jn93c3n3",
@@ -29502,6 +29512,6 @@
       "waybillNumber": "7581"
     }
   ],
-  "lastModified": "2025-12-11T11:30:02.148Z",
+  "lastModified": "2025-12-11T13:39:48.861Z",
   "version": "2.0.0"
 }
