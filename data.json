@@ -27775,6 +27775,118 @@
       "createdAt": "2025-12-10T15:15:36.761Z",
       "updatedAt": "2025-12-10T15:18:23.662Z",
       "waybillNumber": "7580"
+    },
+    {
+      "id": "truck_1765441397959_0_eti34be3w",
+      "supplierName": "Kabiru Sani Bako",
+      "bags": 500,
+      "moistureLevel": 18,
+      "truckNumber": "BLG 604 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-12-11T08:23:17.959Z"
+        }
+      ],
+      "createdAt": "2025-12-11T08:23:17.959Z",
+      "updatedAt": "2025-12-11T08:23:17.959Z"
+    },
+    {
+      "id": "truck_1765441397959_1_k2zewneym",
+      "supplierName": "Jamilu Yahaya",
+      "bags": 52,
+      "moistureLevel": 15,
+      "truckNumber": "HJA 117 XR",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-12-11T08:23:17.959Z"
+        }
+      ],
+      "createdAt": "2025-12-11T08:23:17.959Z",
+      "updatedAt": "2025-12-11T08:23:17.959Z"
+    },
+    {
+      "id": "truck_1765441397959_2_91c9w35le",
+      "supplierName": "Saidu Zakari",
+      "bags": 460,
+      "moistureLevel": 15,
+      "truckNumber": "BTR 71 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-12-11T08:23:17.959Z"
+        }
+      ],
+      "createdAt": "2025-12-11T08:23:17.959Z",
+      "updatedAt": "2025-12-11T08:23:17.959Z"
+    },
+    {
+      "id": "truck_1765441397959_3_1jn93c3n3",
+      "supplierName": "Umar Sheka",
+      "bags": 200,
+      "moistureLevel": 10,
+      "truckNumber": "AAA 897 YE",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-12-11T08:23:17.959Z"
+        }
+      ],
+      "createdAt": "2025-12-11T08:23:17.959Z",
+      "updatedAt": "2025-12-11T08:23:17.959Z"
+    },
+    {
+      "id": "truck_1765441397959_4_fzhxo2092",
+      "supplierName": "M D Global",
+      "bags": 500,
+      "moistureLevel": 12,
+      "truckNumber": "PKM 861 ZY",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-12-11T08:23:17.959Z"
+        }
+      ],
+      "createdAt": "2025-12-11T08:23:17.959Z",
+      "updatedAt": "2025-12-11T08:23:17.959Z"
+    },
+    {
+      "id": "truck_1765441397959_5_giep2okdo",
+      "supplierName": "Idris Garba",
+      "bags": 515,
+      "moistureLevel": 11,
+      "truckNumber": "GAS 871 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-12-11T08:23:17.959Z"
+        }
+      ],
+      "createdAt": "2025-12-11T08:23:17.959Z",
+      "updatedAt": "2025-12-11T08:23:17.959Z"
+    },
+    {
+      "id": "truck_1765441397959_6_u9jbde8w7",
+      "supplierName": "Addau Isyaku",
+      "bags": 405,
+      "moistureLevel": 12,
+      "truckNumber": "GWL 684 XB",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-12-11T08:23:17.959Z"
+        }
+      ],
+      "createdAt": "2025-12-11T08:23:17.959Z",
+      "updatedAt": "2025-12-11T08:23:17.959Z"
     }
   ],
   "loadings": [
@@ -29294,6 +29406,6 @@
       "waybillNumber": "7581"
     }
   ],
-  "lastModified": "2025-12-10T16:12:09.157Z",
+  "lastModified": "2025-12-11T08:23:18.057Z",
   "version": "2.0.0"
 }
