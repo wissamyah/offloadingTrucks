@@ -27882,7 +27882,7 @@
       "bags": 500,
       "moistureLevel": 12,
       "truckNumber": "PKM 861 ZY",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -27894,11 +27894,21 @@
           "details": {
             "waybillNumber": "7590"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-12-11T13:46:41.607Z",
+          "details": {
+            "netWeight": 47900,
+            "deduction": 250
+          }
         }
       ],
       "createdAt": "2025-12-11T08:23:17.959Z",
-      "updatedAt": "2025-12-11T11:17:56.504Z",
-      "waybillNumber": "7590"
+      "updatedAt": "2025-12-11T13:46:41.607Z",
+      "waybillNumber": "7590",
+      "netWeight": 47900,
+      "deduction": 250
     },
     {
       "id": "truck_1765441397959_5_giep2okdo",
@@ -29512,6 +29522,6 @@
       "waybillNumber": "7581"
     }
   ],
-  "lastModified": "2025-12-11T13:39:48.861Z",
+  "lastModified": "2025-12-11T13:46:41.642Z",
   "version": "2.0.0"
 }
