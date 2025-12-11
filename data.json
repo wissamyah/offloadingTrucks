@@ -27941,6 +27941,22 @@
       "createdAt": "2025-12-11T08:30:49.929Z",
       "updatedAt": "2025-12-11T08:31:15.508Z",
       "waybillNumber": "7582"
+    },
+    {
+      "id": "truck_1765451576723_0_m768c3l5a",
+      "supplierName": "Ahmad Baffare",
+      "bags": 500,
+      "moistureLevel": 12,
+      "truckNumber": "SDA 860 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-12-11T11:12:56.723Z"
+        }
+      ],
+      "createdAt": "2025-12-11T11:12:56.723Z",
+      "updatedAt": "2025-12-11T11:12:56.723Z"
     }
   ],
   "loadings": [
@@ -29460,6 +29476,6 @@
       "waybillNumber": "7581"
     }
   ],
-  "lastModified": "2025-12-11T10:24:35.672Z",
+  "lastModified": "2025-12-11T11:12:56.818Z",
   "version": "2.0.0"
 }
