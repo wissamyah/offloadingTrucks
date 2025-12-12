@@ -28070,7 +28070,7 @@
       "bags": 229,
       "moistureLevel": 12,
       "truckNumber": "SLK 331 XA",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -28082,11 +28082,19 @@
           "details": {
             "waybillNumber": "7594"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-12-12T10:20:27.058Z",
+          "details": {
+            "netWeight": 23460
+          }
         }
       ],
       "createdAt": "2025-12-12T07:57:53.863Z",
-      "updatedAt": "2025-12-12T08:02:14.561Z",
-      "waybillNumber": "7594"
+      "updatedAt": "2025-12-12T10:20:27.058Z",
+      "waybillNumber": "7594",
+      "netWeight": 23460
     },
     {
       "id": "truck_1765526273863_1_0onx80xoa",
@@ -29751,6 +29759,6 @@
       "updatedAt": "2025-12-12T08:44:11.130Z"
     }
   ],
-  "lastModified": "2025-12-12T08:44:23.566Z",
+  "lastModified": "2025-12-12T10:20:27.154Z",
   "version": "2.0.0"
 }
