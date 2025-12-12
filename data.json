@@ -28233,6 +28233,38 @@
       ],
       "createdAt": "2025-12-12T07:57:53.863Z",
       "updatedAt": "2025-12-12T11:43:39.127Z"
+    },
+    {
+      "id": "truck_1765539912860_0_md3b9bqmb",
+      "supplierName": "Jamilu Yahaya",
+      "bags": 280,
+      "moistureLevel": 12,
+      "truckNumber": "LFA 427 YR",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-12-12T11:45:12.860Z"
+        }
+      ],
+      "createdAt": "2025-12-12T11:45:12.860Z",
+      "updatedAt": "2025-12-12T11:45:12.860Z"
+    },
+    {
+      "id": "truck_1765539912860_1_pbafvejuk",
+      "supplierName": "Idris Haruna",
+      "bags": 645,
+      "moistureLevel": 12,
+      "truckNumber": "ABC 638 XB",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-12-12T11:45:12.860Z"
+        }
+      ],
+      "createdAt": "2025-12-12T11:45:12.860Z",
+      "updatedAt": "2025-12-12T11:45:12.860Z"
     }
   ],
   "loadings": [
@@ -29809,6 +29841,6 @@
       "waybillNumber": "7598"
     }
   ],
-  "lastModified": "2025-12-12T11:44:01.446Z",
+  "lastModified": "2025-12-12T11:45:13.640Z",
   "version": "2.0.0"
 }
