@@ -29863,17 +29863,25 @@
       "customerName": "Cash Sales",
       "products": "10 Cuscus A 50kg",
       "truckNumber": "BCH 509 VT",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-12-12T13:27:56.719Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-12-12T13:28:08.907Z",
+          "details": {
+            "waybillNumber": "7601"
+          }
         }
       ],
       "createdAt": "2025-12-12T13:27:56.719Z",
-      "updatedAt": "2025-12-12T13:27:56.719Z"
+      "updatedAt": "2025-12-12T13:28:08.907Z",
+      "waybillNumber": "7601"
     }
   ],
-  "lastModified": "2025-12-12T13:27:56.815Z",
+  "lastModified": "2025-12-12T13:28:12.015Z",
   "version": "2.0.0"
 }
