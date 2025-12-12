@@ -28150,15 +28150,23 @@
       "bags": 400,
       "moistureLevel": 11,
       "truckNumber": "DKD 256 XB",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-12-12T07:57:53.863Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-12-12T08:17:11.426Z",
+          "details": {
+            "waybillNumber": "7596"
+          }
         }
       ],
       "createdAt": "2025-12-12T07:57:53.863Z",
-      "updatedAt": "2025-12-12T07:57:53.863Z"
+      "updatedAt": "2025-12-12T08:17:11.427Z",
+      "waybillNumber": "7596"
     },
     {
       "id": "truck_1765526273863_5_vgn855cwy",
@@ -29710,6 +29718,6 @@
       "waybillNumber": "7581"
     }
   ],
-  "lastModified": "2025-12-12T08:16:49.193Z",
+  "lastModified": "2025-12-12T08:17:11.903Z",
   "version": "2.0.0"
 }
