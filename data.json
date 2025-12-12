@@ -28245,22 +28245,6 @@
       "updatedAt": "2025-12-12T11:43:39.127Z"
     },
     {
-      "id": "truck_1765539912860_0_md3b9bqmb",
-      "supplierName": "Jamilu Yahaya",
-      "bags": 280,
-      "moistureLevel": 12,
-      "truckNumber": "LFA 427 YR",
-      "status": "pending",
-      "statusHistory": [
-        {
-          "status": "pending",
-          "timestamp": "2025-12-12T11:45:12.860Z"
-        }
-      ],
-      "createdAt": "2025-12-12T11:45:12.860Z",
-      "updatedAt": "2025-12-12T11:45:12.860Z"
-    },
-    {
       "id": "truck_1765539912860_1_pbafvejuk",
       "supplierName": "Idris Haruna",
       "bags": 645,
@@ -29891,6 +29875,6 @@
       "waybillNumber": "7598"
     }
   ],
-  "lastModified": "2025-12-12T11:51:36.673Z",
+  "lastModified": "2025-12-12T12:01:56.478Z",
   "version": "2.0.0"
 }
