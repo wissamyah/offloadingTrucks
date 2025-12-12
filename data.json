@@ -28118,7 +28118,7 @@
       "bags": 419,
       "moistureLevel": 15,
       "truckNumber": "GME 889 XC",
-      "status": "scaled_in",
+      "status": "offloaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -28130,11 +28130,21 @@
           "details": {
             "waybillNumber": "7595"
           }
+        },
+        {
+          "status": "offloaded",
+          "timestamp": "2025-12-12T10:48:46.759Z",
+          "details": {
+            "netWeight": 32340,
+            "deduction": 130
+          }
         }
       ],
       "createdAt": "2025-12-12T07:57:53.863Z",
-      "updatedAt": "2025-12-12T08:05:49.905Z",
-      "waybillNumber": "7595"
+      "updatedAt": "2025-12-12T10:48:46.759Z",
+      "waybillNumber": "7595",
+      "netWeight": 32340,
+      "deduction": 130
     },
     {
       "id": "truck_1765526273863_3_w0x33l7uz",
@@ -29759,6 +29769,6 @@
       "updatedAt": "2025-12-12T08:44:11.130Z"
     }
   ],
-  "lastModified": "2025-12-12T10:20:27.154Z",
+  "lastModified": "2025-12-12T10:48:46.846Z",
   "version": "2.0.0"
 }
