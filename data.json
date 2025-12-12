@@ -29733,8 +29733,24 @@
       ],
       "createdAt": "2025-12-12T08:43:22.949Z",
       "updatedAt": "2025-12-12T08:43:22.949Z"
+    },
+    {
+      "id": "loading_1765529051130_0_ctrpk75pb",
+      "customerName": "Sunny Global",
+      "products": "700 Kwik rice 50kg",
+      "truckNumber": "JJN 262 XC",
+      "driverPhone": "07047333777",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-12-12T08:44:11.130Z"
+        }
+      ],
+      "createdAt": "2025-12-12T08:44:11.130Z",
+      "updatedAt": "2025-12-12T08:44:11.130Z"
     }
   ],
-  "lastModified": "2025-12-12T08:43:23.009Z",
+  "lastModified": "2025-12-12T08:44:23.566Z",
   "version": "2.0.0"
 }
