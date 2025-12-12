@@ -29716,8 +29716,25 @@
       "createdAt": "2025-12-10T16:11:41.150Z",
       "updatedAt": "2025-12-10T16:12:07.586Z",
       "waybillNumber": "7581"
+    },
+    {
+      "id": "loading_1765529002949_0_7y3lcdra4",
+      "customerName": "Bletake Global Resources",
+      "products": "500 Kwik Rice 50 kgs\n200 Kwik Rice 25 kgs\n100 Oga Rice 50 kgs",
+      "truckNumber": "PKM 556 XA",
+      "driverName": "LAWAN  IBRAHIM",
+      "driverPhone": "07035610702",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-12-12T08:43:22.949Z"
+        }
+      ],
+      "createdAt": "2025-12-12T08:43:22.949Z",
+      "updatedAt": "2025-12-12T08:43:22.949Z"
     }
   ],
-  "lastModified": "2025-12-12T08:17:11.903Z",
+  "lastModified": "2025-12-12T08:43:23.009Z",
   "version": "2.0.0"
 }
