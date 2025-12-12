@@ -29742,7 +29742,7 @@
       "truckNumber": "PKM 556 XA",
       "driverName": "LAWAN  IBRAHIM",
       "driverPhone": "07035610702",
-      "status": "scaled_in",
+      "status": "loaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -29754,10 +29754,14 @@
           "details": {
             "waybillNumber": "7597"
           }
+        },
+        {
+          "status": "loaded",
+          "timestamp": "2025-12-12T10:59:02.039Z"
         }
       ],
       "createdAt": "2025-12-12T08:43:22.949Z",
-      "updatedAt": "2025-12-12T10:58:55.389Z",
+      "updatedAt": "2025-12-12T10:59:02.039Z",
       "waybillNumber": "7597"
     },
     {
@@ -29777,6 +29781,6 @@
       "updatedAt": "2025-12-12T08:44:11.130Z"
     }
   ],
-  "lastModified": "2025-12-12T10:58:55.480Z",
+  "lastModified": "2025-12-12T10:59:04.775Z",
   "version": "2.0.0"
 }
