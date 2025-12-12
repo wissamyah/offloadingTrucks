@@ -29770,17 +29770,25 @@
       "products": "700 Kwik rice 50kg",
       "truckNumber": "JJN 262 XC",
       "driverPhone": "07047333777",
-      "status": "pending",
+      "status": "scaled_in",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-12-12T08:44:11.130Z"
+        },
+        {
+          "status": "scaled_in",
+          "timestamp": "2025-12-12T11:32:37.365Z",
+          "details": {
+            "waybillNumber": "7598"
+          }
         }
       ],
       "createdAt": "2025-12-12T08:44:11.130Z",
-      "updatedAt": "2025-12-12T08:44:11.130Z"
+      "updatedAt": "2025-12-12T11:32:37.366Z",
+      "waybillNumber": "7598"
     }
   ],
-  "lastModified": "2025-12-12T10:59:13.404Z",
+  "lastModified": "2025-12-12T11:32:37.462Z",
   "version": "2.0.0"
 }
