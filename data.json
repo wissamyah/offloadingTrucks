@@ -28102,15 +28102,19 @@
       "bags": 520,
       "moistureLevel": 15,
       "truckNumber": "DKA 74 ZY",
-      "status": "pending",
+      "status": "rejected",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-12-12T07:57:53.863Z"
+        },
+        {
+          "status": "rejected",
+          "timestamp": "2025-12-12T11:40:40.678Z"
         }
       ],
       "createdAt": "2025-12-12T07:57:53.863Z",
-      "updatedAt": "2025-12-12T07:57:53.863Z"
+      "updatedAt": "2025-12-12T11:40:40.678Z"
     },
     {
       "id": "truck_1765526273863_2_vbhwlk8yc",
@@ -29789,6 +29793,6 @@
       "waybillNumber": "7598"
     }
   ],
-  "lastModified": "2025-12-12T11:32:37.462Z",
+  "lastModified": "2025-12-12T11:40:40.710Z",
   "version": "2.0.0"
 }
