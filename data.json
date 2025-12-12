@@ -28063,6 +28063,118 @@
       "waybillNumber": "7592",
       "netWeight": 35130,
       "deduction": 500
+    },
+    {
+      "id": "truck_1765526273863_0_deim8bfcr",
+      "supplierName": "Ahmad Baffare",
+      "bags": 229,
+      "moistureLevel": 12,
+      "truckNumber": "SLK 331 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-12-12T07:57:53.863Z"
+        }
+      ],
+      "createdAt": "2025-12-12T07:57:53.863Z",
+      "updatedAt": "2025-12-12T07:57:53.863Z"
+    },
+    {
+      "id": "truck_1765526273863_1_0onx80xoa",
+      "supplierName": "Kabiru Sani Bako",
+      "bags": 520,
+      "moistureLevel": 15,
+      "truckNumber": "DKA 74 ZY",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-12-12T07:57:53.863Z"
+        }
+      ],
+      "createdAt": "2025-12-12T07:57:53.863Z",
+      "updatedAt": "2025-12-12T07:57:53.863Z"
+    },
+    {
+      "id": "truck_1765526273863_2_vbhwlk8yc",
+      "supplierName": "Idris Garba",
+      "bags": 419,
+      "moistureLevel": 15,
+      "truckNumber": "GME 889 XC",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-12-12T07:57:53.863Z"
+        }
+      ],
+      "createdAt": "2025-12-12T07:57:53.863Z",
+      "updatedAt": "2025-12-12T07:57:53.863Z"
+    },
+    {
+      "id": "truck_1765526273863_3_w0x33l7uz",
+      "supplierName": "Jamilu Yahaya",
+      "bags": 380,
+      "moistureLevel": 14,
+      "truckNumber": "DKD 608 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-12-12T07:57:53.863Z"
+        }
+      ],
+      "createdAt": "2025-12-12T07:57:53.863Z",
+      "updatedAt": "2025-12-12T07:57:53.863Z"
+    },
+    {
+      "id": "truck_1765526273863_4_ms4aiidg7",
+      "supplierName": "Damakasu Agro Allied",
+      "bags": 400,
+      "moistureLevel": 11,
+      "truckNumber": "DKD 356 XB",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-12-12T07:57:53.863Z"
+        }
+      ],
+      "createdAt": "2025-12-12T07:57:53.863Z",
+      "updatedAt": "2025-12-12T07:57:53.863Z"
+    },
+    {
+      "id": "truck_1765526273863_5_vgn855cwy",
+      "supplierName": "Jamilu Yahaya",
+      "bags": 267,
+      "moistureLevel": 13,
+      "truckNumber": "GME 474 XE",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-12-12T07:57:53.863Z"
+        }
+      ],
+      "createdAt": "2025-12-12T07:57:53.863Z",
+      "updatedAt": "2025-12-12T07:57:53.863Z"
+    },
+    {
+      "id": "truck_1765526273863_6_2zb5xx4x3",
+      "supplierName": "Damakasu Agro Allied",
+      "bags": 410,
+      "moistureLevel": 10,
+      "truckNumber": "NFD 606 XA",
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "timestamp": "2025-12-12T07:57:53.863Z"
+        }
+      ],
+      "createdAt": "2025-12-12T07:57:53.863Z",
+      "updatedAt": "2025-12-12T07:57:53.863Z"
     }
   ],
   "loadings": [
@@ -29582,6 +29694,6 @@
       "waybillNumber": "7581"
     }
   ],
-  "lastModified": "2025-12-11T16:18:12.043Z",
+  "lastModified": "2025-12-12T07:57:53.988Z",
   "version": "2.0.0"
 }
