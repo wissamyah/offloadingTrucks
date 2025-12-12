@@ -28156,15 +28156,19 @@
       "bags": 380,
       "moistureLevel": 14,
       "truckNumber": "DKD 608 XA",
-      "status": "pending",
+      "status": "rejected",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-12-12T07:57:53.863Z"
+        },
+        {
+          "status": "rejected",
+          "timestamp": "2025-12-12T11:43:08.294Z"
         }
       ],
       "createdAt": "2025-12-12T07:57:53.863Z",
-      "updatedAt": "2025-12-12T07:57:53.863Z"
+      "updatedAt": "2025-12-12T11:43:08.294Z"
     },
     {
       "id": "truck_1765526273863_4_ms4aiidg7",
@@ -29793,6 +29797,6 @@
       "waybillNumber": "7598"
     }
   ],
-  "lastModified": "2025-12-12T11:40:40.710Z",
+  "lastModified": "2025-12-12T11:43:08.332Z",
   "version": "2.0.0"
 }
