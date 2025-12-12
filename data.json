@@ -28200,15 +28200,19 @@
       "bags": 267,
       "moistureLevel": 13,
       "truckNumber": "GME 474 XE",
-      "status": "pending",
+      "status": "rejected",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-12-12T07:57:53.863Z"
+        },
+        {
+          "status": "rejected",
+          "timestamp": "2025-12-12T11:43:25.581Z"
         }
       ],
       "createdAt": "2025-12-12T07:57:53.863Z",
-      "updatedAt": "2025-12-12T07:57:53.863Z"
+      "updatedAt": "2025-12-12T11:43:25.581Z"
     },
     {
       "id": "truck_1765526273863_6_2zb5xx4x3",
@@ -29797,6 +29801,6 @@
       "waybillNumber": "7598"
     }
   ],
-  "lastModified": "2025-12-12T11:43:08.332Z",
+  "lastModified": "2025-12-12T11:43:26.677Z",
   "version": "2.0.0"
 }
