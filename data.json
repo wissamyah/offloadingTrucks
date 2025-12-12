@@ -28220,15 +28220,19 @@
       "bags": 410,
       "moistureLevel": 10,
       "truckNumber": "NFD 606 XA",
-      "status": "pending",
+      "status": "rejected",
       "statusHistory": [
         {
           "status": "pending",
           "timestamp": "2025-12-12T07:57:53.863Z"
+        },
+        {
+          "status": "rejected",
+          "timestamp": "2025-12-12T11:43:39.127Z"
         }
       ],
       "createdAt": "2025-12-12T07:57:53.863Z",
-      "updatedAt": "2025-12-12T07:57:53.863Z"
+      "updatedAt": "2025-12-12T11:43:39.127Z"
     }
   ],
   "loadings": [
@@ -29801,6 +29805,6 @@
       "waybillNumber": "7598"
     }
   ],
-  "lastModified": "2025-12-12T11:43:35.213Z",
+  "lastModified": "2025-12-12T11:43:39.965Z",
   "version": "2.0.0"
 }
