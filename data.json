@@ -29895,7 +29895,7 @@
       "products": "600 Kwik rice 50kg\n500 Oga rice 50kg",
       "truckNumber": "GWA 164 XF",
       "driverPhone": "07087632515",
-      "status": "scaled_in",
+      "status": "loaded",
       "statusHistory": [
         {
           "status": "pending",
@@ -29907,13 +29907,17 @@
           "details": {
             "waybillNumber": "7599"
           }
+        },
+        {
+          "status": "loaded",
+          "timestamp": "2025-12-12T14:46:29.021Z"
         }
       ],
       "createdAt": "2025-12-12T14:45:54.004Z",
-      "updatedAt": "2025-12-12T14:46:20.456Z",
+      "updatedAt": "2025-12-12T14:46:29.021Z",
       "waybillNumber": "7599"
     }
   ],
-  "lastModified": "2025-12-12T14:46:22.053Z",
+  "lastModified": "2025-12-12T14:46:30.347Z",
   "version": "2.0.0"
 }
